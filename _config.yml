@@ -1,0 +1,7 @@
+title: Blog Tomasza
+description: Mój osobisty blog oparty na Jekyll
+theme: minima
+url: "https://to3k.github.io"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
