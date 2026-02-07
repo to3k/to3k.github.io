@@ -6,14 +6,14 @@ title: Strona główna
 <h1>Tomasz Dunia - Blog</h1>
 
 <nav style="margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 10px;">
-  <a href="/archive">Spis treści</a> /
-  <a href="/about">O mnie</a> /
+  <a href="/archive">Spis treści / Table of contents</a> /
+  <a href="/about">O mnie / About</a> /
   <a href="/donate">Donate</a> /
-  <a href="/rodo">RODO</a>
+  <a href="/rodo">RODO / GDPR</a>
 </nav>
 
 <div style="margin-bottom: 30px;">
-  <input type="text" id="search-input" placeholder="Szukaj wpisu..." style="width: 100%; padding: 8px; font-family: monospace;">
+  <input type="text" id="search-input" placeholder="Szukaj / Search" style="width: 100%; padding: 8px; font-family: monospace;">
   <ul id="results-container" style="list-style: none; padding-left: 0; margin-top: 10px;"></ul>
 </div>
 
