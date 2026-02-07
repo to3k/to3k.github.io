@@ -3,18 +3,10 @@ title: Tomasz Dunia - Blog
 description: Blog o wszystkim - przemyślenia, poradniki, projekty otwarto-źródłowe, praca, self-hosting, seriale, filmy / Blog about everything - thoughts, tutorials, open-source projects, work, self-hosting, series, movies
 url: "https://to3k.github.io" # do zmiany po przełączeniu domeny
 baseurl: "" 
+favicon: favicon.png
 
 # --- MOTYW ---
 remote_theme: riggraz/no-style-please
-
-# MENU - To musi być tutaj, a nie w _data/menu.yml
-menu:
-  - title: Blog
-    url: /
-  - title: Archiwum
-    url: /archive
-  - title: GitHub
-    url: https://github.com/to3k
 
 # --- USTAWIENIA LINKÓW ---
 permalink: /:title/
