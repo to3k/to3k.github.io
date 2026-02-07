@@ -33,15 +33,15 @@ As I mentioned earlier, what distinguishes _DWService_ from the competition is t
 
 Below are a few screenshots showing what it looks like for one of my servers:
 
-- ![](images/dwservice1-1024x503.png)
+![](images/dwservice1-1024x503.png)
     
-- ![](images/dwservice2-1024x503.png)
+![](images/dwservice2-1024x503.png)
     
-- ![](images/dwservice3-1024x503.png)
+![](images/dwservice3-1024x503.png)
     
-- ![](images/dwservice4-1024x503.png)
+![](images/dwservice4-1024x503.png)
     
-- ![](images/dwservice5-1024x503.png)
+![](images/dwservice5-1024x503.png)
     
 
 ## Account registration and creating an agent

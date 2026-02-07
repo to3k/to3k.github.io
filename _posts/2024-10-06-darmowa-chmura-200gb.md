@@ -290,11 +290,11 @@ _Portainer_ został uruchomiony na porcie 9443, więc teraz musimy odszukać jes
 
 Naszym oczom ukaże się bardzo prosty instalator, w którym wystarczy ustawić jedynie login i hasło dla administratora. Na następnej stronie wybieramy przycisk _Get Started_ jako, że chcemy, aby _Portainer_ używał środowiska znajdującego się na maszynie lokalnej, na której jest uruchomiony. Finalnie zostaniemy przeniesieni do listy dostępnych środowisk, na której będzie jedynie jedno o nazwie _local_ (z ang. lokalne). Aby rozpocząć zarządzanie tym środowiskiem należy po prawej stronie nacisnąć niebieski przycisk _Live connect_. Poskutkuje to tym, że po lewej stronie zamiast _Environment: None selected_ pojawią się nam zakładki z opcjami do zarządzania.
 
-- ![](images/portainer1.png)
+![](images/portainer1.png)
     
-- ![](images/portainer2.png)
+![](images/portainer2.png)
     
-- ![](images/portainer3.png)
+![](images/portainer3.png)
     
 
 ## Podpięcie domeny przez Cloudflare
@@ -331,37 +331,37 @@ Naszym oczom ukaże się bardzo prosty instalator, w którym wystarczy ustawić 
 
 31. Zjeżdżamy niżej, znajdujemy _Automatic HTTPS Rewrites_ i również włączamy tą funkcję.
 
-- ![](images/cf1.png)
+![](images/cf1.png)
     
-- ![](images/cf2.png)
+![](images/cf2.png)
     
-- ![](images/cf3.png)
+![](images/cf3.png)
     
-- ![](images/cf4.png)
+![](images/cf4.png)
     
-- ![](images/cf5.png)
+![](images/cf5.png)
     
-- ![](images/cf6.png)
+![](images/cf6.png)
     
-- ![](images/cf7.png)
+![](images/cf7.png)
     
-- ![](images/cf8a.png)
+![](images/cf8a.png)
     
-- ![](images/cf9.png)
+![](images/cf9.png)
     
-- ![](images/cf10.png)
+![](images/cf10.png)
     
-- ![](images/cf10a.png)
+![](images/cf10a.png)
     
-- ![](images/cf11.png)
+![](images/cf11.png)
     
-- ![](images/cf12.png)
+![](images/cf12.png)
     
-- ![](images/cf13.png)
+![](images/cf13.png)
     
-- ![](images/cf14.png)
+![](images/cf14.png)
     
-- ![](images/cf15.png)
+![](images/cf15.png)
     
 
 Gotowe. Możemy się już wylogować z _Cloudflare_ i przejść do następnego kroku.
@@ -386,21 +386,21 @@ To samo co w _Cloudflare_ można uzyskać poprzez skorzystanie np. z _[FreeDNS::
 
 15. Na koniec zostanie nam wyświetlone podsumowanie, na którym możemy sprawdzić czy wszystko się zgadza.
 
-- ![](images/fdns1.png)
+![](images/fdns1.png)
     
-- ![](images/fdns2.png)
+![](images/fdns2.png)
     
-- ![](images/fdns3.png)
+![](images/fdns3.png)
     
-- ![](images/fdns4.png)
+![](images/fdns4.png)
     
-- ![](images/fdns5.png)
+![](images/fdns5.png)
     
-- ![](images/fdns6.png)
+![](images/fdns6.png)
     
-- ![](images/fdns7.png)
+![](images/fdns7.png)
     
-- ![](images/fnds8.png)
+![](images/fnds8.png)
     
 
 ## NGINX Proxy Manager

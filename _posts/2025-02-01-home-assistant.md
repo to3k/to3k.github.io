@@ -100,13 +100,13 @@ Cały proces podzielony jest na dwa etapy:
 
 3. _Validating_ - sprawdzenie jego integralności i ogólnej poprawności wykonania procesu.
 
-- ![](images/balenaether1.png)
+![](images/balenaether1.png)
     
-- ![](images/balenaether2.png)
+![](images/balenaether2.png)
     
-- ![](images/balenaether3.png)
+![](images/balenaether3.png)
     
-- ![](images/balenaether4.png)
+![](images/balenaether4.png)
     
 
 Karta gotowa! Można ją wypiąć z czytnika i wsunąć do odpowiedniego portu w urządzeniu docelowym, które już za moment stanie się naszym domowym serwerem smart home. Gdy urządzenie jest gotowe podpinamy je do kabla sieciowego i zasilania.
@@ -159,47 +159,47 @@ _Home Assistant_ ma naprawdę sporo funkcji, więc omówienie wszystkich w ramac
 
 _Home Assistant OS_ **sam ogarnia sobie czy istnieją nowe aktualizacje** czy nie i informuje nas o tym. Mowa tutaj nie tylko o aktualizacjach samego systemu, ale także poszczególnych urządzeń o ile ta funkcja jest dla nich obsługiwana. Jeżeli _HAOS_ wykryje, że jest nowa aktualizacja to informacja o tym pojawi się w dwóch miejscach. Pierwsze miejsce to sam szczyt _Ustawień_, gdzie wyświetlona zostanie lista komponentów, które można zaktualizować. Drugie miejsce jest nieco głębiej, bo aby się tam dostać trzeba pokonać następującą ścieżkę - _Ustawienia -> System -> Aktualizacje_.
 
-- ![](images/haakt1.png)
+![](images/haakt1.png)
     
-- ![](images/haakt2.png)
+![](images/haakt2.png)
     
-- ![](images/haakt3.png)
+![](images/haakt3.png)
     
-- ![](images/haakt4.png)
+![](images/haakt4.png)
     
 
 Jeżeli chodzi o sam proces aktualizacji to w zasadzie konieczne jest tylko naciśnięcie przycisku _Aktualizuj_ i odrobina cierpliwości. Oczywiście to ile tej cierpliwości musi być zależy od mocy sprzętu i prędkości połączenia internetowego.
 
-- ![](images/haakt5.png)
+![](images/haakt5.png)
     
-- ![](images/haakt6.png)
+![](images/haakt6.png)
     
 
 **Dodawanie nowych urządzeń**
 
 _Home Assistant_ co jakiś czas skanuje sieć lokalną w poszukiwaniu nowych urządzeń. Gdy wykryje takowe to wysyła _Powiadomienie_, w którym daje skrót do dodania go do swojego systemu smart home.
 
-- ![](images/hanowe01.png)
+![](images/hanowe01.png)
     
-- ![](images/hanowe02.png)
+![](images/hanowe02.png)
     
 
 Niestety nie zawsze to działa lub nie działa od razu po połączeniu nowego urządzenia, więc pokażę jak to zrobić od początku zgodnie ze sztuką, tj. w taki sposób, który zadziała zawsze. Przechodzimy do listy wszystkich urządzeń podłączonych do naszego _Home Assistant_. Dostępna jest ona w _Ustawienia -> Urządzenia oraz usługi -> zakładka (na górze) Urządzenia_. W prawym dolnym rogu znajduje się przycisk _Dodaj urządzenie_. Pojawi nam się okienko, w którym musimy wyszukać nowe urządzenie po nazwie marki. W prezentowanym przypadku wyszukuję frazę "shelly".
 
-- ![](images/hanowe1.png)
+![](images/hanowe1.png)
     
-- ![](images/hanowe2.png)
+![](images/hanowe2.png)
     
-- ![](images/hanowe3.png)
+![](images/hanowe3.png)
     
-- ![](images/hanowe4.png)
+![](images/hanowe4.png)
     
 
 Od tego momentu są dwie możliwości. Jeżeli _HA_ da radę sam odkryć nowe urządzenie to od razu pojawi się propozycja, którą wystarczy jedynie wybrać z listy i potwierdzić swój wybór.
 
-- ![](images/hanowe5.png)
+![](images/hanowe5.png)
     
-- ![](images/hanowe6.png)
+![](images/hanowe6.png)
     
 
 Jeżeli _HA_ jednak nie wykryje nowego urządzenia to zostaniemy poproszeni o wskazanie jego adresu IP i portu, pod którym znajduje się interfejs do jego zarządzania. Po podaniu tych danych naciskamy przycisk _Zatwierdź_.

@@ -65,11 +65,11 @@ Chęć wykonania tak skonstruowanego polecenia potwierdzamy _ENTER'em_ i po uruc
 
 Naszym oczom ukaże się bardzo prosty instalator, w którym wystarczy ustawić jedynie nazwę i hasło dla administratora. Na następnej stronie wybieramy przycisk _Get Started_ jako, że chcemy, aby _Portainer_ używał środowiska znajdującego się na maszynie lokalnej, na której jest uruchomiony. Finalnie zostaniemy przeniesieni do listy dostępnych środowisk, na której będzie jedynie jedno o nazwie _local_ (z ang. lokalne). Aby rozpocząć zarządzanie tym środowiskiem należy po prawej stronie nacisnąć niebieski przycisk _Live connect_. Poskutkuje to tym, że po lewej stronie zamiast _Environment: None selected_ pojawią się nam zakładki z opcjami do zarządzania.
 
-- ![](images/portainer1.png)
+![](images/portainer1.png)
     
-- ![](images/portainer2.png)
+![](images/portainer2.png)
     
-- ![](images/portainer3.png)
+![](images/portainer3.png)
     
 
 ## Jak uruchomić przykładowy kontener
@@ -78,18 +78,18 @@ Samo uruchomienie _Portainer’a_ to dopiero początek zabawy i czułbym się ź
 
 Po wybraniu _Environment - local_ wybieramy po lewej stronie zakładkę _Containers_. To tutaj będziemy tworzyć i mieć wylistowane wszystko kontenery. Jak widać w tym momencie jedynym kontenerem znajdującym się na liście jest sam _Portainer_. Zanim podejmiemy próbę rozszerzenia tej listy o kolejny kontener musimy najpierw przejść do zakładki _Volumes_, gdzie utworzymy dwa wolumeny niezbędne do prawidłowej pracy _Nextcloud_.
 
-- ![](images/portainer_nextcloud1.png)
+![](images/portainer_nextcloud1.png)
     
-- ![](images/portainer_nextcloud2.png)
+![](images/portainer_nextcloud2.png)
     
 
 Korzystając z niebieskiego przycisku _Add volume_, znajdującego się w prawym górnym rogu, tworzymy wolumeny _nextcloud\_config_ i _nextcloud\_data_. W kreatorze wolumenu wystarczy wpisać nazwę w pole _Name_ i potwierdzić przyciskiem _Create new volume_.
 
-- ![](images/portainer_nextcloud4.png)
+![](images/portainer_nextcloud4.png)
     
-- ![](images/portainer_nextcloud3.png)
+![](images/portainer_nextcloud3.png)
     
-- ![](images/portainer_nextcloud5.png)
+![](images/portainer_nextcloud5.png)
     
 
 Na liście _Volumes_ pojawią się dwa wolumeny oznaczone znacznikami _Unused_ (z ang. nie użyte), a ich punkty montowania na serwerze to _/var/lib/docker/volumes/(...)/\_data_. Teraz, gdy już mamy przygotowane miejsce dla kontenera _Nextcloud_ możemy przystąpić do jego tworzenia. Wróćmy zatem do zakładki _Containers_ i skorzystajmy z niebieskiego przycisku _Add container_, zlokalizowanego w prawym górnym rogu. Zostanie otwarte okno kreatora, w którego pierwszej sekcji na górze wypełniamy pola:
@@ -146,9 +146,9 @@ Miał być to wpis o narzędziu _Portainer_, ale pozwolę sobie przy okazji rozs
 
 Jeżeli korzystamy z [_VPS_ od _Oracle_](https://blog.tomaszdunia.pl/oracle-free-tier/) to pierwszym krokiem powinno być odblokowanie ruchu z poziomu infrastruktury _Oracle_ dla portu _443_. Robi się to w _Networking_ -> _Virtual cloud networks_ -> wybierz _VNC_ swojego _VPS'a_ -> _Security Lists_ -> wejdź do listy odpowiedniej dla swojego _VPS'a_. Należy dodać _Ingress Rule_ w sposób analogiczny jak na poniższym zrzucie ekranu.
 
-- ![](images/portainer_nextcloud14.png)
+![](images/portainer_nextcloud14.png)
     
-- ![](images/portainer_nextcloud15.png)
+![](images/portainer_nextcloud15.png)
     
 
 Sytuacja wygląda podobnie w przypadku serwera domowego i routera, którego porty należy otworzyć jako że jest on główną bramą w sieci domowej.

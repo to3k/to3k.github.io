@@ -72,18 +72,18 @@ Wracamy do głównego okna _Cryptomatora_, gdzie na liście widnieje już nowy k
 
 W pierwszej zakładce _General_ możemy włączyć opcję, aby skarbiec był odblokowany już przy uruchomieniu aplikacji _Cryptomator_, co dla wygody polecam zrobić. Następnie mamy wybór co w takim przypadku ma się stać, tj. czy ma on zostać pokazany jako nowe okno menedżera plików, pytać się każdorazowo co ma zrobić, czy też ma po prostu zostać otwarty w tle i nie robić nic więcej. Ja zawsze używam tej ostatniej opcji. W następnej zakładce _Mounting_ jak sama nazwa wskazuje mamy ustawienia dotyczące montowania kontenera, tj. możliwość zmiany nazwy pod jaką ma widnieć w naszym drzewie dysków, czy ma być tylko do odczytu (czasem jest to przydatna funkcja), flagami się nie zajmujemy, bo to już bardziej zaawansowane działanie, i na koniec mamy możliwość edycji miejsca, w którym ma być montowany. Ostatnia zakładka to _Password_, gdzie możemy zmienić hasło i podejrzeć obecny lub wygenerować nowy kod odzyskiwania.
 
-- ![](images/IMG_0086.png)
+![](images/IMG_0086.png)
     
-- ![](images/IMG_0087.png)
+![](images/IMG_0087.png)
     
-- ![](images/IMG_0088.png)
+![](images/IMG_0088.png)
     
 
 Wracamy do głównego okna i tym razem naciskamy przycisk _Unlock_. Przy pierwszym otwarciu zostaniemy poproszeni o podanie hasła, które możemy zachować w pamięci aplikacji zaznaczając poniżej _Save Password_. Wszystko tutaj zależy od zastosowania, jednak jeżeli chcemy mieć zabezpieczenie jedynie na zewnątrz, a z poziomu swojego komputera postawić na wygodę to zaznaczenie tej opcji jest uzasadnione. Przy takiej konfiguracji można ustawić, aby _Cryptomator_ był uruchamiany razem z systemem operacyjnym, a wraz z nim odblokowany zostanie skarbiec i od razu podpięty jako dysk sieciowy, bez udziału użytkownika, gotowy aby z niego korzystać.
 
-- ![](images/IMG_0083.png)
+![](images/IMG_0083.png)
     
-- ![](images/IMG_0084.png)
+![](images/IMG_0084.png)
     
 
 ## Urządzenia mobilne

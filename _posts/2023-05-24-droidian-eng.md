@@ -63,25 +63,25 @@ Actions to be performed before flashing _Droidian_:
 
 Interestingly, _Droidian_ can be installed using the same program as _Ubuntu Touch_ - _UBports Installer_. Just like in the case of _Ubuntu Touch_, I will show the process using screenshots below.
 
-- ![](images/ubp1-1024x771.png)
+![](images/ubp1-1024x771.png)
     
-- ![](images/ubp2-1024x772.png)
+![](images/ubp2-1024x772.png)
     
-- ![](images/droidian1-1024x771.png)
+![](images/droidian1-1024x771.png)
     
-- ![](images/droidian2-1024x772.png)
+![](images/droidian2-1024x772.png)
     
-- ![](images/ubp5-1024x771.png)
+![](images/ubp5-1024x771.png)
     
-- ![](images/ubp6-1024x771.png)
+![](images/ubp6-1024x771.png)
     
-- ![](images/droidian3-1024x771.png)
+![](images/droidian3-1024x771.png)
     
-- ![](images/ubp8-1024x772.png)
+![](images/ubp8-1024x772.png)
     
-- ![](images/droidian9-1024x771.png)
+![](images/droidian9-1024x771.png)
     
-- ![](images/droidian10-1024x772.png)
+![](images/droidian10-1024x772.png)
     
 
 ## Droidian - first impressions

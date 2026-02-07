@@ -240,23 +240,23 @@ Jeżeli połączenie modułu do sieci domowej przebiegło pomyślnie to możemy 
 
 To w zasadzie tyle jeżeli chodzi o podstawową konfigurację. Ja dalej swoje moduły _Shelly_ zintegrowałem jeszcze z domowym serwerem _**Home Assistant**_, ale to już temat na oddzielny wpis. Poniżej załączam jeszcze kilka zrzutów ekranu, które powinny wizualnie dopełnić powyższy opis.
 
-- ![](images/shelly1.png)
+![](images/shelly1.png)
     
-- ![](images/shelly2.png)
+![](images/shelly2.png)
     
-- ![](images/shelly3.png)
+![](images/shelly3.png)
     
-- ![](images/shelly4.png)
+![](images/shelly4.png)
     
-- ![](images/shelly5.png)
+![](images/shelly5.png)
     
-- ![](images/shelly6.png)
+![](images/shelly6.png)
     
-- ![](images/shelly7.png)
+![](images/shelly7.png)
     
-- ![](images/shelly8.png)
+![](images/shelly8.png)
     
-- ![](images/shelly9.png)
+![](images/shelly9.png)
     
 
 ## No dobrze, ale ile to kosztuje?

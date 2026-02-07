@@ -64,11 +64,11 @@ To execute this command, confirm with _ENTER_, and after the container is launch
 
 You will see a very simple installer, where you only need to set a name and password for the administrator. On the next page, click the _Get Started_ button, as we want _Portainer_ to use the environment on the local machine on which it is running. Finally, you will be redirected to the list of available environments, where there will be only one named _local_. To start managing this environment, click the blue _Live connect_ button on the right side. This will result in tabs with management options appearing on the left side, replacing _Environment: None selected_.
 
-- ![](images/portainer1.png)
+![](images/portainer1.png)
     
-- ![](images/portainer2.png)
+![](images/portainer2.png)
     
-- ![](images/portainer3.png)
+![](images/portainer3.png)
     
 
 ## How to launch a sample container
@@ -77,18 +77,18 @@ Simply launching _Portainer_ is just the beginning of the fun, and I would feel 
 
 After selecting _Environment - local_, choose the _Containers_ tab on the left. This is where you will create and list all containers. As you can see, at this point, the only container on the list is _Portainer_ itself. Before attempting to expand this list with another container, we first need to go to the _Volumes_ tab, where we will create two volumes necessary for the proper functioning of _Nextcloud_.
 
-- ![](images/portainer_nextcloud1.png)
+![](images/portainer_nextcloud1.png)
     
-- ![](images/portainer_nextcloud2.png)
+![](images/portainer_nextcloud2.png)
     
 
 Using the blue _Add volume_ button located in the top right corner, create volumes _nextcloud\_config_ and _nextcloud\_data_. In the volume creator, simply enter the name in the _Name_ field and confirm with the _Create new volume_ button.
 
-- ![](images/portainer_nextcloud4.png)
+![](images/portainer_nextcloud4.png)
     
-- ![](images/portainer_nextcloud3.png)
+![](images/portainer_nextcloud3.png)
     
-- ![](images/portainer_nextcloud5.png)
+![](images/portainer_nextcloud5.png)
     
 
 On the _Volumes_ list, two volumes marked with the _Unused_ tag will appear, and their mount points on the server are _/var/lib/docker/volumes/(...)/\_data_. Now that we have prepared a location for the _Nextcloud_ container, we can proceed to create it. Let's go back to the _Containers_ tab and use the blue _Add container_ button located in the upper right corner. This will open the wizard window, where in the first section at the top, we fill in the fields:
@@ -145,9 +145,9 @@ It was supposed to be a post about the _Portainer_ tool, but I'll take the oppor
 
 If you are using a [_VPS_ from _Oracle_](https://blog.tomaszdunia.pl/oracle-free-tier-eng/), the first step should be to unblock traffic on the _Oracle_ infrastructure level for port _443_. This can be done in _Networking_ -> _Virtual cloud networks_ -> select your _VPS's_ _VNC_ -> _Security Lists_ -> go to the list appropriate for your _VPS_. You need to add an _Ingress Rule_ similarly to the screenshot below.
 
-- ![](images/portainer_nextcloud14.png)
+![](images/portainer_nextcloud14.png)
     
-- ![](images/portainer_nextcloud15.png)
+![](images/portainer_nextcloud15.png)
     
 
 The situation looks similar in the case of a home server and a router, whose ports need to be opened as it is the main gateway in the home network.

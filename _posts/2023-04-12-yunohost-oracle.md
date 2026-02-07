@@ -150,17 +150,17 @@ Proces instalacji jest banalny i praktycznie nic nie trzeba robić w jego trakci
 
 Tak też robimy, czyli otwieramy przeglądarkę, wpisujemy stosowny adres i potwierdzamy. Naszym oczom powinno pojawić się ostrzeżenie o tym, że połączenie może nie być bezpieczne. Jest to nam dobrze znane zachowanie przeglądarki, które podyktowane jest tym, że nie mamy zainstalowanego _certyfikatu SSL_ dla tej domeny. Na tym etapie nie jest to istotne. Przeklikujemy się przez to ostrzeżenie szukając przycisku _Akceptuję ryzyko i mimo to chcę kontynuować_ lub coś w tym stylu, dokładna treść zależy od tego jakiej przeglądarki używasz.
 
-- ![](images/oracleyunohost1.png)
+![](images/oracleyunohost1.png)
     
-- ![](images/oracleyunohost2.png)
+![](images/oracleyunohost2.png)
     
-- ![](images/oracleyunohost3.png)
+![](images/oracleyunohost3.png)
     
-- ![](images/oracleyunohost4.png)
+![](images/oracleyunohost4.png)
     
-- ![](images/oracleyunohost5.png)
+![](images/oracleyunohost5.png)
     
-- ![](images/oracleyunohost6.png)
+![](images/oracleyunohost6.png)
     
 
 Naszym oczom ukaże się ekran powitalny _YunoHost_, który gratuluje nam pomyślnej instalacji i zachęca do dalszej konfiguracji. Naciskamy zatem przycisk _Rozpocznij_ \[1\]. W ustawieniach domeny głównej definiujemy pod jakim adresem dostępny będzie ten panel administracyjny (oraz panel użytkownika), czyli ustawiamy _alias_, który sprawi, że nie będziemy musieli używać adresu _IP_ serwera jako odnośnika do naszego _YunoHost_. Opcje są dwie: można podpiąć tutaj swoją domenę (lub subdomenę) zewnętrzną lub skorzystać z subdomen udostępnionych przez _YunoHost_. Mogą się one kończyć na:

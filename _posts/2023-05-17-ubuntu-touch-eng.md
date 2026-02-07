@@ -153,31 +153,31 @@ We launch the _Microsoft Edge_ browser, go to the website [https://developers.go
 
 After finding the appropriate image, we click _Flash_ which is next to. We will be taken to a web-based _Android_ system flashing tool. This time, I won't describe the process in detail because what needs to be done step by step is perfectly visible in the screenshots below.
 
-- ![](images/aft1.png)
+![](images/aft1.png)
     
-- ![](images/aft2.png)
+![](images/aft2.png)
     
-- ![](images/aft3.png)
+![](images/aft3.png)
     
-- ![](images/aft4.png)
+![](images/aft4.png)
     
-- ![](images/aft5.png)
+![](images/aft5.png)
     
-- ![](images/aft6.png)
+![](images/aft6.png)
     
-- ![](images/aft7.png)
+![](images/aft7.png)
     
-- ![](images/aft8.png)
+![](images/aft8.png)
     
-- ![](images/aft9.png)
+![](images/aft9.png)
     
-- ![](images/aft10.png)
+![](images/aft10.png)
     
-- ![](images/aft11.png)
+![](images/aft11.png)
     
-- ![](images/aft12.png)
+![](images/aft12.png)
     
-- ![](images/aft13-1024x549.png)
+![](images/aft13-1024x549.png)
     
 
 The result will be restoring the _Android 9_ system on our _Pixel_. The phone has also been wiped clean, so we need to go through the basic configuration again, where I suggest skipping most options and simply using the _Skip_ button. It's not even worth configuring the Wi-Fi because the phone will be wiped again after installing the target system (_Ubuntu Touch_). The only thing that matters after the basic system configuration is to go to the settings, re-enable developer options, and check if USB debugging is enabled. If it's not, we obviously enable it and allow USB debugging from our laptop (as I described earlier).
@@ -186,25 +186,25 @@ The result will be restoring the _Android 9_ system on our _Pixel_. The phone ha
 
 We will flash _Ubuntu Touch_ using the previously installed _UBports_ installer. Just like before, I have shown the entire process in the screenshots below.
 
-- ![](images/ubp1.png)
+![](images/ubp1.png)
     
-- ![](images/ubp2.png)
+![](images/ubp2.png)
     
-- ![](images/ubp3.png)
+![](images/ubp3.png)
     
-- ![](images/ubp4.png)
+![](images/ubp4.png)
     
-- ![](images/ubp5.png)
+![](images/ubp5.png)
     
-- ![](images/ubp6.png)
+![](images/ubp6.png)
     
-- ![](images/ubp7.png)
+![](images/ubp7.png)
     
-- ![](images/ubp8.png)
+![](images/ubp8.png)
     
-- ![](images/ubp9.png)
+![](images/ubp9.png)
     
-- ![](images/ubp10.png)
+![](images/ubp10.png)
     
 
 ## Ubuntu Touch - first impressions

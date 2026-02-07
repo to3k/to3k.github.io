@@ -100,13 +100,13 @@ The entire process is divided into two stages:
 
 3. _Validating_ - verifying its integrity and overall correctness.
 
-- ![](images/balenaether1.png)
+![](images/balenaether1.png)
     
-- ![](images/balenaether2.png)
+![](images/balenaether2.png)
     
-- ![](images/balenaether3.png)
+![](images/balenaether3.png)
     
-- ![](images/balenaether4.png)
+![](images/balenaether4.png)
     
 
 The card is ready! You can remove it from the reader and insert it into the appropriate port of the target device, which will soon become our home smart home server. Once the device is ready, we connect it to the network cable and power supply.
@@ -159,47 +159,47 @@ _Home Assistant_ has a lot of features, so covering all of them in one post is n
 
 _Home Assistant OS_ **automatically checks for new updates** and notifies us if any are available. This applies not only to the system itself but also to individual devices, provided this feature is supported for them. If _HAOS_ detects a new update, the information will appear in two places. The first is at the top of _Settings_, where a list of components that can be updated is displayed. The second location is a bit deeper, requiring navigation through the following path - _Settings -> System -> Updates_.
 
-- ![](images/haakt1.png)
+![](images/haakt1.png)
     
-- ![](images/haakt2.png)
+![](images/haakt2.png)
     
-- ![](images/haakt3.png)
+![](images/haakt3.png)
     
-- ![](images/haakt4.png)
+![](images/haakt4.png)
     
 
 As for the update process itself, all that is required is pressing the _Update_ button and a bit of patience. Of course, the waiting time depends on the power of the hardware and the speed of the internet connection.
 
-- ![](images/haakt5.png)
+![](images/haakt5.png)
     
-- ![](images/haakt6.png)
+![](images/haakt6.png)
     
 
 **Adding New Devices**
 
 _Home Assistant_ periodically scans the local network for new devices. When it detects one, it sends a _Notification_ containing a shortcut to add it to the smart home system.
 
-- ![](images/hanowe01.png)
+![](images/hanowe01.png)
     
-- ![](images/hanowe02.png)
+![](images/hanowe02.png)
     
 
 Unfortunately, this does not always work or may not work immediately after connecting a new device. So, I will show you how to do it from the beginning in a proper way—that is, in a way that always works. We go to the list of all devices connected to our _Home Assistant_. It is available in _Settings -> Devices & Services -> (top tab) Devices_. In the bottom right corner, there is an _Add Device_ button. A window will appear where we need to search for the new device by brand name. In this example, I search for the term "shelly".
 
-- ![](images/hanowe1.png)
+![](images/hanowe1.png)
     
-- ![](images/hanowe2.png)
+![](images/hanowe2.png)
     
-- ![](images/hanowe3.png)
+![](images/hanowe3.png)
     
-- ![](images/hanowe4.png)
+![](images/hanowe4.png)
     
 
 From this point, there are two possibilities. If _HA_ can automatically discover the new device, a suggestion will appear immediately. You only need to select it from the list and confirm your choice.
 
-- ![](images/hanowe5.png)
+![](images/hanowe5.png)
     
-- ![](images/hanowe6.png)
+![](images/hanowe6.png)
     
 
 If, however, _HA_ does not detect the new device, we will be asked to provide its IP address and port, where the management interface is located. After entering this data, we press the _Confirm_ button.

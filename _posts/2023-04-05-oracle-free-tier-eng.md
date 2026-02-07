@@ -53,31 +53,31 @@ There is also an **option to run up to two _instances_ based on _AMD_ processors
 
 I will simplify the process only to points enriched with screenshots, describing step by step the whole process.
 
-- ![](images/oracle1.png)
+![](images/oracle1.png)
     
-- ![](images/oracle2.png)
+![](images/oracle2.png)
     
-- ![](images/oracle3.png)
+![](images/oracle3.png)
     
-- ![](images/oracle4.png)
+![](images/oracle4.png)
     
-- ![](images/oracle5.png)
+![](images/oracle5.png)
     
-- ![](images/oracle6.png)
+![](images/oracle6.png)
     
-- ![](images/oracle7.png)
+![](images/oracle7.png)
     
-- ![](images/oracle8.png)
+![](images/oracle8.png)
     
-- ![](images/oracle9.png)
+![](images/oracle9.png)
     
-- ![](images/oracle10.png)
+![](images/oracle10.png)
     
-- ![](images/oracle11.png)
+![](images/oracle11.png)
     
-- ![](images/oracle12.png)
+![](images/oracle12.png)
     
-- ![](images/oracle13.png)
+![](images/oracle13.png)
     
 
 1. Go to [oracle.com](https://oracle.com), find the _View Accounts_ button \[1\] in the upper right corner, and click it to bring up a window. Then click the _Sign in to Cloud_ button \[2\].
@@ -102,45 +102,45 @@ I will simplify the process only to points enriched with screenshots, describing
 
 _Oracle_ refers to _virtual machines_ as _instances_. In this chapter, we will create exactly such an _instance_ as described in the title of this post and in one of the above chapters.
 
-- ![](images/oracle20.png)
+![](images/oracle20.png)
     
-- ![](images/oracle21.png)
+![](images/oracle21.png)
     
-- ![](images/oracle22.png)
+![](images/oracle22.png)
     
-- ![](images/oracle23.png)
+![](images/oracle23.png)
     
-- ![](images/oracle24.png)
+![](images/oracle24.png)
     
-- ![](images/oracle25.png)
+![](images/oracle25.png)
     
-- ![](images/oracle26.png)
+![](images/oracle26.png)
     
-- ![](images/oracle27.png)
+![](images/oracle27.png)
     
-- ![](images/oracle28.png)
+![](images/oracle28.png)
     
-- ![](images/oracle29.png)
+![](images/oracle29.png)
     
-- ![](images/oracle30.png)
+![](images/oracle30.png)
     
-- ![](images/oracle31.png)
+![](images/oracle31.png)
     
-- ![](images/oracle32.png)
+![](images/oracle32.png)
     
-- ![](images/oracle33.png)
+![](images/oracle33.png)
     
-- ![](images/oracle34.png)
+![](images/oracle34.png)
     
-- ![](images/oracle35.png)
+![](images/oracle35.png)
     
-- ![](images/oracle36.png)
+![](images/oracle36.png)
     
-- ![](images/oracle37.png)
+![](images/oracle37.png)
     
-- ![](images/oracle38.png)
+![](images/oracle38.png)
     
-- ![](images/oracle39.png)
+![](images/oracle39.png)
     
 
 1. Just like in the previous chapter, we go to [oracle.com](https://oracle.com), find the _View Accounts_ button in the upper right corner, and after clicking it, a window will pop up where we click the _Sign in to Cloud_ button.
@@ -212,21 +212,21 @@ It must be admitted that _Oracle_ actively takes care of the basic security of i
 
 First of all, let's open the ports in the aforementioned parent firewall. This is done through the web interface, which I previously colloquially referred to as the control center.
 
-- ![](images/oracle50-1024x503.png)
+![](images/oracle50-1024x503.png)
     
-- ![](images/oracle51-1024x503.png)
+![](images/oracle51-1024x503.png)
     
-- ![](images/oracle52-1024x503.png)
+![](images/oracle52-1024x503.png)
     
-- ![](images/oracle53-1024x503.png)
+![](images/oracle53-1024x503.png)
     
-- ![](images/oracle54-1024x503.png)
+![](images/oracle54-1024x503.png)
     
-- ![](images/oracle55-1024x503.png)
+![](images/oracle55-1024x503.png)
     
-- ![](images/oracle56-1024x503.png)
+![](images/oracle56-1024x503.png)
     
-- ![](images/oracle57-1024x503.png)
+![](images/oracle57-1024x503.png)
     
 
 1. To access the firewall settings, first go to the instance management center (as we did in step 4 of the chapter on creating _instances_).
@@ -281,41 +281,41 @@ rm -rf /tmp/port80
 
 After publishing this post, I remembered that I should also discuss another topic, which is enabling _IPv6_ support. Without it, the machine will function correctly, but for some services that we may want to run on it, _IPv6_ support is recommended. An example of such a service is the _Mastodon_ instance, which will only work on _IPv4_, but without _IPv6_, it won't be able to communicate with other instances that operate based on this addressing. _Oracle_ provides us with the ability to enable IPv6 and assign an address to our _instance_, so that's what we'll do.
 
-- ![](images/ipv61-1024x503.png)
+![](images/ipv61-1024x503.png)
     
-- ![](images/ipv63-1024x503.png)
+![](images/ipv63-1024x503.png)
     
-- ![](images/ipv64-1024x503.png)
+![](images/ipv64-1024x503.png)
     
-- ![](images/ipv65-1024x542.png)
+![](images/ipv65-1024x542.png)
     
-- ![](images/ipv66-1024x542.png)
+![](images/ipv66-1024x542.png)
     
-- ![](images/ipv67-1024x503.png)
+![](images/ipv67-1024x503.png)
     
-- ![](images/ipv68-1024x542.png)
+![](images/ipv68-1024x542.png)
     
-- ![](images/ipv69-1024x542.png)
+![](images/ipv69-1024x542.png)
     
-- ![](images/ipv610-1024x542.png)
+![](images/ipv610-1024x542.png)
     
-- ![](images/ipv611-1024x542.png)
+![](images/ipv611-1024x542.png)
     
-- ![](images/ipv612-1024x542.png)
+![](images/ipv612-1024x542.png)
     
-- ![](images/ipv613-1024x542.png)
+![](images/ipv613-1024x542.png)
     
-- ![](images/ipv613bis-1024x503.png)
+![](images/ipv613bis-1024x503.png)
     
-- ![](images/ipv614-1024x542.png)
+![](images/ipv614-1024x542.png)
     
-- ![](images/ipv615-1024x542.png)
+![](images/ipv615-1024x542.png)
     
-- ![](images/ipv616-1024x542.png)
+![](images/ipv616-1024x542.png)
     
-- ![](images/ipv617-1024x542.png)
+![](images/ipv617-1024x542.png)
     
-- ![](images/ipv618-1024x542.png)
+![](images/ipv618-1024x542.png)
     
 
 1. We go to the settings of the virtual cloud network of our instance as we did in points 1-3 of the chapter on opening ports.

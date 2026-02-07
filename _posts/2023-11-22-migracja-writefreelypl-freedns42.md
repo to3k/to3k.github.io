@@ -78,13 +78,13 @@ Mając już te dane możemy przejść na stronę _[FreeDNS::42](https://freedns.
 
 W ten sposób tworzymy całkowicie pustą strefę, którą należy teraz odpowiednio skonfigurować. W tym celu wybieramy na górze _Modyfikuj strefę_, na liście odnajdujemy tą świeżo utworzoną i wybieramy ją. Aby uzyskać identyczną konfigurację do tej z _Cloudflare_ musimy wypełnić to jak na poniższych zrzutach ekranu.
 
-- ![](images/freedns42-2.png)
+![](images/freedns42-2.png)
     
-- ![](images/freedns42-3.png)
+![](images/freedns42-3.png)
     
-- ![](images/freedns42-4.png)
+![](images/freedns42-4.png)
     
-- ![](images/freedns42-5.png)
+![](images/freedns42-5.png)
     
 
 To wszystko potwierdzamy przyciskiem _Utwórz konfigurację strefy_ znajdującym się na samym dole. Po wszystkim powinniśmy zobaczyć następujące potwierdzenie:

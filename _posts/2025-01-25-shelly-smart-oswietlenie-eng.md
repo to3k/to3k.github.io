@@ -239,23 +239,23 @@ If the module has successfully connected to the home network, we can also switch
 
 That’s basically it for the basic configuration. I have integrated my _Shelly_ modules with my home server _**Home Assistant**_ as well, but that's a topic for a separate post. Below, I’ve included a few screenshots that should visually complement the description above.
 
-- ![](images/shelly1.png)
+![](images/shelly1.png)
     
-- ![](images/shelly2.png)
+![](images/shelly2.png)
     
-- ![](images/shelly3.png)
+![](images/shelly3.png)
     
-- ![](images/shelly4.png)
+![](images/shelly4.png)
     
-- ![](images/shelly5.png)
+![](images/shelly5.png)
     
-- ![](images/shelly6.png)
+![](images/shelly6.png)
     
-- ![](images/shelly7.png)
+![](images/shelly7.png)
     
-- ![](images/shelly8.png)
+![](images/shelly8.png)
     
-- ![](images/shelly9.png)
+![](images/shelly9.png)
     
 
 ## Well, how much does it cost?

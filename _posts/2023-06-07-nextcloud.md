@@ -173,18 +173,18 @@ Nie można zapomnieć także o włączeniu funkcji dwuskładnikowego uwierzyteln
 
 Aplikacje dedykowane _Nextcloud_ są dostępne dla _Windowsa_, _Linuxa_, _macOS_, _Androida_ i _iOS_. Wszystkie są dostępne po [tym linkiem](https://nextcloud.com/install/). Instalacja na każdym z systemów jest bliźniacza, więc pokażę cały proces na systemie _macOS_. Po zainstalowaniu adekwatnej aplikacji odpalamy ją i na start otrzymujemy okno, w którym wybieramy przycisk _Zaloguj się do Nextcloud_. W następnym oknie jesteśmy proszeni o wpisanie adresu serwera, więc podajemy go i potwierdzamy przyciskiem _Dalej >_.
 
-- ![](images/nc1.webp)
+![](images/nc1.webp)
     
-- ![](images/nc2.webp)
+![](images/nc2.webp)
     
 
 Zostaniemy przeniesieni do przeglądarki, gdzie musimy uwierzytelnić nowego klienta.
 
-- ![](images/nc3-1.webp)
+![](images/nc3-1.webp)
     
-- ![](images/nc4.webp)
+![](images/nc4.webp)
     
-- ![](images/nc5.webp)
+![](images/nc5.webp)
     
 
 Na koniec wracamy do świeżo zainstalowanej aplikacji _Nextcloud_, gdzie pozostaje nam jeszcze podstawowa konfiguracja klienta. Podajemy folder w pamięci lokalnej komputera, do którego ma zostać podpięty _Nextcloud_. Reszta do zmiany według uznania. Na koniec potwierdzamy przyciskiem _Połącz_ i gotowe. Tak skonfigurowany klient będzie nam w czasie rzeczywistym aktualizował pliki, co oznacza, że gdy zmodyfikujemy, dodamy lub usuniemy plik na dowolnym urządzeniu to za moment te zmiany będą miały odzwierciedlenie na serwerze, a następnie na innych podpiętych urządzeniach.

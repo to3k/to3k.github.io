@@ -35,23 +35,23 @@ Zaczęło się od tego, że napisałem wyjątkowo dobrze odebrany wpis o tym [ja
 
 W pierwszej kolejności potrzebujemy domeny, na której będzie działała instancja _WriteFreely_, którą za moment uruchomimy. Dostawca domeny może być dowolny, a jedynym wymogiem jest to, abyśmy mogli dla niej ustawić przynajmniej rekordy DNS, tj. wskazać serwer, który powie jej, gdzie chcemy, aby osoby na nią wchodzący były odsyłane. Mile widziana będzie także możliwość ustawienia rekordów _A_, _AAAA_, _MX_, _TXT_ i _CAA_, ale jeżeli Twój dostawca domen nie oferuje takiej możliwości to i z tym sobie poradzimy. Gdy mamy już domenę to przechodzimy do działania.
 
-- ![](images/yhwf1-1024x503.png)
+![](images/yhwf1-1024x503.png)
     
-- ![](images/yhwf2-1024x503.png)
+![](images/yhwf2-1024x503.png)
     
-- ![](images/yhwf3-1024x503.png)
+![](images/yhwf3-1024x503.png)
     
-- ![](images/yhwf8-1024x503.png)
+![](images/yhwf8-1024x503.png)
     
-- ![](images/yhwf9-1024x503.png)
+![](images/yhwf9-1024x503.png)
     
-- ![](images/yhwf10-1024x503.png)
+![](images/yhwf10-1024x503.png)
     
-- ![](images/yhwf11-1024x503.png)
+![](images/yhwf11-1024x503.png)
     
-- ![](images/yhwf12-1024x503.png)
+![](images/yhwf12-1024x503.png)
     
-- ![](images/yhwf14-1024x503.png)
+![](images/yhwf14-1024x503.png)
     
 
 1. Wchodzimy do panelu administracyjnego naszego _YunoHost_.
@@ -88,35 +88,35 @@ _AKTUALIZACJA 22-11-2023: Przed przeczytaniem tego rozdziału polecam zapoznać 
 
 Wiem, że znajdą się tacy, którzy będą bardzo mocno hejtować to, że rekomenduję użycie _[Cloudflare](https://cloudflare.com)_, w którym upatrują się kolejnego rozwiązania korpo oferującego pozornie darmowe rozwiązanie, a tak naprawdę posiadającego niemalże monopol w zakresie tego co oferuje. Może i tak jest, ale ja niczego tutaj nie narzucam. Po prostu pokażę uniwersalny sposób na ustawienie prawidłowo rekordów _DNS_, bo po pierwsze nie wszyscy dostawcy domen oferują możliwość zastosowania tak specyficznych ustawień dla domeny, a po drugie nie sposób byłoby napisać instrukcję dla każdego takiego dostawcy, bo jest ich mnóstwo. W skrócie, poniżej pokażę jak zrobić to przy użyciu _Cloudflare_, a Ty, drogi Czytelniku, zdecydujesz czy chcesz robić to tak samo czy też spróbować własnych sił i ustawić to bez użycia _Cloudflare_.
 
-- ![](images/cf1-1024x503.png)
+![](images/cf1-1024x503.png)
     
-- ![](images/cf2-1024x503.png)
+![](images/cf2-1024x503.png)
     
-- ![](images/cf3-1024x503.png)
+![](images/cf3-1024x503.png)
     
-- ![](images/cf4-1024x503.png)
+![](images/cf4-1024x503.png)
     
-- ![](images/cf5-1024x503.png)
+![](images/cf5-1024x503.png)
     
-- ![](images/cf6-1024x503.png)
+![](images/cf6-1024x503.png)
     
-- ![](images/cf7-1024x503.png)
+![](images/cf7-1024x503.png)
     
-- ![](images/cf9-1024x503.png)
+![](images/cf9-1024x503.png)
     
-- ![](images/cf10-1024x503.png)
+![](images/cf10-1024x503.png)
     
-- ![](images/cf11-1024x503.png)
+![](images/cf11-1024x503.png)
     
-- ![](images/cf12-1024x503.png)
+![](images/cf12-1024x503.png)
     
-- ![](images/cf13-1024x503.png)
+![](images/cf13-1024x503.png)
     
-- ![](images/cf14-1024x503.png)
+![](images/cf14-1024x503.png)
     
-- ![](images/cf15-1024x503.png)
+![](images/cf15-1024x503.png)
     
-- ![](images/cf18-1024x503.png)
+![](images/cf18-1024x503.png)
     
 
 1. Rozpoczynamy od rejestracji nowego konta _[Cloudflare](https://dash.cloudflare.com/sign-up?lang=en-US)_ lub jeżeli już takie posiadamy to do zalogowania się do niego.
@@ -148,11 +148,11 @@ Wiem, że znajdą się tacy, którzy będą bardzo mocno hejtować to, że rekom
 
 Po otrzymaniu mailowego potwierdzenia od _Cloudflare_, że nasza domena została już prawidłowo podpięta, możemy przejść do konfiguracji rekordów DNS. W pierwszej kolejności musimy ustalić co należy ustawić. W tym celu przechodzimy do _YunoHost_ i wchodzimy do narzędzia diagnostycznego (tak jak to robiliśmy w [tym wpisie](https://blog.tomaszdunia.pl/yunohost-oracle/)). _YunoHost_ informuje nas, że najważniejsze, niezbędne do działania, jest ustawienie rekordu _A_(_@_) \[1\], natomiast pozostałe są jedynie rekomendowane - _MX_ \[2\], _TXT_ \[3\]\[4\]\[5\], _A_(_\*_) \[6\], _CAA_ \[7\].
 
-- ![](images/yhwf17-1024x503.png)
+![](images/yhwf17-1024x503.png)
     
-- ![](images/yhwf18-1024x503.png)
+![](images/yhwf18-1024x503.png)
     
-- ![](images/yhwf19-1024x503.png)
+![](images/yhwf19-1024x503.png)
     
 
 Poprawnie ustawione rekordy DNS domeny dla instancji _WriteFreely_ uruchomionej na serwerze z _YunoHost_ wyglądają następująco:

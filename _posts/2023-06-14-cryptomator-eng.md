@@ -70,18 +70,18 @@ We return to the main _Cryptomator_ window, where the new container is already l
 
 In the first _General_ tab, we can enable the option to unlock the vault when the _Cryptomator_ application starts, which I recommend for convenience. Then we have a choice of what should happen in such a case, whether it should be shown as a new file manager window, ask each time what to do, or simply be opened in the background and do nothing more. I always use the latter option. In the next _Mounting_ tab, as the name suggests, we have settings related to mounting the container, i.e. the ability to change the name under which it should appear in our disk tree, whether it should be read-only (sometimes this is a useful feature), we don't deal with flags because it's a more advanced operation, and finally, we have the ability to edit the location where it should be mounted. The last tab is _Password_, where we can change the password and view existing or generate a new recovery code.
 
-- ![](images/IMG_0086.png)
+![](images/IMG_0086.png)
     
-- ![](images/IMG_0087.png)
+![](images/IMG_0087.png)
     
-- ![](images/IMG_0088.png)
+![](images/IMG_0088.png)
     
 
 Let's go back to the main window and this time click on the _Unlock_ button. When you open it for the first time, you will be asked to enter a password, which you can save in the application memory by checking the _Save Password_ option below. Everything depends on the usage, but if you want to have protection only from the outside and prioritize convenience on your own computer, then selecting this option is justified. With this configuration, you can set _Cryptomator_ to start up with the operating system, and along with it, the vault will be unlocked and immediately connected as a network drive, without the user's involvement, ready to be used.
 
-- ![](images/IMG_0083.png)
+![](images/IMG_0083.png)
     
-- ![](images/IMG_0084.png)
+![](images/IMG_0084.png)
     
 
 ## Mobile devices

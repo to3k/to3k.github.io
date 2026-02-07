@@ -154,31 +154,31 @@ Odpalamy przeglądarkę _Microsoft Edge_, wchodzimy na stronę [https://develope
 
 Po odnalezieniu odpowiedniego obrazu naciskamy obok _W formacie Flash_ (dziwne tłumaczenie na polski, bo w wersji angielskiej jest to po prostu _Flash_). Zostaniemy przeniesieni do webowego narzędzia do wgrywania systemów _Android_. Tym razem nie będę opisywał dokładnie przebiegu procesu, bo to co należy po kolei zrobić widać idealnie na poniższych zrzutach ekranu.
 
-- ![](images/aft1.png)
+![](images/aft1.png)
     
-- ![](images/aft2.png)
+![](images/aft2.png)
     
-- ![](images/aft3.png)
+![](images/aft3.png)
     
-- ![](images/aft4.png)
+![](images/aft4.png)
     
-- ![](images/aft5.png)
+![](images/aft5.png)
     
-- ![](images/aft6.png)
+![](images/aft6.png)
     
-- ![](images/aft7.png)
+![](images/aft7.png)
     
-- ![](images/aft8.png)
+![](images/aft8.png)
     
-- ![](images/aft9.png)
+![](images/aft9.png)
     
-- ![](images/aft10.png)
+![](images/aft10.png)
     
-- ![](images/aft11.png)
+![](images/aft11.png)
     
-- ![](images/aft12.png)
+![](images/aft12.png)
     
-- ![](images/aft13-1024x549.png)
+![](images/aft13-1024x549.png)
     
 
 Efektem będzie przywrócenie systemu _Android 9_ na naszego _Pixela_. Telefon został także wyczyszczony, więc ponownie trzeba na nim zrobić podstawową konfigurację, gdzie proponuję pominąć większość opcji i po prostu korzystać z przycisku _Skip_. Nie ma nawet sensu konfiguracji Wi-Fi, bo za chwilę telefon zostanie znowu wyczyszczony po wgraniu systemu docelowego (_Ubuntu Touch_). Jedyne co jest istotne po podstawowym skonfigurowaniu systemu to wejść do ustawień, znowu odblokować opcje deweloperskie i sprawdzić czy debugowanie USB jest włączone. Jeżeli nie jest to oczywiście je włączamy i zgadzamy się na debugowanie USB z naszego laptopa (tak jak opisałem wcześniej).
@@ -187,25 +187,25 @@ Efektem będzie przywrócenie systemu _Android 9_ na naszego _Pixela_. Telefon z
 
 _Ubuntu Touch_ wgramy wcześniej zainstalowanym instalatorem _UBports_. Tak jak wcześniej cały proces pokazałem na zrzutach ekranu poniżej.
 
-- ![](images/ubp1.png)
+![](images/ubp1.png)
     
-- ![](images/ubp2.png)
+![](images/ubp2.png)
     
-- ![](images/ubp3.png)
+![](images/ubp3.png)
     
-- ![](images/ubp4.png)
+![](images/ubp4.png)
     
-- ![](images/ubp5.png)
+![](images/ubp5.png)
     
-- ![](images/ubp6.png)
+![](images/ubp6.png)
     
-- ![](images/ubp7.png)
+![](images/ubp7.png)
     
-- ![](images/ubp8.png)
+![](images/ubp8.png)
     
-- ![](images/ubp9.png)
+![](images/ubp9.png)
     
-- ![](images/ubp10.png)
+![](images/ubp10.png)
     
 
 ## Ubuntu Touch - pierwsze wrażenia

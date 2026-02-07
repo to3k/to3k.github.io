@@ -35,23 +35,23 @@ It all started with me writing a particularly well-received post on [how to get 
 
 First and foremost, we need a domain on which the _WriteFreely_ instance we're about to launch will run. The domain provider can be any, and the only requirement is that we can set at least DNS records for it, i.e. point to the server that will tell it where we want people, who visit it, to be redirected. It's also desirable to be able to set _A_, _AAAA_, _MX_, _TXT_, and _CAA_ records, but if your domain provider doesn't offer this option, we'll manage without it. Once we have the domain, we can get started.
 
-- ![](images/yhwf1-1024x503.png)
+![](images/yhwf1-1024x503.png)
     
-- ![](images/yhwf2-1024x503.png)
+![](images/yhwf2-1024x503.png)
     
-- ![](images/yhwf3-1024x503.png)
+![](images/yhwf3-1024x503.png)
     
-- ![](images/yhwf8-1024x503.png)
+![](images/yhwf8-1024x503.png)
     
-- ![](images/yhwf9-1024x503.png)
+![](images/yhwf9-1024x503.png)
     
-- ![](images/yhwf10-1024x503.png)
+![](images/yhwf10-1024x503.png)
     
-- ![](images/yhwf11-1024x503.png)
+![](images/yhwf11-1024x503.png)
     
-- ![](images/yhwf12-1024x503.png)
+![](images/yhwf12-1024x503.png)
     
-- ![](images/yhwf14-1024x503.png)
+![](images/yhwf14-1024x503.png)
     
 
 1. Login to the administration panel of your _YunoHost_.
@@ -86,35 +86,35 @@ First and foremost, we need a domain on which the _WriteFreely_ instance we're a
 
 I know that there will be those who strongly criticize my recommendation to use _[Cloudflare](https://cloudflare.com)_, seeing it as another corporate solution that offers seemingly free services but in reality has almost a monopoly in what it offers. Maybe that's true, but I'm not imposing anything here. I'm just going to show you a universal way to set up DNS records correctly because, first of all, not all domain providers offer the possibility of applying such specific settings for the domain, and secondly, it would be impossible to write instructions for each of these providers because there are so many of them. In short, below I'll show you how to do it using _Cloudflare_, and you, dear Reader, will decide whether you want to do it the same way or try your own skills and set it up without using _Cloudflare_.
 
-- ![](images/cf1-1024x503.png)
+![](images/cf1-1024x503.png)
     
-- ![](images/cf2-1024x503.png)
+![](images/cf2-1024x503.png)
     
-- ![](images/cf3-1024x503.png)
+![](images/cf3-1024x503.png)
     
-- ![](images/cf4-1024x503.png)
+![](images/cf4-1024x503.png)
     
-- ![](images/cf5-1024x503.png)
+![](images/cf5-1024x503.png)
     
-- ![](images/cf6-1024x503.png)
+![](images/cf6-1024x503.png)
     
-- ![](images/cf7-1024x503.png)
+![](images/cf7-1024x503.png)
     
-- ![](images/cf9-1024x503.png)
+![](images/cf9-1024x503.png)
     
-- ![](images/cf10-1024x503.png)
+![](images/cf10-1024x503.png)
     
-- ![](images/cf11-1024x503.png)
+![](images/cf11-1024x503.png)
     
-- ![](images/cf12-1024x503.png)
+![](images/cf12-1024x503.png)
     
-- ![](images/cf13-1024x503.png)
+![](images/cf13-1024x503.png)
     
-- ![](images/cf14-1024x503.png)
+![](images/cf14-1024x503.png)
     
-- ![](images/cf15-1024x503.png)
+![](images/cf15-1024x503.png)
     
-- ![](images/cf18-1024x503.png)
+![](images/cf18-1024x503.png)
     
 
 1. We start by registering a new account on _[Cloudflare](https://dash.cloudflare.com/sign-up?lang=en-US)_ or logging into an existing one.
@@ -146,11 +146,11 @@ I know that there will be those who strongly criticize my recommendation to use 
 
 After receiving a confirmation email from _Cloudflare_ that our domain has been properly set up, we can proceed with configuring the DNS records. First, we need to determine what needs to be set. To do this, we go to _YunoHost_ and access the diagnostic tool (just like we did in [this post](https://blog.tomaszdunia.pl/yunohost-oracle-eng/)). _YunoHost_ informs us that the most important, necessary for operation, is setting the _A_(_@_) record \[1\], while the rest are only recommended - _MX_ \[2\], _TXT_ \[3\]\[4\]\[5\], _A_(_\*_) \[6\], _CAA_ \[7\].
 
-- ![](images/yhwf17-1024x503.png)
+![](images/yhwf17-1024x503.png)
     
-- ![](images/yhwf18-1024x503.png)
+![](images/yhwf18-1024x503.png)
     
-- ![](images/yhwf19-1024x503.png)
+![](images/yhwf19-1024x503.png)
     
 
 Correctly set DNS records for a _WriteFreely_ instance running on a server with _YunoHost_ look like this:

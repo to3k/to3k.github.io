@@ -290,11 +290,11 @@ _Portainer_ is running on port 9443, so now we need to locate the server address
 
 A very simple installer will appear before us, where we only need to set the login and password for the administrator. On the next page, we select the _Get Started_ button, as we want _Portainer_ to use the environment located on the local machine it is running on. Finally, we will be taken to the list of available environments, where there will be only one called _local_. To start managing this environment, press the blue _Live connect_ button on the right-hand side. As a result, tabs with management options will appear on the left instead of _Environment: None selected_.
 
-- ![](images/portainer1.png)
+![](images/portainer1.png)
     
-- ![](images/portainer2.png)
+![](images/portainer2.png)
     
-- ![](images/portainer3.png)
+![](images/portainer3.png)
     
 
 ## Connecting the domain via Cloudflare
@@ -331,37 +331,37 @@ A very simple installer will appear before us, where we only need to set the log
 
 31. Scroll down, find _Automatic HTTPS Rewrites_, and also enable this feature.
 
-- ![](images/cf1.png)
+![](images/cf1.png)
     
-- ![](images/cf2.png)
+![](images/cf2.png)
     
-- ![](images/cf3.png)
+![](images/cf3.png)
     
-- ![](images/cf4.png)
+![](images/cf4.png)
     
-- ![](images/cf5.png)
+![](images/cf5.png)
     
-- ![](images/cf6.png)
+![](images/cf6.png)
     
-- ![](images/cf7.png)
+![](images/cf7.png)
     
-- ![](images/cf8a.png)
+![](images/cf8a.png)
     
-- ![](images/cf9.png)
+![](images/cf9.png)
     
-- ![](images/cf10.png)
+![](images/cf10.png)
     
-- ![](images/cf10a.png)
+![](images/cf10a.png)
     
-- ![](images/cf11.png)
+![](images/cf11.png)
     
-- ![](images/cf12.png)
+![](images/cf12.png)
     
-- ![](images/cf13.png)
+![](images/cf13.png)
     
-- ![](images/cf14.png)
+![](images/cf14.png)
     
-- ![](images/cf15.png)
+![](images/cf15.png)
     
 
 Done. We can now log out of _Cloudflare_ and proceed to the next step.
@@ -386,21 +386,21 @@ The same result as in _Cloudflare_ can be achieved by using, for example, _[Free
 
 15. Finally, a summary will be displayed where we can check if everything is correct.
 
-- ![](images/fdns1.png)
+![](images/fdns1.png)
     
-- ![](images/fdns2.png)
+![](images/fdns2.png)
     
-- ![](images/fdns3.png)
+![](images/fdns3.png)
     
-- ![](images/fdns4.png)
+![](images/fdns4.png)
     
-- ![](images/fdns5.png)
+![](images/fdns5.png)
     
-- ![](images/fdns6.png)
+![](images/fdns6.png)
     
-- ![](images/fdns7.png)
+![](images/fdns7.png)
     
-- ![](images/fnds8.png)
+![](images/fnds8.png)
     
 
 ## NGINX Proxy Manager

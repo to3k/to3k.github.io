@@ -172,18 +172,18 @@ It is also important not to forget to enable two-factor authentication during lo
 
 Dedicated _Nextcloud_ applications are available for _Windows_, _Linux_, _macOS_, _Android_, and _iOS_. All of them can be accessed through [this link](https://nextcloud.com/install/). Installation on each system is identical, so I will demonstrate the entire process on _macOS_. After installing the appropriate application, we launch it and on start-up, we are presented with a window where we select the _Log in to Nextcloud_ button. In the next window, we are asked to enter the server address, so we provide it and confirm with the _Next >_ button.
 
-- ![](images/nc1.webp)
+![](images/nc1.webp)
     
-- ![](images/nc2.webp)
+![](images/nc2.webp)
     
 
 We will be redirected to the browser, where we need to authenticate the new client.
 
-- ![](images/nc3-1.webp)
+![](images/nc3-1.webp)
     
-- ![](images/nc4.webp)
+![](images/nc4.webp)
     
-- ![](images/nc5.webp)
+![](images/nc5.webp)
     
 
 Finally, we return to the freshly installed _Nextcloud_ application, where we still need to perform the basic client configuration. We provide the folder in the local computer memory to which _Nextcloud_ should be connected. The rest can be changed according to ones preferences. Finally, we confirm by clicking the _Connect_ button and that's it. This configured client will update our files in real time, which means that when we modify, add, or delete a file on any device, these changes will be reflected on the server in a moment, and then on other connected devices.

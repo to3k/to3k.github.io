@@ -224,13 +224,13 @@ Obligacje skarbowe można nabywać za pomocą wielu domów maklerskich w różny
 
 Tak wygląda serwis transakcyjny do zakupu obligacji w ramach _Rachunku Rejestrowego_:
 
-- ![](images/obligacjepko1-1024x559.png)
+![](images/obligacjepko1-1024x559.png)
     
-- ![](images/obligacjepko2-1024x559.png)
+![](images/obligacjepko2-1024x559.png)
     
-- ![](images/obligacjepko3-1024x559.png)
+![](images/obligacjepko3-1024x559.png)
     
-- ![](images/obligacjepko4-1024x559.png)
+![](images/obligacjepko4-1024x559.png)
     
 
 Procedura zakupu obligacji skarbowych wygląda tak:
@@ -251,9 +251,9 @@ Procedura zakupu obligacji skarbowych wygląda tak:
 
 A tak wygląda część dotycząca _IKE-Obligacje_:
 
-- ![](images/obligacjepko5-1024x559.png)
+![](images/obligacjepko5-1024x559.png)
     
-- ![](images/obligacjepko6-1024x559.png)
+![](images/obligacjepko6-1024x559.png)
     
 
 Procedura zakupu obligacji skarbowych w kontekście konta _IKE-Obligacje_ wygląda tak:
