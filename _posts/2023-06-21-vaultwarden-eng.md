@@ -40,7 +40,7 @@ In this post, I will approach the matter similarly to the [article about _Nextcl
 
 3. [using Docker on any other server](#docker).
 
-![](images/vaultwarden2.png)
+![](/images/vaultwarden2.png)
 
 ## Running on YunoHost
 
@@ -48,7 +48,7 @@ The installation process will be similar to the one described in the [WriteFreel
 
 We start by logging into our _YunoHost_ admin panel and immediately go to _Applications_. Then, in the top right corner, click the green _\+ Install_ button, search for the _Vaultwarden_ application, and select it from the list. Scroll down to the _Installation settings_ section and begin the configuration:
 
-![](images/vaultwarden_yunohost2.png)
+![](/images/vaultwarden_yunohost2.png)
 
 1. In the text field _Label for Vaultwarden_ \[1\], enter the name under which you want to see this application on the list of applications in your YunoHost.
 
@@ -82,27 +82,27 @@ admin_token: [token]
 
 We copy the value _\[token\]_, which we will need to log in to the admin panel of _Vaultwarden_. At this stage, we no longer need the SSH connection to the server. The admin panel is accessible at the address, beginning with the address we selected for the _Vaultwarden_ application during installation, and ending with _/admin_. We enter the copied _token_ there, which will allow us to access the admin panel, where we immediately go to the _Users_ tab \[1\].
 
-![](images/vault1.png)
+![](/images/vault1.png)
 
 At the bottom, there is an _Invite User_ section. In the text field \[2\], enter your email address and confirm with the _Invite_ button \[3\].
 
-![](images/vault2.png)
+![](/images/vault2.png)
 
 The above action will result in a new user appearing on the list \[4\].
 
-![](images/vault3a.png)
+![](/images/vault3a.png)
 
 In the meantime, an invitation with an activation link will be sent to the provided email address. Click the _Join Organization Now_ button \[5\].
 
-![](images/vault4.png)
+![](/images/vault4.png)
 
 You will be redirected back to the browser, where you will see a message saying that you have been invited to the organization and can now proceed. Click the _Create an Account_ button \[6\].
 
-![](images/vault5a.png)
+![](/images/vault5a.png)
 
 We will be redirected to the standard registration form, where we provide an email address \[7\], username \[8\], password (twice) \[9\], and optionally a password hint \[10\]. In the end, we can also decide \[11\] whether we want our password to be checked against known password breaches. However, I use the website [HaveIBeenPwned.com](https://haveibeenpwned.com/) for this purpose, so I always uncheck this option. Confirm the filled form by clicking the _Create Account_ button \[12\].
 
-![](images/vault6a.png)
+![](/images/vault6a.png)
 
 ## Running as a Docker container
 
@@ -347,12 +347,12 @@ Creating backups is always a **very important matter**. However, having a backup
 
 In my case, besides taking care of backups, the configuration right after setting up my _vault_ consists of only two steps.
 
-![](images/vault7.png)
+![](/images/vault7.png)
 
 The first one is **enabling two-factor authentication during login**, because securing your passwords is essential. You can do this by expanding the user menu located in the upper right corner \[1\], entering _Account Settings_ \[2\], then on the left, the _Security_ tab \[3\], and _Two-Factor Authentication_ \[4\]. Here, you can configure security measures such as _TOTP_ (time-based one-time password apps), _Yubico_ hardware keys (_YubiKey_), or as a last resort (because it's the worst option) codes sent to your email inbox.
 
-![](images/vault8a.png)
+![](/images/vault8a.png)
 
 The second task is **migrating my password database**. The import tool can be found in the _Tools_ tab \[5\] under _Import Data_ \[6\].
 
-![](images/vault9.png)
+![](/images/vault9.png)

@@ -45,7 +45,7 @@ With this post, I'm starting a new series called _Outernet_. This name came to m
 
 I've mentioned _[Mastodon](https://joinmastodon.org/)_ many times on this blog. It's currently my favorite place on the Internet, and it fits perfectly with the _Outernet_ ideology. For those who haven't had the opportunity to read about it, I recommend my [post where I talk about what _Mastodon_ and the entire _Fediverse_](https://blog.tomaszdunia.pl/mastodon-eng/) are. In short, _Mastodon_ has a similar form to _Twitter_, but it is free from any algorithms that recommend some content and bombard us with it, while hiding other, often more valuable content, making it difficult to find. There are no intrusive ads, and inappropriate content can be easily filtered out by muting or completely banning it, not only on the level of a single account but also for entire instances that we consider unsuitable. I recommend starting your journey in this world by registering on one of the following instances, which I recommend:
 
-![](images/mastodon_logo.png)
+![](/images/mastodon_logo.png)
 
 - 🇵🇱 [101010.pl](https://101010.pl)
 
@@ -69,7 +69,7 @@ _Instagram_ is currently probably the most recognizable social network worldwide
 
 Instances recommended by me:
 
-![](images/pixelfed_logo-1024x1024.png)
+![](/images/pixelfed_logo-1024x1024.png)
 
 - 🇬🇧 [pixelfed.social](https://pixelfed.social)
 
@@ -83,7 +83,7 @@ Coming to the rescue is another service within the _Fediverse_ - _[Lemmy](https:
 
 Instances of _Lemmy_ recommended by me:
 
-![](images/lemmy_logo-1024x675.png)
+![](/images/lemmy_logo-1024x675.png)
 
 - 🇵🇱 [szmer.info](https://szmer.info)
 
@@ -91,7 +91,7 @@ Instances of _Lemmy_ recommended by me:
 
 When discussing alternatives to _Reddit_, it is impossible not to mention the _[kbin](https://kbin.pub)_ project, which is similar to _Lemmy_ but has a slightly different approach. I also recommend checking out these _kbin_ instances:
 
-![](images/kbin_logo.webp)
+![](/images/kbin_logo.webp)
 
 - 🇵🇱 [karab.in](https://karab.in)
 
@@ -103,7 +103,7 @@ I can't say much about _[Friendica](https://friendi.ca/)_ because I simply don't
 
 However, this is just my opinion, so I recommend everyone to try it out for themselves, and I can suggest the following instances:
 
-![](images/friendica_logo-1024x1024.png)
+![](/images/friendica_logo-1024x1024.png)
 
 - 🇵🇱 [soc.citizen4.eu](https://soc.citizen4.eu)
 
@@ -111,7 +111,7 @@ However, this is just my opinion, so I recommend everyone to try it out for them
 
 ## PeerTube as an alternative to YouTube
 
-![](images/peertube_logo-768x1024.png)
+![](/images/peertube_logo-768x1024.png)
 
 Are you an online content creator? Do you produce video content? Are you tired of _YouTube_ and looking for an alternative that will give you more control? _[PeerTube](https://joinpeertube.org)_ is the solution for you! In this case, it's hard for me to point out a specific instance to start with, as it depends on the topics that interest you. You can find a list of recommended instances sorted by topics [here](https://joinpeertube.org/instances). If you take your content creation seriously, I highly recommend creating your own instance to host your videos.
 
@@ -119,7 +119,7 @@ Are you an online content creator? Do you produce video content? Are you tired o
 
 Do you enjoy writing? There are solutions that allow your creativity to interact (federate) with the _Fediverse_ solutions. One of them is the platform _[WriteFreely](https://writefreely.org/)_, which I wrote about in one of my previous posts [here](https://blog.tomaszdunia.pl/writefreely-polska-eng/). In short, it enables you to create a blog in a very simple form, and they say that beauty lies in simplicity. Here are some recommended instances:
 
-![](images/writefreely_logo.png)
+![](/images/writefreely_logo.png)
 
 - 🇵🇱 [writefreely.pl](https://writefreely.pl)
 

@@ -44,7 +44,7 @@ Zacznijmy od tego, że w instalacjach domowych używa się obecnie najczęściej
 
 - **p** - żyły są ułożony na płasko jedna obok drugiej.
 
-![](images/ydyp.jpg)
+![](/images/ydyp.jpg)
 
 Jeżeli chodzi o konkretne rozmiary to w domowych zastosowaniach używa się w zasadzie tylko:
 
@@ -70,7 +70,7 @@ W dzisiejszych czasach standardem jest też puszczanie przewodów od puszki do p
 
 Do grzebania w przewodach potrzebujesz w zasadzie tylko jednego narzędzia - **ściągacza izolacji**, czy też jak kto woli szczypiec do usuwania izolacji. Ja nie jestem profesjonalistą i moim planem było zrobić tylko instalację we własnym domu, więc postanowiłem nie przepłacać i zdecydowałem się na rozwiązanie marketowe, czyli [szczypce firmy _Dexter_ ze sklepu _Leroy Merlin_](https://www.leroymerlin.pl/produkty/szczypce-do-usuwania-izolacji-200-mm-dexter-82887285.html).
 
-![](images/dexterszczypce.png)
+![](/images/dexterszczypce.png)
 
 Ogólnie wytrzymały ze mną do końca, ale chyba nie mogę ich polecić z jednej przyczyny. Nie radzą sobie ze ściąganiem głównej (białej) warstwy izolacji z przewodów 3x2.5 YDYp, więc musiałem sobie radzić tapeciakiem i uważać, żeby nie poranić przewodów wewnątrz. Po kilku razach doszedłem do takiej wprawy, że nawet szybciej obierałem przewody tapeciakiem niż robiłbym to szczypcami, ale ogólnie jednak jakbym miał wybierać drugi raz to kupiłbym coś z nieco wyższej półki po uprzednim sprawdzeniu recenzji i obejrzeniu kilku filmików na _YouTube_, które potwierdzałyby, że dane szczypce radzą sobie w pełni z przewodami pokroju 3x2.5. Dość mocno polecane aktualnie są [ściągacze firmy _Hoegert_](https://hoegert.com/produkt/automatyczny-sciagacz-izolacji-210-mm-0-05-10-0-mm2/). Widzę teraz, że są blisko dwa razy droższe od _Dexter'a_, ale jednak cena ok. 85-90 zł (za tyle widziałem je na popularnym portalu aukcyjnym) nie jest zabójcza. Natomiast jeżeli chodzi o ściąganie izolacji z samych poszczególnych żył to ten ściągacz _Dexter'a_ w zupełności mi wystarczył, nie miałem z nim żadnego problemu.
 
@@ -82,21 +82,21 @@ Każdy ściągacz ma regulowany zderzak, który w prosty sposób ustala na jakie
 
 Wartości podałem zarówno w milimetrach jak i calach, gdyż różne szczypce mają różne skale.
 
-![](images/nastawa_dexter.png)
+![](/images/nastawa_dexter.png)
 
 Wiemy już czym i jak przygotować przewody do łączenia. Przyszła pora na określenie sobie co je połączy. Ja postawiłem na **złączki firmy _WAGO_**, które są tematem dość kontrowersyjnym. Patrząc na opinie fachowców można znaleźć tyle samo zachwytów nad tym produktem co negatywnych opinii. Stara szkoła mówi skręć "na ryja", polutuj i zaaplikuj termokurczkę. Jest to na pewno najpewniejsze i niemalże wieczne rozwiązanie, o ile ktoś umie to dobrze zrobić. Jednakże jest bardzo czasochłonne i niezbyt wygodne. Z pomocą przychodzą tutaj złączki _WAGO_, którymi przewody można połączyć szybko, prosto i wygodnie.
 
 Są wtykane złączki _WAGO_ 2273-20X, ale nie jestem ich zwolennikiem, bo ich konstrukcja polega na tym, że w środku jest sprężysta blaszka, która zacina się na żyle przewodu i mam do tego dwa zastrzeżenia. Pierwsze to, że po każdym takim zacięciu uszkadzana jest żyła, a po drugie te blaszki podobno mają po czasie tendencje do odginania się i luzowania co powoduje, że nie ma styku. Brak styku jest o tyle niebezpieczny, że pojawia się iskrzenie i podnosi się temperatura połączenia, co może nawet powodować zapłon. Z pozoru są to złączki jednorazowe, ale można je zdemontować poprzez kilkukrotne obrócenie przewodu w jej wnętrzu i wyrwanie go. Jednakże tak jak mówiłem wychodzi nam z niej przewód z mocno porysowaną żyłą. Sporym ich plusem jest jednak cena.
 
-![](images/wago2273.png)
+![](/images/wago2273.png)
 
 Z uwagi na powyższe ja postawiłem na nieco droższe, ale według mnie lepiej skonstruowane **złączki z oznaczeniem 221-41X, czyli z dźwigienkami**.
 
-![](images/wago221crosssection.jpg)
+![](/images/wago221crosssection.jpg)
 
 Tutaj nieco inaczej rozwiązane jest blokowanie przewodu wewnątrz złączki. W środku jest odpowiednio zagięta sprężynująca blaszka dociskana dźwigienką, która nie dość że dociska to jeszcze jest skonstruowana tak, aby stale utrzymywać odpowiednią siłę i co za tym idzie prawidłowy styk. Nie traktujcie mojej opinii jako pewnika, ale według mnie jest to lepsze rozwiązanie. Złączki _WAGO_ tego typu występują w **trzech rozmiarach** - 2X (221-412), 3X (221-413) i 5X (221-415). To oznacza, że można nimi łączyć dwa, trzy lub pięć przewodów na raz.
 
-![](images/wago.jpg)
+![](/images/wago.jpg)
 
 ## Prawidłowe połączenie oświetlenia ze zwykłymi przełącznikami
 
@@ -106,13 +106,13 @@ Przejdźmy teraz do tego jak prawidłowo łączy się przewody instalacji oświe
 
 Zacznijmy od tego z **pojedynczą lampą**. Trzeba przyznać, że w Internecie jest cała masa różnych schematów, jednakże naprawdę ciężko było mi znaleźć taki, który jest schludny i zarazem prosty na tyle, aby zaspokoić moją nerwicę natręctw. Dlatego po prostu siadłem i postanowiłem, że schematy na potrzeby tego wpisu zrobię sobie sam.
 
-![](images/przelacznik1x.png)
+![](/images/przelacznik1x.png)
 
 Dla osób, które nie przepadają za językiem obrazkowym przedstawię pokrótce pisemnie to co widać na powyższym obrazku. Od lewej strony do puszki wchodzi nam zasilanie składające się z fazy L, przewodu neutralnego N i przewodu ochronnego PE, który dalej będę dla uproszczenia nazywał uziemieniem. Jeżeli chodzi o fazę to mamy trzy opcje. Jeżeli dana puszka jest już ostatnią w obwodzie to wystarczy podłączyć fazę bezpośrednio do przełącznika lub zrobić to poprzez złączkę _WAGO_ 2X i dodatkowy przewód. Natomiast jeżeli musimy przekazać zasilanie do kolejnej puszki to stosujemy złączkę _WAGO_ 3X, do której podpięte będą faza wchodząca, przewód idący do przełącznika oraz faza wychodząca jako zasilanie następnej puszki. Podobna sytuacja jest z przewodami neutralnym i uziemieniem, ale te zamiast do przełącznika idą bezpośrednio do lampy. Tutaj musimy zastosować złączki _WAGO_ 2X lub 3X. Ostatnim krokiem jest połączenie do przełącznika przewodu brązowego idącego do lampy. Przełącznik to tak naprawdę szalenie proste narzędzie, które po prostu rozłącza lub zwiera obwód doprowadzający fazę do lampy.
 
 Teraz pora na wariant z **dwoma lampami** (lub lampą podwójną) włączanymi z tego samego przełącznika, posiadającego dwa niezależne przyciski.
 
-![](images/przelacznik2x.png)
+![](/images/przelacznik2x.png)
 
 Tutaj główną różnicą jest to, że do lampy idzie przewód 4x1.5 YDYp, który posiada dwa przewody fazowe (brązowy i czarny), przewód neutralny (niebieski) i uziemienie (żółto-zielony). Do tego mamy przełącznik podwójny, do którego podłączanym trzy, a nie dwa przewody. Zaczynając od początku, fazę łączymy dokładnie tak samo jak wcześniej, czyli - _jeżeli dana puszka jest już ostatnią w obwodzie to wystarczy podłączyć fazę bezpośrednio do przełącznika lub zrobić to poprzez złączkę WAGO 2X i dodatkowy przewód. Natomiast jeżeli musimy przekazać zasilanie do kolejnej puszki to stosujemy złączkę WAGO 3X, do której podpięte będą faza wchodząca, przewód idący do przełącznika oraz faza wychodząca jako zasilanie następnej puszki._ Przewody neutralne łączymy analogicznie do tego jak robiliśmy to przy lampie pojedynczej, a jedyną różnicą jest to, że w 4x1.5 przewód neutralny ma zazwyczaj kolor szary zamiast niebieskiego. Uziemienie jest dokładnie tak samo i tutaj żadne kolory się nie zmieniają. Zatem w skrócie, jeżeli to ostatnia puszka w obwodzie to jedna złączka _WAGO_ 2X łączy przewód neutralny przychodzący do puszki jako zasilanie i przewód neutralny lampy, a drugą złączką _WAGO_ 2X łączymy uziemienie wchodzące do puszki i wychodzące do lampy. Natomiast jeżeli nie jest to ostatnia puszka w obwodzie to zamiast złączek _WAGO_ 2X musimy użyć 3X i dopiąć do tego jeszcze przewody neutralny i ochronny idące do następnej puszki. Na koniec zostaje jeszcze podpiąć dwa przewody fazowe (brązowy i czarny) idące do lampy bezpośrednio do przełącznika.
 
@@ -120,21 +120,21 @@ Tutaj główną różnicą jest to, że do lampy idzie przewód 4x1.5 YDYp, któ
 
 Chyba powinienem zacząć od tego czym w ogóle jest **_Shelly_**. Pozwolicie, że nie będę się skupiał na samej firmie, a raczej na produktach, które oferuje i to tylko tych, które będą nam potrzebne w temacie poruszanym w tym wpisie. Zacznijmy od modułów **_1PM Gen3_** i **_2PM Gen3_**.
 
-![](images/shelly1pm2pmgen3.png)
+![](/images/shelly1pm2pmgen3.png)
 
 Są to kompaktowe, inteligentne **przekaźniki, które umożliwiają zdalne sterowanie urządzeniami** zasilanymi napięciem 110-240 VAC lub 24-30 VDC oraz monitorowanie ich zużycia energii. Ich wymiary to zaledwie 37x42x16 mm. Są stworzone do tego, aby podłączyć i schować je w puszkach podtynkowych za gniazdkami lub przełącznikami światła. Dzięki wbudowanym modułom Wi-Fi i Bluetooth są **łatwe do integrowania z praktycznie każdym systemem smarthome**. Wersja Gen3 jest aktualnie najnowsza (choć w momencie pisania tego wpisu są już pogłoski o wersji Gen4), a wnosi obsługę standardu komunikacji **_Matter_**, który jest swoistym przełomem w zakresie IoT, gdyż ma spajać jeszcze do niedawna bardzo pofragmentowany rynek różnych rozwiązań, które nie były ze sobą kompatybilne.
 
 Kolejną fajnym produktem od _Shelly_ są **_Wall Switch'e_**, czyli przełączniki **dedykowane** właśnie do powyższych modułów. Istotne w ich kontekście jest to, że są to **przyciski monostabilne**, czyli takie które zmieniają swój stan tylko na krótki czas podczas naciśnięcia. Po zwolnieniu automatycznie wracają do pierwotnej pozycji. Przykładem może być przełącznik dzwonkowy. Mówię o tym, gdyż standardowy przełącznik światła jest bistabilny, czyli ma tak jakby dwie pozycje, w których można go ustawić (światło włączone lub wyłączone).
 
-![](images/shellywallswitch.png)
+![](/images/shellywallswitch.png)
 
 Na plus jest to, że do każdego takiego przycisku **dostajemy w zestawie dedykowane uchwyty** do odpowiednich modułów przekaźnikowych _Shelly_, co sprawia, że **zyskujemy naprawdę sporo miejsca wewnątrz puszki**. Każdy kto chociaż raz instalował coś w puszce podtynkowej wie jak ciasno tam jest i jak trudno ułożyć jest te wszystkie sztywne przewody. Zmieszczenie modułu przekaźnikowego _Shelly_ i do tego zwykłego przełącznika, który ma swoje bebechy (dupkę), jest przeważnie nie lada wyzwaniem. W przypadku tandemu przełącznika i modułu zamontowanego do niego na dedykowanym uchwycie ten problem jest dość istotnie zminimalizowany.
 
-![](images/shellyswitchadapter.png)
+![](/images/shellyswitchadapter.png)
 
 Warte wspomnienia jest także to, że _Wall Switch'e_ sprzedawane są oczywiście **bez ramek, więc trzeba je dokupić** osobno. Oczywiście musimy tutaj użyć ramek od _Shelly_, bo (chyba) tylko one pasują do przełączników tej firmy, chodzi głównie o mocowanie. Przestrzegam jednak, że istnieją tylko ramki pojedyncza, podwójna i potrójna. Większych krotności nie ma, a jednak do takich zwykłych przełączników i gniazdek standardowo występują jeszcze poczwórne i w niektórych instalacjach mają one zastosowanie. Ramki znajdziemy pod nazwą **_Wall Frame_**. To co jeszcze jest warte wspomnienia to to, że ramki _Shelly_ mają wykończenie szklane, tj. płytka wokół przycisku jest wykonana właśnie ze szkła. Mówię o tym, gdyż wielu osobom na pewno się to nie spodoba lub jest istotnym aspektem.
 
-![](images/shellywallframes.png)
+![](/images/shellywallframes.png)
 
 W swoim domu w oparciu o produkty _Shelly_ robię tylko oświetlenie, więc poszukiwałem zwykłych gniazdek i ramek, które będą możliwie jak najbardziej pasowały wyglądem. Jako ciekawostkę mogę zdradzić wyniki tych poszukiwań. Okazało się, że ramki z [serii _Flavia_ ze sklepu _Leroy Merlin_](https://www.leroymerlin.pl/produkty/ramka-pojedyncza-flavia-bialy-elektro-plast-87958185.html) najbardziej pasują w mojej ocenie do design'u _Shelly Wall Frame_. Porównałem wymiary, przekrój oraz odcień szkła.
 
@@ -142,7 +142,7 @@ W swoim domu w oparciu o produkty _Shelly_ robię tylko oświetlenie, więc posz
 
 Wracamy do kabelków i schematów połączenia. W pierwszej kolejności na tapet weźmy **oświetlenie pojedyncze, w którym wykorzystamy moduł przekaźnikowy _Shelly 1PM Gen3_**.
 
-![](images/przelacznik-shelly1pm.png)
+![](/images/przelacznik-shelly1pm.png)
 
 Moduł przekaźnikowy _Shelly 1PM_ ma następujące wejścia/wyjścia:
 
@@ -176,7 +176,7 @@ Uziemienie łączymy tak samo jak przy zwykłym przełączniku, czyli w złączc
 
 Jeżeli chodzi o **oświetlenie podwójne to wykorzystamy moduł przekaźnikowy _Shelly 2PM Gen3_** i podpinamy go następująco.
 
-![](images/przelacznik-shelly2pm.png)
+![](/images/przelacznik-shelly2pm.png)
 
 Jeżeli chodzi o główne różnice, które widać już na pierwszy rzut oka, to mamy tutaj dwa niezależne wyjścia na lampę (O1 i O2) oraz dwa wejścia sterujące (S1 i S2). Na minus jest to, że oba moduły mają tyle samo przyłączy, a więc moduł 2PM ma tylko dwa przyłącza fazowe i jedno neutralne, co indukuje potrzebę zastosowania większej ilości złączek _WAGO_, bo nie jesteśmy w stanie zmostkować tylu rzeczy w samym module przekaźnikowym. Z kosztowego punktu widzenia nie ma z tym większego problemu, ale większa ilość złączek _WAGO_ zawsze oznacza większe problemy z upchnięciem tego wszystkiego w puszce.
 
@@ -240,23 +240,23 @@ Jeżeli połączenie modułu do sieci domowej przebiegło pomyślnie to możemy 
 
 To w zasadzie tyle jeżeli chodzi o podstawową konfigurację. Ja dalej swoje moduły _Shelly_ zintegrowałem jeszcze z domowym serwerem _**Home Assistant**_, ale to już temat na oddzielny wpis. Poniżej załączam jeszcze kilka zrzutów ekranu, które powinny wizualnie dopełnić powyższy opis.
 
-- ![](images/shelly1.png)
+![](/images/shelly1.png)
     
-- ![](images/shelly2.png)
+![](/images/shelly2.png)
     
-- ![](images/shelly3.png)
+![](/images/shelly3.png)
     
-- ![](images/shelly4.png)
+![](/images/shelly4.png)
     
-- ![](images/shelly5.png)
+![](/images/shelly5.png)
     
-- ![](images/shelly6.png)
+![](/images/shelly6.png)
     
-- ![](images/shelly7.png)
+![](/images/shelly7.png)
     
-- ![](images/shelly8.png)
+![](/images/shelly8.png)
     
-- ![](images/shelly9.png)
+![](/images/shelly9.png)
     
 
 ## No dobrze, ale ile to kosztuje?

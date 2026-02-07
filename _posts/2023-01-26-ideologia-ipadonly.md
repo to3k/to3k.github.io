@@ -42,7 +42,7 @@ W połowie 2022 roku kupiłem iPada Air 5 gen., wyposażonego w 64GB pamięci, w
 
 <figure>
 
-![](images/98F08CC1-0AFC-49C8-BA3D-9A4CAECAA948-1024x551.jpeg)
+![](/images/98F08CC1-0AFC-49C8-BA3D-9A4CAECAA948-1024x551.jpeg)
 
 <figcaption>
 
@@ -64,9 +64,9 @@ Sam iPad to nie wszystko co jest nam potrzebne, aby zrobić z niego (prawie) pe�
 
 <figure>
 
-![](images/6185BAAE-920A-4183-B651-E6BE19F45B25.jpeg)
+![](/images/6185BAAE-920A-4183-B651-E6BE19F45B25.jpeg)
 
-![](images/2765883C-7B95-4653-8416-34E7E04BBC94.jpeg)
+![](/images/2765883C-7B95-4653-8416-34E7E04BBC94.jpeg)
 
 <figcaption>
 
@@ -80,7 +80,7 @@ Dla bardziej kreatywnych i uzdolnionych manualnie (czyli nie dla mnie...) jest j
 
 <figure>
 
-![](images/28E93070-8F30-442E-9563-6F34ACA56F19-1024x202.jpeg)
+![](/images/28E93070-8F30-442E-9563-6F34ACA56F19-1024x202.jpeg)
 
 <figcaption>
 
@@ -94,7 +94,7 @@ Jeżeli chodzi o mysz to w moim przypadku nie miałaby ona zastosowania, bo nawi
 
 <figure>
 
-![](images/EFF08EF2-4F81-493E-A2CB-01C6B4CA306F.jpeg)
+![](/images/EFF08EF2-4F81-493E-A2CB-01C6B4CA306F.jpeg)
 
 <figcaption>
 

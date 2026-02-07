@@ -37,7 +37,7 @@ Popularność sieci społecznościowej _Mastodon_ stale rośnie, a kolejni ludzi
 
 <figure>
 
-[![](images/51B6E920-BF00-48A7-A73D-F41A710701BD.jpeg)](https://mastodon.tomaszdunia.pl)
+[![](/images/51B6E920-BF00-48A7-A73D-F41A710701BD.jpeg)](https://mastodon.tomaszdunia.pl)
 
 <figcaption>
 
@@ -53,7 +53,7 @@ Jest wiele sposobów na uruchomienie swojej instancji. Można to zrobić na serw
 
 Jednakże istnieje jeszcze jeden sposób, który nazwałbym dedykowanym **dla osób nietechnicznych**, lub po prostu nie mających ochoty poświęcać kilku wieczorów na walkę z ciągle niedziałającą konfiguracją, czytanie dokumentacji czy też szukanie rozwiązania problemu na _StackOverflow_ i wkurzania się, że tak naprawdę był banalny do rozwiązania. Tym sposobem jest skorzystanie z tzw. _**Managed Hosting'u**_ (z ang. _hosting zarządzany_). Polega to na tym, że płacimy komuś za uruchomienie dla nas _instancji_, wykonanie podstawowej konfiguracji i późniejsze pilnowanie jej prawidłowego działania. Plusem tego rozwiązanie jest to, że zostaniemy poprowadzeni za rączkę, a więc **nie jest od nas wymagana praktycznie żadna wiedza techniczna**. Do tego nie wychodzi to bardzo drogo, bo na moim przykładzie mogę powiedzieć, że **kosztuje to 5 euro miesięcznie** (w przeliczeniu na złotówki to niecałe 25 zł). Minus to **brak dostępu do maszyny**, na której stoi _instancja_, a także brak dostępu do jej kodu. **Odbiera to możliwość bardziej zaawansowanej konfiguracji i personalizacji**.
 
-![](images/41FF57F4-B837-441B-BFF8-6768BCA5D90D.jpeg)
+![](/images/41FF57F4-B837-441B-BFF8-6768BCA5D90D.jpeg)
 
 ## Przebieg tworzenia mojej instancji
 

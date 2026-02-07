@@ -24,7 +24,7 @@ However, yesterday a new _Twitter_ policy was implemented, which introduced the 
 
 And that's not all, as the next step planned by _Elon_ is the introduction of additional limits that will define how many tweets one can read per day.
 
-![](images/IMG_0107.jpeg)
+![](/images/IMG_0107.jpeg)
 
 According to Elon's tweet, there will be 6000 tweets per day for verified accounts, which are the ones paying for the _Twitter Blue_ subscription, 600 tweets for unverified accounts, and 300 tweets for new accounts. No respectable developer will pay $8 per month for access to this ridiculously small limit of 6000 tweets. However, a limit of 600 is too small even for an average user.
 

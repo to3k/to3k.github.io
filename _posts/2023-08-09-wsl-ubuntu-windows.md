@@ -30,7 +30,7 @@ Aby móc zainstalować _Ubuntu_ wewnątrz systemu operacyjnego Windows musimy w 
 
 Dalej już niestety jest mi nieco trudniej wskazać prawidłową drogę, gdyż tyle ile komputerów tyle różnych ułożeń ustawień w _BIOS_/_UEFI_. Tak samo mogę powiedzieć, że dla komputerów z procesorem _Intel_ szukamy opcji nazywającej się _Inter(R) Virtualization Technology_, którą należy włączyć (ustawić na _Enabled_), jednakże nie wiem jak będzie nazywać się odpowiednik tego dla urządzeń z procesorami AMD. Wychodzi na to, że każdy będzie musiał wygooglować to we własnym zakresie.
 
-![](images/winubu1-scaled.jpg)
+![](/images/winubu1-scaled.jpg)
 
 Poza włączeniem wirtualizacji musimy jeszcze zainstalować [Microsoft Visual C++](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B), które jest niezbędnym składnikiem. Wystarczy pobrać plik instalacyjny z [tej strony](https://learn.microsoft.com/pl-pl/cpp/windows/latest-supported-vc-redist?view=msvc-170) i zainstalować.
 
@@ -38,7 +38,7 @@ Poza włączeniem wirtualizacji musimy jeszcze zainstalować [Microsoft Visual C
 
 Wchodzimy do _PowerShell'a_, czyli windowsowego terminala. Istotne jest, aby uruchomić go jako administrator.
 
-![](images/winubu2.png)
+![](/images/winubu2.png)
 
 Instalujemy _WSL_ (skrót od _Windows Subsystem for Linux_, z ang. _Podsystem systemu Windows dla systemu Linux_), korzystając z polecenia:
 
@@ -46,15 +46,15 @@ Instalujemy _WSL_ (skrót od _Windows Subsystem for Linux_, z ang. _Podsystem sy
 wsl --install
 ```
 
-![](images/winubu3.png)
+![](/images/winubu3.png)
 
 Po poprawnym zakończeniu instalacji konieczne jest ponowne uruchomienie komputera. Po wznowieniu pracy systemu wchodzimy do _Microsoft Store_, w pole tekstowe wyszukiwarki wpisujemy _Ubuntu_ i przechodzimy do strony aplikacji, z której poziomu możemy zainstalować i uruchomić środowisko _Ubuntu_. Po zainstalowaniu jest ono także dostępne normalnie z poziomu _menu Start_ lub jeżeli utworzyliśmy odpowiednią ikonę na pulpicie. W _Microsoft Store_ mamy także możliwość zainstalowania konkretnej wersji _Ubuntu_ np. 22.04 LTS lub 20.04 LTS, daje to wybór, w przypadku kiedy chcemy taką konkretną wersję, a nie inną.
 
-![](images/winubu4.png)
+![](/images/winubu4.png)
 
 Po skorzystaniu z przycisku _Otwórz_, uruchomione zostanie okno terminala, w którym rozpocznie się docelowa instalacja. W jej trakcie musimy paodać nazwę użytkownika oraz dwukrotnie hasło. Po poprawnym zakończeniu całego procesu uzyskamy dostęp do powłoki, która niczym nie różni się od systemu _Ubuntu_ postawionego np. na _Raspberry Pi_.
 
-![](images/winubu5.png)
+![](/images/winubu5.png)
 
 ## Podsumowanie
 

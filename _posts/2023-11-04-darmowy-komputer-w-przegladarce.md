@@ -118,17 +118,17 @@ Skutkiem powyższych działań jest posiadanie komputera, który:
 
 Czego chcieć więcej? Zobacz jeszcze jak to wygląda w praktyce na zrzutach ekranu, które sam zrobiłem na potrzeby tego wpisu.
 
-- ![](images/OracleDWS1.png)
+![](/images/OracleDWS1.png)
     
-- ![](images/OracleDWS2.png)
+![](/images/OracleDWS2.png)
     
-- ![](images/OracleDWS3.png)
+![](/images/OracleDWS3.png)
     
-- ![](images/OracleDWS4.png)
+![](/images/OracleDWS4.png)
     
-- ![](images/OracleDWS5.png)
+![](/images/OracleDWS5.png)
     
 
 Na potwierdzenie, że _XFCE_ jest bardzo oszczędnym środowiskiem, mam jeszcze zrzut ekranu z menedżera zadań, który pokazuje jakie jest aktualne wykorzystanie zasobów. W trybie _idle_ (maszyna jest włączona i nie robi nic spektakularnego poza podstawowymi rzeczami) zużycie procesora zostało obliczone na 2%, a pamięci operacyjnej _RAM_ na 1.3GB z 24GB (6%). Pozostały nadmiar zasobów można wykorzystać do uruchamiania tego czego się potrzebuje lub ma się ochotę uruchomić.
 
-![](images/OracleDWS6.png)
+![](/images/OracleDWS6.png)

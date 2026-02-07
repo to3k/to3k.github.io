@@ -63,25 +63,25 @@ Actions to be performed before flashing _Droidian_:
 
 Interestingly, _Droidian_ can be installed using the same program as _Ubuntu Touch_ - _UBports Installer_. Just like in the case of _Ubuntu Touch_, I will show the process using screenshots below.
 
-- ![](images/ubp1-1024x771.png)
+![](/images/ubp1-1024x771.png)
     
-- ![](images/ubp2-1024x772.png)
+![](/images/ubp2-1024x772.png)
     
-- ![](images/droidian1-1024x771.png)
+![](/images/droidian1-1024x771.png)
     
-- ![](images/droidian2-1024x772.png)
+![](/images/droidian2-1024x772.png)
     
-- ![](images/ubp5-1024x771.png)
+![](/images/ubp5-1024x771.png)
     
-- ![](images/ubp6-1024x771.png)
+![](/images/ubp6-1024x771.png)
     
-- ![](images/droidian3-1024x771.png)
+![](/images/droidian3-1024x771.png)
     
-- ![](images/ubp8-1024x772.png)
+![](/images/ubp8-1024x772.png)
     
-- ![](images/droidian9-1024x771.png)
+![](/images/droidian9-1024x771.png)
     
-- ![](images/droidian10-1024x772.png)
+![](/images/droidian10-1024x772.png)
     
 
 ## Droidian - first impressions
@@ -90,47 +90,47 @@ I have to admit that when writing my first impressions about _Ubuntu Touch_, whi
 
 Let's start with the basics. _Droidian_ comes with several pre-installed applications. However, I quickly got rid of most of them because I had a completely different use in mind for this device. For example, I removed the calling and SMS apps because my _Pixel_ has a _SIM_ card that can only use the _GSM_ data transmission service, so having those apps didn't make sense in my case. Nevertheless, if someone intends to use _Droidian_ as their daily solution, it's worth noting that it's possible. Additionally, just like in the case of _Ubuntu_, functions such as _Wi-Fi_, data transmission, _Bluetooth_, _GPS_, and even a flashlight work. I believe that just a few days ago, some patches were released to add the automatic screen brightness and automatic screen orientation (vertical and horizontal orientation), which were previously unavailable. However, there are a few things that worked on _Ubuntu Touch_ but don't work on _Droidian_. For example, the fingerprint reader and the camera. I admit that the fingerprint reader could be useful to me, but it's not like there's no prospect of adding this feature, as it seems that the fingerprint reader can physically work normally, but there is simply no software support for this feature at the moment, and it could appear at any time because it's evident that _Droidian_ (or rather _Mobian_, of which _Droidian_ is a fork) is constantly being actively developed.
 
-![](images/podstawoweapki.png)
+![](/images/podstawoweapki.png)
 
-![](images/about.png)
+![](/images/about.png)
 
-![](images/transmisjadanych.png)
+![](/images/transmisjadanych.png)
 
-![](images/prywatnosc.png)
+![](/images/prywatnosc.png)
 
 In my opinion, the main advantages of _Droidian_ are the desktop version of _Firefox_ and the unrestricted _Linux Terminal_. Most people probably wonder how to use a browser designed for a completely different screen size. It can be quite challenging at times because scaling is often a significant issue. However, it can be partially overcome by changing the interface _Zoom_ to 50%. As for the _Terminal_, the experience is similar to a freshly installed _minimal Debian_. You need to perform basic tasks like changing the password (default is _1234_), the first update, configuring APT repositories, and installing _Flatpak_ and _Snap_. But afterwards, the system is ready to use.
 
-![](images/firefoxzoom.png)
+![](/images/firefoxzoom.png)
 
-![](images/firefoxblog.png)
+![](/images/firefoxblog.png)
 
-![](images/terminalneofetch.png)
+![](/images/terminalneofetch.png)
 
-![](images/htop.png)
+![](/images/htop.png)
 
 I had no problem installing applications like _Bitwarden_ (password manager), _Thunderbird_ (email client), _Fractal_ (Matrix client), _Pure Maps_ (maps), _Nextcloud_ (network drive), _gEdit_ (text editor), or even _Spot_ (Spotify client). All of the mentioned applications work exceptionally well.
 
-![](images/bitwarden.png)
+![](/images/bitwarden.png)
 
-![](images/thunderbird.png)
+![](/images/thunderbird.png)
 
-![](images/fractalmatrix.png)
+![](/images/fractalmatrix.png)
 
-![](images/mapy1.png)
+![](/images/mapy1.png)
 
-![](images/mapy2.png)
+![](/images/mapy2.png)
 
-![](images/nextcloud-1.png)
+![](/images/nextcloud-1.png)
 
-![](images/gedit.png)
+![](/images/gedit.png)
 
-![](images/spotify.png)
+![](/images/spotify.png)
 
 There are also some applications that have defeated me a bit. What hurts the most is that I haven't been able to successfully install any _Signal_ client (messenger). There is something called _Axolotl_ which I managed to run at some point, but then there was an update and it no longer starts. As a second example, I will mention _KeePassXC_ (password manager), although the situation here is different in that there is no problem with installation or launching, but only with the fact that the application does not scale in any way, so using it in portrait or landscape mode is rather impossible. Finally, _Filezilla_ (FTP client), which has the same issue as _KeePassXC_ after the first launch, but in this case, we can solve it by adjusting the settings in the View tab, where we need to disable all unnecessary interface elements, and then using it in landscape orientation is possible.
 
-![](images/keepassxc.png)
+![](/images/keepassxc.png)
 
-![](images/filezilla.png)
+![](/images/filezilla.png)
 
 This is not to say that I take all failures negatively. On the contrary, it's great fun! On the internet, you can find a huge number of forks and ports of various applications that developers try to adapt for _Mobian_. Anyone who enjoys tinkering with _Linux_ systems will surely excel in this. The official list of applications (better or worse adapted) can be found [here](https://wiki.mobian.org/doku.php?id=apps).
 

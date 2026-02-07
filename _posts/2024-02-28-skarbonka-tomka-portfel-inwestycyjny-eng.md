@@ -86,7 +86,7 @@ In summary, we can assume the following **assumptions for the _10-Year Portfolio
 
 How I'll invest within this portfolio will probably change because a 10-year portfolio can't really be called long-term, so the method of establishing fixed weights for individual assets and sticking to them in anticipation that markets are cyclical and sooner or later each asset will peak won't work here. I need to optimize the investment strategy so that after exactly these 10 years, I'll have accumulated as much funds as possible, which I'll withdraw and use to overpay the mortgage through a single shot made precisely between the 120th and 121st installment of my loan. It seems to me that initially, I'll take advantage of the fact that you can still get high-yielding treasury bonds, which will probably soon become obsolete because inflation is clearly falling. So I'll pump into bonds as much as possible while they're good, and then I'll see. I think the final model portfolio, the one I'll be aiming for, **will consist of 70% treasury bonds, 15% stocks from developed world markets, and 15% stocks from emerging world markets**.
 
-![](images/Skarbonka-Tomka-Portfel-10-letni-2-1024x667.png)
+![](/images/Skarbonka-Tomka-Portfel-10-letni-2-1024x667.png)
 
 ## Emergency Fund
 
@@ -108,7 +108,7 @@ Let's now summarize the **assumptions regarding the _Emergency Fund_:**
 
 We now know the basic tasks of the _Emergency Fund_, the required access to it, and its size, so now we need to consider how to store it. _Marcin Iwuć_ suggests in his book allocating 25% of this sum to deposits and/or savings accounts and 75% to inflation-indexed treasury bonds. However, I hate financial products like savings accounts, and deposits will never even keep up with inflation, let alone outpace it. I understand the approach of investing 25% of the emergency fund's value in these investment forms because they allow very quick withdrawal and access to these funds. However, remember that this also has a downside: while you can break a deposit at any time, unfortunately, it means losing all accrued interest (in theory, not completely all, because the interest rate drops to, for example, 0.1%, and there will be some interest, but it's pennies, so it's not worth considering). With treasury bonds, it's a bit different because while you can't withdraw money from them in 1-2 days, it's more like 5-7, but with early bond redemption, we only lose the amount specified in the issuance document, e.g., 0.70-2 PLN per 100 PLN bond, but all profits earned up to the point of early redemption are paid out to us. That's why **I intend to keep my entire _Emergency Fund_ in inflation-indexed treasury bonds**.
 
-![](images/Skarbonka-Tomka-Poduszka-Bezpieczenstwa-1024x667.png)
+![](/images/Skarbonka-Tomka-Poduszka-Bezpieczenstwa-1024x667.png)
 
 ## Retirement Portfolio
 
@@ -128,7 +128,7 @@ In addition to the _10-year Portfolio_ and the _Emergency Fund_, I've decided to
 
 This portfolio will be inherently slightly more aggressive since I still have some time until I reach the age of 65 and can experiment a bit. This is a well-known tactic that involves adjusting the risk level depending on one's age. This system assumes that a 20-year-old should invest only 20% of their savings in assets considered safe (e.g., bonds, deposits, or gold) and as much as 80% in assets with a much higher risk level (e.g., stocks, commodities, or currencies). Similarly, for an 80-year-old, this proportion would be reversed, i.e., 80% safe, and 20% risky. Assuming these premises, only a 100-year-old should switch everything to bonds. Of course, I don't plan to be that crazy, so I've decided to split this portfolio 50/50. 50% of its value will consist of treasury bonds dressed in a tax umbrella such as [_IKE_ (which I've written about before)](https://blog.tomaszdunia.pl/emerytura2/), and the other half will be invested in stocks in the most diversified way possible. I'll expand on this topic in one of the upcoming posts that I have planned. So, I envision the **model composition of the _Retirement Portfolio_ as follows - 50% treasury bonds, 25% stocks of developed world markets, 25% stocks of emerging markets**.
 
-![](images/Skarbonka-Tomka-Portfel-Emerytalny-1024x667.png)
+![](/images/Skarbonka-Tomka-Portfel-Emerytalny-1024x667.png)
 
 ## Is this a good plan?
 

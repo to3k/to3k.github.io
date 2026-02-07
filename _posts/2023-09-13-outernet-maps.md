@@ -38,9 +38,9 @@ _[OpenStreetMap](https://www.openstreetmap.org)_ to projekt społeczny, który p
 
 [_Organic Maps_](https://organicmaps.app/) to aplikacja dostępna zarówno w sklepach [_App Store_](https://apps.apple.com/app/organic-maps/id1567437057), [_Google Play_](https://play.google.com/store/apps/details?id=app.organicmaps), [_App Gallery_](https://appgallery.huawei.com/#/app/C104325611) (_Huawei_) jak i w katalogu [_F-Droid_](https://f-droid.org/pl/packages/app.organicmaps/). Jest to _fork_ (co można wytłumaczyć jako oprogramowanie, które powstało na bazie jakiegoś kodu źródłowego, przeważnie otwartego, i jest teraz modyfikowane i aktualizowane przez nowego dewelopera jako odłam od pierwotnego rozwiązania) aplikacji Maps.me, którą lubiłem i używałem dość długo nie wiedząc o tym, że jest to oprogramowanie wykupione przez jedną z największych rosyjskich korporacji (ha tfu). Moja przygoda z Maps.me zakończyła się, gdy pewnego dnia przez zupełny przypadek napisałem o niej na _[Mastodonie](https://mastodon.tomaszdunia.pl/@to3k)_ i jeden z obserwujących ([pozdrawiam Vitali!](https://mastodon.social/@vb)) zwrócił mi uwagę na konotacje tej aplikacji z Mail.ru Group i polecił od razu właśnie _Organic Maps_. Jako, że jest to _fork_ to przejście z używania jednej aplikacji na używanie drugiej można porównać do przesiadki z zielonego Fiata Seicento do czerwonego Fiata Seicento z przyciemnianymi szybami, bo aplikacja _Organic Maps_ jest nakierowane właśnie na zachowanie maksymalnej prywatności swoich użytkowników. Obrazuje to idealnie porównanie jakich uprawnień wymaga _Organic Maps_ (pierwszy zrzut ekranu) w odniesieniu do _Maps.me_ (drugi zrzut ekranu).
 
-![](images/organicmapspermissions.jpg)
+![](/images/organicmapspermissions.jpg)
 
-![](images/mapsmepermissions.jpg)
+![](/images/mapsmepermissions.jpg)
 
 Polecam zwrócić uwagę i zastanowić się po co aplikacji z mapami dostęp do takich rzeczy jak: aparat, mikrofon, kontakty, pamięć całego urządzenia, NFC, historia połączeń WiFi, Advertising ID (taki identyfikator jak dla bydła, ale służący do personalizacji reklam) czy hardware odpowiedzialny za biometrię... Takie uprawnienia wymaga _Maps.me_, gdy aplikacja wyglądająca tak samo i wykonująca tę samą pracę potrzebuje tylko podstawowe uprawnienia wynikające z tego do czego jest używana (lokalizacja, praca w tle, blokowanie telefonu przed wygaszeniem ekranu, pokazywanie powiadomień czy uruchomienie po włączeniu telefonu).
 
@@ -48,17 +48,17 @@ Dobra, myślę, że leżące _Maps.me_ skopałem już wystarczająco mocno, wię
 
 Mi _Organic Maps_ imponuje głównie przy dwóch czynnościach. Pierwsza z nich to, gdy muszę znaleźć konkretny blok na bardzo zatłoczonym osiedlu. Oznaczenia bloków są bardzo jasne i precyzyjne. Drugi temat to naprawdę solidne oznaczenie szlaków w górach oraz, co dla mnie ważniejsze, ścieżek w lesie, które nigdy mnie nie zawiodło, a są dostępne nawet dla naprawdę mało popularnych terenów. Co ciekawe na tych ścieżkach można ustawić normalną trasę z punktu A do B (z ewentualnymi przystankami) i odpalić nawigację po niej.
 
-![](images/IMG_2213.jpeg)
+![](/images/IMG_2213.jpeg)
 
-![](images/IMG_2214.jpeg)
+![](/images/IMG_2214.jpeg)
 
-![](images/IMG_2217.jpeg)
+![](/images/IMG_2217.jpeg)
 
-![](images/IMG_2216.jpeg)
+![](/images/IMG_2216.jpeg)
 
-![](images/IMG_2215.jpeg)
+![](/images/IMG_2215.jpeg)
 
-![](images/IMG_2218.jpeg)
+![](/images/IMG_2218.jpeg)
 
 Przez ostatnie kilka dni testowałem _Organic Maps_ jako główną mapę w _CarPlay_ i mam następujące spostrzeżenia.
 
@@ -82,4 +82,4 @@ Przez ostatnie kilka dni testowałem _Organic Maps_ jako główną mapę w _CarP
 
 - Aplikacja nie pojawia się na pasku ostatnio używanych po lewej (częściowo jest to połączone z tym, że działa tylko w trybie pełnoekranowym
 
-![](images/IMG_2237.png)
+![](/images/IMG_2237.png)

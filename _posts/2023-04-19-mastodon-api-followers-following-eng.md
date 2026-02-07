@@ -65,7 +65,7 @@ _Instance address_ in my case would be _mastodon.tomaszdunia.pl_. And how do I k
 
 So let's construct the appropriate URL - [https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k](https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k). After running it in the browser, we will receive a _JSON_ object as a response from the server (I mentioned this format in [these posts](https://blog.tomaszdunia.pl/tag/json/)). In the Firefox browser, which is my primary development tool, it looks like this:
 
-![](images/mastodonapijson1.png)
+![](/images/mastodonapijson1.png)
 
 I indicated the searched ID with a red arrow on the above screenshot. We take this _ID_ and create a link that is a request for a list of followers - [https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers](https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers). In this way, we obtained a _JSON_ object that is an array with information about 40 accounts that follow me on _Mastodon_. Let's modify this link by adding the _limit_ parameter at the end to get twice as many results (the maximum value we can get is _80_) - [https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers?limit=80](https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers?limit=80). What if someone has more than 80 followers and wants to get the whole list? For this, we need to use _pagination_, but more about that later in the post.
 
@@ -77,7 +77,7 @@ This phrase comes from the English word _pagination_ and in this context refers 
 
 Let's assume I have 800 followers. Using the link - [https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers?limit=80](https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers?limit=80) - which we constructed earlier, we get in response from the server a list of 80 accounts that follow me on _Mastodon_. These accounts are sorted chronologically, starting from the most recent follower (the person who started following me last). So, we already have 1/10 of the list of my followers. How can we then move to the next page and learn about the followers from 81 to 160? We need to determine what the _URL_ of the next page will be, and we get this information in the header of the _API_ response. Specifically, it is contained in a parameter called _link_. In Firefox, simply switch from _JSON_ to _Headers_ and we will get something similar to this:
 
-![](images/mastodonapijson2.png)
+![](/images/mastodonapijson2.png)
 
 Let's get the value of this header parameter:
 
@@ -411,6 +411,6 @@ You can do this manually once to understand the whole mechanism. However, we nee
 
 The script's output:
 
-![](images/masto-get-followers-following.png)
+![](/images/masto-get-followers-following.png)
 
 The script is also available on [my GitHub](https://github.com/to3k/mastodon-api/blob/main/masto-get-followers-following.php).

@@ -36,7 +36,7 @@ Z obawy przed spamem i złośliwymi aktorami zrezygnowałem z całkowicie otwart
 
 Przy użyciu tego zaproszenia każdy użytkownik może również zaprosić swoich znajomych. To zaproszenie nie ma ograniczeń ilościowych, ani też nie jest ograniczone czasowo. Po wejściu w link nastąpi przekierowanie do strony, na której można założyć swoje konto. Jedyne co jest potrzebne to login i hasło. Jest możliwość podania także adresu e-mail, ale nie jest to w żaden sposób wymagane. Istotnym jest, aby podkreślić, że przy takim podejściu w przypadku zgubienia/zapomnienia hasła traci się dostęp do swojego konta bez możliwości zresetowania hasła lub odzyskania go w żadnej inny sposób. To polityka twórców platformy _WriteFreely_, a nie moja, choć w pełni rozumiem takie podejście, bo jednym z głównych założeń tej platformy jest prostota i dbanie o prywatność użytkowników, a co za tym idzie wymaganie od nich podawania jedynie informacji niezbędnych do działania bloga.
 
-![](images/writefreelypl1.png)
+![](/images/writefreelypl1.png)
 
 ## Jak to wygląda?
 
@@ -48,7 +48,7 @@ Blogi utworzone na _instancji_ _WriteFreely Polska_ są dostępne pod adresami:
 
 W moim przypadku jest to: [https://writefreely.pl/to3k](https://writefreely.pl/to3k). A pierwszy, testowy post jaki napisałem można przeczytać tutaj: [https://writefreely.pl/to3k/witaj-na-writefreely-polska](https://writefreely.pl/to3k/witaj-na-writefreely-polska). Zachęcam do wejścia i zobaczenia jak to wygląda w praktyce.
 
-![](images/writefreelypl2.png)
+![](/images/writefreelypl2.png)
 
 Po założeniu konta dla naszego bloga otrzymujemy również coś w rodzaju profilu w instancji, do którego dostęp może uzyskać każdy z poziomu wszystkich usług federujących się w zakresie _Fediverse_. Aby odszukać ten profil należy np. z poziomu swojego konta na _Mastodon_ wpisać w wyszukiwarkę odpowiedni _handle_ (z ang. _uchwyt_):
 
@@ -56,7 +56,7 @@ Po założeniu konta dla naszego bloga otrzymujemy również coś w rodzaju prof
 
 W przypadku mojego bloga będzie to _@to3k@writefreely.pl_. Spróbuj wpisać to w wyszukiwarce na swoim koncie na _Mastodonie_, a otrzymasz rezultat podobny do tego poniżej.
 
-![](images/writefreelypl3.png)
+![](/images/writefreelypl3.png)
 
 ## Chcesz wesprzeć tą inicjatywę?
 

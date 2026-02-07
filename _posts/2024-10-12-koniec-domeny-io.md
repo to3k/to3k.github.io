@@ -23,7 +23,7 @@ Jak wiele znasz stron internetowych, których adres kończy się _.io_? Zakłada
 
 Domena _.io_ jako domena krajowa przypisana jest do _Brytyjskiego Terytorium Oceanu Indyjskiego_. Po angielsku brzmi to _British Indian Ocean Territory_, więc nie trudno się domyślić, że skrót _.io_ pochodzi właśnie od pierwszych liter słów _**I**ndian **O**cean_. Jest to obszar na _Oceanie Indyjskim_ umiejscowiony mniej więcej pomiędzy _Indiami_ i _Madagaskarem_.
 
-![](images/IMG_6319-224x300.jpeg)
+![](/images/IMG_6319-224x300.jpeg)
 
 Do tego momentu wszystko wydaje się w porządku, bo kupowanie krajowych domen z innych Państw nie jest czymś dziwnym w dzisiejszych czasach. Trochę kreatywności i można w ten sposób sklecić całkiem fajną domenę dla swojej strony. Problem jednak pojawił się [3 października po **ogłoszeniu przez _Wielką Brytanię_**](https://www.bbc.com/news/articles/c98ynejg4l5o)**, że zwierzchnictwo nad archipelagiem zostanie powierzone _Republice Mauritiusu_**. Sprawia to, że _Brytyjskie Terytorium Oceanu Indyjskiego_ **przestanie formalnie istnieć** i co dość prawdopodobne **pociągnie ze sobą również domenę _.io_**.
 
@@ -39,7 +39,7 @@ How many websites do you know that have addresses ending with _.io_? I assume qu
 
 The _.io_ domain, as a national domain, is assigned to the _British Indian Ocean Territory_, so it’s not hard to guess that the abbreviation _.io_ comes from the first letters of the words _**I**ndian **O**cean_. It is an area in the _Indian Ocean_ located roughly between _India_ and _Madagascar_.
 
-![](images/IMG_6319-224x300.jpeg)
+![](/images/IMG_6319-224x300.jpeg)
 
 Up to this point, everything seems fine, as buying national domains from other countries is not unusual these days. With a bit of creativity, you can come up with quite a nice domain for your site. However, a problem arose on [October 3rd after **the announcement by _Great Britain_**](https://www.bbc.com/news/articles/c98ynejg4l5o) **that sovereignty over the archipelago will be transferred to the _Republic of Mauritius_**. This means that the _British Indian Ocean Territory_ **will cease to exist formally** and, quite likely, **this will also lead to the domain _.io_ being discontinued**.
 

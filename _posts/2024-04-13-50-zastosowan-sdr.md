@@ -19,7 +19,7 @@ autorstwa [@blinry@chaos.social](https://chaos.social/@blinry)
 
 SDR to software-defined radio, czyli w skrócie radio programowalne. Wikipedia mówi, że jest to system komunikacji radiowej, w którym działanie podstawowych elementów elektronicznych (mieszaczy, filtrów, modulatorów i demodulatorów, detektorów) jest wykonywane za pomocą programu komputerowego. Jest to trafna definicja, więc nie będę się silił na jakieś zbędne mądrzenie się na ten temat z mojej strony, bo krótkofalowiec ze mnie żaden.
 
-![](images/rtlsdr-1024x347.jpg)
+![](/images/rtlsdr-1024x347.jpg)
 
 W podlinkowanym artykule autor sprawdza co można odkryć w spektrum elektromagnetycznym wykorzystując relatywnie taniego dongle'a USB - [RTL-SDR Blog V4](https://www.rtl-sdr.com/rtl-sdr-blog-v4-dongle-initial-release/). Okazuje się, że po dołożeniu do tego prostej anteny można mieć naprawdę sporo zabawy! Autor zrealizował swój wpis na bazie techniki "50 zastosowań <czegoś>" i stworzył następującą listę tematyczną:
 
@@ -136,7 +136,7 @@ by [@blinry@chaos.social](https://chaos.social/@blinry)
 
 SDR stands for software-defined radio, in short, programmable radio. Wikipedia says it is a radio communication system in which the operation of basic electronic components (mixers, filters, modulators and demodulators, detectors) is performed using computer software. This is an accurate definition, so I won't try to be unnecessarily smart about it, because I'm no ham radio operator.
 
-![](images/rtlsdr-1024x347.jpg)
+![](/images/rtlsdr-1024x347.jpg)
 
 In the linked article, the author explores what can be discovered in the electromagnetic spectrum using a relatively cheap USB dongle - [RTL-SDR Blog V4](https://www.rtl-sdr.com/rtl-sdr-blog-v4-dongle-initial-release/). It turns out that after adding a simple antenna to it, you can have a lot of fun! The author realized his post based on the "50 uses of <something>" technique and created the following thematic list:
 

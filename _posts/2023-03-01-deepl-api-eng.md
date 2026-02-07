@@ -123,7 +123,7 @@ echo $tekstENG;
 
 The result of the above script is as follows:
 
-![](images/AE24041A-B186-4F36-8C6C-75F53754948D.jpeg)
+![](/images/AE24041A-B186-4F36-8C6C-75F53754948D.jpeg)
 
 ## BiLangPost
 

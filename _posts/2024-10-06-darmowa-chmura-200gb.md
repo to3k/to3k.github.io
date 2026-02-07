@@ -97,11 +97,11 @@ Zaczynamy standardowo o połączenia się z wcześniej utworzoną instancją. Ja
 
 Pierwsza dwa uzyskamy poprzez wejście do centrum zarządzania instancjami _Oracle_. Po poprawnym jej utworzeniu powinniśmy w tym miejscu widzieć ją na liście naszych instancji, więc wejdźmy do jej właściwości \[1\].
 
-![](images/oracle40.png)
+![](/images/oracle40.png)
 
 Szukane przez nas informacje (adres IP serwera \[2\] i nazwa użytkownika \[3\]) znajdują się w zakładce _Instance information_ w sekcji _Instance access_ po prawej stronie.
 
-![](images/oracle41.png)
+![](/images/oracle41.png)
 
 Wymagane do uwierzytelniania klucze _SSH_ pobraliśmy już na dysk podczas tworzenia instancji. Mamy już wszystko, więc teraz trzeba tylko to wszystko wrzucić do _Termius'a_ (lub użyć innego programu) i połączyć się z naszym nowiusieńkim _VPSem_.
 
@@ -155,7 +155,7 @@ Ja korzystając z _Oracle_ używam tak naprawdę **trzypoziomowej zapory**. Pier
 
 To jak otwierać porty w infrastrukturze _Oracle_ opisałem w [tym wpisie](https://blog.tomaszdunia.pl/oracle-free-tier/#porty). W turbo skrócie robi się to wchodząc w _Virtual Cloud Networks_ (pamiętam, aby najpierw wybrać odpowiedni _Compartment_) -> na liście znajdujemy naszą sieć i wchodzimy do jej właściwości -> z menu _Resources_ po lewej wybieramy _Security Lists_ -> na liście powinna być tylko jedna nazwana _Default Security List for..._. Interesują nas w tym miejscu _Ingress Rules_ i korzystając z przycisku _Add Ingress Rules_ dodajemy reguły otwierające **porty 80, 443, 81, 444, 9443**. Robimy to wypełniając formularz dla każdego z portów analogicznie do poniższego, w którym zademonstrowałem jak zrobić to dla portu 80.
 
-![](images/obraz-300x215.png)
+![](/images/obraz-300x215.png)
 
 W ten sposób otworzyliśmy następujące porty:
 
@@ -290,11 +290,11 @@ _Portainer_ został uruchomiony na porcie 9443, więc teraz musimy odszukać jes
 
 Naszym oczom ukaże się bardzo prosty instalator, w którym wystarczy ustawić jedynie login i hasło dla administratora. Na następnej stronie wybieramy przycisk _Get Started_ jako, że chcemy, aby _Portainer_ używał środowiska znajdującego się na maszynie lokalnej, na której jest uruchomiony. Finalnie zostaniemy przeniesieni do listy dostępnych środowisk, na której będzie jedynie jedno o nazwie _local_ (z ang. lokalne). Aby rozpocząć zarządzanie tym środowiskiem należy po prawej stronie nacisnąć niebieski przycisk _Live connect_. Poskutkuje to tym, że po lewej stronie zamiast _Environment: None selected_ pojawią się nam zakładki z opcjami do zarządzania.
 
-- ![](images/portainer1.png)
+![](/images/portainer1.png)
     
-- ![](images/portainer2.png)
+![](/images/portainer2.png)
     
-- ![](images/portainer3.png)
+![](/images/portainer3.png)
     
 
 ## Podpięcie domeny przez Cloudflare
@@ -331,37 +331,37 @@ Naszym oczom ukaże się bardzo prosty instalator, w którym wystarczy ustawić 
 
 31. Zjeżdżamy niżej, znajdujemy _Automatic HTTPS Rewrites_ i również włączamy tą funkcję.
 
-- ![](images/cf1.png)
+![](/images/cf1.png)
     
-- ![](images/cf2.png)
+![](/images/cf2.png)
     
-- ![](images/cf3.png)
+![](/images/cf3.png)
     
-- ![](images/cf4.png)
+![](/images/cf4.png)
     
-- ![](images/cf5.png)
+![](/images/cf5.png)
     
-- ![](images/cf6.png)
+![](/images/cf6.png)
     
-- ![](images/cf7.png)
+![](/images/cf7.png)
     
-- ![](images/cf8a.png)
+![](/images/cf8a.png)
     
-- ![](images/cf9.png)
+![](/images/cf9.png)
     
-- ![](images/cf10.png)
+![](/images/cf10.png)
     
-- ![](images/cf10a.png)
+![](/images/cf10a.png)
     
-- ![](images/cf11.png)
+![](/images/cf11.png)
     
-- ![](images/cf12.png)
+![](/images/cf12.png)
     
-- ![](images/cf13.png)
+![](/images/cf13.png)
     
-- ![](images/cf14.png)
+![](/images/cf14.png)
     
-- ![](images/cf15.png)
+![](/images/cf15.png)
     
 
 Gotowe. Możemy się już wylogować z _Cloudflare_ i przejść do następnego kroku.
@@ -386,21 +386,21 @@ To samo co w _Cloudflare_ można uzyskać poprzez skorzystanie np. z _[FreeDNS::
 
 15. Na koniec zostanie nam wyświetlone podsumowanie, na którym możemy sprawdzić czy wszystko się zgadza.
 
-- ![](images/fdns1.png)
+![](/images/fdns1.png)
     
-- ![](images/fdns2.png)
+![](/images/fdns2.png)
     
-- ![](images/fdns3.png)
+![](/images/fdns3.png)
     
-- ![](images/fdns4.png)
+![](/images/fdns4.png)
     
-- ![](images/fdns5.png)
+![](/images/fdns5.png)
     
-- ![](images/fdns6.png)
+![](/images/fdns6.png)
     
-- ![](images/fdns7.png)
+![](/images/fdns7.png)
     
-- ![](images/fnds8.png)
+![](/images/fnds8.png)
     
 
 ## NGINX Proxy Manager
@@ -467,11 +467,11 @@ enp0s6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9000
 
 Adres, którego szukamy to w moim przypadku _10.0.0.195_ (u Ciebie prawie na pewno będzie inny). Pozostaje nam jeszcze wpisać _9443_ w polu _Forward Port_. Prawidłowo wypełniony formularz w moim wypadku wygląda tak:
 
-![](images/obraz-3-273x300.png)
+![](/images/obraz-3-273x300.png)
 
 Ale to nie koniec, bo musimy jeszcze przeskoczyć z zakładki _Details_ do _SSL_, gdzie z menu rozwijanego podpisanego _SSL Certificate_ wybieramy _Request a new SSL Certificate_. Do tego zaznaczamy opcję _Force SSL_ oraz _I Agree to the Let's Encrypt Terms of Service_.
 
-![](images/obraz-4-273x300.png)
+![](/images/obraz-4-273x300.png)
 
 Teraz możemy już potwierdzić przyciskiem _Save_. Robimy to samo analogicznie jeszcze dwa razy dla dwóch pozostałych subdomen, które utworzyliśmy w _Cloudflare_.
 
@@ -538,7 +538,7 @@ O _Nextcloud_ pisałem sporo w dwóch wpisach, więc podlinkuję je tutaj, bo mo
 
 Na koniec jeszcze jedna rzecz, z którą każdy zapewne będzie miał problem, a jest nią taki komunikat:
 
-![](images/portainer_nextcloud13.png)
+![](/images/portainer_nextcloud13.png)
 
 Rozwiązanie tego problemu jest stosunkowo proste, ale znalezienie go już nie do końca, bo trzeba trochę poszukać w dokumentacji. Mogli to zrobić zdecydowanie bardziej intuicyjnie... Na szczęście macie mnie, czyli gościa, który odwalił już całą robotę i za chwile przedstawi gotowe i zwięzłe rozwiązanie. Otwieramy w edytorze tekstowym plik _config.php_, o którym mowa w komunikacie.
 

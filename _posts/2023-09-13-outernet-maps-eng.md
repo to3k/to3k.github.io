@@ -36,9 +36,9 @@ _[OpenStreetMap](https://www.openstreetmap.org)_ is a community project that was
 
 [_Organic Maps_](https://organicmaps.app/) is an application available on both the [_App Store_](https://apps.apple.com/app/organic-maps/id1567437057), [_Google Play_](https://play.google.com/store/apps/details?id=app.organicmaps), [_App Gallery_](https://appgallery.huawei.com/#/app/C104325611) (Huawei) as well as in the [_F-Droid_](https://f-droid.org/pl/packages/app.organicmaps/) catalog. It's a _fork_ (which can be explained as software that was created based on some source code, usually open-source, and is now modified and updated by a new developer as a derivative from the original solution) of the Maps.me application, which I liked and used for quite a while without knowing that it was software acquired by one of the largest Russian corporations (ugh). My adventure with Maps.me ended when one day by complete chance, I wrote about it on _[Mastodon](https://mastodon.tomaszdunia.pl/@to3k)_, and one of the followers ([greetings Vitali!](https://mastodon.social/@vb)) drew my attention to the associations of this application with Mail.ru Group and immediately recommended _Organic Maps_. Since it's a _fork_, transitioning from using one application to using the other can be likened to switching from a green Fiat Seicento to a red Fiat Seicento with tinted windows, because the _Organic Maps_ application is focused on ensuring the maximum privacy of its users. This perfectly illustrates the comparison of the permissions required by _Organic Maps_ (first screenshot) in comparison to _Maps.me_ (second screenshot).
 
-![](images/organicmapspermissions.jpg)
+![](/images/organicmapspermissions.jpg)
 
-![](images/mapsmepermissions.jpg)
+![](/images/mapsmepermissions.jpg)
 
 I recommend paying attention and considering why map apps need access to things like: camera, microphone, contacts, device storage, NFC, WiFi connection history, Advertising ID (an identifier like for cattle, but used for personalized ads), or biometric hardware... Such permissions are required by _Maps.me_, when an app that looks the same and performs the same task only needs basic permissions related to its usage (location, background activity, screen lock prevention, notifications display, or starting on phone boot).
 
@@ -46,17 +46,17 @@ Alright, I think I've criticized _Maps.me_ enough, so let's move on to the part 
 
 _Organic Maps_ impresses me primarily in two situations. The first is when I need to find a specific block in a very crowded housing estate. The block markings are very clear and precise. The second aspect is the reliable marking of mountain trails and, more importantly for me, paths in the forest, which have never let me down and are available even for very unpopular areas. Interestingly, on these paths, you can set a regular route from point A to B (with possible stops) and start navigation on it.
 
-![](images/IMG_2213.jpeg)
+![](/images/IMG_2213.jpeg)
 
-![](images/IMG_2214.jpeg)
+![](/images/IMG_2214.jpeg)
 
-![](images/IMG_2217.jpeg)
+![](/images/IMG_2217.jpeg)
 
-![](images/IMG_2216.jpeg)
+![](/images/IMG_2216.jpeg)
 
-![](images/IMG_2215.jpeg)
+![](/images/IMG_2215.jpeg)
 
-![](images/IMG_2218.jpeg)
+![](/images/IMG_2218.jpeg)
 
 Over the past few days, I've been testing _Organic Maps_ as the primary map on _CarPlay_ and I have the following observations.
 
@@ -80,4 +80,4 @@ Over the past few days, I've been testing _Organic Maps_ as the primary map on _
 
 - The app doesn't appear in the left section of recently used apps (partly connected to the fact that it only works in full-screen mode)
 
-![](images/IMG_2237.png)
+![](/images/IMG_2237.png)

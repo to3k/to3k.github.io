@@ -29,11 +29,11 @@ Nie będę ukrywał, że _Signal_ jest moim ulubionym komunikatorem. Ufam mu i p
 
 Jakby ktoś chciał ze mną porozmawiać na _Signal_ to od teraz może użyć mojego ID - **_to3k.69_**. Można także skorzystać ze specjalnego _kodu QR_, ale tego akurat nie polecam, bo jestem przeciwnikiem używania tego typu kodów. Według mnie stanowią one poważne i zupełnie nikomu niepotrzebne niebezpieczeństwo.
 
-![](images/signal_handle_to3k-300x287.png)
+![](/images/signal_handle_to3k-300x287.png)
 
 Do tego wszystkie doszły jeszcze dodatkowe ustawienia, dzięki którym można zdecydować kto może widzieć nasz numer telefonu oraz kto może znaleźć nas na _Signal_ po numerze telefonu. Moją preferencją jest w obu przypadkach wybrać _Nobody_ (tłum. _nikt_), ale to już pozostawiam do indywidualnej decyzji.
 
-![](images/usernames-pnp-sharing_signal-1024x1024.jpg)
+![](/images/usernames-pnp-sharing_signal-1024x1024.jpg)
 
 Warto dodać, że pomimo powyższych zmian w dalszym ciągu do założenia konta niezbędny jest numer telefonu i to akurat bardzo dobrze, bo obawiam się, że bez tego mogłoby dojść do zalania _Signal'a_ walą _spambot'ów_.
 
@@ -55,11 +55,11 @@ I won't hide that _Signal_ is my favorite messaging app. I trust it and recommen
 
 If anyone wants to chat with me on _Signal_, they can now use my ID - **_to3k.69_**. You can also use a special _QR code_, but I don't recommend it because I am against using such codes. In my opinion, they pose a serious and entirely unnecessary danger to anyone.
 
-![](images/signal_handle_to3k-300x287.png)
+![](/images/signal_handle_to3k-300x287.png)
 
 There are additional settings now available, allowing you to decide who can see your phone number and who can find you on _Signal_ by your phone number. My preference in both cases is to select _Nobody_, but that's up to individual choice.
 
-![](images/usernames-pnp-sharing_signal-1024x1024.jpg)
+![](/images/usernames-pnp-sharing_signal-1024x1024.jpg)
 
 It's worth noting that despite the above changes, a phone number is still required to create an account, which is actually very good, because I'm afraid that without it, _Signal_ could be flooded with _spambots_.
 

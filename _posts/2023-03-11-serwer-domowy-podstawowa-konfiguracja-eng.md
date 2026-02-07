@@ -151,7 +151,7 @@ To Action From
 
 Using SSH keys instead of passwords is first and foremost a significant **increase in security**, and secondly a significant **ease of the login process**. By having the correct public key exchanged for logging in to the server, we don't need a password, as we authenticate with the private key stored securely in our host. I have described what _SSH_ keys are in simple terms in [this post on odroid.pl](https://odroid.pl/blog/klucze-ssh/). There is also a manual on how to generate a key pair and exchange them between the server and the host. However, in this post, we are more focused on _#iPadOnly_, so I'll show you how to do the same thing conveniently using the _Termius_ app, which is my main terminal on the _iPad_. We open the application, go to the _Keychain_ tab, press _+_ in the upper right corner, and select the _Generate Key_ option.
 
-![](images/4051B882-39D5-4824-8ADA-57973E200233.jpeg)
+![](/images/4051B882-39D5-4824-8ADA-57973E200233.jpeg)
 
 A key pair generator will appear, in which we give the key pair a name (it can be any name), change the _Rounds_ option to 1000 (it won't hurt), and leave the _Type_ and _Cipher_ options as default. There is still a text field called _Passphrase_. This is a field where you can enter an additional password that will protect the private key and without which its use will be impossible, i.e., even if someone gains access to our private key, it will be useless to them without the _Passphrase_. Using a _Passphrase_ is optional and is a double-edged sword, as if we don't remember this password, we will also cut ourselves off from access to the server. We complete the process of generating keys by confirming with the _Save_ button.
 

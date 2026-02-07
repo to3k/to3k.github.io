@@ -60,9 +60,9 @@ Od razu po zatwierdzeniu na liście po lewej powinniśmy zobaczyć świeżo utwo
 
 Po wybraniu maszyny z listy po lewej zostanie nam w głównym oknie wyświetlony panel sterujący tejże maszyny. Przejdźmy sobie przez wszystkie zakładki tak samo jak zrobiliśmy to dla kreatora powyżej.
 
-- ![](images/proxmox_screenshot-1024x502.png)
+![](/images/proxmox_screenshot-1024x502.png)
     
-- ![](images/proxmox_screenshot2-1024x502.png)
+![](/images/proxmox_screenshot2-1024x502.png)
     
 
 1. **_Summary_**: Wszystkie najważniejsze statystyki dotyczące _VMki_. Zużycie procesora, pamięci i dysku, do tego ruch sieciowy. Mamy też możliwość dodania notatek dotyczących tej maszyny.

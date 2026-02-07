@@ -100,13 +100,13 @@ Cały proces podzielony jest na dwa etapy:
 
 3. _Validating_ - sprawdzenie jego integralności i ogólnej poprawności wykonania procesu.
 
-- ![](images/balenaether1.png)
+![](/images/balenaether1.png)
     
-- ![](images/balenaether2.png)
+![](/images/balenaether2.png)
     
-- ![](images/balenaether3.png)
+![](/images/balenaether3.png)
     
-- ![](images/balenaether4.png)
+![](/images/balenaether4.png)
     
 
 Karta gotowa! Można ją wypiąć z czytnika i wsunąć do odpowiedniego portu w urządzeniu docelowym, które już za moment stanie się naszym domowym serwerem smart home. Gdy urządzenie jest gotowe podpinamy je do kabla sieciowego i zasilania.
@@ -121,15 +121,15 @@ http://X.X.X.X:8123
 
 gdzie _X.X.X.X_ to adres naszego nowego serwera w sieci lokalnej. Jak widzisz **_Home Assistant_ pracuje na wystawionym porcie _8123_**, zapamiętajmy to, bo później się to przyda. Ekran, który nas przywita powinien wyglądać mniej więcej tak:
 
-![](images/ha0.png)
+![](/images/ha0.png)
 
 Jest to pierwszy krok w procesie konfiguracji nowej instancji _HA_, w którym pobierany jest _Home Assistant Core_. Niestety **długość trwania tego etapu zależy od specyfikacji naszego sprzętu i przede wszystkim jak szybki mamy Internet**, bo do pobrania jest przynajmniej jakieś 700 MB. Gdy zostanie już zakończony to ukaże się strona powitalna, na której możemy zdecydować czy chcemy utworzyć system od zera, czy też może mamy kopię zapasową, z której chcielibyśmy go przywrócić. My dopiero zaczynamy przygodę z _HA_, więc wybieramy _Create my smart home_.
 
-![](images/ha1.png)
+![](/images/ha1.png)
 
 Zaczynamy oczywiście od utworzenia konta administratora. Musimy poddać nazwę, login i dwa razy hasło. Gdy wszystko się zgadza potwierdzamy przyciskiem _Create account_.
 
-![](images/ha3.png)
+![](/images/ha3.png)
 
 W następnym kroku zostaniemy poproszeni o wskazanie lokalizacji swojego domu. Możesz się zastanawia "ale po co?", dlatego spieszę z wyjaśnieniem, że jest to istotna informacja w kontekście:
 
@@ -141,15 +141,15 @@ W następnym kroku zostaniemy poproszeni o wskazanie lokalizacji swojego domu. M
 
 W tym kroku ustawiamy także system jednostek jaki chcemy używać (metryczny) i walutę. Zaraz zaraz, walutę...? Tak, chodzi o to, że _HA_ ma funkcje, które przeliczają nam np. zużycie prądu i inne tego typu dane na realne kwoty.
 
-![](images/ha4.png)
+![](/images/ha4.png)
 
 Na koniec jeszcze prośba o udostępnienie danych diagnostycznych. Oczywiście nie ma obowiązku zgadzania się na przekazywanie czegokolwiek.
 
-![](images/ha5.png)
+![](/images/ha5.png)
 
 Podstawowa konfiguracja zakończona. W ostatnim oknie jakie zostanie nam wyświetlona _Home Assistant_ wylistuje nam kompatybilne urządzenia, które odnalazł w sieci i może się z nimi zintegrować. Oczywiście jeżeli takie w ogóle w danym momencie istnieją w sieci. Na tym etapie nie ma potrzeby się tym zajmować, bo można to zrobić na spokojnie później, więc naciskamy przycisk _Finish_.
 
-![](images/ha6.png)
+![](/images/ha6.png)
 
 ## Podstawowa konfiguracja
 
@@ -159,60 +159,60 @@ _Home Assistant_ ma naprawdę sporo funkcji, więc omówienie wszystkich w ramac
 
 _Home Assistant OS_ **sam ogarnia sobie czy istnieją nowe aktualizacje** czy nie i informuje nas o tym. Mowa tutaj nie tylko o aktualizacjach samego systemu, ale także poszczególnych urządzeń o ile ta funkcja jest dla nich obsługiwana. Jeżeli _HAOS_ wykryje, że jest nowa aktualizacja to informacja o tym pojawi się w dwóch miejscach. Pierwsze miejsce to sam szczyt _Ustawień_, gdzie wyświetlona zostanie lista komponentów, które można zaktualizować. Drugie miejsce jest nieco głębiej, bo aby się tam dostać trzeba pokonać następującą ścieżkę - _Ustawienia -> System -> Aktualizacje_.
 
-- ![](images/haakt1.png)
+![](/images/haakt1.png)
     
-- ![](images/haakt2.png)
+![](/images/haakt2.png)
     
-- ![](images/haakt3.png)
+![](/images/haakt3.png)
     
-- ![](images/haakt4.png)
+![](/images/haakt4.png)
     
 
 Jeżeli chodzi o sam proces aktualizacji to w zasadzie konieczne jest tylko naciśnięcie przycisku _Aktualizuj_ i odrobina cierpliwości. Oczywiście to ile tej cierpliwości musi być zależy od mocy sprzętu i prędkości połączenia internetowego.
 
-- ![](images/haakt5.png)
+![](/images/haakt5.png)
     
-- ![](images/haakt6.png)
+![](/images/haakt6.png)
     
 
 **Dodawanie nowych urządzeń**
 
 _Home Assistant_ co jakiś czas skanuje sieć lokalną w poszukiwaniu nowych urządzeń. Gdy wykryje takowe to wysyła _Powiadomienie_, w którym daje skrót do dodania go do swojego systemu smart home.
 
-- ![](images/hanowe01.png)
+![](/images/hanowe01.png)
     
-- ![](images/hanowe02.png)
+![](/images/hanowe02.png)
     
 
 Niestety nie zawsze to działa lub nie działa od razu po połączeniu nowego urządzenia, więc pokażę jak to zrobić od początku zgodnie ze sztuką, tj. w taki sposób, który zadziała zawsze. Przechodzimy do listy wszystkich urządzeń podłączonych do naszego _Home Assistant_. Dostępna jest ona w _Ustawienia -> Urządzenia oraz usługi -> zakładka (na górze) Urządzenia_. W prawym dolnym rogu znajduje się przycisk _Dodaj urządzenie_. Pojawi nam się okienko, w którym musimy wyszukać nowe urządzenie po nazwie marki. W prezentowanym przypadku wyszukuję frazę "shelly".
 
-- ![](images/hanowe1.png)
+![](/images/hanowe1.png)
     
-- ![](images/hanowe2.png)
+![](/images/hanowe2.png)
     
-- ![](images/hanowe3.png)
+![](/images/hanowe3.png)
     
-- ![](images/hanowe4.png)
+![](/images/hanowe4.png)
     
 
 Od tego momentu są dwie możliwości. Jeżeli _HA_ da radę sam odkryć nowe urządzenie to od razu pojawi się propozycja, którą wystarczy jedynie wybrać z listy i potwierdzić swój wybór.
 
-- ![](images/hanowe5.png)
+![](/images/hanowe5.png)
     
-- ![](images/hanowe6.png)
+![](/images/hanowe6.png)
     
 
 Jeżeli _HA_ jednak nie wykryje nowego urządzenia to zostaniemy poproszeni o wskazanie jego adresu IP i portu, pod którym znajduje się interfejs do jego zarządzania. Po podaniu tych danych naciskamy przycisk _Zatwierdź_.
 
-![](images/hanowe7.png)
+![](/images/hanowe7.png)
 
 Jeżeli wszystko przebiegło pomyślnie to dostaniemy potwierdzenie, że utworzono konfigurację dla nowego urządzenia. Ostatni krok to wskazanie do jakiego obszaru ma ono zostać przypisane. Obszary są w pełni definiowane przez użytkownika. Niektórzy dzielą cały system na pokoje, czyli np. na obszary salon, kuchnia, sypialnia itd. Ja podszedłem do tematu trochę inaczej i dla mnie wszystkie moduły przekaźnikowe _Shelly_ są w obszarze _Oświetlenie_, bo chcę nimi zarządzać jako jedną grupą. Kończymy cały proces naciśnięciem przycisku _Zakończ_.
 
-![](images/hanowe8.png)
+![](/images/hanowe8.png)
 
 Gotowe! Nowe urządzenie dodane.
 
-![](images/hanowe9.png)
+![](/images/hanowe9.png)
 
 ## Podsumowanie
 

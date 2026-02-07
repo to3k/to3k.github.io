@@ -21,11 +21,11 @@ Cały proces zacząłem oczywiście od zbadania rynku w poszukiwaniu najlepszej 
 
 Znaleziona przeze mnie aukcja cechowała się dodatkowo fajnym czasem dostawy, bo już następnego dnia przesyłka była do odbioru w paczkomacie. Przyszedłem do domu, dokonałem oficjalnego unboxing’u i… jakież było moje zdziwienie, gdy **sprawdziłem IMEI i Serial Number na telefonie i pudełku**. Jak się pewnie domyślasz - **nie zgadzały się**.
 
-![](images/IMG_5988-scaled.jpeg)
+![](/images/IMG_5988-scaled.jpeg)
 
 Wszedłem jeszcze na [oficjalną stronę Apple do sprawdzania gwarancji po numerze seryjnym](https://checkcoverage.apple.com/), gdzie okazało się, że sprawa jest jeszcze ciekawsza, bo według danych przez nią podanych **telefon o takim numerze został wyprodukowany w styczniu 2007 (co oczywiście nie jest możliwe, bo w tym roku odbyła się premiera pierwszego iPhone, a nie tego z oznaczeniem 15) i oczywiście nie ma już gwarancji producenta**.
 
-![](images/IMG_5989-473x1024.png)
+![](/images/IMG_5989-473x1024.png)
 
 Od razu rozpocząłem dyskusję ze sprzedawcą przy pomocy służącego do tego narzędzia Allegro. Sprzedawca tłumaczył, że **dostaje telefony od autoryzowanego dystrybutora Apple i nie rozpakowuje ich, żeby sprawdzić zgodność numerów**. OK, rozumiem to, ale numer IMEI na fakturze za telefon był taki jak telefonu, więc **dało się bez rozpakowania ustalić, że coś jest nie tak**, gdyż wystarczyło sprawdzić ten wydrukowany na pudełku i porównać.
 

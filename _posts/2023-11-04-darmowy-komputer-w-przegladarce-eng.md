@@ -118,17 +118,17 @@ The result of these actions is having a computer that:
 
 What more could you want? Take a look at how it looks in practice in the screenshots that I took myself for the purpose of this post.
 
-- ![](images/OracleDWS1.png)
+![](/images/OracleDWS1.png)
     
-- ![](images/OracleDWS2.png)
+![](/images/OracleDWS2.png)
     
-- ![](images/OracleDWS3.png)
+![](/images/OracleDWS3.png)
     
-- ![](images/OracleDWS4.png)
+![](/images/OracleDWS4.png)
     
-- ![](images/OracleDWS5.png)
+![](/images/OracleDWS5.png)
     
 
 To confirm that _XFCE_ is a very resource-efficient desktop environment, I also have a screenshot from the task manager showing the current resource usage. In the _idle_ mode (the machine is on and not doing anything extraordinary other than basic tasks), CPU usage was calculated at 2%, and the _RAM_ memory usage at 1.3GB out of 24GB (6%). The remaining resource surplus can be used to run whatever you need or feel like running.
 
-![](images/OracleDWS6.png)
+![](/images/OracleDWS6.png)

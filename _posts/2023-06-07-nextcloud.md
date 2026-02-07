@@ -61,7 +61,7 @@ Instalacja będzie przebiegać podobnie do tej opisanej we [wpisie o _WriteFreel
 
 Zaczynamy od zalogowania się do naszego panelu administratora _YunoHost_ i od razu przechodzimy do _Aplikacje_. Następnie w prawym górnym rogu zielony przycisk _\+ Instaluj_, wyszukujemy aplikację _Nextcloud_ i wybieramy ją z listy. Zjeżdżamy niżej do sekcji _Ustawienia instalacji_ i rozpoczynamy konfigurację:
 
-![](images/nc1.png)
+![](/images/nc1.png)
 
 1. W pole tekstowe _Etykieta dla Nextcloud_ \[1\] wpisujemy to pod jaką nazwą chcemy widzieć tą aplikację na liście aplikacji w naszym _YunoHost_.
 
@@ -161,7 +161,7 @@ Jeżeli wszystko jest w porządku to możemy teraz przejść do przeglądarki i 
 
 Po przejściu przez dowolną z powyższych instrukcji uzyskanym efektem będzie taki (lub podobny) ekran powitalny:
 
-![](images/nc3.png)
+![](/images/nc3.png)
 
 Jak widać już na pierwszy rzut oka, _Nextcloud_ jest bardzo przyjaznym, schludnym i intuicyjnym interfejsem dla użytkownika. Nie będę się tutaj rozpisywał na temat możliwości tego środowiska, a jedynie polecę wejść w narzędzie do instalacji i zarządzania aplikacjami (ikona użytkownika w prawym górnym rogu \[1\] i z listy wybrać _Aplikacje_ \[2\]). Proszę zwrócić uwagę ile możliwości jest teraz w bibliotece _Nextcloud_!
 
@@ -173,20 +173,20 @@ Nie można zapomnieć także o włączeniu funkcji dwuskładnikowego uwierzyteln
 
 Aplikacje dedykowane _Nextcloud_ są dostępne dla _Windowsa_, _Linuxa_, _macOS_, _Androida_ i _iOS_. Wszystkie są dostępne po [tym linkiem](https://nextcloud.com/install/). Instalacja na każdym z systemów jest bliźniacza, więc pokażę cały proces na systemie _macOS_. Po zainstalowaniu adekwatnej aplikacji odpalamy ją i na start otrzymujemy okno, w którym wybieramy przycisk _Zaloguj się do Nextcloud_. W następnym oknie jesteśmy proszeni o wpisanie adresu serwera, więc podajemy go i potwierdzamy przyciskiem _Dalej >_.
 
-- ![](images/nc1.webp)
+![](/images/nc1.webp)
     
-- ![](images/nc2.webp)
+![](/images/nc2.webp)
     
 
 Zostaniemy przeniesieni do przeglądarki, gdzie musimy uwierzytelnić nowego klienta.
 
-- ![](images/nc3-1.webp)
+![](/images/nc3-1.webp)
     
-- ![](images/nc4.webp)
+![](/images/nc4.webp)
     
-- ![](images/nc5.webp)
+![](/images/nc5.webp)
     
 
 Na koniec wracamy do świeżo zainstalowanej aplikacji _Nextcloud_, gdzie pozostaje nam jeszcze podstawowa konfiguracja klienta. Podajemy folder w pamięci lokalnej komputera, do którego ma zostać podpięty _Nextcloud_. Reszta do zmiany według uznania. Na koniec potwierdzamy przyciskiem _Połącz_ i gotowe. Tak skonfigurowany klient będzie nam w czasie rzeczywistym aktualizował pliki, co oznacza, że gdy zmodyfikujemy, dodamy lub usuniemy plik na dowolnym urządzeniu to za moment te zmiany będą miały odzwierciedlenie na serwerze, a następnie na innych podpiętych urządzeniach.
 
-![](images/nc6.webp)
+![](/images/nc6.webp)

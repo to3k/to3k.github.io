@@ -44,7 +44,7 @@ No dobrze, to w takim razie jak kształtował się poziom inflacji w ostatnich 3
 
 <figure>
 
-![](images/obraz-5.png)
+![](/images/obraz-5.png)
 
 <figcaption>
 
@@ -104,7 +104,7 @@ _\* _wartości wyliczone z wzór:_: X = wartość z poprzedniego roku / (1 + inf
 
 Jak ktoś nie lubi tabelek to wyniki przygotowałem również w formie wykresu:
 
-![](images/obraz-9.png)
+![](/images/obraz-9.png)
 
 Patrzenie na to boli wręcz fizycznie, prawda? 100 zł odłożone 30 lat temu byłoby teraz wartę równowartość niecałych 16 złotych... Przy analogicznej sytuacji, ale dla okresu 20 lat, tracimy blisko połowę wartości kapitału. A w okresach 10 i 5 lat spadek wartości to ok. 30%. Zasada działania _inflacji_ jest podobna do zasady procentu składanego w inwestowaniu tylko działa na naszą niekorzyść. Nawet małe wartości mają ogromne znaczenie w przypadku szerszego horyzontu czasowego.
 
@@ -161,11 +161,11 @@ _\* wartości wyliczone z wzór: X = wartość w poprzednim roku / (1 + inflacja
 
 Oczywiście bez wykresów kalkulacja nie byłaby tak profesjonalna! Dlatego prezentuję pierwszy wykres, który przedstawia porównanie wysokość inflacji oraz oprocentowania lokat i obligacji _EDO_ w latach 2014-2023.
 
-![](images/obraz-7.png)
+![](/images/obraz-7.png)
 
 Natomiast poniższy wykres pokazuje jak kształtowała się wartość naszych trzech stówek dla poszczególnych scenariuszy przez cały okres 10 lat.
 
-![](images/obraz-8.png)
+![](/images/obraz-8.png)
 
 Niebieska linia nie jest dla nas zaskoczeniem, bo to co dzieje się z pieniędzmi bez inwestowania omówiliśmy sobie już w poprzednim rozdziale tego wpisu. Linia zielona to wynik inwestowania w **lokaty** i widać jak na dłoni, że inwestowanie w ten instrument finansowy to **mizerny sposób na ochronę swoich pieniędzy przed _inflacją_**, bo w przeważającej ilości okresów jej nie pokona, jednakże nawet i taki wynik jest lepszy od nie robienia niczego. Na pocieszenie, optymistyczny wynik prezentuje linia czerwona, która obrazuje wynik inwestowania w **obligacje** _EDO_. Widać, że w ten sposób **nie tylko ochroniliśmy oszczędności przed _inflacją_, ale także wypracowaliśmy delikatnie dodatni wynik**. Skumulowany zysk na poziomie 3.84% ponad _inflację_ w okresie 10 lat to naprawdę niezły rezultat! Osobiście czegoś podobnego oczekiwałbym po częściach moich portfeli inwestycyjnych, w których trzymam obligacje. Oczywiście **obligacji, nawet tych indeksowanych inflacją, nie należy traktować jako pewne źródło zysku**, bo nawet oferując oprocentowanie w wysokości _inflacja_ (wyliczona na bazie poprzedniego roku) + 1.5% może ona nie być w stanie pokonać inflacji po odliczeniu 19% podatku od zysków kapitałowych (Belki). Jednakże mimo to w mojej ocenie jest to **najlepsza forma inwestowania dla osób, które nie lubią ryzyka i nie chcą poświęcać, więcej niż godziny rocznie na inwestowanie**.
 

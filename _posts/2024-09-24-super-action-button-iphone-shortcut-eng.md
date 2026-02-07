@@ -25,7 +25,7 @@ Let’s start by noting that the _Action Button_ is really untapped potential be
 
 I’ll start from the end, by showing how I use the method presented in this post. I’ve configured everything so that depending on whether specific conditions are met (or not), using the _Action Button_ triggers a different action. When the phone is playing sound, such as listening to music/podcasts or watching videos, pressing the _AB_ stops playback. If the above condition isn’t met, I check the second one, which is the phone's current orientation. You can choose from the following:
 
-![](images/image-1.png)
+![](/images/image-1.png)
 
 Based on this, I’ve assigned the following actions:
 
@@ -41,7 +41,7 @@ Based on this, I’ve assigned the following actions:
 
 - Download the [_Actions_](https://apps.apple.com/pl/app/actions/id1586435171) app, which is normally available in the _App Store_. It’s a very useful extension to the _Shortcuts_ app, developed by _Sindre Sorhus_. It’s not an app where you do anything through its interface. You just give it certain permissions, which it uses to gather useful information about the phone’s status. These can be easily imported and used in _Shortcuts_. I know not everyone will like the fact that this requires installing another app, and that it’s not from _Apple_ but from a private developer. However, to ease your concerns, I can say that the developer seems trustworthy, and the app doesn’t collect any suspicious data.
 
-![](images/image-3.png)
+![](/images/image-3.png)
 
 - The next step is to launch the _Shortcuts_ app and create a new shortcut. You do this by pressing the “+” button in the upper-right corner.
 
@@ -49,11 +49,11 @@ Based on this, I’ve assigned the following actions:
 
 - The formula for my shortcut, whose functionality I described above, looks like this:
 
-![](images/image-8.png)
+![](/images/image-8.png)
 
-![](images/image-10.png)
+![](/images/image-10.png)
 
-![](images/image-12.png)
+![](/images/image-12.png)
 
 - This shortcut is saved by pressing the _Done_ button located in the top right corner.
 
@@ -61,11 +61,11 @@ Based on this, I’ve assigned the following actions:
 
 - We scroll right (or left) until we find the _Shortcut_ option.
 
-![](images/image-15.png)
+![](/images/image-15.png)
 
 - Press the _Choose a Shortcut…_ button and select the one we just created from the menu that pops up.
 
-![](images/image-17.png)
+![](/images/image-17.png)
 
 - That's it. Now, simply check if it works correctly and enjoy the fact that your _Action Button_ is now more than just a simple silent mode toggle.
 
@@ -73,4 +73,4 @@ Based on this, I’ve assigned the following actions:
 
 For the lazy ones, I have prepared a ready-made shortcut for download, which I created. You can download it from [this link](http://blog.tomaszdunia.pl/bloglab/shared/Super Action Button from blog.tomaszdunia.pl.shortcut). All you need to do is launch it from the _Files_ app and import it into your _Shortcuts_ app by using the _Add Shortcut_ button. Enjoy!
 
-![](images/image-20.png)
+![](/images/image-20.png)

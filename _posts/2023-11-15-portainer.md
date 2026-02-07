@@ -65,11 +65,11 @@ Chęć wykonania tak skonstruowanego polecenia potwierdzamy _ENTER'em_ i po uruc
 
 Naszym oczom ukaże się bardzo prosty instalator, w którym wystarczy ustawić jedynie nazwę i hasło dla administratora. Na następnej stronie wybieramy przycisk _Get Started_ jako, że chcemy, aby _Portainer_ używał środowiska znajdującego się na maszynie lokalnej, na której jest uruchomiony. Finalnie zostaniemy przeniesieni do listy dostępnych środowisk, na której będzie jedynie jedno o nazwie _local_ (z ang. lokalne). Aby rozpocząć zarządzanie tym środowiskiem należy po prawej stronie nacisnąć niebieski przycisk _Live connect_. Poskutkuje to tym, że po lewej stronie zamiast _Environment: None selected_ pojawią się nam zakładki z opcjami do zarządzania.
 
-- ![](images/portainer1.png)
+![](/images/portainer1.png)
     
-- ![](images/portainer2.png)
+![](/images/portainer2.png)
     
-- ![](images/portainer3.png)
+![](/images/portainer3.png)
     
 
 ## Jak uruchomić przykładowy kontener
@@ -78,18 +78,18 @@ Samo uruchomienie _Portainer’a_ to dopiero początek zabawy i czułbym się ź
 
 Po wybraniu _Environment - local_ wybieramy po lewej stronie zakładkę _Containers_. To tutaj będziemy tworzyć i mieć wylistowane wszystko kontenery. Jak widać w tym momencie jedynym kontenerem znajdującym się na liście jest sam _Portainer_. Zanim podejmiemy próbę rozszerzenia tej listy o kolejny kontener musimy najpierw przejść do zakładki _Volumes_, gdzie utworzymy dwa wolumeny niezbędne do prawidłowej pracy _Nextcloud_.
 
-- ![](images/portainer_nextcloud1.png)
+![](/images/portainer_nextcloud1.png)
     
-- ![](images/portainer_nextcloud2.png)
+![](/images/portainer_nextcloud2.png)
     
 
 Korzystając z niebieskiego przycisku _Add volume_, znajdującego się w prawym górnym rogu, tworzymy wolumeny _nextcloud\_config_ i _nextcloud\_data_. W kreatorze wolumenu wystarczy wpisać nazwę w pole _Name_ i potwierdzić przyciskiem _Create new volume_.
 
-- ![](images/portainer_nextcloud4.png)
+![](/images/portainer_nextcloud4.png)
     
-- ![](images/portainer_nextcloud3.png)
+![](/images/portainer_nextcloud3.png)
     
-- ![](images/portainer_nextcloud5.png)
+![](/images/portainer_nextcloud5.png)
     
 
 Na liście _Volumes_ pojawią się dwa wolumeny oznaczone znacznikami _Unused_ (z ang. nie użyte), a ich punkty montowania na serwerze to _/var/lib/docker/volumes/(...)/\_data_. Teraz, gdy już mamy przygotowane miejsce dla kontenera _Nextcloud_ możemy przystąpić do jego tworzenia. Wróćmy zatem do zakładki _Containers_ i skorzystajmy z niebieskiego przycisku _Add container_, zlokalizowanego w prawym górnym rogu. Zostanie otwarte okno kreatora, w którego pierwszej sekcji na górze wypełniamy pola:
@@ -103,7 +103,7 @@ Na liście _Volumes_ pojawią się dwa wolumeny oznaczone znacznikami _Unused_ (
     
     - _container_ - _443_
 
-![](images/portainer_nextcloud6.png)
+![](/images/portainer_nextcloud6.png)
 
 Przechodzimy do sekcji dolnej, w której musimy przejść przez kilka zakładek. Pierwszą, do której należy zajrzeć jest _Volumes_, gdzie do kontenera podepniemy te wolumeny, które utworzyliśmy wcześniej. W tym celu dwukrotnie (bo będziemy konfigurować dwa wolumeny) naciskamy przycisk _map additional volume_ i mapujemy w następujący sposób:
 
@@ -112,7 +112,7 @@ Przechodzimy do sekcji dolnej, w której musimy przejść przez kilka zakładek.
 | /config | \=> | nextcloud\_config - local |
 | /data | \=> | nextcloud\_data - local |
 
-![](images/portainer_nextcloud7.png)
+![](/images/portainer_nextcloud7.png)
 
 Istotne tutaj jest, aby zaznaczone były pola _Volume_ (a nie _Bind_) oraz _Writable_ (a nie _Read-only_). Następna zakładka, do której przechodzimy jest _Env_, co jest skrótem od _Environment variables_ (z ang. zmienne środowiskowe). Dla _Nextcloud_ musimy tutaj ustawić trzy zmienne, więc naciskamy trzykrotnie przycisk _Add an environment variable_ i wpisujemy następujące wartości:
 
@@ -122,15 +122,15 @@ Istotne tutaj jest, aby zaznaczone były pola _Volume_ (a nie _Bind_) oraz _Writ
 
 - _TZ_ - _Europe/Warsaw_
 
-![](images/portainer_nextcloud8.png)
+![](/images/portainer_nextcloud8.png)
 
 Ostatnia zakładka, która nas w tym momencie interesuje to _Restart policy_, w której wybieramy opcję _Unless stopped_.
 
-![](images/portainer_nextcloud9.png)
+![](/images/portainer_nextcloud9.png)
 
 Teraz pozostaje nam tylko wrócić do górnej sekcji, na której końcu znajduje się niebieski przycisk _Deploy the container_. To spowoduje pobranie obrazu i uruchomienie odpowiednio skonfigurowanego kontenera _Nextcloud_. Co można zaobserwować na liście kontenerów.
 
-![](images/portainer_nextcloud10.png)
+![](/images/portainer_nextcloud10.png)
 
 Kontener działa, więc możemy przejść do przeglądarki, żeby dostać się do świeżo uruchomionego _Nextcloud_. Odpaliliśmy go na porcie _443_, a więc domyślnym porcie do komunikacji _HTTPS_ co znaczy, że w pasek adresu w przeglądarce wystarczy wpisać następującą frazę:
 
@@ -138,7 +138,7 @@ Kontener działa, więc możemy przejść do przeglądarki, żeby dostać się d
 
 W pierwszej kolejności zobaczymy instalator, w którym ustawiamy nazwę i hasło dla administratora oraz możemy skonfigurować bazę danych, jednakże w tym przypadku zostawiam to w formie domyślnej, która wykorzystuje _SQLite_, bo to jedynie rozwiązanie demonstracyjne. Ostatnie co nam pozostaje to nacisnąć przycisk _Zainstaluj_.
 
-![](images/portainer_nextcloud11.png)
+![](/images/portainer_nextcloud11.png)
 
 ## Dostęp do Nextcloud z zewnątrz
 
@@ -146,9 +146,9 @@ Miał być to wpis o narzędziu _Portainer_, ale pozwolę sobie przy okazji rozs
 
 Jeżeli korzystamy z [_VPS_ od _Oracle_](https://blog.tomaszdunia.pl/oracle-free-tier/) to pierwszym krokiem powinno być odblokowanie ruchu z poziomu infrastruktury _Oracle_ dla portu _443_. Robi się to w _Networking_ -> _Virtual cloud networks_ -> wybierz _VNC_ swojego _VPS'a_ -> _Security Lists_ -> wejdź do listy odpowiedniej dla swojego _VPS'a_. Należy dodać _Ingress Rule_ w sposób analogiczny jak na poniższym zrzucie ekranu.
 
-- ![](images/portainer_nextcloud14.png)
+![](/images/portainer_nextcloud14.png)
     
-- ![](images/portainer_nextcloud15.png)
+![](/images/portainer_nextcloud15.png)
     
 
 Sytuacja wygląda podobnie w przypadku serwera domowego i routera, którego porty należy otworzyć jako że jest on główną bramą w sieci domowej.
@@ -185,7 +185,7 @@ Ruch sieciowy został prawidłowo otwarty, więc strona powinna być osiągalna 
 
 Jednakże najprawdopodobniej zobaczymy coś takiego...
 
-![](images/portainer_nextcloud13.png)
+![](/images/portainer_nextcloud13.png)
 
 Rozwiązanie tego problemu jest stosunkowo proste, ale znalezienie go już nie do końca, bo trzeba trochę poszukać w dokumentacji. Mogli to zrobić zdecydowanie bardziej intuicyjnie... Na szczęście macie mnie, czyli gościa, który odwalił już całą robotę i za chwile przedstawi gotowe i zwięzłe rozwiązanie. Otwieramy w edytorze tekstowym plik _config.php_, o którym mowa w komunikacie, ciekawa jest jego lokalizacja, prawda?
 

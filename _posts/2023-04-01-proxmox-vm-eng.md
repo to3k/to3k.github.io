@@ -58,9 +58,9 @@ Immediately after approval on the list on the left, we should see the newly crea
 
 After selecting the _machine_ from the list on the left, the control panel for that _machine_ will be displayed in the main window. Let's go through all the tabs just as we did for the installation wizard above.
 
-- ![](images/proxmox_screenshot-1024x502.png)
+![](/images/proxmox_screenshot-1024x502.png)
     
-- ![](images/proxmox_screenshot2-1024x502.png)
+![](/images/proxmox_screenshot2-1024x502.png)
     
 
 1. **_Summary_**: All the key statistics regarding the _VM_. CPU, memory and disk usage, as well as network traffic. We can also add notes.

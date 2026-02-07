@@ -46,9 +46,9 @@ Jeżeli chodzi o zakup to **istotne jest, aby był to model posiadający możliw
 
 Jak to sprawdzić? Będę to opisywał dla angielskiej wersji językowej systemu, bo tak będzie mi najłatwiej. Wszystkie wskazane nazwy mają zapewne swoje odpowiedniki po polsku, ale jakby ktoś miał problem z ich znalezieniem to proponuję zmienić język systemu na angielski. Wracając do meritum… Należy wejść do ustawień telefonu, następnie _About phone_, odnaleźć na samym dole _Build number_ i naciskać to tak długo aż wyświetli się napis _You are now a developer!_. W taki sposób odblokowuje się dodatkowe (ukryte dla standardowego użytkownika) ustawienia dla deweloperów.
 
-![](images/deweloper1.png)
+![](/images/deweloper1.png)
 
-![](images/deweloper2.png)
+![](/images/deweloper2.png)
 
 Teraz wracamy do głównego okna ustawień i przechodzimy do _System_ i dalej _Developer options_, które właśnie odblokowaliśmy. Potrzebujemy tutaj włączyć dwie opcje:
 
@@ -60,7 +60,7 @@ Teraz wracamy do głównego okna ustawień i przechodzimy do _System_ i dalej _D
 
 W przypadku wyskoczenia komunikatu dotyczącego tego czy zezwalamy na debugowanie USB (_Allow USB debugging?_) zaznaczamy opcję _Always allow from this computer_ (z ang. _Zawsze pozwalaj z tego komputera_) i klikamy _Allow_ (z ang. _Zezwól_).
 
-![](images/allowusbdebug2.png)
+![](/images/allowusbdebug2.png)
 
 Przed rozpoczęciem dalszych czynności proponuję zrobić dwie rzeczy:
 
@@ -86,9 +86,9 @@ Na komputerze z Windows musimy w zasadzie wykonać cztery czynności:
 
 O ile krok 1-3 nie powinny dla nikogo stanowić problemu tak chciałbym się pochylić na moment nad czynnością wskazaną w punkcie 4. Pod podanym linkiem dostępna jest paczka .ZIP (archiwum), która należy rozpakować w dowolnym miejscu. Następnie trzeba podłączyć telefon do komputera, na telefonie otworzyć _Centrum powiadomień_ (ruch palcem od górnej krawędzi urządzenia w dół), znaleźć opcję _Charging this device via USB_ (_Tap for more options_) i nacisnąć na nią. To ustawienia _USB Preferences_, które pozwalają zmienić to w jaki sposób telefon ma komunikować się z komputerem. Domyślnie zaznaczoną opcją jest pozwolenie jedynie na ładowanie telefonu bez wymiany danych (_No data transfer_) my jednak chcemy zmienić to na (_Use USB for_) _File transfer / Android Auto_. W ten sposób pozwalamy na transfer danych pomiędzy obydwoma urządzeniami, a telefon pojawi się na naszym komputerze jako dysk zewnętrzny.
 
-![](images/usbprefs1.png)
+![](/images/usbprefs1.png)
 
-![](images/usbprefs2.png)
+![](/images/usbprefs2.png)
 
 Na komputerze przechodzimy do _Menu Start_ i następnie _Menedżer urządzeń_ (_Device Manager_). Zostanie wyświetlona lista wszystkich urządzeń znajdujących się w naszym komputerze lub do niego podłączonych. Jeżeli nie instalowaliśmy wcześniej sterownika _Google USB Driver_ to na tej liście powinniśmy mieć jedną pozycję, której ikona będzie miała znak żółtego trójkąta z wykrzyknikiem i być podpisana _Android_, _Pixel 3a_ lub coś w tym stylu. Gdy to zobaczysz na pewno będziesz wiedział/a o co chodzi. Gwoli doprecyzowania będzie to prawdopodobnie w sekcji _Inne urządzenia_ (_Other devices_). Klikamy prawym przyciskiem myszy na to urządzenie i z menu kontekstowego wybieramy _Aktualizuj sterownik_ (_Update driver_). Zostanie odpalone okno, w którym wybieramy drugą opcję, czyli _Przeglądaj mój komputer w poszukiwaniu sterowników_ (_Browse my computer for drivers_). Następnie wybieramy _Pozwól mi wybrać z listy dostępnych sterowników na moim komputerze_ (_Let me pick from a list of available drivers on my computer_), przycisk _Dalej_ (_Next_) i gdy już jesteśmy w oknie proszącym _Wybierz sterownik, który chcesz zainstalować dla tego sprzętu_ (_Select the device driver you want to install for this hardware_) korzystamy z przycisku _Z dysku..._ (_Have Disk..._). Wyskoczy kolejne okienko, w którym musimy odnaleźć przycisk _Przeglądaj..._ (_Browse..._), naciskamy go i wskazujemy plik _android\_winsub.inf_, który znajduje się z pobranej i wypakowanej paczce _Google USB Driver_. Dalej już tylko przeklikujemy _Otwórz_ (_Open_), _OK_, _Dalej_ (_Next_), _Tak_ (_Yes_), _Instaluj_ (_Install_) i po pomyślnej instalacji kończymy przyciskiem _Zamknij_ (_Close_). Po tym wszystkim urządzenie, które wcześniej miało żółty trójkąt z wykrzyknikiem już nie powinno go mieć i zostać rozpoznane jako normalne urządzenie z zainstalowanymi poprawnymi sterownikami.
 
@@ -112,7 +112,7 @@ adb reboot bootloader
 
 Na telefonie powinno się pojawić coś podobnego do widocznego na poniższym zdjęciu:
 
-![](images/IMG_1809.jpeg)
+![](/images/IMG_1809.jpeg)
 
 Jak widać weszliśmy do _Bootloadera_, ale _Device state_ widnieje jako _locked_. Naszym celem jest zmiana tego stanu na _unlocked_. Wracamy do wiersza poleceń na komputerze i tym razem wpisujemy:
 
@@ -122,11 +122,11 @@ fastboot flashing unlock
 
 Przechodzimy na telefon, gdzie musimy potwierdzić, że _bootloader_ ma zostać odblokowany. W tym celu naciskamy jednokrotnie dowolny z przycisków głośności (w tym trybie służą one do przełączania opcji, które chcemy wybrać), tak aby wybrana została opcja _Unlock the bootloader_, i potwierdzamy wybór przyciskiem _Power_.
 
-![](images/IMG_1811-scaled.jpeg)
+![](/images/IMG_1811-scaled.jpeg)
 
 Po krótkiej chwili wrócimy z powrotem do głównego menu _bootloadera_, gdzie powinniśmy już zobaczyć _Device state: unlocked_. Sukces! _Bootloader_ odblokowany, urządzenie stoi przed nami otworem.
 
-![](images/IMG_1812.jpeg)
+![](/images/IMG_1812.jpeg)
 
 Na koniec dobrze jest jeszcze prawidłowo zakończyć działanie narzędzia _Minimal ADB and Fastboot_ wydając polecenie:
 
@@ -150,35 +150,35 @@ _Flashowanie_ (wgrywanie) systemu na urządzenia _Pixel_ dokonuje się przy uży
 
 Odpalamy przeglądarkę _Microsoft Edge_, wchodzimy na stronę [https://developers.google.com/android/images?hl=pl#bonito](https://developers.google.com/android/images?hl=pl#bonito), zjeżdżamy na sam dół, gdzie widnieje niebieski przycisk _Potwierdzam_ przy _Znam i akceptuję powyższe warunki korzystania z usługi_, naciskamy go. Zostaniemy przeniesieni do listy obrazów fabrycznych dla smartfonów _Nexus_ oraz _Pixel_. Tak jak wcześniej już wspomniałem znajdujemy na niej wydanie o oznaczeniu _PQ3B.190801.002_, uważając przy tym, aby był to obraz dedykowany do naszego urządzenia.
 
-![](images/googleflash1-1024x473.png)
+![](/images/googleflash1-1024x473.png)
 
 Po odnalezieniu odpowiedniego obrazu naciskamy obok _W formacie Flash_ (dziwne tłumaczenie na polski, bo w wersji angielskiej jest to po prostu _Flash_). Zostaniemy przeniesieni do webowego narzędzia do wgrywania systemów _Android_. Tym razem nie będę opisywał dokładnie przebiegu procesu, bo to co należy po kolei zrobić widać idealnie na poniższych zrzutach ekranu.
 
-- ![](images/aft1.png)
+![](/images/aft1.png)
     
-- ![](images/aft2.png)
+![](/images/aft2.png)
     
-- ![](images/aft3.png)
+![](/images/aft3.png)
     
-- ![](images/aft4.png)
+![](/images/aft4.png)
     
-- ![](images/aft5.png)
+![](/images/aft5.png)
     
-- ![](images/aft6.png)
+![](/images/aft6.png)
     
-- ![](images/aft7.png)
+![](/images/aft7.png)
     
-- ![](images/aft8.png)
+![](/images/aft8.png)
     
-- ![](images/aft9.png)
+![](/images/aft9.png)
     
-- ![](images/aft10.png)
+![](/images/aft10.png)
     
-- ![](images/aft11.png)
+![](/images/aft11.png)
     
-- ![](images/aft12.png)
+![](/images/aft12.png)
     
-- ![](images/aft13-1024x549.png)
+![](/images/aft13-1024x549.png)
     
 
 Efektem będzie przywrócenie systemu _Android 9_ na naszego _Pixela_. Telefon został także wyczyszczony, więc ponownie trzeba na nim zrobić podstawową konfigurację, gdzie proponuję pominąć większość opcji i po prostu korzystać z przycisku _Skip_. Nie ma nawet sensu konfiguracji Wi-Fi, bo za chwilę telefon zostanie znowu wyczyszczony po wgraniu systemu docelowego (_Ubuntu Touch_). Jedyne co jest istotne po podstawowym skonfigurowaniu systemu to wejść do ustawień, znowu odblokować opcje deweloperskie i sprawdzić czy debugowanie USB jest włączone. Jeżeli nie jest to oczywiście je włączamy i zgadzamy się na debugowanie USB z naszego laptopa (tak jak opisałem wcześniej).
@@ -187,43 +187,43 @@ Efektem będzie przywrócenie systemu _Android 9_ na naszego _Pixela_. Telefon z
 
 _Ubuntu Touch_ wgramy wcześniej zainstalowanym instalatorem _UBports_. Tak jak wcześniej cały proces pokazałem na zrzutach ekranu poniżej.
 
-- ![](images/ubp1.png)
+![](/images/ubp1.png)
     
-- ![](images/ubp2.png)
+![](/images/ubp2.png)
     
-- ![](images/ubp3.png)
+![](/images/ubp3.png)
     
-- ![](images/ubp4.png)
+![](/images/ubp4.png)
     
-- ![](images/ubp5.png)
+![](/images/ubp5.png)
     
-- ![](images/ubp6.png)
+![](/images/ubp6.png)
     
-- ![](images/ubp7.png)
+![](/images/ubp7.png)
     
-- ![](images/ubp8.png)
+![](/images/ubp8.png)
     
-- ![](images/ubp9.png)
+![](/images/ubp9.png)
     
-- ![](images/ubp10.png)
+![](/images/ubp10.png)
     
 
 ## Ubuntu Touch - pierwsze wrażenia
 
-![](images/IMG_1816-scaled.jpeg)
+![](/images/IMG_1816-scaled.jpeg)
 
-![](images/IMG_1817-scaled.jpeg)
+![](/images/IMG_1817-scaled.jpeg)
 
-![](images/IMG_1818-scaled.jpeg)
+![](/images/IMG_1818-scaled.jpeg)
 
 Inicjatywa jaką jest projekt _Ubuntu Touch_ jest bardzo, ale to bardzo, istotna, warta szacunku i godna wsparcia. Jest to ewidentnie próba dania ludziom wolności w zakresie wyboru systemu operacyjnego, który nie będzie ich szpiegował na każdym kroku. Do tego jest otwarty i kompletnie darmowy. System jest całkiem nieźle dopasowany do urządzeń wielkości na jakich ma być uruchomiony i widać, że autorzy w pierwszej kolejności postawili na to, aby działały wszystkie podstawowe funkcjonalności telefonu. Mam tutaj działające takie podstawy jak Wi-Fi, czy transmisja danych komórkowych, ale także takie szczegóły jak czytnik linii papilarnych.
 
-![](images/ubuntutouchpixel.png)
+![](/images/ubuntutouchpixel.png)
 
 Jednakże wyżej wymienione podstawy to nie wszystko. To co najgorzej boli, gdy używa się _Ubuntu Touch_, to absolutny brak aplikacji. Niestety w "sklepie" z aplikacjami jest dramatycznie mało pozycji, co widać na poniższych zrzutach ekranu. Pobawiłem się w aptekarza i policzyłem wszystkie z nich - na moment pisania tego wpisu są to 184 pozycje...
 
-![](images/ubuntustore1.png)
+![](/images/ubuntustore1.png)
 
-![](images/ubuntustore2.png)
+![](/images/ubuntustore2.png)
 
 Czy _Ubuntu Touch_ zainstalowane na smartfonie _Google Pixel 3a XL_ może być urządzeniem do codziennego użytku? W mojej ocenie niestety nie. Jednak jest to na pewno bardzo ciekawy temat i każdemu polecam sprawdzić "z czym to się je". Marzę, aby ten projekt został doprowadzony znacznie dalej niż to gdzie znajduje się teraz. Na pewno będę go dalej obserwował.
