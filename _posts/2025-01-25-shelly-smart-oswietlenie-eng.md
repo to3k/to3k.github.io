@@ -45,7 +45,7 @@ Let’s start with the fact that in modern home installations, the most commonly
 
 - **p** - the conductors are arranged flat, side by side.
 
-![](images/ydyp.jpg)
+![](/images/ydyp.jpg)
 
 As for the specific sizes, in domestic applications, we mainly use:
 
@@ -71,7 +71,7 @@ Nowadays, it’s also standard practice to run wires from one junction box to an
 
 To work with wires, you basically only need one tool – a **wire stripper**, or as some prefer, pliers for removing insulation. I’m not a professional, and my plan was to do the installation only in my own home, so I decided not to overspend and opted for a market solution, specifically [Dexter pliers from _Leroy Merlin_](https://www.leroymerlin.pl/produkty/szczypce-do-usuwania-izolacji-200-mm-dexter-82887285.html).
 
-![](images/dexterszczypce.png)
+![](/images/dexterszczypce.png)
 
 They generally lasted with me until the end, but I can’t really recommend them for one reason. They don’t handle stripping the main (white) insulation layer from the 3x2.5 YDYp cables, so I had to use a utility knife and be careful not to damage the internal wires. After a few attempts, I got so skilled at using the utility knife that I could even strip wires faster than with the pliers, but overall, if I had to choose again, I’d buy something from a slightly higher price range after checking reviews and watching a few videos on _YouTube_ to confirm that the pliers can fully handle 3x2.5 wires. Currently, [Hoegert wire strippers](https://hoegert.com/produkt/automatyczny-sciagacz-izolacji-210-mm-0-05-10-0-mm2/) are highly recommended. I see that they’re nearly twice as expensive as the _Dexter_ ones, but the price of around 85-90 PLN (which I saw on a popular auction site) is not prohibitive. As for stripping the insulation from the individual wires, the _Dexter_ stripper was perfectly sufficient, and I had no issues with it.
 
@@ -83,21 +83,21 @@ Every stripper has an adjustable stopper, which easily sets the distance at whic
 
 I’ve provided the values in both millimeters and inches, as different pliers have different scales.
 
-![](images/nastawa_dexter.png)
+![](/images/nastawa_dexter.png)
 
 Now that we know how to prepare the wires for connection, it’s time to decide what will connect them. I opted for **_WAGO_** connectors, which are somewhat controversial. Looking at expert reviews, you’ll find as many positive comments as negative ones. The old school says to twist the wires, solder them, and apply heat shrink. This is certainly the most reliable and almost everlasting solution, as long as you know how to do it well. However, it’s very time-consuming and not very convenient. This is where _WAGO_ connectors kick in, allowing you to connect wires quickly, simply, and comfortably.
 
 There are _WAGO_ 2273-20X push-in connectors, but I’m not a fan of them because their design involves a spring clip inside that clamps onto the wire. I have two issues with this. First, after each clamping, the wire is damaged, and second, these clips supposedly tend to bend over time and loosen, which causes a loss of contact. The lack of contact is dangerous because it leads to sparking and a rise in temperature, which can even cause a fire. They seem to be disposable connectors, but you can dismantle them by rotating the wire inside and pulling it out. However, as I said, you end up with a wire that’s heavily scratched. A major plus, though, is the price.
 
-![](images/wago2273.png)
+![](/images/wago2273.png)
 
 Because of the above, I opted for the slightly more expensive, but in my opinion, better-designed **221-41X connectors with levers**.
 
-![](images/wago221crosssection.jpg)
+![](/images/wago221crosssection.jpg)
 
 Here, the method of clamping the wire inside the connector is slightly different. Inside, there is a properly bent spring clip that is pressed by a lever. Not only does it clamp the wire, but it’s also designed to maintain a constant force, ensuring a proper connection. Don’t take my word as gospel, but in my opinion, this is a better solution. These _WAGO_ connectors come in **three sizes** - 2X (221-412), 3X (221-413), and 5X (221-415). This means you can connect two, three, or five wires at once.
 
-![](images/wago.jpg)
+![](/images/wago.jpg)
 
 ## Proper connection of lighting with regular switches
 
@@ -105,13 +105,13 @@ Now let’s move on to how to properly connect the lighting wires when you have 
 
 Let’s start with the setup for a **single lamp**. I must admit, there are countless diagrams online, but I really struggled to find one that was neat and simple enough to satisfy my obsessive-compulsive tendencies. So, I just sat down and decided to create my own diagrams for this post.
 
-![](images/przelacznik1x.png)
+![](/images/przelacznik1x.png)
 
 For those who aren’t fans of diagram-based explanations, here’s a brief written version of what’s shown in the image above. From the left side, the power supply enters the junction box, consisting of the live wire L, the neutral wire N, and the ground wire PE. When it comes to the live wire, we have three options. If the junction box is the last one in the circuit, it’s enough to connect the live wire directly to the switch or use a _WAGO_ 2X connector with an additional wire. However, if we need to pass the power supply to the next junction box, we use a _WAGO_ 3X connector, where the incoming live wire, the wire going to the switch, and the outgoing live wire for the next box are all connected. The neutral and ground wires follow the same logic, but instead of connecting to the switch, they go directly to the lamp. For these, we use _WAGO_ 2X or 3X connectors. The final step is to connect the brown wire going to the lamp to the switch. The switch itself is a very simple device that just either opens or closes the circuit carrying the live wire to the lamp.
 
 Now, let’s move on to the setup with **two lamps** (or a double lamp) that are controlled by the same switch, which has two independent buttons.
 
-![](images/przelacznik2x.png)
+![](/images/przelacznik2x.png)
 
 The main difference here is that the cable going to the lamp is a 4x1.5 YDYp cable, which includes two live wires (brown and black), a neutral wire (blue), and the ground (yellow-green). We also have a double switch, to which we connect three wires instead of two. Starting from the beginning, the live wire is connected exactly as before: _if the junction box is the last one in the circuit, simply connect the live wire directly to the switch or do it via a WAGO 2X connector with an additional wire. However, if we need to pass the power to the next junction box, we use a WAGO 3X connector, where the incoming live wire, the wire going to the switch, and the outgoing live wire for the next box will all be connected._ The neutral wires are connected in the same way as with the single lamp, but the only difference is that in the 4x1.5 cable, the neutral wire is typically gray instead of blue. The ground connection is exactly the same, and there are no changes in its color. So, in short, if this is the last junction box in the circuit, one WAGO 2X connector joins the incoming neutral wire from the power supply and the neutral wire going to the lamp, and the other WAGO 2X connector joins the incoming and outgoing ground wires. However, if it’s not the last box in the circuit, we use WAGO 3X connectors instead of 2X and add the neutral and ground wires going to the next junction box. Finally, the two live wires (brown and black) going to the lamp are connected directly to the switch.
 
@@ -119,21 +119,21 @@ The main difference here is that the cable going to the lamp is a 4x1.5 YDYp cab
 
 I should probably start by explaining what **_Shelly_** actually is. I won’t go into detail about the company itself, but rather focus on the products it offers, specifically those that will be needed for the topic discussed in this post. Let’s start with the **_1PM Gen3_** and **_2PM Gen3_** modules.
 
-![](images/shelly1pm2pmgen3.png)
+![](/images/shelly1pm2pmgen3.png)
 
 These are compact, smart **relays that enable remote control of devices** powered by 110-240 VAC or 24-30 VDC, as well as monitoring their energy consumption. Their dimensions are just 37x42x16 mm. They are designed to be connected and hidden in flush-mounted boxes behind sockets or light switches. With built-in Wi-Fi and Bluetooth modules, they are **easy to integrate with literally any smart home system**. The Gen3 version is currently the latest (though at the time of writing this post, there are already rumors of a Gen4 version), and it supports the **_Matter_** communication standard, which is a breakthrough in IoT because it aims to unify the previously fragmented market of various solutions that were not compatible with each other.
 
 Another great product from _Shelly_ are the **_Wall Switches_**, which are **dedicated switches** specifically for the above relay modules. What’s important about them is that they are **monostable buttons**, meaning they change state only for a short time when pressed. After releasing, they automatically return to their original position. An example would be a doorbell switch. I mention this because a standard light switch is bistable, meaning it has two positions in which it can be set (light on or off).
 
-![](images/shellywallswitch.png)
+![](/images/shellywallswitch.png)
 
 The advantage is that each such button comes with **dedicated brackets** for the corresponding _Shelly_ relay modules, which means **you get quite a lot of space inside the box**. Anyone who has ever installed something in a flush-mounted box knows how cramped it is and how hard it is to arrange those stiff wires. Fitting a _Shelly_ relay module and a regular switch with its own components (the "bottom") is usually quite a challenge. With the switch-module tandem mounted on a dedicated bracket, this problem is significantly minimized.
 
-![](images/shellyswitchadapter.png)
+![](/images/shellyswitchadapter.png)
 
 It’s also worth mentioning that the _Wall Switches_ are sold **without frames, so you need to buy them separately**. Of course, we have to use _Shelly_ frames because (I believe) only those fit the switches from this company, mainly due to the mounting mechanism. However, I should warn you that there are only single, double, and triple frames available. There are no larger ones, while standard switches and sockets can still come in quadruple frames, which are used in some installations. You can find the frames under the name **_Wall Frame_**. Another point worth mentioning is that the _Shelly_ frames have a glass finish, meaning the plate around the button is made of glass. I mention this because many people might not like it or find it to be an important factor.
 
-![](images/shellywallframes.png)
+![](/images/shellywallframes.png)
 
 In my home, I’m only using _Shelly_ products for lighting, so I was looking for regular sockets and frames that would match the design as closely as possible. As a fun fact, I can reveal the results of my search. It turned out that the frames from the [_Flavia_ series from _Leroy Merlin_](https://www.leroymerlin.pl/produkty/ramka-pojedyncza-flavia-bialy-elektro-plast-87958185.html) fit the design of the _Shelly Wall Frame_ the best, in my opinion. I compared the dimensions, cross-section, and the shade of the glass.
 
@@ -141,7 +141,7 @@ In my home, I’m only using _Shelly_ products for lighting, so I was looking fo
 
 Let’s return to the cables and wiring diagrams. First, let’s take a look at **single lighting, where we’ll use the _Shelly 1PM Gen3_ relay module**.
 
-![](images/przelacznik-shelly1pm.png)
+![](/images/przelacznik-shelly1pm.png)
 
 The _Shelly 1PM_ relay module has the following inputs/outputs:
 
@@ -175,7 +175,7 @@ The grounding is connected just like with a standard switch, meaning the protect
 
 For **double lighting, we’ll use the _Shelly 2PM Gen3_ relay module** and connect it as follows.
 
-![](images/przelacznik-shelly2pm.png)
+![](/images/przelacznik-shelly2pm.png)
 
 The main differences, which are immediately apparent, are that we have two independent outputs for the lamps (O1 and O2) and two control inputs (S1 and S2). A downside is that both modules have the same number of terminals, so the 2PM module only has two phase terminals and one neutral terminal, which means more _WAGO_ connectors are needed because we can't bridge as many connections inside the relay module. From a cost perspective, it’s not a big problem, but more _WAGO_ connectors always lead to more challenges fitting everything inside the box.
 
@@ -239,23 +239,23 @@ If the module has successfully connected to the home network, we can also switch
 
 That’s basically it for the basic configuration. I have integrated my _Shelly_ modules with my home server _**Home Assistant**_ as well, but that's a topic for a separate post. Below, I’ve included a few screenshots that should visually complement the description above.
 
-![](images/shelly1.png)
+![](/images/shelly1.png)
     
-![](images/shelly2.png)
+![](/images/shelly2.png)
     
-![](images/shelly3.png)
+![](/images/shelly3.png)
     
-![](images/shelly4.png)
+![](/images/shelly4.png)
     
-![](images/shelly5.png)
+![](/images/shelly5.png)
     
-![](images/shelly6.png)
+![](/images/shelly6.png)
     
-![](images/shelly7.png)
+![](/images/shelly7.png)
     
-![](images/shelly8.png)
+![](/images/shelly8.png)
     
-![](images/shelly9.png)
+![](/images/shelly9.png)
     
 
 ## Well, how much does it cost?

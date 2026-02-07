@@ -25,7 +25,7 @@ Zacznijmy od tego, że _Action Button_ to tak naprawdę niewykorzystany potencja
 
 Zacznę od tyłu, czyli od przedstawienia jak ja wykorzystuję sposób, który przedstawię w tym wpisie. Wszystko mam skonfigurowane tak, że w zależności od spełnienia (lub nie spełnienia) konkretnych warunków użycie _Action Button_ wywołuje inną akcję. Gdy telefon odtwarza dźwięk, czyli słucham muzyki/podcastu lub oglądam wideo, to użycie _AB_ powoduje zatrzymanie odtwarzania. Jeżeli powyższy warunek nie jest spełniony to sprawdzam jeszcze drugi, czyli to w jakiej orientacji aktualnie znajduje się telefon. Można wybrać spośród poniższych:
 
-![](images/image-1.png)
+![](/images/image-1.png)
 
 Na tej bazie mam przypisane następujące akcje:
 
@@ -41,7 +41,7 @@ Na tej bazie mam przypisane następujące akcje:
 
 - Pobierz aplikację [_Actions_](https://apps.apple.com/pl/app/actions/id1586435171), która jest normalnie dostępna w _App Store_. Jest to bardzo przydatne rozszerzenie do aplikacji _Shortcuts_ od niejakiego _Sindre Sorhus_. Nie jest to aplikacja, w której interfejsie robi się cokolwiek. Po prostu dajemy jej pewne uprawnienia, na których podstawie zbiera ona przydatne informacje o stanie telefonu. Można je w prosty sposób importować i wykorzystywać w _Shortcuts_. Wiem, że nie wszystkim spodoba się to, że jest to kolejna aplikacja do zainstalowania i do tego nie jest to aplikacja od _Apple_ tylko od prywatnego dewelopera. Jednakże na pocieszenie mogę dodać, że deweloper wydaje się zaufany, a sama aplikacja nie zbiera żadnych podejrzanych danych.
 
-![](images/image-3.png)
+![](/images/image-3.png)
 
 - Następnym krokiem jest uruchomienie aplikacji _Shortcuts_ i stworzenie nowego skrótu. Robi się to poprzez naciśnięcie przycisku „+” znajdującego się w prawym górnym rogu.
 
@@ -49,11 +49,11 @@ Na tej bazie mam przypisane następujące akcje:
 
 - Formuła mojego skrótu, którego zasadę działania opisałem powyżej wygląda tak:
 
-![](images/image-8.png)
+![](/images/image-8.png)
 
-![](images/image-10.png)
+![](/images/image-10.png)
 
-![](images/image-12.png)
+![](/images/image-12.png)
 
 - Tak zbudowany skrót zapisujemy przy użyciu przycisku _Done_ znajdującego się w prawym górnym rogu.
 
@@ -61,11 +61,11 @@ Na tej bazie mam przypisane następujące akcje:
 
 - Przewijamy tak długo w prawo (lub lewo) aż trafimy na opcję _Shortcut_.
 
-![](images/image-15.png)
+![](/images/image-15.png)
 
 - Naciskamy przycisk _Choose a Shortcut…_ i wybieramy z menu, które wyskoczy, właśnie ten, który przed chwilą utworzyliśmy.
 
-![](images/image-17.png)
+![](/images/image-17.png)
 
 - To wszystko. Teraz wystarczy sprawdzić poprawność działania i cieszyć się, że nasz _Action Button_ to teraz coś więcej niż tylko zwykle włączanie lub wyłączanie trybu cichego.
 
@@ -73,4 +73,4 @@ Na tej bazie mam przypisane następujące akcje:
 
 Dla leniwych przygotowałem do pobrania gotowy skrót, który stworzyłem. Możesz go pobrać pod [tym linkiem](http://blog.tomaszdunia.pl/bloglab/shared/Super Action Button from blog.tomaszdunia.pl.shortcut). Jedyne co musisz zrobić to uruchomić go z poziomu aplikacji _Files_ i zaimportować do swojej aplikacji _Shortcuts_ używając przycisku _Add Shortcut_. Miłego użytkowania!
 
-![](images/image-20.png)
+![](/images/image-20.png)

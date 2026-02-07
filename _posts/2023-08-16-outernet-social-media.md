@@ -47,7 +47,7 @@ Tym wpisem otwieram nowy cykl pod nazwą _Outernet_. Nazwa ta powstała w mojej 
 
 O _[Mastodonie](https://joinmastodon.org/)_ wspominałem już wiele razy na tym blogu. Jest to aktualnie moje ulubione miejsce w sieci i zdecydowanie pasuje do ideologii _Outernet_. Dla tych, którzy jeszcze nie mieli okazji przeczytać polecam mój [wpis, w którym opowiadam czym jest _Mastodon_ i cały _Fediverse_](https://blog.tomaszdunia.pl/mastodon/). W skrócie, _Mastodon_ swoją formą przypomina _Twittera_, ale jest wolny od wszelkiego rodzaju algorytmów, które jedne treści polecają i bombardują nas nimi, a inne, nierzadko bardziej wartościowe, skrzętnie ukrywają, także by możliwie jak najtrudniej byłoby je znaleźć. Nie uświadczysz tam również natarczywych reklam, a nieodpowiednie treści można tam w prosty sposób odfiltrować poprzez wyciszenie lub całkowite zbanowanie i to nie tylko na poziomie jednego konta, ale również w zakresie całych instancji, które w naszej ocenie są dla nas nieodpowiednie. Polecam rozpocząć swoją przygodę w tym świecie od rejestracji na jednej z poniższych instancji, które polecam:
 
-![](images/mastodon_logo.png)
+![](/images/mastodon_logo.png)
 
 - 🇵🇱 [101010.pl](https://101010.pl)
 
@@ -71,7 +71,7 @@ _Instagram_ jest obecnie chyba najbardziej rozpoznawalna sieć społecznościowa
 
 Polecane przeze mnie instancje:
 
-![](images/pixelfed_logo-1024x1024.png)
+![](/images/pixelfed_logo-1024x1024.png)
 
 - 🇬🇧 [pixelfed.social](https://pixelfed.social)
 
@@ -85,7 +85,7 @@ Na ratunek przychodzi kolejna usługa działająca w obrębie _Fediverse_ - _[Le
 
 Polecane przeze mnie instancje _Lemmy_:
 
-![](images/lemmy_logo-1024x675.png)
+![](/images/lemmy_logo-1024x675.png)
 
 - 🇵🇱 [szmer.info](https://szmer.info)
 
@@ -93,7 +93,7 @@ Polecane przeze mnie instancje _Lemmy_:
 
 Poruszając temat alternatywy dla _Reddita_ nie sposób też nie wspomnieć o projekcie _[kbin](https://kbin.pub)_, który jest jak _Lemmy_, ale ma nieco inną specyfikę. Polecam zajrzeć również na te instancje _kbin_:
 
-![](images/kbin_logo.webp)
+![](/images/kbin_logo.webp)
 
 - 🇵🇱 [karab.in](https://karab.in)
 
@@ -105,7 +105,7 @@ Na temat _[Friendica](https://friendi.ca/)_ nie mogę powiedzieć za dużo, bo p
 
 Niemniej jednak to tylko moje zdanie, więc polecam każdemu sprawdzić na własnej skórze, a polecić mogę następujące instancje:
 
-![](images/friendica_logo-1024x1024.png)
+![](/images/friendica_logo-1024x1024.png)
 
 - 🇵🇱 [soc.citizen4.eu](https://soc.citizen4.eu)
 
@@ -113,7 +113,7 @@ Niemniej jednak to tylko moje zdanie, więc polecam każdemu sprawdzić na włas
 
 ## PeerTube jako alternatywa dla YouTube'a
 
-![](images/peertube_logo-768x1024.png)
+![](/images/peertube_logo-768x1024.png)
 
 Jesteś twórcą internetowym? Tworzysz treści wideo? Masz dosyć YouTube'a i szukasz alternatywy, która pozwoli Ci odzyskać kontrolę? _[PeerTube](https://joinpeertube.org)_ to rozwiązanie dla Ciebie! W tym przypadku ciężko jest mi wskazać jakąś konkretną instancję, od której warto zacząć, bo istotne jest jaka tematyka Cię interesuje. [Tutaj jest lista](https://joinpeertube.org/instances) polecanych instancji posegregowanych tematycznie. Jeżeli traktujesz swoją twórczość na poważnie to zdecydowanie polecam utworzyć własną instancję do hostowania swoich treści.
 
@@ -121,7 +121,7 @@ Jesteś twórcą internetowym? Tworzysz treści wideo? Masz dosyć YouTube'a i s
 
 Lubisz pisać? Istnieją rozwiązania, które pozwolą Twojej twórczości na łatwą interakcję (federację) z rozwiązaniami w _Fediverse_. Pierwszym z nich jest specjalnie przygotowana do tego platforma _[WriteFreely](https://writefreely.org/)_, o której pisałem w [jednym z poprzednich wpisów](https://blog.tomaszdunia.pl/writefreely-polska/). W skrócie pozwala na pisanie bloga w bardzo prostej formie, a mówi się, że piękno tkwi w prostocie. Polecam następujące instancje:
 
-![](images/writefreely_logo.png)
+![](/images/writefreely_logo.png)
 
 - 🇵🇱 [writefreely.pl](https://writefreely.pl)
 

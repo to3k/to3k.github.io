@@ -25,7 +25,7 @@ Running _Uptime Kuma_ on your server can be done in various ways. One of them is
 
 Firstly, you need to create the required volume. The _Uptime Kuma_ documentation states that you need to mount the path _/app/data_. Therefore, let's create a volume named _uptime-kuma\_app\_data_.
 
-![](images/uptimekuma1.png)
+![](/images/uptimekuma1.png)
 
 Now we can proceed to create the container:
 
@@ -62,7 +62,7 @@ The service, once activated, will be accessible at the following address:
 
 Upon accessing the specified address, you will be greeted by the standard installer, where you need to choose the language for the interface, set the administrator's name, and password.
 
-![](images/uptimekuma2.png)
+![](/images/uptimekuma2.png)
 
 ## Basic Operation
 
@@ -70,11 +70,11 @@ The entire operation of the _Uptime Kuma_ service revolves around creating monit
 
 The most basic function that came to mind is to create a monitor that will check if my blog is running and functioning well. Click the _Add Monitor_ button and then, in the displayed wizard, choose the _Monitor Type_ as _HTTP(s)_, give it a name, for example, _Tomasz Dunia Blog_, and enter the URL _https://blog.tomaszdunia.pl_. You can leave the rest of the parameters as default. Confirm the monitor creation by clicking the _Save_ button.
 
-![](images/uptimekuma4.png)
+![](/images/uptimekuma4.png)
 
 This monitor performs a very simple task. At intervals of 60 seconds, it visits the specified website address and retrieves the _HTTP_ header, which contains the status code. Receiving a code within the range of 200-299 indicates that the website is functioning correctly. This information is then stored in the database, and the monitor waits another 60 seconds to repeat the same action in a loop. The collected data is presented as shown in the screenshot below.
 
-![](images/uptimekuma5.png)
+![](/images/uptimekuma5.png)
 
 As you can see, the basic information includes the current status of the website and a bar displaying green lines (or red lines if there were any interruptions in operation) indicating previous statuses. In addition, the time in which page responds is measured and aggregated (along with a graph showing its shape in previous iterations), and the average working time is calculated.
 
@@ -112,4 +112,4 @@ There are quite a few advanced settings, aren't there? And I've only listed thos
 
 _Uptime Kuma_ is undoubtedly a very useful tool! However, it has one fundamental drawback. If you track visitor statistics on your site, they may be disrupted by monitoring. How so? Note that the default monitor does its job by visiting the site every 60 seconds. That's 60 times per hour and 1440 times per day. Each such action looks and is counted in statistics as a normal visit to the site, like that of a blog reader. On very popular sites, this may be entirely unnoticed, but on niche sites like my blog, it would constitute a significant portion of the counted visits. The comforting thing is that, in most cases, there is a solution to this! On my blog, I use the _[Independent Analytics](https://independentwp.com/)_ plugin for statistics. Why I chose this particular plug-in is described [here](https://blog.tomaszdunia.pl/rodo-gdpr/). I'm wiriting about it, because it has a special option that allows me to exclude visits from a specific _IP_ address from statistics. In practice, you should enter the _IP_ address of the server where you have deployed _Uptime Kuma_, and you're done. I believe that other statistics tools also have such a function, which should be available in their settings. The essential thing is to exclude the specific _IP_ address from statistics, not to completely block its access to the site, as this would cause the _Uptime Kuma_ monitor to stop working.
 
-![](images/uptimekuma6.png)
+![](/images/uptimekuma6.png)

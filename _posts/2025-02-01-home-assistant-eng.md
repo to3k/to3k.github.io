@@ -100,13 +100,13 @@ The entire process is divided into two stages:
 
 3. _Validating_ - verifying its integrity and overall correctness.
 
-![](images/balenaether1.png)
+![](/images/balenaether1.png)
     
-![](images/balenaether2.png)
+![](/images/balenaether2.png)
     
-![](images/balenaether3.png)
+![](/images/balenaether3.png)
     
-![](images/balenaether4.png)
+![](/images/balenaether4.png)
     
 
 The card is ready! You can remove it from the reader and insert it into the appropriate port of the target device, which will soon become our home smart home server. Once the device is ready, we connect it to the network cable and power supply.
@@ -121,15 +121,15 @@ http://X.X.X.X:8123
 
 where _X.X.X.X_ is the IP address of our new server on the local network. As you can see, **_Home Assistant_ runs on port _8123_**. Remember this, as it will be useful later. The screen that will greet us should look something like this:
 
-![](images/ha0.png)
+![](/images/ha0.png)
 
 This is the first step in the configuration process of a new _HA_ instance, where _Home Assistant Core_ is downloaded. Unfortunately, **the duration of this stage depends on the specifications of our hardware and, most importantly, our internet speed**, as at least 700 MB needs to be downloaded. Once completed, a welcome page will appear, where we can decide whether to create a system from scratch or restore it from a backup. Since we are just starting our journey with _HA_, we select _Create my smart home_.
 
-![](images/ha1.png)
+![](/images/ha1.png)
 
 Of course, we start by creating an administrator account. We need to provide a name, username, and password twice. Once everything is correct, we confirm by clicking the _Create account_ button.
 
-![](images/ha3.png)
+![](/images/ha3.png)
 
 In the next step, we will be asked to specify the location of our home. You might be wondering, "but why?". So, let me explain that this is an important piece of information in the context of:
 
@@ -141,15 +141,15 @@ In the next step, we will be asked to specify the location of our home. You migh
 
 In this step, we also set up the unit system we want to use (metric) and the currency. Wait a minute, currency...? Yes, because _HA_ has features that calculate, for example, electricity consumption and other similar data into real costs.
 
-![](images/ha4.png)
+![](/images/ha4.png)
 
 Finally, there's a request to share diagnostic data. Of course, there's no obligation to agree to share anything.
 
-![](images/ha5.png)
+![](/images/ha5.png)
 
 Basic configuration is complete. In the last window that will be displayed, _Home Assistant_ will list compatible devices it has found on the network and can integrate with. Of course, this only applies if such devices are currently available in the network. At this stage, there's no need to deal with this, as it can be done later, so we simply press the _Finish_ button.
 
-![](images/ha6.png)
+![](/images/ha6.png)
 
 ## Basic configuration
 
@@ -159,60 +159,60 @@ _Home Assistant_ has a lot of features, so covering all of them in one post is n
 
 _Home Assistant OS_ **automatically checks for new updates** and notifies us if any are available. This applies not only to the system itself but also to individual devices, provided this feature is supported for them. If _HAOS_ detects a new update, the information will appear in two places. The first is at the top of _Settings_, where a list of components that can be updated is displayed. The second location is a bit deeper, requiring navigation through the following path - _Settings -> System -> Updates_.
 
-![](images/haakt1.png)
+![](/images/haakt1.png)
     
-![](images/haakt2.png)
+![](/images/haakt2.png)
     
-![](images/haakt3.png)
+![](/images/haakt3.png)
     
-![](images/haakt4.png)
+![](/images/haakt4.png)
     
 
 As for the update process itself, all that is required is pressing the _Update_ button and a bit of patience. Of course, the waiting time depends on the power of the hardware and the speed of the internet connection.
 
-![](images/haakt5.png)
+![](/images/haakt5.png)
     
-![](images/haakt6.png)
+![](/images/haakt6.png)
     
 
 **Adding New Devices**
 
 _Home Assistant_ periodically scans the local network for new devices. When it detects one, it sends a _Notification_ containing a shortcut to add it to the smart home system.
 
-![](images/hanowe01.png)
+![](/images/hanowe01.png)
     
-![](images/hanowe02.png)
+![](/images/hanowe02.png)
     
 
 Unfortunately, this does not always work or may not work immediately after connecting a new device. So, I will show you how to do it from the beginning in a proper way—that is, in a way that always works. We go to the list of all devices connected to our _Home Assistant_. It is available in _Settings -> Devices & Services -> (top tab) Devices_. In the bottom right corner, there is an _Add Device_ button. A window will appear where we need to search for the new device by brand name. In this example, I search for the term "shelly".
 
-![](images/hanowe1.png)
+![](/images/hanowe1.png)
     
-![](images/hanowe2.png)
+![](/images/hanowe2.png)
     
-![](images/hanowe3.png)
+![](/images/hanowe3.png)
     
-![](images/hanowe4.png)
+![](/images/hanowe4.png)
     
 
 From this point, there are two possibilities. If _HA_ can automatically discover the new device, a suggestion will appear immediately. You only need to select it from the list and confirm your choice.
 
-![](images/hanowe5.png)
+![](/images/hanowe5.png)
     
-![](images/hanowe6.png)
+![](/images/hanowe6.png)
     
 
 If, however, _HA_ does not detect the new device, we will be asked to provide its IP address and port, where the management interface is located. After entering this data, we press the _Confirm_ button.
 
-![](images/hanowe7.png)
+![](/images/hanowe7.png)
 
 If everything went smoothly, we will receive confirmation that the configuration for the new device has been created. The final step is to assign it to an area. Areas are fully defined by the user. Some divide the entire system into rooms, such as living room, kitchen, bedroom, etc. I approached it differently—in my case, all _Shelly_ relay modules are in the _Lighting_ area because I want to manage them as a single group. We complete the process by pressing the _Finish_ button.
 
-![](images/hanowe8.png)
+![](/images/hanowe8.png)
 
 Done! The new device has been added.
 
-![](images/hanowe9.png)
+![](/images/hanowe9.png)
 
 ## Summary
 

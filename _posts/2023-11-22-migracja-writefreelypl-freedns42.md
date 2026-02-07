@@ -74,17 +74,17 @@ Na początek ustalmy jakie rekordy mamy w _Cloudflare_. W tym celu po zalogowani
 
 Mając już te dane możemy przejść na stronę _[FreeDNS::42](https://freedns.42.pl/)_ i założyć konto. Po zalogowaniu przechodzimy do _Utwórz strefę_ (dostępne w menu na górze). Podajemy dowolną nazwę strefy, jako typ strefy wybieramy _Podstawowe_ i potwierdzamy przyciskiem _Utwórz_.
 
-![](images/freedns42-1.png)
+![](/images/freedns42-1.png)
 
 W ten sposób tworzymy całkowicie pustą strefę, którą należy teraz odpowiednio skonfigurować. W tym celu wybieramy na górze _Modyfikuj strefę_, na liście odnajdujemy tą świeżo utworzoną i wybieramy ją. Aby uzyskać identyczną konfigurację do tej z _Cloudflare_ musimy wypełnić to jak na poniższych zrzutach ekranu.
 
-![](images/freedns42-2.png)
+![](/images/freedns42-2.png)
     
-![](images/freedns42-3.png)
+![](/images/freedns42-3.png)
     
-![](images/freedns42-4.png)
+![](/images/freedns42-4.png)
     
-![](images/freedns42-5.png)
+![](/images/freedns42-5.png)
     
 
 To wszystko potwierdzamy przyciskiem _Utwórz konfigurację strefy_ znajdującym się na samym dole. Po wszystkim powinniśmy zobaczyć następujące potwierdzenie:
@@ -134,7 +134,7 @@ Ostatni krok jaki pozostało nam wykonać to zalogować się do panelu klienta u
 
 - fns2.42.pl
 
-![](images/freedns42-7.png)
+![](/images/freedns42-7.png)
 
 Takie ustawienie sprawi, że domena poprzez _NASK_ będzie odsyłała do _FreeDNS::42_, które dalej będzie już kierowało ruch zgodnie z ustawionymi rekordami.
 
@@ -142,6 +142,6 @@ Takie ustawienie sprawi, że domena poprzez _NASK_ będzie odsyłała do _FreeDN
 
 To nie do końca jest koniec tematu. Z _DNSami_ jest niestety tak, że zmiany w nich wprowadzane nie są natychmiastowe. Lubię to zjawisko nazywać _propagacją_, choć już niejednokrotnie byłem poprawiany przez mądrzejszych ode mnie, że nie jest to odpowiednie określenie. Mimo to dalej wydaje mi się, że jest to najtrafniejsze słowo jakiego mogę użyćw tej sytuacji. Chodzi o to, że sieć serwerów nazw to naprawdę obszerna pajęczyna komputerów, które nieustannie wymieniają się informacjami i nie posiadają centralnego nadzorcy, który pilnowałby, aby wszystkie informacje na wszystkich serwerach były jednakowe i aktualne. Dowolna zmiana w konfiguracji _DNS_ jest tak naprawdę rozgłaszana i rozprzestrzenia się coraz bardziej od serwera do serwera. To właśnie nazywam _propagacją_. Do tego serwery nie aktualizują swoich danych przy każdym zapytaniu do nich skierowanym, bo byłaby to wydajnościowa tragedia. W zamian za to korzystają ze swojej pamięci podręcznej (_cache_), tj. jeżeli tylko mają o danej domenie jakieś informacje, które są względnie aktualne to po prostu je serwują bez sprawdzania czy aby na pewno nie były zmienione sekundy temu. Dążę do tego, że zmiany, których dokonaliśmy w poprzednich akapitach mogą się _propagować_ nawet do 24 godzin i jest to normalne. Postęp tego procesu można monitorować takimi narzędziami jak [_DNS Checker_](https://dnschecker.org/#NS/writefreely.pl). Na poniższym zrzucie ekranu można zaobserwować idealne potwierdzenie tego co napisałem wyżej, czyli to, że część testowych _NSów_ odsyła jeszcze do starych _DNSów_ (_Cloudflare_), a pozostałe serwują już aktualne. Z uwagi na to istotne jest, aby jeszcze przez jakiś czas pozostawić starą konfigurację w _Cloudflare_, dzięki czemu unikniemy tego, że dla pewnych osób strona mogłaby być niedostępna.
 
-![](images/freedns42-9.png)
+![](/images/freedns42-9.png)
 
 W przypadku zmiany serwera _DNS_ propagacja nie jest tak wielkim problemem, bo po prostu wystarczy przez pewien czas pozostawić jednakową konfigurację na dwóch usługach pośredniczących. Większy problem jest, gdy przesiadamy się z jednego serwera na drugi posiadający inny adres _IP_. Wtedy zachowanie ciągłości działania przenoszonej usługi jest niemalże niemożliwe, bo jest ona przenoszona na drugi serwer, a niektóre serwery _DNS_ jeszcze przez pewien czas będą odsyłać do starego, na którym już tej usługi nie ma. Nie jest to przypadek omawiany w tym wpisie, ale myślę, że warto o tym wspomnieć, żeby wyczerpać temat.

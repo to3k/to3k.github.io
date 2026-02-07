@@ -42,7 +42,7 @@ W tym wpisie podejdę do sprawy podobnie jak przy [wpisie o _Nextcloud_](https:/
 
 3. [w oparciu o Dockera na dowolnym innym serwerze](#docker).
 
-![](images/vaultwarden2.png)
+![](/images/vaultwarden2.png)
 
 ## Uruchomienie w YunoHost
 
@@ -50,7 +50,7 @@ Instalacja będzie przebiegać podobnie do tej opisanej we [wpisie o _WriteFreel
 
 Zaczynamy od zalogowania się do naszego panelu administratora _YunoHost_ i od razu przechodzimy do _Aplikacje_. Następnie w prawym górnym rogu zielony przycisk _\+ Instaluj_, wyszukujemy aplikację _Vaultwarden_ i wybieramy ją z listy. Zjeżdżamy niżej do sekcji _Ustawienia instalacji_ i rozpoczynamy konfigurację:
 
-![](images/vaultwarden_yunohost2-1024x496.png)
+![](/images/vaultwarden_yunohost2-1024x496.png)
 
 1. W pole tekstowe _Etykieta dla Vaultwarden_ \[1\] wpisujemy to pod jaką nazwą chcemy widzieć tą aplikację na liście aplikacji w naszym _YunoHost_.
 
@@ -84,27 +84,27 @@ admin_token: [token]
 
 Kopiujemy wartość _\[token\]_, która będzie nam potrzebna do zalogowania się do panelu administratora _Vaultwarden_. Na tym etapie połączenie _SSH_ z serwerem nie będzie już nam potrzebne. Panel administratora dostępny jest pod adresem, którego początek to adres, który podczas instalacji wybraliśmy dla aplikacji _Vaultwarden_, a koniec to dopisek _/admin_. Podajemy tam skopiowany _token_ i co pozwoli wejść do panelu admina, w którym od razu przechodzimy do zakładki _Users_ \[1\].
 
-![](images/vault1.png)
+![](/images/vault1.png)
 
 Na dole znajduje się sekcja _Invite User_. W polu tekstowym \[2\] podajemy swój adres e-mail i potwierdzamy przyciskiem _Invite_ \[3\].
 
-![](images/vault2.png)
+![](/images/vault2.png)
 
 Powyższe działanie poskutkuje tym, że na liście pojawi się nowy użytkownik \[4\]
 
-![](images/vault3a.png)
+![](/images/vault3a.png)
 
 W międzyczasie na podany adres e-mail zostanie wysłane zaproszenie z linkiem aktywacyjnym. Naciskamy przycisk _Join Organization Now_ \[5\].
 
-![](images/vault4.png)
+![](/images/vault4.png)
 
 Zostaniemy przeniesieni z powrotem do przeglądarki, gdzie zobaczymy komunikat mówiący o tym, że zostaliśmy zaproszeni do organizacji i możemy z niego teraz skorzystać. Naciskamy przycisk _Utwórz konto_ \[6\].
 
-![](images/vault5a.png)
+![](/images/vault5a.png)
 
 Zostaniemy przeniesieni do standardowego formularza rejestracji, w którym podajemy adres e-mail \[7\], nazwę użytkownika \[8\], hasło (dwa razy) \[9\] i opcjonalnie podpowiedź do hasła \[10\]. Na koniec możemy jeszcze zdecydować \[11\] czy chcemy, aby nasze hasło było wyszukane w znanych zbiorach haseł, które wyciekły. Ja jednak tego celu używam strony [HaveIBeenPwned.com](https://haveibeenpwned.com/), więc zawsze odznaczam to pole. Wypełniony formularz potwierdzamy przyciskiem _Utwórz konto_ \[12\].
 
-![](images/vault6a.png)
+![](/images/vault6a.png)
 
 ## Uruchomienie jako kontener Dockera
 
@@ -349,12 +349,12 @@ Robienie kopii zapasowych to zawsze **bardzo ważna sprawa**. Jednakże posiadan
 
 W moim przypadku, poza ogarnięciem sprawy kopii zapasowych, konfiguracja zaraz po uruchomieniu własnego _skarbca_ składa się jeszcze z jedynie dwóch kroków.
 
-![](images/vault7.png)
+![](/images/vault7.png)
 
 Pierwszym z nich jest **włączenie dwuskładnikowego uwierzytelnienia podczas logowania**, bo zabezpieczenie swoich haseł to podstawa. Realizuje się to poprzez rozwinięcie menu użytkownika znajdującego się w prawym górnym rogu \[1\], wejście w _Ustawienia konta_ \[2\], następnie po lewej zakładka _Zabezpieczenia_ \[3\] i _Logowanie dwustopniowe_ \[4\]. W tym miejscu można skonfigurować takie zabezpieczenia jak _TOTP_ (aplikacje z kodami czasowymi), klucze sprzętowe _Yubico_ (_YubiKey_) czy w ostateczności (bo jest to najgorsza forma) kody przesyłane na skrzynkę mailową.
 
-![](images/vault8a.png)
+![](/images/vault8a.png)
 
 Drugą czynnością jest **migracja mojej bazy haseł**. Narzędzie do importu znajduje się w zakładce _Narzędzia_ \[5\] w zakładce _Importuj dane_ \[6\].
 
-![](images/vault9.png)
+![](/images/vault9.png)

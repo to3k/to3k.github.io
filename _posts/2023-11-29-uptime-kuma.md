@@ -25,7 +25,7 @@ Uruchomienie _Uptime Kuma_ na swoim serwerze jest możliwe na wiele sposobów. J
 
 W pierwszej kolejności należy utworzyć wymagany wolumen. W dokumentacji _Uptime Kuma_ podane jest, że trzeba podmontować ścieżkę _/app/data_. Dlatego utwórzmy wolumen o nazwie _uptime-kuma\_app\_data_.
 
-![](images/uptimekuma1.png)
+![](/images/uptimekuma1.png)
 
 Możemy przejść do tworzenia kontenera:
 
@@ -62,7 +62,7 @@ Tak uruchomiona usługa dostępna będzie pod adresem:
 
 Po wejściu na podany adres przywita nas standardowy instalator, w którym musimy określić język w jakim chcemy widzieć interfejs, nazwę i hasło dla administratora.
 
-![](images/uptimekuma2.png)
+![](/images/uptimekuma2.png)
 
 ## Podstawowa obsługa
 
@@ -70,11 +70,11 @@ Cała zasada działania usługi _Uptime Kuma_ polega na tworzeniu monitorów, kt
 
 Najbardziej podstawowa funkcja jaka przyszła mi do głowy to utworzenie monitora, który będzie sprawdzał czy mój blog działa i ma się dobrze. Naciskamy przycisk _Dodaj monitor_ i następnie w wyświetlonym kreatorze wybieramy _Rodzaj monitora_ jako _HTTP(s)_, nadajemy mu nazwę np. _Tomasz Dunia Blog_ i wprowadzamy URL _https://blog.tomaszdunia.pl_, a resztę parametrów możemy zostawić jako domyślne. Chęć utworzenia monitora potwierdzamy przyciskiem _Zapisz_.
 
-![](images/uptimekuma4.png)
+![](/images/uptimekuma4.png)
 
 Tak utworzony monitor wykonuje bardzo proste zadanie. W interwale co 60 sekund odwiedza podany adres strony i pobiera nagłówek _HTTP_, w którym znajduje się kod statusu. Otrzymanie kodu zawierającego się w zakresie 200-299 oznacza, że strona działa prawidłowo. Ten fakt jest zapisywany w bazie danych i monitor czeka kolejne 60 sekund, aby znowu powtórzyć analogiczne działanie i tak w kółko. Zebrane dane prezentowane są w sposób pokazany na poniższym zrzucie ekranu.
 
-![](images/uptimekuma5.png)
+![](/images/uptimekuma5.png)
 
 Jak widać podstawowa informacja to aktualny status strony oraz pasek pokazujący zielone kreski (lub czerwone, gdy występowały jakieś przerwy w działaniu) informujące o wcześniejszych statusach. Do tego liczona i agregowana jest długość odpowiedzi strony (wraz z wykresem jak kształtował się w poprzednich iteracjach) oraz wyliczany jest średni czas pracy.
 
@@ -112,4 +112,4 @@ Jest trochę tych ustawień zaawansowanych, prawda? A wymieniłem tylko te dost�
 
 _Uptime Kuma_ to niewątpliwie bardzo przydatne narzędzie! Jednakże ma jedną zasadniczą wadę. Jeżeli na swojej stronie prowadzisz statystyki odwiedzin to przez monitorowanie mogą one zostać zaburzone. Jak to? Zobacz, że domyślny monitor realizuje swoją pracę, poprzez odwiedzanie strony, dokładnie co 60 sekund. To aż 60 razy na godzinę i 1440 razy na dobę. Każde takie działanie wygląda i jest kalkulowane w statystykach jak normalne odwiedziny strony, np. przez czytelnika bloga. Na bardzo popularnych stronach to może być w ogóle niezauważalna kropla w morzu, ale na takich niszowych jak mój blog stanowiłoby to sporą część zliczonych odwiedzin. Pocieszające jest to, że w większości przypadków da się temu zaradzić! Ja na swoim blogu jako wtyczkę od statystyk wykorzystuję _[Independent Analytics](https://independentwp.com/)_. To dlaczego wybrałem tę konkretną wtyczkę opisałem [tutaj](https://blog.tomaszdunia.pl/rodo-gdpr/). Piszę o tym dlatego, że ma ona specjalną opcję, dzięki której mogę wyłączyć odwiedziny z określonego adresu _IP_ ze statystyk. W praktyce powinno się tam podać adres _IP_ serwera, na którym uruchomiliśmy _Uptime Kuma_ i po sprawie. Wierzę, że inne narzędzia do prowadzenia statystyk również posiadają taką funkcję, której należy poszukać w ich ustawieniach. Istotne jest jedynie, aby wyłączyć (po ang. _exclude_) dany adres _IP_ ze statystyk, a nie całkowicie zablokować mu dostęp do strony, bo wtedy monitor _Uptime Kuma_ przestanie działać.
 
-![](images/uptimekuma6.png)
+![](/images/uptimekuma6.png)

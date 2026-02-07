@@ -60,7 +60,7 @@ The installation process will be similar to the one described in my [post about 
 
 We start by logging into our _YunoHost_ administrator panel and immediately go to _Applications_. Then, in the top right corner, click the green _\+ Install_ button, search for the _Nextcloud_ application and select it from the list. Scroll down to the _Installation settings_ section and start configuring:
 
-![](images/nc1.png)
+![](/images/nc1.png)
 
 1. In the text field named _Label for Nextcloud_ \[1\], enter the name under which you want to see this application in the list of applications in your _YunoHost_.
 
@@ -160,7 +160,7 @@ If everything is okay, we can now go to the browser and enter the IP address of 
 
 After following any of the above instructions, the resulting welcome screen should look like this (or similar):
 
-![](images/nc3.png)
+![](/images/nc3.png)
 
 As you can see at first glance, Nextcloud is a very user-friendly, clean, and intuitive interface. I won't go into detail about the capabilities of this environment here, but I recommend going to the application installation and management tool (the user icon in the upper right corner \[1\] and select _Apps_ from the list \[2\]). Please note how many possibilities are now available in the Nextcloud library!
 
@@ -172,20 +172,20 @@ It is also important not to forget to enable two-factor authentication during lo
 
 Dedicated _Nextcloud_ applications are available for _Windows_, _Linux_, _macOS_, _Android_, and _iOS_. All of them can be accessed through [this link](https://nextcloud.com/install/). Installation on each system is identical, so I will demonstrate the entire process on _macOS_. After installing the appropriate application, we launch it and on start-up, we are presented with a window where we select the _Log in to Nextcloud_ button. In the next window, we are asked to enter the server address, so we provide it and confirm with the _Next >_ button.
 
-![](images/nc1.webp)
+![](/images/nc1.webp)
     
-![](images/nc2.webp)
+![](/images/nc2.webp)
     
 
 We will be redirected to the browser, where we need to authenticate the new client.
 
-![](images/nc3-1.webp)
+![](/images/nc3-1.webp)
     
-![](images/nc4.webp)
+![](/images/nc4.webp)
     
-![](images/nc5.webp)
+![](/images/nc5.webp)
     
 
 Finally, we return to the freshly installed _Nextcloud_ application, where we still need to perform the basic client configuration. We provide the folder in the local computer memory to which _Nextcloud_ should be connected. The rest can be changed according to ones preferences. Finally, we confirm by clicking the _Connect_ button and that's it. This configured client will update our files in real time, which means that when we modify, add, or delete a file on any device, these changes will be reflected on the server in a moment, and then on other connected devices.
 
-![](images/nc6.webp)
+![](/images/nc6.webp)

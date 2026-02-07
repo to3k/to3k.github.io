@@ -36,12 +36,12 @@ Dzisiaj kolejny wpis z cyklu krótkich a.k.a. szortów. Jego powstanie zostało 
 
 11. Jak ktoś ma wykupiony dostęp do GPT-4 to można zmienić model we właściwościach _Skrótu_ \[2\].
 
-![](images/IMG_0071.png)
+![](/images/IMG_0071.png)
 
 ## Jak to wygląda?
 
-[![](images/IMG_0070.png)](https://blog.tomaszdunia.pl/wp-content/uploads/2023/04/IMG_0070.png)
+[![](/images/IMG_0070.png)](https://blog.tomaszdunia.pl/wp-content/uploads/2023/04/IMG_0070.png)
 
-[![](images/IMG_0067.png)](https://blog.tomaszdunia.pl/wp-content/uploads/2023/04/IMG_0067.png)
+[![](/images/IMG_0067.png)](https://blog.tomaszdunia.pl/wp-content/uploads/2023/04/IMG_0067.png)
 
 _Źródło: [MacStories.net](https://www.macstories.net/ios/introducing-s-gpt-a-shortcut-to-connect-openais-chatgpt-with-native-features-of-apples-operating-systems/)_

@@ -209,7 +209,7 @@ Przejdźmy od razu do działania, czyli poszukajmy ciekawego _funduszu indeksowe
 
 Przy takich ustawieniach odfiltrowanych zostało tyle pozycji, że zostało jedynie 12 z 467 i tak się składa, że wszystkie są funduszami z oferty _[inPZU](https://in.pzu.pl/)_ (_TFI PZU S.A._), które jako jedyne posiada **opłaty za zarządzanie na poziomie 0.50%, co jest szalenie atrakcyjną ofertą**, którą zawojowali rynek patrząc po wszystkich aktualnych zestawieniach najlepszych _TFI_.
 
-![](images/kupfundusz_funduszeindeksowe-693x1024.png)
+![](/images/kupfundusz_funduszeindeksowe-693x1024.png)
 
 Jak widać nie dość, że _inPZU_ oferuje najniższe koszty za zarządzanie to jeszcze ma wszystkie _fundusze indeksowe_, które mnie interesują:
 

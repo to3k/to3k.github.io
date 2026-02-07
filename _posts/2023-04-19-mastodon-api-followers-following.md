@@ -67,7 +67,7 @@ _Adres instancji_ to w moim przypadku będzie _mastodon.tomaszdunia.pl_. Natomia
 
 Skonstruujmy zatem stosowny URL - [https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k](https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k). Po uruchomieniu go w przeglądarce otrzymamy od serwera odpowiedź w postaci obiektu _JSON_ (wspominałem o tym formacie w [tych wpisach](https://blog.tomaszdunia.pl/tag/json/)). W przeglądarce Firefox, która jest moim podstawowym narzędziem deweloperskim, wygląda to tak:
 
-![](images/mastodonapijson1.png)
+![](/images/mastodonapijson1.png)
 
 Szukane ID wskazałem czerwoną strzałką na powyższym zrzucie ekranu. Bierzemy to _ID_ i tworzymy link będący zapytaniem o listę obserwowanych - [https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers](https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers). W ten sposób otrzymaliśmy obiekt _JSON_ będący tablicą z informacjami o 40 kontach, które obserwują mnie na _Mastodonie_. Zmodyfikujmy ten link dodając do niego na końcu parametr _limit_, aby otrzymać dwa razy więcej wyników (wartość maksymalna jaką możemy uzyskać to 80) - [https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers?limit=80](https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers?limit=80). Co w przypadku, gdy ktoś ma więcej niż 80 obserwujących i chce uzyskać całą listę? Do tego potrzebujemy wykorzystać _paginację_, ale o niej w dalszej części wpisu.
 
@@ -79,7 +79,7 @@ Pisząc to zastanawiam się czy takie słowo w ogóle istnieje w języku polskim
 
 Załóżmy, że mam 800 obserwujących. Korzystając z linka - [https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers?limit=80](https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/followers?limit=80), który skonstruowaliśmy wcześniej, otrzymujemy w odpowiedzi od serwera listę 80 kont, które obserwują mnie na _Mastodonie_. Są to konta posortowane czasowo, zaczynając od najświeższego obserwatora (osoby, która zaczęła mnie obserwować jako ostatnia). Tak, więc 1/10 listy moich obserwowanych już mamy. Jak w takim razie przejść do następnej strony i poznać obserwatorów od 81 do 160? Musimy ustalić jaki będzie URL następnej strony, a informację o tym dostajemy w nagłówku (_header_) odpowiedzi od API. Jest to konkretnie zawarte w parametrze nazywającym się _link_. W Firefox wystarczy zmienić zakładkę z _JSON_ na _Nagłówki_ i otrzymamy coś podobnego do tego:
 
-![](images/mastodonapijson2.png)
+![](/images/mastodonapijson2.png)
 
 Pozyskajmy wartość tego parametru nagłówkowego:
 
@@ -413,6 +413,6 @@ Ręcznie można zrobić to raz, aby zrozumieć cały mechanizm. Dalej potrzebuje
 
 Wynik działania skryptu:
 
-![](images/masto-get-followers-following.png)
+![](/images/masto-get-followers-following.png)
 
 Skrypt jest również dostępny na [moim GitHub'ie](https://github.com/to3k/mastodon-api/blob/main/masto-get-followers-following.php).

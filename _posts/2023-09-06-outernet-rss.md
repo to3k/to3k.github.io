@@ -72,7 +72,7 @@ Dla bardziej ambitnych i nakierowanych na rozwiązania self-hosted istnieje fajn
 
 _FreshRSS_ jest nie tylko czytnikiem _RSS_, ale także agregator, którego można używać do skanowania kanałów źródeł i agregowania znalezionych treści, które później można czytać na zewnętrznym czytniku po jego podpięciu. Tak jak pisałem wcześniej, jest to rozwiązanie nastawione na autonomię i samowystarczalność, czyli idealnie pasujące do ideologii _Outernet_.
 
-![](images/freshrss_screenshot.webp)
+![](/images/freshrss_screenshot.webp)
 
 ## Moje RRSy
 

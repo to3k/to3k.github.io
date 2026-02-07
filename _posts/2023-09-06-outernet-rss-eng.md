@@ -70,7 +70,7 @@ For more ambitious and self-hosted solutions enthusiasts, there's a cool option 
 
 _FreshRSS_ is not only an _RSS_ reader but also an aggregator that you can use to scan source channels and aggregate the found content, which you can then read on an external reader after connecting it. As I mentioned earlier, it is a solution focused on autonomy and self-sufficiency, making it a perfect fit for the _Outernet_ ideology.
 
-![](images/freshrss_screenshot.webp)
+![](/images/freshrss_screenshot.webp)
 
 ## My RSS Feeds
 

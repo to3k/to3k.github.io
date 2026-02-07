@@ -65,7 +65,7 @@ Let’s start writing!
 
 At this point, we need to **list the types of collected (and processed) data**. I must admit that I had a hard time with it myself because _Wordpress_ is not like an open book to me, which I fully understand and know where to find specific things. In the case of other scripts that I've written from scratch, I have no problem at all. Then I can confidently state that my tools don't use cookies and don't collect any data about the people using them, which I usually confirm by making them open-source. However, with a blog, we have external actors such as plugins or even themes that I didn't write myself, and it's harder to maintain 100% control over them.
 
-![](images/proxy-image.png)
+![](/images/proxy-image.png)
 
 Extension for the _Firefox_ browser called [_Rentgen_](https://addons.mozilla.org/pl/firefox/addon/rentgen/) proved to be very helpful in handling this matter. It was created by the team _[Internet. Czas działać!](https://www.internet-czas-dzialac.pl)_. It allows scanning your own (or someone else's) website and generating a report focused on whether the page meets all the legal requirements of _RODO/GDPR_ and how it generally takes care (or not) of the privacy of its users. Based on that, I defined what I needed to improve on my website.
 
@@ -73,7 +73,7 @@ Firstly, I dealt with _Google Fonts_, which are external fonts downloaded from _
 
 Another topic that was problematic on my blog was the _Jetpack_ plugin, specifically its _Stats_ module used for collecting blog visit statistics. _Jetpack_ is a plugin made by _Automattic_, the creators of _Wordpress_ itself. This provides a certain level of peace of mind regarding user data processing because it is a **fairly trusted company that values the privacy of its users**, judging by the documentation they provide. **However, I didn't like the idea of my readers' data being sent outside the server** on which the blog is hosted, so I decided to find an alternative. After a brief market research, I decided to use the _[Independent Analytics](https://pl.wordpress.org/plugins/independent-analytics/)_ plugin, which convinced me because it **does not use cookies, does not store any data that can identify specific individuals, and stores all statistics on the blog owner's server**.
 
-![](images/independentanalytics.png)
+![](/images/independentanalytics.png)
 
 After appropriate _trimming_ (removing unnecessary functions), _Jetpack_ will still remain on my blog as a plugin because it offers several really useful tools such as a nice and convenient gallery block in the form of a slideshow, which I often use, a _Firewall_ module to secure the blog, and an _Akismet_ module that helps me fight waves of spam attacks that have targeted my blog. **These are tools that do not collect any data from my readers**, which is confirmed by the documentation provided by the creators of _Jetpack_, who must be commended for placing a significant emphasis on privacy transparency, with each module of their plugin listing whether it collects data and, if so, what kind. All this information are available [here](https://jetpack.com/support/privacy/#data-usage).
 
@@ -85,7 +85,7 @@ In the case of the comment system, the situation is similar, and seemingly even 
 
 After performing the above actions, I used the _Rentgen_ plugin again, and this time, I achieved the ideal state that I would like to see on all websites on the Internet, not just my own.
 
-![](images/Rentgenperfect.png)
+![](/images/Rentgenperfect.png)
 
 Now I can say with a clear conscience that **my website does not use cookies and does not transmit any data to third-party domains**. However, this does not end the matter because data is still stored and processed on my server. Let's summarize this chapter. My blog collects the following data from readers:
 

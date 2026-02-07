@@ -30,7 +30,7 @@ To install _Ubuntu_ inside the Windows operating system, we first need to enable
 
 Unfortunately, from here on, it's a bit more difficult for me to provide the correct path, as there are as many different arrangements of settings in _BIOS_/_UEFI_ as there are computers. Similarly, I can say that for computers with _Intel_ processors, we are looking for an option called _Intel(R) Virtualization Technology_, which needs to be turned on (set to _Enabled_), but I don't know what the equivalent for AMD devices will be called. It seems that everyone will have to google this for themselves.
 
-![](images/winubu1-scaled.jpg)
+![](/images/winubu1-scaled.jpg)
 
 In addition to enabling virtualization, we also need to install [Microsoft Visual C++](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B), which is an essential component. Simply download the installation file from [this page](https://learn.microsoft.com/pl-pl/cpp/windows/latest-supported-vc-redist?view=msvc-170) and install it.
 
@@ -38,7 +38,7 @@ In addition to enabling virtualization, we also need to install [Microsoft Visua
 
 We access the _PowerShell_, which is the Windows terminal. It is important to run it as an administrator.
 
-![](images/winubu2.png)
+![](/images/winubu2.png)
 
 We install _WSL_ (short for _Windows Subsystem for Linux_), using the command:
 
@@ -46,15 +46,15 @@ We install _WSL_ (short for _Windows Subsystem for Linux_), using the command:
 wsl --install
 ```
 
-![](images/winubu3.png)
+![](/images/winubu3.png)
 
 After successfully completing the installation, it is necessary to restart the computer. After restarting the system, we go to the _Microsoft Store_, type _Ubuntu_ in the search box, and go to the application page from which we can install and run the _Ubuntu_ environment. After installation, it is also available normally from the _Start menu_ or if we have created the appropriate icon on the desktop. In the _Microsoft Store_, we also have the option to install a specific version of _Ubuntu_, such as 22.04 LTS or 20.04 LTS, which is giving us a choice in case we want that particular version and not another one.
 
-![](images/winubu4.png)
+![](/images/winubu4.png)
 
 After clicking on the _Open_ button, a terminal window will be launched, in which the main installation will begin. During the process, we will need to provide a username and password twice. After successfully completing the entire process, we will have access to a shell that is no different from an _Ubuntu_ system running, for example, on a _Raspberry Pi_.
 
-![](images/winubu5.png)
+![](/images/winubu5.png)
 
 ## Summary
 

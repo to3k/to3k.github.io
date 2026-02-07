@@ -35,7 +35,7 @@ The popularity of the social network _Mastodon_ is constantly growing, and more 
 
 <figure>
 
-[![](images/51B6E920-BF00-48A7-A73D-F41A710701BD.jpeg)](https://mastodon.tomaszdunia.pl)
+[![](/images/51B6E920-BF00-48A7-A73D-F41A710701BD.jpeg)](https://mastodon.tomaszdunia.pl)
 
 <figcaption>
 
@@ -51,7 +51,7 @@ There are many ways to run your own _instance_. You can do it on a server set up
 
 However, there is another option that I would call dedicated **for non-technical people**, or simply those who do not want to spend several evenings fighting with a constantly malfunctioning configuration, reading documentation, or looking for a solution to a problem on _StackOverflow_ and getting annoyed that it was actually easy to solve. This method is to use so-called _**Managed Hosting**_. This means that we pay someone to launch an _instance_ for us, perform basic configuration, and then monitor its proper operation. The advantage of this solution is that we will be led by the hand, so **virtually no technical knowledge is required from us**. Moreover, it doesn't cost much, as in my case I can say that it costs **5 euros per month** (in Polish zlotys it's less than 25 PLN). The disadvantage is the **lack of access to the machine** on which the _instance_ is located, as well as the lack of access to its code. **This takes away the possibility of more advanced configuration and personalization**.
 
-![](images/41FF57F4-B837-441B-BFF8-6768BCA5D90D.jpeg)
+![](/images/41FF57F4-B837-441B-BFF8-6768BCA5D90D.jpeg)
 
 ## The process of creating my instance
 

@@ -52,7 +52,7 @@ I must admit that the popularity of my tool has surprised me a bit. At the time 
 
 - After a successful verification process, Twittodon generates a special link to a confirmation page, **which, when added to your profile, will be recognized by Mastodon as verified**.
 
-![](images/D0ACB0F6-2A23-4476-9886-24C2E21C4662-1024x440.png)
+![](/images/D0ACB0F6-2A23-4476-9886-24C2E21C4662-1024x440.png)
 
 ## What does it look like from the inside?
 

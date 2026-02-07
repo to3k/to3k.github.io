@@ -35,15 +35,15 @@ Tak jak napisałem wcześniej to co wyróżnia _DWService_ względem konkurencji
 
 Poniżej kilka zrzutów ekranu pokazujących jak to wygląda dla jednego z moich serwerów:
 
-![](images/dwservice1-1024x503.png)
+![](/images/dwservice1-1024x503.png)
     
-![](images/dwservice2-1024x503.png)
+![](/images/dwservice2-1024x503.png)
     
-![](images/dwservice3-1024x503.png)
+![](/images/dwservice3-1024x503.png)
     
-![](images/dwservice4-1024x503.png)
+![](/images/dwservice4-1024x503.png)
     
-![](images/dwservice5-1024x503.png)
+![](/images/dwservice5-1024x503.png)
     
 
 ## Rejestracja konta i utworzenie agenta

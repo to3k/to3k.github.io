@@ -192,7 +192,7 @@ As you can see, by using this method, which is communication via an _API_, we do
 
 The result of the above script, after inserting the introduction of this post into it, looks like this:
 
-![](images/gptapi2.png)
+![](/images/gptapi2.png)
 
 As you can see, the quality of the translation is quite good. Of course, some corrections are needed, but it must be acknowledged that my style of expressing thoughts is not entirely easy to analyze, especially when it needs to be translated into another language. We used a total of 869 _tokens_ to complete this task, which translates to a cost of fractions of a cent (less than 0.2 cents, so in practice, you can complete five similar tasks for 1 cent, and you can do 500 of them for one dollar). Now you understand how much you can do with the five dollars I mentioned earlier?
 
