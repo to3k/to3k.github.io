@@ -9,7 +9,7 @@ title: Strona główna
 </div>
 
 <div id="all-posts">
-  <h3>Najnowsze wpisy:</h3>
+  <h3>Spis treści / Table of contents:</h3>
   <ul style="list-style: none; padding-left: 0;">
     {% for post in site.posts %}
       <li style="margin-bottom: 8px;">
