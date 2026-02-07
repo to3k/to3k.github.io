@@ -7,6 +7,15 @@ baseurl: ""
 # --- MOTYW ---
 remote_theme: riggraz/no-style-please
 
+# MENU - To musi być tutaj, a nie w _data/menu.yml
+menu:
+  - title: Blog
+    url: /
+  - title: Archiwum
+    url: /archive
+  - title: GitHub
+    url: https://github.com/to3k
+
 # --- USTAWIENIA LINKÓW ---
 permalink: /:title/
 
