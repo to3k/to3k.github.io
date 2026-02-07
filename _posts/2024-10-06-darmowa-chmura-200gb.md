@@ -30,7 +30,7 @@ tags:
   - "ubuntu"
   - "ufw"
   - "vps"
-coverImage: "/images/Darmowa-chmura-200GB.png"
+image: "/images/Darmowa-chmura-200GB.png"
 ---
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/darmowa-chmura-200gb-eng/)

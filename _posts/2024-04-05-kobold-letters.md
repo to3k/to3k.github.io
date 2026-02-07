@@ -15,7 +15,7 @@ tags:
   - "outlook"
   - "scam"
   - "thunderbird"
-coverImage: "/images/szorty.png"
+image: "/images/szorty.png"
 ---
 
 Lubię sobie czasem wejść na [_Hacker News_](https://news.ycombinator.com/news) i zobaczyć, gdzie mnie poniesie. Nie wchodzę tam często, a i nigdy z jakimś obranym wcześniej celem. Raczej błądzę w poszukiwaniu ciekawostek. Tym razem trafiłem na coś, co zainteresowało mnie na tyle, że uznałem, iż potrzebuję się tym tutaj podzielić.

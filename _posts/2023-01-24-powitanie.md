@@ -16,7 +16,7 @@ tags:
   - "raspberrypi"
   - "selfhosted"
   - "smarthome"
-coverImage: "/images/291C62AC-8AB6-4E46-A131-817EBBD1D47D-e1674589513258.jpeg"
+image: "/images/291C62AC-8AB6-4E46-A131-817EBBD1D47D-e1674589513258.jpeg"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/powitanie-eng/)

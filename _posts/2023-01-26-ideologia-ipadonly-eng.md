@@ -15,7 +15,7 @@ tags:
   - "magicmouse"
   - "photopea"
   - "raspberrypi"
-coverImage: "/images/iPadOnly.png"
+image: "/images/iPadOnly.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/ideologia-ipadonly/)

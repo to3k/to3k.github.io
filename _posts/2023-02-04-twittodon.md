@@ -17,7 +17,7 @@ tags:
   - "rss"
   - "twitter"
   - "twittodon"
-coverImage: "/images/twittodon.png"
+image: "/images/twittodon.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/twittodon-eng/)

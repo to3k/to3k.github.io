@@ -18,7 +18,7 @@ tags:
   - "totp"
   - "vnc"
   - "xwayland"
-coverImage: "/images/dwservice.png"
+image: "/images/dwservice.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/dwservice/)

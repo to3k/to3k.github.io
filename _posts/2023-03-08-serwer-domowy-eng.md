@@ -17,7 +17,7 @@ tags:
   - "termius"
   - "ubuntu"
   - "vps"
-coverImage: "/images/ssh.png"
+image: "/images/ssh.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/serwer-domowy/)

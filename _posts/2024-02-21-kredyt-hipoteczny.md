@@ -36,7 +36,7 @@ tags:
   - "wibor3m"
   - "wibor6m"
   - "wiron"
-coverImage: "/images/kredyt.png"
+image: "/images/kredyt.png"
 ---
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/kredyt-hipoteczny-eng/)

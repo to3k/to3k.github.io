@@ -31,7 +31,7 @@ tags:
   - "usbdebugging"
   - "windows"
   - "xdadevelopers"
-coverImage: "/images/ubuntutouch.png"
+image: "/images/ubuntutouch.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/ubuntu-touch-eng/)

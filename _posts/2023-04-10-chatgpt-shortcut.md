@@ -15,7 +15,7 @@ tags:
   - "macos"
   - "shortcuts"
   - "skroty"
-coverImage: "/images/szorty.png"
+image: "/images/szorty.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/chatgpt-shortcut-eng/)

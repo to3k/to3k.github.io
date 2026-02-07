@@ -18,7 +18,7 @@ tags:
   - "reddit"
   - "twitter"
   - "youtube"
-coverImage: "/images/mastodonfediverseactivitypub_eng.png"
+image: "/images/mastodonfediverseactivitypub_eng.png"
 ---
 
 If you are reading this, you will probably notice in a moment that this entry is in English, but the rest of the blog is written in Polish. This is due to the fact that I am Pole and I write my blog in my native language, but today I decided that I will translate some of my posts into English so that I can present them to a wider audience. I would also like to apologize for my not so perfect English, but I hope it will be understandable enough 😉 🇵🇱 The Polish and original version of this post can be found [in this link](https://blog.tomaszdunia.pl/mastodon/). Let's move on to the main part of the story!

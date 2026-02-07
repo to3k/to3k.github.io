@@ -12,7 +12,7 @@ tags:
   - "timetravel"
   - "timeless"
   - "travelers"
-coverImage: "/images/serialowo2_update.png"
+image: "/images/serialowo2_update.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/serialowo-2/)

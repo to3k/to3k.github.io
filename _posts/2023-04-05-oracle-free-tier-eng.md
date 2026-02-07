@@ -28,7 +28,7 @@ tags:
   - "ubuntu"
   - "vm"
   - "vps"
-coverImage: "/images/oraclefreetier.png"
+image: "/images/oraclefreetier.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/oracle-free-tier/)

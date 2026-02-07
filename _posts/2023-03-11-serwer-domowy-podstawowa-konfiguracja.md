@@ -23,7 +23,7 @@ tags:
   - "ufw"
   - "update"
   - "upgrade"
-coverImage: "/images/linuxtodolist.png"
+image: "/images/linuxtodolist.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/serwer-domowy-podstawowa-konfiguracja-eng/)

@@ -12,7 +12,7 @@ tags:
   - "selfhosted"
   - "uptimekuma"
   - "yunohost"
-coverImage: "/images/uptimekuma.png"
+image: "/images/uptimekuma.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/uptime-kuma-eng/)

@@ -29,7 +29,7 @@ tags:
   - "totp"
   - "yaml"
   - "yunohost"
-coverImage: "/images/nextcloud.png"
+image: "/images/nextcloud.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/nextcloud/)

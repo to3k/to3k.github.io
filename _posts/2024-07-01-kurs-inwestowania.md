@@ -5,7 +5,7 @@ categories:
   - "finanse"
   - "poradniki"
   - "przemyslenia"
-coverImage: "/images/inwestujterazheaderimage.png"
+image: "/images/inwestujterazheaderimage.png"
 ---
 
 Wracam tutaj do Was po przerwie, ale jak zwykle nie przychodzę z pustymi rękami! Mniej więcej od lutego 2024 r. pracowałem potajemnie nad projektem, o którym chciałbym Wam opowiedzieć w tym wpisie, bo tak się składa, że 2-tygodniowy urlop pozwolił mi finalnie go zakończyć.

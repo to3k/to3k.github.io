@@ -11,7 +11,7 @@ tags:
   - "okulary"
   - "operacja"
   - "zabieg"
-coverImage: "/images/femtolasik.png"
+image: "/images/femtolasik.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/laserowa-korekcja-wzroku-eng/)

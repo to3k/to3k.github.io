@@ -21,7 +21,7 @@ tags:
   - "ubuntu"
   - "virtualmachine"
   - "vm"
-coverImage: "/images/proxmox_vms.png"
+image: "/images/proxmox_vms.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/proxmox-vm/)

@@ -15,7 +15,7 @@ tags:
   - "oszczedzanie"
   - "pasywneinwestowanie"
   - "skarbonkatomka"
-coverImage: "/images/inflacjapost2.png"
+image: "/images/inflacjapost2.png"
 ---
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/jak-inflacja-zjada-oszczednosci-eng/)

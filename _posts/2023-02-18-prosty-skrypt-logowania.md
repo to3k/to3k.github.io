@@ -17,7 +17,7 @@ tags:
   - "proofofconcept"
   - "session"
   - "skrypt"
-coverImage: "/images/loginscript.png"
+image: "/images/loginscript.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/prosty-skrypt-logowania-eng/)

@@ -21,7 +21,7 @@ tags:
   - "outernet"
   - "waze"
   - "yanosik"
-coverImage: "/images/outernet_maps.png"
+image: "/images/outernet_maps.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/outernet-maps/)

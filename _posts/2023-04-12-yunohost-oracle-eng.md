@@ -32,7 +32,7 @@ tags:
   - "ubuntu"
   - "vps"
   - "yunohost"
-coverImage: "/images/yunohost.png"
+image: "/images/yunohost.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/yunohost-oracle/)

@@ -17,7 +17,7 @@ tags:
   - "selfhosted"
   - "writefreely"
   - "yunohost"
-coverImage: "/images/writefreelypl.png"
+image: "/images/writefreelypl.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/writefreely-polska-eng/)

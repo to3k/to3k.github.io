@@ -17,7 +17,7 @@ tags:
   - "pagination"
   - "php"
   - "stronicowanie"
-coverImage: "/images/mastodonapifollowersfollowing.png"
+image: "/images/mastodonapifollowersfollowing.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/mastodon-api-followers-following-eng/)

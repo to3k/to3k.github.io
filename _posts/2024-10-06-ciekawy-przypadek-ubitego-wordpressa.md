@@ -13,7 +13,7 @@ tags:
   - "plugin"
   - "wordpress"
   - "wtyczka"
-coverImage: "/images/szorty.png"
+image: "/images/szorty.png"
 ---
 
 Opublikowałem dzisiaj wpis [_Darmowa chmura ~200GB na Twoje pliki_](https://blog.tomaszdunia.pl/darmowa-chmura-200gb/), który stał się dość popularny. Udostępniłem go w kilku miejscach, a jednym z nich był portal [_Hacker News_](https://news.ycombinator.com/item?id=41756220), gdzie wpis wybił się na chwilę na stronę główną. Licznik odwiedzin wystrzelił co z początku mocno mnie ucieszyło. Jednakże po paru minutach zacząłem dostawać wiadomości, że blog działa, ale sam wpis się nie ładuje. Sprawdziłem i faktycznie tak było. Żadna z podstron bloga nie wczytywała się prawidłowo, a zamiast niej pojawiała się domyślna strona hostingu. Myślę sobie - pięknie, to tyle ze spokojnej niedzieli...

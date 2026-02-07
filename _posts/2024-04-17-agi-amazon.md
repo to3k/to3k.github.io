@@ -14,7 +14,7 @@ tags:
   - "india"
   - "indie"
   - "justwalkout"
-coverImage: "/images/szorty.png"
+image: "/images/szorty.png"
 ---
 
 Tak ten tytuł to **clickbait** i poczułem się z tym źle już w momencie, gdy go wstukałem na klawiaturze, więc postanowiłem o tym poinformować od razu na wstępie tego wpisu. Jednakże nie jest to wpis, który nie będzie miał żadnej wartości, a będzie się on skupiał na śmieszkowaniu z wielkiego _Amazon’u_ i „AI”, któremu ostatnimi czasy wieszczone jest przejęcie władzy nad światem. 🤖 No dobra, ale zacznijmy od początku.

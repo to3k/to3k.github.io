@@ -28,7 +28,7 @@ tags:
   - "wordpress"
   - "writefreely"
   - "youtube"
-coverImage: "/images/outernet_social_media.png"
+image: "/images/outernet_social_media.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/outernet-social-media/)

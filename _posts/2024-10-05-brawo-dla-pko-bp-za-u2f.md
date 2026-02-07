@@ -10,7 +10,7 @@ tags:
   - "u2f"
   - "yubico"
   - "yubikey"
-coverImage: "/images/pkou2f.png"
+image: "/images/pkou2f.png"
 ---
 
 Dostałem dzisiaj rano maila od _PKO BP_, w którym trzymam swoje obligacje skarbowe. Jakaż była moja radość, gdy zobaczyłem, że mail dotyczy tego, że _PKO_ zaimplementowało w swoim systemie możliwość uwierzytelnienia się podczas logowania przy pomocy klucza bezpieczeństwa _U2F_ np. _Yubikey_. Myślę sobie "WOW! W końcu branża bankowości wstępuje w XXI wiek". Czy jednak faktycznie jest się z czego cieszyć i zostało to wprowadzone prawidłowo? No niestety według mnie nie do końca...

@@ -40,7 +40,7 @@ tags:
   - "wibor"
   - "wibor3m"
   - "wibor6m"
-coverImage: "/images/kredyt.png"
+image: "/images/kredyt.png"
 ---
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/kredyt-hipoteczny/)

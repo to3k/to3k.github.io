@@ -25,7 +25,7 @@ tags:
   - "vps"
   - "xfce"
   - "xubuntudesktop"
-coverImage: "/images/OracleDWS.png"
+image: "/images/OracleDWS.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/darmowy-komputer-w-przegladarce/)

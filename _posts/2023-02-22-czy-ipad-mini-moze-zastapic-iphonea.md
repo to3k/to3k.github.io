@@ -21,7 +21,7 @@ tags:
   - "lightning"
   - "ram"
   - "usbc"
-coverImage: "/images/ipadasiphone.png"
+image: "/images/ipadasiphone.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](http://blog.tomaszdunia.pl/czy-ipad-mini-moze-zastapic-iphonea-eng)

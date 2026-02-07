@@ -20,7 +20,7 @@ tags:
   - "terminal"
   - "virtualmachine"
   - "vm"
-coverImage: "/images/proxmox1.png"
+image: "/images/proxmox1.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/terminal-proxmox-eng/)

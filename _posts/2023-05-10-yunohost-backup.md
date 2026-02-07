@@ -24,7 +24,7 @@ tags:
   - "vps"
   - "yunohost"
   - "zadaniacron"
-coverImage: "/images/yunohostbackup.png"
+image: "/images/yunohostbackup.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/yunohost-backup-eng/)

@@ -15,7 +15,7 @@ tags:
   - "savings"
   - "skarbonkatomka"
   - "treasurybonds"
-coverImage: "/images/inflacjapost2.png"
+image: "/images/inflacjapost2.png"
 ---
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/jak-inflacja-zjada-oszczednosci/)

@@ -21,7 +21,7 @@ tags:
   - "shelly"
   - "smarthome"
   - "tinker"
-coverImage: "/images/homeassistantlogo.png"
+image: "/images/homeassistantlogo.png"
 ---
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/home-assistant/)

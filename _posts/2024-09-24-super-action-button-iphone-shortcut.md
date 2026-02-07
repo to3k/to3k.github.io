@@ -12,7 +12,7 @@ tags:
   - "iphone16"
   - "shortcuts"
   - "superactionbutton"
-coverImage: "/images/Image-5.jpeg"
+image: "/images/Image-5.jpeg"
 ---
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/super-action-button-iphone-shortcut-eng/)

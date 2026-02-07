@@ -16,7 +16,7 @@ tags:
   - "qrcode"
   - "signal"
   - "username"
-coverImage: "/images/szorty.png"
+image: "/images/szorty.png"
 ---
 
 Nie będę ukrywał, że _Signal_ jest moim ulubionym komunikatorem. Ufam mu i polecam każdemu. Za jeden ze swoich największych sukcesów uznaję to, że udało mi się przekonać do migracji na ten komunikator znaczną większość moich znajomych i praktycznie całą rodzinę. Po ostatnich zmianach argumentowanie tego wyboru będzie jeszcze łatwiejsze, bo **_Signal_ w końcu wprowadził długo wyczekiwane nazwy użytkowników**, którymi można się posługiwać zamiast numeru telefonu, który do tej pory był jedynym identyfikatorem użytkownika. Od teraz można ukryć swój numer telefonu i posługiwać się ciągiem znaków w formie:

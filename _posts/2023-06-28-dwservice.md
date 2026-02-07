@@ -20,7 +20,7 @@ tags:
   - "waylandenable"
   - "xwayland"
   - "zdalnypulpit"
-coverImage: "/images/dwservice.png"
+image: "/images/dwservice.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/dwservice-eng/)

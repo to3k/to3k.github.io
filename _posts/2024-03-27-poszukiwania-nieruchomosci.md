@@ -31,7 +31,7 @@ tags:
   - "przydomowaoczyszczalnia"
   - "standardwykonczenia"
   - "szambo"
-coverImage: "/images/poszukiwania_nieruchomosci2.png"
+image: "/images/poszukiwania_nieruchomosci2.png"
 ---
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/poszukiwania-nieruchomosci-eng/)

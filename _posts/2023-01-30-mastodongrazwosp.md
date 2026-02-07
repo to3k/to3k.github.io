@@ -7,7 +7,7 @@ tags:
   - "mastodon"
   - "mastodongrazwosp"
   - "wosp"
-coverImage: "/images/wosp2023.png"
+image: "/images/wosp2023.png"
 ---
 
 W ubiegły weekend odbył się finał **Wielkiej Orkiestry Świątecznej Pomocy** (WOŚP) 2023. W tym roku tematem przewodnim jest walka z **sepsą**. Mam 30 lat i wspieram WOŚP odkąd pamiętam. Nie inaczej było w tym roku, ale tym razem moje wsparcie przybrało nieco inną formę. Patrząc na popularny na Twitterze hashtag _#MastercardGrazWOŚP_ zacząłem zastanawiać się kiedy takie akcje pojawią się na Mastodonie. Czy będzie to już może w przyszłym roku? Ale moment! Dlaczego nie zacząć już w tym roku?! Tak właśnie powstał w mojej głowie hashtag _#**Mastodon**GrazWOŚP_.

@@ -23,7 +23,7 @@ tags:
   - "skarbiec"
   - "vault"
   - "windows"
-coverImage: "/images/cryptomator.png"
+image: "/images/cryptomator.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/cryptomator-eng/)

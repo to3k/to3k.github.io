@@ -12,7 +12,7 @@ tags:
   - "premiumreseller"
   - "reseller"
   - "serialnumber"
-coverImage: "/images/Apple-Authorised-Reseller.png"
+image: "/images/Apple-Authorised-Reseller.png"
 ---
 
 Jesteśmy już po konferencji Apple, na której w zakresie iPhone nie zostało pokazane absolutnie nic co przekonałoby mnie do zakupu nowego modelu 16 Pro. Stan na moment konferencji był taki, że posiadałem model 13. Wcześniej miałem 13 Pro Max, który zakupiłem w dniu premiery serii 14, czyli w teoretycznie ostatnim momencie i jednocześnie, wydaje mi się, najbardziej optymalnym pod względem cenowym. Nie wszyscy wiedzą, że **z dniem premiery nowej serii wszystkie modele Pro z poprzedniego roku znikają ze sklepu Apple** i zostają tylko stany magazynowe poszczególnych reseller’ów. Model z dopiskiem Max okazał się dla mnie zdecydowanie za duży, więc zamieniłem się z żoną, która lubi duże rzeczy. Hehe januszowy żarcik zawsze spoko. W każdym razie tak właśnie wylądowałem z iPhone 13, który nie jest zły, ale jednak robi sporo gorsze zdjęcia, nie ma trybu makro, no i brak odświeżania ekranu z częstotliwością 120Hz sprawia u mnie wrażenie jakby telefon po prostu nie działał płynnie. Z uwagi na powyższe **podjąłem decyzję o zakupie iPhone 15 Pro**.
