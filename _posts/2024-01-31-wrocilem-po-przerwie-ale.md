@@ -13,7 +13,7 @@ tags:
   - "kredythipoteczny"
   - "marciniwuc"
   - "rss"
-coverImage: "wrocilem-po-przerwie-ale.png"
+coverImage: "/images/wrocilem-po-przerwie-ale.png"
 ---
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/wrocilem-po-przerwie-ale-eng/)

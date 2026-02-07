@@ -38,7 +38,7 @@ tags:
   - "ubuntutouch"
   - "usbdebugging"
   - "xdadevelopers"
-coverImage: "droidian.png"
+coverImage: "/images/droidian.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/droidian/)

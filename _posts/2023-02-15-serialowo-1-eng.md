@@ -12,7 +12,7 @@ tags:
   - "suits"
   - "tvtime"
   - "vod"
-coverImage: "serialowo1.png"
+coverImage: "/images/serialowo1.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/serialowo-1/)

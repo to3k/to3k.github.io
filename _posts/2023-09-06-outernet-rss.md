@@ -25,7 +25,7 @@ tags:
   - "wordpress"
   - "xml"
   - "yunohost"
-coverImage: "outernet_rss.png"
+coverImage: "/images/outernet_rss.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/outernet-rss-eng/)

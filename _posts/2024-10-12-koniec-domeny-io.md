@@ -16,7 +16,7 @@ tags:
   - "indianocean"
   - "mauritius"
   - "uk"
-coverImage: "szorty.png"
+coverImage: "/images/szorty.png"
 ---
 
 Jak wiele znasz stron internetowych, których adres kończy się _.io_? Zakładam, że całkiem sporo. Trzeba przyznać, że ostatnio zrobiła się to bardzo **popularna domena**, szczególnie w branży IT. Niewiele osób wie, ja na przykład dowiedziałem się całkiem niedawno, że **domena _.io_ nie jest domeną funkcjonalną/specjalną**, jak np. _.org_, a po prostu **zwykłą domena krajową**/regionalną tak jak np. polska _.pl_ czy chociażby niemiecka _.de_.

@@ -15,7 +15,7 @@ tags:
   - "osint"
   - "pagination"
   - "php"
-coverImage: "mastodonapifollowersfollowing.png"
+coverImage: "/images/mastodonapifollowersfollowing.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/mastodon-api-followers-following/)

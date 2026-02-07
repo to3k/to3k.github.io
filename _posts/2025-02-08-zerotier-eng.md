@@ -20,7 +20,7 @@ tags:
   - "vpn"
   - "wireguard"
   - "zerotier"
-coverImage: "zerotier.png"
+coverImage: "/images/zerotier.png"
 ---
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/zerotier/)

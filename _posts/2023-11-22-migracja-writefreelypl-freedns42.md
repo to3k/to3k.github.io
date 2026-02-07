@@ -21,7 +21,7 @@ tags:
   - "vps"
   - "writefreely"
   - "yunohost"
-coverImage: "writefreelyFTdL.png"
+coverImage: "/images/writefreelyFTdL.png"
 ---
 
 O fakcie uruchomienia przeze mnie [polskiej instancji _WriteFreely_](https://writefreely.pl/) pisałem [tutaj](https://blog.tomaszdunia.pl/writefreely-polska/). W [oddzielnym wpisie](https://blog.tomaszdunia.pl/yunohost-writefreely/) opisałem, w formie poradnika, jak każdy może uruchomić swoją własną instancję wykorzystując do tego serwer z zainstalowanym oprogramowaniem _[Yunohost](https://blog.tomaszdunia.pl/yunohost-oracle/)_. _WriteFreely.pl_ pierwotnie postawiłem na [darmowym _VPS'ie_ od _Oracle_](https://blog.tomaszdunia.pl/oracle-free-tier/), a jako dostawcę usługi (serwer) DNS wybrałem _[Cloudflare](https://www.cloudflare.com/)_. Było to rozwiązanie i tanie i proste, jednakże nie do końca dbające o prywatność zarówno użytkowników, którzy są twórcami na _WriteFreely.pl_ jak i tych, którzy są jedynie czytelnikami. Wszystko to za sprawą tego, że zarówno _Oracle_ jak i _Cloudflare_ to korporacje, a my świadomi ludzie z [_Outernetu_](https://blog.tomaszdunia.pl/category/pl/outernet/) wiemy, że takim firmom nie można ufać i najlepiej ich unikać, oczywiście jeżeli jest taka możliwość i istnieje sensowna alternatywa. Jeszcze do niedawna Cloudflare nie wydawało się takie złe, bo było postrzegane jako coś w rodzaju strażnika w sieci. Jednakże dość szybko okazało się, że przepuszczana przez ich infrastrukturę jest bardzo duża część Internetu, co przestało się mi i wielu osobom podobać ze względu na centralizację, a można by rzec nawet monopol.

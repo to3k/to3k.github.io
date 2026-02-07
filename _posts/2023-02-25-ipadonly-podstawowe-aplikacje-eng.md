@@ -42,7 +42,7 @@ tags:
   - "vod"
   - "word"
   - "zdjecia"
-coverImage: "appstore.png"
+coverImage: "/images/appstore.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/ipadonly-podstawowe-aplikacje/)

@@ -20,7 +20,7 @@ tags:
   - "rentgen"
   - "rodo"
   - "wordpress"
-coverImage: "rodogdpr.png"
+coverImage: "/images/rodogdpr.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/rodo-gdpr/)

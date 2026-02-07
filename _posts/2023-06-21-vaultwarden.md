@@ -29,7 +29,7 @@ tags:
   - "yubico"
   - "yubikey"
   - "yunohost"
-coverImage: "vaultwarden.png"
+coverImage: "/images/vaultwarden.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/vaultwarden-eng/)

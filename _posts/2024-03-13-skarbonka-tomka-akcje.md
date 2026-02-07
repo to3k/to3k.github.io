@@ -45,7 +45,7 @@ tags:
   - "tfi"
   - "vanguard"
   - "wig20"
-coverImage: "akcje.png"
+coverImage: "/images/akcje.png"
 ---
 
 W poprzednim wpisie z serii _[Skarbonka Tomka](https://blog.tomaszdunia.pl/tag/skarbonkatomka/)_ pisałem o [obligacjach, w szczególności tych skarbowych](https://blog.tomaszdunia.pl/skarbonka-tomka-obligacje-skarbowe/), które są filarem mojego inwestowania. W ramach tego wpisu skupię się na akcjach, które również goszczą w moich portfelach i stanowią tą mniej stabilną, ale potencjalnie bardziej dochodową część. Od razu na wstępie chciałbym zaznaczyć, że nie będę niżej pisał o takim hardcore'owym inwestowaniu w akcje, które zakłada siedzenie w każdej wolnej chwili na stronach z wykresami, analizowanie zachowań rynku, kondycji spółek i ciągłe zlecanie dyspozycji zakupu i sprzedaży. Omówię tutaj moją strategię, która jest bardzo pasywna.

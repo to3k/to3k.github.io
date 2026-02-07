@@ -21,7 +21,7 @@ tags:
   - "safe"
   - "vault"
   - "windows"
-coverImage: "cryptomator.png"
+coverImage: "/images/cryptomator.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/cryptomator/)

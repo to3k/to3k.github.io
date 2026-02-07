@@ -24,7 +24,7 @@ tags:
   - "vps"
   - "writefreely"
   - "yunohost"
-coverImage: "writefreelycloudflareyunohost.png"
+coverImage: "/images/writefreelycloudflareyunohost.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/yunohost-writefreely-eng/)

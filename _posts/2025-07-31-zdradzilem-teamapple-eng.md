@@ -15,7 +15,7 @@ tags:
   - "iphone"
   - "oneui"
   - "samsung"
-coverImage: "ZFold6Apple.png"
+coverImage: "/images/ZFold6Apple.png"
 ---
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/zdradzilem-teamapple/)

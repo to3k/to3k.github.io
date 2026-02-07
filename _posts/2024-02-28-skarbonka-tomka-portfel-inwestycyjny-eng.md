@@ -39,7 +39,7 @@ tags:
   - "wibor"
   - "wiron"
   - "zus"
-coverImage: "portfelinwestycyjny.png"
+coverImage: "/images/portfelinwestycyjny.png"
 ---
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/skarbonka-tomka-portfel-inwestycyjny/)

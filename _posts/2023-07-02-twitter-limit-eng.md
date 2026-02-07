@@ -11,7 +11,7 @@ tags:
   - "nitter"
   - "twitter"
   - "twittodon"
-coverImage: "szorty.png"
+coverImage: "/images/szorty.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/twitter-limit/)

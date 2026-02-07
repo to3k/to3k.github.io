@@ -30,7 +30,7 @@ tags:
   - "secureloan2"
   - "septictank"
   - "sewerage"
-coverImage: "poszukiwania_nieruchomosci2.png"
+coverImage: "/images/poszukiwania_nieruchomosci2.png"
 ---
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/poszukiwania-nieruchomosci/)

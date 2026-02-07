@@ -14,7 +14,7 @@ tags:
   - "watch"
   - "zegarek"
   - "zegarekmechaniczny"
-coverImage: "drake_apple_watch_casio_gshock2.png"
+coverImage: "/images/drake_apple_watch_casio_gshock2.png"
 ---
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/apple-watch-casio-gshock-eng/)

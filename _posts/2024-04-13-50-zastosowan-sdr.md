@@ -9,7 +9,7 @@ tags:
   - "rtlsdr"
   - "sdr"
   - "softwaredefinedradio"
-coverImage: "szorty.png"
+coverImage: "/images/szorty.png"
 ---
 
 Kolejny wpis, w którym polecam bardzo ciekawy i szalenie geekowski artykuł i w sumie cały blog:

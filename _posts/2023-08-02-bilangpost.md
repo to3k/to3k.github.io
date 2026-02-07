@@ -20,7 +20,7 @@ tags:
   - "toot"
   - "translate"
   - "translator"
-coverImage: "bilangpost.png"
+coverImage: "/images/bilangpost.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/bilangpost-eng/)

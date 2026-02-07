@@ -13,7 +13,7 @@ tags:
   - "php"
   - "translate"
   - "translator"
-coverImage: "deeplapi.png"
+coverImage: "/images/deeplapi.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/deepl-api/)

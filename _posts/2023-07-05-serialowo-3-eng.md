@@ -12,7 +12,7 @@ tags:
   - "the100"
   - "thelastofus"
   - "thewalkingdead"
-coverImage: "serialowo3.png"
+coverImage: "/images/serialowo3.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/serialowo-3/)

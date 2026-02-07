@@ -23,7 +23,7 @@ tags:
   - "virtualmachine"
   - "vm"
   - "yaml"
-coverImage: "docker.png"
+coverImage: "/images/docker.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/docker/)

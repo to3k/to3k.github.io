@@ -21,7 +21,7 @@ tags:
   - "wallswitch"
   - "ydyp"
   - "zigbee"
-coverImage: "smartdom_shelly.png"
+coverImage: "/images/smartdom_shelly.png"
 ---
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/shelly-smart-oswietlenie-eng/)

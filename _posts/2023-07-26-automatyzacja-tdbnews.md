@@ -12,7 +12,7 @@ tags:
   - "reddit"
   - "rss"
   - "xml"
-coverImage: "automatyzacja_tdbnews.png"
+coverImage: "/images/automatyzacja_tdbnews.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/automatyzacja-tdbnews-eng/)

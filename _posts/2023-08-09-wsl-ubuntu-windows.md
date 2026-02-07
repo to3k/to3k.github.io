@@ -17,7 +17,7 @@ tags:
   - "uefi"
   - "windows"
   - "wsl"
-coverImage: "winbuntu.png"
+coverImage: "/images/winbuntu.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/wsl-ubuntu-windows-eng/)

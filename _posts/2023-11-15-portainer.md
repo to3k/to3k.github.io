@@ -19,7 +19,7 @@ tags:
   - "port9443"
   - "portainer"
   - "vps"
-coverImage: "portainer.png"
+coverImage: "/images/portainer.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/portainer-eng/)

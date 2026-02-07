@@ -18,7 +18,7 @@ tags:
   - "port9443"
   - "portainer"
   - "vps"
-coverImage: "portainer.png"
+coverImage: "/images/portainer.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/portainer/)

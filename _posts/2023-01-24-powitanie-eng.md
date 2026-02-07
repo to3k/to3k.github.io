@@ -16,7 +16,7 @@ tags:
   - "selfhosted"
   - "smarthome"
   - "work"
-coverImage: "291C62AC-8AB6-4E46-A131-817EBBD1D47D-e1674589513258.jpeg"
+coverImage: "/images/291C62AC-8AB6-4E46-A131-817EBBD1D47D-e1674589513258.jpeg"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/powitanie/)

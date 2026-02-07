@@ -10,7 +10,7 @@ tags:
   - "laservisioncorrection"
   - "shortsightedness"
   - "surgery"
-coverImage: "femtolasik.png"
+coverImage: "/images/femtolasik.png"
 ---
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/laserowa-korekcja-wzroku/)

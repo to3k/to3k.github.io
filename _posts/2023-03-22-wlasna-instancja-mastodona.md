@@ -28,7 +28,7 @@ tags:
   - "revolut"
   - "vps"
   - "yunohost"
-coverImage: "ossrox.png"
+coverImage: "/images/ossrox.png"
 ---
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/wlasna-instancja-mastodona-eng)

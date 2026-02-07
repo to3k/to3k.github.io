@@ -38,7 +38,7 @@ tags:
   - "skarbonkatomka"
   - "tos"
   - "wikipedia"
-coverImage: "obligacjeskarbowe.png"
+coverImage: "/images/obligacjeskarbowe.png"
 ---
 
 Obligacje to według mnie **dobry filar** dla każdego portfela inwestycyjnego. Wiele osób jednak się ze mną nie zgodzi, bo obligacje to nie zupa pomidorowa, nie wszyscy muszą je lubić. Dla mnie **obligacje skarbowe**, bo na tym typie będę się tutaj głównie skupiał, są **solidną podstawą** wszystkich moim portfeli, bo może i **nie oferują szalonych zysków**, ale **przebijają one przeważnie inflację** będąc przy tym **względnie bezpieczną formą** inwestowania. W tym wpisie spróbuję przybliżyć temat obligacji w sposób, który powinien być zrozumiały dla każdego, nawet jeżeli nigdy nie miał styczności z inwestowaniem w tego typu aktywa.

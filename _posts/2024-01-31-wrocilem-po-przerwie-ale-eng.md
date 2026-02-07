@@ -13,7 +13,7 @@ tags:
   - "marciniwuc"
   - "mortgage"
   - "rss"
-coverImage: "wrocilem-po-przerwie-ale.png"
+coverImage: "/images/wrocilem-po-przerwie-ale.png"
 ---
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/wrocilem-po-przerwie-ale/)
