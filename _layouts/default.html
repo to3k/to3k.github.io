@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "pl" }}">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% feed_meta %}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <title>{{ page.title | escape }}</title>
-</head>
-<body>
-  <div class="container">
-    <header class="masthead">
+  {% include head.html %}
+
+  <body>
+    <div style="max-width: 700px; margin: 0 auto; padding: 20px;">
+
+      <header class="masthead" style="margin-bottom: 40px;">
+        <h1 style="margin-bottom: 10px;">
+          <a href="{{ "/" | relative_url }}" style="text-decoration: none; color: inherit;">{{ site.title }}</a>
+        </h1>
+        <nav style="border-bottom: 1px solid #eee; padding-bottom: 10px;">
+          <a href="{{ "/archive" | relative_url }}">Spis treści / Table of contents</a> /
+          <a href="{{ "/about" | relative_url }}">O mnie / About</a> /
+          <a href="{{ "/donate" | relative_url }}">Wesprzyj / Donate</a> /
+          <a href="{{ "/rodo" | relative_url }}">RODO / GDPR</a>
+          
+        </nav>
       </header>
 
-    <main class="main-content">
-      {{ content }}
-    </main>
+      <main>
+        {{ content }}
+      </main>
 
-    <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.8em; color: #666;">
-      <p>
-        &copy; {{ site.time | date: '%Y' }} Tomasz Dunia.
-        Treść bloga dostępna na licencji <a href="https://raw.githubusercontent.com/to3k/to3k.github.io/refs/heads/main/LICENSE.md">Creative Commons (CC BY-NC-SA 4.0).</a>.
-      </p>
-      <p>
-        Znajdź mnie na <a href="https://infosec.exchange/@to3k">Mastodonie</a>!
-      </p>
-    </footer>
+      <footer style="margin-top: 80px; padding-top: 20px; border-top: 1px dashed #ccc; font-size: 0.8em; color: #666;">
+        <p>
+          &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
+          Treść dostępna na licencji <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pl" target="_blank">CC BY-SA 4.0</a>.
+        </p>
+        <p>
+          Znajdź mnie na <a href="https://infosec.exchange/@to3k">Mastodonie</a>!
+        </p>
+      </footer>
 
-  </div>
-</body>
+    </div>
+  </body>
 </html>
