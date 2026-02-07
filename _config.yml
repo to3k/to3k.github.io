@@ -1,8 +1,30 @@
-title: Blog Tomasza
-description: Mój osobisty blog oparty na Jekyll
-theme: minima
-url: "https://to3k.github.io"
+# --- GŁÓWNE USTAWIENIA ---
+title: Tomasz Dunia - Blog
+description: Blog o wszystkim - przemyślenia, poradniki, projekty otwarto-źródłowe, praca, self-hosting, seriale, filmy / Blog about everything - thoughts, tutorials, open-source projects, work, self-hosting, series, movies
+url: "https://to3k.github.io" # do zmiany po przełączeniu domeny
+baseurl: "" 
+
+# --- MOTYW ---
+remote_theme: riggraz/no-style-please
+
+# --- USTAWIENIA LINKÓW ---
+permalink: /:title/
+
+# --- WTYCZKI ---
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-permalink: /:title/
+  - jekyll-remote-theme
+  - jekyll-sitemap
+
+# --- DANE AUTORA ---
+# Wyświetlają się w stopce motywu
+author:
+  name: Tomasz Dunia
+  url: https://tomaszdunia.pl
+
+# --- USTAWIENIA MARKDOWN ---
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
