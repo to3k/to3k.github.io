@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Strona główna
+title: Tomasz Dunia - Blog
 ---
 
 <div style="margin-bottom: 30px;">
