@@ -2,6 +2,28 @@
 <html lang="{{ site.lang | default: "pl" }}">
   {% include head.html %}
 
+  <style>
+    /* Wymuś czarny kolor dla wszystkich linków */
+    a, a:visited {
+      color: #000000 !important;
+      text-decoration: underline; /* Podkreślenie, żeby było widać, że to link */
+    }
+
+    /* Po najechaniu myszką link robi się ciemnoszary i traci podkreślenie */
+    a:hover {
+      color: #333333 !important;
+      text-decoration: none;
+    }
+
+    /* Wyjątek dla menu i tytułu bloga - tam nie chcemy podkreślenia */
+    header a, nav a, footer a {
+      text-decoration: none !important;
+    }
+    header a:hover, nav a:hover, footer a:hover {
+      text-decoration: underline !important;
+    }
+  </style>
+
   <body>
     <div style="max-width: 700px; margin: 0 auto; padding: 20px;">
 
