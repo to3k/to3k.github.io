@@ -34,6 +34,7 @@ image: "/images/oraclefreetier.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/oracle-free-tier-eng/)
 
+Spis treści:
 * TOC
 {:toc}
 
