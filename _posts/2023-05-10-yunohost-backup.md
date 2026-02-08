@@ -33,7 +33,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 W poprzednich wpisach opisałem [jak zainstalować środowisko _YunoHost_](https://blog.tomaszdunia.pl/yunohost-oracle/) oraz [jak uruchomić na nim pierwszą aplikacji - _instancję WriteFreely_](https://blog.tomaszdunia.pl/yunohost-writefreely/). Następnym naturalnym krokiem jaki wykonałby każdy rozsądny admin jest stworzenie systemu, który po pierwsze będzie tworzył kopie zapasowe uruchomionej infrastruktury, a po drugie zabezpieczy te kopie na wypadek, gdyby serwer, na którym jest to wszystko uruchomione, nagle stwierdził, że to dobry moment na sprawienie problemów.
 
 Na początek dla ułatwienia zdefiniujmy sobie robocze nazewnictwo dla dwóch maszyn, których będę używał w tym wpisie:

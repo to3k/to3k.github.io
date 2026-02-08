@@ -29,7 +29,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Zakładam, że fraza _**zdalny pulpit**_ nie jest nikomu obca. Jest to bardzo wygodny sposób na dostęp (sterowanie) do komputera działającego w innym miejscu świata lub po prostu będącego serwerem działającym bez podpiętych peryferiów. Na hasło _zdalny pulpit_ wiele, nawet nietechnicznych osób, pomyśli na pewno _Team Viewer_ albo _AnyDesk_, jednak królem w tym obszarze jest protokół _[VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing)_ (skrót od _Virtual Network Computing_, z ang. _Wirtualna Sieciowa Komunikacja_). Jest mnóstwo programów działających w oparciu właśnie o _VNC_ (_RealVNC_, _TightVNC_, _UltraVNC_, _TigerVNC_, _Vinagre_, ... i wiele wiele innych), a zdecydowana większość z nich opiera się na konieczności zainstalowania dwóch aplikacji - jednej na serwerze (komputerze, którym będziemy sterować) i drugiej na kliencie (komputerze, z którego będziemy sterować). Tego typu narzędzia to podstawowe narzędzie pracy każdego administratora sieci składającej się z więcej niż jednego komputera, więc każdemu zaczynającemu przygodę jako Sysadmin (administrator systemów) powinien przynajmniej wiedzieć z czym to się je.
 
 W tym wpisie chciałbym wskazać jedną usługę, która według mnie niejako wyróżnia się z tłumu tym, że po pierwsze działa przez przeglądarkę, po drugie jest darmowa w podstawowym zakresie (a i płatne plany są atrakcyjne cenowo) i po trzecie kod źródłowy klienta jest udostępniony jako otwarte oprogramowanie (_open-source_). Tym narzędziem jest [_DWService.net_](https://www.dwservice.net/)!

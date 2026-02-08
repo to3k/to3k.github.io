@@ -32,7 +32,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Jest to kontynuacja [poprzedniego wpisu](https://blog.tomaszdunia.pl/terminal-proxmox/), w którym przedstawiłem narzędzie o nazwie _Proxmox_, które jest środowiskiem do wirtualizacji. Omówiłem jego instalację na _terminalu_, czyli komputerze typu _mini PC_. Poniżej opiszę jak stworzyć swoją pierwszą **_maszynę wirtualną_** (ang. _Virtual Machine_ - _VM_) w _Proxmox_.
 
 ## Tworzenie maszyn wirtualnych

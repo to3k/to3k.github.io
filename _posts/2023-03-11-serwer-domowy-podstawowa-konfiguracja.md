@@ -32,7 +32,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Kontynuujemy temat z [poprzedniego wpisu](https://blog.tomaszdunia.pl/serwer-domowy/), w którym opisałem co jest potrzebne do stworzenia swojego domowego serwera za rozsądne pieniądze, jak zainstalować na nim system oraz jak się z nim połączyć przez SSH. W tym wpisie przejdę przez **wszystkie fundamentalne działania jakie należy wykonać na świeżo uruchomionym serwerze**. Dla ludzi znających temat zapewne będą to oczywiste oczywistości, ale jeżeli czytasz ten wpis to na 99% nie jesteś taką osobą, więc łap za _iPada_ (lub dowolne urządzenie jakim dysponujesz) i konfigurujemy razem 😉
 
 ## Zmiana hasła domyślnego

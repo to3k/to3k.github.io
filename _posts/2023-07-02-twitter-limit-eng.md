@@ -20,7 +20,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 Do you remember my tool called [_Twittodon_](https://twittodon.com)? I wrote about it [here](https://blog.tomaszdunia.pl/twittodon-eng/). It was a tool for verifying the connection between _Mastodon_ and _Twitter_ accounts. I used the past tense because unfortunately, since yesterday, it's not working correctly and there's a good chance it never will again. All of this is due to the latest significant steps taken by _Twitter_.
 
 It all started just over half a year ago when shortly after _Elon Musk_ bought it, access to the _Twitter API_ started to be restricted. Many unofficial clients ceased to exist at that time. A really big migration of people to _Mastodon_, and to the _Fediverse_ in general, began. _Twittodon_ gained immense popularity then, and the lack of access to the _API_ was not an obstacle because the operating principle relied on the use of the [_Nitter_](https://github.com/zedeus/nitter) tool, which allowed access to Twitter content by scraping it without utilizing the _API_.

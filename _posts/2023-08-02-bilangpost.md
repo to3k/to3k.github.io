@@ -29,7 +29,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 [_BiLangPost_](https://bilangpost.tomaszdunia.pl/) to mój kolejny, mały i niezbyt skomplikowany projekcik (wiecie jak bardzo takie lubię 😉). Jest to narzędzie, które ułatwia pisanie dwujęzycznych postów. A przyczyną powstania jest to, że w momencie dołączenia do _[Mastodona](https://mastodon.tomaszdunia.pl/@to3k)_ postanowiłem, że będę tam pisał zarówno po polsku jak i po angielsku. Językiem angielskim posługuję się dość biegle w mowie i piśmie, ale jestem również fanem automatyzacji wszystkiego tego co może zostać zautomatyzowane, a z tłumaczeniami jest tak, że zawsze lepiej jest poprawić nieidealne tłumaczenie niż napisać coś dwa razy (najpierw w jednym języku, a później w drugim). Z uwagi na powyższe przemyślałem sprawę, siadłem do edytora kodu i stworzyłem przy użyciu języka _PHP_ tytułowe narzędzie.
 
 [![](/images/bc7ca2566e0eac59.png)](https://blog.tomaszdunia.pl/wp-content/uploads/2023/07/bc7ca2566e0eac59.png)

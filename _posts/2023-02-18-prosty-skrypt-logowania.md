@@ -26,7 +26,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Pomysł na ten wpis wpadł mi do głowy podczas pracy nad moim nowym, małym projektem, który w niedalekiej przyszłości powinien ujrzeć światło dzienne. Finałem poniższego wywodu będzie **stworzenie prostego skryptu logowania do wykorzystania na dowolnej stronie**. Stworzymy bazę danych MySQL do przechowywania informacji o użytkownikach, skrypt do tworzenia nowych kont i skrypt do logowania, czyli uzyskania dostępu do zawartości chronionej. Będzie to rozwiązanie typu _[Proof of Concept](https://en.wikipedia.org/wiki/Proof_of_concept)_, czyli skupię się na niezbędnym minimum, a dalsze ewentualne dostosowanie do konkretnych potrzeb pozostawię Czytelnikowi.
 
 ## Strona demonstracyjna

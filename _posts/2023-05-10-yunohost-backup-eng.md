@@ -29,7 +29,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 In my previous posts, I described [how to install the _YunoHost_ environment](https://blog.tomaszdunia.pl/yunohost-oracle-eng/) and [how to run the first application - _WriteFreely instance_](https://blog.tomaszdunia.pl/yunohost-writefreely-eng/) on it. The next natural step that any reasonable admin would take is to create a system that will first create backups of the running infrastructure and secondly secure those backups in case the server on which it is all running suddenly decides it's a good time to cause problems.
 
 To begin with, let's define some working names for the two machines that I will be using in this post:

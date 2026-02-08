@@ -26,7 +26,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 I have written quite a bit about setting up various types of home servers. I talked about _Raspberry Pi_ as well as slightly more powerful _terminals_. But does everyone need a server in the form of a separate machine? What if someone wants to start learning and/or check if it's even for him/her, while at the same time minimize costs? It turns out that **all you need is any laptop with _Windows_** _10_ (or _11_), on which **you can easily install a virtual Linux environment**, specifically Ubuntu, and have the equivalent of a server, but running on your computer. We're not talking about installing a second system or replacing Windows with Linux. In this post, I will show you how to run Linux as a subsystem inside Windows. Of course, this is not a solution that will create a server running 24/7 (unless your computer is always on), but rather a simulation of a server that will only run when you need it.
 
 ## Preparing your computer

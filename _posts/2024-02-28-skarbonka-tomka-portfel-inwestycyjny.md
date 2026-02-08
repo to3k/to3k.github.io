@@ -45,7 +45,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Oficjalnie stwierdzam, że stałem się Panem w średnim wieku... Ustatkowałem się, tj. mam żonę, doczekałem się potomstwa, kupiłem dom, nad karkiem wisi mi siekierka w postaci kredytu hipotecznego, nie jarają mnie już gierki, imprezy, ani szybkie samochody, a moje zainteresowanie skierowało się w kierunku... oszczędzania i pomnażania tych oszczędności. Jeżeli to czytasz i też tak masz to przybijam wirtualną pionę! Takie melancholijne przemyślenia, jak to powyżej, przekonały mnie do stworzenia nowego cyklu wpisów traktujących o tematyce szerokopojętych finansów, oszczędzania i inwestowania tych oszczędności. Czy mam w tym kierunku jakiekolwiek wykształcenie lub chociaż doświadczenie zawodowe? Jasne, że nie! Dlatego wpisy pod szyldem _Skarbonka Tomka_ można traktować bardziej jako odrady finansowe aniżeli porady.
 
 ## Skąd w ogóle ten pomysł?

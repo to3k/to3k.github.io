@@ -30,7 +30,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 Sometimes I wake up in the morning and my first thought is "I need to change something". I really like changes in my gear, checking out new solutions, different combinations of devices. Unfortunately, my wallet doesn't like it... 🤷‍♂️😅 One beautiful day, I came up with an idea that I included in the title of this post. A #iPadOnly kind of thing, but where a tablet replaces a phone, not a computer. Currently, I use an _iPhone 13 Pro Max_ equipped with a large 6.7" diagonal screen, but could it be replaced with a device with an even larger screen? The _iPad mini 6_ with an 8.3" screen at first glance looks like it could handle this task! I did some research, I have my conclusions on this topic and I would like to share them in this post.
 
 ## Advantages of iPad over iPhone - sounds promising... 🤔

@@ -28,7 +28,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Wszystkim Czytelnikom tego bloga _Docker_ powinien być znany, bo dość obszernie opisałem go w [tym wpisie](https://blog.tomaszdunia.pl/docker/). Dzisiaj jednak pójdę o krok dalej i przedstawię narzędzie o nazwie _[Portainer](https://www.portainer.io/)_, które jest swego rodzaju interfejsem graficznym sprawiającym, że zarządzanie kontenerami _Docker_ jest przyjemniejsze i bardziej intuicyjne. Co ciekawe _Portainer_ uruchamia się jako kontener - [one ring container to rule them all](https://blog.tomaszdunia.pl/wp-content/uploads/2023/11/one-ring-to-rule-them-all.jpg)!
 
 ## Instalacja środowiska Docker - wersja skrócona

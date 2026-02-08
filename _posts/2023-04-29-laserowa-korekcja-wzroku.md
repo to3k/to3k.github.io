@@ -20,7 +20,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Od 7. do prawie 31. roku życia wyglądałem tak 🤓. Od 17 marca 2023 już tak nie wyglądam, bo postanowiłem poddać się **operacji laserowej korekcji mojej krótkowzroczności**. Dla jasności, bo wiem, że niektórym się to myli, krótkowzroczność to słabe widzenie z daleka i to naciągając to słowo, bo przy mojej wadzie, czyli ok. -4 na obu oczach (mówię sumarycznie, bo miałem też astygmatyzm i to różnie się rozkładało), nie widziałem ostro już z odległości pół metra, czyli nawet o używaniu komputera bez okularów nie mogło być mowy. Przez tyle lat przywykłem już do okularów, na tyle, że raczej nie były one dla mnie nadmiernie uciążliwe. Okulary stały się częścią mnie do tego stopnia, że myślę iż większość znajomych nigdy mnie bez nich nie widziało. Jednakże, posiadanie okularów na nosie to w niektórych przypadkach spora niedogodność, dlatego postanowiłem poddać się operacji. Wybrałem metodę _**FemtoLASIK**_, a w tym wpisie **opiszę jak ten cały proces wyglądał z mojej perspektywy**. Mam nadzieję, że tego typu historia przyda się komuś kto rozważa poddanie się laserowej korekcji wady wzroku.
 
 ## Kwalifikacja

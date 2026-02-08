@@ -21,7 +21,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 In the title, I wanted to keep it brief, so I used the word _services_, which I would like to expand upon here as websites, applications, and servers, basically anything available on the internet that may, for some reason, not be functioning properly. The tool used to monitor these things is _[Uptime Kuma](https://github.com/louislam/uptime-kuma)_. It is a self-hosted solution that is incredibly easy to set up and manage, yet highly functional.
 
 ## How to set up Uptime Kuma

@@ -39,7 +39,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Mój wpis o [darmowym serwerze _VPS_ od _Oracle_](https://blog.tomaszdunia.pl/oracle-free-tier/) jest prawdziwym **hitem tego bloga**. Patrząc na statystyki ma więcej odsłon niż wszystkie inne wpisy razem wzięte. Nic w tym dziwnego, gdyż chyba każdy lubi czasem trochę przycebulić i **dostać coś fajnego za darmo**. Oczywiście będą tutaj głosy mówiące, że jak coś jest za darmo to towarem jesteśmy tak naprawdę my, a może raczej nasze dane. Pewnie tak, ale przyznam szczerze, że ja osobiście nie zastanawiałem się dwa razy decydując się na skorzystanie z tej **ciekawej promocji _Oracle_**, w której można otrzymać tak naprawdę **trzy serwery** - jeden z **4-rdzeniowym procesorem o 24GB RAMu** oparty o architekturę _ARM_, oraz **dwa o znacznie słabszej mocy procesora (1/8 OCPU) i tylko 1GB RAM** oparte na architekturze _AMD_. Ten pierwszy to **prawdziwa kobyła, na której można zrobić naprawdę wiele kozackich rzeczy**, a dwa pozostałe to takie satelity, które **świetnie sprawdzają się jako poligony treningowe lub dla mniejszych projektów**. Co ciekawe w zeszłym tygodniu orałem moją całą infrastrukturę _Oracle_ i stawiałem od zupełnego zera, co dało mi możliwość sprawdzenia czy opisany przeze mnie sposób dalej działa i muszę z przyjemnością powiedzieć, że tak. Zatem oficjalnie odpowiadam na wiele zadanych mi w ostatnich miesiącach pytań - **tak, serwery w ramach _Always Free Tier_ są dalej normalnie dostępne, a mój [poradnik](https://blog.tomaszdunia.pl/oracle-free-tier/) aktualny**.
 
 ## Co ciekawego zrobimy dzisiaj?

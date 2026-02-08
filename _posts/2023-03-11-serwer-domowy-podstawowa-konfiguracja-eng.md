@@ -33,7 +33,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 We continue the topic from [the previous post](https://blog.tomaszdunia.pl/serwer-domowy-eng/), in which I described what is needed to create your own home server for reasonable money, how to install the system on it, and how to connect to it via _SSH_. In this post, I will go through **all the fundamental actions that need to be performed on a freshly launched server**. For people familiar with the topic, these will probably be obvious, but if you are reading this post, you are most likely not such a person, so grab your _iPad_ (or any other device that you have) and let's configure it together 😉
 
 ## Changing the default password

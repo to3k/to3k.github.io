@@ -22,7 +22,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 _DeepL_ is a machine translation service, which in simple terms can be described as a **translator**, operating based on neural networks. Interestingly, the CEO of the company behind this translator is a **Pole** - Jarosław Kutyłowski. I've been using _DeepL_ for almost 5 years now, instead of the widely known _Google Translate_, because it simply gives me better results, and also allows me to keep my data a little further from _Google_. For normal use, _DeepL_ is **free** and available from the website. You can also create an account and choose one of two access plans via _API_ - _Free_ and _Pro_. Of course, we are interested in the **free plan, which is limited to 500,000 characters per month**. For basic applications of a single user, this limit should be sufficient.
 
 ## How to get your API key

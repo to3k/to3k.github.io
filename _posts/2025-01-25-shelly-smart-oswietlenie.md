@@ -30,7 +30,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Częstotliwość publikacji wpisów na tym blogu woła o pomstę do nieba. Jednakże mam przygotowanych kilka naprawdę poważnych argumentów na swoją obronę. Pierwszym z nich jest moja 2(i pół!)-letnia córeczka, do której niecałe pół roku temu dołączyła jeszcze druga pociecha. Jak się pewnie domyślasz, drogi Czytelniku, w domu mam naprawdę wesoło. A jak już jesteśmy przy temacie domu to właśnie jestem na etapie wykańczania świeżo wybudowanej nieruchomości, więc to też bardzo mocno zaprząta mi głowę. Do tego oczywiście praca i pozostaje jeszcze te marne 2-3 godziny na sen, ale to uznaję jako czas stracony. Dobra już sobie pomarudziłem teraz pora na mięsko, bo szkoda tracić czas skoro już postanowiłem usiąść i coś naskrobać.
 
 Mimo braku czasu kłębi mi się w głowie naprawdę wiele pomysłów na nowe wpisy. Szczególnie to wykańczanie domu (i siebie) dostarcza mi sporo ciekawych tematów. To co ostatnio zrobiłem własnymi rękami to cała instalacja elektryczna i przede wszystkim "inteligentne" (osobiście uważam to za niefortunne tłumaczenie angielskiego słowa "smart", stąd cudzysłów) oświetlenie. Postanowiłem zastosować moduły firmy _[Shelly](https://www.shelly.com/)_. O tym właśnie będzie ten wpis. Postaram się w nim przekazać w zjadliwej pigułce jak zrobić to samemu. Będziemy musieli zahaczyć też trochę o podstawy z zakresu domowej instalacji elektrycznej.

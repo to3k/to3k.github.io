@@ -24,7 +24,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 Various iPhone models have been with me for a really long time. I went through the SE 1st and 2nd generation, 11, 12 Mini, 13 Pro Max, and it turns out that my last iPhone was the 15 Pro... at least until Apple makes foldable phones that, when folded, will be the size of a regular phone, and when unfolded at least a 7-8" tablet. There are many rumors that Apple is working on such a device. The latest say the launch may happen in the second half of 2026. Well, there are no concrete details on this topic, and my patience has run out. Besides, I am aware that even if Apple releases a foldable, it will cost around 20,000 PLN.
 
 After this introduction, you are probably guessing already, dear Reader, that the titular traitor, for whom I gave up on an Apple phone, is the Samsung Galaxy Z Fold.

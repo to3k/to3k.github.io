@@ -30,7 +30,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 In [the previous post, I showed how to create smart lighting in your home from scratch using products from _Shelly_](https://blog.tomaszdunia.pl/shelly-smart-oswietlenie-eng/). In my case, this was the first step in building a smart home system, where I plan to integrate many more solutions to automate various aspects. However, for everything to make sense, a **brain of the system is needed—a server that allows managing **all these smart devices** from one place**. There are many such solutions on the market, but for me, the choice was obvious. I opted for software called **_Home Assistant_**. Why? Here are my reasons:
 
 1. it is **open-source** software,

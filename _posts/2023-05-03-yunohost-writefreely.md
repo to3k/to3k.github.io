@@ -33,7 +33,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Zaczęło się od tego, że napisałem wyjątkowo dobrze odebrany wpis o tym [jak pozyskać za darmo dość ciekawy serwer w chmurze _Oracle_](https://blog.tomaszdunia.pl/oracle-free-tier/). Potem napisałem poradnik [jak zainstalować na nim środowisko _YunoHost_](https://blog.tomaszdunia.pl/yunohost-oracle/), ułatwiające uruchamianie swoich własnych aplikacji/usług. Później korzystając z tego wszystkiego [uruchomiłem polską instancję _WriteFreely_ (Polska)](https://blog.tomaszdunia.pl/writefreely-polska/), która jest platformą do blogowania mocno osadzoną w _Fediverse_. A w tym wpisie opiszę krok po kroku jak to zrobiłem, a co za tym idzie, jak i Ty, drogi Czytelniku, możesz uruchomić taką instancję samemu!
 
 ## Dodajemy domenę i instalujemy aplikację w YunoHost

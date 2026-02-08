@@ -40,7 +40,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Nie ma co ukrywać, że na rynku systemów dla urządzeń mobilnych (smartfonów) mamy bardzo ograniczony wybór, bo możemy w zasadzie wybrać spośród dwóch systemów - _iOS_ od _Apple_ lub _Android_ od _Google_ (pofragmentowany na nakładki od poszczególnych producentów). To wersja dla zwykłych śmiertelników, bo istnieje jeszcze **przeogromny świat _Custom ROMów_, czyli wariacji systemu _Android_ tworzonych przez entuzjastów**. Dla chętnych, którzy chcą zgłębić temat polecam _[Forum XDA Developers](https://forum.xda-developers.com/)_, które od lat króluje w zakresie tej tematyki. Ja jednak chciałbym w tym wpisie pokazać coś wyróżniającego się z tłumu, a mianowicie **mobilną wersję _Ubuntu_, którą zainstaluję na smartfonie _Google Pixel 3a XL_**, który już teraz jest dość leciwym sprzętem, bo jego oficjalna premiera była w maju 2019 roku. Specjalnie na potrzeby tego wpisu **zakupiłem egzemplarz za 500 zł**.
 
 ## Zakup odpowiedniego smartfona

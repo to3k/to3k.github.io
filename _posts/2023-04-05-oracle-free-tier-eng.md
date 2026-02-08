@@ -37,7 +37,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 Surprisingly, it's **not a scam**, and despite the title sounding like clickbait, in fact it's **not**! We're talking about _[Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/)_. Don't ask me how they manage to offer it completely for free, especially with such specifications... Is there a catch? It's possible, but I don't see it. Perhaps the only one is that _Oracle_ is another huge corporation that is eager to get its hands on our data, and we're giving it to them by using their seemingly free services. Everyone will have to make their own decision whether to use this offer or not. In this post, **I will describe step by step how to get such a _VPS_** (let's remind ourselves that this acronym stands for _Virtual Private Server_).
 
 ## What do I have from it?

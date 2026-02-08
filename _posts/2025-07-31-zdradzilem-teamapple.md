@@ -24,7 +24,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Różne modele iPhone były ze mną naprawdę długo. Przeszedłem przez SE 1. i 2. generacji, 11, 12 Mini, 13 Pro Max i wychodzi na to, że moim ostatnim iPhone'm był 15 Pro... a przynajmniej do czasu aż Apple zrobi składane telefony, które po złożeniu będą wielkości normalnego telefonu, a po rozłożeniu przynajmniej 7-8" tabletu. Jest wiele plotek, że Apple pracuje nad takim urządzeniem. Najnowsze twierdzą, że premiera może nastąpić w drugiej połowie 2026. Cóż, nie ma w tym temacie żadnych konkretów, a moja cierpliwość się skończyła. Do tego mam świadomość, że nawet jeżeli Apple wyda składaka to będzie on kosztował 20 000 zł.
 
 Po tym wstępie już się pewnie domyślasz, drogi Czytelniku, że tytułowym złamasem, dla którego zrezygnowałem z telefonu od Apple jest Samsung Galaxy Z Fold.

@@ -39,7 +39,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 [Dropbox](https://www.dropbox.com/plans), [OneDrive](https://www.microsoft.com/pl-pl/microsoft-365/onedrive/compare-onedrive-plans?activetab=tab%3aprimaryr1), [Google Drive](https://one.google.com/about/plans?hl=pl), [iCloud](https://support.apple.com/pl-pl/HT201238), [MEGA](https://mega.io/pl/pricing), [Backblaze](https://www.backblaze.com/b2/cloud-storage-pricing.html) to chyba wszystkie najpopularniejsze rozwiązania do przechowywania plików w, [potocznie nazywanej](https://blog.tomaszdunia.pl/wp-content/uploads/2023/05/nocloudbutsomeonescomputer.jpg), chmurze. Trzeba przyznać, że taka forma agregacji i dostępu do swoich danych jest **bardzo wygodna** i dodatkowo jest pewnego rodzaju kopią zapasową. Wszystkie z wymienionych usług oferują większą lub mniejszą przestrzeń dyskową w pakietach darmowych, natomiast do przechowywania większej ilości danych musimy już rozważyć wykupienie któregoś z płatnych planów, a to przy np. dużej ilości zdjęć **nie wychodzi już tak przyjaźnie cenowo**. Dodatkowym, dla mnie kluczowym, **minusem takiego rozwiązania jest konieczność powierzenia swoich danych osobom trzecim**, a co gorsza korporacjom. W takim razie co zrobić, jak żyć? **Uruchomić swoją własną "chmurę" na dane**, a najlepszym do tego rozwiązaniem jest _**[Nextcloud](https://nextcloud.com/)**_! Jest to narzędzie, które teraz opisywane jest jako platforma do współpracy (po ang. _Collaboration platform_), bo składa się z nie jednej, a wielu narzędzi. Jako kilka przykładowych można wymienić:
 
 - **_Files_** - dysk sieciowy,

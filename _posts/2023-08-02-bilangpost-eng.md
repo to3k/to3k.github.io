@@ -27,7 +27,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 [_BiLangPost_](https://bilangpost.tomaszdunia.pl/) is my next small and not very complicated project (you know how much I love such things 😉). It is a tool that facilitates writing bilingual posts. The reason for its creation is that when I joined _[Mastodon](https://mastodon.tomaszdunia.pl/@to3k)_, I decided to write in both Polish and English there. I am quite fluent in spoken and written English, but I am also a fan of automating everything that can be automated. With translations, it is always better to improve an imperfect translation than to write something twice (first in one language, then in the other). Considering the above, I thought it over, sat down at the code editor, and created the aforementioned tool using the _PHP_ language.
 
 [![](/images/bc7ca2566e0eac59.png)](https://blog.tomaszdunia.pl/wp-content/uploads/2023/07/bc7ca2566e0eac59.png)

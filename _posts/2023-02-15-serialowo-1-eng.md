@@ -21,7 +21,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 As this is a very personal blog, I decided that it cannot go without a TV corner. I have to admit that I am a huge fan of TV series. It is one of my ways of spending free time, which I have been doing since my middle school days, which is about **15-16 years**! Can you imagine how many episodes of various series I have watched during this time? I couldn't even imagine it until I looked at the statistics of the [TV Time](https://www.tvtime.com/) application, which I use to organize what I have already watched and what I in a queue to watch. The values I saw there slightly scared me, and I would like to point out that I haven't been using this application since the beginning of my adventure with TV series, so it is possible that not all the positions I have watched are summarized there.
 
 ![](/images/85CE0282-1990-4636-8697-B475B3697BED.jpeg)

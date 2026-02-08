@@ -26,7 +26,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Wszystko zaczęło się od tego, że udało mi się pozyskać domenę [_writefreely.pl_](https://writefreely.pl). Mając taką domenę grzechem byłoby z niej nie skorzystać! Zatem uruchomiłem darmowy serwer w chmurze _Oracle Free Tier_ (tak jak to opisałem w [tym wpisie](https://blog.tomaszdunia.pl/oracle-free-tier/)), zainstalowałem na nim system _YunoHost_ (tak jak to opisałem w [tym wpisie](https://blog.tomaszdunia.pl/yunohost-oracle/)) i uruchomiłem instancję _[WriteFreely](https://writefreely.org/)_, czyli uproszczonej do minimum platformy do blogowania opartej o protokół _ActivityPub_ dający możliwość federowania się z całym zdecentralizowanym _Fediverse_.
 
 Ten wpis jest po pierwsze **zaproszeniem do założenia darmowego konta na _WriteFreely Polska_** oraz miejscem, w którym pokrótce **opowiem o tym projekcie**. Po drugie jest to wstęp, a może raczej zapowiedź wpisu, w którym opiszę jak na _YunoHost_ uruchomić swoją instancję _WriteFreely_.

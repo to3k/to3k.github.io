@@ -51,7 +51,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 Since we have established that my main computer for some time now is the _iPad Air 5_ with the _M1_ chip and the _Magic Keyboard_, it is now time to discuss what is inside. In today's post, I will discuss my basic set of applications, and I will discuss more detailed and specialized ones in separate posts.
 
 ## Apple apps are a great foundation

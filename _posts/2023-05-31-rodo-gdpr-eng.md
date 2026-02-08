@@ -29,7 +29,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 I must admit that the popularity of this blog has exceeded my wildest expectations. At first, I thought I wouldn't gain many readers and I would be writing to an empty audience. As a result, **I never even thought about writing a privacy policy**. However, with such growth, **it's embarrassing that I still don't have such a document**, so I decided to do something about it. In this post, I will describe the entire process of writing a privacy policy for this blog.
 
 Right from the start, I want to emphasize that **I am not an expert in this field, and the regulations like _[GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)_ are like black magic to me**. I will simply write based on the information I have gathered from the Internet and rely on common sense. I hope no lawyer will crucify me for what I write below. However, I am more than open to constructive criticism!

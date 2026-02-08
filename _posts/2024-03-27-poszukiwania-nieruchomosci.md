@@ -40,7 +40,6 @@ Spis treści:
 * TOC
 {:toc}
 
-
 Wydaje się, że wiemy już wszystko o [programie _BK2_](https://blog.tomaszdunia.pl/bk2-2023/) i [kredycie hipotecznym](https://blog.tomaszdunia.pl/kredyt-hipoteczny/). Do tego znamy swoje przybliżone możliwości finansowe. Najwyższy czas ruszyć w bój i znaleźć wymarzone miejsce na Ziemi! Właśnie o procesie poszukiwania i perypetiach z tym związanych jest ten wpis.
 
 ## Wymagania

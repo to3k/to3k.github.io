@@ -30,7 +30,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 Not long ago in my [weekly compilation _TDBNews_](https://blog.tomaszdunia.pl/tdbnews-2023-07-30/), I wrote about [_Meta_ (Facebook), _Microsoft_, and _Amazon_ planning to release a competitive app for _Google Maps_ and _Apple Maps_](https://techcrunch.com/2023/07/26/meta-microsoft-and-amazon-release-open-map-dataset-to-rival-google-maps-apple-maps/). According to the boasts of these three companies, it is supposed to be the best map and navigation app for mobile devices. However, not many people see it in the way that solutions like these are actually a perfect way for giants like _Meta_, _Microsoft_, _Amazon_, _Google_, or even _Apple_ to track their users. Out of these mentioned, Apple perhaps cares most about user privacy, or at least pays the most attention to it... Personally, I trust _Apple_, but I know that there are people who have a completely different opinion, and I understand that. But that's not what I wanted to discuss here! In this next post from the _Outernet_ series, I will address the topic of what kind of map and navigation solutions to use in order to travel comfortably while also safeguarding one's privacy.
 
 ## OpenStreetMap

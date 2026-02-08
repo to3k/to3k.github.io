@@ -26,7 +26,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 In this post, I will describe how to create a home server that will be a perfect helper (support or complement) for an _iPad_. This is not entirely in line with the _#iPadOnly_ ideology, as it assumes using not only the tablet itself, but treat it like the relationship between Batman and Alfred 😉
 
 This post was based on my second blog - [odroid.pl](https://odroid.pl/blog/), which is a guide for beginners and possibly intermediate users, that strongly focuses on self-hosted topics, specifically about how to create a small home server at relatively low cost, on which you can run several useful tools and services. Despite not covering all the topics I planned to describe, I haven't published anything on odroid.pl for some time. Nevertheless, the knowledge contained there is still up-to-date and may be useful for some. I will use some of these materials here, refer to them, and also plan to finish the topics that I couldn't describe there. The knowledge I will summarize in this post is more developed on [odroid.pl](https://odroid.pl/blog/), so if any of the following issues are unclear, I recommend visiting the second blog as well. Unofortunatelly, odroid.pl is written in Polish without any English versions of post like here.

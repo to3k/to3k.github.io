@@ -19,7 +19,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 From the age of 7 until almost 31, I looked like this 🤓. However, since March 17, 2023, I no longer look like that because I decided to undergo **laser correction surgery for my nearsightedness**. Just to clarify, because I know some people get confused, nearsightedness means poor vision on longer distances, and that's stretching the word because with my prescription, which is around -4 in both eyes (I'm speaking cumulatively because I also had astigmatism and it varied), I couldn't see sharply from a distance of half a meter, so there was no question of using a computer without glasses. After so many years, I had already gotten used to wearing glasses to the point where they were not overly burdensome for me. Glasses became a part of me to such an extent that I think most of my friends have never seen me without them. However, having glasses on your nose can be quite inconvenient in some situations, so I decided to undergo surgery. I chose the _**FemtoLASIK**_ method, and in this post, **I will describe how the whole process looked from my perspective**. I hope that this type of story will be useful to someone who is considering making laser correction.
 
 ## Qualification

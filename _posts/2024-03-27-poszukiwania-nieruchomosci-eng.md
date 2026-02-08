@@ -39,7 +39,6 @@ Table of contents:
 * TOC
 {:toc}
 
-
 It seems like we already know everything about [the _BK2_ program](https://blog.tomaszdunia.pl/bk2-2023/) and [mortgage](https://blog.tomaszdunia.pl/kredyt-hipoteczny/). Moreover, we are aware of our approximate financial capabilities. It's high time to get into action and find our dream place on Earth! This post is all about the process of searching and the adventures associated with it.
 
 ## Requirements
