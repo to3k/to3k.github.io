@@ -1,28 +1,65 @@
+<style>
+  /* Styl kontenera z przyciskami */
+  .donate-buttons {
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie */
+    align-items: center;
+    gap: 10px; /* Odstęp między przyciskami */
+    flex-wrap: nowrap; /* Komputer: ZABRANIA zawijania do nowej linii */
+  }
+
+  /* Styl samego linku/przycisku */
+  .donate-buttons a {
+    display: block;
+    flex: 0 1 auto; /* Pozwala elementom się kurczyć, jeśli brakuje miejsca */
+    min-width: 0;   /* Ważne dla Firefoxa przy skalowaniu flexa */
+  }
+
+  /* Styl obrazków */
+  .donate-buttons img {
+    display: block;
+    max-height: 45px; /* Domyślna wysokość (możesz zwiększyć np. do 50px) */
+    width: auto;      /* Szerokość dobierze się z proporcji */
+    max-width: 100%;  /* Gwarancja, że obrazek nie wyjdzie poza swój kontener */
+    border: none;
+  }
+
+  /* Wersja na TELEFONY (poniżej 600px szerokości) */
+  @media (max-width: 600px) {
+    .donate-buttons {
+      flex-wrap: wrap; /* Tu pozwalamy spadać do nowej linii */
+    }
+    .donate-buttons img {
+      max-height: 40px; /* Troszkę mniejsze na telefonie */
+    }
+  }
+</style>
+
 <div class="donate-section" style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; text-align: center;">
   
   <p style="margin-bottom: 20px; font-style: italic;">
     Wszystkie powyższe treści udostępniam za darmo i nie wymagam niczego w zamian, dlatego jeżeli uważasz, że to co publikuję ma dla Ciebie jakąkolwiek wartość to proszę rozważ docenienie mojej pracy poprzez wsparcie finansowe przy użyciu którejś z poniższych form 🙂
   </p>
 
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+  <div class="donate-buttons">
     <a href="https://www.patreon.com/bePatron?u=67755731" target="_blank" rel="noopener">
-      <img src="/images/patreon_button.png" alt="Patreon" style="height: 40px; border: none;">
+      <img src="/images/patreon_button.png" alt="Patreon">
     </a>
 
     <a href="https://patronite.pl/patronuj/to3k-za-5pln/128901" target="_blank" rel="noopener">
-      <img src="/images/patronite_button.png" alt="Patronite" style="height: 40px; border: none;">
+      <img src="/images/patronite_button.png" alt="Patronite">
     </a>
 
     <a href="https://liberapay.com/to3k/donate" target="_blank" rel="noopener">
-      <img src="/images/liberapay_button.png" alt="Liberapay" style="height: 40px; border: none;">
+      <img src="/images/liberapay_button.png" alt="Liberapay">
     </a>
 
     <a href="http://buycoffee.to/to3k" target="_blank" rel="noopener">
-      <img src="/images/buycoffee_button.png" alt="BuyCoffee" style="height: 40px; border: none;">
+      <img src="/images/buycoffee_button.png" alt="BuyCoffee">
     </a>
 
     <a href="https://ko-fi.com/tomaszdunia" target="_blank" rel="noopener">
-      <img src="/images/kofi_button.png" alt="Ko-fi" style="height: 40px; border: none;">
+      <img src="/images/kofi_button.png" alt="Ko-fi">
     </a>
   </div>
 
