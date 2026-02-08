@@ -28,6 +28,11 @@ image: "/images/docker.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/docker/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 I've previously written that I'm a huge enthusiast of **self-hosted** solutions, which means running on your own hardware or on a _VPS_ that you manage. [In previous posts](https://blog.tomaszdunia.pl/serwer-domowy-eng/), I've already written about how to create your own home server, so the natural next step is to run services on it. In this post, I'll introduce _**Docker**_, which is the most popular tool for _**virtualization**_, or running many small **_virtual machines_** inside one physical machine (server). These machines are called **_containers_**, and they are controlled environments for running specific applications. _Containers_ can be isolated from each other or connected in a controlled way. The advantage of this solution is that from one main server, you can manage many environments in a **very clear way**, on which many services will be running. An additional advantage of _Docker_ is that there are many **ready-made container images** available on the Internet, which, after quick configuration, usually limited to setting a few parameters, are ready to run.
 
 EDIT: I was rightfully corrected by one of the Readers that **_Docker_ != _virtualization_**, and that **_containers_ are not _virtual machines_**. Indeed, this is true and I admit that I wrongly used a shortcut by referring to _Docker_ as _virtualization_. Why _Docker_ is not virtualization is concisely explained in [this article](https://www.freecodecamp.org/news/docker-vs-vm-key-differences-you-should-know/).

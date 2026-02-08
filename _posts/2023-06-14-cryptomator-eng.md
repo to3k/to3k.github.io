@@ -26,6 +26,11 @@ image: "/images/cryptomator.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/cryptomator/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 [In my previous post, I wrote about _Nextcloud_](https://blog.tomaszdunia.pl/nextcloud-eng/), which is a way to run your own network drive, commonly referred to as a cloud for files. But what if we run such a service on a server that is not located in our home, i.e., **we don't have full control over who can access it**? Or what if we still want to **entrust our data** to services like _Dropbox_? Can we secure our data in such situations? **Of course, we can**, and one of the most interesting ways is a free tool called _[Cryptomator](https://cryptomator.org/)_.
 
 The principle of operation of this tool is **amazingly simple, yet brilliant**. It's a typical case where beauty lies in simplicity. _Cryptomator_ allows you to create a kind of **encrypted container** (a safe or a vault), whose content is only accessible after entering a password. We place such a container on a network drive, which is synchronized between all connected devices. Then, on the end devices, the container is decrypted through the _Cryptomator_ application and shared as an additional network drive. In practice, after proper initial configuration, **the security level is dramatically increased**, and **the convenience of use is not disrupted in any way**.

@@ -32,6 +32,11 @@ image: "/images/vaultwarden.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/vaultwarden/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 Strong passwords are incredibly **important**! It is one of the foundations of internet security. The best solution is to have passwords consisting of **at least** 16 characters, including lowercase and uppercase letters, as well as numbers and special characters. It is also crucial **not to have the same password for each service**, because if it leaks from one of them, scammers/thieves/burglars will first check it on other popular portals. Looking at all of this raises the question - _How to remember all these complex character strings in your head?!_ Saving them in a notepad on your computer is not a very secure solution, and typing them from a physical notebook kept in a safe is a hassle. In such a situation, the password manager rides in on a white horse, and not just any, but specifically _**Bitwarden**_, which can be **self-hosted on your own server**, which is what we will do because we don't like to entrust our data to third parties, especially when it comes to our passwords.
 
 In this post, I will approach the matter similarly to the [article about _Nextcloud_](https://blog.tomaszdunia.pl/nextcloud-eng/), that is, I will show two ways to run your own instance of _Bitwarden_ (specifically, the implementation of _Vaultwarden_):

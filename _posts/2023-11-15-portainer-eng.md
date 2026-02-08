@@ -23,6 +23,11 @@ image: "/images/portainer.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/portainer/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 For all Readers of this blog, _Docker_ should be familiar, as I extensively covered it in [this post](https://blog.tomaszdunia.pl/docker-eng/). However, today I will take it a step further and introduce a tool called _[Portainer](https://www.portainer.io/)_, which is a kind of graphical interface that makes managing _Docker_ containers more enjoyable and intuitive. Interestingly, _Portainer_ runs as a container itself - [one ring container to rule them all](https://blog.tomaszdunia.pl/wp-content/uploads/2023/11/one-ring-to-rule-them-all.jpg)!
 
 ## Docker environment installation - short version

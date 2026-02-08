@@ -19,6 +19,11 @@ image: "/images/drake_apple_watch_casio_gshock2.png"
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/apple-watch-casio-gshock/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 On February 2, 2024, my official relationship with the _**Apple Watch SE (2nd gen.)**_ came to an end. As I write this post, my new love has already arrived and permanently settled on my wrist, while the _ex_ hasn't even started looking for a new home. Okay, enough of this low-level comedy. The point is, I decided to replace the aforementioned _smartwatch_ with the apple logo with the _**Casio G-Shock**_, specifically the model labeled _**GBX-100NS-1ER**_.
 
 ## What bothered me about the Apple Watch

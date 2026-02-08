@@ -35,6 +35,11 @@ image: "/images/ubuntutouch.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/ubuntu-touch/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 There's no possibility to hide the fact that we have a very limited choice in the market for mobile device systems (smartphones), as we can basically choose between two systems - _iOS_ by _Apple_ or _Android_ by _Google_ (fragmented by overlays from individual manufacturers). That's the version for ordinary mortals, because there's also a **great world of _Custom ROMs_, which are variations of the _Android_ system created by enthusiasts**. For those interested in delving into the topic, I recommend the _[XDA Developers Forum](https://forum.xda-developers.com/)_, which has been reigning in this field for years. However, in this post, I would like to show something outstanding, namely the **mobile version of _Ubuntu_**, which I will install on the _Google Pixel 3a XL_ smartphone, which is already quite an old device, as its official premiere was in May 2019. Specifically for the purpose of this post, **I purchased such device for 500 PLN (~$120)**.
 
 ## Choosing the right smartphone

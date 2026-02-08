@@ -29,6 +29,11 @@ image: "/images/writefreelycloudflareyunohost.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/yunohost-writefreely/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 It all started with me writing a particularly well-received post on [how to get a pretty interesting cloud server for free with _Oracle_](https://blog.tomaszdunia.pl/oracle-free-tier-eng/). Then I wrote a guide on [how to install _YunoHost_](https://blog.tomaszdunia.pl/yunohost-oracle-eng/), which makes it easier to run your own applications/services, on that server. Later, using all of this, [I launched a Polish instance of _WriteFreely_ (Polska)](https://blog.tomaszdunia.pl/writefreely-polska-eng/), which is a blogging platform heavily embedded in _Fediverse_. And in this post, I'll describe step by step how I did it, and therefore, how you, dear Reader, can launch such an instance yourself!
 
 ## Adding a domain and installing the application on YunoHost

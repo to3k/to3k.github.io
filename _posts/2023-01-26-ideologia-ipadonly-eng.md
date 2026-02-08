@@ -20,6 +20,11 @@ image: "/images/iPadOnly.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/ideologia-ipadonly/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 [](https://blog.tomaszdunia.pl/powitanie/)In my previous and also first post, I briefly mentioned that one of the main assumptions I made when launching this blog is that I will create and maintain it using my iPad from the very beginning. What specific device am I using? That's what this post is dedicated to.
 
 ## What iPad am I using?

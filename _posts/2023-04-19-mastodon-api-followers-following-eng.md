@@ -20,6 +20,11 @@ image: "/images/mastodonapifollowersfollowing.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/mastodon-api-followers-following/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 In this post, we will dive into some technical stuff. Obtaining a list of followers and/or following accounts for a given _Mastodon_ account is not as obvious as it may seem. However, it can be done using the official _API_, and that's exactly what I will show you in this post. Interestingly, the topic described below can be used as an [OSINT](https://en.wikipedia.org/wiki/Open-source_intelligence) tool. We emphasize this because thanks to ‪[@avolha@infosec.exchange‬](https://infosec.exchange/@avolha), a link to [my post about Docker](https://blog.tomaszdunia.pl/docker-eng/) made it to the compilation [Weekend Reading: Episode 512 \[2023-03-25\]](https://zaufanatrzeciastrona.pl/post/weekendowa-lektura-odcinek-512-2023-03-25-bierzcie-i-czytajcie/), which is primarily aimed at security experts (professionals dealing with cybersecurity), and the OSINT-related topic should be of interest to people working in this field.
 
 ## Let's take a look at the documentation

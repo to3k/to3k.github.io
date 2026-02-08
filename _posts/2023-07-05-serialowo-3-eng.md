@@ -17,6 +17,11 @@ image: "/images/serialowo3.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/serialowo-3/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 The release date of this particular post is not coincidental. It was prompted by the conclusion of the first season of the series _Sil_o, available on _Apple TV+_. I haven't come across a specific post-apocalyptic title for some time, and _Silo_ is definitely worth recommending! So, this post will be dedicated to series with an apocalyptic theme.
 
 ## The Walking Dead

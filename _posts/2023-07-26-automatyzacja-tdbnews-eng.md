@@ -17,6 +17,11 @@ image: "/images/automatyzacja_tdbnews.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/automatyzacja-tdbnews/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 For several weeks now, I have been publishing a series of Sunday posts called _#TDBNews_, in which I share interesting things I came across during the week. Manually collecting these, in my opinion, interesting articles would be a very tedious and highly inefficient task that I would have to repeat weekly, dedicating part of my Sunday time to it, which I could spend on other activities. That's why I decided to automate it in a very simple way. The operating principle is trivial, and for clarity, I will present it in bullet points.
 
 1. Every day, I browse through my _RSS_ sources (using the _[Reeder](https://reederapp.com/)_ application), my timeline on _Mastodon_, and _Reddit_, which are my three main windows to the world of information.

@@ -24,6 +24,11 @@ image: "/images/proxmox1.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/terminal-proxmox/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 I have already discussed how to easily and relatively inexpensively set up a home server based on platforms such as _Raspberry Pi_. However, there are also other, slightly more ambitious solutions. An example of this is a home server built on devices that, due to their specific nature, I like to call _terminals_. Such devices include [_Intel NUC_](https://www.intel.pl/content/www/pl/pl/products/details/nuc.html). Of course, such a _NUC_ in a sensible configuration will cost quite a bit, especially compared to _Raspberry Pi_. **However, there is a way out to not ruin your wallet!** This is to buy used or refurbished hardware. There are many companies that offer this type of equipment, even providing a warranty of up to 6 months. Many interesting offers can be found, for example, on _Allegro_ (info for non-Poles: _Allegro_ is our polish equivalent to Amazon, eBay etc.).
 
 ## Terminal vs Raspberry Pi

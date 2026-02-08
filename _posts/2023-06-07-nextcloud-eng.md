@@ -34,6 +34,11 @@ image: "/images/nextcloud.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/nextcloud/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 [Dropbox](https://www.dropbox.com/plans), [OneDrive](https://www.microsoft.com/pl-pl/microsoft-365/onedrive/compare-onedrive-plans?activetab=tab%3aprimaryr1), [Google Drive](https://one.google.com/about/plans?hl=pl), [iCloud](https://support.apple.com/pl-pl/HT201238), [MEGA](https://mega.io/pl/pricing), [Backblaze](https://www.backblaze.com/b2/cloud-storage-pricing.html) are probably the most popular solutions for storing files in the [so-called](https://blog.tomaszdunia.pl/wp-content/uploads/2023/05/nocloudbutsomeonescomputer.jpg) cloud. It must be admitted that this form of aggregation and access to one's data is **very convenient** and also serves as a kind of backup. All of the mentioned services offer more or less disk space in free packages, but to store larger amounts of data, we need to consider purchasing one of the paid plans, **which may not be cost-effective**, especially when dealing with a large number of photos. Another, crucial **disadvantage of such a solution is the necessity to entrust our data to third parties**, or even worse, corporations. So what can we do? **Launch our own "cloud" for data**, and the best solution for this is _**[Nextcloud](https://nextcloud.com/)**_! It is a tool that is now described as a collaboration platform because it consists of not one, but many tools. As a few examples, we can list:
 
 - **_Files_** - network drive,

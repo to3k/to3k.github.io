@@ -21,6 +21,11 @@ image: "/images/loginscript.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/prosty-skrypt-logowania/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 The idea for this post came to me while working on my new small project, which should see the light of day in the near future. The culmination of the following discourse will be the creation of a simple login script for use on any website. We will create a MySQL database to store user information, a script to create new accounts, and a script for logging in, or gaining access to protected content. This will be a Proof of Concept solution, meaning I will focus on the essential minimum, and leave further customization to the reader's specific needs.
 
 ## Demo page

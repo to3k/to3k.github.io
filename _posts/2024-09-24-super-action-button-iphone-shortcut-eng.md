@@ -17,6 +17,11 @@ image: "/images/Image-5.jpeg"
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/super-action-button-iphone-shortcut/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 Starting from the iPhone 15 series, the famous silent mode switch has been replaced by a button called the _Action Button_. Initially, I was really frustrated when I saw this change during the conference (and earlier leaks). The two-state switch was a hallmark of the iPhone, which I found extremely useful and at the same time a brilliantly simple solution. The ease with which you could switch the phone to silent mode, even in your pocket, and how easy it was to tell what mode it was currently in, was a great feature for me. Hence, I didn’t understand at all why Apple decided to change it, especially in such an uncreative way as just replacing it with a button… Well, this isn’t the first incomprehensible decision from Apple. Let’s leave that aside though and focus on what we got with the new _Action Button_ and how to maximize its use.
 
 Let’s start by noting that the _Action Button_ is really untapped potential because it triggers the assigned function only when held for a short time. I think everyone thought it was begging for an extended functionality, like being able to assign a different function for scenarios where it’s pressed twice or three times. Apple already has such a mechanism in the system, which we know from the multiple presses of the _Power_ button. For example, I have the notification menu (drop down) assigned to a double click, and switching the screen to black-and-white mode on a triple click. On the plus side, the _Action Button_ allows you to assign various functions, including triggering any shortcut created in the _Shortcuts_ app. This opens up a wide range of possibilities. This post will be about how to extend the functionality of the _Action Button_ in this way.

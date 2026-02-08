@@ -30,6 +30,11 @@ image: "/images/OracleDWS.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/darmowy-komputer-w-przegladarce/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 Would you believe it if I told you that you can have a fully functional computer in your web browser? Always with you, all you need is any device with internet access, and most interestingly - for free. Sounds unlikely, doesn't it? However, it is possible, and in this post, I will describe how you can easily get yourself such a toy!
 
 ## 1\. Free VPS from Oracle

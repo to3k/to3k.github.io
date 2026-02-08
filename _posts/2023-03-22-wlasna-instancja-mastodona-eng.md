@@ -31,6 +31,11 @@ image: "/images/ossrox.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/wlasna-instancja-mastodona)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 The popularity of the social network _Mastodon_ is constantly growing, and more and more people are fleeing from sinking _Twitter_ to the decentralized _Fediverse_. If you are reading this post and you do not fully understand the idea of _Fediverse_ or even _Mastodon_, I refer you to [my post on this topic](https://blog.tomaszdunia.pl/mastodon-eng/). I must admit that I have become very, very immersed in the _Fedi_, so at some point I decided to launch my own _instance_. Of course, we are not talking about something big here, because I could not afford the time to maintain the server and even moderate the content at an appropriate level. From the beginning, I thought about a space just for myself, a _**Single User Instance**_. As it happens, about a week ago, **[I launched such an instance](https://mastodon.tomaszdunia.pl)**, doing so with the **lowest possible amount of work** while maintaining the **lowest possible cost**. In this post, I will share exactly how it looked in my case.
 
 <figure>

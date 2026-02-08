@@ -22,6 +22,11 @@ image: "/images/twittodon.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/twittodon/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 [Twittodon](https://pl.twittodon.com) is my response to the mass migration of people from Twitter, which has been taken over and slowly destroyed by Elon Musk. These people are now fleeing to Mastodon. Twittodon, as a project, has exceeded my expectations, as it is not only quite popular, but has been written about by media such as [Forbes.com](https://www.forbes.com/sites/daveywinder/2022/12/15/how-to-get-twitter-verified-on-mastodon-8-elon-musk-tax-not-required/), [Spider's Web](https://spidersweb.pl/2022/12/twittodon-twiter-mastodon-narzedzie.html), and [iMagazine](https://imagazine.pl/2023/01/13/nadgryzieni-397-nowosci-z-ces-2023-roborock-zapomnial-gdzie-mieszka-i-oreo/).
 
 ## What is Twittodon?

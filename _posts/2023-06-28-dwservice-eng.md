@@ -23,6 +23,11 @@ image: "/images/dwservice.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/dwservice/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 I assume that the phrase _**remote desktop**_ is familiar to anyone. It is a very convenient way to access (control) a computer operating in another part of the world or simply a server operating without peripherals attached. When hearing the term _remote desktop_, many even non-technical people will surely think of _TeamViewer_ or _AnyDesk_, but the king in this area is the _[VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing)_ protocol (short for _Virtual Network Computing_). There are many programs that operate based on _VNC_ (_RealVNC_, _TightVNC_, _UltraVNC_, _TigerVNC_, _Vinagre_, ... and many others), and the vast majority of them rely on the need to install two applications - one on the server (the computer we will control) and the other on the client (the computer we will control from). Such tools are a basic working tool for any network administrator consisting of more than one computer, so every beginner starting their adventure as a Sysadmin (system administrator) should at least know what it is.
 
 In this post, I would like to point out one service that, in my opinion, stands out from the crowd by the fact that, firstly, it works through a web browser, secondly, it is free in its basic range (and even paid plans are attractive in terms of price), and thirdly, the source code of the client is available as open-source software. This tool is [_DWService.net_](https://www.dwservice.net/)!

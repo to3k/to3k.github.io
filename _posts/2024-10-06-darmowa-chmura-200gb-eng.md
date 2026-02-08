@@ -35,6 +35,11 @@ image: "/images/Darmowa-chmura-200GB.png"
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/darmowa-chmura-200gb/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 My post about the [free _VPS_ server from _Oracle_](https://blog.tomaszdunia.pl/oracle-free-tier-eng/) is a true **hit on this blog**. Looking at the stats, it has more views than all other posts combined. It's no wonder, because I think everyone likes to save a little and **get something cool for free**. Of course, there will be voices saying that if something is free, then the product is actually us, or rather our data. Probably true, but I have to admit that personally, I didn't think twice before taking advantage of this **interesting _Oracle_ promotion**, where you can actually get **three servers** — one with a **4-core processor and 24GB RAM** based on the _ARM_ architecture, and **two with much weaker processing power (1/8 OCPU) and only 1GB RAM** based on _AMD_ architecture. The first one is a **real powerhouse, where you can do some seriously awesome things**, and the other two are like satellites that **work great as training grounds or for smaller projects**. Interestingly, last week I completely wiped my _Oracle_ infrastructure and set it up from scratch, which gave me the chance to check if the method I described still works, and I'm pleased to say it does. So, to officially answer the many questions I've received over the past months — **yes, the servers in the _Always Free Tier_ are still available, and my [guide](https://blog.tomaszdunia.pl/oracle-free-tier-eng/) is up-to-date**.
 
 ## What interesting thing are we doing today?

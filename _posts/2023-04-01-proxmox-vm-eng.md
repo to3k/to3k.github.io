@@ -26,6 +26,11 @@ image: "/images/proxmox_vms.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/proxmox-vm/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 This is a continuation of the [previous post](https://blog.tomaszdunia.pl/terminal-proxmox-eng/) in which I presented a tool called _Proxmox_, which is a virtualization environment. I discussed its installation on a _terminal_, which is a type of _mini PC_. Below, I will describe how to create your first **_virtual machine_** (_VM_) in _Proxmox_.
 
 ## Creating virtual machines

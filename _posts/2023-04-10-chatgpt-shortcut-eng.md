@@ -19,6 +19,11 @@ image: "/images/szorty.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/chatgpt-shortcut/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 Today, another post from the series of short posts. Its creation was caused by something very interesting that I came across! Someone smart has created a _Shortcut_ on _iOS_, which implemented a communication system with _ChatGPT_ through an _API_. In this way, you can always have the possibility to ask a quick question to artificial intelligence at your fingertips, with just one button press.
 
 ## Quick installation guide

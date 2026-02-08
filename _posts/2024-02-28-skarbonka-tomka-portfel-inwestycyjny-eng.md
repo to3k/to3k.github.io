@@ -44,6 +44,11 @@ image: "/images/portfelinwestycyjny.png"
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/skarbonka-tomka-portfel-inwestycyjny/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 Officially, I declare myself a Middle-aged Man... I've settled down, meaning I have a wife, offspring, bought a house, and I've got an axe hanging over my head in the form of a mortgage, no longer thrilled by games, parties, or fast cars, and my interest has shifted towards... saving and multiplying those savings. If you're reading this and you're in the same boat, virtual high five! Such melancholic reflections, like the above, convinced me to create a new series of posts dealing with the broad topic of finance, saving, and investing those savings. Do I have any education or professional experience in this direction? Of course not! That's why posts under the banner of _My piggy bank_ can be treated more as financial warnings than advice.
 
 ## Where did this idea come from in the first place?

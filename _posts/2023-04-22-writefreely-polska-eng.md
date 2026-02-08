@@ -23,6 +23,11 @@ image: "/images/writefreelypl.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/writefreely-polska/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 It all started with me obtaining the domain [_writefreely.pl_](https://writefreely.pl). Having such a domain, it would be a sin not to use it! So, I launched a free server in the _Oracle Free Tier_ cloud (as described in [this post](https://blog.tomaszdunia.pl/oracle-free-tier-eng/)), installed the _YunoHost_ system on it (as described in [this post](https://blog.tomaszdunia.pl/yunohost-oracle-eng/)), and launched an instance of _[WriteFreely](https://writefreely.org/)_, a maximally simplified blogging platform based on the _ActivityPub_ protocol, which allows for federating with the entire decentralized _Fediverse_.
 
 This post is first and foremost an **invitation to create a free account on _WriteFreely Polska_** and a place where I will briefly **describe this project**. Secondly, it is an introduction, or rather a teaser, of a post in which I will describe how to launch your own instance of _WriteFreely_ on _YunoHost_.

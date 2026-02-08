@@ -16,6 +16,11 @@ image: "/images/szorty.png"
 
 [🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/limit-obserwowanych-na-mastodonie/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 While looking for something completely different in _Mastodon's_ documentation, I came across an [interesting thread on GitHub](https://github.com/mastodon/mastodon/issues/2311) concerning a suggestion to introduce a **limit on the number of accounts that can be followed from one account**. It turns out that in 2017, the original _Mastodonians_ noticed a problem with users sending massive amounts of requests to the _API_. These were bots set up to follow as many accounts as possible. Why? When it comes to the Internet, if you don't know what it's all about, it's about **spam**! The mechanism was simple - the bot's name and avatar contained advertising, and by following a particular user, the bot would automatically appear in their _Notifications_ tab. Smart... But not smarter than the developers behind the _Mastodon_ construction. The reaction to the suggestion was not immediate, but slightly over a year after the creation of the _issue_, a [_Commit_ (update) was made that introduced the appropriate limit](https://github.com/mastodon/mastodon/pull/8807).
 
 Since then, the limit has been that from one account, you can follow **7500 accounts** without any restrictions. After exceeding this value, an **additional condition** comes into play:

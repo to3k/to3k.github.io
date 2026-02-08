@@ -27,6 +27,11 @@ image: "/images/smartdom_shelly.png"
 
 [🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/shelly-smart-oswietlenie/)
 
+Table of contents:
+* TOC
+{:toc}
+
+
 The frequency of posts on this blog is simply shameful. However, I have some really solid arguments to defend myself. The first one is my 2 (and a half!) year-old daughter, and just under six months ago, a second little one joined the family. As you might guess, dear Reader, things are pretty crazy at home. And while we're on the topic of home, I'm currently in the process of finishing a newly built property, which is also occupying a lot of my mind. On top of that, of course, work, and I still have those pitiful 2-3 hours left for sleep, but I consider that time wasted. Alright, I've complained enough, now it's time for the real stuff, because it would be a shame to waste time now that I've decided to sit down and write something.
 
 Despite the lack of time, I have a ton of ideas for new posts swirling around in my head. Particularly, finishing the house has provided me with many interesting topics. Recently, one of the things I did myself was the entire electrical installation, and most importantly, the smart lighting. I decided to use modules from _[Shelly](https://www.shelly.com/)_. This post will be about that. I'll try to break it down into a digestible nugget and explain how to do it yourself. We'll also need to touch a bit on the basics of home electrical installation.
