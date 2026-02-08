@@ -34,6 +34,9 @@ image: "/images/oraclefreetier.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/oracle-free-tier-eng/)
 
+* TOC
+{:toc}
+
 To o dziwo **nie żaden przekręt**, a tytuł mimo że brzmi jak _clickbait_, lub reklama sklepu z elektroniką na M, wcale nimi **nie jest**! Mowa tutaj o _[Oracle Cloud Free Tier](https://www.oracle.com/pl/cloud/free/)_. Nie pytajcie mnie jakim cudem opłaca im się to oferować całkowicie za darmo, szczególnie z takimi parametrami... Czy jest tu jakieś drugie dno? Możliwe, ale ja go nie widzę. Może jedynie takie, że _Oracle_ to kolejna, ogromna korporacja, która czyha, aby wyciągnąć łapy w kierunku naszych danych, a my sami je im oddajemy korzystając z ich pozornie darmowych usług. Tutaj już każdy zrobi sobie własny rachunek i zdecyduje czy korzystać z tej oferty czy nie. Ja w tym wpisie **opiszę krok po kroku jak uzyskać dostęp do takiego _VPSa_** (przypomnijmy jeszcze rozwinięcie skrótu - z ang. _Virtual Private Server_).
 
 ## Co Ty z tego masz szemrany typku?!
