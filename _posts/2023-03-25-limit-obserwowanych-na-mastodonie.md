@@ -18,6 +18,11 @@ image: "/images/szorty.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/limit-obserwowanych-na-mastodonie-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Szukając w dokumentacji _Mastodona_ czegoś zupełnie innego natrafiłem na pewien [ciekawy wątek na GitHub](https://github.com/mastodon/mastodon/issues/2311) dotyczący sugestii wprowadzenia **limitu kont jakie można obserwować z jednego konta**. Okazuje się, że w 2017 pierwotni _mastodonowicze_ zauważyli problem z użytkownikami, którzy wysyłają kosmiczne ilości zapytań do _API_. Były to boty ustawione na zdobywanie jak największej ilości obserwowanych. Po co? Jak nie wiadomo o co chodzi w Internecie, to chodzi o **spam**! Mechanizm był prosty - nazwa oraz awatar bota zawierały reklamę, a bot obserwując danego użytkownika niejako pojawiał mu się z automatu w zakładce _Powiadomienia_. Sprytne... Ale nie bardziej sprytne niż deweloperzy stojący za konstrukcją _Mastodona_. Reakcja na sugestię nie była natychmiastowa, ale po lekko ponad roku od powstania _issue_ został wykonany [_Commit_ (aktualizacja), która wprowadzała odpowiedni limit](https://github.com/mastodon/mastodon/pull/8807).
 
 Limit od tamtej pory polega na tym, że z jednego konta bez ograniczeń można obserwować **7500 kont**. Po przekroczeniu tej wartości wchodzi w grę **dodatkowy warunek**:

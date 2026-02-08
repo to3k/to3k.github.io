@@ -22,6 +22,11 @@ image: "/images/ssh.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/serwer-domowy-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 W tym wpisie opiszę jak stworzyć domowy serwer, który będzie idealnym pomocnikiem (wsparciem, czy może też uzupełnieniem) dla _iPada_. Nie jest to do końca zgodne z ideologią _#iPadOnly_, bo zakłada używanie nie tylko samego tableta, ale potraktujcie to jak relację pomiędzy Batmanem i Alfredem 😉
 
 Ten wpis powstał w oparciu o mojego drugiego bloga - [odroid.pl](https://odroid.pl/blog/), który jest poradnikiem dla początkujących i ewentualnie średnio-zaawansowanych, który bardzo mocno skupia się na tematyce self-hosted, a konkretnie traktuje o tym jak stosunkowo niskim kosztem stworzyć swój mały serwer domowy, na którym można uruchomić kilka(naście) bardzo przydatnych narzędzi i usług. Mimo niedomknięcia jeszcze wszystkich tematów, które zaplanowałem opisać, na odroid.pl nie publikowałem już jakiś czas. Niemniej jednak wiedza tam zawarta jest cały czas aktualna i może być dla niektórych przydatna. Będę część z tych materiałów używał tutaj i do nich nawiązywał, a także planuję tutaj dokończyć tematy, których tam opisać mi się nie udało. Wiedza, którą w formie pigułki zawrę w tym wpisie jest bardziej rozwinięta na [odroid.pl](https://odroid.pl/blog/), więc jeżeli którekolwiek z poniższych zagadnień będzie niejasne to polecam odwiedzić także drugiego blog.

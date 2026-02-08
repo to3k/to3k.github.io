@@ -17,6 +17,11 @@ image: "/images/uptimekuma.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/uptime-kuma-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 W tytule chciałem ująć to krótko, więc użyłem słowa _usług_, co w tym miejscu chciałbym rozszerzyć jako strony, aplikacje i serwery, a w zasadzie praktycznie wszystko co jest dostępne w sieci i może z jakiegoś powodu nie działać. Do monitorowania właśnie tych rzeczy służy narzędzie _[Uptime Kuma](https://github.com/louislam/uptime-kuma)_. Jest to rozwiązanie _self-hosted_, które jest szalenie proste w uruchomieniu i późniejszej obsłudze, a przy tym niezmiernie funkcjonalne.
 
 ## Jak uruchomić Uptime Kuma

@@ -25,6 +25,11 @@ image: "/images/proxmox1.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/terminal-proxmox-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Omówiłem już jak dość prosto i stosunkowo niskim kosztem ogarnąć sobie serwer domowy bazując na platformach _Raspberry Pi_ i podobnych. Istnieją jednak również inne, nieco bardziej ambitne, rozwiązania. Przykładem może być serwer domowy zbudowany w oparciu o urządzenia, które ze względu na swoją specyfikę lubię nazywać _terminalami_. Takie urządzenia to np. [_Intel NUC_](https://www.intel.pl/content/www/pl/pl/products/details/nuc.html). Oczywiście taki _NUC_ w sensownej konfiguracji będzie dość sporo kosztował, szczególnie w odniesieniu do _RPi_. **Jednak jest wyjście, aby nie zrujnować swojego portfela!** Jest nim zakup sprzętu poleasingowego, powystawowego lub po prostu używanego. Jest wiele firm, które oferują sprzęt tego typu z drugiej ręki, dając przy tym gwarancję nawet na 6 miesięcy. Sporo ciekawych ofert można znaleźć chociażby na _Allegro_.
 
 ## Terminal vs Raspberry Pi

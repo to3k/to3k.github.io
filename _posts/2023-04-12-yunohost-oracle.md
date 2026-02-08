@@ -39,6 +39,11 @@ image: "/images/yunohost.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/yunohost-oracle-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 W [poprzednim wpisie](https://blog.tomaszdunia.pl/oracle-free-tier/) opisałem jak uzyskać darmowy dostęp do całkiem niezłego _VPSa_ - _Oracle Cloud Free Tier_. Dzisiaj przedstawię jedną z moich propozycji co można z nim dalej zrobić, a konkretnie pokażę jak, w prosty sposób, **zmienić taki serwer w centrum do uruchamiania rozwiązań _self-hosted_**. Zainstalujemy na nim narzędzie, czy może raczej system, [_YunoHost_](https://yunohost.org/#/), które służy do uruchamiania usług, a wyróżnia się tym, że posiada bardzo przyjazny interfejs graficzny, który **pozwala na zanurkowanie w świecie _self-hosting'u_ nawet osobom niezbyt technicznym**. _YunoHost_ jest oprogramowaniem _open-source_, które pod przejrzystą oprawą wizualną posiada bardzo dobrze napisany kod, który sam **zadba o prawidłowe skonfigurowanie od strony technicznej i bezpieczeństwo usług**, które będą na nim uruchomione.
 
 _**EDIT**_: Jeden z Czytelników słusznie zauważył, że nie wszyscy chcą instalować _YunoHost_ w chmurze _Oracle_, a są tutaj, żeby dowiedzieć się jak to zrobić np. na maszynie, która już posiada zainstalowany system operacyjny _Debian_. Tym osobom polecam przeskoczyć od razu do rozdziału _[Instalacja YunoHost](#installyh)_.

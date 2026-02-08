@@ -20,6 +20,11 @@ image: "/images/szorty.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/chatgpt-shortcut-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Dzisiaj kolejny wpis z cyklu krótkich a.k.a. szortów. Jego powstanie zostało spowodowane tym, że natrafiłem na coś bardzo ciekawego! Otóż, jakaś mądra głowa stworzyła _Skrót_ na _iOS_ (_Shortcuts_), w którym zaimplementowała system komunikacji z _ChatGPT_ poprzez _API_. W ten sposób zawsze pod ręką, za naciśnięciem jednego przycisku, można mieć możliwość zadania szybkiego pytania sztucznej inteligencji.
 
 ## Szybka instrukcja instalacji

@@ -30,6 +30,11 @@ image: "/images/OracleDWS.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/darmowy-komputer-w-przegladarce-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Czy uwierzył(a)byś, gdybym Ci powiedział, że możesz mieć w pełni funkcjonalny komputer w przeglądarce? Zawsze przy sobie, jedyne czego potrzebujesz to dowolne urządzenie z dostępem do internetu, i co najciekawsze - za darmo. Brzmi mało prawdopodobnie, prawda? A jednak jest to możliwe i w tym wpisie opiszę jak w prosty sposób można sobie sprawić taką zabawkę!
 
 ## 1\. Darmowy VPS od Oracle

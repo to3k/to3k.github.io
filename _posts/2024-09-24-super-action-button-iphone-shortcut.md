@@ -17,6 +17,11 @@ image: "/images/Image-5.jpeg"
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/super-action-button-iphone-shortcut-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Od iPhone’ów serii 15 słynny przełącznik trybu cichego został zastąpiony przez przycisk, który nazwano _Action Button_. Na początku strasznie wkurzyłem się widząc tą zmianę na konferencji (oraz wcześniejszych przeciekach). Przełącznik dwustanowy był cechą koronną iPhone'a, którą uważam za szalenie użyteczne i jednocześnie banalnie proste rozwiązanie. Łatwość z jaką można było przełączyć telefon w tryb cichy, nawet w kieszeni, oraz to jak łatwo dało się poznać w jakim trybie aktualnie jest to dla mnie świetna rzecz. Stąd też zupełnie nie rozumiałem, dlaczego Apple postanowiło to zmienić i to w dodatku w tak mało kreatywny sposób jak po prostu przycisk… Cóż, na pewno nie jest to pierwsza niezrozumiała decyzja sadowników. Zostawmy to jednak i skupmy się na tym co dostaliśmy w ramach tego nowego przycisku _Action Button_ i jak wykorzystać go do maksimum.
 
 Zacznijmy od tego, że _Action Button_ to tak naprawdę niewykorzystany potencjał, gdyż wyzwala przypisaną do niego funkcję tylko w przypadku przytrzymania go przez krótki czas. Myślę, że każdy pomyślał o tym, że aż prosiło się o rozszerzenie jego działania np. poprzez umożliwienie przypisania innej funkcji dla scenariuszy, w których zostanie naciśnięty dwu- i trzykrotnie. Apple przecież ma już w systemie taki mechanizm, który znamy z przyciskania kilkukrotnie przycisku _Power_. Ja mam po dwuklik przypisane otworzenie (drop down) menu powiadomień, a pod trzykrotne naciśnięcie zmianę kolorów ekranu na czarno-białe. Na plus jest jednak to, że pod _Action Button_ można przypisać różne funkcje spośród których jedną jest wywołanie dowolnego skrótu stworzonego w aplikacji _Shortcuts_. To otwiera dość spory wachlarz możliwości. O tym jak w taki sposób rozszerzyć funkcjonalność _Action Button_ będzie właśnie ten wpis.

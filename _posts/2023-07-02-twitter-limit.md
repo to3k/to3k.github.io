@@ -16,6 +16,11 @@ image: "/images/szorty.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/twitter-limit-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Pamiętacie moje narzędzie o nazwie [_Twittodon_](https://pl.twittodon.com)? Pisałem o nim [tutaj](https://blog.tomaszdunia.pl/twittodon/). Było to narzędzie do weryfikacji połączenia pomiędzy kontami na _Mastodonie_ i _Twitterze_. Użyłem czasu przeszłego, bo od wczoraj niestety nie działa prawidłowo i jest spora szansa, że już nigdy nie będzie. Wszystko to za sprawą kolejnych poważnych kroków podjętych przez _Twittera_.
 
 Zaczęło się lekko ponad pół roku temu, gdy niedługo po zakupie przez _Elona Muska_ zaczęto znacznie ograniczać dostęp do _API Twittera_. Wiele nieoficjalnych klientów przestało wtedy istnieć. Rozpoczęła się naprawdę spora migracja ludzi na _Mastodona_, tudzież do _Fediverse’u_. _Twittodon_ zyskał wtedy ogromną popularność, a brak dostępu do _API_ nie było przeszkodą, bo zasada działania polegała na wykorzystaniu narzędzia [_Nitter_](https://github.com/zedeus/nitter), które poprzez scrapowanie _Twittera_ pozwalało na dostęp do jego treści bez wykorzystywania _API_.

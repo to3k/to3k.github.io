@@ -19,6 +19,11 @@ image: "/images/drake_apple_watch_casio_gshock2.png"
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/apple-watch-casio-gshock-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Dnia 2 lutego 2024 roku oficjalnie zakończył się mój związek z zegarkiem _**Apple Watch SE (2 gen.)**_. W momencie pisania tego wpisu sytuacja wygląda tak, że moja nowa miłość przybyła już _Inpost'em_ i zagościła na stałe na moim nadgarstku, a _była_ nie zdążyła się wyprowadzić, bo nawet jeszcze nie zaczęła szukać dla siebie nowego domu. Dobra, dość tego komizmu na niskim poziomie. Konkretem jest to, że postanowiłem wymienić w/w _smartwatch'a_ z logiem jabłka na _**Casio G-Shock**_, a konkretnie model o oznaczeniu _**GBX-100NS-1ER**_.
 
 ## Co mi przeszkadzało w Apple Watch'u

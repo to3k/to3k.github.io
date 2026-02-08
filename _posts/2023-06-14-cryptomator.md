@@ -28,6 +28,11 @@ image: "/images/cryptomator.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/cryptomator-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 [W poprzednim wpisie pisałem o _Nextcloud_](https://blog.tomaszdunia.pl/nextcloud/), czyli jak uruchomić swój własny dysk sieciowy, który niektórzy potocznie nazywają chmurą na pliki. Zastanówmy się jednak co w przypadku, gdy uruchamiamy taką usługę na serwerze, który nie stoi w naszym domu, tj. **nie mamy pełnej kontroli nad tym kto może mieć do niego dostęp**? Lub też w przypadku, kiedy chcemy jednak **powierzyć swoje dane** takim usługom jak _Dropbox_? Czy można w takiej sytuacji zabezpieczyć swoje dane? **Oczywiście, że tak** i jednym z najciekawszych sposobów jest darmowe narzędzie nazywające się _[Cryptomator](https://cryptomator.org/)_.
 
 Zasadę działania tego narzędzia jest **bajecznie prosta, a przy tym genialna**. Typowy przypadek sytuacji, gdzie piękno tkwi w prostocie. _Cryptomator_ pozwala na stworzenie pewnego rodzaju **zaszyfrowanego kontenera** (skarbca czy też sejfu), którego zawartość jest dostępna dopiero po podaniu hasła. Taki kontener wrzucamy na dysk sieciowy, który synchronizowany jest pomiędzy wszystkimi podpiętymi urządzeniami. Natomiast na urządzeniach końcowych dany kontener zostaje odszyfrowany poprzez aplikację _Cryptomator_ i udostępniony jako dodatkowy dysk sieciowy. W praktyce po prawidłowym pierwszym skonfigurowaniu **poziom bezpieczeństwa zostaje drastycznie zwiększony**, a **wygoda użytkowania nie zostaje zaburzona** w żaden sposób.

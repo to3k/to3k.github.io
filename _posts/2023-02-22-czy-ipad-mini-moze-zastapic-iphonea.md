@@ -26,6 +26,11 @@ image: "/images/ipadasiphone.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](http://blog.tomaszdunia.pl/czy-ipad-mini-moze-zastapic-iphonea-eng)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Czasem budzę się rano i pierwszą moją myślą jest „muszę coś zmienić”. Bardzo lubię zmiany w moim sprzęcie, sprawdzanie nowych rozwiązań, różnych kombinacji urządzeń. Niestety mój portfel tego nie lubi… 🤷‍♂️😅 Któregoś pięknego dnia wpadło mi do głowy pytanie, które zawarłem w tytule tego wpisu. Takie #iPadOnly, w którym tablet zastępuje telefon, a nie komputer. Aktualnie korzystam z _iPhone’a 13 Pro Max_ wyposażonego w spory ekran o przekątnej 6.7”, ale czy dałoby się go zastąpić urządzeniem o jeszcze większym ekranie? _iPad mini 6_ z ekranem 8.3" na pierwszy rzut oka wygląda na takiego, który mógłby sprostać temu zadaniu! Zrobiłem research, mam już swoje wnioski na ten temat i chciałbym się nimi podzielić w tym wpisie.
 
 ## Zalety iPada względem iPhone’a - brzmi obiecująco... 🤔

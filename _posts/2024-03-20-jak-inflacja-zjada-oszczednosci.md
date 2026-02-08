@@ -20,6 +20,11 @@ image: "/images/inflacjapost2.png"
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/jak-inflacja-zjada-oszczednosci-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Na pewno ciężko pracujesz na każdą zarobioną złotówkę. Z zarobionych pieniędzy kupujesz rzeczy niezbędne do życia, może nawet coś zostaje Ci na przyjemności, a w idealnym przypadku jesteś w stanie nawet coś odłożyć. Właśnie o tych oszczędnościach, a raczej o tym czy coś z nimi robisz, chciałbym dzisiaj porozmawiać.
 
 Jeżeli oszczędzasz i odkładasz te pieniądze to już **jesteś bohaterem**! Tylko, że jeżeli trzymasz je jedynie na nieoprocentowanym koncie w banku, czy też w przysłowiowej skarpecie pod materacem łóżka, to tak naprawdę **z każdą minutą te pieniądze tracą swoją wartość**. Wszystko to za sprawą **_inflacji_**. Zakładam, że w większości przypadków wstrzymywanie się od inwestowania swoich oszczędności może mieć dwie przyczyny. Pierwszą z nich jest **brak czasu** na bawienie się w _te wszystkie finansowe pierdoły_, co w pełni rozumiem, jednakże we wpisach o [_moich portfelach inwestycyjnych_](https://blog.tomaszdunia.pl/skarbonka-tomka-portfel-inwestycyjny/), a później również w bardziej szczegółowych wpisach o _[obligacjach](https://blog.tomaszdunia.pl/skarbonka-tomka-obligacje-skarbowe/)_ i _[akcjach](https://blog.tomaszdunia.pl/skarbonka-tomka-akcje/\(otworzy się w nowej karcie\))_, pokazałem, że **inwestowanie pasywne, czyli takie które nie zabiera dużo czasu i jest bardzo proste**, jest rozwiązaniem tego problemu. Drugi i chyba główny powód braku chęci do inwestowania swoich oszczędności upatruję w **obawie przed ryzykiem** utraty tych pieniędzy. Ten argument również w pełni rozumiem, jednak tutaj wracamy do tematu _inflacji_ i tego jak zbudowany jest nasz kapitalistyczny świat. Nie inwestując w obawie przed ryzykiem utraty kapitału tak naprawdę **skazujesz się na utratę wartości tego kapitału** i to ze 100-procentowym prawdopodobieństwem. Oczywiście nie będzie to utrata gwałtowna, a taka która będzie następowała powoli, ale w mojej ocenie jest to nawet gorsze, bo **_inflacja_ to cichy zabójca** wartości pieniądza, która w sposób systematyczny kradnie nasze oszczędności w sposób, którego możemy nawet przez długi czas nie zauważyć.

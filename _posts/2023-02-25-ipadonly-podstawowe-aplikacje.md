@@ -47,6 +47,11 @@ image: "/images/appstore.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/ipadonly-podstawowe-aplikacje-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Skoro już ustaliliśmy, że od jakiegoś czasu moim głównym komputerem jest _iPad Air 5_, z chipem _M1_ doposażony klawiaturą _Magic Keyboard_, to teraz pora rozpocząć omawianie tego co skrywa w środku. W dzisiejszym wpisie omówię mój podstawowy zestaw aplikacji, a bardziej szczegółowe i specjalistyczne omówię w oddzielnych postach.
 
 ## Appki od Apple to świetna baza

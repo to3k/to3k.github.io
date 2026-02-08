@@ -26,6 +26,11 @@ image: "/images/homeassistantlogo.png"
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/home-assistant-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 W [poprzednim wpisie pokazałem jak od zera zrobić smart oświetlenie w swoim domu w oparciu o produkty firmy _Shelly_](https://blog.tomaszdunia.pl/shelly-smart-oswietlenie/). W moim przypadku był to pierwszy krok w tworzeniu systemu „inteligentnego” domu, w którym mam plan zintegrować znacznie więcej rozwiązań pozwalający na automatyzację różnych aspektów. Jednakże, aby to wszystko miało sens potrzebny jest **mózg systemu, czyli serwer, który będzie pozwalał na zarządzanie **tymi wszystkimi smart urządzeniami** z jednego miejsca**. Na rynku jest wiele rozwiązań tego typu, ale dla mnie wybór był oczywisty. Postawiłem na oprogramowanie o nazwie **_Home Assistant_**. Dlaczego? Oto moje argumenty:
 
 1. jest to oprogramowanie **otwartoźródłowe** (open source),

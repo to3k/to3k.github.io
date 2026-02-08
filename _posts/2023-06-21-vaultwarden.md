@@ -34,6 +34,11 @@ image: "/images/vaultwarden.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/vaultwarden-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Silne hasła to niesamowicie **istotna sprawa**! Jest to jeden z fundamentów bezpieczeństwa w Internecie. Najlepszym rozwiązaniem jest posiadanie haseł składających się z **przynajmniej** 16 znaków, małych i dużych liter, a także cyfr i znaków specjalnych. Do tego dość kluczowe jest, aby **nie posiadać jednakowego hasła do każdego z serwisów**, bo jak wycieknie on z jednego z nich to sprawdzenie w innych popularnych portalach to pierwsze działanie jakie wykonują oszuści/złodzieje/włamywacze. Patrząc na to wszystko nasuwa się pytanie – _Jak spamiętać w głowie wszystkie te skomplikowane ciągi znaków?!_ Zapisanie ich w notatniku na komputerze nie jest zbyt bezpiecznym rozwiązaniem, a przepisywanie z fizycznego notesu chowanego w sejfie to droga przez mękę. W takiej sytuacji na białym rumaku wjeżdża menedżer haseł i to nie byle jaki, bo konkretnie _**Bitwarden**_, którego można **hostować na własnym serwerze**, co też uczynimy, bo przecież nie lubimy przekazywać swoich danych w posiadanie osobom trzecim, a w szczególności jeżeli chodzi tutaj o nasze hasła.
 
 W tym wpisie podejdę do sprawy podobnie jak przy [wpisie o _Nextcloud_](https://blog.tomaszdunia.pl/nextcloud/), czyli pokażę dwa sposoby na uruchomienie swojej instancji _Bitwardena_ (a konkretnie implementacji _Vaultwarden_):

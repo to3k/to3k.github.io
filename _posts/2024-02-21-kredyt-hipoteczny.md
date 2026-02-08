@@ -41,6 +41,11 @@ image: "/images/kredyt.png"
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/kredyt-hipoteczny-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Z szukaniem domu (lub mieszkania) i zaciąganiem kredytu hipotecznego na jego zakup jest trochę jak z paradoksem kury i jajka. Bez złożenia do banku wniosku o przyznanie kredytu i przeprowadzenia przez tenże bank analizy Twojej sytuacji finansowej tak naprawdę nie wiadomo jakiej wielkości kwotę można otrzymać, a co za tym idzie na jaki dom można sobie pozwolić. Z drugiej strony nie można złożyć takiego wniosku bez posiadania już wybranej konkretnej nieruchomości i podpisanej co najmniej umowy rezerwacyjnej ze sprzedawcą (np. deweloperem). We wpisach dotyczących domu chcę zachować choć względną chronologię moich działań, tj. pisać w takiej kolejności, w której zajmowałem się poszczególnymi etapami tego procesu. W tym przypadku mocno zastanawiałem się czy najpierw napisać wpis o kredycie hipotecznym czy też może zacząć od takiego, który traktowałby o tym jak szukałem domu na rynku. Jak widzisz, drogi Czytelniku, postawiłem jednak na opisanie w pierwszej kolejności tematu kredytu. Przekonał mnie do tego fakt, że zanim zacząłem jakiekolwiek poszukiwania wymarzonej nieruchomości najpierw odwiedziłem doradcę kredytowego. Co mi to dało na tym etapie? Po pierwsze skonfrontowałem z nim wiedzę na temat [programu _BK2_](https://blog.tomaszdunia.pl/bk2-2023/) zdobytą do tej pory na własną rękę (głównie z Internetu), a po drugie umożliwiło mi to określenie mojej przybliżonej zdolności kredytowej. Inna sprawa, że wyliczona w ten sposób zdolność rozjechała się finalnie z tym co wyliczył dla mnie bank, ale o tym później. Grunt, że dało mi to choć ogólne pojęcie na co mogę sobie pozwolić.
 
 ## Doradca kredytowy

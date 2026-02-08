@@ -22,6 +22,11 @@ image: "/images/mastodonapifollowersfollowing.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/mastodon-api-followers-following-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 W tym wpisie będzie nieco bardziej technicznie. Uzyskanie listy obserwowanych i/lub obserwujących dla danego konta na _Mastodonie_ nie jest takie oczywiste. Można to zrobić używając oficjalnego _API_ i właśnie to jak to zrobić pokażę w tym wpisie. Co ciekawe poniżej opisane zagadnienie może być użyte jako narzędzie [OSINT'owe](https://pl.wikipedia.org/wiki/Bia%C5%82y_wywiad). Podkreślamy to, gdyż za sprawą ‪[@avolha@infosec.exchange‬](https://infosec.exchange/@avolha) link do [mojego wpisu o Dockerze](https://blog.tomaszdunia.pl/docker/) trafił do zestawienia [Weekendowa Lektura: odcinek 512 \[2023-03-25\]](https://zaufanatrzeciastrona.pl/post/weekendowa-lektura-odcinek-512-2023-03-25-bierzcie-i-czytajcie/), które jest kierowane głównie do bezpieczników (specjalistów zajmujących się cyberbezpieczeństwem), a temat związany z OSINT'em powinien pasować do profilu zainteresowań osób pracujących w tej dziedzinie.
 
 ## Zajrzyjmy do dokumentacji

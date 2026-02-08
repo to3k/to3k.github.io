@@ -33,6 +33,11 @@ image: "/images/ossrox.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/wlasna-instancja-mastodona-eng)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Popularność sieci społecznościowej _Mastodon_ stale rośnie, a kolejni ludzie uciekają z tonącego _Twittera_ właśnie do zdecentralizowanego _Fediverse'u_. Jeżeli czytasz ten wpis, a jeszcze nie do końca rozumiesz ideę _Fediverse_ czy nawet _Mastodona_ to odsyłam do [mojego wpisu na ten temat](https://blog.tomaszdunia.pl/mastodon/). Muszę przyznać, że bardzo, ale to bardzo, wsiąknąłem w _Fedi_, więc w pewnym momencie postanowiłem, że uruchomię swoją własną _instancję_. Oczywiście nie mówimy tutaj o czymś dużym, bo nie mógłbym sobie czasowo pozwolić na zapewnienie konserwacji serwera i chociażby moderacji treści na odpowiednim poziomie. Od początku myślałem o przestrzeni jedynie dla siebie, taka _**Single User Instance**_. Tak się składa, że jakiś tydzień temu **[uruchomiłem taką instancję](https://mastodon.tomaszdunia.pl)**, zrobiłem to **najniższym możliwym nakładem pracy** przy zachowaniu przy tym **najniższego możliwego kosztu**. W tym wpisie podzielę się jak to dokładnie wyglądało w moim przypadku.
 
 <figure>

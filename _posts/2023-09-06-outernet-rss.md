@@ -30,6 +30,11 @@ image: "/images/outernet_rss.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/outernet-rss-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 [W poprzednim wpisie](https://blog.tomaszdunia.pl/outernet-social-media/) przedstawiłem alternatywy dla _mainstreamowych mediów społecznościowych_, które pozwalają wyskoczyć z bańki, którą krótko scharakteryzować można jako uzależniającą, gwałcącą prywatność swoich użytkowników czy też wywołującą całą gamę niepotrzebnych emocji służących jedynie temu, aby firmy, które za tym stoją bogaciły się w nieskończoność.
 
 W tym wpisie postanowiłem poruszyć kolejny temat jakim jest pozyskiwanie informacji ze świata. Ostatnimi czasy zauważyłem trend odcinania się od czytania aktualności przez coraz większą liczbę osób. Nie mogę powiedzieć, że nie jest to zdrowe i niezrozumiałe dla mnie podejście. To co obecnie jest nam serwowane przez portale informacyjne głównego nurtu oddziałuje na nas negatywnie w podobny sposób co media społecznościowe. Mi jednak życie pod przysłowiowym kamieniem nie odpowiada i lubię wiedzieć co się dzieje na świecie. Nie mówię tutaj oczywiście o polityce, bo ten temat działa na mnie jak płachta na byka i zdecydowanie nie wpływa pozytywnie na moje samopoczucie. Chodzi mi bardziej o nowinki technologiczne i naukowe, aktualności związane z moją pracą (autobusy, wodór, elektromobilność) czy też informacje sportowe (żużel, F1). Czy jestem w stanie poczytać na spokojnie o tym wszystkich korzystając z _Google News_, który serwuje treści zgodnie ze swoim algorytmem, który zawsze "wie lepiej" co powinienem czytać, a czego nie? A może powinienem ograniczyć się jedynie do _Onetu_ i/lub innych portali tego typu, na których 90% artykułów to _clickbaity_, czyli takie, których tytuły są napisane w taki sposób, aby za wszelką cenę zachęcić czytelnika do otworzenia ich treści, a które w tym samym czasie, delikatnie mówiąc, nie reprezentują swoją zawartością wysokiego poziomu dziennikarskiego? Na oba te pytania odpowiem stanowczo - NIE.

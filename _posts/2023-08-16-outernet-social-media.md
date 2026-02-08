@@ -35,6 +35,11 @@ image: "/images/outernet_social_media.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/outernet-social-media-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Czy zastanawiałeś/aś się kiedyś jak można przetłumaczyć słowo _Internet_? Wydaje mi się, że nie ma tutaj jednoznacznej i jedynej słusznej genezy tej nazwy. Według mnie nie ma znaczenia z jakich słów jest to zlepek. Dla mnie Internet to po prostu sieć połączonych komputerów. Ta definicja była dużo łatwiejsza do wybronienia w czasach, gdy dopiero powstała sieć _WWW_. Wtedy było to faktycznie kilka komputerów połączonych ze sobą. Teraz jest to niemożliwa do policzenia ilość wszelkiego rodzaju urządzeń i nie można się tutaj ograniczyć jedynie do komputerów, bo obecnie dostęp do Internetu mają nawet lodówki czy pralki, bo o telefonach, telewizorach i konsolach już nie wspomnę. Jednakże najgorsze z tego wszystkie jest to, że duża część Internetu jest w obecnych czasach skupiona na serwerach i tym samym kontrolowana przez ogromne firmy żerujące na prywatności swoich użytkowników.
 
 Idea Internetu była naprawdę górnolotna przez co niestety dość szybko okazała się utopijna. Efekty tego widzimy dzisiaj. Internet stał się bronią obosieczną. Z jednej strony jest nieskończonym źródłem wiedzy czy chociażby umożliwia natychmiastowy kontakt bez względu na położenie geograficzne. Nie można odmówić tego, że Internet można śmiało porównywać do takich sukcesów ludzkości jak opanowanie ognia czy wynalezienie koła. Przesadziłem? Może i tak, ale spróbuj w dzisiejszych czasach zrobić cokolwiek bez dostępu do Internetu. Wszystkie podstawowe aspekty życia zależne są właśnie od tego. Z drugiej strony został po mistrzowsku i jednocześnie bezwzględnie opanowany przez wielkie korporacje, które zrobiły z niego nieskończenie wielki rynek, na którym można sprzedać wszystko, na gigantyczną skalę, śledzić, analizować i profilować ludzi, po czym wpływać na nich w tak wyrachowany sposób, że nawet nie są świadomi tego, że są w jakikolwiek sposób manipulowani.

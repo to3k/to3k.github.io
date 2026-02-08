@@ -17,6 +17,11 @@ image: "/images/automatyzacja_tdbnews.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/automatyzacja-tdbnews-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Już od kilku tygodni publikuję serię niedzielnych wpisów _#TDBNews_, w której wypisuję ciekawe rzeczy, na które natrafiłem w danym tygodniu. Ręczne zbieranie tych, w mojej ocenie, interesujących artykułów byłoby bardzo żmudną i niezwykle nieefektywną pracą, którą musiałbym powtarzać cyklicznie co tydzień, poświęcając na to część niedzielnego czasu, który mógłbym przeznaczyć na inne zajęcia. Z uwagi na to postanowiłem to zautomatyzować i to w baaardzo prosty sposób. Zasada działania jest trywialna i dla ułatwienia przedstawię ją w punktach.
 
 1. Codziennie przeglądam moje źródła _RSS_ (używam aplikacji _[Reeder](https://reederapp.com/)_), oś czasu na _Mastodon_ oraz _Reddita_, czyli moje trzy główne okna na informacje ze świata.

@@ -22,6 +22,11 @@ image: "/images/winbuntu.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/wsl-ubuntu-windows-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Sporo już pisałem o stawianiu różnego rodzaju serwerów domowych. Była mowa o _Raspberry Pi_ jak i nieco potężniejszych _terminalach_. Ale czy każdy potrzebuje serwera w postaci oddzielnej maszyny? Co jeżeli ktoś chce dopiero rozpocząć naukę i/lub w ogóle sprawdzić czy to w ogóle dla niego/niej, a przy tym do maksimum redukować koszty? Okazuje się, że **wystarczy mieć dowolnego laptopa z _Windowsem_** _10_ (lub _11_), na którym w **bardzo prosty sposób można zainstalować wirtualne środowisko Linux**, a konkretnie Ubuntu, i mieć ekwiwalent serwera, ale uruchomiony na swoim komputerze. Nie mówimy tutaj instalowaniu drugiego systemu, czy też zastępowaniu Windowsa Linuxem. W tym wpisie mowa będzie o tym jak wewnątrz Windowsa uruchomić Linuxa jako podsystem. Oczywiście nie jest to rozwiązanie, które stworzy nam serwer działający 24/7 (no chyba, że Wasz komputer jest cały czas włączony), a jedynie raczej namiastkę serwera, która będzie działać tylko wtedy, gdy tego potrzebujemy.
 
 ## Przygotowanie komputera

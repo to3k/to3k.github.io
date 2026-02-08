@@ -20,6 +20,11 @@ image: "/images/iPadOnly.png"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/ideologia-ipadonly-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 W poprzednim i jednocześnie pierwszym wpisie wspomniałem pokrótce, że jednym z głównych założeń jakie przyjąłem przy uruchamianiu tego bloga jest to, że od początku stworzę i będę prowadził go przy użyciu mojego iPada. Na jakim konkretnie sprzęcie to robię? Temu właśnie poświęcę ten wpis.
 
 ## Jakiego iPada używam?

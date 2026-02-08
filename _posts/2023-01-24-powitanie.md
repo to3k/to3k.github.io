@@ -21,6 +21,11 @@ image: "/images/291C62AC-8AB6-4E46-A131-817EBBD1D47D-e1674589513258.jpeg"
 
 [🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/powitanie-eng/)
 
+Spis treści:
+* TOC
+{:toc}
+
+
 Na wstępie pozwolę sobie zacytować piosenkę zespołu Elektryczne Gitary - "I co ja robię tu, u-u, co Ty tutaj robisz". Na to co Ty, drogi Czytelniku, tutaj robisz musisz odpowiedzieć sobie sam. Natomiast na część pytania o mnie odpowiedziałbym krótko, że od zawsze szukałem swojego, ale takiego naprawdę swojego, miejsca w Internecie, gdzie mógłbym pisać dosłownie o wszystkim co w danym momencie wyda mi się interesujące i będzie zasługiwało na sklecenie kilku słów. Częściowo realizowałem to poprzez Twittera, a po jego upadku dalej robię to w Fediverse, a konkretnie na Mastodonie. Jednak media społecznościowe nigdy nie dają poczucia bycia w pełni u siebie. Co innego jeżeli chodzi o skromny blog, który będzie istniał tak długo jak będę tego chciał, a będzie aktywny na tyle na ile wystarczy mi chęci.
 
 Tak więc oto jestem i już na samym początku ustanawiam pierwszą zasadę mojego blogowania - **nie będę robił niczego na siłę**. Jak będę miał wenę to będę pisał dużo, a jak nie będę jej miał to będzie tego mniej, trudno. **Nie planuję także wprowadzać tutaj chronologicznego podejścia**, więc możliwe, że będę dość intensywnie skakał pomiędzy tematami. Jest to zdrowe podejście dla autora, ale na pewno nie jest to polecany sposób na stworzenie miejsca, do którego Czytelnik będzie chciał wracać, bo kluczem do stworzenia takich warunków jest ustalenie sensownego interwału publikacji i trzymanie się go, a tego na pewno tutaj nie zagwarantuję. Cóż... Jakby nie o to mi tutaj chodzi, ale też nie chcę od razu na wstępie całkowicie zniechęcić osób, które to czytają, dlatego powiem, że postaram się tutaj pisać po pierwsze **merytorycznie**, po drugie **ciekawie**, a po trzecie **zwięźle**, choć jak widać to ostatnie już mi niezbyt wychodzi, dlatego przejdźmy do czegoś bardziej konkretnego!
