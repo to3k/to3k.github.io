@@ -20,19 +20,17 @@ Mam na imię **Tomasz**. Jesteś na moim personalnym blogu, który nie ma jednej
 
 **Zawodowo** jestem głównym konstruktorem w firmie [*PAK-PCE Polski Autobus Wodorowy Sp. z o.o.*](https://www.nesobus.pl/), która zajmuje się produkcją autobusów wodorowych pod marką *NesoBus* i jest częścią [*Grupy Polsat Plus*](https://grupapolsatplus.pl/). Poza autobusami biorę również udział w innych projektach, głównie związanych z wodorem i szeroko pojętą elektromobilnością.
 
-**Hobbistycznie** zajmuję się z grubsza tym o czym piszę na blogu, więc najprościej i najwygodniej będzie przejść do [Spisu treści tego bloga](https://oldblog.tomaszdunia.pl/spis-tresci/) i zobaczyć jaką tematykę udało mi się już tutaj poruszyć.
+**Hobbistycznie** zajmuję się z grubsza tym o czym piszę na blogu, więc najprościej i najwygodniej będzie przejść do [spisu treści na stronie głównej](https://blog.tomaszdunia.pl) i zobaczyć jaką tematykę udało mi się już tutaj poruszyć.
 
-W zakresie **mediów społecznościowych** najlepiej szukać mnie na [*Mastodonie*](https://mastodon.tomaszdunia.pl/@to3k). Gorąco zachęcam do zaczepienia mnie tam!
+W zakresie **mediów społecznościowych** najlepiej szukać mnie na [*Mastodonie*](https://infosec.exchange/@to3k). Gorąco zachęcam do zaczepienia mnie tam!
 
 Tagi: #selfhosting #foss #opensource #fediverse #php #rodo #tech #ai #llm #mastodon #finanse #oszczędzanie #inwestowanie #apple #dom #budownictwo #seriale #filmy
 
-*Ostatnia aktualizacja: 28 lutego 2024 roku*
+*Ostatnia aktualizacja: 9 lutego 2026 roku*
 
 ---
 
 <div id="eng"></div>
-
-![Thomas](/images/17B7025B-C608-4E12-B7D8-395C5D3BE4FA-scaled.jpeg)
 
 Hey there!
 My name is **Thomas**. You're on my personal blog, which doesn't have one specific subject. I'm someone who often jumps between really different topics and delves into them from start to finish until I feel like I know enough about them and/or find another (more interesting) topic to delve into. My wife calls such obsessions *passion projects*.
@@ -41,10 +39,10 @@ My name is **Thomas**. You're on my personal blog, which doesn't have one specif
 
 **Professionally**, I'm the chief constructor at [*PAK-PCE Polski Autobus Wodorowy Sp. z o.o.*](https://www.nesobus.pl/en/) (eng. Polish Hydrogen Bus), which specializes in the production of hydrogen buses under the brand *NesoBus* and is part of the [*Polsat Plus Group*](https://grupapolsatplus.pl/en). Apart from buses, I'm also involved in other projects, mainly related to hydrogen and the broad concept of electromobility.
 
-**As a hobby**, I roughly deal with what I write about on the blog, so the easiest and most convenient way would be to go to [Table of Contents of this blog](https://oldblog.tomaszdunia.pl/table-of-contents/) and see what topics I've already covered here.
+**As a hobby**, I roughly deal with what I write about on the blog, so the easiest and most convenient way would be to go to [table of contents shown on homepage](https://blog.tomaszdunia.pl) and see what topics I've already covered here.
 
-For **social media**, you can best find me on [*Mastodon*](https://mastodon.tomaszdunia.pl/@to3k). I highly encourage you to get in touch with me there!
+For **social media**, you can best find me on [*Mastodon*](https://infosec.exchange/@to3k). I highly encourage you to get in touch with me there!
 
 Tags: #selfhosting #foss #opensource #fediverse #php #gdpr #tech #ai #llm #mastodon #finance #saving #investing #apple #house #building #series #films
 
-*Last updated: February 28, 2024*
+*Last updated: February 9, 2026*
