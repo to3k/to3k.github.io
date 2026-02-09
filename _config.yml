@@ -1,7 +1,7 @@
 # --- GŁÓWNE USTAWIENIA ---
 title: Tomasz Dunia - Blog
 description: Blog o wszystkim - przemyślenia, poradniki, projekty otwarto-źródłowe, praca, self-hosting, seriale, filmy / Blog about everything - thoughts, tutorials, open-source projects, work, self-hosting, series, movies
-url: "https://to3k.github.io" # do zmiany po przełączeniu domeny
+url: "https://blog.tomaszdunia.pl"
 baseurl: "" 
 favicon: favicon.png
 
