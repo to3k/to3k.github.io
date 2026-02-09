@@ -19,7 +19,6 @@ plugins:
   - jekyll-sitemap
 
 # --- DANE AUTORA ---
-# Wyświetlają się w stopce motywu
 author:
   name: Tomasz Dunia
   url: https://tomaszdunia.pl
