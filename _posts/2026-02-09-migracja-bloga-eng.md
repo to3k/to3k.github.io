@@ -44,3 +44,5 @@ Dear Reader, do you think the change I made is a positive one? Please rate it! A
 
 ## Is everything working?
 I did the migration a bit on the fly, so I’m not entirely sure if everything is working exactly as it should. I’m counting on your feedback if you notice anything’s off. What I regret most is that I didn't manage to migrate all the comments from the posts. On the new blog, I’m using [Giscus](https://giscus.app/pl) as the comment system, which requires a GitHub account to post. It’s not an ideal solution, but it was certainly the easiest for me to implement at the start. As for the old blog posts—unfortunately, they have faded into oblivion. I tried migrating them and even managed to bulk-transfer a few, but it turned into a total mess, so I scrapped the idea. I decided to simply start from scratch.
+
+PS: I almost forgot to add that from now on the source code of this blog is open and available in [public repository on Github](https://github.com/to3k/to3k.github.io).

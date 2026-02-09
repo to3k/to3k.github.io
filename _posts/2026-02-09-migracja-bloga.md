@@ -44,3 +44,5 @@ Czy według Ciebie, drogi Czytelniku, zmiana której dokonałem jest na plus? Oc
 
 ## Czy wszystko działa?
 Migrację wykonałem trochę na wariata, więc nie mam tak do końca pewności, że wszystko działa jak należy, dlatego liczę na informację zwrotną jeżeli ktoś zauważy, że coś jest nie tak. To czego najbardziej żałuję to tego, że nie udało mi się zmigrować wszystkich komentarzy pod postami. Na nowym blogu jako system komentarzy wykorzystuję [Giscus](https://giscus.app/pl), który do pisania wymaga konta na Github. Nie jest to rozwiązanie idealne, ale na pewno na początek było dla mnie najłatwiejsze do implementacji. Natomiast wszystkie wpisy ze starego bloga odeszły niestety w niepamięć. Podjąłem próbę ich migracji i nawet kilka z nich udało się hurtowo przerzucić, ale zrobił się z tego straszny bałagan i zarzuciłem ten pomysł. Postanowiłem, że po prostu zacznę od nowa.
+
+PS: Prawie zapomniałbym dodać, że od teraz pełny kod źródłowy mojego bloga jest dostępny w [publicznym repozytorium na Github](https://github.com/to3k/to3k.github.io).
