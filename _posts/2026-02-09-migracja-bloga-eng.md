@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Goodbye Wordpress, hello Jekyll"
+title: "Goodbye Wordpress, hello Jekyll [ENG 🇬🇧]"
 date: 2026-02-09
 published: true
 categories: 
