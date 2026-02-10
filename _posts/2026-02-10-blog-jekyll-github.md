@@ -247,12 +247,10 @@ layout: null
 [
   {% for post in site.posts %}
     {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
+      "title"    : {{ post.title | jsonify }},
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date | date: "%d-%m-%Y" }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines | jsonify }}"
+      "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
