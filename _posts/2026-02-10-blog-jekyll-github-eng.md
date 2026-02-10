@@ -267,12 +267,10 @@ layout: null
   {% for post in site.posts %}
     {
       "title"    : {{ post.title | jsonify }},
-      "category" : {{ post.category | jsonify }},
-      "tags"     : {{ post.tags | join: ', ' | jsonify }},
-      "url"      : {{ post.url | relative_url | jsonify }},
-      "date"     : {{ post.date | date: "%d-%m-%Y" | jsonify }},
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date | date: "%d-%m-%Y" }}",
       "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
+    } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
 {% endraw %}
