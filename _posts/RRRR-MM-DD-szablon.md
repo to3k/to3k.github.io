@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "TYTUŁ [ENG 🇬🇧]"
-date: RRRR-MM-DD
 published: false
 categories: 
   - "eng"
