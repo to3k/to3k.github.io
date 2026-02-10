@@ -77,7 +77,9 @@ OBRAZ:
 
 KOD:
 ```JĘZYK
+{% raw %}
 TREŚĆ
+{% endraw %}
 ```
 
 LISTA:
