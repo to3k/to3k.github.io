@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll - a brilliant engine for your blog"
+title: "Jekyll - a brilliant engine for your blog [ENG 🇬🇧]"
 published: true
 categories: 
   - "projects"
@@ -24,11 +24,7 @@ Table of contents:
 * TOC
 {:toc}
 
-This post is partially connected to my [post regarding the migration of my blog from WordPress to the Jekyll engine and GitHub Pages infrastructure](https://blog.tomaszdunia.pl/migracja-bloga-eng/). I described why I did it there, and now it is time to focus on **how I did it**.
-
-As I wrote before, it is very simple, and I believe that absolutely anyone can handle it, regardless of their level of technical expertise. To the best of my knowledge, I don't know of an easier way to launch your own personal blog, and completely for free at that.
-
-Therefore, if you are thinking about creating your own humble corner on the Internet, fasten your seatbelt, because I am taking you on a short journey through the world of **GitHub Pages**, **Jekyll**, **Markdown**, and **static HTML pages**.
+This post is partially connected to my [post regarding the migration of my blog from WordPress to the Jekyll engine and GitHub Pages infrastructure](https://blog.tomaszdunia.pl/migracja-bloga-eng/). I described why I did it there, and now it is time to focus on **how I did it**. As I wrote before, it is very simple, and I believe that absolutely anyone can handle it, regardless of their level of technical expertise. To the best of my knowledge, I don't know of an easier way to launch your own personal blog, and completely for free at that. Therefore, if you are thinking about creating your own humble corner on the Internet, fasten your seatbelt, because I am taking you on a short journey through the world of **GitHub Pages**, **Jekyll**, **Markdown**, and **static HTML pages**.
 
 ## Preparing the GitHub environment
 
@@ -56,10 +52,11 @@ The main advantage of doing this using GitHub Pages is that practically everythi
 6. The new file creator will open. In the **Name your file...** field, type `_config.yml`. Paste the following into the file content:
 
 ```yaml
+{% raw %}
 # --- MAIN SETTINGS ---
 title: Blog Title # Enter your blog title here
 description: Blog Description # Enter your blog description here
-url: "[https://to3k.github.io](https://to3k.github.io)" # Change my login to yours here
+url: "https://to3k.github.io" # Change my login to yours here
 baseurl: "" 
 favicon: favicon.png # upload the icon to the main repository folder under this name (preferably 192x192 or 512x512 resolution)
 
@@ -79,22 +76,22 @@ plugins:
 # --- AUTHOR DATA ---
 author:
   name: John Doe # Fill in as you wish
-  url: [https://example.com](https://example.com) # Fill in as you wish
+  url: https://example.com # Fill in as you wish
 
 # --- MARKDOWN SETTINGS ---
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+{% endraw %}
 ``` 
 
-7. Save the file in this form in the repository using the green **Commit changes...** button located in the upper right corner and then **Commit changes...** again in the window that pops up.
-
-It is good practice on GitHub to enter a short description of what we did in the **Commit message** field with every Commit, which will later be visible in the change history. It is enough to type even `Created _config.yml file`.
+7. Save the file in this form in the repository using the green **Commit changes...** button located in the upper right corner and then **Commit changes...** again in the window that pops up. It is good practice on GitHub to enter a short description of what we did in the **Commit message** field with every Commit, which will later be visible in the change history. It is enough to type even `Created _config.yml file`.
 
 8. Now it's time for the homepage file. Our blog will be kept in the spirit of minimalism, so for the moment, it will consist only of a bold title and a table of contents listing all posts.
 
 ```html
+{% raw %}
 ---
 layout: default
 title: Home # Enter the homepage title here
@@ -112,6 +109,7 @@ title: Home # Enter the homepage title here
     {% endfor %}
   </ul>
 </div>
+{% endraw %}
 ```
 
 9. Time to create the first, test post. According to the Jekyll documentation, all files that are to be classified as posts and displayed as such on the blog must be placed in the `_posts` folder. So we need to create such a folder, and on GitHub, this is done simply by creating the first file inside it. To do this, use the **Add file** and **Create new file** buttons again.
@@ -125,6 +123,7 @@ It is very important here to understand the syntax:
 In the file content, paste:
 
 ```yaml
+{% raw %}
 --- 
 layout: post
 title: "Hello World!"
@@ -139,6 +138,7 @@ image: "/images/COVERIMAGE.png" # Link to the leading image of the post, if you 
 ---
 
 This is my first post on the new blog with the Jekyll engine running on GitHub Pages.
+{% endraw %}
 ```
 
 11. Save the file in the repository using the green **Commit changes...** button located in the upper right corner and **Commit changes...** again in the window that pops up.
@@ -190,12 +190,13 @@ Now you can type the connected domain into the browser address bar and enjoy the
 
 ## Menu
 
-Usually, a blog is not just posts. It is worth enriching it with additional pages like `About`, `Privacy Policy`, or even `Support / Donate`. So let's make such a sample menu, which everyone can later adapt for themselves.
+Usually, a blog is not just posts. It is worth enriching it with additional pages like `About`, `Privacy Policy`, or even `Donate`. So let's make such a sample menu, which everyone can later adapt for themselves.
 
 1. The *No Style Please* theme, which we use for this blog, essentially keeps information about the page structure in the `/_layouts/default.html` file. To add our menu, we must pull the prototype of this file straight from the [theme repository](https://github.com/riggraz/no-style-please), create a copy, overwrite the original in our repository, and add our code fragment to it.
 2. I will save you all the trouble and below I will prepare the ready content of the file that you must create in the `_layouts/` folder of your repository under the name `default.html`:
 
 ```html
+{% raw %}
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en" }}">
   {% include head.html %}
@@ -223,10 +224,10 @@ Usually, a blog is not just posts. It is worth enriching it with additional page
       <footer style="margin-top: 80px; padding-top: 20px; border-top: 1px dashed #ccc; font-size: 0.8em; color: #666;">
         <p>
           &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
-          Content available under license <a href="[https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)" target="_blank">CC BY-SA 4.0</a>.
+          Content available under license <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
         </p>
         <p>
-          Blog created based on the tutorial available at <a href="[https://blog.tomaszdunia.pl/blog-jekyll-github/](https://blog.tomaszdunia.pl/blog-jekyll-github/)">blog.tomaszdunia.pl</a>!
+          Blog created based on the tutorial available at <a href="https://blog.tomaszdunia.pl/blog-jekyll-github/">blog.tomaszdunia.pl</a>!
         </p>
        
         <p>I also encourage you to subscribe to this blog via the <a href="/feed.xml">RSS feed</a>.</p>
@@ -235,6 +236,7 @@ Usually, a blog is not just posts. It is worth enriching it with additional page
     </div>
   </body>
 </html>
+{% endraw %}
 ```
 
 3. Save the file in this form in the repository using the green **Commit changes...** button located in the upper right corner and **Commit changes...** again in the window that pops up.
@@ -257,6 +259,7 @@ Every self-respecting blog should have a tool for searching for relevant phrases
 3. We will create this file in the main repository folder, name it `search.json`, and its content will be as follows:
 
 ```json
+{% raw %}
 ---
 layout: null
 ---
@@ -272,12 +275,14 @@ layout: null
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
+{% endraw %}
 ```
 
 2. Save the file in this form in the repository using the green **Commit changes...** button located in the upper right corner and **Commit changes...** again in the window that pops up.
 3. Now we also need to modify the main page file `index.md`, in which we will load the `unpkg.com/simple-jekyll-search` library, write the search engine script based on it, and place an interactive text field for entering the phrase. Here is the ready code:
 
 ```html
+{% raw %}
 ---
 layout: default
 title: Home # Enter the homepage title here
@@ -313,6 +318,7 @@ title: Home # Enter the homepage title here
     fuzzy: false
   })
 </script>
+{% endraw %}
 ```
 
 ## Markdown
@@ -346,8 +352,4 @@ Here are the absolute basics that I use when writing every post:
 
 ## Final Words
 
-That's just it, and that's all. In my opinion, technically a blog doesn't need anything else. When creating your site, especially the first one, we usually catch ourselves wanting to squeeze everything possible out of it - so it's "fancy". Both in terms of appearance and gadgets (e.g., widgets). In practice, these are not important things.
-
-However, we forget about what is most important, namely the content. It is precisely the content that is key and constitutes the true value of the blog. Therefore, the content should be "fancy", and everything around it should be as minimalist as possible, so as not to overshadow with its apparent brilliance what should naturally shine the brightest.
-
-Holy moly, look at me philosophizing... Coming back to Earth, I hope this tutorial is useful to someone, and if that person is you, be sure to show me your blog when you publish it!
+That's just it, and that's all. In my opinion, technically a blog doesn't need anything else. When creating your site, especially the first one, we usually catch ourselves wanting to squeeze everything possible out of it - so it's "fancy". Both in terms of appearance and gadgets (e.g., widgets). In practice, these are not important things. However, we forget about what is most important, namely the content. It is precisely the content that is key and constitutes the true value of the blog. Therefore, the content should be "fancy", and everything around it should be as minimalist as possible, so as not to overshadow with its apparent brilliance what should naturally shine the brightest. Holy moly, look at me philosophizing... Coming back to Earth, I hope this tutorial is useful to someone, and if that person is you, be sure to show me your blog when you publish it!

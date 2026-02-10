@@ -30,7 +30,7 @@ Niniejszy wpis łączy się częściowo z [postem dotyczącym migracji mojego bl
 
 1. Jeżeli jeszcze nie posiadasz konta na GitHub to [**załóż je**](https://github.com/signup) i **zaloguj się**.
 2. Przejdź na [stronę do **tworzenia nowego repozytorium**](https://github.com/new).
-3. W sekcji **General** w polu **Repository name** wpisz: ` <twój_login_github>.github.io `, gdzie *<twój_login_github>* to musi być faktycznie nazwa użytkownika Twojego konta na GitHub. W moim przypadku było to dokładnie ` to3k.github.io `. W polu **Description** wpisz jakiś krótki opis tego projektu, nie jest to zbytnio istotne, więc możesz wpisać coś w stylu ` Repozytorium mojego prywatnego bloga `.
+3. W sekcji **General** w polu **Repository name** wpisz: ` (twój_login_github).github.io `, gdzie *(twój_login_github)* to musi być faktycznie nazwa użytkownika Twojego konta na GitHub. W moim przypadku było to dokładnie ` to3k.github.io `. W polu **Description** wpisz jakiś krótki opis tego projektu, nie jest to zbytnio istotne, więc możesz wpisać coś w stylu ` Repozytorium mojego prywatnego bloga `.
 4. Sekcji **Configuration** wypełniamy następująco:
     - **Choose visibility** - *Public*
     - **Add README** - *ON* (zaznacz tę opcję)
@@ -52,6 +52,7 @@ Podstawową zaletą robienia tego z wykorzystaniem GitHub Pages jest to, że wsz
 6. Otworzy się kreator nowego pliku. W polu **Name your file...** wpisujemy ` _config.yml `. W treści pliku wklej:
 
 ```yaml
+{% raw %}
 # --- GŁÓWNE USTAWIENIA ---
 title: Tytuł bloga # Wpisz tutaj swój tytuł bloga
 description: Opis bloga # Wpisz tutaj swój opis bloga
@@ -82,12 +83,14 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+{% endraw %}
 ```
 
 7. Plik w takiej formie zapisujemy w repozytorium przy użyciu zielonego przycisku **Commit changes...** znajdującym się w prawym górnym rogu i ponownie **Commit changes...** w oknie, które wyskoczy. Dobrą praktyką na GitHub jest przy każdym Commit wpisywać w pole **Commit message** krótki opis tego co zrobiliśmy, co później będzie widoczne w historii zmian. Wystarczy wpisać nawet ` Utworzenie pliku _config.yml `.
 8. Teraz pora na plik strony głównej. Nasz blog będzie utrzymany w duchu minimalizmu, więc na ten moment będzie się składał tylko z wytłuszczonego tytułu i spisu treści, w którym wylistujemy wszystkie posty.
 
 ```html
+{% raw %}
 ---
 layout: default
 title: Strona główna # Wpis tutaj tytuł strony głównej
@@ -105,12 +108,14 @@ title: Strona główna # Wpis tutaj tytuł strony głównej
     {% endfor %}
   </ul>
 </div>
+{% endraw %}
 ```
 
 9. Pora stworzyć pierwszy, testowy wpis. Zgodnie z dokumentacją Jekyll wszystkie pliki, które mają zostać zakwalifikowane jako wpisy i być jako takie wyświetlone na blogu, muszą zostać umieszczone w folderze ` _posts `. Zatem musimy stworzyć taki folder, a na GitHub robi się to po prostu poprzez utworzenie w nim pierwszego pliku. W tym celu znowu korzystamy z przycisku **Add file** i **Create new file**.
-10. Otworzy się kreator nowego pliku. W polu Name your file... wpisujemy wpisujemy ` _posts/ `, co spowoduje, że automatycznie zmieni nam się ścieżka, w której utworzymy plik. Dalej wpisujemy już normalnie nazwę posta ` 2026-02-10-hello-world.md `. Tutaj bardzo istotne, aby zrozumieć składnię. Nazwa posta musi zaczynać się od daty w formacie RRRR-MM-DD (rok-miesiąc-dzień), bo w ten sposób Jekyll sortuje wpisy od najnowszych do najstarszych, plus podana w ten sposób data jest wyświetlana wewnątrz posta jako informacja dla odwiedzającego. Po dacie jest myślnik i identyfikator wpisu. Niektórzy błędnie piszą, że musi to być tytuł. Nie o to w tym chodzi. W naszym przypadku identyfikatorem będzie fraza ` hello-world ` co oznacza, że link do wpisu będzie wyglądał tak ` https://<twój_login_github>.github.io/hello-world/ `. Na końcu nazwy pliku musi się oczywiście znaleźć jeszcze rozszerzenie ` .md `. Natomiast w treści pliku wklejamy:
+10. Otworzy się kreator nowego pliku. W polu Name your file... wpisujemy wpisujemy ` _posts/ `, co spowoduje, że automatycznie zmieni nam się ścieżka, w której utworzymy plik. Dalej wpisujemy już normalnie nazwę posta ` 2026-02-10-hello-world.md `. Tutaj bardzo istotne, aby zrozumieć składnię. Nazwa posta musi zaczynać się od daty w formacie RRRR-MM-DD (rok-miesiąc-dzień), bo w ten sposób Jekyll sortuje wpisy od najnowszych do najstarszych, plus podana w ten sposób data jest wyświetlana wewnątrz posta jako informacja dla odwiedzającego. Po dacie jest myślnik i identyfikator wpisu. Niektórzy błędnie piszą, że musi to być tytuł. Nie o to w tym chodzi. W naszym przypadku identyfikatorem będzie fraza ` hello-world ` co oznacza, że link do wpisu będzie wyglądał tak ` https://(twój_login_github).github.io/hello-world/ `. Na końcu nazwy pliku musi się oczywiście znaleźć jeszcze rozszerzenie ` .md `. Natomiast w treści pliku wklejamy:
 
 ```yaml
+{% raw %}
 --- 
 layout: post
 title: "Hello World!"
@@ -125,10 +130,11 @@ image: "/images/COVERIMAGE.png" # Odnośnik do grafiki wiodącej wpisu, jeżeli 
 ---
 
 To jest mój pierwszy wpis na nowym blogu z silnikiem Jekyll odpalonym na GitHub Pages.
+{% endraw %}
 ```
 
 11. Plik w takiej formie zapisujemy w repozytorium przy użyciu zielonego przycisku **Commit changes...** znajdującym się w prawym górnym roku i ponownie **Commit changes...** w oknie, które wyskoczy.
-12. To wystarczające minimum, aby uruchomić podstawowy blog. Teraz trzeba dać GitHub parę minut na zbudowanie strony (można to śledzić w zakładce **Actions** naszego repozytorium). Gdy wszystko będzie już gotowe to możemy przejść na stronę pod adresem ` https://<twój_login_github>.github.io ` i obejrzeć rezultat powyższych prac.
+12. To wystarczające minimum, aby uruchomić podstawowy blog. Teraz trzeba dać GitHub parę minut na zbudowanie strony (można to śledzić w zakładce **Actions** naszego repozytorium). Gdy wszystko będzie już gotowe to możemy przejść na stronę pod adresem ` https://(twój_login_github).github.io ` i obejrzeć rezultat powyższych prac.
 
 ## Własna domena
 
@@ -150,7 +156,7 @@ Musisz ustawić następujące rekordy:
 - **A** - etykieta *pusta* -> wartość *185.199.109.153*
 - **A** - etykieta *pusta* -> wartość *185.199.110.153*
 - **A** - etykieta *pusta* -> wartość *185.199.111.153*
-- **CNAME** - etykieta *www* -> wartość *<twój_login_github>.github.io*
+- **CNAME** - etykieta *www* -> wartość *(twój_login_github).github.io*
 
 *Uwaga: pamiętaj, że jeżeli były tam wcześniej jakieś rekordy to musisz je wyczyścić.*
 
@@ -158,9 +164,9 @@ Musisz ustawić następujące rekordy:
 
 Jeżeli domena wyższego poziomu należy do Ciebie (` tomaszdunia.pl `) to wchodzisz w ustawienia jej rekordów DNS i ustawiawsz:
 
-- **CNAME** - etykieta *blog* (tutaj wpisujesz ten pierwszy człon subdomeny) -> wartość *<twój_login_github>.github.io*
+- **CNAME** - etykieta *blog* (tutaj wpisujesz ten pierwszy człon subdomeny) -> wartość *(twój_login_github).github.io*
 Natomiast jeżeli masz możliwość zarządzania tylko subdomeną (bo domena nadrzędna jest na przykład zarządzana przez inny podmiot) to wszystko realizujesz z poziomu jej ustawień rekordów DNS i ustawiasz:
-- **CNAME** - etykieta *pusta* -> wartość *<twój_login_github>.github.io*
+- **CNAME** - etykieta *pusta* -> wartość *(twój_login_github).github.io*
 
 *Uwaga: pamiętaj, że jeżeli były tam wcześniej jakieś rekordy to musisz je wyczyścić.*
 
@@ -178,6 +184,7 @@ Przeważnie blog to nie tylko wpisy. Warto wzbogacić go o dodatkowe strony jak 
 2. Oszczędzę Ci całego zachodu i poniżej przygotuję gotową zawartość pliku, który musisz utworzyć w folderze ` _layouts/ ` swojego repozytorium pod nazwą ` default.html `:
 
 ```html
+{% raw %}
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "pl" }}">
   {% include head.html %}
@@ -215,6 +222,7 @@ Przeważnie blog to nie tylko wpisy. Warto wzbogacić go o dodatkowe strony jak 
     </div>
   </body>
 </html>
+{% endraw %}
 ```
 
 3. Plik w takiej formie zapisujemy w repozytorium przy użyciu zielonego przycisku **Commit changes...** znajdującym się w prawym górnym roku i ponownie **Commit changes...** w oknie, które wyskoczy.
@@ -232,6 +240,7 @@ Każdy szanujący się blog powinien mieć narzędzie do wyszukiwania odpowiedni
 1. Głównym problemem do rozwiązania jest to, że w tym wpisie omawiamy statyczną stronę, która nie ma bazy danych SQL, którą można by przeszukać. Dlatego na potrzeby naszej wyszukiwarki musimy stworzyć plik, który będzie dynamicznie wypełniał się listą wszystkich wpisów wraz z ich zawartością. To będzie taka jakby baza danych, w której będziemy szukać odpowiednich rekordów, które będą pasować do naszego zapytania. Plik ten utworzymy w głównym folderze repozytorium, damy mu nazwę ` search.json `, a jego treść będzie następująca:
 
 ```json
+{% raw %}
 ---
 layout: null
 ---
@@ -247,12 +256,14 @@ layout: null
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
+{% endraw %}
 ```
 
 2. Plik w takiej formie zapisujemy w repozytorium przy użyciu zielonego przycisku **Commit changes...** znajdującym się w prawym górnym roku i ponownie **Commit changes...** w oknie, które wyskoczy.
 3. Teraz musimy jeszcze zmodyfikować plik strony głównej ` index.md `, w którym wczytamy bibliotekę ` unpkg.com/simple-jekyll-search `, napiszemy skrypt wyszukiwarki w oparciu o nią i umieścimy interaktywne pole tekstowe do wpisywania frazy. Oto gotowy kod:
 
 ```html
+{% raw %}
 ---
 layout: default
 title: Strona główna # Wpis tutaj tytuł strony głównej
@@ -288,6 +299,7 @@ title: Strona główna # Wpis tutaj tytuł strony głównej
     fuzzy: false
   })
 </script>
+{% endraw %}
 ```
 
 ## Markdown
