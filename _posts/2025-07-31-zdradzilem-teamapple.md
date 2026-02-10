@@ -1,6 +1,5 @@
 ---
 title: "Zdradziłem #TeamApple na rzecz złamasa"
-date: 2025-07-31
 categories: 
   - "przemyslenia"
 tags: 
