@@ -28,7 +28,7 @@ title: Tomasz Dunia - Blog
     resultsContainer: document.getElementById('results-container'),
     json: '/search.json',
     searchResultTemplate: '<li style="margin-bottom: 8px;"><span style="color: #666; font-family: monospace; margin-right: 10px;">{date}</span> &raquo; <a href="{url}" style="font-weight: bold;">{title}</a></li>',
-    noResultsText: 'Nie znaleziono wpisów.',
+    noResultsText: 'Nie znaleziono pasujących wpisów.',
     limit: 500,
     fuzzy: false
   })
