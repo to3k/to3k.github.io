@@ -30,7 +30,7 @@ Niniejszy wpis łączy się częściowo z [postem dotyczącym migracji mojego bl
 
 1. Jeżeli jeszcze nie posiadasz konta na GitHub to [**załóż je**](https://github.com/signup) i **zaloguj się**.
 2. Przejdź na [stronę do **tworzenia nowego repozytorium**](https://github.com/new).
-3. W sekcji **General** w polu **Repository name** wpisz: ` (twój_login_github).github.io `, gdzie *(twój_login_github)* to musi być faktycznie nazwa użytkownika Twojego konta na GitHub. W moim przypadku było to dokładnie ` to3k.github.io `. W polu **Description** wpisz jakiś krótki opis tego projektu, nie jest to zbytnio istotne, więc możesz wpisać coś w stylu ` Repozytorium mojego prywatnego bloga `.
+3. W sekcji **General** w polu **Repository name** wpisz: `(twój_login_github).github.io`, gdzie *(twój_login_github)* to musi być faktycznie nazwa użytkownika Twojego konta na GitHub. W moim przypadku było to dokładnie ` to3k.github.io `. W polu **Description** wpisz jakiś krótki opis tego projektu, nie jest to zbytnio istotne, więc możesz wpisać coś w stylu ` Repozytorium mojego prywatnego bloga `.
 4. Sekcji **Configuration** wypełniamy następująco:
     - **Choose visibility** - *Public*
     - **Add README** - *ON* (zaznacz tę opcję)
