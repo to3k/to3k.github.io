@@ -1,47 +1,30 @@
 ---
 layout: post
 title: "Jekyll - genialny silnik dla bloga"
-published: false
-categories: 
-  - "projects"
-  - "self-hosting-eng"
-  - "tutorials"
-
+published: true
+categories:
   - "poradniki"
   - "projekty"
   - "self-hosting"
 tags: 
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
+  - "jekyll"
+  - "github"
+  - "blog"
+  - "html"
+  - "json"
+  - "markdown"
+  - "dns"
+  - "javascript"
 image: "/images/jekyll.png"
 ---
 
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/TYTUŁ-eng/)
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/TYTUŁ/)
+[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/blog-jekyll-github-eng/)
 
-Spis treści / Table of contents:
+Spis treści:
 * TOC
 {:toc}
 
-Niniejszy wpis łączy się częściowo z [postem dotyczącym migracji mojego bloga z Wordpress na silnik Jekyll i infrastrukturę GitHub Pages](https://blog.tomaszdunia.pl/migracja-bloga/). Opisałem w nim dlaczego to zrobiłem, a teraz przyszła pora na pochyleniem się nad tym **jak to zrobiłem**. Tak jak już pisałem wcześniej, jest to bardzo proste i wierzę, że naprawdę każdy sobie z tym poradzi, bez względu na poziom zaawansowania technicznego. Na aktualny stan mojej wiedzy nie znam łatwiejszego sposobu na uruchomienie swojego osobistego bloga i to w dodatku całkowicie za darmo. Dlatego jeżeli nosisz się z myślą o utworzeniu swojego skromnego kącika w Internecie to zapinaj pasy, bo zabieram Cię w krótką podróż po świecie **GitHub Pages**, **Jekyll**, **Markdown** i **statycznych stron HTML**.
+Niniejszy wpis łączy się częściowo z [postem dotyczącym migracji mojego bloga z Wordpress na silnik Jekyll i infrastrukturę GitHub Pages](https://blog.tomaszdunia.pl/migracja-bloga/). Opisałem w nim dlaczego to zrobiłem, a teraz przyszła pora na pochylenie się nad tym **jak to zrobiłem**. Tak jak już pisałem wcześniej, jest to bardzo proste i wierzę, że naprawdę każdy sobie z tym poradzi, bez względu na poziom zaawansowania technicznego. Na aktualny stan mojej wiedzy nie znam łatwiejszego sposobu na uruchomienie swojego osobistego bloga i to w dodatku całkowicie za darmo. Dlatego jeżeli nosisz się z myślą o utworzeniu swojego skromnego kącika w Internecie to zapinaj pasy, bo zabieram Cię w krótką podróż po świecie **GitHub Pages**, **Jekyll**, **Markdown** i **statycznych stron HTML**.
 
 ## Przygotowanie środowiska GitHub
 1. Jeżeli jeszcze nie posiadasz konta na GitHub to [**załóż je**](https://github.com/signup) i **zaloguj się**.
@@ -96,7 +79,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 ``` 
-7. Plik w takiej formie zapisujemy w repozytorium przy użyciu zielonego przycisku **Commit changes...** znajdującym się w prawym górnym roku i ponownie **Commit changes...** w oknie, które wyskoczy. Dobrą praktyką na GitHub jest przy każdym Commit wpisywać w pole **Commit message** krótki opis tego co zrobiliśmy, co później będzie widoczne w historii zmian. Wystarczy wpisać nawet ` Utworzenie pliku _config.yml `.
+7. Plik w takiej formie zapisujemy w repozytorium przy użyciu zielonego przycisku **Commit changes...** znajdującym się w prawym górnym rogu i ponownie **Commit changes...** w oknie, które wyskoczy. Dobrą praktyką na GitHub jest przy każdym Commit wpisywać w pole **Commit message** krótki opis tego co zrobiliśmy, co później będzie widoczne w historii zmian. Wystarczy wpisać nawet ` Utworzenie pliku _config.yml `.
 8. Teraz pora na plik strony głównej. Nasz blog będzie utrzymany w duchu minimalizmu, więc na ten moment będzie się składał tylko z wytłuszczonego tytułu i spisu treści, w którym wylistujemy wszystkie posty. 
 ```html
 ---
@@ -139,12 +122,12 @@ To jest mój pierwszy wpis na nowym blogu z silnikiem Jekyll odpalonym na GitHub
 12. To wystarczające minimum, aby uruchomić podstawowy blog. Teraz trzeba dać GitHub parę minut na zbudowanie strony (można to śledzić w zakładce **Actions** naszego repozytorium). Gdy wszystko będzie już gotowe to możemy przejść na stronę pod adresem ` https://<twój_login_github>.github.io ` i obejrzeć rezultat powyższych prac.
 
 ## Własna domena
-Oczywiście jest możliwość podpięcia bloga pod własną domenę np. ` blog.tomaszdunia.pl `. W tym przypadku jes to raczej subdomena domeny ` tomaszdunia.pl `, ale nie ma to większego znaczenia, bo jest to możliwe zarówno dla domeny najwyższego poziomu jak i subdomen.
+Oczywiście jest możliwość podpięcia bloga pod własną domenę np. ` blog.tomaszdunia.pl `. W tym przypadku jest to raczej subdomena domeny ` tomaszdunia.pl `, ale nie ma to większego znaczenia, bo jest to możliwe zarówno dla domeny najwyższego poziomu jak i subdomen.
 
 ### Ustawienia po stronie GitHub
 1. Wracamy do repozytorium i z paska menu w górnej części strony wybieramy **Settings**.
 2. Po lewej sekcja **Code and automation** i następnie zakładka **Pages**.
-3. Znajdujemy sekcję **Custom domain** i w pole tekstowe wpisumeny domenę, którą chcemy podpiąć po bloga i potwierdzamy przyciskiem **Save**.
+3. Znajdujemy sekcję **Custom domain** i w pole tekstowe wpisujemy domenę, którą chcemy podpiąć pod bloga i potwierdzamy przyciskiem **Save**.
 4. Poniżej powinno się pojawić ` DNS Check in Progress `, co oznacza, że GitHub czeka już na konfigurację od strony dostawcy domeny.
 5. Dodatkowo GitHub utworzy nam w repozytorium plik ` CNAME `, nie wyrzucajmy go, tak ma być.
 6. Po stronie GitHub to na razie tyle, teraz musimy przejść na stronę dostawcy domeny i zalogować się do panelu do administrowania rekordami DNS domen.
@@ -168,7 +151,7 @@ Natomiast jeżeli masz możliwość zarządzania tylko subdomeną (bo domena nad
 *Uwaga: pamiętaj, że jeżeli były tam wcześniej jakieś rekordy to musisz je wyczyścić.*
 
 ### Wracamy do ustawień GitHub
-Teraz pozostaje tylko czekać aż DNSy rozprzestrzenią się po sieci. Czasem może to być chwila, a w innym przypadku nawet 24 godziny... O zakończeniu całego procesu będziemy pewni, gdy po wejściu w **Settings** -> sekcja **Code and automation** -> Zakładka **Pages** -> w sekcji **Custom domain** zobaczymy zielony napis ` DNS check successful `. W tym momencie musimy przejść jeszcze odrobinę niżej wy zaznaczyć opcję **Enforce HTTPS** co spowoduje wygenerowanie certyfikatu SSL dla naszej strony. Zarządza tym GitHub, więc absolutnie nie musimy się tym przejmować.
+Teraz pozostaje tylko czekać aż DNSy rozprzestrzenią się po sieci. Czasem może to być chwila, a w innym przypadku nawet 24 godziny... O zakończeniu całego procesu będziemy pewni, gdy po wejściu w **Settings** -> sekcja **Code and automation** -> Zakładka **Pages** -> w sekcji **Custom domain** zobaczymy zielony napis ` DNS check successful `. W tym momencie musimy przejść jeszcze odrobinę niżej by zaznaczyć opcję **Enforce HTTPS** co spowoduje wygenerowanie certyfikatu SSL dla naszej strony. Zarządza tym GitHub, więc absolutnie nie musimy się tym przejmować.
 
 Teraz można już wpisać w pasek adresu przeglądarki podpiętą domenę i cieszyć się blogiem widniejącym pod nowym adresem.
 
@@ -218,7 +201,7 @@ Przeważnie blog to nie tylko wpisy. Warto wzbogacić go o dodatkowe strony jak 
 ```
 3. Plik w takiej formie zapisujemy w repozytorium przy użyciu zielonego przycisku **Commit changes...** znajdującym się w prawym górnym roku i ponownie **Commit changes...** w oknie, które wyskoczy.
 4. Jako bonus w powyższym pliku umieściłem stopkę, w której zawarłem informację o licencji, o tym że blog powstał w oparciu o ten poradnik (możesz śmiało usunąć tą informację lub ją zostawić, będzie mi bardzo miło) oraz dodałem odnośnik do kanału RSS, żeby Twoim przyszłym czytelnikom było łatwiej wrzucić go do swojego ulubionego czytnika.
-5. Wracając do temat menu, utworzyłem je tak, aby składało się z odnośników do trzech podstron - ` /about `, ` /donate ` i ` /rodo `. Na tym etapie linki prowadzą donikąd, a więc skorzystanie z nich zakończy się wyświetleniem błędu 404. Aby temu zapobiec musisz stworzyć te trzy podstrony w głównym folderze repozytorium, ale to już Twoje zadanie domowe. Ja jedynie mogę pokazać Ci kod moich podstron, aby dać materiał, na którym można się wzorować:
+5. Wracając do tematu menu, utworzyłem je tak, aby składało się z odnośników do trzech podstron - ` /about `, ` /donate ` i ` /rodo `. Na tym etapie linki prowadzą donikąd, a więc skorzystanie z nich zakończy się wyświetleniem błędu 404. Aby temu zapobiec musisz stworzyć te trzy podstrony w głównym folderze repozytorium, ale to już Twoje zadanie domowe. Ja jedynie mogę pokazać Ci kod moich podstron, aby dać materiał, na którym można się wzorować:
     - moje **about.md** - [strona na blogu](https://blog.tomaszdunia.pl/about/) a tutaj [kod źródłowy](https://raw.githubusercontent.com/to3k/to3k.github.io/refs/heads/main/about.md)
     - moje **donate.md** - [strona na blogu](https://blog.tomaszdunia.pl/donate/) a tutaj [kod źródłowy](https://raw.githubusercontent.com/to3k/to3k.github.io/refs/heads/main/donate.md)
     - moje **rodo.md** - [strona na blogu](https://blog.tomaszdunia.pl/rodo/) a tutaj [kod źródłowy](https://raw.githubusercontent.com/to3k/to3k.github.io/refs/heads/main/rodo.md)
@@ -226,7 +209,7 @@ Przeważnie blog to nie tylko wpisy. Warto wzbogacić go o dodatkowe strony jak 
 ## Wyszukiwarka
 Każdy szanujący się blog powinien mieć narzędzie do wyszukiwania odpowiednich fraz w tytułach, treści i tagach jego wpisów. My jesteśmy szanującymi się autorami, więc oczywiście udostępnimy takie narzędzie swoim czytelnikom.
 
-1. Głównym problemem do rozwiązania jest to, że w tym wpisie omawiamy statyczną stronę, która nie ma bazy danych SQL, którą możnaby przeszukać. Dlatego na potrzeby naszej wyszukiwarki musimy stworzyć plik, który będzie dynamicznie wypełniał się listą wszystkich wpisów wraz z ich zawartością. To będzie taka jakby baza danych, w której będziemy szukać odpowiednich rekordów, które będą pasować do naszego zapytania. Plik ten utworzymy w głównym folderze repozytorium, damy mu nazwę ` search.json `, a jego treść będzie następująca:
+1. Głównym problemem do rozwiązania jest to, że w tym wpisie omawiamy statyczną stronę, która nie ma bazy danych SQL, którą można by przeszukać. Dlatego na potrzeby naszej wyszukiwarki musimy stworzyć plik, który będzie dynamicznie wypełniał się listą wszystkich wpisów wraz z ich zawartością. To będzie taka jakby baza danych, w której będziemy szukać odpowiednich rekordów, które będą pasować do naszego zapytania. Plik ten utworzymy w głównym folderze repozytorium, damy mu nazwę ` search.json `, a jego treść będzie następująca:
 ```json
 ---
 layout: null
