@@ -241,16 +241,19 @@ Każdy szanujący się blog powinien mieć narzędzie do wyszukiwania odpowiedni
 
 ```json
 {% raw %}
+---
+layout: null
+---
 [
   {% for post in site.posts %}
     {
-      "title"    : {{ post.title | jsonify }},
-      "category" : {{ post.category | jsonify }},
-      "tags"     : {{ post.tags | join: ', ' | jsonify }},
-      "url"      : {{ post.url | relative_url | jsonify }},
-      "date"     : {{ post.date | date: "%d-%m-%Y" | jsonify }},
-      "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date | date: "%d-%m-%Y" }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines | jsonify }}"
+    } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
 {% endraw %}
