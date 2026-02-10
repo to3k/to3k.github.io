@@ -239,7 +239,7 @@ Każdy szanujący się blog powinien mieć narzędzie do wyszukiwania odpowiedni
 
 1. Głównym problemem do rozwiązania jest to, że w tym wpisie omawiamy statyczną stronę, która nie ma bazy danych SQL, którą można by przeszukać. Dlatego na potrzeby naszej wyszukiwarki musimy stworzyć plik, który będzie dynamicznie wypełniał się listą wszystkich wpisów wraz z ich zawartością. To będzie taka jakby baza danych, w której będziemy szukać odpowiednich rekordów, które będą pasować do naszego zapytania. Plik ten utworzymy w głównym folderze repozytorium, damy mu nazwę `search.json`, a jego treść będzie następująca:
 
-```json
+```
 {% raw %}
 ---
 layout: null
