@@ -258,7 +258,7 @@ Every self-respecting blog should have a tool for searching for relevant phrases
 2. Therefore, for the needs of our search engine, we must create a file that will dynamically fill with a list of all posts along with their content. This will be like a database in which we will look for relevant records that match our query.
 3. We will create this file in the main repository folder, name it `search.json`, and its content will be as follows:
 
-```json
+```
 {% raw %}
 ---
 layout: null
