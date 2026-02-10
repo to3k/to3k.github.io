@@ -241,9 +241,6 @@ Każdy szanujący się blog powinien mieć narzędzie do wyszukiwania odpowiedni
 
 ```json
 {% raw %}
----
-layout: null
----
 [
   {% for post in site.posts %}
     {
