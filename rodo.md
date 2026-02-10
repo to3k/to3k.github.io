@@ -5,13 +5,13 @@ permalink: /rodo/
 ---
 <p align="center">
 🇵🇱 To jak tworzyłem tą politykę prywatności opisałem szczegółowo w tym wpisie:<br>
-<a href="https://oldblog.tomaszdunia.pl/rodo-gdpr/">Napiszmy przyjazną politykę prywatności</a><br>
+<a href="https://blog.tomaszdunia.pl/rodo-gdpr/">Napiszmy przyjazną politykę prywatności</a><br>
 <i>UWAGA: Ten post jest już nieco nieaktualny ze względu na to, że w międzyczasie przeniosłem mój blog na inny silnik (Jekyll), niemniej jednak prawidła tam zawarte zostają w mocy.</i>
 </p>
 
 <p align="center">
 🇬🇧 How I created this privacy policy is described in detail in this post:<br>
-<a href="https://oldblog.tomaszdunia.pl/rodo-gdpr-eng/">Let’s write a friendly privacy policy</a><br>
+<a href="https://blog.tomaszdunia.pl/rodo-gdpr-eng/">Let’s write a friendly privacy policy</a><br>
 <i>NOTE: This post is now slightly outdated due to the fact that I have moved my blog to a different engine (Jekyll), but the rules contained there remain valid.</i>
 </p>
 
