@@ -30,7 +30,7 @@ permalink: /rodo/
 ## KTO *(jest administratorem danych osobowych?)*
 Administratorem jest **Tomasz Dunia**, osoba fizyczna nieprowadząca działalności gospodarczej, zamieszkała w **Lublinie (Polska)**.
 
-Kontakt z administratorem jest możliwy za pośrednictwem poczty elektronicznej: **blog[at]tomaszdunia.pl**.
+Kontakt z administratorem jest możliwy za pośrednictwem poczty elektronicznej: **blog [m.a.ł.p.a] tomaszdunia.pl**.
 
 ## CO *(za dane są przetwarzane?)*
 Administrator przetwarza dane osobowe w postaci:
@@ -81,7 +81,7 @@ Jeżeli użytkownik uzna, że są ku temu podstawy, może [złożyć skargę do 
 ## WHO *(is the administrator of personal data?)*
 The administrator is **Tomasz Dunia**, a natural person not conducting business activity, residing in **Lublin (Poland)**.
 
-Contact with the administrator is possible via e-mail: **blog[at]tomaszdunia.pl**.
+Contact with the administrator is possible via e-mail: **blog [a.t] tomaszdunia.pl**.
 
 ## WHAT *(data is processed?)*
 The administrator processes personal data in the form of:
