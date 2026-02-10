@@ -30,7 +30,7 @@ This post is partially connected to my [post regarding the migration of my blog 
 
 1. If you don't have a GitHub account yet, [**sign up**](https://github.com/signup) and **log in**.
 2. Go to the [**Create a new repository** page](https://github.com/new).
-3. In the **General** section, in the **Repository name** field, enter: `<your_github_login>.github.io`, where *<your_github_login>* must be your actual GitHub username. In my case, it was exactly `to3k.github.io`. In the **Description** field, enter a short description of the project. It's not very important, so you can write something like `Repository for my private blog`.
+3. In the **General** section, in the **Repository name** field, enter: `(your_github_login).github.io`, where *(your_github_login)* must be your actual GitHub username. In my case, it was exactly `to3k.github.io`. In the **Description** field, enter a short description of the project. It's not very important, so you can write something like `Repository for my private blog`.
 4. Fill in the **Configuration** section as follows:
     - **Choose visibility** - *Public*
     - **Add README** - *ON* (check this option)
@@ -117,7 +117,7 @@ title: Home # Enter the homepage title here
 
 It is very important here to understand the syntax:
 * The post name must start with the date in the YYYY-MM-DD (year-month-day) format because this is how Jekyll sorts posts from newest to oldest, plus the date provided this way is displayed inside the post as information for the visitor.
-* After the date, there is a hyphen and the post identifier. Some people mistakenly write that it must be the title. That's not the point. In our case, the identifier will be the phrase `hello-world`, which means the link to the post will look like this: `https://<your_github_login>.github.io/hello-world/`.
+* After the date, there is a hyphen and the post identifier. Some people mistakenly write that it must be the title. That's not the point. In our case, the identifier will be the phrase `hello-world`, which means the link to the post will look like this: `https://(your_github_login).github.io/hello-world/`.
 * At the end of the file name, there must of course be the `.md` extension.
 
 In the file content, paste:
@@ -144,7 +144,7 @@ This is my first post on the new blog with the Jekyll engine running on GitHub P
 11. Save the file in the repository using the green **Commit changes...** button located in the upper right corner and **Commit changes...** again in the window that pops up.
 12. This is the sufficient minimum to launch a basic blog. Now you need to give GitHub a few minutes to build the site (you can track this in the **Actions** tab of our repository).
 
-When everything is ready, we can go to the page at `https://<your_github_login>.github.io` and view the result of the above work.
+When everything is ready, we can go to the page at `https://(your_github_login).github.io` and view the result of the above work.
 
 ## Custom domain
 
@@ -166,17 +166,17 @@ You must set the following records:
 - **A** - label *empty* -> value *185.199.109.153*
 - **A** - label *empty* -> value *185.199.110.153*
 - **A** - label *empty* -> value *185.199.111.153*
-- **CNAME** - label *www* -> value *<your_github_login>.github.io*
+- **CNAME** - label *www* -> value *(your_github_login).github.io*
 
 *Note: remember that if there were any records there before, you must clear them.*
 
 ### Settings for a subdomain (e.g., blog.tomaszdunia.pl)
 
 If the higher-level domain belongs to you (`tomaszdunia.pl`), go to its DNS record settings and set:
-- **CNAME** - label *blog* (enter the first part of the subdomain here) -> value *<your_github_login>.github.io*
+- **CNAME** - label *blog* (enter the first part of the subdomain here) -> value *(your_github_login).github.io*
 
 However, if you only have the ability to manage the subdomain (because the parent domain is, for example, managed by another entity), you do everything from the level of its DNS record settings and set:
-- **CNAME** - label *empty* -> value *<your_github_login>.github.io*
+- **CNAME** - label *empty* -> value *(your_github_login).github.io*
 
 *Note: remember that if there were any records there before, you must clear them.*
 
