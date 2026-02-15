@@ -115,7 +115,7 @@ Z perspektywy czasu dalej uważam to za dobry wybór i na pewno **polecam taką 
 5. Przechodzimy do sekcji [Unlocking the bootloader](https://grapheneos.org/install/web#unlocking-the-bootloader) i naciskamy przycisk **Unlock bootloader**.
 6. W przeglądarce wyskoczy okienko z listą urządzeń do wyboru. Powinna na nim być w zasadzie tylko jedna opcja i to właśnie powinien być nasz Pixel. **Wybieramy go i naciskamy przycisk Połącz** (Connect).
 7. Zajdą zmiany na wyświetlaczu telefonu. Pojawi się tam komunikat i prośba o potwierdzenie tego, że chcemy faktycznie odblokować bootloader. W tym celu musimy nacisnąć któryś przycisk głośności, tak aby zamiast **Do not unlock the bootlader** pojawiło się **Unlock the bootlader**. W tym momencie możemy potwierdzić poprzez naciśnięcie przycisku zasilania (power).
-8. Jeżeli wszystko się udało to pośród danych wyświetlonych w Fastboot Mode powinniśmy widzieć **Device state: unlocked**.
+8. Jeżeli wszystko się udało to pośród danych wyświetlonych w Fastboot Mode powinniśmy widzieć **Device state: unlocked** (na czerwono).
 
 ### Pobieranie i wgrywanie obrazu systemu
 
@@ -145,6 +145,23 @@ Jednakże przed ponownym zabezpieczeniem bootloadera zalecam sprawdzić czy syst
     - przycisk **Start** i jesteśmy na pulpicie.
 4. Jeżeli wszystko działa prawidłowo to teraz śmiało możesz wyłączyć telefon i włączyć go trzymając przycisk zasilania (power) i zmniejszania głośności (volume down), tak jak to robiliśmy wcześniej.
 5. Lądujemy znow w Fastboot Mode. Zakładam, że telefon był cały czas podłączony do komputera (jeżeli nie to podłącz go ponownie). Wracamy do przeglądarki na komputerze. Odnajdujemy sekcję [Locking the bootloader](https://grapheneos.org/install/web#locking-the-bootloader) i naciskamy przycisk **Lock bootloader**.
+6. Znowu jest wymagane potwierdzenie tej operacji na telefonie. Wygląda to analogicznie jak przy odblokowywaniu z tym, że tym razem używając przycisków głośności musimy sprawić, aby aktywna była opcja **Lock the bootloader** i potwierdzić to przyciskiem zasilania (power).
+7. Efektem powinna być zmiana **Device state** na **locked** (na zielono).
+
+### Przywrócenie blokady OEM
+
+Ostatnim krokiem przed tym jak zaczniemy się bawić nowym systemem jest ponowne nałożenie blokady OEM.
+
+1. Tak jak przy zdejmowaniu blokady przechodzimy do Ustawienia -> Informacje o telefonie -> znajdujemy pole Numer kompilacji i klikamy na to 7 razy aż zobaczymy komunikat **Jesteś teraz programistą**. W międzyczasie telefon poprosi o podanie PINu, który ustawiliśmy podczas konfigurowania telefonu.
+2. Cofamy się i teraz wchodzimy do Ustawienia -> System -> Opcje programistyczne -> wyłączamy opcję **Zdjęcie blokady OEM**. Telefon poprosi nas o restart w celu zmiany tego ustawienia, ale na ten moment anulujemy to żądanie, bo chcemy jeszcze wyłączyć całkowicie Opcje programisty, co robi się odznaczając ptaszek przy pierwszej opcji na samej górze **Używaj opcji programisty**.
+3. Teraz możemy już zrestartować urządzenie.
+
+## Moja wizja używania GrapheneOS
+
+Teraz tak naprawdę zaczyna się prawdziwa zabawa. Ile osób tyle usłysz opinii na temat tego co powinno się robić, a czego nie w temacie hardeningu GrapheneOS. Jedni są bardzo konserwatywni, a inni podchodzą do tematu nieco bardziej liberalnie. Mi wydaje się, że nie ma jednej słusznej drogi i każdy powinien liznąć temat, poszperać, posprawdzać i zdecydować co mu odpowiada. Szybko przekonasz się, że GrapheneOS to tak naprawdę jeden wielki kompromis pomiędzy wygodą, a prywatnością. Ta sama zasada dotyczy wszystkiego co przynależy do świata cyfrowego.
+
+Nie zamierzam tym wpisem promować jakiejś najmojszej metody używania GrapheneOS. Przedstawię jedynie jak ja używam tego systemu. W ten sposób może uda mi się komuś podpowiedzieć jakiś ciekawy trick jakiego nie znał, a z drugiej strony może trafi się jakiś ekspert, który po przeczytaniu moich wypocin podpowie mi coś ciekawego lub wskaże mi co robię źle / mógłbym robić lepiej.
+
 
 
 
@@ -159,38 +176,3 @@ Jednakże przed ponownym zabezpieczeniem bootloadera zalecam sprawdzić czy syst
 ## Wsparcie projektu
 
 Na koniec chciałbym zachęcić do wsparcia projektu GrapheneOS. Deweloperzy stojący za nim wykonują naprawdę dobrą robotę i w mojej ocenie zasługują na rzucenie w nich odrobiną pieniędzy. Informację gdzie i jak można to zrobić znajdują się [tutaj](https://grapheneos.org/donate).
-
-
-
-
-
-
-PODTYTUŁ:
-## PODTYTUŁ
-
-LINKI:
-[TEKST](LINK)
-
-POGRUBIENIE:
-**GRUBE**
-
-KURSYWA:
-_POCHYLONE_
-
-OBRAZ:
-![](/images/OBRAZ.png)
-
-KOD:
-```JĘZYK
-{% raw %}
-TREŚĆ
-{% endraw %}
-```
-
-LISTA:
-- punkt1
-- punkt2
-- punkt3
-1. numer1
-2. numer2
-3. numer3
