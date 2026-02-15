@@ -106,8 +106,6 @@ Z perspektywy czasu dalej uważam to za dobry wybór i na pewno polecam taką ś
 4. Następnie przechodzimy do Ustawienia -> Informacje o telefonie -> znajdujemy pole Numer kompilacji i klikamy na to 7 razy aż zobaczymy komunikat "Jesteś teraz programistą". W międzyczasie telefon poprosi o podanie PINu, który ustawiliśmy podczas konfigurowania telefonu.
 5. Cofamy się i teraz wchodzimy do Ustawienia -> System -> Opcje programistyczne -> włączamy opcję Zdjęcie blokady OEM. Telefon znowu poprosi o PIN. Po jego podaniu musimy jeszcze potwierdzić, że na pewno chcemy zdjąć blokadę.
 
-Włącz Zdjęcie blokady OEM (OEM Unlocking). Jest to kluczowe – jeśli ta opcja jest szara, upewnij się, że telefon ma dostęp do Wi-Fi.
-
 
 
 
