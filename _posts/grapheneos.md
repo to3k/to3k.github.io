@@ -76,7 +76,7 @@ _pogrubiłem te pozycje, które są nie tylko wspierane, ale też rekomendowane_
 ### Mój wybór smartfona
 Na etapie wyboru urządzenia, na którym przetestuję GrapheneOS, nie miałem jeszcze pewności czy takie rozwiązanie w ogóle się dla mnie sprawdzi i czy wytrzymam z nim w dłuższej perspektywie. Toteż nierozsądnym byłoby wykładać sporą sumę pieniędzy. Z uwagi na to chyba jedynym sensownym wyborem był **Google Pixel 9a**. Było to parę miesięcy temu, gdy od premiery rodziny modeli 10 nie minęło jeszcze na tyle dużo czasu, aby trafiły one na listę urządzeń z pełnym wsparciem. Na tamten moment to Pixel 9a był najświeższym urządzeniem na liście i do tego był bardzo atrakcyjny cenowo, gdyż kupiłem go za ok. 1600 PLN.
 
-Z perspektywy czasu dalej uważam to za dobry wybór i na pewno polecam taką ściężkę każdemu kto właśnie musi podjąć decyzję na jakim sprzęcie rozpocznie przygodę z GrapheneOS. Jedyne co mi trochę doskwiera w Pixelu 9a to jakość zdjęć jakie wykonuje. Przesiadłem się na niego mając wcześniej wyśmienite pod tym względem iPhone 15 Pro i Samsunga Galaxy Z Fold 6, więc nie można się dziwić, że jestem trochę zawiedziony, bo byłem po prostu przyzwyczajony do zupełnie innego poziomu aparatów. Teraz też wiem już, że GrapheneOS zostanie ze mną na dłużej, więc możliwe, że wiedząc wtedy to co wiem teraz, zdecydowałbym się na jakiś droższy sprzęt. Jednakże nie jest to dla mnie teraz istotne, bo na razie nie planuję przesiadki na inny sprzęt, a do momentu gdy się to zmieni na pewno zmieni się też sytuacja na rynku i lista dostępnych opcji. Poza tym jestem pozytywnie zaskoczony czasem pracy na baterii i ogólną wydajnością tego telefonu.
+Z perspektywy czasu dalej uważam to za dobry wybór i na pewno **polecam taką ściężkę każdemu** kto właśnie musi podjąć decyzję na jakim sprzęcie rozpocznie przygodę z GrapheneOS. Jedyne co mi trochę doskwiera w Pixelu 9a to jakość zdjęć jakie wykonuje. Przesiadłem się na niego mając wcześniej wyśmienite pod tym względem iPhone 15 Pro i Samsunga Galaxy Z Fold 6, więc nie można się dziwić, że jestem trochę zawiedziony, bo byłem po prostu przyzwyczajony do zupełnie innego poziomu aparatów. Teraz też wiem już, że GrapheneOS zostanie ze mną na dłużej, więc możliwe, że wiedząc wtedy to co wiem teraz, zdecydowałbym się na jakiś droższy sprzęt. Jednakże nie jest to dla mnie teraz istotne, bo na razie nie planuję przesiadki na inny sprzęt, a do momentu gdy się to zmieni na pewno zmieni się też sytuacja na rynku i lista dostępnych opcji. Poza tym jestem pozytywnie zaskoczony czasem pracy na baterii i ogólną wydajnością tego telefonu.
 
 ## Instalacja
 
@@ -84,12 +84,12 @@ Z perspektywy czasu dalej uważam to za dobry wybór i na pewno polecam taką ś
 
 1. Odpowiedni **smartfon** - w moim przypadku to Google Pixel 9a
 2. **Kabel** do podłączenia telefonu do komputera, nie może to być byle jaki kabel tylko taki, który służy nie tylko do ładowania, ale także do transmisji danych
-3. **Komputer z przeglądarką opartą na Chromium** (np. Google Chrome, Brave, Microsoft Edge)
+3. **Komputer z przeglądarką opartą na Chromium** (np. Google Chrome, Brave, Microsoft Edge), niestety muszę tutaj polecić Windows 10/11, bo nie trzeba się wtedy bawić z żadnymi sterownikami, jest to najprostsza opcja
 
 ### Przygotowanie telefonu
 
-1. Jeżeli jest nowy to wyciągamy go z pudełka i **włączamy**. Jeżeli był wcześniej używany to **przywracamy go do ustawień fabrycznych** (Ustawienia -> System -> Opcje resetowania -> Wykasuj wszystkie dane (przywróć ustawienia fabryczne) -> Wykasuj wszystkie dane).
-2. Musimy przejść przez podstawową konfigurację aż do momentu zobaczenia pulpitu. Robimy absolutne minimum czyli:
+1. Jeżeli jest nowy to wyciągamy go z pudełka i **włączamy**. Jeżeli był wcześniej używany to **przywracamy go do ustawień fabrycznych** (Ustawienia -> System -> Opcje resetowania -> Wykasuj wszystkie dane (przywróć ustawienia fabryczne) -> Wykasuj wszystkie dane). Myślę, że to oczywista oczywistość, ale i tak to napiszę - przywrócenie ustawień fabrycznych skutkuje usunięciem wszystkich danych użytkownika z urządzenia, więc jeżeli masz na nim coś istotnego to należy zrobić tego kopię.
+2. Musimy **przejść przez podstawową konfigurację** aż do momentu zobaczenia pulpitu. Robimy absolutne minimum czyli:
     - Na ekranie powitalnym możesz zmienić język na polski, ale nie ma takiej konieczności
     - Pomijamy konfigurację usług GSM (karta SIM)
     - Nie łączymy się z Wi-Fi, więc ten krok też pomijamy
@@ -102,13 +102,63 @@ Z perspektywy czasu dalej uważam to za dobry wybór i na pewno polecam taką ś
     - Chwila oczekiwania
     - Pomijamy samouczek
     - Swipe do góry i gotowe, jesteśmy na pulpicie
-3. W pierwszej kolejności musimy się upewnić, że nasz telefon jest zaktualizowany. W tym celu idziemy do Ustawienia -> System -> Aktualizacja systemu. Jeżeli jest taka potrzeba to aktualizujemy.
-4. Następnie przechodzimy do Ustawienia -> Informacje o telefonie -> znajdujemy pole Numer kompilacji i klikamy na to 7 razy aż zobaczymy komunikat "Jesteś teraz programistą". W międzyczasie telefon poprosi o podanie PINu, który ustawiliśmy podczas konfigurowania telefonu.
-5. Cofamy się i teraz wchodzimy do Ustawienia -> System -> Opcje programistyczne -> włączamy opcję Zdjęcie blokady OEM. Telefon znowu poprosi o PIN. Po jego podaniu musimy jeszcze potwierdzić, że na pewno chcemy zdjąć blokadę.
+3. W pierwszej kolejności musimy się upewnić, że nasz **telefon jest zaktualizowany**. W tym celu idziemy do Ustawienia -> System -> Aktualizacja systemu. Jeżeli jest taka potrzeba to aktualizujemy.
+4. Następnie przechodzimy do Ustawienia -> Informacje o telefonie -> znajdujemy pole Numer kompilacji i klikamy na to 7 razy aż zobaczymy komunikat **Jesteś teraz programistą**. W międzyczasie telefon poprosi o podanie PINu, który ustawiliśmy podczas konfigurowania telefonu.
+5. Cofamy się i teraz wchodzimy do Ustawienia -> System -> Opcje programistyczne -> włączamy opcję **Zdjęcie blokady OEM**. Telefon znowu poprosi o PIN. Po jego podaniu musimy jeszcze potwierdzić, że na pewno chcemy zdjąć blokadę.
+
+### Odblokowanie bootloadera
+
+1. Proces odblokowania bootloadera rozpoczynamy od **wyłączenia telefonu**.
+2. Gdy ekran całkiem zgaśnie **naciskamy jednocześnie i trzymamy przyciski zasilania (power) i zmniejszenia głośności (volume down)** aż do momentu, gdy pojawi nam się tekstowy interfejs **Fastboot Mode**. Jeżeli telefon uruchomi nam się normalnie to znaczy, że któryś z wcześniejszych kroków wykonaliśmy nieprawidłowo.
+3. Podłączamy **telefon do komputera**.
+4. Przechodzimy do komputera i wchodzimy w przeglądarce (opartej na silniku Chromium) na stronę pod adresem **[https://grapheneos.org/install/web](https://grapheneos.org/install/web)**.
+5. Przechodzimy do sekcji [Unlocking the bootloader](https://grapheneos.org/install/web#unlocking-the-bootloader) i naciskamy przycisk **Unlock bootloader**.
+6. W przeglądarce wyskoczy okienko z listą urządzeń do wyboru. Powinna na nim być w zasadzie tylko jedna opcja i to właśnie powinien być nasz Pixel. **Wybieramy go i naciskamy przycisk Połącz** (Connect).
+7. Zajdą zmiany na wyświetlaczu telefonu. Pojawi się tam komunikat i prośba o potwierdzenie tego, że chcemy faktycznie odblokować bootloader. W tym celu musimy nacisnąć któryś przycisk głośności, tak aby zamiast **Do not unlock the bootlader** pojawiło się **Unlock the bootlader**. W tym momencie możemy potwierdzić poprzez naciśnięcie przycisku zasilania (power).
+8. Jeżeli wszystko się udało to pośród danych wyświetlonych w Fastboot Mode powinniśmy widzieć **Device state: unlocked**.
+
+### Pobieranie i wgrywanie obrazu systemu
+
+1. Na stronie internetowej GrapheneOS przewijamy na dół do sekcji [Obtaining factory images](https://grapheneos.org/install/web#obtaining-factory-images) i naciskamy przycisk **Download release**. Jeżeli telefon jest dalej podłączony do komputera to strona sama zadecyduje, który obraz systemu należy pobrać.
+2. Czekamy aż pobieranie zostanie zakończone. Oczywistym jest, że czas do tego potrzebny zależy wprost proporcjonalnie od prędkości połączenia internetowego.
+3. Gdy pobieranie zostanie zakończone możemy przejść do sekcji [Flashing factory images](https://grapheneos.org/install/web#flashing-factory-images) poniżej i naciskamy **Flash release**.
+4. Spluń teraz przez lewe ramie, wstrzymaj oddech i pod żadnym pozorem nie odpinaj telefonu od komputera Najlepiej w ogóle nie dotykaj obu urządzeń.
+5. Gdy proces zostanie zakończony telefon zrestartuje się sam i wróci do interfejsu Fastboot Mode. W przeglądarce będziemy widzieli komunikat **Flashed ...**.
+
+### Ponowne blokowanie bootloadera
+
+Zablokowanie bootloadera jest kluczowe, ponieważ umożliwia pełne działanie funkcji Verified Boot (zweryfikowanego rozruchu). Uniemożliwia to również korzystanie z trybu fastboot do wgrywania (flashowania), formatowania lub wymazywania partycji. Verified Boot wykrywa wszelkie modyfikacje partycji systemu operacyjnego i blokuje odczyt jakichkolwiek zmienionych lub uszkodzonych danych. W przypadku wykrycia zmian system wykorzystuje dane korekcji błędów, aby spróbować odzyskać pierwotne dane, które są następnie ponownie weryfikowane – dzięki temu mechanizm system jest odporny na przypadkowe (niezłośliwe) uszkodzenia plików.
+
+Jednakże przed ponownym zabezpieczeniem bootloadera zalecam sprawdzić czy system wgrał nam się prawidłowo i wszystko działa jak należy, bo jeżeli tak nie jest to blokując bootloader możemy sobie uceglić (całkowicie zablokować, a wręcz uszkodzić) telefon. Dlatego:
+
+1. Będąc w Fastboot Mode, gdy widzimy komunikat **Start** to naciskamy przycisk zasilania (power), co spowoduje normalne uruchomienie systemu. Jeżeli na wysokości przycisku zasilania nie widzimy **Start** to musimy naciskać przyciski głośności i odszukać tę opcję.
+2. Gdy telefon się uruchomi to możemy od razu wykonać podstawową konfigurację. Bootloader nam nie ucieknie.
+3. To standardowa procedura, więc przejdziemy przez nią tylko hasłowo:
+    - ekran powitalny,
+    - wybieramy język,
+    - wybieramy strefę czasową i tym samym ustawiamy datę i czas,
+    - łaczymy się do Wi-Fi,
+    - jeżeli masz taką możliwość to możesz od razu skonfigurować kartę SIM, ale możesz to też odłożyć na później,
+    - polecam wyłączyć usługę lokalizacji, bo lepiej to później skonfigurować na spokojnie przydzielając uprawniania tylko aplikacjom, które naprawdę tego potrzebują,
+    - zabezpieczenie telefonu poprzez odcisk palca, ja osobiście jestem zwolennikiem tego rozwiązania, więc rekomenduję używanie go, GrapheneOS nie obsługuje (jeszcze) odblokowywania skanem twarzym, więc odcisk palca i standardowe hasło to jedyne metody jakie mamy do wyboru (oczywiście odblokowanie wzorem odrzucam na starcie jako forma blokady ekranu, której nie można nawet z czystym sumiieniem nazwać jakimkolwiek zabezpieczeniem),
+    - zakładam, że jeżeli czytasz ten wpis to jesteś grafenowym świeżakiem i nie masz żadnej kopii zapasowej do przywrócenia, więc ten krok po prostu pomijamy,
+    - przycisk **Start** i jesteśmy na pulpicie.
+4. Jeżeli wszystko działa prawidłowo to teraz śmiało możesz wyłączyć telefon i włączyć go trzymając przycisk zasilania (power) i zmniejszania głośności (volume down), tak jak to robiliśmy wcześniej.
+5. Lądujemy znow w Fastboot Mode. Zakładam, że telefon był cały czas podłączony do komputera (jeżeli nie to podłącz go ponownie). Wracamy do przeglądarki na komputerze. Odnajdujemy sekcję [Locking the bootloader](https://grapheneos.org/install/web#locking-the-bootloader) i naciskamy przycisk **Lock bootloader**.
 
 
 
 
+
+
+
+
+
+
+
+## Wsparcie projektu
+
+Na koniec chciałbym zachęcić do wsparcia projektu GrapheneOS. Deweloperzy stojący za nim wykonują naprawdę dobrą robotę i w mojej ocenie zasługują na rzucenie w nich odrobiną pieniędzy. Informację gdzie i jak można to zrobić znajdują się [tutaj](https://grapheneos.org/donate).
 
 
 
