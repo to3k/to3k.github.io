@@ -93,12 +93,18 @@ Z perspektywy czasu dalej uważam to za dobry wybór i na pewno polecam taką ś
     - Na ekranie powitalnym możesz zmienić język na polski, ale nie ma takiej konieczności
     - Pomijamy konfigurację usług GSM (karta SIM)
     - Nie łączymy się z Wi-Fi, więc ten krok też pomijamy
-    - Potwierdzamy
-3. Ustawienia > Informacje o telefonie.
-
-Kliknij 7 razy w Numer kompilacji, aż zobaczysz komunikat „Jesteś teraz programistą”.
-
-Wróć do Ustawienia > System > Opcje programistyczne.
+    - Ustawienia daty i godziny powinny się zgadzać
+    - Wyłączamy wszystkie Google Services (lokalizacja, skanowanie, wysyłanie danych diagnostycznych) i akceptujemy
+    - Warunki gwarancji tu nie musimy nic robić, więc tylko przycisk Dalej
+    - Akceptujemy Legal Terms
+    - Ustawiamy jakiś łątwy PIN np. 12345
+    - Nie ma potrzeby tracić czas na konfigurację biometrii, więc uprzejmie dziękujemy i rezygnujemy z odcisku palca i skanu twarzy
+    - Chwila oczekiwania
+    - Pomijamy samouczek
+    - Swipe do góry i gotowe, jesteśmy na pulpicie
+3. W pierwszej kolejności musimy się upewnić, że nasz telefon jest zaktualizowany. W tym celu idziemy do Ustawienia -> System -> Aktualizacja systemu. Jeżeli jest taka potrzeba to aktualizujemy.
+4. Następnie przechodzimy do Ustawienia -> Informacje o telefonie -> znajdujemy pole Numer kompilacji i klikamy na to 7 razy aż zobaczymy komunikat "Jesteś teraz programistą". W międzyczasie telefon poprosi o podanie PINu, który ustawiliśmy podczas konfigurowania telefonu.
+5. Cofamy się i teraz wchodzimy do Ustawienia -> System -> Opcje programistyczne -> włączamy opcję Zdjęcie blokady OEM. Telefon znowu poprosi o PIN. Po jego podaniu musimy jeszcze potwierdzić, że na pewno chcemy zdjąć blokadę.
 
 Włącz Zdjęcie blokady OEM (OEM Unlocking). Jest to kluczowe – jeśli ta opcja jest szara, upewnij się, że telefon ma dostęp do Wi-Fi.
 
