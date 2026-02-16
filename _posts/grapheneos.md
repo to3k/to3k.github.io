@@ -158,14 +158,68 @@ Ostatnim krokiem przed tym jak zaczniemy się bawić nowym systemem jest ponowne
 
 ## Moja wizja używania GrapheneOS
 
-Teraz tak naprawdę zaczyna się prawdziwa zabawa. Ile osób tyle usłysz opinii na temat tego co powinno się robić, a czego nie w temacie hardeningu GrapheneOS. Jedni są bardzo konserwatywni, a inni podchodzą do tematu nieco bardziej liberalnie. Mi wydaje się, że nie ma jednej słusznej drogi i każdy powinien liznąć temat, poszperać, posprawdzać i zdecydować co mu odpowiada. Szybko przekonasz się, że GrapheneOS to tak naprawdę jeden wielki kompromis pomiędzy wygodą, a prywatnością. Ta sama zasada dotyczy wszystkiego co przynależy do świata cyfrowego.
+Teraz tak naprawdę zaczyna się prawdziwa zabawa. Ile osób tyle usłysz opinii na temat tego co powinno się robić, a czego nie, w temacie hardeningu GrapheneOS. Jedni są konserwatywni, a inni podchodzą do tematu nieco bardziej liberalnie. Według mnie nie ma jednej słusznej drogi i każdy powinien liznąć temat, poszperać, posprawdzać i zdecydować co mu odpowiada. Szybko przekonasz się, że GrapheneOS to tak naprawdę jeden wielki kompromis pomiędzy wygodą, a prywatnością. Ta sama zasada dotyczy wszystkiego co przynależy do świata cyfrowego, ale w tym przypadku dopiero tak naprawdę to dostrzeżesz, bo GrapheneOS pokaże Ci o jak wielu rzeczach możesz decydować, czego nie możesz zrobić używając konwencjonalnego Androida.
 
-Nie zamierzam tym wpisem promować jakiejś najmojszej metody używania GrapheneOS. Przedstawię jedynie jak ja używam tego systemu. W ten sposób może uda mi się komuś podpowiedzieć jakiś ciekawy trick jakiego nie znał, a z drugiej strony może trafi się jakiś ekspert, który po przeczytaniu moich wypocin podpowie mi coś ciekawego lub wskaże mi co robię źle / mógłbym robić lepiej.
+Nie zamierzam tym wpisem promować jakiejś "najmojszej" metody używania GrapheneOS. Przedstawię jedynie jak ja używam tego systemu. W ten sposób osobom świeżym w temacie pokażę podstawy, tym którzy są już od jakiegoś czasu użytkownikami może uda mi się podpowiedzieć jakiś ciekawy trick jakiego nie znali, a z drugiej strony może trafi się jakiś ekspert, który po przeczytaniu moich wypocin podpowie mi coś ciekawego lub wskaże mi co robię źle / mógłbym robić lepiej, bo na pewno tak jest, gdyż tak na dobrą sprawę moja przygoda z GrapheneOS trwa zaledwie od 3 miesięcy. Od razu ostrzegam, że nie jestem pewien czy będę w stanie zachować jakiś logiczny ciąg, bo zapewne będę trochę skakał po zagadnieniach. Temat GrapheneOS jest obszerny i w dzisiejszym wpisie uda mi się co najwyżej lekko go zaczepić.
 
+### Dodatkowy profil użytkownika
 
+Jedną z pierwszych rzeczy jaką zrobiłem po uruchomieniu świeżo zainstalowanego systemu było utworzenie drugiego profilu użytkownika. Robi się to w **Ustawienia -> System -> Użytkownicy**. W zamyśle ta funkcja jest po to, aby dwie (lub więcej) osoby mogłby korzystać z jednego telefonu i każda z nich posiadała osobny profil ze swoimi ustawieniami, aplikacjami itp. Kto normalny tak robi? O ile współdzielenie tabletu domowego mogę sobie wyobrazić tak współdzielenia telefonu już zupełnie nie. Wydaje się zatem, że jest to martwa funkcja, ale nic bardziej mylnego.
 
+U mnie działa to tak, że na użytkowniku ***Właściciel***, bo tak nazywa się główne konto, które tworzy się automatycznie wraz z systemem, zainstalowałem **Google Play Store** wraz z **Google Play services** i **GmsCompatConfig**. Robi się to poprzez aplikację **App Store** zainstalowaną jako komponent systemu GrapheneOS. Nie myl tego proszę z applowskim sklepem z aplikacjami, mimo że nazwa jest taka sama. Ze sklepu Play zainstalowałem jedynie następujące aplikacje:
 
+- **mBank** - płacenie BLIKiem zbliżeniowym przez NFC jest możliwe tylko posiadając zainstalowane usługi Google,
+- **Mój T-Mobile** - bez usług Google nie działała mi zupełnie zakładka Magenta Moments,
 
+I to tyle. Jak widzisz ten profil służy mi tylko do aplikacje, które koniecznie wymagają integracji z usługami Google. Przy przesiadaniu się z Samsunga było tego sporo więcej, ale po kolei sukcesywnie rezygnowałem z kolejnych aplikacji, które uzależniały mnie od wielkego G.
+
+To na **drugim profilu**, który załóżmy nazwałem _Tomuś_, trzymam całe swojego cyfrowe życie. Co mi to daje? Chociażby to, że profilu głównego nie da się łatwo usunąć, a ten dodatkowy już tak. Wyobraźmy sobie sytuację, w której muszę na szybko wyczyścić swój telefon, ale tak, aby działały jego podstawowe funkcje, czyli bez całkowitego przywrócenia ustawień fabrycznych. Przykładem może być np. przylot do USA i kontrola urzędu imigracyjnego. Chcą dostęp do mojego telefonu, więc kasuję użytkownika _Tomuś_, przełączam się na użytkownika _Właściciel_ i oddaję im telefon. Dzwoni, wysyła SMSy, ma nawet aplikację bankową, więc teoretycznie nie powinien wzbudzać podejrzeń. Nie ma jednak wszystkich moich kontaktów, przeglądarki z historią przeglądania, menedżera haseł, kominikatorów z historią czatów. Jest to raczej drastyczny scenariusz, ale jednak nie tak bardzo nieprawdopodobny, bo akcje typu pyranie telefonu przy przylocie do Stanów to standard. Poza tym podstawową zasadą bezpieczeństwa jest to, aby **na co dzień nie używać konta z uprawnieniami administratora**. 
+
+### Obtainium
+
+Na GrapheneOS to Obtainium jest moim **podstawowym agregatorem do pozyskiwania plików instalacyjnych .apk i automatyzacji aktualizowania aplikacji**. To taki Google Play Store, ale szanujący prywatność i dla aplikacji o otwartym kodzie źródłowym. Grzechem byłoby korzystać z GrapheneOS i przynajmniej nie spróbować przerzucić się na aplikacje otwarto-źródłowe. Poniżej przedstawiam listę appek, które ja używam. Dodatkowo dorzucam Ci linki do repozytoriów z kodem źródłowym każdej z nich.
+
+#### Lista moich aplikacji otwarto-źródłowych
+- [**AntennaPod**](https://github.com/AntennaPod/AntennaPod) - aplikacja do podcastów (jeszcze całkowicie nie przerzuciłem się na nią z PocketCasts, ale mam to w planach),
+- [**Aurora Store**](https://github.com/whyorean/AuroraStore) - jeżeli nie ma innej opcji na pobranie pliku .apk to właśnie ta aplikacja może posłużyć jako alternatywa dla Google Play Store, wspomnę o tym jeszcze później,
+- [**Bitwarden**](https://github.com/bitwarden/android) - menedżer haseł,
+- [**Brave**]() - przeglądarka internetowa,
+- [**Breezy Weather**](https://github.com/breezy-weather/breezy-weather) - pogoda,
+- [**Catima**](https://github.com/CatimaLoyalty/Android) - aplikacja do przechowywania kart lojalnościowych (mam w niej kartę Biedronki i Lidla, ale reszta też czeka na dodanie),
+- [**Collabora Office**](https://github.com/CollaboraOnline/online) - pakiet biurowy, który otworzy wszystko to co Microsoft Office czy LibreOffice,
+- [**DAVx2**](https://github.com/bitfireAT/davx5-ose) - aplikacja do synchronizacji rzeczy przez DAV (kalendarze, kontakty, listy zadań czy pliki w chmurze),
+- [**Ente Auth**](https://github.com/ente-io/ente) - dwuetapowe uwierzytelnianie, alternatywa dla Google/Microsoft Authenticatior czy Authy, 
+- [**FairScan**](https://github.com/pynicolas/FairScan) - skanowanie dokumentów, prosta bez zaawansowanych funkcji,
+- [**Feeder**](https://github.com/spacecowboy/Feeder) - czytnik RSS,
+- [**Home Assistant**](https://github.com/home-assistant/android) - zarządzanie "inteligentnym" domem,
+- [**Klawiatura FUTO**](https://github.com/futo-org/android-keyboard) - gorąco polecam tą klawiaturę i plus do niej pakiet [FUTO Voice Input](https://voiceinput.futo.org/), który generuje tekst z mowy na bazie działającego offline na urządzeniu modelu LLM,
+- [**Librera**](https://github.com/foobnix/LibreraReader) - czytnik ebooków,
+- [**Obtainium**](https://github.com/ImranR98/Obtainium) - tak, Obtainium może aktualizować samo siebie,
+- [**Organic Maps**](https://github.com/organicmaps/organicmaps) - mapy z nawigacją oparte na OpenStreetMap,
+- [**Pachli**](https://github.com/pachli/pachli-android) - klient Mastodon,
+- [**Signal**](https://github.com/signalapp/Signal-Android) - komunikator,
+- [**Simplenote**](https://github.com/Automattic/simplenote-android) - notatki,
+- [**Stremio**](https://github.com/stremio) - VOD bazujące na torrent (na pewno wkrótce napiszę o tym wpis),
+- [**Thunderbird**](https://github.com/thunderbird/thunderbird-android) - klient poczty e-mail (to tak naprawdę K-9 Mail po rebrandingu).
+
+Aby zrozumieć jak działa i jak używać Obtainium **polecam zapoznać się z [tym poradnikiem wideo](https://odysee.com/@%C5%81%C4%85cze:4/aplikacje_bez_Google...2025_:f)**.
+
+### Aurora Store
+
+Mam kilka aplikacji, które nie są open-source, ale i tak ich potrzebuję. W takim przypadku nie pobieram ich z Google Play Store, a właśnie z aplikacji **Aurora Store**, o której wspomniałem wyżej.
+
+Aurora Store to otwartoźródłowy klient sklepu Google Play (można to chyba nazwać frontend'em), który pozwala na pobieranie aplikacji z serwerów Google bez konieczności posiadania usług Google Play (GMS) na telefonie.
+
+Internety charakteryzują to rozwiązanie następująco:
+
+- Prywatność - nie musisz logować się kontem Google, aby pobierać darmowe aplikacje (można korzystać z wbudowanych kont anonimowych).
+- Bezpieczeństwo - instalujesz oryginalne pliki .apk prosto z serwerów Google, a nie z niesprawdzonych stron trzecich.
+- Funkcjonalność - pozwala omijać ograniczenia regionalne oraz instalować aplikacje, które Google Play uznaje za "niekompatybilne" z danym urządzeniem.
+- Open Source - cały kod aplikacji jest jawny i audytowalny.
+
+Brzmi idealnie, prawda? Trochę tak, ale niestety nie do końca wszystko trzyma się tu kupy. Z tymi anonimowymi kontami to jest tak, że czasem działają, a czasem nie, a to za sprawą limitów, które przy normalnym koncie używanym przez jedną osobę są nie do osiągnięcia, natomiast gdy z jednego konta aplikacje pobiera na raz tysiąc osób to zaczyna się to już robić podejrzane. Z kolei używanie Aurora Store narusza warunki korzystania z Google Play Store, więc jak użyjemy swojego konta Google to może ono zostać zablokowane tymczasowo lub trwale zbanowane. Jakąś opcją jes tutaj utworzenie śmieciowego konta tylko do tego, ale to odbiera nam część prywatności, bo Google dalej może nas indeksować na podstawie tego co pobraliśmy. Konta anonimowe dają w tym przypadku niemalże pełną anonimowość, bo jesteśmy wtedy kroplą w morzu.
+
+Jeżeli chodzi o bezpieczeństwo to faktycznie w teorii pobieramy pliki .apk ze sprawdzonego źródła, ale tylko pod warunkiem, że twórcy Aurora Store nie zafundują nam ataku typu [Man in the Middle](https://pl.wikipedia.org/wiki/Atak_man_in_the_middle).
 
 
 
