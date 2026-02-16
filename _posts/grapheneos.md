@@ -278,6 +278,8 @@ Sytuacja wygląda jeszcze bardziej kuriozalnie, gdy popatrzy się na to jakie ap
 
 Aby zarządzać uprawnieniami danej aplikacji wystarczy **przytrzymać palcem na jej ikonie**, z wysuniętego menu wybrać **O aplikacji** i odszukać zakładkę **Uprawnienia**. Pojawi nam się lista posegregowana według następujących kategorii - **Ma dostęp**, **Zawsze pytaj** i **Nie ma dostępu**. Polecam przejrzeć tą listę dla każdej aplikacji z osobna zaraz po jej zainstalowaniu. To podstawa hardeningu GrapheneOS.
 
+Zbiorcze menu, w którym można podejrzeć konkretne uprawnienia i jakie aplikacje mają je włączone dostępne jest w **Ustawienia -> Bezpieczeństwo i prywatność -> Ustawienia prywatności -> Menedżer uprawień**. Ciekawym miejscem jest też **Panel prywatności** dostępny w tym samym miejscu. Jest to narzędzie, które pokazuje nie tylko uprawnienia aplikacji, ale także to jak często dana aplikacja sięga po przydzielone im uprawnienia.
+
 ### Przestrzeń prywatna
 
 W GrapheneOS mamy nie tylko profile użytkowników, ale do tego każdy użytkownik może mieć też coś co się nazywa **Przestrzeń prywatna**. Coś podobnego spotkałem już na Samsungu, gdzie nazywało się to **Mój sejf**, więc zakładam, że może to być po prostu funkcjonalność Android, która jest różnie implementowana.
@@ -300,11 +302,10 @@ Przestrzeń prywatną włącza się w **Ustawienia -> Bezpieczeństwo i prywatno
 - **Sklep Play** - skądś muszę pobierać te wszystkie appki, robienie tego przez Aurora Store w przestrzeni prywatnej nie miałoby sensu skoro i tak mam tutaj zainstalowany cały pakiet Google
 - **XTB** - kolejna aplikacja do inwestowania... działa bez GMS, ale tak jak mówiłem, wszystkie finansowe w jednym miejscu
 
+## Podsumowanie
 
+Uf... znowu to zrobiłem, przepraszam. Właśnie podliczam ilość znaków i wychodzi mi niespełna 35 000... Zapewne tymi następnymi kilkoma zdaniami przekroczę tę barierę. Cóż, znowu długo, ale znowu mięsooo, więc nie sądzę, żeby ktoś miał powody do marudzenia. Tak jak już wspomniałem wcześniej, tylko liznąłem temat GrapheneOS, który jest obszerny i dobrze, bo to świetny system, a największy szacun należy się osobom stojącym za tym projektem. To dzięki nim mamy w ogóle opcję choć częściowego uwolnienia się od Google (Androida) i Apple (iOS). Dlatego gorąco zapraszam do ostatniego rozdziały tego wpisu.
 
+## Wsparcie projektu GrapheneOS
 
-
-
-## Wsparcie projektu
-
-Na koniec chciałbym zachęcić do wsparcia projektu GrapheneOS. Deweloperzy stojący za nim wykonują naprawdę dobrą robotę i w mojej ocenie zasługują na rzucenie w nich odrobiną pieniędzy. Informację gdzie i jak można to zrobić znajdują się [tutaj](https://grapheneos.org/donate).
+Na koniec chciałbym zachęcić do wsparcia projektu GrapheneOS. Deweloperzy stojący za nim wykonują naprawdę dobrą robotę i w mojej ocenie zasługują na rzucenie w nich odrobiną pieniędzy. Informacje gdzie i jak można to zrobić znajdują się [tutaj](https://grapheneos.org/donate).
