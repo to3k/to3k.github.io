@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GrapheneOS"
-published: false
+published: true
 categories: 
   - "poradniki"
   - "przemyslenia"
@@ -290,21 +290,21 @@ Przestrzeń prywatną włącza się w **Ustawienia -> Bezpieczeństwo i prywatno
 - **Dysk Google** - wykorzystuję jako chmura do udostępniania plików klientom
 - **Finax** - odkładam na emeryturę w ramach OIPE
 - **IKO** - appka banku PKO BP, obligacje skarbowe plus PPK
-- **InPost Mobile** - paczkomaty, w przestrzeni prywatnej nie działa mi też lokalizacja (telefon przesyła swojej pozycji do aplikacji), więc używam kodów QR jak jakiś neandertalczyk
-- **mBank** - ponownie, bo o ile nie działa mi tutaj płatność zbliżeniowa to inne funkcje aplikacji bankowej normalnie działają
+- **InPost Mobile** - paczkomaty, w przestrzeni prywatnej nie działa mi też lokalizacja (telefon nie przesyła swojej pozycji do aplikacji), więc używam kodów QR jak jakiś neandertalczyk
+- **mBank** - ponownie, bo o ile nie działa mi tutaj płatność zbliżeniowa to inne funkcje aplikacji bankowej normalnie działają (w tym płatności kodami BLIK, a także potwierdzanie transakcji biometrią)
 - **mObywatel** - na początku trzymałem tą aplikację w profilu głównym jako pobrana z Aurora Store i wszystko w miarę działało, ale co jakiś czas aplikacja łapała totalną zwiechę i nie odpowiadała, wydaje mi się, że może to być związane z tym, że jednak w tle wysyła jakieś zapytania związane z usługami Google i nie odpowiada dopóki nie nastąpi timeout takiego zapytania, mam to na liście do zbadania
 - **mojeIKP** - ostatnio mam coraz więcej problemów ze zdrowiem, ewidentnie już nie jestem taki niezniszczalny, więc taka geriatryczna aplikacja jest mi po prostu niezbędna
 - **Mój T-Mobile** - zdublowane tak jak appka mBank, bo działa wszystko poza Magenta Moments
 - **Orlen Vitay** - ta aplikacja nie działała mi bez GMS, więc trochę dwója z minusem dla Orlen, bo appka od BP nie ma takiego problemu
 - **Revolut** - w zasadzie chyba nie wymaga GMS, ale stwierdziłem, że już wszystkie aplikacje finansowe będę trzymał w przestrzeni prywatnej
 - **Santander** - kolejna aplikacja bankowa...
-- **Sklep Play** - skądś muszę pobierać te wszystkie appki, robienie tego przez Aurora Store w przestrzeni prywatnej nie miałoby sensu skoro i tak mam tutaj zainstalowany cały pakiet Google
-- **XTB** - kolejna aplikacja do inwestowania... działa bez GMS, ale tak jak mówiłem, wszystkie finansowe w jednym miejscu
+- **Sklep Play** - skądś muszę pobierać te wszystkie appki, robienie tego przez Aurora Store w przestrzeni prywatnej nie miałoby sensu skoro i tak mam tutaj zainstalowany cały pakiet usług Google
+- **XTB** - kolejna aplikacja do inwestowania... działa bez GMS, ale tak jak mówiłem, wszystkie finansowe trzymam w jednym miejscu
 
 ## Podsumowanie
 
-Uf... znowu to zrobiłem, przepraszam. Właśnie podliczam ilość znaków i wychodzi mi niespełna 35 000... Zapewne tymi następnymi kilkoma zdaniami przekroczę tę barierę. Cóż, znowu długo, ale znowu mięsooo, więc nie sądzę, żeby ktoś miał powody do marudzenia. Tak jak już wspomniałem wcześniej, tylko liznąłem temat GrapheneOS, który jest obszerny i dobrze, bo to świetny system, a największy szacun należy się osobom stojącym za tym projektem. To dzięki nim mamy w ogóle opcję choć częściowego uwolnienia się od Google (Androida) i Apple (iOS). Dlatego gorąco zapraszam do ostatniego rozdziały tego wpisu.
+Uf... znowu to zrobiłem, przepraszam. Właśnie podliczam ilość znaków i wychodzi mi niespełna 35 000... Zapewne tymi następnymi kilkoma zdaniami przekroczę tę barierę. Cóż, znowu długo, ale znowu samo mięsooo, więc nie sądzę, żeby ktoś miał powody do marudzenia. Tak jak już wspomniałem wcześniej, tylko liznąłem temat GrapheneOS, który jest obszerny i dobrze, bo to **świetny system**, a największy **szacun należy się osobom stojącym za tym projektem**. To dzięki nim mamy w ogóle opcję choć częściowego **uwolnienia się od Google (Androida) i Apple (iOS)**. Dlatego gorąco zapraszam do ostatniego rozdziały tego wpisu.
 
 ## Wsparcie projektu GrapheneOS
 
-Na koniec chciałbym zachęcić do wsparcia projektu GrapheneOS. Deweloperzy stojący za nim wykonują naprawdę dobrą robotę i w mojej ocenie zasługują na rzucenie w nich odrobiną pieniędzy. Informacje gdzie i jak można to zrobić znajdują się [tutaj](https://grapheneos.org/donate).
+Na koniec chciałbym zachęcić do **wsparcia projektu GrapheneOS**. Deweloperzy stojący za nim wykonują naprawdę świetną robotę i w mojej ocenie zasługują na rzucenie w nich odrobiną pieniędzy. Informacje gdzie i jak można to zrobić znajdują się **[tutaj](https://grapheneos.org/donate)**.
