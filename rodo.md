@@ -56,6 +56,7 @@ Niniejszy blog działa dzięki usługom zewnętrznych dostawców, którzy gwaran
 Przetwarzane dane (np. adres IP) trafiają do:
 1.  **GitHub, Inc.** (USA) – dostawca hostingu (GitHub Pages). Przetwarza adresy IP w logach systemowych w celach bezpieczeństwa. 
 2.  **Giscus** – system komentarzy. Podczas dodawania komentarza, wykorzystywana jest autoryzacja przez konto GitHub, a treść komentarza jest publicznie widoczna.
+3. **GoatCounter** – proste narzędzie do statystyk odwiedzin. Zbiera wyłącznie zanonimizowane dane (np. typ przeglądarki, kraj, strony odsyłające) w celach analitycznych. Nie używa plików cookies ani nie przechowuje adresów IP odwiedzających (jest on w locie szyfrowany i nie jest zapisywany w bazie).
 
 Sam blog (statyczne pliki HTML) **nie używa** własnych plików cookies do śledzenia aktywności. 
 Jednak system komentarzy (Giscus) oraz usługi zewnętrzne (GitHub) mogą zapisywać w przeglądarce odwiedzającego informacje niezbędne do ich działania (np. do pozostania zalogowanym podczas pisania komentarza).
@@ -107,6 +108,7 @@ This blog operates thanks to the services of third-party providers who guarantee
 Processed data (e.g., IP address) is transferred to:
 1.  **GitHub, Inc.** (USA) – hosting provider (GitHub Pages). Processes IP addresses in system logs for security purposes.
 2.  **Giscus** – commenting system. When adding a comment, authorization via a GitHub account is used, and the content of the comment is publicly visible.
+3. **GoatCounter** – simple web analytics tool. It collects only anonymized data (e.g., browser type, country, referrers) for statistical purposes. It does not use cookies or store visitor's IP address (it is ephemerally hashed and not saved).
 
 The blog itself (static HTML files) **does not use** its own cookies to track activity.
 However, the commenting system (Giscus) and external services (GitHub) may save information in the visitor's browser necessary for their operation (e.g., to remain logged in while writing a comment).
