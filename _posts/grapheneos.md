@@ -163,30 +163,30 @@ Nie zamierzam tym wpisem promować jakiejś "najmojszej" metody używania Graphe
 
 ### Dodatkowy profil użytkownika
 
-Jedną z pierwszych rzeczy jaką zrobiłem po uruchomieniu świeżo zainstalowanego systemu było utworzenie drugiego profilu użytkownika. Robi się to w **Ustawienia -> System -> Użytkownicy**. W zamyśle ta funkcja jest po to, aby dwie (lub więcej) osoby mogłyby korzystać z jednego telefonu i każda z nich posiadała osobny profil ze swoimi ustawieniami, aplikacjami itp. Kto normalny tak robi? O ile współdzielenie tabletu domowego mogę sobie wyobrazić tak współdzielenia telefonu już zupełnie nie. Wydaje się zatem, że jest to martwa funkcja, ale nic bardziej mylnego.
+Jedną z pierwszych rzeczy jaką zrobiłem po uruchomieniu świeżo zainstalowanego systemu było utworzenie drugiego profilu użytkownika. Robi się to w **Ustawienia -> System -> Użytkownicy**. W zamyśle ta funkcja jest po to, aby dwie (lub więcej) osoby mogły korzystać z jednego telefonu i każda z nich posiadała osobny profil ze swoimi ustawieniami, aplikacjami itp. Kto normalny tak robi? O ile współdzielenie tabletu domowego mogę sobie wyobrazić, tak współdzielenia telefonu już zupełnie nie. Wydaje się zatem, że jest to martwa funkcja, ale nic bardziej mylnego.
 
-U mnie działa to tak, że na użytkowniku ***Właściciel***, bo tak nazywa się główne konto, które tworzy się automatycznie wraz z systemem, zainstalowałem **Google Play Store** wraz z **Google Play services** i **GmsCompatConfig**. Robi się to poprzez aplikację **App Store** zainstalowaną jako komponent systemu GrapheneOS. Nie myl tego proszę z applowskim sklepem z aplikacjami, mimo że nazwa jest taka sama. Ze sklepu Play zainstalowałem jedynie następujące aplikacje:
+U mnie działa to tak, że na użytkowniku ***Właściciel***, bo tak nazywa się główne konto, które tworzy się automatycznie wraz z systemem, zainstalowałem **Google Play Store** wraz z **Google Play services** i **GmsCompatConfig**. Robi się to poprzez aplikację **App Store** będącą komponentem systemu GrapheneOS. Nie myl tego proszę z applowskim sklepem z aplikacjami, mimo że nazwa jest taka sama. Ze sklepu Play zainstalowałem jedynie następujące aplikacje:
 
-- **mBank** - płacenie BLIKiem zbliżeniowym przez NFC jest możliwe tylko posiadając zainstalowane usługi Google,
-- **Mój T-Mobile** - bez usług Google nie działała mi zupełnie zakładka Magenta Moments,
+- **mBank** - płacenie BLIKiem zbliżeniowym przez NFC jest możliwe tylko posiadając zainstalowane usługi Google i działa mi tylko na profilu użytkownika z uprawnieniami administratora (Właściciel),
+- **Mój T-Mobile** - bez usług Google nie działała mi zupełnie zakładka Magenta Moments.
 
-I to tyle. Jak widzisz ten profil służy mi tylko do aplikacje, które koniecznie wymagają integracji z usługami Google. Przy przesiadaniu się z Samsunga było tego sporo więcej, ale po kolei sukcesywnie rezygnowałem z kolejnych aplikacji, które uzależniały mnie od wielkego G.
+I to tyle. Jak widzisz ten profil służy mi tylko do aplikacji, które koniecznie wymagają integracji z usługami Google. W praktyce przełączam się na niego tylko wtedy, gdy w sklepie chcę zapłacić zbliżeniowo, co w sumie ostatnio robię rzadko, bo jeżeli jest taka możliwość to płacę używając kody BLIK. Zaraz po przesiadce z Samsung'a aplikacji na tym profilu było więcej, ale po kolei sukcesywnie rezygnowałem z tych, które uzależniały mnie od wielkego G.
 
-To na **drugim profilu**, który załóżmy nazwałem _Tomuś_, trzymam całe swojego cyfrowe życie. Co mi to daje? Chociażby to, że profilu głównego nie da się łatwo usunąć, a ten dodatkowy już tak. Wyobraźmy sobie sytuację, w której muszę na szybko wyczyścić swój telefon, ale tak, aby działały jego podstawowe funkcje, czyli bez całkowitego przywrócenia ustawień fabrycznych. Przykładem może być np. przylot do USA i kontrola urzędu imigracyjnego. Chcą dostęp do mojego telefonu, więc kasuję użytkownika _Tomuś_, przełączam się na użytkownika _Właściciel_ i oddaję im telefon. Dzwoni, wysyła SMSy, ma nawet aplikację bankową, więc teoretycznie nie powinien wzbudzać podejrzeń. Nie ma jednak wszystkich moich kontaktów, przeglądarki z historią przeglądania, menedżera haseł, kominikatorów z historią czatów. Jest to raczej drastyczny scenariusz, ale jednak nie tak bardzo nieprawdopodobny, bo akcje typu pyranie telefonu przy przylocie do Stanów to standard. Poza tym podstawową zasadą bezpieczeństwa jest to, aby **na co dzień nie używać konta z uprawnieniami administratora**. 
+To na **drugim profilu**, który załóżmy nazwałem _Tomuś_, trzymam całe swojego cyfrowe życie. Co mi to daje? Chociażby to, że profilu głównego nie da się łatwo usunąć, a ten dodatkowy już tak. Wyobraźmy sobie sytuację, w której muszę na szybko wyczyścić swój telefon, ale tak, aby działały jego podstawowe funkcje, czyli bez całkowitego przywrócenia ustawień fabrycznych. Przykładem może być np. przylot do USA i kontrola urzędu imigracyjnego. Chcą dostęp do mojego telefonu, więc kasuję użytkownika _Tomuś_, przełączam się na użytkownika _Właściciel_ i oddaję im telefon. Dzwoni, wysyła SMSy, ma nawet aplikację bankową, więc teoretycznie nie powinien wzbudzać podejrzeń. Nie ma jednak wszystkich moich kontaktów, przeglądarki z historią odwiedzanych stron, menedżera haseł, kominikatorów z historią czatów. Jest to raczej drastyczny scenariusz, ale jednak nie tak bardzo nieprawdopodobny, bo akcje typu pyranie telefonu przy przylocie do Stanów to coś co zdarza się na porządku dziennym. Poza tym podstawową zasadą bezpieczeństwa jest to, aby **na co dzień nie używać konta z uprawnieniami administratora**. 
 
 ### Obtainium
 
 Na GrapheneOS to Obtainium jest moim **podstawowym agregatorem do pozyskiwania plików instalacyjnych .apk i automatyzacji aktualizowania aplikacji**. To taki Google Play Store, ale szanujący prywatność i dla aplikacji o otwartym kodzie źródłowym. Grzechem byłoby korzystać z GrapheneOS i przynajmniej nie spróbować przerzucić się na aplikacje otwarto-źródłowe. Poniżej przedstawiam listę appek, które ja używam. Dodatkowo dorzucam Ci linki do repozytoriów z kodem źródłowym każdej z nich.
 
 #### Lista moich aplikacji otwarto-źródłowych
-- [**AntennaPod**](https://github.com/AntennaPod/AntennaPod) - aplikacja do podcastów (jeszcze całkowicie nie przerzuciłem się na nią z PocketCasts, ale mam to w planach),
+- [**AntennaPod**](https://github.com/AntennaPod/AntennaPod) - aplikacja do podcastów (jeszcze całkowicie nie przerzuciłem się na nią z Pocket Casts, ale mam to w planach),
 - [**Aurora Store**](https://github.com/whyorean/AuroraStore) - jeżeli nie ma innej opcji na pobranie pliku .apk to właśnie ta aplikacja może posłużyć jako alternatywa dla Google Play Store, wspomnę o tym jeszcze później,
 - [**Bitwarden**](https://github.com/bitwarden/android) - menedżer haseł,
 - [**Brave**]() - przeglądarka internetowa,
 - [**Breezy Weather**](https://github.com/breezy-weather/breezy-weather) - pogoda,
 - [**Catima**](https://github.com/CatimaLoyalty/Android) - aplikacja do przechowywania kart lojalnościowych (mam w niej kartę Biedronki i Lidla, ale reszta też czeka na dodanie),
 - [**Collabora Office**](https://github.com/CollaboraOnline/online) - pakiet biurowy, który otworzy wszystko to co Microsoft Office czy LibreOffice,
-- [**DAVx2**](https://github.com/bitfireAT/davx5-ose) - aplikacja do synchronizacji rzeczy przez DAV (kalendarze, kontakty, listy zadań czy pliki w chmurze),
+- [**DAVx2**](https://github.com/bitfireAT/davx5-ose) - aplikacja do synchronizacji rzeczy przez DAV (kalendarze, kontakty, listy zadań czy pliki w chmurze), potrzebuję jej do synchronizacji kalendarza, który współdzielę z żoną,
 - [**Ente Auth**](https://github.com/ente-io/ente) - dwuetapowe uwierzytelnianie, alternatywa dla Google/Microsoft Authenticatior czy Authy, 
 - [**FairScan**](https://github.com/pynicolas/FairScan) - skanowanie dokumentów, prosta bez zaawansowanych funkcji,
 - [**Feeder**](https://github.com/spacecowboy/Feeder) - czytnik RSS,
@@ -205,31 +205,31 @@ Aby zrozumieć jak działa i jak używać Obtainium **polecam zapoznać się z [
 
 ### Aurora Store
 
-Mam kilka aplikacji, które nie są open-source, ale i tak ich potrzebuję. W takim przypadku nie pobieram ich z Google Play Store, a właśnie z aplikacji **Aurora Store**, o której wspomniałem wyżej.
+Mam kilka aplikacji, które nie są open-source, ale i tak ich potrzebuję. W takim przypadku nie pobieram ich z Google Play Store, a właśnie z **Aurora Store**, o której wspomniałem wyżej.
 
-Aurora Store to otwartoźródłowy klient sklepu Google Play (można to chyba nazwać frontend'em), który pozwala na pobieranie aplikacji z serwerów Google bez konieczności posiadania usług Google Play (GMS) na telefonie.
+Aurora Store to otwartoźródłowy klient sklepu Google Play (można to chyba nazwać frontend'em), który **pozwala na pobieranie aplikacji z serwerów Google bez konieczności posiadania usług Google** (GMS) na telefonie.
 
 Internety charakteryzują to rozwiązanie następująco:
 
-- Prywatność - nie musisz logować się kontem Google, aby pobierać darmowe aplikacje (można korzystać z wbudowanych kont anonimowych).
-- Bezpieczeństwo - instalujesz oryginalne pliki .apk prosto z serwerów Google, a nie z niesprawdzonych stron trzecich.
-- Funkcjonalność - pozwala omijać ograniczenia regionalne oraz instalować aplikacje, które Google Play uznaje za "niekompatybilne" z danym urządzeniem.
-- Open Source - cały kod aplikacji jest jawny i audytowalny.
+- **Prywatność** - nie musisz logować się kontem Google, aby pobierać darmowe aplikacje (można korzystać z wbudowanych kont anonimowych).
+- **Bezpieczeństwo** - instalujesz oryginalne pliki .apk prosto z serwerów Google, a nie z niesprawdzonych stron trzecich.
+- **Funkcjonalność** - pozwala omijać ograniczenia regionalne oraz instalować aplikacje, które Google Play uznaje za "niekompatybilne" z danym urządzeniem.
+- **Open Source** - cały kod aplikacji jest jawny i audytowalny.
 
-Brzmi idealnie, prawda? Trochę tak, ale niestety nie do końca wszystko trzyma się tu kupy. Do Aurora Store mam dwa główne zarzuty.
+Brzmi idealnie, prawda? Trochę tak, ale niestety nie do końca wszystko trzyma się tu kupy. Do Aurora Store mam **dwa główne zarzuty**.
 
-Z tymi anonimowymi kontami to jest tak, że czasem działają, a czasem nie, a to za sprawą limitów, które przy normalnym koncie używanym przez jedną osobę są nie do osiągnięcia, natomiast gdy z jednego konta aplikacje pobiera na raz tysiąc osób to zaczyna się to już robić podejrzane, a limity są dość szybko przekraczane. Używanie Aurora Store narusza warunki korzystania z Google Play Store, więc z kolei jak użyjemy swojego konta Google to może ono zostać zablokowane tymczasowo lub trwale zbanowane. Jakąś opcją jest tutaj utworzenie "śmieciowego" konta tylko do tego, ale to odbiera nam część prywatności, bo Google dalej może nas indeksować na podstawie tego co pobraliśmy. Konta anonimowe dają w tym przypadku niemalże pełną anonimowość, bo jesteśmy wtedy kroplą w morzu.
+Z tymi anonimowymi kontami to jest tak, że **czasem działają, a czasem nie**, a to za sprawą limitów, które przy normalnym koncie używanym przez jedną osobę są nie do osiągnięcia, natomiast gdy z jednego konta aplikacje pobiera na raz tysiąc osób to zaczyna się to już robić podejrzane, a limity są dość szybko przekraczane. Używanie Aurora Store narusza warunki korzystania z Google Play Store, więc z kolei **gdy użyjemy swojego konta Google to może ono zostać zablokowane** tymczasowo lub trwale zbanowane. Jakąś opcją jest tutaj utworzenie "śmieciowego" konta tylko do tego, ale to odbiera nam część prywatności, bo Google dalej może nas indeksować na podstawie tego co pobraliśmy. Konta anonimowe dają w tym przypadku niemalże pełną anonimowość, bo jesteśmy wtedy kroplą w morzu.
 
-Jeżeli chodzi o bezpieczeństwo to faktycznie w teorii pobieramy pliki .apk ze sprawdzonego źródła, ale tylko pod warunkiem, że twórcy Aurora Store nie zafundują nam ataku typu [Man in the Middle](https://pl.wikipedia.org/wiki/Atak_man_in_the_middle). Decyzja czy ufasz twórcom tej aplikacji należy do Ciebie.
+Jeżeli chodzi o bezpieczeństwo to faktycznie w teorii pobieramy pliki .apk ze sprawdzonego źródła, ale **tylko pod warunkiem, że twórcy Aurora Store nie zafundują nam ataku typu [Man in the Middle](https://pl.wikipedia.org/wiki/Atak_man_in_the_middle)**. Decyzja czy ufasz twórcom tej aplikacji należy do Ciebie.
 
-#### To lista aplikacji z Aurora Store, które działają bez GMS
+#### Lista aplikacji, których działanie bez GMS zweryfikowałem
 
-Poniżej przedstawiam listę aplikacji, które sprawdziłem i mogę potwierdzić, że działają bez GMS (Google Mobile Services).
+Poniżej przedstawiam listę aplikacji, które pobrałem z Aurora Store, sprawdziłem i mogę potwierdzić, że działają bez GMS (Google Mobile Services).
 
 - **Allegro** - zakupy
 - **Apple Music** - tak, z tego nie udało mi się zrezygnować porzucając iPhone
 - **Apple TV** - jest w pakiecie, ale jakby nie było to zrezygnowałbym z subskrypcji, bo Stremio mi wystarcza
-- **Biedronka** - promki
+- **Biedronka** - promki na spożywkę
 - **Bolt** - taksówki
 - **Booksy** - fryzjer
 - **BPme** - promki na paliwo
@@ -237,19 +237,19 @@ Poniżej przedstawiam listę aplikacji, które sprawdziłem i mogę potwierdzić
 - **Decathlon** - pozbyłem się, ale działało
 - **DeepL** - translator, czy jest jakaś otwarto-źródłowa alternatywa, która jest równie dobra?
 - **Discord** - po ostatnich wydarzeniach chyba się pozbędę, bo w zasadzie nie używam
-- **Duolingo** - sówka! to stały punkt dnia dla moich córek
+- **Duolingo** - sówka! wspólna nauka włoskiego to stały punkt dnia dla moich córek
 - **DWService** - zdalny pulpit
 - **Ekstraliga** (żużel) - jestem psychofanem
 - **epark** - parkowanie w mieście
 - **Formula 1** - jestem psychofanem
-- **Geoportal Mobile** - plany zagospodarowania terenu, appka zbugowana jak cholera, ale działa lepiej niż wersja webowa
+- **Geoportal Mobile** - plany zagospodarowania terenu, appka zbugowana jak cholera, ale działa lepiej niż wersja webowa na telefonie
 - **GitHub** - wiem, że jest alternatywa OpenHub, ale crashuje mi po zalogowaniu do GH
 - **Appka mojej gminy** - bo muszę wiedzieć kiedy mi zabiorą śmieci :)
 - **Jakdojade** - rozkłady jazdy autobusów
-- **Lidl Plus** - promki
+- **Lidl Plus** - promki na spożywkę
 - **LiveKid** - komunikacja z przedszkolem córki
 - **Messanger** - shame on me, ale niestety mam znajomych, którzy bez FB nie wyobrażają sobie życia...
-- **OLX** - tylko dla powiadomień mam aplikację
+- **OLX** - ogłoszenia lokalne, używam w zasadzie tylko dla powiadomień
 - **OpenVPN** - używam jako tunel do sieci domowej
 - **park4night** - świetna appka do znajdowania parkingu na wakacjach (nie tylko kamperem)
 - **Pepper** - promki cebulowe
@@ -258,39 +258,39 @@ Poniżej przedstawiam listę aplikacji, które sprawdziłem i mogę potwierdzić
 - **Pocket Casts** - podcasty, planuję migrację na AntennaPod
 - **Reddit** - w sumie nie wiem po co mi appka, ale działa
 - **Reolink** - monitoring domowy
-- **SmartLife** - kto ma cokolwiek smart to wie po co to
+- **SmartLife** - kto ma cokolwiek smart z Chin to wie po co to
 - **Tapo** - kamerki domowe
 - **Termius** - tutaj też szukam jakiejś alternatywy open-source
 - **Tether** - zarządzanie routerami TP-Link
 - **TickTick** - listy zadań (to-do), ciężko jest mi znaleźć sensowną alternatywę, która jest multiplatformowa i ma wszystkie potrzebne mi funkcje
-- **TV Time** - śledzenie tego jakie seriale i filmy obejrzałem
-- **Zepp** - dedykowana appka dla smartwatcha Amazfit Balance
+- **TV Time** - śledzenie tego jakie seriale i filmy obejrzałem (tu w sumie też mógłbym być zainteresowany znalezieniem alternatywy)
+- **Zepp** - dedykowana appka dla smartwatcha Amazfit Balance, którego używam
 - **ZeroTier** - używałem zamiast OpenVPN, gdy jeszcze nie miałem światłowodu tylko samą radiówkę
 
 ### Pełna kontrola uprawnień aplikacji
 
-GrapheneOS pozwala nam pełną kontrolę tego jakie uprawnienia może mieć każda z aplikacji. Dla przykładu w konwencjonalnych forkach systemu Android każda aplikacja domyślnie posiada uprawnienia **Network** (dostęp do internetu) i **Sensors** (dostęp do wszystkich czujników jak np. akcelerometr).
+GrapheneOS pozwala na pełną kontrolę tego jakie uprawnienia może mieć każda z aplikacji. Dla przykładu w konwencjonalnych forkach systemu Android każda aplikacja domyślnie posiada przyznane uprawnienia **Network** (dostęp do internetu) i **Sensors** (dostęp do wszystkich czujników jak np. akcelerometr).
 
-Czy ktoś kiedyś zastanawiał się czy wszystkie aplikacje na telefonie potrzebują dostępu do Internetu? Faktycznie w przeważającej większości przypadków appka mobilna bez dostępu do sieci jest bezużyteczna, ale nie można generalizować, bo chociażby wspomniany przeze mnie wcześniej **FUTO Voice Input** do zmiany mowy na tekst używa lokalnego LLM, który działa offline na urządzeniu. Po co w takim razie takiej aplikacji dostęp do Internetu? Po nic, więc **takiego uprawnienia nie powinna mieć**. Weźmy teraz takie aplikacje jak FairScan (skanowanie dokumentów), Catima (agregator kart lojalnościowych), Collabora Office (pakiet biurowy) czy Librera (czytnik ebooków). One też nie potrzebują dostępu do Internetu!
+Czy ktoś kiedyś zastanawiał się **czy wszystkie aplikacje na telefonie potrzebują dostępu do Internetu?** Faktycznie w przeważającej większości przypadków appka mobilna bez dostępu do sieci jest bezużyteczna, ale nie można tego tak generalizować, bo chociażby wspomniany przeze mnie wcześniej **FUTO Voice Input** do zmiany mowy na tekst używa lokalnego LLM, który działa offline na urządzeniu. Po co w takim razie takiej aplikacji dostęp do Internetu? Po nic, więc **takiego uprawnienia nie powinna mieć**. Weźmy teraz takie aplikacje jak FairScan (skanowanie dokumentów), Catima (agregator kart lojalnościowych), Collabora Office (pakiet biurowy) czy Librera (czytnik ebooków). One też **nie potrzebują dostępu do Internetu!**
 
-Sytuacja wygląda jeszcze bardziej kuriozalnie, gdy popatrzy się na to jakie aplikacje tak naprawdę potrzebują dostępu do wszystkich sensorów naszego urządzenia. Jakby tak zastanowić się na spokojnie to dojdziemy do wniosku, że w tym konkretnym przypadku jest zupełnie odwrotnie, czyli **praktycznie żadna aplikacja nie potrzebuje tych informacji**. A przypominam, że domyślnie na Androidzie z usługami Google wszystkie aplikacje mają takie uprawnienia.
+Sytuacja wygląda jeszcze bardziej kuriozalnie, gdy popatrzy się na to jakie aplikacje tak naprawdę potrzebują dostępu do wszystkich sensorów naszego urządzenia. Jakby tak zastanowić się na spokojnie to dojdziemy do wniosku, że w tym konkretnym przypadku jest zupełnie odwrotnie niż w poprzednim, czyli **praktycznie żadna aplikacja nie potrzebuje tych informacji**. A przypominam, że **domyślnie na Androidzie z usługami Google wszystkie aplikacje mają takie uprawnienia**.
 
-Aby zarządzać uprawnieniami danej aplikacji wystarczy **przytrzymać palcem na jej ikonie**, z wysuniętego menu wybrać **O aplikacji** i odszukać zakładkę **Uprawnienia**. Pojawi nam się lista posegregowana według następujących kategorii - **Ma dostęp**, **Zawsze pytaj** i **Nie ma dostępu**. Polecam przejrzeć tą listę dla każdej aplikacji z osobna zaraz po jej zainstalowaniu. To podstawa hardeningu GrapheneOS.
+Aby zarządzać uprawnieniami danej aplikacji wystarczy **przytrzymać palcem na jej ikonie**, z wysuniętego menu wybrać **O aplikacji** i odszukać zakładkę **Uprawnienia**. Pojawi nam się lista posegregowana według takich kategorii - **Ma dostęp**, **Zawsze pytaj** i **Nie ma dostępu**. Polecam przejrzeć tą listę dla każdej aplikacji z osobna zaraz po jej zainstalowaniu. To **podstawa hardeningu GrapheneOS**.
 
-Zbiorcze menu, w którym można podejrzeć konkretne uprawnienia i jakie aplikacje mają je włączone dostępne jest w **Ustawienia -> Bezpieczeństwo i prywatność -> Ustawienia prywatności -> Menedżer uprawień**. Ciekawym miejscem jest też **Panel prywatności** dostępny w tym samym miejscu. Jest to narzędzie, które pokazuje nie tylko uprawnienia aplikacji, ale także to jak często dana aplikacja sięga po przydzielone im uprawnienia.
+Zbiorcze menu, w którym można podejrzeć konkretne uprawnienia i jakie aplikacje mają je przyznane dostępne jest w **Ustawienia -> Bezpieczeństwo i prywatność -> Ustawienia prywatności -> Menedżer uprawień**. Ciekawym miejscem jest też **Panel prywatności** dostępny w tym samym miejscu. Jest to narzędzie, które pokazuje nie tylko uprawnienia aplikacji, ale także to jak często dana aplikacja sięga po przydzielone im uprawnienia.
 
 ### Przestrzeń prywatna
 
-W GrapheneOS mamy nie tylko profile użytkowników, ale do tego każdy użytkownik może mieć też coś co się nazywa **Przestrzeń prywatna**. Coś podobnego spotkałem już na Samsungu, gdzie nazywało się to **Mój sejf**, więc zakładam, że może to być po prostu funkcjonalność Android, która jest różnie implementowana.
+W GrapheneOS mamy nie tylko profile użytkowników, ale do tego każdy użytkownik może mieć też coś co się nazywa **Przestrzeń prywatna**. Coś podobnego spotkałem już na Samsung'u, gdzie nazywało się to **Mój sejf**, więc zakładam, że może to być po prostu funkcjonalność Android, która jest różnie implementowana przez każdego z producentów.
 
-Przestrzeń prywatną włącza się w **Ustawienia -> Bezpieczeństwo i prywatność -> Przestrzeń prywatna**. Jest ona taką jakby oddzielną piaskownicą, która jest częścią środowiska, którego używasz, ale jednocześnie jest od niego odizolowana. Dla mnie jest to miejsce dzięki któremu mam szybki dostęp do aplikacji, które jednak wymagają usług Google. Zapytasz - dlaczego w takim razie aplikację mBank i T-Mobile trzymam na użytkowniku **Właściciel** skoro mógłbym je trzymać tutaj. Otóż z nieznanych mi przyczyn nie jestem w stanie tak skonfigurować mojej przestrzeni prywatnej, aby działało na niej prawidłowo płacenie BLIKiem zbliżeniowym przez NFC. Tak samo z Magenta Moments od T-Mobile, które nie działają prawidłowo pomimo zainstalowanych GMS w przestrzeni prywatnej.
+Przestrzeń prywatną włącza się w **Ustawienia -> Bezpieczeństwo i prywatność -> Przestrzeń prywatna**. Jest ona taką jakby odseparowaną piaskownicą, która jest częścią środowiska, którego używasz, ale jednocześnie jest od niego odizolowana. Dla mnie jest to miejsce dzięki któremu mam szybki dostęp do aplikacji, które jednak wymagają usług Google. Zapytasz - dlaczego w takim razie aplikację mBank i T-Mobile trzymam na użytkowniku **Właściciel** skoro mógłbym je trzymać tutaj. Otóż z nieznanych mi przyczyn nie jestem w stanie tak skonfigurować mojej przestrzeni prywatnej, aby działało na niej prawidłowo płacenie BLIKiem zbliżeniowym przez NFC. Tak samo z Magenta Moments od T-Mobile, które nie działają prawidłowo pomimo zainstalowanych GMS w przestrzeni prywatnej.
 
 #### Lista aplikacji w mojej przestrzeni prywatnej
 
 - **Dysk Google** - wykorzystuję jako chmura do udostępniania plików klientom
 - **Finax** - odkładam na emeryturę w ramach OIPE
-- **IKO** - appka banku PKO BP
-- **InPost Mobile** - wiadomo, że to paczkomaty, aczkolwiek w przestrzeni prywatnej nie działa mi też lokalizacja (telefon przesyła swojej pozycji do aplikacji), więc używam kodów QR jak jakiś neandertalczyk
+- **IKO** - appka banku PKO BP, obligacje skarbowe plus PPK
+- **InPost Mobile** - paczkomaty, w przestrzeni prywatnej nie działa mi też lokalizacja (telefon przesyła swojej pozycji do aplikacji), więc używam kodów QR jak jakiś neandertalczyk
 - **mBank** - ponownie, bo o ile nie działa mi tutaj płatność zbliżeniowa to inne funkcje aplikacji bankowej normalnie działają
 - **mObywatel** - na początku trzymałem tą aplikację w profilu głównym jako pobrana z Aurora Store i wszystko w miarę działało, ale co jakiś czas aplikacja łapała totalną zwiechę i nie odpowiadała, wydaje mi się, że może to być związane z tym, że jednak w tle wysyła jakieś zapytania związane z usługami Google i nie odpowiada dopóki nie nastąpi timeout takiego zapytania, mam to na liście do zbadania
 - **mojeIKP** - ostatnio mam coraz więcej problemów ze zdrowiem, ewidentnie już nie jestem taki niezniszczalny, więc taka geriatryczna aplikacja jest mi po prostu niezbędna
