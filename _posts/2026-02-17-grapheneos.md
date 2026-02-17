@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GrapheneOS"
+title: "GrapheneOS - uwolnij się od Android i iOS"
 published: true
 categories: 
   - "poradniki"

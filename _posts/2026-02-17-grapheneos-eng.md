@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GrapheneOS [ENG 🇬🇧]"
+title: "GrapheneOS - break free from Android and iOS [ENG 🇬🇧]"
 published: true
 categories: 
   - "thoughts"
