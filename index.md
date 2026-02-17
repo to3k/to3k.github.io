@@ -4,7 +4,7 @@ title: Tomasz Dunia - Blog
 ---
 
 <div style="margin-bottom: 30px;">
-  <input type="text" id="search-input" placeholder="Szukaj / Search" style="width: 100%; padding: 8px; font-family: monospace; border: 1px solid #ccc; border-radius: 4px;">
+  <input type="text" id="search-input" placeholder="🔍 Szukaj / Search" style="width: 100%; padding: 8px; font-family: monospace; border: 1px solid #ccc; border-radius: 4px;">
   <ul id="results-container" style="list-style: none; padding-left: 0; margin-top: 10px;"></ul>
 </div>
 
