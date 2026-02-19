@@ -83,6 +83,7 @@ Spis treści:
     - New generated OTP - aktualny ** OTP** wyświetlany w aplikacji Ente Auth na telefonie,
     - przycisk **Add**.
 14. W tym momencie zostaniemy wylogowani i będziemy musieli zalogować się ponownie. Dlatego podajemy normalnie login i hasło oraz naciskamy oczywiście przycisk **Login**. Teraz to jest ten dodatkowy krok, w którym musimy podać aktualny kod OTP z aplikacji Ente Auth na telefonie. Naciskamy przycisk **Verify**. Po pomyslnym zalogowaniu trafiamy ponownie do ustawień zabezpieczeń konta, gdzie widzimy, że dwuetapowe uwierzytelnienie zostało aktywowane. Nasze konto jest na pewno 100 razy bardziej bezpieczne z tym niż z samym loginem i hasłem.
+15. Po czasie Hetzner poprosił mnie mailowo o dodatkową weryfikację tożsamości, bo moje konto wzbudziło jakieś wątpliwości. Musiałem wejść w link podany w mailu (był to link do zakładki **Verification** w ustawieniach konta) i potwierdzić swoją tożsamość dokumentem (dowód osobisty, prawo jazdy, paszport i chyba coś jeszcze do wyboru...) oraz zdjęciem twarzy. Żeby było śmieszniej to automatyczna weryfikacja nie przeszła, bo chyba przytyłem czy coś i nie wyglądam jak na zdjęciu z dowodu, więc musiałem dodatkowo czekać na weryfikację przez człowieka, co trwało na szczęście może tylko z minutę lub maksymalnie dwie.
 
 
 
