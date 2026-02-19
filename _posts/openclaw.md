@@ -125,4 +125,4 @@ To co nas interesuje to najtańszy serwer **CX23** z procesorem o **2 wirtualnyc
 ![Konfiguracja serwera do zakupu](/images/hetznerserverconfig.png)
 
 7. Z taką konfiguracją możemy przystąpić do zakupu serwera. W tym celu naciskamy czerwony przycisk **Create & Buy now**.
-
+8. Zostaniemy przeniesieni do listy naszych serwerów, gdzie pojawi się nowa (i jedyna) opcja, czyli serwer, który właśnie utworzyliśmy. Na początku będzie się przy nim kręcić kółko co oznacza, że trzeba chwilę poczekać na jego utworzenie. Jednak po chwili na dole wyskoczy zielony komunikat **Server created**, co oznacza, że nasz poligon doświadczalny jest już gotowy.
