@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenClaw - AI personal assistant [ENG 🇬🇧]"
+title: "OpenClaw - Personal AI Assistant [ENG 🇬🇧]"
 published: false
 categories: 
   - "projects"
