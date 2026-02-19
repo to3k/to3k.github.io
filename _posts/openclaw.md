@@ -93,7 +93,7 @@ Zdecydowałem się na Hetzner, bo nie znam firmy, która dostarcza serwery z lep
 
 Zobaczmy jak kształtuje się aktualna oferta Hetzner. Polecam skorzystać z przycisku na górze, który pozwala ustawić język (English), walutę (ja wybrałem USD) i co najważniejsze kraj dla jakiego ma być liczony **VAT**, co pozwoli nam poznać **ceny brutto**, bo domyślnie prezentowane są ceny netto bez podatku.
 
-Teraz możemy przejść do zakładki [**Cloud**](https://www.hetzner.com/cloud/) i zjechać do sekcji **Prices**. To co nas interesuje to serwery z kategorii **Shared Cost-Optimized**, czyli współdzielone, a przez to zoptymalizowane cenowo, a to po prostu ładniejsza nazwa na serwery dla cebulaków. Teraz już chyba nikt nie ma wątpliwości, że to właśnie to czego szukaliśmy. Możemy wybrać spośród dwóch lokalizacji, ale dla mnie **Niemcy** (Germany) są dość oczywistym wyborem ze względu na to, że w mojej ocenie serwerownia, z której się korzysta powinna być zawsze możliwie jak najbliżej, a Finlandia jest niewątpliwie dalej. Jesteśmy leniuchami i nie chce nam się bawić z problemami z IPv6, więc wybieramy opcję z **IPv4** pomimo tego, że jest o 74 centy droższa.
+Teraz możemy przejść do zakładki [**Cloud**](https://www.hetzner.com/cloud/) i zjechać do sekcji **Prices**. To co nas interesuje to serwery z kategorii **Shared Cost-Optimized**, czyli współdzielone, a przez to zoptymalizowane cenowo, a to po prostu ładniejsza nazwa na serwery dla cebulaków. Teraz już chyba nikt nie ma wątpliwości, że to właśnie to czego szukaliśmy. Możemy wybrać spośród dwóch lokalizacji, ale dla mnie **Niemcy** (Germany) są dość oczywistym wyborem ze względu na to, że w mojej ocenie serwerownia, z której się korzysta powinna być zawsze możliwie jak najbliżej, a Finlandia jest niewątpliwie dalej i do tego połączona przez kabel na dnie Bałtyku. Jesteśmy leniuchami i nie chce nam się bawić z problemami z IPv6, więc wybieramy opcję z **IPv4** pomimo tego, że jest o 74 centy droższa.
 
 Aktualna (na luty 2026) **oferta** Hetzner prezentuje się tak:
 
@@ -126,3 +126,345 @@ To co nas interesuje to najtańszy serwer **CX23** z procesorem o **2 wirtualnyc
 
 7. Z taką konfiguracją możemy przystąpić do zakupu serwera. W tym celu naciskamy czerwony przycisk **Create & Buy now**.
 8. Zostaniemy przeniesieni do listy naszych serwerów, gdzie pojawi się nowa (i jedyna) opcja, czyli serwer, który właśnie utworzyliśmy. Na początku będzie się przy nim kręcić kółko co oznacza, że trzeba chwilę poczekać na jego utworzenie. Jednak po chwili na dole wyskoczy zielony komunikat **Server created**, co oznacza, że nasz poligon doświadczalny jest już gotowy.
+
+### Połączenie przez SSH do serwera
+
+Serwer gotowy, więc pora zajrzeć na maila, gdzie powinna już znajdować się wiadomość ze wszystkimi informacjami potrzebnymi do łączenia się do niego. Powinna ona wyglądać mniej więcej tak:
+
+```html
+{% raw %}
+Your new server
+
+Your server "openclaw-assistant" was created!
+
+You can access your server with the following credentials:
+ 
+IPv4	    ADRES_IPV4/32
+IPv6	    ADRES_IPV6/64
+User	    root
+Password	OCENZUROWANE_HASŁO
+	
+You will be prompted to change your password on your first login.
+
+To improve security, we recommend that you add an SSH key when creating a server. This way, no root password will be set and this e-mail won't be generated. 
+{% endraw %}
+```
+
+Z tego maila będziemy dalej potrzebować **ADRES_IPV4** oraz **OCENZUROWANE_HASŁO**. Spróbujmy teraz połączyć się z serwerem.
+1. Otwieramy **terminal** i wpisujemy:
+
+```bash
+ssh root@ADRES_IPV4
+```
+
+2. Powinniśmy zobaczyć taki **komunikat**:
+
+```bash
+The authenticity of host 'ADRES_IPV4 (ADRES_IPV4)' can't be established.
+ED25519 key fingerprint is SHA256: CENZURA.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+
+3. Musimy na to odpowiedzieć wpisując **yes** i nacisnąć **ENTER**.
+4. Rezultatem będzie komunikat informujący, że adres naszego serwera został dodany do listy znanych hostów i następnym razem zostanie rozpoznany poprzez swój fingerprint (odcisk palca) i nie będzie konieczne potwierdzenie autentyczności.
+
+```bash
+Warning: Permanently added 'ADRES_IPV4' (ED25519) to the list of known hosts.
+Connection closed by ADRES_IPV4 port 22
+```
+
+5. Połączenie zostanie przerwane, więc musimy jeszcze raz skorzystać z **komendy**:
+
+```bash
+ssh root@ADRES_IPV4
+```
+
+6. Powita nas prośba o podanie hasła, więc wpisujemy **OCENZUROWANE_HASŁO** i potwierdzamy **ENTERem**. Uwaga: jeżeli nie masz doświadczenia z SSH to zdziwić Cię może to, że podczas wpisywania hasła nic się nie dzieje, tj. nie pojawiają się nawet gwiazdki, tak ma być i jest to porządane działanie, wpisz po prostu hasło i nie przejmuj się tym.
+7. Jeżeli niczego nie pomyliliśmy to powinniśmy skutecznie nawiązać połączenie i zostać **powitani** czymś w rodzaju:
+
+```bash
+You are required to change your password immediately (administrator enforced).
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.8.0-90-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu Feb 19 07:43:22 PM UTC 2026
+
+  System load:              0.16              
+  Processes:                127
+  Usage of /:               4.1% of 37.23GB   
+  Users logged in:          0
+  Memory usage:             5%                
+  IPv4 address for eth0:    ADRES_IPV4
+  Swap usage:               0%                
+  IPv6 address for eth0:    ADRES_IPV6
+
+Expanded Security Maintenance for Applications is not enabled.
+
+62 updates can be applied immediately.
+43 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+Changing password for root.
+Current password: 
+```
+
+8. Serwer jest tak skonfigurowany, że już podczas pierwszego połączenia **wymusza na nas zmianę hasła dla administratora**. To dobra praktyka, więc posłusznie stosujemy się do sugestii.
+    - najpierw pisujemy stare **OCENZUROWANE_HASŁO** i potwierdzamy **ENTERem**,
+    - a później wpisujemy dwa razy **NOWE_HASŁO** każdorazowo potwierdzając **ENTERem**.
+
+### Aktualizacja
+
+Podstawową konfigurację zaczniemy od **zaktualizowania pakietów na serwerze**. Wykorzystamy do tego gotowy skrypcik, który już wcześniej przedstawiałem w [jednym z wpisów na tym blogu](https://blog.tomaszdunia.pl/serwer-domowy-podstawowa-konfiguracja/#aktualizacja-to-podstawa).
+
+1. Wpisujemy **komendę**:
+
+```bash
+nano /usr/local/sbin/aktualizacja.sh
+```
+
+2. W edytorze, który się otworzy **wklejamy poniższą treść**:
+
+```bash
+{% raw %}
+#!/bin/bash
+#Skrypt do aktualizacji systemu i pakietow z blog.tomaszdunia.pl
+echo 'Krok 1 - update'
+sudo apt update
+echo 'Krok 2 - upgrade'
+sudo apt upgrade -y
+echo 'Krok 3 - autoremove'
+sudo apt autoremove -y
+echo 'Krok 4 - clean'
+sudo apt clean
+{% endraw %}
+```
+
+3. Wychodzimy z pliku kombinacją klawiszy **Control (CTRL) + X**, zostaniemy zapytani czy zapisać plik w takim stanie, wystarczy potwierdzić naciskając **y**, a potem na pytanie pod jaką nazwą zapisać wystarczy potwierdzić, że pod taką pod jaką otworzyliśmy, czyli po prostu **ENTER**.
+
+4. Teraz musimy nadać temu skryptowi uprawnienia do uruchamiania się:
+
+```bash
+chmod +x /usr/local/sbin/aktualizacja.sh
+```
+
+5. Teraz wystarczy wpisać nazwę pliku jak komendę, aby rozpoczął się automatyczny proces aktualizacji i czyszczenia po niej:
+
+```bash
+aktualizacja.sh
+```
+
+6. Po zakończonej tak dużej aktualizacji (zakładam, że sporo pakietów będzie nieaktualnych) dobrze jest rozważyć restart serwera:
+
+```bash
+reboot
+```
+
+7. Oczywiście utracimy połączenie z serwerem, więc będziemy musieli je nawiązać tak jak robiliśmy to wcześniej.
+
+### Tworzenie nowego użytkownika
+
+Podstawą rozsądnego używania serwera VPS jest nie pracowanie na użytkowniku z uprawnieniami root. Dlatego utworzymy teraz zwykłego użytkownika i przydzielimy go do grupy mogącej wykonywać komendy administracyjne. To taki administrator, ale z dodatkową warstwą zabezpieczenia, bo przed wykonaniem komendy administracyjnej będzie musiał wpisać **sudo** i potwierdzić hasłem. To czasem wystarcza, żeby opamiętać się przed zrobieniem czegoś głupiego. Utworzenie takiego konta to standardowa praktyka. Nadamy mu nazwę **manager**.
+
+1. Tworzymy użytkownika o nazwie **manager**:
+```bash
+adduser manager
+```
+
+2. Serwer poinformuje nas, że utworzył nowego użytkownika i grupę, nadał im unikalne identyfikatory i utworzył katalog domowy. Zostaniemy także poproszeni o podanie dwukrotnie **hasła dla nowego użytkownika**.
+3. Następnie kreator będzie chciał wyciągnać od nas niepotrzebne dane typu imię i nazwisko, numer pokoju, telefon itp. co nas nie interesuje, więc wszystkie rubryki zostawiamy puste i tylko potwierdzamy **ENTERem**. To wszystko trzeba będzie jeszcze potwierdzić **y**.
+4. Użytkownik utworzony, więc trzeba go teraz dodać do grupy administratorów:
+
+```bash
+usermod -aG sudo manager
+```
+
+### Firewall - zapora sieciowa
+
+Skonfigurujmy **zaporę sieciową**. Dobrą praktyką jest na początek **zablokować cały ruch przychodzący**, **odblokować cały ruch wychodzący** i do tego **otworzyć port 22** (domyślny dla SSH).
+
+1. Zacznijmy od instalacji **ufw** (skrót od Uncomplicated Firewall, z ang. nieskomplikowana zapora sieciowa), to taka nakładka na **iptables**, która trochę umila tworzenie reguł zapory:
+
+```bash
+apt install ufw
+```
+
+2. Teraz wykonamy parę komend jedna po drugiej. **Wyłączomy** firewall w celu zmiany jego ustawień:
+
+```bash
+ufw disable
+```
+
+3. **Zresetujemy** (wyczyścimy) wszystkie reguły, żeby zacząć zupełnie od nowa, będzie trzeba to potwierdzić **y**:
+
+```bash
+ufw reset
+```
+
+4. Zablokujemy cały *ruch **przychodzący***:
+
+```bash
+ufw default deny incoming
+```
+
+5. Odblokujemy cały ruch **wychodzący**:
+
+```bash
+ufw default allow outgoing
+```
+
+6. Otworzymy **port 22** dla połączeń SSH:
+
+```bash
+ufw allow 22
+```
+
+7. **Włączymy** zaporę, trzeba potwierdzić **y**:
+
+```bash
+ufw enable
+```
+
+8. Teraz nawet jeżeli coś zepsuliśmy to nie utracimy połączenia z serwerem, a co najwyżej nie będziemy mogli się do niego połączyć po przerwaniu połączenia. Dlatego korzystajmy z chwili i sprawdźmy jeszcze drugi raz czy wszystko jest ustawione tak jak tego chcieliśmy:
+
+```bash
+ufw status verbose
+```
+
+9. Wynik tej komendy powinien być następujący:
+
+```bash
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To          Action      From
+--          ------      ----
+22          ALLOW IN    Anywhere                  
+22 (v6)     ALLOW IN    Anywhere (v6)
+```
+
+10. Jeżeli wszystko się zgadza to do znaku to możesz być spokojny.
+11. Sprawdźmy jeszcze czy aby na pewno **ufw** będzie uruchamiać się wraz z systemem po każdym restarcie. Zajrzyjmy do pliku:
+
+```bash
+nano /etc/ufw/ufw.conf
+```
+
+12. Wewnątrz powinniśmy znaleźć następującą treść:
+```bash
+{% raw %}
+# /etc/ufw/ufw.conf
+#
+
+# Set to yes to start on boot. If setting this remotely, be sure to add a rule
+# to allow your remote connection before starting ufw. Eg: 'ufw allow 22/tcp'
+ENABLED=yes
+
+# Please use the 'ufw' command to set the loglevel. Eg: 'ufw logging medium'.
+# See 'man ufw' for details.
+LOGLEVEL=low
+{% endraw %}
+```
+
+13. Istotna dla nas jest zmienna **ENABLED**. Jej wartość ma być **yes**, a linijka, w której występuje nie może być zakomentowana (bez \# na początku).
+14. Z pliku wychodzimy kombinacją **Control (CTRL) + X**.
+
+### Fail2Ban
+
+To program, który chroni przed atakami typu **brute force**. Jeśli ktoś spróbuje odgadnąć hasło SSH kilka razy z rzędu i mu się nie powiedzie to Fail2Ban automatycznie zablokuje jego adres IP.
+
+1. **Instalujemy** program:
+```bash
+apt install fail2ban -y
+```
+
+2. **Włączamy** go:
+
+```bash
+systemctl enable fail2ban --now
+```
+
+### Klucze SSH
+
+Nie będę tłumaczył dlaczego stosowanie kluczy SSH to zalecana praktyka. Po prostu pokażę jak to skonfigurować.
+
+1. Zacznijmy jednak od **wylogowania się** z konta root:
+
+```bash
+exit
+```
+
+2. Teraz połączmy się kontem **docelowym do zarządzania serwerem**, żeby sprawdzić czy wszystko działa prawidłowo:
+
+```bash
+ssh manager@ADRES_IPV4
+```
+
+3. Pamiętaj, że teraz musisz **wpisać to hasło, które zostało podane przy tworzeniu tego użytkownika**, a nie hasło root'a.
+4. Jeżeli udało się połączyć i uwierzytelnić to znaczy, że **wszystko jest OK** i znowu możemy się **rozłączyć** i wrócić do terminala lokalnego:
+
+```bash
+exit
+```
+
+4. **Utwórzmy teraz parę kluczy SSH** (komenda do wykonania na komputerze lokalnym!):
+
+```bash
+ssh-keygen -t ed25519 -C openclaw-assistant
+```
+
+5. Skrypt zapyta o ścieżkę i nazwę pliku, w którym ma zostać zapisany klucz, nam **pasuje wartość domyślna**, więc tylko potwierdzamy **ENTERem**:
+
+```bash
+Enter file in which to save the key (/root/.ssh/id_ed25519): 
+```
+
+6. Następnie poprosi o ustawienie hasła zabezpieczającego klucz, polecam to zrobić, ale niech to będzie coś raczej prostego co będzie nam łatwo zapamiętać, to tylko dodatkowa warstwa zabezpieczenia na wypadek, gdyby nasz komputer z kluczem na dysku trafił w niepowołane ręce odblokowany i z pełnym fizycznym dostępem włamywacza. Dla mnie to scenariusz, w którym utrata kluczy SSH będzie moim najmniejszym problemem, więc przymykam oko na taki wektor ataku. Możesz także nie ustawiać hasła i po prostu pominąć ten krok naciskając dwa razy **ENTER**.
+
+```bash
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+```
+
+7. Wyślijmy teraz świeżo wygenerowane klucze na serwer VPS:
+
+```bash
+ssh-copy-id manager@ADRES_IPV4
+```
+
+8. Ten jeden ostatni raz zostaniemy poproszeni o podanie hasła użytkownika **manager** przy logowaniu. Klucze wysłane i teraz można już przetestować logowanie bez konieczności podawania hasła:
+
+```bash
+ssh manager@ADRES_IPV4
+```
+
+9. Teraz wykonamy dwa ważne kroki - wyłączymy logowanie hasłem, czyli od teraz będzie można dostać się na serwer tylko posiadając klucz prywatny SSH, oraz wyłączymy możliwość zalogowania się na konto root. W tym celu edytujemy plik:
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+10. Odszukujemy parametry **PermitRootLogin**, **PubkeyAuthentication** i **PasswordAuthentication** (uwaga - nie będą obok siebie), sprawdzamy czy nie są zakomentowane (mają nie miec \# na początku linii) i zmieniamy ich wartości na takie jak poniżej:
+
+```bash
+PermitRootLogin no
+...
+PubkeyAuthentication yes
+...
+PasswordAuthentication no
+```
+
+11. Zapisujemy i opuszczamy plik - **Control (CTRL) + X**, później **y** i **ENTER**.
+12. Resetujemy proces **ssh**, żeby wprowadzić zmiany:
+
+```bash
+sudo service ssh restart
+```
