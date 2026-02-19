@@ -120,41 +120,9 @@ To co nas interesuje to najtańszy serwer **CX23** z procesorem o **2 wirtualnyc
     - Labels - jestem zbyt mało zorientowany, żeby wypowiedzieć się na temat tego co to jest, więc **pomijam**,
     - Cloud config - jestem zbyt mało zorientowany, żeby wypowiedzieć się na temat tego co to jest, więc **pomijam**,
     - Name - tutaj nadamy naszemu serwerowi nazwę, ja wpisałem **openclaw-assistant**
+6. Konfiguracja powinna wyglądać mniej więcej tak:
 
+![Konfiguracja serwera do zakupu](/images/hetznerserverconfig.png)
 
+7. Z taką konfiguracją możemy przystąpić do zakupu serwera. W tym celu naciskamy czerwony przycisk **Create & Buy now**.
 
-
-
-
-
-
-
-PODTYTUŁ:
-## PODTYTUŁ
-
-LINKI:
-[TEKST](LINK)
-
-POGRUBIENIE:
-**GRUBE**
-
-KURSYWA:
-_POCHYLONE_
-
-OBRAZ:
-![](/images/OBRAZ.png)
-
-KOD:
-```JĘZYK
-{% raw %}
-TREŚĆ
-{% endraw %}
-```
-
-LISTA:
-- punkt1
-- punkt2
-- punkt3
-1. numer1
-2. numer2
-3. numer3
