@@ -663,7 +663,7 @@ docker compose logs -f openclaw-gateway
 
 7. Jeżeli nie ma tam żadnych czerwonych napisów, **WARNING** albo **ERROR** to to znaczy, że wszystko jest ok. Nie wymagam od nikogo rozumienia co tam jest napisane, bo sam na pewno nie rozumiem tego w pełni. Jeżeli masz wątpliwości to możesz mi podesłać treść logów, wrzucić je tutaj w komentarzu lub zapytać o to np. Gemini ( :-) ). Z logów wychodzimy kombinacją przycisków **Control (CTRL) + C**.
 
-## Panel sterowania - pierwsza rozmowa
+## Panel sterowania - przygotowanie interfejsu do komunikacji
 
 Kontener został uruchomiony, więc pora wejść do jego środka i spróbować podjąć pierwszą próbę kontaktu z botem działającym wewnątrz. A konkretnie wejdziemy do panelu, z którego poziomu będziemy zarządzać botem.
 
@@ -720,4 +720,5 @@ docker compose exec openclaw-gateway node dist/index.js devices approve IDENTYFI
 
 12. W podpowiedzi powinniśmy otrzymać komunikat zawierający słowo **Approved** (z ang. zatwierdzony).
 
-13. 
+13. Teraz, gdy wrócimy do przeglądarki na komputerze lokalnym to powinniśmy już zobaczyć prawidłowo działający panel sterowania.
+
