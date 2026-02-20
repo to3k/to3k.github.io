@@ -489,4 +489,169 @@ Ciężko znaleźć informację jakie (liczbowo) są to limity, bo zdaje się, ż
 3. Z menu po lewej na dole wybieramy **[Get API key](https://aistudio.google.com/api-keys)**.
 4. Naciskamy przycisk **Create API key** znajdujący się na górze po prawej.
 5. W pole **Name your key** wpisujemy nazwę dla klucza, może to być np. **OpenClaw Assistant**. Z listy **Choose an imported project** wybieramy **+ Create project**, nadajemy mu nazwę np. **OpenClaw Project** i naciskamy **Create project**. Następnie naciskamy **Create key**.
-6. 
+6. Na liście kluczy pojawi się pozycja o nazwie, którą wpisaliśmy. Po prawej stronie mamy kilka ikon, a pierwsza od lewej nazywa się **Copy API key** i to właśnie z tego korzystamy.
+7. Skopiowany klucz zapisujemy w bezpiecznym miejscu.
+
+## Uruchamiamy kontener Dockera
+
+Pora przejść do działania. OpenClaw ma nawet w dokumentacji [specjalny podrozdział dotyczący uruchamiania usługi w oparciu o Docker na serwerze Hetzner](https://docs.openclaw.ai/install/hetzner). Będziemy się na nim bazować.
+
+1. Wracamy do serwera VPS i logujemy się na użytkowniku **manager**:
+
+```bash
+ssh manager@ADRES_IPV4
+```
+
+2. Instalujemy potrzebne **pakiety** - Docker, Docker Compose i Git:
+
+```bash
+sudo apt install -y docker.io docker-compose-v2 git
+```
+
+3. Aby zarządzać kontenerami bez konieczności pisania w kółko _sudo_ przed poleceniami dodamy użytkownika **manager** do grupy **docker**:
+
+```bash
+sudo usermod -aG docker manager
+```
+
+4. Aby nowe uprawnienia zaczęły działać musimy się wylogować komendą **exit** i połączyć ponownie do serwera:
+
+```bash
+ssh manager@ADRES_IPV4
+```
+
+5. Przed wykonaniem następnego polecenia sprawdź czy w momencie kiedy to czytasz poniższy link jest dalej aktualny. Piszę o tym, bo z projektem OpenClaw było już tak, że 3 czy 4 razy zmieniana była nazwa a raz nawet osobom trzecim udało się przejąć domenę projektu, co jest szalenie niebezpiecznym procederem. Jeżeli masz wątpliwość to zawsze śmiało możesz napisać do mnie bezpośrednio na Mastodon lub w komentarzu do tego wpisu. Gdy już wiemy, że mamy dobry link do repozytorium to pobieramy je na swój serwer:
+
+```bash
+git clone https://github.com/openclaw/openclaw.git
+```
+
+6. Przechodzimy do pobranego folderu:
+
+```bash
+cd openclaw
+```
+
+7. Teraz definiujemy stały katalog. Docker usuwa dane przy restarcie. Aby bot zachował pamięć (loginy, ustawienia itp.), musimy utworzyć odpowiedni folder na serwerze, w którym będą one utrzymywane:
+
+```bash
+mkdir -p /home/manager/.openclaw/workspace
+```
+
+8. Musimy jeszcze nadać im odpowiednie uprawnienia wewnętrznego użytkownika kontenera (UID 1000):
+
+```bash
+chown -R 1000:1000 /home/manager/.openclaw
+```
+
+9. Skonfigurujmy środkowisko. W tym celu tworzymy plik **.env**:
+
+```bash
+nano .env
+```
+
+10. Jako treść pliku wklejamy:
+
+```bash
+OPENCLAW_IMAGE=openclaw:latest
+OPENCLAW_GATEWAY_TOKEN=TWÓJ_TOKEN
+OPENCLAW_GATEWAY_BIND=lan
+OPENCLAW_GATEWAY_PORT=18789
+OPENCLAW_CONFIG_DIR=/home/manager/.openclaw
+OPENCLAW_WORKSPACE_DIR=/home/manager/.openclaw/workspace
+GOG_KEYRING_PASSWORD=TWÓJ_KLUCZ
+XDG_CONFIG_HOME=/home/node/.openclaw
+GEMINI_API_KEY=KLUCZ_API_GEMINI
+```
+
+11. Nie zamykamy jeszcze pliku, bo konieczne jest w nim zmodyfikowanie trzech rzeczy:
+    - **TWÓJ_TOKEN** - zamiast tego wpisz jakiś skomplikowany ciąg znaków, który zapiszesz również w swoim menedżerze haseł, będzie to **hasło dostępowe do panelu sterowania** (Control UI) bota.
+    - **TWÓJ_KLUCZ** - zamiast tego wpisz jakiś skomplikowany ciąg znaków, który zapiszesz również w swoim menedżerze haseł, będzie to **klucz, którym zaszyfrowane zostaną dane w stałym katalogu** (_./.openclaw/workspace_), który utworzyliśmy wcześniej, dzięki temu nawet jeżeli ktoś włamie się na VPS i skopiuje ten folder to nie odczyta poufnych danych tam przechowywanych.
+    - **KLUCZ_API_GEMINI** - zamiast tego podaj **klucz API**, który wcześniej skopiowaliśmy z Google AI Studio.
+    - **UWAGA** - przy generowaniu tokenu i klucza uważaj, aby w ciągu znaków nie było **$**, bo wykrzaczyło mi to kontener przy jego budowie i straciłem chyba z godzinę poszukując problemu.
+12. Teraz już możemy zapisać i zamknąć plik konfiguracyjny środowiska - **Control (CTRL) + X**, później **y** i **ENTER**.
+13. Zanim zbudujemy kontener musimy jeszcze zmodyfikować domyślny plik **docker-compose.yml**, bo nasz przypadek różni się nieco od tego założonego jako domyślny w głównym repozytorium.
+14. Jednakże przed modyfikacją pliku lepiej jest zrobić jego kopię zapasową, żeby w razie czego można było odnieść się do jego pierwotnej treści:
+
+```bash
+cp docker-compose.yml docker-compose-old-backup.yml
+```
+
+15. Otwieramy w edytorze plik **docker-compose.yml**:
+
+```bash
+nano docker-compose.yml
+```
+
+16. Prawidłowa treść powinna być następująca:
+
+```bash
+{% raw %}
+services:
+  openclaw-gateway:
+    image: ${OPENCLAW_IMAGE}
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - HOME=/home/node
+      - NODE_ENV=production
+      - TERM=xterm-256color
+      - OPENCLAW_GATEWAY_BIND=${OPENCLAW_GATEWAY_BIND}
+      - OPENCLAW_GATEWAY_PORT=${OPENCLAW_GATEWAY_PORT}
+      - OPENCLAW_GATEWAY_TOKEN=${OPENCLAW_GATEWAY_TOKEN}
+      - GOG_KEYRING_PASSWORD=${GOG_KEYRING_PASSWORD}
+      - XDG_CONFIG_HOME=${XDG_CONFIG_HOME}
+      - PATH=/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    volumes:
+      - ${OPENCLAW_CONFIG_DIR}:/home/node/.openclaw
+      - ${OPENCLAW_WORKSPACE_DIR}:/home/node/.openclaw/workspace
+    ports:
+      # Recommended: keep the Gateway loopback-only on the VPS; access via SSH tunnel.
+      # To expose it publicly, remove the `127.0.0.1:` prefix and firewall accordingly.
+      - "127.0.0.1:${OPENCLAW_GATEWAY_PORT}:18789"
+    command:
+      [
+        "node",
+        "dist/index.js",
+        "gateway",
+        "--bind",
+        "${OPENCLAW_GATEWAY_BIND}",
+        "--port",
+        "${OPENCLAW_GATEWAY_PORT}",
+        "--allow-unconfigured",
+      ]
+{% endraw %}
+```
+
+17. Przyszła pora na zbudowanie kontenera:
+
+```bash
+docker compose build
+```
+
+18. Teraz pozostaje czekać cierpliwie. W moim przypadku proces trwał 174 sekundy.
+
+19. Jeżeli kontener został zbudowany pomyślnie (zielony komunikat **built**) to możemy spróbować go uruchomić:
+
+```bash
+docker compose up -d openclaw-gateway
+```
+
+20. Sprawdźmy teraz czy kontener się uruchomił:
+
+```bash
+docker ps
+```
+
+21. Na liście powinna pojawić się jedna pozycja o nazwie **openclaw-openclaw-gateway-1**, a w kolumnie **Status** powinno być **Up ...** informujące jaki czas temu kontener "wstał".
+
+22. Sprawdźmy jeszcze logi:
+
+```bash
+docker compose logs -f openclaw-gateway
+```
+
+23. Jeżeli nie ma tam żadnych czerwonych napisów, **WARNING** albo **ERROR** to to znaczy, że wszystko jest ok. Nie wymagam od nikogo rozumienia co tam jest napisane, bo sam na pewno nie rozumiem tego w pełni. Jeżeli masz wątpliwości to możesz mi podesłać treść logów, wrzucić je tutaj w komentarzu lub zapytać o to np. Gemini ( :-) ). Z logów wychodzimy kombinacją przycisków **Control (CTRL) + C**.
+
