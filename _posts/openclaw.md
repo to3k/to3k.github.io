@@ -40,7 +40,7 @@ Spis treści:
 
 ...
 
-## Serwer VPS
+## Serwer VPS - ciało asystenta
 
 ### Rejestracja w Hetzner
 
@@ -468,3 +468,25 @@ PasswordAuthentication no
 ```bash
 sudo service ssh restart
 ```
+
+## Model AI - mózg asystenta
+
+Do OpenClaw można podpiąć wiele różnych modeli LLM. Podobno najlepiej działa z **[Claude Sonnet](https://claude.com/pricing#api)** od **Anthropic**, ale jest to płatne rozwiązanie i to w dodatku rozliczane na podstawie użycia (cena za tokeny), co trochę gryzie mi się z ideą robienia tego na próbę, a więc za możliwie jak najmniejszym kosztem. Na ratunek przychodzi tutaj **Google Gemini**, które w ramach **[Google AI Studio](https://aistudio.google.com/)** jest rozwiązaniem **darmowym** do naszego zastosowania. Śmierdzi podejrzanie prawda? Można to sobie tłumaczyć walką Google z konkurencją OpenAI i Anthropic, ale nie ukrywajmy, że tak naprawdę nie ma nic za darmo, bo korzystając z planu **Free Tier** w **Google AI Studio** tak naprawdę płacimy walutą w postaci naszych danych, które zostaną wykorzystane do szkolenia modeli molocha. Oczywiście będą zanonimizowane i tak dalej... Jak to mówią za darmo to i ocet słodki, a my przecież jesteśmy tutaj, żeby sprawdzić jak to w ogóle działa. Poza tym nie wiem jak Wy, ale ja nie planuję w tym eksperymencie tykać żadnych poufnych danych, więc trochę mi to zwisa czy ktokolwiek będzie analizował durnoty, które wrzucę w testowanego asystenta.
+
+Jeżeli OpenClaw okaże się niesamowitym wynalazkiem to później możemy się łatwo przepiąć na Claude lub w ogóle skorzystać z **[OpenRouter](https://openrouter.ai/)**, co pozwoli płynnie przełączać się pomiędzy różnymi modelami.
+
+Warto jeszcze wspomnieć, że darmowy plan od Google posiada oczywiście limity użycia:
+- **RPM** (Requests Per Minute) - limit zapytań na minutę,
+- **TPM** (Tokens Per Minute) - limit słów/danych (tokenów) na minutę,
+- **RPD** (Requests Per Day) - limit zapytań na dobę.
+
+Ciężko znaleźć informację jakie (liczbowo) są to limity, bo zdaje się, że są pływające i pewnie zależą od obciążenia usługi w danym momencie, ale z tego co udało mi się przeczytać w Internetach to powinny one być w zupełności wystarczające dla jednego małego bota... to znaczy ekhem, Asystenta!
+
+### Pozyskanie klucza API z Google AI Studio
+
+1. Wchodzimy na stronę **[Google AI Studio](https://aistudio.google.com/)** i naciskamy przycisk **Get started** w prawym górnym rogu.
+2. **Logujemy się** naszym kontem Google.
+3. Z menu po lewej na dole wybieramy **[Get API key](https://aistudio.google.com/api-keys)**.
+4. Naciskamy przycisk **Create API key** znajdujący się na górze po prawej.
+5. W pole **Name your key** wpisujemy nazwę dla klucza, może to być np. **OpenClaw Assistant**. Z listy **Choose an imported project** wybieramy **+ Create project**, nadajemy mu nazwę np. **OpenClaw Project** i naciskamy **Create project**. Następnie naciskamy **Create key**.
+6. 
