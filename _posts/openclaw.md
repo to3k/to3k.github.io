@@ -492,9 +492,11 @@ Ciężko znaleźć informację jakie (liczbowo) są to limity, bo zdaje się, ż
 6. Na liście kluczy pojawi się pozycja o nazwie, którą wpisaliśmy. Po prawej stronie mamy kilka ikon, a pierwsza od lewej nazywa się **Copy API key** i to właśnie z tego korzystamy.
 7. Skopiowany klucz zapisujemy w bezpiecznym miejscu.
 
-## Uruchamiamy kontener Dockera
+## Uruchamiamy kontener Dockera - narodziny asystenta
 
 Pora przejść do działania. OpenClaw ma nawet w dokumentacji [specjalny podrozdział dotyczący uruchamiania usługi w oparciu o Docker na serwerze Hetzner](https://docs.openclaw.ai/install/hetzner). Będziemy się na nim bazować.
+
+### Przygotowanie Docker'a
 
 1. Wracamy do serwera VPS i logujemy się na użytkowniku **manager**:
 
@@ -520,37 +522,41 @@ sudo usermod -aG docker manager
 ssh manager@ADRES_IPV4
 ```
 
-5. Przed wykonaniem następnego polecenia sprawdź czy w momencie kiedy to czytasz poniższy link jest dalej aktualny. Piszę o tym, bo z projektem OpenClaw było już tak, że 3 czy 4 razy zmieniana była nazwa a raz nawet osobom trzecim udało się przejąć domenę projektu, co jest szalenie niebezpiecznym procederem. Jeżeli masz wątpliwość to zawsze śmiało możesz napisać do mnie bezpośrednio na Mastodon lub w komentarzu do tego wpisu. Gdy już wiemy, że mamy dobry link do repozytorium to pobieramy je na swój serwer:
+### Pobranie repozytorium OpenClaw
+
+1. Przed wykonaniem następnego polecenia sprawdź czy w momencie kiedy to czytasz poniższy link jest dalej aktualny. Piszę o tym, bo z projektem OpenClaw było już tak, że 3 czy 4 razy zmieniana była nazwa a raz nawet osobom trzecim udało się przejąć domenę projektu, co jest szalenie niebezpiecznym procederem. Jeżeli masz wątpliwość to zawsze śmiało możesz napisać do mnie bezpośrednio na Mastodon lub w komentarzu do tego wpisu. Gdy już wiemy, że mamy dobry link do repozytorium to pobieramy je na swój serwer:
 
 ```bash
 git clone https://github.com/openclaw/openclaw.git
 ```
 
-6. Przechodzimy do pobranego folderu:
+2. Przechodzimy do pobranego folderu:
 
 ```bash
 cd openclaw
 ```
 
-7. Teraz definiujemy stały katalog. Docker usuwa dane przy restarcie. Aby bot zachował pamięć (loginy, ustawienia itp.), musimy utworzyć odpowiedni folder na serwerze, w którym będą one utrzymywane:
+### Konfiguracja środowiska
+
+1. Teraz definiujemy stały katalog. Docker usuwa dane przy restarcie. Aby bot zachował pamięć (loginy, ustawienia itp.), musimy utworzyć odpowiedni folder na serwerze, w którym będą one utrzymywane:
 
 ```bash
 mkdir -p /home/manager/.openclaw/workspace
 ```
 
-8. Musimy jeszcze nadać im odpowiednie uprawnienia wewnętrznego użytkownika kontenera (UID 1000):
+2. Musimy jeszcze nadać im odpowiednie uprawnienia wewnętrznego użytkownika kontenera (UID 1000):
 
 ```bash
 chown -R 1000:1000 /home/manager/.openclaw
 ```
 
-9. Skonfigurujmy środkowisko. W tym celu tworzymy plik **.env**:
+3. Skonfigurujmy środkowisko. W tym celu tworzymy plik **.env**:
 
 ```bash
 nano .env
 ```
 
-10. Jako treść pliku wklejamy:
+4. Jako treść pliku wklejamy:
 
 ```bash
 OPENCLAW_IMAGE=openclaw:latest
@@ -564,26 +570,26 @@ XDG_CONFIG_HOME=/home/node/.openclaw
 GEMINI_API_KEY=KLUCZ_API_GEMINI
 ```
 
-11. Nie zamykamy jeszcze pliku, bo konieczne jest w nim zmodyfikowanie trzech rzeczy:
+5. Nie zamykamy jeszcze pliku, bo konieczne jest w nim zmodyfikowanie trzech rzeczy:
     - **TWÓJ_TOKEN** - zamiast tego wpisz jakiś skomplikowany ciąg znaków, który zapiszesz również w swoim menedżerze haseł, będzie to **hasło dostępowe do panelu sterowania** (Control UI) bota.
     - **TWÓJ_KLUCZ** - zamiast tego wpisz jakiś skomplikowany ciąg znaków, który zapiszesz również w swoim menedżerze haseł, będzie to **klucz, którym zaszyfrowane zostaną dane w stałym katalogu** (_./.openclaw/workspace_), który utworzyliśmy wcześniej, dzięki temu nawet jeżeli ktoś włamie się na VPS i skopiuje ten folder to nie odczyta poufnych danych tam przechowywanych.
     - **KLUCZ_API_GEMINI** - zamiast tego podaj **klucz API**, który wcześniej skopiowaliśmy z Google AI Studio.
     - **UWAGA** - przy generowaniu tokenu i klucza uważaj, aby w ciągu znaków nie było **$**, bo wykrzaczyło mi to kontener przy jego budowie i straciłem chyba z godzinę poszukując problemu.
-12. Teraz już możemy zapisać i zamknąć plik konfiguracyjny środowiska - **Control (CTRL) + X**, później **y** i **ENTER**.
-13. Zanim zbudujemy kontener musimy jeszcze zmodyfikować domyślny plik **docker-compose.yml**, bo nasz przypadek różni się nieco od tego założonego jako domyślny w głównym repozytorium.
-14. Jednakże przed modyfikacją pliku lepiej jest zrobić jego kopię zapasową, żeby w razie czego można było odnieść się do jego pierwotnej treści:
+6. Teraz już możemy zapisać i zamknąć plik konfiguracyjny środowiska - **Control (CTRL) + X**, później **y** i **ENTER**.
+7. Zanim zbudujemy kontener musimy jeszcze zmodyfikować domyślny plik **docker-compose.yml**, bo nasz przypadek różni się nieco od tego założonego jako domyślny w głównym repozytorium.
+8. Jednakże przed modyfikacją pliku lepiej jest zrobić jego kopię zapasową, żeby w razie czego można było odnieść się do jego pierwotnej treści:
 
 ```bash
 cp docker-compose.yml docker-compose-old-backup.yml
 ```
 
-15. Otwieramy w edytorze plik **docker-compose.yml**:
+9. Otwieramy w edytorze plik **docker-compose.yml**:
 
 ```bash
 nano docker-compose.yml
 ```
 
-16. Prawidłowa treść powinna być następująca:
+10. Prawidłowa treść powinna być następująca:
 
 ```bash
 {% raw %}
@@ -625,33 +631,93 @@ services:
 {% endraw %}
 ```
 
-17. Przyszła pora na zbudowanie kontenera:
+### Uruchomienie kontenera
+
+1. Przyszła pora na zbudowanie kontenera:
 
 ```bash
 docker compose build
 ```
 
-18. Teraz pozostaje czekać cierpliwie. W moim przypadku proces trwał 174 sekundy.
+2. Teraz pozostaje czekać cierpliwie. W moim przypadku proces trwał 174 sekundy.
 
-19. Jeżeli kontener został zbudowany pomyślnie (zielony komunikat **built**) to możemy spróbować go uruchomić:
+3. Jeżeli kontener został zbudowany pomyślnie (zielony komunikat **built**) to możemy spróbować go uruchomić:
 
 ```bash
 docker compose up -d openclaw-gateway
 ```
 
-20. Sprawdźmy teraz czy kontener się uruchomił:
+4. Sprawdźmy teraz czy kontener się uruchomił:
 
 ```bash
 docker ps
 ```
 
-21. Na liście powinna pojawić się jedna pozycja o nazwie **openclaw-openclaw-gateway-1**, a w kolumnie **Status** powinno być **Up ...** informujące jaki czas temu kontener "wstał".
+5. Na liście powinna pojawić się jedna pozycja o nazwie **openclaw-openclaw-gateway-1**, a w kolumnie **Status** powinno być **Up ...** informujące jaki czas temu kontener "wstał".
 
-22. Sprawdźmy jeszcze logi:
+6. Sprawdźmy jeszcze logi:
 
 ```bash
 docker compose logs -f openclaw-gateway
 ```
 
-23. Jeżeli nie ma tam żadnych czerwonych napisów, **WARNING** albo **ERROR** to to znaczy, że wszystko jest ok. Nie wymagam od nikogo rozumienia co tam jest napisane, bo sam na pewno nie rozumiem tego w pełni. Jeżeli masz wątpliwości to możesz mi podesłać treść logów, wrzucić je tutaj w komentarzu lub zapytać o to np. Gemini ( :-) ). Z logów wychodzimy kombinacją przycisków **Control (CTRL) + C**.
+7. Jeżeli nie ma tam żadnych czerwonych napisów, **WARNING** albo **ERROR** to to znaczy, że wszystko jest ok. Nie wymagam od nikogo rozumienia co tam jest napisane, bo sam na pewno nie rozumiem tego w pełni. Jeżeli masz wątpliwości to możesz mi podesłać treść logów, wrzucić je tutaj w komentarzu lub zapytać o to np. Gemini ( :-) ). Z logów wychodzimy kombinacją przycisków **Control (CTRL) + C**.
 
+## Panel sterowania - pierwsza rozmowa
+
+Kontener został uruchomiony, więc pora wejść do jego środka i spróbować podjąć pierwszą próbę kontaktu z botem działającym wewnątrz. A konkretnie wejdziemy do panelu, z którego poziomu będziemy zarządzać botem.
+
+### Tunel SSH
+
+1. Ze względów bezpieczeństwa zablokowaliśmy zarówno dostęp do serwera z zewnątrz (poza portem 22, czyli przez SSH) jak i do samego kontenera. Dlatego, aby dostać się do środka stworzonego środowiska potrzebujemy **zestawić tunel SSH**. W tym celu w terminal na komputerze lokalnym (nie na serwerze) wpisujemy:
+
+```bash
+ssh -N -L 18789:127.0.0.1:18789 manager@ADRES_IPV4
+```
+
+2. Nie zdziw się, bo terminal w momencie potwierdzenia tej komendy będzie zachowywał się jakby się zawiesił. Tak ma być i znaczy to, że **tunel został uruchomiony** i działa. Będzie tak do momentu zatrzymania procesu (Control + C) lub zamknięcia okna terminala.
+3. W ten sposób zestawiliśmy port 18789 naszego komputera z portem 18789 serwera VPS w infrastrukturze Hetzner'a. **Pod tym portem wystawiony jest właśnie panel sterowania botem** uruchomionym w kontenerze Docker'a.
+4. Uruchamiamy **przeglądarkę na komputerze** lokalnym i w pasek adresu wpisujemy **[http://127.0.0.1:18789](http://127.0.0.1:18789)**.
+
+### Logowanie do panelu
+
+1. Teraz będziemy potrzebować tokenu **TWÓJ_TOKEN**, który podaliśmy w treści pliku **.env** jako wartość dla zmiennej **OPENCLAW_GATEWAY_TOKEN**.
+2. Po załadowaniu strony w przeglądarce zostaniemy poproszeni o jego **podanie w celu uwierzytelnienia**. Jeżeli tak się nie stanie i załaduje nam się pozornie nie działajacy panel z komunikatem o błędzie, podobnym do tego wklejonego przeze mnie poniżej, to musimy **zrobić to ręcznie**.
+    > disconnected (1008): unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+3. W tym celu w menu po lewej znajdujemy sekcję **Control** i wybieramy zakładkę **Overview**. To tutaj w sekcji **Gateway Access** i polu **Gateway Token** musimy podać nasz token.
+4. Naciskamy przycisk **Connect** znajdujący się poniżej w tej samej sekcji... i zonk, dalej nie działa, ale tym razem wywala błąd:
+    > disconnected (1008): pairing required
+5. To wbrew pozorom dobry znak, bo po pierwsze oznacza, że idziemy w dobrym kierunku, a po drugie to, że zabezpieczenia kontenera działają prawidłowo. Twórcy OpenClaw przewidzieli dodatkową warstwę uwierzytelnienia na wypadek, gdybyś wystawił panel sterowania na świat i w dodatku ktoś poznałby Twój token. Tą ostatnią warstwą zabezpieczającą jest konieczność zatwierdzenia każdego nowego próbującego się połaczyć urządzenia z poziomu konsoli serwera.
+6. Aby to zrobić musimy wrócić do terminala i ponownie połączyć się z serwerem VPS. Nie zamykajmy przy tym przeglądarki z panelem wyświetlającym błąd 1008.
+
+```bash
+ssh manager@ADRES_IPV4
+```
+
+7. Przechodzimy do folderu, do którego pobraliśmy repozytorium OpenClaw:
+
+```bash
+cd /home/manager/openclaw
+```
+
+8. Uruchamiamy komendę, której zadaniem jest listę urządzeń oczekujących na zatwierdzenie:
+
+```bash
+docker compose exec openclaw-gateway node dist/index.js devices list
+```
+
+9. Odpowiedź u mnie wyglądała tak:
+
+![](/images/openclawauthpending.png)
+
+10. Z otrzymanego wyniku kopiujemy z sekcji **Pending** wartość z kolumny **Request**. W moim przypadku jest to:
+    > 0108ae0d-98dc-4fde-9175-c90392a7fdaf
+11. To **IDENTYFIKATOR_ŻĄDANIA**, który wpisujemy jako element na końcu poniżej komendy:
+
+```bash
+docker compose exec openclaw-gateway node dist/index.js devices approve IDENTYFIKATOR_ŻĄDANIA
+```
+
+12. W podpowiedzi powinniśmy otrzymać komunikat zawierający słowo **Approved** (z ang. zatwierdzony).
+
+13. 
