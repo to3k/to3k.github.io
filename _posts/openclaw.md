@@ -38,7 +38,64 @@ Spis treści:
 
 ## Wstęp
 
-...
+Większość z nas przywykła do interfejsów takich jak ChatGPT czy Gemini — to genialne „mózgi w słoiku”. Potrafią pisać, analizować i doradzać, ale rzadko kiedy mogą faktycznie zrobić "coś" poza oknem przeglądarki. **OpenClaw** zmienia tę dynamikę, przesuwając granicę od pasywnych chatbotów do autonomicznych agentów.
+
+### Czym jest OpenClaw?
+
+OpenClaw to **otwartoźródłowy** asystent AI, którego głównym zadaniem jest działanie proaktywne. W przeciwieństwie do standardowych czatów, które czekają na pytanie, OpenClaw posiada tzw. **heartbeat** (z ang. tętno) – potrafi sam monitorować zadania, przypominać o terminach czy reagować na zmiany cyfrowym otoczeniu swojego pana (użytkownika) bez jego bezpośredniej ingerencji w danej chwili.
+
+### Krótka historia i viralowy sukces
+
+Projekt narodził się pod koniec 2025 roku jako dzieło **Petera Steinbergera**. Zanim zyskał finalną (czy aby na pewno...?) nazwę, przeszedł przez kilka etapów ewolucji. Znany był wcześniej jako *WhatsApp Relay*, *Clawdbot* czy *Moltbot*. Stał się viralem na przełomie 2025 i 2026 roku dzięki swojej prostocie – zamiast kolejnej aplikacji, korzystasz z niego tam, gdzie już jesteś: na **Signal**, **Telegram** czy **Discord** (i nie tylko). O potencjale projektu najlepiej świadczy fakt, że w lutym 2026 roku twórca OpenClaw został zwerbowany do zespołu OpenAI, choć sam projekt pozostaje dostępny dla społeczności. Ja osobiście mam (pewnie naiwną) nadzieję, że nie zaora to tego projektu.
+
+### Kluczowe różnice: Agent vs Chatbot
+
+Podstawowa różnica to **dostęp do systemu na poziomie podobnym do fizycznego użytkownika**. Standardowe czaty działają w bezpiecznej piaskownicy na serwerach korporacji. Ba, niektóre LLM nie mają nawet dostępu do Internetu w czasie rzeczywistym. OpenClaw działa tam, gdzie go postawisz, np. na własnym serwerze VPS i co najważniejsze może mieć pełen dostęp do zasobów tego serwera. Chodzi mi tutaj o to, że przykładowo może on korzystać z przeglądarki i normalnie logować się na serwisy wykorzystując dostarczone mu dane do uwierzytelnienia.
+
+| Cecha | Standardowy Chatbot (ChatGPT/Gemini) | OpenClaw |
+| :--- | :--- | :--- |
+| **Interakcja** | Reaktywna (czeka na prompt) | Proaktywna (sam inicjuje kontakt) |
+| **Środowisko** | Zamknięte, chmurowe | Lokalne/VPS, pełny dostęp do plików |
+| **Możliwości** | Generowanie treści, analiza | Wykonywanie realnych zadań |
+| **Prywatność** | Dane na serwerach dostawcy | Pełna kontrola nad logami i pamięcią |
+| **Interfejs** | Dedykowana aplikacja/web | Komunikatory (Telegram, Signal itp.) |
+
+### Co potrafi OpenClaw?
+
+Dzięki wykorzystaniu **Model Context Protocol (MCP)**, OpenClaw ma dostęp do setek **umiejętności**, które nazywane są **skill'ami**. Tworzone są one jak znane w programowaniu biblioteki - społecznościowo. Przykładami takich skill'i są:
+
+- **Zarządzanie kalendarzem i e-mailami** w sposób autonomiczny.
+- **Pobieranie dane z systemów zewnętrznych** (np. KSeF hehe) i przetwarzać je dalej.
+- **Samodzielnie pisanie skryptów**, instalowanie ich na serwerze i uruchamianie.
+- **Kupowanie** biletów do kina.
+- **Zarządzanie Twoim kontem** na Tinderze (było o tym głośno w kontekście OpenClaw właśnie).
+
+### Po co to komu?
+
+No wiadomo, takim **nerdom** jak my. Poza tym, kto nie chciałby mieć **swojego przydupasa**, który zrobi (prawie) wszystko o co zostanie poproszony, a do tego jest chodzącą encyklopedią, bo przeczytał 90% Internetu. Taki asystent może być wirtualnym członkiem zespołu deweloperskiego i pisać kod na poziomie seniora, ale możesz także do niego napisać na Telegramie "typie, zorganizuj mi wyjazd do Warszawy", a on zarezerwuje Ci bilety na pociąg, sprawdzi pogodę i powie jak masz się ubrać, ustawi przypomnienia i powiadomi wszystkich ziomków ze stolicy, że w następny piątek będziesz w promieniu 10km od nich gotowy na strzelenie piwka.
+
+### Z tego wpisu dowiesz się
+
+Za chwilę przeczytasz coś w rodzaju **Proof of Concept**, w którym pokażę jak możliwie najtaniej uruchomić działającego bota OpenClaw. Chodzi o pokazanie **jak to zrobić** i sprawdzenie **czy to działa**, a nie uruchomienie zoptymalizowanego środowiska idealnego do jakiegoś konkretnego zadania. OpenClaw jest na tyle wszechstronnym narzędziem, że ma praktycznie **nieskończoną liczbę różnych zastosowań**. To co może zrobić ograniczane jest w zasadzie tylko wyobraźnią operatora. Dlatego ja pokażę mniej więcej co to jest, jak to uruchomić i ewentualnie jak można później rozwinąć to środowisko, a to do czego i jak to narzędzie zostanie wykorzystane pozostawię już Tobie, drogi Czytelniku.
+
+Reasumując, w tym wpisie:
+- przeprowadzę Cię za rączkę przez proces **wynajmu serwera** VPS, którego cena to zaledwie **5 dolarów miesięcznie** (!),
+- następnie odpowiednio **skonfigurujemy razem ten serwer**,
+- pozyskamy **darmowy dostęp do API** Gemini z Google AI Studio,
+- uruchomimy **kontener Dockera z botem** w środku,
+- przeprowadzimy **podstawową konfigurację**,
+- **sprawdzimy czy działa**,
+- rozważymy opcje **rozbudowy środowiska**.
+
+### Z tego wpisu NIE dowiesz się
+
+Chcę od razu na wstępie wyłożyć karty na stół i powiedzieć co nie będzie zawarte w ramach tego wpisu, żeby potem ktoś mi nie powiedział, że przeczytał 50 tysięcy znaków i tylko zmarnował czas, bo nie znalazł tego co szukał.
+
+A zatem... nie pokażę tutaj szczegółowej konfiguracji ani żadnego konkretnego zastosowania takiego asystenta, bo po pierwsze każdy ma inne potrzeby, po drugie sam nie jestem jeszcze pewien czy wiem do czego go użyję, a po trzecie ten wpisy i bez tego będzie niebezpiecznie długi. Zostawmy sobie wątki do poruszenia w przyszłych wpisach, bo jeżeli naprawdę polubię się z OpenClaw, a widzę spore szanse, to nie omieszkam sowicie opisać każdego aspektu tej koegzystencji.
+
+### Zapinaj pasy...
+
+... bo lecimy z tematem! Przygotuj picie, przekąski i jeżeli nie masz certyfikatu z kursu szybkiego czytania to rozważ również zaopatrzenie się w nocnik, bo nie będzie to krótki wpis. Obiecuję od tego momentu być w miarę skupiony na merytoryce, bez zbędnego p... :)
 
 ## Serwer VPS - ciało asystenta
 
@@ -801,4 +858,28 @@ docker compose exec openclaw-gateway node dist/index.js models fallbacks add goo
 ```
 
 3. Kolejność ma znaczenie i w ten sposób łancuch modeli będzie używany tak **Gemini 3 Flash** -> **Gemini 2.5 Flash** -> **Gemini 2.5 Flash Lite**.
+
+Na krótką metę taki pakiet powinien wystarczyć, ale już po napisaniu pierwszego prompta, w którym się przywitałem, widzę, że nie ma możliwości, aby ten darmowy plan na Google AI Studio był wystarczający do napędzienia bota/asystenta, który dostanie jakieś poważniejsze zadanie. Ale o tym jeszcze za chwilę.
+
+## Osobowość asystenta
+
+Tomek nie filozuj, nie filozuj chłopie! Nope, nie powstrzymam się. Osobowość każdego z nas definiowana jest przez bagaż doświadczeń jakie przeżyliśmy w trakcie naszej egzystencji. W przypadku bota OpenClaw ten bagaż doświadczeń, czytaj osobowość, definiowana jest przy pomocy 8 plików, które dostępne są w **Agent -> Agents -> Files**.
+
+### Pliki osobowości
+- **Soul.md** (Dusza): Określa fundamenty zachowania i wartości. Tutaj definiujesz twarde granice oraz to, czy asystent ma być suchy i analityczny, czy może mieć własne zdanie, poczucie humoru i potrafić się z Tobą nie zgodzić.
+- **Identity.md** (Tożsamość): Czyste "dane osobowe" agenta – jego imię, ulubione emoji, awatar i ogólny styl bycia (tzw. vibe).
+- **Agents.md** (Instrukcje operacyjne): chyba najważniejszy plik, a.k.a. główny plik roboczy. Tłumaczy botowi, jak ma korzystać ze swoich zasobów, kiedy wolno mu się odzywać bez pytania i jak krok po kroku ma analizować problemy.
+- **User.md** (Użytkownik): Plik z informacjami o Tobie. Wpisujesz tu swoje preferencje, kim jesteś, nad jakimi projektami pracujesz i w jakiej formie oczekujesz odpowiedzi. Bot czyta to, by dostosować się do Twojego stylu życia.
+- **Memory.md** (Pamięć długotrwała): Bardzo ważny plik, który bot często aktualizuje sam. Przenosi tu najważniejsze fakty, wnioski i Twoje nawyki z codziennych rozmów (z tzw. pamięci krótkotrwałej), dzięki czemu z upływem miesięcy staje się coraz mądrzejszy i nie zapomina ustalonych wcześniej faktów.
+- **Tools.md** (Narzędzia): Dokumentacja umiejętności bota (skill'i). Definiuje techniczne aspekty tego, do jakich systemów bot ma dostęp (np. czytanie plików lokalnych, przeglądarka internetowa) i jak ma ich używać.
+- **Heartbeat.md** (Bicie serca): Instrukcje dotyczące proaktywności (działań w tle). Steruje tym, kiedy bot ma "budzić się" bez Twojej wyraźnej komendy, np. by cyklicznie zrewidować notatki, sprawdzić powiadomienia lub wysłać Ci podsumowanie dnia.
+- **Bootstrap.md** (Rozruch): Plik używany tylko i wyłącznie przy pierwszym uruchomieniu (tzw. moment przebudzenia). Czasami instruuje bota, by na start zapytał "Kim jestem?". Z reguły po pierwszej konfiguracji traci na znaczeniu.
+
+### Ciekawostka
+
+Te pliki przechowywane są w lokalizacji /home/node/.openclaw/workspace, która jest podpieta do stałego katalogu, zatem są zabezpieczone przed usunięciem/wyczyszczeniem/nadpisaniem, gdy coś niedobrego stanie się z kontenerem.
+
+### Podpowiedź
+
+Powyższe pliki wydają się szalenie istotne w kontekście personalizacji asystenta według swoich potrzeb, jednakże warto pamiętać, że ich zawartość jest wstrzykiwana do każdego jednego prompta wysyłanego do API, a więc od tego jak obszerna jest ich zawartość zależy wprosto proporcjonalnie to jak ciężkie będą zapytania wysyłane do API, a co za tym idzie jak szybko będziemy zużywać limity lub też ile będziemy płacić za tokeny, jeżeli jednak zdecydujemy się przejść na plan płatny. Zalecałbym zatem opisywanie wszystkiego w żółnierskich słowach.
 
