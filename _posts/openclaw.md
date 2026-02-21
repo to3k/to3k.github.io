@@ -722,3 +722,39 @@ docker compose exec openclaw-gateway node dist/index.js devices approve IDENTYFI
 
 13. Teraz, gdy wrócimy do przeglądarki na komputerze lokalnym to powinniśmy już zobaczyć prawidłowo działający panel sterowania.
 
+### Ustawienie modelu
+
+1. W menu po lewej znajdujemy sekcję **Agent** znajdźmy zakładkę **Agents** i wejdźmy do niej.
+2. To w tym miejscu znajdują się wszystkie najważniejszego ustawienia naszego bota, to znaczy agenta. Na liście dostępnych agentów powinien widnieć jeden o nazwie **main** i to właśnie jego będziemy używać. Można stworzyć ich więcej z poziomu konsoli serwera, ale na razie ten jeden domyślny nam wystarczy.
+3. To co nas interesuje w pierwszej kolejności to sprawdzenie czy w polu wyboru **Primary model (default)** mamy Gemini.
+
+![](/images/openclawcontrolui1.png)
+
+4. Zakładam, że niestety nie znajdziesz tam nic tak jak na moim zrzucie ekranu. Dlatego musimy wrócić do terminala połączonego z serwerem VPS. Wpisujemy w niego komendę:
+
+```bash
+docker compose exec openclaw-gateway node dist/index.js models set google/gemini-3-pro
+```
+
+5. W odpowiedzi powinniśmy otrzymać komunikat:
+
+```bash
+🦞 OpenClaw 2026.2.20 (unknown) — I'll refactor your busywork like it owes me money.
+
+Updated ~/.openclaw/openclaw.json
+Default model: google/gemini-3-pro
+```
+
+6. Wracamy do panelu sterowania odpalonego w przeglądarce na komputerze i w polu **Primary model (default)** powinno już widnieć **google/gemini-3-pro-preview** (ewentualnie może być konieczność odświeżenia strony).
+
+## Pierwsza rozmowa
+
+Nadeszła ta wiekopomna chwila. Pora sprawdzić czy jesteśmy w stanie wysłać coś do naszego nowego asystenta, a co ważniejsze czy odpisze on do nas z jakimkolwiek sensem.
+
+1. W menu po lewej z sekcji **Chat** wybieramy zakładkę **Chat**.
+2. Wyświetli nam się intefejs jak przy standardowym modelu LLM. Na dole mamy pole do wpisywania swojej wiadomości.
+3. Napiszmy do niego:
+
+```
+Witaj mój nowy Asystencie! Piszę tę wiadomość w ramach testu czy działasz prawidłowo. Czy wiesz jaka jest dzisiaj data?
+```
