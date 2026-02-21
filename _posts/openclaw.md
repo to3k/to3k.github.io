@@ -480,7 +480,26 @@ Warto jeszcze wspomnieć, że darmowy plan od Google posiada oczywiście limity 
 - **TPM** (Tokens Per Minute) - limit słów/danych (tokenów) na minutę,
 - **RPD** (Requests Per Day) - limit zapytań na dobę.
 
-Ciężko znaleźć informację jakie (liczbowo) są to limity, bo zdaje się, że są pływające i pewnie zależą od obciążenia usługi w danym momencie, ale z tego co udało mi się przeczytać w Internetach to powinny one być w zupełności wystarczające dla jednego małego bota... to znaczy ekhem, Asystenta!
+Limity dostępne dla swojego konta można sprawdzić w **[Dashboard -> Rate Limit](https://aistudio.google.com/rate-limit?timeRange=this-month)**. Polecam skupić się na sekcji **Rate limits by model** i posortować tabelę po nazwie modelu, czyli kolumnie **Model**. Jest tam sporo różnych modeli, ale nas interesują w zasadzie tylko te podpisane **Gemini**, czyli te z kategorii **Text-out models**. Na moment pisania tego wpisu limity dla planu **Free tier** wyglądają dla mnie następująco:
+
+| Model | Category | RPM | TPM | RPD |
+| :--- | :--- | :--- | :--- | :--- |
+| **Gemini 2.5 Flash** | Text-out models | 0 / 5 | 0 / 250K | 0 / 20 |
+| **Gemini 2.5 Pro** | Text-out models | 0 / 0 | 0 / 0 | 0 / 0 |
+| **Gemini 2 Flash** | Text-out models | 0 / 0 | 0 / 0 | 0 / 0 |
+| **Gemini 2 Flash Exp** | Text-out models | 0 / 0 | 0 / 0 | 0 / 0 |
+| **Gemini 2 Flash Lite** | Text-out models | 0 / 0 | 0 / 0 | 0 / 0 |
+| **Gemini 2 Pro Exp** | Text-out models | 0 / 0 | 0 / 0 | 0 / 0 |
+| **Gemini 3 Flash** | Text-out models | 0 / 5 | 0 / 250K | 0 / 20 |
+| **Gemini 2.5 Flash Lite** | Text-out models | 0 / 10 | 0 / 250K | 0 / 20 |
+| **Gemini 3 Pro** | Text-out models | 0 / 0 | 0 / 0 | 0 / 0 |
+| **Gemini 3.1 Pro** | Text-out models | 0 / 0 | 0 / 0 | 0 / 0 |
+
+Jak widzisz ograniczenia są dość srogie. W darmowym planie mamy dostęp w zasadzie tylko do trzech modeli:
+  - **Gemini 2,5 Flash**
+  - **Gemini 3 Flash**
+  - **Gemini 2.5 Flash Lite**
+Do tego jeżeli chodzi o limity to mamy 5-10 zapytań na minutę, 250k tokenów (to akurat każdemu mówi niewiele) i jedynie 20 zapytań na dobę. To dość kiepsko, ale na przetestowanie bota powinno wystarczyć.
 
 ### Pozyskanie klucza API z Google AI Studio
 
@@ -733,7 +752,7 @@ docker compose exec openclaw-gateway node dist/index.js devices approve IDENTYFI
 4. Zakładam, że niestety nie znajdziesz tam nic tak jak na moim zrzucie ekranu. Dlatego musimy wrócić do terminala połączonego z serwerem VPS. Wpisujemy w niego komendę:
 
 ```bash
-docker compose exec openclaw-gateway node dist/index.js models set google/gemini-3-pro
+docker compose exec openclaw-gateway node dist/index.js models set google/gemini-3-flash
 ```
 
 5. W odpowiedzi powinniśmy otrzymać komunikat:
@@ -742,10 +761,10 @@ docker compose exec openclaw-gateway node dist/index.js models set google/gemini
 🦞 OpenClaw 2026.2.20 (unknown) — I'll refactor your busywork like it owes me money.
 
 Updated ~/.openclaw/openclaw.json
-Default model: google/gemini-3-pro
+Default model: google/gemini-3-flash-preview
 ```
 
-6. Wracamy do panelu sterowania odpalonego w przeglądarce na komputerze i w polu **Primary model (default)** powinno już widnieć **google/gemini-3-pro-preview** (ewentualnie może być konieczność odświeżenia strony).
+6. Wracamy do panelu sterowania odpalonego w przeglądarce na komputerze i w polu **Primary model (default)** powinno już widnieć **google/gemini-3-flash-preview** (ewentualnie może być konieczność odświeżenia strony).
 
 ## Pierwsza rozmowa
 
@@ -758,3 +777,28 @@ Nadeszła ta wiekopomna chwila. Pora sprawdzić czy jesteśmy w stanie wysłać 
 ```
 Witaj mój nowy Asystencie! Piszę tę wiadomość w ramach testu czy działasz prawidłowo. Czy wiesz jaka jest dzisiaj data?
 ```
+
+4. DZIAŁA! Odpisał mi dokładnie to:
+
+```
+Witaj! Działam jak najbardziej prawidłowo. Dzisiaj jest sobota, 21 lutego 2026 roku.
+
+Skoro test mamy za sobą — co chciałbyś dzisiaj zrobić?
+```
+
+## Modele zastępcze
+
+1. Z uwagi na ubogie limity dodamy jeszcze modele zapasowe, czyli **Fallbacks**, które będą wchodzić do gry, gdy model główny, czyli **Primary**, będzie miał kłotopy.
+6. Najpierw jako model zapasowy dodamy **Gemini 2.5 Flash**:
+
+```bash
+docker compose exec openclaw-gateway node dist/index.js models fallbacks add google/gemini-2.5-flash
+```
+2. A następnie model **Gemini 2.5 Flash Lite**:
+
+```bash
+docker compose exec openclaw-gateway node dist/index.js models fallbacks add google/gemini-2.5-flash-lite
+```
+
+3. Kolejność ma znaczenie i w ten sposób łancuch modeli będzie używany tak **Gemini 3 Flash** -> **Gemini 2.5 Flash** -> **Gemini 2.5 Flash Lite**.
+
