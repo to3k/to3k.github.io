@@ -883,3 +883,14 @@ Te pliki przechowywane są w lokalizacji /home/node/.openclaw/workspace, która 
 
 Powyższe pliki wydają się szalenie istotne w kontekście personalizacji asystenta według swoich potrzeb, jednakże warto pamiętać, że ich zawartość jest wstrzykiwana do każdego jednego prompta wysyłanego do API, a więc od tego jak obszerna jest ich zawartość zależy wprosto proporcjonalnie to jak ciężkie będą zapytania wysyłane do API, a co za tym idzie jak szybko będziemy zużywać limity lub też ile będziemy płacić za tokeny, jeżeli jednak zdecydujemy się przejść na plan płatny. Zalecałbym zatem opisywanie wszystkiego w żółnierskich słowach.
 
+## Skill'e
+
+
+
+## Kanał komunikacji
+
+
+
+## Baw się
+
+To wszystko co przygotowałem w tym wpisie. Tak jak zapowiedziałem nie pokazałem żadnego konkretnego zastosowania, bo nie taki był cel tego wpisu. Teraz czas na pracę domową, czyli uruchomienie wyobraźni. Pomyśl do czego taki asystent mógłby Ci się przydać. Spróbuj to wdrożyć. Zepsuj coś, napraw, znowu zepsuj i znowu napraw, aż osiągniesz swój cel. A jak uda Ci się zrobić coś kozackiego to koniecznie napisz o tym w komentarzu poniżej lub wyślij do mnie dowolnym kanałem.
