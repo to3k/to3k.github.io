@@ -292,20 +292,20 @@ Podstawową konfigurację zaczniemy od **zaktualizowania pakietów na serwerze**
 
 2. W edytorze, który się otworzy **wklejamy poniższą treść**:
 
-  ```bash
-  {% raw %}
-  #!/bin/bash
-  #Skrypt do aktualizacji systemu i pakietow z blog.tomaszdunia.pl
-  echo 'Krok 1 - update'
-  sudo apt update
-  echo 'Krok 2 - upgrade'
-  sudo apt upgrade -y
-  echo 'Krok 3 - autoremove'
-  sudo apt autoremove -y
-  echo 'Krok 4 - clean'
-  sudo apt clean
-  {% endraw %}
-  ```
+    ```bash
+    {% raw %}
+    #!/bin/bash
+    #Skrypt do aktualizacji systemu i pakietow z blog.tomaszdunia.pl
+    echo 'Krok 1 - update'
+    sudo apt update
+    echo 'Krok 2 - upgrade'
+    sudo apt upgrade -y
+    echo 'Krok 3 - autoremove'
+    sudo apt autoremove -y
+    echo 'Krok 4 - clean'
+    sudo apt clean
+    {% endraw %}
+    ```
 
 3. Wychodzimy z pliku kombinacją klawiszy **Control (CTRL) + X**, zostaniemy zapytani czy zapisać plik w takim stanie, wystarczy potwierdzić naciskając **y**, a potem na pytanie pod jaką nazwą zapisać wystarczy potwierdzić, że pod taką pod jaką otworzyliśmy, czyli po prostu **ENTER**.
 
