@@ -934,7 +934,7 @@ W Telegramie nie zakładasz konta dla bota ręcznie. Robi się to, pisząc do of
 3. **Wyślij do niego wiadomość** z komendą `/newbot`
 4. BotFather poprosi Cię o podanie **nazwy wyświetlanej** dla bota. Wpisz np. `OpenClaw Assistant`.
 5. Następnie poprosi o **unikalną nazwę użytkownika** (username). Ten ciąg znaków musi być pisany łącznie i kończyć się słowem "bot". Tutaj nie podam co wpisałem, ale dla przykładu mogę powiedzieć, że ma to być coś w stylu `tomaszduniablog_bot`.
-6. Gdy wpiszesz poprawną i wolną nazwę, BotFather wyśle Ci dłuższą wiadomość z gratulacjami. W środku znajdziesz **Token API** (długi ciąg znaków wyglądający mniej więcej tak: 123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ). Zapisz go w bezpiecznym miejscu. W razie czego warto wiedzieć, że Twój bot będzie dostępny pod adresem [https://t.me/tomusiowy_bot](https://t.me/tomaszduniablog_bot), oczywiście zamiast `tomaszduniablog_bot` musisz wpisać swoją nazwę bota.
+6. Gdy wpiszesz poprawną i wolną nazwę, BotFather wyśle Ci dłuższą wiadomość z gratulacjami. W środku znajdziesz **Token API** (długi ciąg znaków wyglądający mniej więcej tak: 123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ). Zapisz go w bezpiecznym miejscu. W razie czego warto wiedzieć i zapisać sobie, że Twój bot będzie dostępny pod adresem [https://t.me/tomusiowy_bot](https://t.me/tomaszduniablog_bot), oczywiście zamiast `tomaszduniablog_bot` musisz wpisać swoją nazwę bota.
 
 ### Łączenie Telegram'a z OpenClaw
 
@@ -960,9 +960,36 @@ docker compose exec openclaw-gateway node dist/index.js channels add
 docker compose restart openclaw-gateway
 ```
 
-### Zabezpieczenie do bota przez Telegram
+### Zabezpieczenie dostępu przez Telegram
 
+1. Wracamy do BotFather'a, gdzie mamy link do naszego bota lub jeżeli go zapisaliśmy (tak jak proponowałem) to po prostu odszukujemy go w notatkach i przechodzimy do niego.
+2. W ten sposób wchodzimy tak jakby do rozmowy z naszym botem. Zaczynamy od wysłania do niego wiadomości o treści `/start`.
+3. Odpisze nam:
 
+```
+OpenClaw: access not configured.
+
+Your Telegram user id: 1234567890
+
+Pairing code: ABCDEF1G
+
+Ask the bot owner to approve with:
+openclaw pairing approve telegram ABCDEF1G
+```
+
+4. Przechodzimy do terminala podłączonego do serwera VPS i wpisujemy komendę (uwaga! na końcu podaj swój kod parowania):
+
+```bash
+docker compose exec openclaw-gateway node dist/index.js pairing approve telegram ABCDEF1G
+```
+
+5. W odpowiedzi powinniśmy otrzymać:
+
+```bash
+Approved telegram sender 1234567890.
+```
+
+6. Od tego momentu asystent będzie reagował wyłącznie na wiadomości wysyłane z konta, które właśnie przeszło autoryzację. Możesz to sprawdzić pisząc do bota przez Telegram. Jeżeli wszystko przebiegło pomyślnie to na pewno odpowie.
 
 ## Baw się
 
