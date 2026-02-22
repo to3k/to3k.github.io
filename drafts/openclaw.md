@@ -62,7 +62,7 @@ Podstawowa różnica to **dostęp do systemu na poziomie podobnym do fizycznego 
 
 ### Co potrafi OpenClaw?
 
-Dzięki wykorzystaniu **Model Context Protocol (MCP)**, OpenClaw ma dostęp do setek **umiejętności**, które nazywane są **skill'ami**. Tworzone są one jak znane w programowaniu biblioteki - społecznościowo. Przykładami takich skill'i są:
+Dzięki wykorzystaniu **Model Context Protocol (MCP)**, OpenClaw ma dostęp do setek **umiejętności**, które nazywane są **skillami**. Tworzone są one społecznościowo jak znane w programowaniu biblioteki. Przykładami takich skilli są:
 
 - **Zarządzanie kalendarzem i e-mailami** w sposób autonomiczny.
 - **Pobieranie dane z systemów zewnętrznych** (np. KSeF hehe) i przetwarzać je dalej.
@@ -120,7 +120,7 @@ A zatem... nie pokażę tutaj szczegółowej konfiguracji ani żadnego konkretne
     - Mobile phone - **Numer komórkowy** to jakiś mocny przeżytek z czasów telefonów stacjonarnych, dlatego opcjonalne i pozostawiamy puste,
     - naciskamy przycisk **Continue**.
 6. Następny krok dotyczy metody rozliczania:
-    - wybieramy **walutę** - często jest tak, że warto jest wybrać dolara, bo usługi kosztują np. 5 dolarów lub 5 euro, gdzie nie pamiętam czasów kiedy dolar był droższy od euro, jednakże w tym przypadku Hetzner przelicza kwoty i wychodzi praktycznie to samo, więc wybierz tą co Ci bardziej pasuje, może Twój bank ma jakiś preferencyjny przelicznik dla którejś za walut (?), ja wybrałem dolara
+    - wybieramy **walutę** - często jest tak, że warto jest wybrać dolara, bo usługi kosztują np. 5 dolarów lub 5 euro, gdzie nie pamiętam czasów kiedy dolar był droższy od euro, jednakże w tym przypadku Hetzner przelicza kwoty i wychodzi praktycznie to samo, więc wybierz tę co Ci bardziej pasuje, może Twój bank ma jakiś preferencyjny przelicznik dla którejś za walut (?), ja wybrałem dolara
     - mamy trzy metody płatności - **tradycyjny przelew**, **karta kredytowa** i **PayPal**, ja wybrałem kartę kredytową i podałem dane mojej wirtualnej karty prepaid (przedpłacona, czyli ma tyle środków ile na nią wpłacę i nie więcej, co jest bezpieczne) w Revolut, którą mam specjalnie na takie potrzeby
         - Card holder - wpisujemy **imię i nazwisko** widniejące na karcie,
         - Credit card - wybieramy typ karty, czyli **Visa**, **MarsterCard** lub **American Express**,
@@ -467,7 +467,7 @@ exit
 ssh manager@ADRES_IPV4
 ```
 
-3. Pamiętaj, że teraz musisz **wpisać to hasło, które zostało podane przy tworzeniu tego użytkownika**, a nie hasło root'a.
+3. Pamiętaj, że teraz musisz **wpisać to hasło, które zostało podane przy tworzeniu tego użytkownika**, a nie hasło roota.
 4. Jeżeli udało się połączyć i uwierzytelnić to znaczy, że **wszystko jest OK** i znowu możemy się **rozłączyć** i wrócić do terminala lokalnego:
 
 ```bash
@@ -574,7 +574,7 @@ Do tego jeżeli chodzi o limity to mamy 5-10 zapytań na minutę, 250k tokenów 
 
 Pora przejść do działania. OpenClaw ma nawet w dokumentacji [specjalny podrozdział dotyczący uruchamiania usługi w oparciu o Docker na serwerze Hetzner](https://docs.openclaw.ai/install/hetzner). Będziemy się na nim bazować.
 
-### Przygotowanie Docker'a
+### Przygotowanie Dockera
 
 1. Wracamy do serwera VPS i logujemy się na użytkowniku **manager**:
 
@@ -754,7 +754,7 @@ ssh -N -L 18789:127.0.0.1:18789 manager@ADRES_IPV4
 ```
 
 2. Nie zdziw się, bo terminal w momencie potwierdzenia tej komendy będzie zachowywał się jakby się zawiesił. Tak ma być i znaczy to, że **tunel został uruchomiony** i działa. Będzie tak do momentu zatrzymania procesu (Control + C) lub zamknięcia okna terminala.
-3. W ten sposób zestawiliśmy port 18789 naszego komputera z portem 18789 serwera VPS w infrastrukturze Hetzner'a. **Pod tym portem wystawiony jest właśnie panel sterowania botem** uruchomionym w kontenerze Docker'a.
+3. W ten sposób zestawiliśmy port 18789 naszego komputera z portem 18789 serwera VPS w infrastrukturze Hetznera. **Pod tym portem wystawiony jest właśnie panel sterowania botem** uruchomionym w kontenerze Dockera.
 4. Uruchamiamy **przeglądarkę na komputerze** lokalnym i w pasek adresu wpisujemy **[http://127.0.0.1:18789](http://127.0.0.1:18789)**.
 
 ### Logowanie do panelu
@@ -873,7 +873,7 @@ Tomek nie filozuj, nie filozuj chłopie! Nope, nie powstrzymam się. Osobowość
 - **Agents.md** (Instrukcje operacyjne) - Jeżeli miałbym wskazać najważniejszy plik to były to ten. Tłumaczy botowi, jak ma korzystać ze swoich zasobów, kiedy wolno mu się odzywać bez pytania i jak krok po kroku ma analizować problemy.
 - **User.md** (Użytkownik) - Plik z informacjami o Tobie. Wpisujesz tu swoje preferencje, kim jesteś, nad jakimi projektami pracujesz i w jakiej formie oczekujesz odpowiedzi. Bot czyta to, by dostosować się do Twojego stylu życia.
 - **Memory.md** (Pamięć długotrwała) - Bardzo ważny plik, który bot często aktualizuje sam. Przenosi tu najważniejsze fakty, wnioski i Twoje nawyki z codziennych rozmów (z tzw. pamięci krótkotrwałej), dzięki czemu z upływem miesięcy staje się coraz mądrzejszy i nie zapomina ustalonych wcześniej faktów.
-- **Tools.md** (Narzędzia) - Dokumentacja umiejętności bota (skill'i). Definiuje techniczne aspekty tego, do jakich systemów bot ma dostęp (np. czytanie plików lokalnych, przeglądarka internetowa) i jak ma ich używać.
+- **Tools.md** (Narzędzia) - Dokumentacja umiejętności bota (skilli). Definiuje techniczne aspekty tego, do jakich systemów bot ma dostęp (np. czytanie plików lokalnych, przeglądarka internetowa) i jak ma ich używać.
 - **Heartbeat.md** (Bicie serca) - Instrukcje dotyczące proaktywności (działań w tle). Steruje tym, kiedy bot ma "budzić się" bez Twojej wyraźnej komendy, np. by cyklicznie zrewidować notatki, sprawdzić powiadomienia lub wysłać Ci podsumowanie dnia.
 - **Bootstrap.md** (Rozruch) - Plik używany tylko i wyłącznie przy pierwszym uruchomieniu (tzw. moment przebudzenia). Czasami instruuje bota, by na start zapytał "Kim jestem?". Z reguły po pierwszej konfiguracji traci na znaczeniu.
 
@@ -904,30 +904,30 @@ Narzędzia kontrolujemy w pliku `Tools.md` lub w panelu konfiguracyjnym. Najważ
 
 Podczas, gdy `Tool` to np. sprzętowa możliwość używania przeglądarki internetowej, `Skill` to gotowa paczka ucząca bota krok po kroku, jak zalogować się do konkretnej usługi (np. Gmaila czy GitHuba) i wykonać tam zadanie. 
 
-Skill'e pobiera się z publicznego rejestru **[ClawHub](https://clawhub.ai/skills?sort=downloads&nonSuspicious=true)** (działa to jak sklep z aplikacjami). Polecam odwiedzić tą bibliotekę i przejrzeć co tam jest. Zauważ, że wszystkie cokolwiek warte Skill'e posiadają obszerny opis, w którym zajdziemy informację jak go prawidłowo zainstalować swojemu asystentowi oraz jak go używać.
+Skille pobiera się z publicznego rejestru **[ClawHub](https://clawhub.ai/skills?sort=downloads&nonSuspicious=true)** (działa to jak sklep z aplikacjami). Polecam odwiedzić tą bibliotekę i przejrzeć co tam jest. Zauważ, że wszystkie cokolwiek warte Skille posiadają obszerny opis, w którym zajdziemy informację jak go prawidłowo zainstalować swojemu asystentowi oraz jak go używać.
 
-Gdy znajdziemy już interesujący nas skill wystaczy, że skorzystamy z gotowej komendy do jego instalacji. Robimy to z poziomu konsoli serwera VPS. Poniżej przykładowa komenda do instalacji skill'a do obsługi GitHub:
+Gdy znajdziemy już interesujący nas skill wystaczy, że skorzystamy z gotowej komendy do jego instalacji. Robimy to z poziomu konsoli serwera VPS. Poniżej przykładowa komenda do instalacji skilla do obsługi GitHub:
 
 ```bash
 docker compose exec openclaw-gateway clawhub install github
 ```
 
-Jednakże zanim zaczniesz doinstalowywać skill'e z ClawHub najpierw zajrzyć jakie domyślne są już zainstalowane, bo w moim przypadku było ich aż 50! Pełna lista znajduje się w **Agent -> Skills -> zwinięte menu Built-in Skills**. W tym samym miejscu zainstalowane skill'e można włączać i wyłączać. Często wystarczy tylko podać swój klucz API do danej usługi i gotowe. Polecam wygenerować specjalny klucz tylko dla asystenta, żeby w razie czego szybko go odłaczyć.
+Jednakże zanim zaczniesz doinstalowywać skille z ClawHub najpierw zajrzyć jakie domyślne są już zainstalowane, bo w moim przypadku było ich aż 50! Pełna lista znajduje się w **Agent -> Skills -> zwinięte menu Built-in Skills**. W tym samym miejscu zainstalowane skille można włączać i wyłączać. Często wystarczy tylko podać swój klucz API do danej usługi i gotowe. Polecam wygenerować specjalny klucz tylko dla asystenta, żeby w razie czego szybko go odłaczyć.
 
 ## Kanał komunikacji
 
 Panel sterowania to nie jedyny sposób komunikacji z asystentem. Gdyby tak było to byłoby to szalenie niewygodne, bo zawsze, gdy chcielibyśmy z nim porozmawiać to musielibyśmy zestawić tunel SSH i wejść do przeglądarki. Dlatego twórca OpenClaw wymyślił to tak, że **asystent może komunikować się z nami np. przez Telegram wykorzystując do tego API**. Na początku przygody z OpenClaw liczyłem na to, że może uda mi się z powodzeniem zestawić sobie kanał do komunikacji przez Signal, ale z czasem okazało się, że to nie najlepszy, a już na pewno nie najprostszy sposób. Dlatego mimo tego, że nigdy nie korzystałem z Telegrama, postanowiłem że skorzystam własnie z niego skoro jest **rekomendowany**. Z drugiej strony to komfortowa sytuacja w kontekście tego wpisu, bo będę miał okazję od razu sprawdzić i opisać cały proces aż od instalacji samej aplikacji.
 
-### Instalacja Telegram na telefonie
+### Instalacja Telegrama na telefonie
 
 1. Zaczynamy od pobrania aplikacji Telegram na swój telefon:
     - dla standardowego Androida pobieramy ze [Sklepu Play](https://play.google.com/store/apps/details?id=org.telegram.messenger),
     - dla iOS z [App Store](https://apps.apple.com/us/app/telegram-messenger/id686449807),
-    - ale ja mam GrapheneOS, więc instaluję przez Obtainium korzystając z [tego linku](https://telegram.org/dl/android/apk), warto dodać, że [klient Telegram'a jest otwartoźródłowy](https://github.com/DrKLO/Telegram).
+    - ale ja mam GrapheneOS, więc instaluję przez Obtainium korzystając z [tego linku](https://telegram.org/dl/android/apk), warto dodać, że [klient Telegrama jest otwartoźródłowy](https://github.com/DrKLO/Telegram).
 2. Uruchamiamy aplikację i zaczynamy proces zakładania konta. W pierwszej kolejności musimy podać numer telefonu, na który dostaniemy SMS do weryfikacji jego poprawności i tak samo z adresem e-mail. Aplikacja kilkukrotnie poprosi o dostęp do rejestrów połączeń, SMSów i kontaktów, ale wcale nie ma potrzeby tego udostępniać.
 3. Na tak utworzonym koncie polecam wejść w **Ustawienia -> Prywatność i bezpieczeństwo** i przejrzeć te opcje. Sczególnie polecam włączyć **Weryfikację dwustopniową**, ograniczyć to co mogą widzieć inni użytkownicy (ja po prostu wszędzie ustawiłem `Nikt`) oraz wyłączyć synchronizację kontaktów.
 
-### Rejestracja bota w BotFathera
+### Rejestracja bota u BotFathera
 
 W Telegramie nie zakładasz konta dla bota ręcznie. Robi się to, pisząc do oficjalnego narzędzia administracyjnego o nazwie **BotFather**.
 
@@ -938,7 +938,7 @@ W Telegramie nie zakładasz konta dla bota ręcznie. Robi się to, pisząc do of
 5. Następnie poprosi o **unikalną nazwę użytkownika** (username). Ten ciąg znaków musi być pisany łącznie i kończyć się słowem "bot". Tutaj nie podam co wpisałem, ale dla przykładu mogę powiedzieć, że ma to być coś w stylu `tomaszduniablog_bot`.
 6. Gdy wpiszesz poprawną i wolną nazwę, BotFather wyśle Ci dłuższą wiadomość z gratulacjami. W środku znajdziesz **Token API** (długi ciąg znaków wyglądający mniej więcej tak: 123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ). Zapisz go w bezpiecznym miejscu. W razie czego warto wiedzieć i zapisać sobie, że Twój bot będzie dostępny pod adresem [https://t.me/tomusiowy_bot](https://t.me/tomaszduniablog_bot), oczywiście zamiast `tomaszduniablog_bot` musisz wpisać swoją nazwę bota.
 
-### Łączenie Telegram'a z OpenClaw
+### Łączenie Telegrama z OpenClaw
 
 1. Wracamy do terminala, łaczymy się na serwer, wchodzimy do folderu OpenClaw i wstukujemy komendę:
 
@@ -951,7 +951,7 @@ docker compose exec openclaw-gateway node dist/index.js channels add
   - **Select a channel** - na liście znajdujemy `Telegram (Bot API)`, powinno być na pierwszym miejscu,
   - **Telegram account** - `default (primary)`,
   - wyświetli się komunikat, w którym będzie wszystko to co napisałem wyżej, tj. żeby skontaktować się z BotFather itd.,
-  - **Enter Telegram bot token** - podajemy Token API, który otrzymaliśmy od BotFather'a,
+  - **Enter Telegram bot token** - podajemy Token API, który otrzymaliśmy od BotFathera,
   - wracamy do kroku **Select a channel** - to tak na wypadek, jakbyśmy chcieli skonfigurować przy okazji więcej kanałów, ale nam to wystarcza, dlatego wybieramy ostatnią opcję `Finished`,
   - **Configure DM access policies now? (default: pairing)** - `No`, bo to się zrobi samo, gdy napiszemy pierwszą wiadomość do bota ze swojego konta,
   - **Add display names for these accounts? (optional)** - `No`, to tylko kosmetyka, więc nie ma potrzeby nadawać nazwy,
@@ -964,7 +964,7 @@ docker compose restart openclaw-gateway
 
 ### Zabezpieczenie dostępu przez Telegram
 
-1. Wracamy do BotFather'a, gdzie mamy link do naszego bota lub jeżeli go zapisaliśmy (tak jak proponowałem) to po prostu odszukujemy go w notatkach i przechodzimy do niego.
+1. Wracamy do BotFathera, gdzie mamy link do naszego bota lub jeżeli go zapisaliśmy (tak jak proponowałem) to po prostu odszukujemy go w notatkach i przechodzimy do niego.
 2. W ten sposób wchodzimy tak jakby do rozmowy z naszym botem. Zaczynamy od wysłania do niego wiadomości o treści `/start`.
 3. Odpisze nam:
 
