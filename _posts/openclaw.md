@@ -866,14 +866,14 @@ Na krótką metę taki pakiet powinien wystarczyć, ale już po napisaniu pierws
 Tomek nie filozuj, nie filozuj chłopie! Nope, nie powstrzymam się. Osobowość każdego z nas definiowana jest przez bagaż doświadczeń jakie przeżyliśmy w trakcie naszej egzystencji. W przypadku bota OpenClaw ten bagaż doświadczeń, czytaj osobowość, definiowana jest przy pomocy 8 plików, które dostępne są w **Agent -> Agents -> Files**.
 
 ### Pliki osobowości
-- **Soul.md** (Dusza): Określa fundamenty zachowania i wartości. Tutaj definiujesz twarde granice oraz to, czy asystent ma być suchy i analityczny, czy może mieć własne zdanie, poczucie humoru i potrafić się z Tobą nie zgodzić.
-- **Identity.md** (Tożsamość): Czyste "dane osobowe" agenta – jego imię, ulubione emoji, awatar i ogólny styl bycia (tzw. vibe).
-- **Agents.md** (Instrukcje operacyjne): chyba najważniejszy plik, a.k.a. główny plik roboczy. Tłumaczy botowi, jak ma korzystać ze swoich zasobów, kiedy wolno mu się odzywać bez pytania i jak krok po kroku ma analizować problemy.
-- **User.md** (Użytkownik): Plik z informacjami o Tobie. Wpisujesz tu swoje preferencje, kim jesteś, nad jakimi projektami pracujesz i w jakiej formie oczekujesz odpowiedzi. Bot czyta to, by dostosować się do Twojego stylu życia.
-- **Memory.md** (Pamięć długotrwała): Bardzo ważny plik, który bot często aktualizuje sam. Przenosi tu najważniejsze fakty, wnioski i Twoje nawyki z codziennych rozmów (z tzw. pamięci krótkotrwałej), dzięki czemu z upływem miesięcy staje się coraz mądrzejszy i nie zapomina ustalonych wcześniej faktów.
-- **Tools.md** (Narzędzia): Dokumentacja umiejętności bota (skill'i). Definiuje techniczne aspekty tego, do jakich systemów bot ma dostęp (np. czytanie plików lokalnych, przeglądarka internetowa) i jak ma ich używać.
-- **Heartbeat.md** (Bicie serca): Instrukcje dotyczące proaktywności (działań w tle). Steruje tym, kiedy bot ma "budzić się" bez Twojej wyraźnej komendy, np. by cyklicznie zrewidować notatki, sprawdzić powiadomienia lub wysłać Ci podsumowanie dnia.
-- **Bootstrap.md** (Rozruch): Plik używany tylko i wyłącznie przy pierwszym uruchomieniu (tzw. moment przebudzenia). Czasami instruuje bota, by na start zapytał "Kim jestem?". Z reguły po pierwszej konfiguracji traci na znaczeniu.
+- **Soul.md** (Dusza) - Określa fundamenty zachowania i wartości. Tutaj definiujesz twarde granice oraz to, czy asystent ma być suchy i analityczny, czy może mieć własne zdanie, poczucie humoru i potrafić się z Tobą nie zgodzić.
+- **Identity.md** (Tożsamość) - Czyste "dane osobowe" agenta – jego imię, ulubione emoji, awatar i ogólny styl bycia (tzw. vibe).
+- **Agents.md** (Instrukcje operacyjne) - Jeżeli miałbym wskazać najważniejszy plik to były to ten. Tłumaczy botowi, jak ma korzystać ze swoich zasobów, kiedy wolno mu się odzywać bez pytania i jak krok po kroku ma analizować problemy.
+- **User.md** (Użytkownik) - Plik z informacjami o Tobie. Wpisujesz tu swoje preferencje, kim jesteś, nad jakimi projektami pracujesz i w jakiej formie oczekujesz odpowiedzi. Bot czyta to, by dostosować się do Twojego stylu życia.
+- **Memory.md** (Pamięć długotrwała) - Bardzo ważny plik, który bot często aktualizuje sam. Przenosi tu najważniejsze fakty, wnioski i Twoje nawyki z codziennych rozmów (z tzw. pamięci krótkotrwałej), dzięki czemu z upływem miesięcy staje się coraz mądrzejszy i nie zapomina ustalonych wcześniej faktów.
+- **Tools.md** (Narzędzia) - Dokumentacja umiejętności bota (skill'i). Definiuje techniczne aspekty tego, do jakich systemów bot ma dostęp (np. czytanie plików lokalnych, przeglądarka internetowa) i jak ma ich używać.
+- **Heartbeat.md** (Bicie serca) - Instrukcje dotyczące proaktywności (działań w tle). Steruje tym, kiedy bot ma "budzić się" bez Twojej wyraźnej komendy, np. by cyklicznie zrewidować notatki, sprawdzić powiadomienia lub wysłać Ci podsumowanie dnia.
+- **Bootstrap.md** (Rozruch) - Plik używany tylko i wyłącznie przy pierwszym uruchomieniu (tzw. moment przebudzenia). Czasami instruuje bota, by na start zapytał "Kim jestem?". Z reguły po pierwszej konfiguracji traci na znaczeniu.
 
 ### Ciekawostka
 
@@ -883,9 +883,34 @@ Te pliki przechowywane są w lokalizacji /home/node/.openclaw/workspace, która 
 
 Powyższe pliki wydają się szalenie istotne w kontekście personalizacji asystenta według swoich potrzeb, jednakże warto pamiętać, że ich zawartość jest wstrzykiwana do każdego jednego prompta wysyłanego do API, a więc od tego jak obszerna jest ich zawartość zależy wprosto proporcjonalnie to jak ciężkie będą zapytania wysyłane do API, a co za tym idzie jak szybko będziemy zużywać limity lub też ile będziemy płacić za tokeny, jeżeli jednak zdecydujemy się przejść na plan płatny. Zalecałbym zatem opisywanie wszystkiego w żółnierskich słowach.
 
-## Skill'e
+## Narzędzia i umiejętności asystenta
 
+### Tools vs Skills
 
+W systemie OpenClaw często myli się te dwa pojęcia, ale technicznie odpowiadają one za zupełnie inne warstwy działania bota:
+- **Tools (Narzędzia)** - To wbudowane, twarde funkcje rdzenia. Są dostarczane domyślnie z systemem i stanowią fundament, dzięki któremu agent w ogóle potrafi wejść w interakcję ze światem i Twoim serwerem.
+- **Skills (Umiejętności):** To zewnętrzne, społecznościowe wtyczki (add-ony), które instalujesz dodatkowo. Zawierają one specyficzne instrukcje (zapisane najczęściej w pliku `SKILL.md`) oraz skrypty, które uczą bota wykonywania konkretnych, złożonych zadań przy użyciu jego podstawowych `Narzędzi (Tools)`.
+
+### Narzędzia (Tools)
+
+Narzędzia kontrolujemy w pliku `Tools.md` lub w panelu konfiguracyjnym. Najważniejsze z nich to:
+- **Operacje na plikach** - `read` (odczyt) i `write` / `edit` (zapis i edycja)
+- **Zarządzanie systemem** - `exec` (wykonywanie komend w terminalu) i `process` (zarządzanie procesami w tle).
+- **Internet** - `web_search` (wyszukiwanie) i `web_fetch` (pobieranie treści stron).
+
+### 3. Umiejętności (Skills)
+
+Podczas, gdy `Tool` to np. sprzętowa możliwość używania przeglądarki internetowej, `Skill` to gotowa paczka ucząca bota krok po kroku, jak zalogować się do konkretnej usługi (np. Gmaila czy GitHuba) i wykonać tam zadanie. 
+
+Skill'e pobiera się z publicznego rejestru **[ClawHub](https://clawhub.ai/skills?sort=downloads&nonSuspicious=true)** (działa to jak sklep z aplikacjami). Polecam odwiedzić tą bibliotekę i przejrzeć co tam jest. Zauważ, że wszystkie cokolwiek warte Skill'e posiadają obszerny opis, w którym zajdziemy informację jak go prawidłowo zainstalować swojemu asystentowi oraz jak go używać.
+
+Gdy znajdziemy już interesujący nas skill wystaczy, że skorzystamy z gotowej komendy do jego instalacji. Robimy to z poziomu konsoli serwera VPS. Poniżej przykładowa komenda do instalacji skill'a do obsługi GitHub:
+
+```bash
+docker compose exec openclaw-gateway clawhub install github
+```
+
+Jednakże zanim zaczniesz doinstalowywać skill'e z ClawHub najpierw zajrzyć jakie domyślne są już zainstalowane, bo w moim przypadku było ich aż 50! Pełna lista znajduje się w **Agent -> Skills -> zwinięte menu Built-in Skills**. W tym samym miejscu zainstalowane skill'e można włączać i wyłączać. Często wystarczy tylko podać swój klucz API do danej usługi i gotowe. Polecam wygenerować specjalny klucz tylko dla asystenta, żeby w razie czego szybko go odłaczyć.
 
 ## Kanał komunikacji
 
