@@ -156,7 +156,7 @@ Teraz możemy przejść do zakładki [**Cloud**](https://www.hetzner.com/cloud/)
 
 Aktualna (na luty 2026) **oferta** Hetzner prezentuje się tak:
 
-  ![Oferta Hetzner](/images/hetznerprices.png)
+	![Oferta Hetzner](/images/hetznerprices.png)
 
 To co nas interesuje to najtańszy serwer **CX23** z procesorem o **2 wirtualnych rdzeniach** (VCPU), **4GB** pamięci RAM i dyskiem SSD o pojemności **40GB**. Taki serwer w momencie pisania tego wpisu kosztuje **5.03 USD miesięcznie** (!), czyli przeliczając po aktualnym kursie jakieś **18 PLN** z groszami. Trudno się nie zgodzić, że jest to **atrakcyjna cena**.
 
@@ -181,7 +181,7 @@ To co nas interesuje to najtańszy serwer **CX23** z procesorem o **2 wirtualnyc
     - Name - tutaj nadamy naszemu serwerowi nazwę, ja wpisałem **openclaw-assistant**
 6. Konfiguracja powinna wyglądać mniej więcej tak:
 
-  ![Konfiguracja serwera do zakupu](/images/hetznerserverconfig.png)
+	![Konfiguracja serwera do zakupu](/images/hetznerserverconfig.png)
 
 7. Z taką konfiguracją możemy przystąpić do zakupu serwera. W tym celu naciskamy czerwony przycisk **Create & Buy now**.
 8. Zostaniemy przeniesieni do listy naszych serwerów, gdzie pojawi się nowa (i jedyna) opcja, czyli serwer, który właśnie utworzyliśmy. Na początku będzie się przy nim kręcić kółko co oznacza, że trzeba chwilę poczekać na jego utworzenie. Jednak po chwili na dole wyskoczy zielony komunikat **Server created**, co oznacza, że nasz poligon doświadczalny jest już gotowy.
@@ -218,63 +218,63 @@ Z tego maila będziemy dalej potrzebować **ADRES_IPV4** oraz **OCENZUROWANE_HAS
 
 2. Powinniśmy zobaczyć taki **komunikat**:
 
-  ```bash
-  {% raw %}
-  The authenticity of host 'ADRES_IPV4 (ADRES_IPV4)' can't be established.
-  ED25519 key fingerprint is SHA256: CENZURA.
-  This key is not known by any other names.
-  Are you sure you want to continue connecting (yes/no/[fingerprint])?
-  {% endraw %}
-  ```
+	```bash
+	{% raw %}
+	The authenticity of host 'ADRES_IPV4 (ADRES_IPV4)' can't be established.
+	ED25519 key fingerprint is SHA256: CENZURA.
+	This key is not known by any other names.
+	Are you sure you want to continue connecting (yes/no/[fingerprint])?
+	{% endraw %}
+	```
 
 3. Musimy na to odpowiedzieć wpisując **yes** i nacisnąć **ENTER**.
 4. Rezultatem będzie komunikat informujący, że adres naszego serwera został dodany do listy znanych hostów i następnym razem zostanie rozpoznany poprzez swój fingerprint (odcisk palca) i nie będzie konieczne potwierdzenie autentyczności.
 
-  ```bash
-  Warning: Permanently added 'ADRES_IPV4' (ED25519) to the list of known hosts.
-  Connection closed by ADRES_IPV4 port 22
-  ```
+	```bash
+	Warning: Permanently added 'ADRES_IPV4' (ED25519) to the list of known hosts.
+	Connection closed by ADRES_IPV4 port 22
+	```
 
 5. Połączenie zostanie przerwane, więc musimy jeszcze raz skorzystać z **komendy**:
 
-  ```bash
-  ssh root@ADRES_IPV4
-  ```
+	```bash
+	ssh root@ADRES_IPV4
+	```
 
 6. Powita nas prośba o podanie hasła, więc wpisujemy **OCENZUROWANE_HASŁO** i potwierdzamy **ENTERem**. Uwaga: jeżeli nie masz doświadczenia z SSH to zdziwić Cię może to, że podczas wpisywania hasła nic się nie dzieje, tj. nie pojawiają się nawet gwiazdki, tak ma być i jest to porządane działanie, wpisz po prostu hasło i nie przejmuj się tym.
 7. Jeżeli niczego nie pomyliliśmy to powinniśmy skutecznie nawiązać połączenie i zostać **powitani** czymś w rodzaju:
 
-  ```bash
-  You are required to change your password immediately (administrator enforced).
-  Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.8.0-90-generic x86_64)
+	```bash
+	You are required to change your password immediately (administrator enforced).
+	Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.8.0-90-generic x86_64)
 
-  * Documentation:  https://help.ubuntu.com
-  * Management:     https://landscape.canonical.com
-  * Support:        https://ubuntu.com/pro
+	* Documentation:  https://help.ubuntu.com
+	* Management:     https://landscape.canonical.com
+	* Support:        https://ubuntu.com/pro
 
-  System information as of Thu Feb 19 07:43:22 PM UTC 2026
+	System information as of Thu Feb 19 07:43:22 PM UTC 2026
 
-    System load:              0.16              
-    Processes:                127
-    Usage of /:               4.1% of 37.23GB   
-    Users logged in:          0
-    Memory usage:             5%                
-    IPv4 address for eth0:    ADRES_IPV4
-    Swap usage:               0%                
-    IPv6 address for eth0:    ADRES_IPV6
+	System load:              0.16              
+	Processes:                127
+	Usage of /:               4.1% of 37.23GB   
+	Users logged in:          0
+	Memory usage:             5%                
+	IPv4 address for eth0:    ADRES_IPV4
+	Swap usage:               0%                
+	IPv6 address for eth0:    ADRES_IPV6
 
-  Expanded Security Maintenance for Applications is not enabled.
+	Expanded Security Maintenance for Applications is not enabled.
 
-  62 updates can be applied immediately.
-  43 of these updates are standard security updates.
-  To see these additional updates run: apt list --upgradable
+	62 updates can be applied immediately.
+	43 of these updates are standard security updates.
+	To see these additional updates run: apt list --upgradable
 
-  Enable ESM Apps to receive additional future security updates.
-  See https://ubuntu.com/esm or run: sudo pro status
+	Enable ESM Apps to receive additional future security updates.
+	See https://ubuntu.com/esm or run: sudo pro status
 
-  Changing password for root.
-  Current password: 
-  ```
+	Changing password for root.
+	Current password: 
+	```
 
 8. Serwer jest tak skonfigurowany, że już podczas pierwszego połączenia **wymusza na nas zmianę hasła dla administratora**. To dobra praktyka, więc posłusznie stosujemy się do sugestii.
     - najpierw pisujemy stare **OCENZUROWANE_HASŁO** i potwierdzamy **ENTERem**,
@@ -286,9 +286,9 @@ Podstawową konfigurację zaczniemy od **zaktualizowania pakietów na serwerze**
 
 1. Wpisujemy **komendę**:
 
-  ```bash
-  nano /usr/local/sbin/aktualizacja.sh
-  ```
+	```bash
+	nano /usr/local/sbin/aktualizacja.sh
+	```
 
 2. W edytorze, który się otworzy **wklejamy poniższą treść**:
 
@@ -311,21 +311,21 @@ Podstawową konfigurację zaczniemy od **zaktualizowania pakietów na serwerze**
 
 4. Teraz musimy nadać temu skryptowi uprawnienia do uruchamiania się:
 
-```bash
-chmod +x /usr/local/sbin/aktualizacja.sh
-```
+	```bash
+	chmod +x /usr/local/sbin/aktualizacja.sh
+	```
 
 5. Teraz wystarczy wpisać nazwę pliku jak komendę, aby rozpoczął się automatyczny proces aktualizacji i czyszczenia po niej:
 
-```bash
-aktualizacja.sh
-```
+	```bash
+	aktualizacja.sh
+	```
 
 6. Po zakończonej tak dużej aktualizacji (zakładam, że sporo pakietów będzie nieaktualnych) dobrze jest rozważyć restart serwera:
 
-```bash
-reboot
-```
+	```bash
+	reboot
+	```
 
 7. Oczywiście utracimy połączenie z serwerem, więc będziemy musieli je nawiązać tak jak robiliśmy to wcześniej.
 
@@ -334,17 +334,18 @@ reboot
 Podstawą rozsądnego używania serwera VPS jest nie pracowanie na użytkowniku z uprawnieniami root. Dlatego utworzymy teraz zwykłego użytkownika i przydzielimy go do grupy mogącej wykonywać komendy administracyjne. To taki administrator, ale z dodatkową warstwą zabezpieczenia, bo przed wykonaniem komendy administracyjnej będzie musiał wpisać **sudo** i potwierdzić hasłem. To czasem wystarcza, żeby opamiętać się przed zrobieniem czegoś głupiego. Utworzenie takiego konta to standardowa praktyka. Nadamy mu nazwę **manager**.
 
 1. Tworzymy użytkownika o nazwie **manager**:
-```bash
-adduser manager
-```
+
+	```bash
+	adduser manager
+	```
 
 2. Serwer poinformuje nas, że utworzył nowego użytkownika i grupę, nadał im unikalne identyfikatory i utworzył katalog domowy. Zostaniemy także poproszeni o podanie dwukrotnie **hasła dla nowego użytkownika**.
 3. Następnie kreator będzie chciał wyciągnać od nas niepotrzebne dane typu imię i nazwisko, numer pokoju, telefon itp. co nas nie interesuje, więc wszystkie rubryki zostawiamy puste i tylko potwierdzamy **ENTERem**. To wszystko trzeba będzie jeszcze potwierdzić **y**.
 4. Użytkownik utworzony, więc trzeba go teraz dodać do grupy administratorów:
 
-```bash
-usermod -aG sudo manager
-```
+	```bash
+	usermod -aG sudo manager
+	```
 
 ### Firewall - zapora sieciowa
 
@@ -352,89 +353,89 @@ Skonfigurujmy **zaporę sieciową**. Dobrą praktyką jest na początek **zablok
 
 1. Zacznijmy od instalacji **ufw** (skrót od Uncomplicated Firewall, z ang. nieskomplikowana zapora sieciowa), to taka nakładka na **iptables**, która trochę umila tworzenie reguł zapory:
 
-```bash
-apt install ufw
-```
+	```bash
+	apt install ufw
+	```
 
 2. Teraz wykonamy parę komend jedna po drugiej. **Wyłączomy** firewall w celu zmiany jego ustawień:
 
-```bash
-ufw disable
-```
+	```bash
+	ufw disable
+	```
 
 3. **Zresetujemy** (wyczyścimy) wszystkie reguły, żeby zacząć zupełnie od nowa, będzie trzeba to potwierdzić **y**:
 
-```bash
-ufw reset
-```
+	```bash
+	ufw reset
+	```
 
 4. Zablokujemy cały *ruch **przychodzący***:
 
-```bash
-ufw default deny incoming
-```
+	```bash
+	ufw default deny incoming
+	```
 
 5. Odblokujemy cały ruch **wychodzący**:
 
-```bash
-ufw default allow outgoing
-```
+	```bash
+	ufw default allow outgoing
+	```
 
 6. Otworzymy **port 22** dla połączeń SSH:
 
-```bash
-ufw allow 22
-```
+	```bash
+	ufw allow 22
+	```
 
 7. **Włączymy** zaporę, trzeba potwierdzić **y**:
 
-```bash
-ufw enable
-```
+	```bash
+	ufw enable
+	```
 
 8. Teraz nawet jeżeli coś zepsuliśmy to nie utracimy połączenia z serwerem, a co najwyżej nie będziemy mogli się do niego połączyć po przerwaniu połączenia. Dlatego korzystajmy z chwili i sprawdźmy jeszcze drugi raz czy wszystko jest ustawione tak jak tego chcieliśmy:
 
-```bash
-ufw status verbose
-```
+	```bash
+	ufw status verbose
+	```
 
 9. Wynik tej komendy powinien być następujący:
 
-```bash
-Status: active
-Logging: on (low)
-Default: deny (incoming), allow (outgoing), disabled (routed)
-New profiles: skip
+	```bash
+	Status: active
+	Logging: on (low)
+	Default: deny (incoming), allow (outgoing), disabled (routed)
+	New profiles: skip
 
-To          Action      From
---          ------      ----
-22          ALLOW IN    Anywhere                  
-22 (v6)     ALLOW IN    Anywhere (v6)
-```
+	To          Action      From
+	--          ------      ----
+	22          ALLOW IN    Anywhere                  
+	22 (v6)     ALLOW IN    Anywhere (v6)
+	```
 
 10. Jeżeli wszystko się zgadza to do znaku to możesz być spokojny.
 11. Sprawdźmy jeszcze czy aby na pewno **ufw** będzie uruchamiać się wraz z systemem po każdym restarcie. Zajrzyjmy do pliku:
 
-```bash
-nano /etc/ufw/ufw.conf
-```
+	```bash
+	nano /etc/ufw/ufw.conf
+	```
 
 12. Wewnątrz powinniśmy znaleźć następującą treść:
 
-```bash
-{% raw %}
-# /etc/ufw/ufw.conf
-#
+	```bash
+	{% raw %}
+	# /etc/ufw/ufw.conf
+	#
 
-# Set to yes to start on boot. If setting this remotely, be sure to add a rule
-# to allow your remote connection before starting ufw. Eg: 'ufw allow 22/tcp'
-ENABLED=yes
+	# Set to yes to start on boot. If setting this remotely, be sure to add a rule
+	# to allow your remote connection before starting ufw. Eg: 'ufw allow 22/tcp'
+	ENABLED=yes
 
-# Please use the 'ufw' command to set the loglevel. Eg: 'ufw logging medium'.
-# See 'man ufw' for details.
-LOGLEVEL=low
-{% endraw %}
-```
+	# Please use the 'ufw' command to set the loglevel. Eg: 'ufw logging medium'.
+	# See 'man ufw' for details.
+	LOGLEVEL=low
+	{% endraw %}
+	```
 
 13. Istotna dla nas jest zmienna **ENABLED**. Jej wartość ma być **yes**, a linijka, w której występuje nie może być zakomentowana (bez \# na początku).
 14. Z pliku wychodzimy kombinacją **Control (CTRL) + X**.
@@ -445,15 +446,15 @@ To program, który chroni przed atakami typu **brute force**. Jeśli ktoś spró
 
 1. **Instalujemy** program:
 
-```bash
-apt install fail2ban -y
-```
+	```bash
+	apt install fail2ban -y
+	```
 
 2. **Włączamy** go:
 
-```bash
-systemctl enable fail2ban --now
-```
+	```bash
+	systemctl enable fail2ban --now
+	```
 
 ### Klucze SSH
 
@@ -461,76 +462,76 @@ Nie będę tłumaczył dlaczego stosowanie kluczy SSH to zalecana praktyka. Po p
 
 1. Zacznijmy jednak od **wylogowania się** z konta root:
 
-```bash
-exit
-```
+	```bash
+	exit
+	```
 
 2. Teraz połączmy się kontem **docelowym do zarządzania serwerem**, żeby sprawdzić czy wszystko działa prawidłowo:
 
-```bash
-ssh manager@ADRES_IPV4
-```
+	```bash
+	ssh manager@ADRES_IPV4
+	```
 
 3. Pamiętaj, że teraz musisz **wpisać to hasło, które zostało podane przy tworzeniu tego użytkownika**, a nie hasło roota.
 4. Jeżeli udało się połączyć i uwierzytelnić to znaczy, że **wszystko jest OK** i znowu możemy się **rozłączyć** i wrócić do terminala lokalnego:
 
-```bash
-exit
-```
+	```bash
+	exit
+	```
 
 4. **Utwórzmy teraz parę kluczy SSH** (komenda do wykonania na komputerze lokalnym!):
 
-```bash
-ssh-keygen -t ed25519 -C openclaw-assistant
-```
+	```bash
+	ssh-keygen -t ed25519 -C openclaw-assistant
+	```
 
 5. Skrypt zapyta o ścieżkę i nazwę pliku, w którym ma zostać zapisany klucz, nam **pasuje wartość domyślna**, więc tylko potwierdzamy **ENTERem**:
 
-```bash
-Enter file in which to save the key (/root/.ssh/id_ed25519): 
-```
+	```bash
+	Enter file in which to save the key (/root/.ssh/id_ed25519): 
+	```
 
 6. Następnie poprosi o ustawienie hasła zabezpieczającego klucz, polecam to zrobić, ale niech to będzie coś raczej prostego co będzie nam łatwo zapamiętać, to tylko dodatkowa warstwa zabezpieczenia na wypadek, gdyby nasz komputer z kluczem na dysku trafił w niepowołane ręce odblokowany i z pełnym fizycznym dostępem włamywacza. Dla mnie to scenariusz, w którym utrata kluczy SSH będzie moim najmniejszym problemem, więc przymykam oko na taki wektor ataku. Możesz także nie ustawiać hasła i po prostu pominąć ten krok naciskając dwa razy **ENTER**.
 
-```bash
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-```
+	```bash
+	Enter passphrase (empty for no passphrase): 
+	Enter same passphrase again: 
+	```
 
 7. Wyślijmy teraz świeżo wygenerowane klucze na serwer VPS:
 
-```bash
-ssh-copy-id manager@ADRES_IPV4
-```
+	```bash
+	ssh-copy-id manager@ADRES_IPV4
+	```
 
 8. Ten jeden ostatni raz zostaniemy poproszeni o podanie hasła użytkownika **manager** przy logowaniu. Klucze wysłane i teraz można już przetestować logowanie bez konieczności podawania hasła:
 
-```bash
-ssh manager@ADRES_IPV4
-```
+	```bash
+	ssh manager@ADRES_IPV4
+	```
 
 9. Teraz wykonamy dwa ważne kroki - wyłączymy logowanie hasłem, czyli od teraz będzie można dostać się na serwer tylko posiadając klucz prywatny SSH, oraz wyłączymy możliwość zalogowania się na konto root. W tym celu edytujemy plik:
 
-```bash
-sudo nano /etc/ssh/sshd_config
-```
+	```bash
+	sudo nano /etc/ssh/sshd_config
+	```
 
 10. Odszukujemy parametry **PermitRootLogin**, **PubkeyAuthentication** i **PasswordAuthentication** (uwaga - nie będą obok siebie), sprawdzamy czy nie są zakomentowane (mają nie miec \# na początku linii) i zmieniamy ich wartości na takie jak poniżej:
 
-```bash
-PermitRootLogin no
-...
-PubkeyAuthentication yes
-...
-PasswordAuthentication no
-```
+	```bash
+	PermitRootLogin no
+	...
+	PubkeyAuthentication yes
+	...
+	PasswordAuthentication no
+	```
 
 11. Zapisujemy i opuszczamy plik - **Control (CTRL) + X**, później **y** i **ENTER**.
 12. Resetujemy proces **ssh**, żeby wprowadzić zmiany:
 
-```bash
-sudo service ssh restart
-```
+	```bash
+	sudo service ssh restart
+	```
 
 ## Model AI - mózg asystenta
 
@@ -582,75 +583,75 @@ Pora przejść do działania. OpenClaw ma nawet w dokumentacji [specjalny podroz
 
 1. Wracamy do serwera VPS i logujemy się na użytkowniku **manager**:
 
-```bash
-ssh manager@ADRES_IPV4
-```
+	```bash
+	ssh manager@ADRES_IPV4
+	```
 
 2. Instalujemy potrzebne **pakiety** - Docker, Docker Compose i Git:
 
-```bash
-sudo apt install -y docker.io docker-compose-v2 git
-```
+	```bash
+	sudo apt install -y docker.io docker-compose-v2 git
+	```
 
 3. Aby zarządzać kontenerami bez konieczności pisania w kółko _sudo_ przed poleceniami dodamy użytkownika **manager** do grupy **docker**:
 
-```bash
-sudo usermod -aG docker manager
-```
+	```bash
+	sudo usermod -aG docker manager
+	```
 
 4. Aby nowe uprawnienia zaczęły działać musimy się wylogować komendą **exit** i połączyć ponownie do serwera:
 
-```bash
-ssh manager@ADRES_IPV4
-```
+	```bash
+	ssh manager@ADRES_IPV4
+	```
 
 ### Pobranie repozytorium OpenClaw
 
 1. Przed wykonaniem następnego polecenia sprawdź czy w momencie kiedy to czytasz poniższy link jest dalej aktualny. Piszę o tym, bo z projektem OpenClaw było już tak, że 3 czy 4 razy zmieniana była nazwa a raz nawet osobom trzecim udało się przejąć domenę projektu, co jest szalenie niebezpiecznym procederem. Jeżeli masz wątpliwość to zawsze śmiało możesz napisać do mnie bezpośrednio na Mastodon lub w komentarzu do tego wpisu. Gdy już wiemy, że mamy dobry link do repozytorium to pobieramy je na swój serwer:
 
-```bash
-git clone https://github.com/openclaw/openclaw.git
-```
+	```bash
+	git clone https://github.com/openclaw/openclaw.git
+	```
 
 2. Przechodzimy do pobranego folderu:
 
-```bash
-cd openclaw
-```
+	```bash
+	cd openclaw
+	```
 
 ### Konfiguracja środowiska
 
 1. Teraz definiujemy stały katalog. Docker usuwa dane przy restarcie. Aby bot zachował pamięć (loginy, ustawienia itp.), musimy utworzyć odpowiedni folder na serwerze, w którym będą one utrzymywane:
 
-```bash
-mkdir -p /home/manager/.openclaw/workspace
-```
+	```bash
+	mkdir -p /home/manager/.openclaw/workspace
+	```
 
 2. Musimy jeszcze nadać im odpowiednie uprawnienia wewnętrznego użytkownika kontenera (UID 1000):
 
-```bash
-chown -R 1000:1000 /home/manager/.openclaw
-```
+	```bash
+	chown -R 1000:1000 /home/manager/.openclaw
+	```
 
 3. Skonfigurujmy środkowisko. W tym celu tworzymy plik **.env**:
 
-```bash
-nano .env
-```
+	```bash
+	nano .env
+	```
 
 4. Jako treść pliku wklejamy:
 
-```bash
-OPENCLAW_IMAGE=openclaw:latest
-OPENCLAW_GATEWAY_TOKEN=TWÓJ_TOKEN
-OPENCLAW_GATEWAY_BIND=lan
-OPENCLAW_GATEWAY_PORT=18789
-OPENCLAW_CONFIG_DIR=/home/manager/.openclaw
-OPENCLAW_WORKSPACE_DIR=/home/manager/.openclaw/workspace
-GOG_KEYRING_PASSWORD=TWÓJ_KLUCZ
-XDG_CONFIG_HOME=/home/node/.openclaw
-GEMINI_API_KEY=KLUCZ_API_GEMINI
-```
+	```bash
+	OPENCLAW_IMAGE=openclaw:latest
+	OPENCLAW_GATEWAY_TOKEN=TWÓJ_TOKEN
+	OPENCLAW_GATEWAY_BIND=lan
+	OPENCLAW_GATEWAY_PORT=18789
+	OPENCLAW_CONFIG_DIR=/home/manager/.openclaw
+	OPENCLAW_WORKSPACE_DIR=/home/manager/.openclaw/workspace
+	GOG_KEYRING_PASSWORD=TWÓJ_KLUCZ
+	XDG_CONFIG_HOME=/home/node/.openclaw
+	GEMINI_API_KEY=KLUCZ_API_GEMINI
+	```
 
 5. Nie zamykamy jeszcze pliku, bo konieczne jest w nim zmodyfikowanie trzech rzeczy:
     - **TWÓJ_TOKEN** - zamiast tego wpisz jakiś skomplikowany ciąg znaków, który zapiszesz również w swoim menedżerze haseł, będzie to **hasło dostępowe do panelu sterowania** (Control UI) bota.
@@ -661,87 +662,87 @@ GEMINI_API_KEY=KLUCZ_API_GEMINI
 7. Zanim zbudujemy kontener musimy jeszcze zmodyfikować domyślny plik **docker-compose.yml**, bo nasz przypadek różni się nieco od tego założonego jako domyślny w głównym repozytorium.
 8. Jednakże przed modyfikacją pliku lepiej jest zrobić jego kopię zapasową, żeby w razie czego można było odnieść się do jego pierwotnej treści:
 
-```bash
-cp docker-compose.yml docker-compose-old-backup.yml
-```
+	```bash
+	cp docker-compose.yml docker-compose-old-backup.yml
+	```
 
 9. Otwieramy w edytorze plik **docker-compose.yml**:
 
-```bash
-nano docker-compose.yml
-```
+	```bash
+	nano docker-compose.yml
+	```
 
 10. Prawidłowa treść powinna być następująca:
 
-```bash
-{% raw %}
-services:
-  openclaw-gateway:
-    image: ${OPENCLAW_IMAGE}
-    build: .
-    restart: unless-stopped
-    env_file:
-      - .env
-    environment:
-      - HOME=/home/node
-      - NODE_ENV=production
-      - TERM=xterm-256color
-      - OPENCLAW_GATEWAY_BIND=${OPENCLAW_GATEWAY_BIND}
-      - OPENCLAW_GATEWAY_PORT=${OPENCLAW_GATEWAY_PORT}
-      - OPENCLAW_GATEWAY_TOKEN=${OPENCLAW_GATEWAY_TOKEN}
-      - GOG_KEYRING_PASSWORD=${GOG_KEYRING_PASSWORD}
-      - XDG_CONFIG_HOME=${XDG_CONFIG_HOME}
-      - PATH=/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-    volumes:
-      - ${OPENCLAW_CONFIG_DIR}:/home/node/.openclaw
-      - ${OPENCLAW_WORKSPACE_DIR}:/home/node/.openclaw/workspace
-    ports:
-      # Recommended: keep the Gateway loopback-only on the VPS; access via SSH tunnel.
-      # To expose it publicly, remove the `127.0.0.1:` prefix and firewall accordingly.
-      - "127.0.0.1:${OPENCLAW_GATEWAY_PORT}:18789"
-    command:
-      [
-        "node",
-        "dist/index.js",
-        "gateway",
-        "--bind",
-        "${OPENCLAW_GATEWAY_BIND}",
-        "--port",
-        "${OPENCLAW_GATEWAY_PORT}",
-        "--allow-unconfigured",
-      ]
-{% endraw %}
-```
+	```bash
+	{% raw %}
+	services:
+	openclaw-gateway:
+		image: ${OPENCLAW_IMAGE}
+		build: .
+		restart: unless-stopped
+		env_file:
+		- .env
+		environment:
+		- HOME=/home/node
+		- NODE_ENV=production
+		- TERM=xterm-256color
+		- OPENCLAW_GATEWAY_BIND=${OPENCLAW_GATEWAY_BIND}
+		- OPENCLAW_GATEWAY_PORT=${OPENCLAW_GATEWAY_PORT}
+		- OPENCLAW_GATEWAY_TOKEN=${OPENCLAW_GATEWAY_TOKEN}
+		- GOG_KEYRING_PASSWORD=${GOG_KEYRING_PASSWORD}
+		- XDG_CONFIG_HOME=${XDG_CONFIG_HOME}
+		- PATH=/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+		volumes:
+		- ${OPENCLAW_CONFIG_DIR}:/home/node/.openclaw
+		- ${OPENCLAW_WORKSPACE_DIR}:/home/node/.openclaw/workspace
+		ports:
+		# Recommended: keep the Gateway loopback-only on the VPS; access via SSH tunnel.
+		# To expose it publicly, remove the `127.0.0.1:` prefix and firewall accordingly.
+		- "127.0.0.1:${OPENCLAW_GATEWAY_PORT}:18789"
+		command:
+		[
+			"node",
+			"dist/index.js",
+			"gateway",
+			"--bind",
+			"${OPENCLAW_GATEWAY_BIND}",
+			"--port",
+			"${OPENCLAW_GATEWAY_PORT}",
+			"--allow-unconfigured",
+		]
+	{% endraw %}
+	```
 
 ### Uruchomienie kontenera
 
 1. Przyszła pora na zbudowanie kontenera:
 
-```bash
-docker compose build
-```
+	```bash
+	docker compose build
+	```
 
 2. Teraz pozostaje czekać cierpliwie. W moim przypadku proces trwał 174 sekundy.
 
 3. Jeżeli kontener został zbudowany pomyślnie (zielony komunikat **built**) to możemy spróbować go uruchomić:
 
-```bash
-docker compose up -d openclaw-gateway
-```
+	```bash
+	docker compose up -d openclaw-gateway
+	```
 
 4. Sprawdźmy teraz czy kontener się uruchomił:
 
-```bash
-docker ps
-```
+	```bash
+	docker ps
+	```
 
 5. Na liście powinna pojawić się jedna pozycja o nazwie **openclaw-openclaw-gateway-1**, a w kolumnie **Status** powinno być **Up ...** informujące jaki czas temu kontener "wstał".
 
 6. Sprawdźmy jeszcze logi:
 
-```bash
-docker compose logs -f openclaw-gateway
-```
+	```bash
+	docker compose logs -f openclaw-gateway
+	```
 
 7. Jeżeli nie ma tam żadnych czerwonych napisów, **WARNING** albo **ERROR** to to znaczy, że wszystko jest ok. Nie wymagam od nikogo rozumienia co tam jest napisane, bo sam na pewno nie rozumiem tego w pełni. Jeżeli masz wątpliwości to możesz mi podesłać treść logów, wrzucić je tutaj w komentarzu lub zapytać o to np. Gemini ( :-) ). Z logów wychodzimy kombinacją przycisków **Control (CTRL) + C**.
 
@@ -753,9 +754,9 @@ Kontener został uruchomiony, więc pora wejść do jego środka i spróbować p
 
 1. Ze względów bezpieczeństwa zablokowaliśmy zarówno dostęp do serwera z zewnątrz (poza portem 22, czyli przez SSH) jak i do samego kontenera. Dlatego, aby dostać się do środka stworzonego środowiska potrzebujemy **zestawić tunel SSH**. W tym celu w terminal na komputerze lokalnym (nie na serwerze) wpisujemy:
 
-```bash
-ssh -N -L 18789:127.0.0.1:18789 manager@ADRES_IPV4
-```
+	```bash
+	ssh -N -L 18789:127.0.0.1:18789 manager@ADRES_IPV4
+	```
 
 2. Nie zdziw się, bo terminal w momencie potwierdzenia tej komendy będzie zachowywał się jakby się zawiesił. Tak ma być i znaczy to, że **tunel został uruchomiony** i działa. Będzie tak do momentu zatrzymania procesu (Control + C) lub zamknięcia okna terminala.
 3. W ten sposób zestawiliśmy port 18789 naszego komputera z portem 18789 serwera VPS w infrastrukturze Hetznera. **Pod tym portem wystawiony jest właśnie panel sterowania botem** uruchomionym w kontenerze Dockera.
@@ -772,33 +773,33 @@ ssh -N -L 18789:127.0.0.1:18789 manager@ADRES_IPV4
 5. To wbrew pozorom dobry znak, bo po pierwsze oznacza, że idziemy w dobrym kierunku, a po drugie to, że zabezpieczenia kontenera działają prawidłowo. Twórcy OpenClaw przewidzieli dodatkową warstwę uwierzytelnienia na wypadek, gdybyś wystawił panel sterowania na świat i w dodatku ktoś poznałby Twój token. Tą ostatnią warstwą zabezpieczającą jest konieczność zatwierdzenia każdego nowego próbującego się połaczyć urządzenia z poziomu konsoli serwera.
 6. Aby to zrobić musimy wrócić do terminala i ponownie połączyć się z serwerem VPS. Nie zamykajmy przy tym przeglądarki z panelem wyświetlającym błąd 1008.
 
-```bash
-ssh manager@ADRES_IPV4
-```
+	```bash
+	ssh manager@ADRES_IPV4
+	```
 
 7. Przechodzimy do folderu, do którego pobraliśmy repozytorium OpenClaw:
 
-```bash
-cd /home/manager/openclaw
-```
+	```bash
+	cd /home/manager/openclaw
+	```
 
 8. Uruchamiamy komendę, której zadaniem jest listę urządzeń oczekujących na zatwierdzenie:
 
-```bash
-docker compose exec openclaw-gateway node dist/index.js devices list
-```
+	```bash
+	docker compose exec openclaw-gateway node dist/index.js devices list
+	```
 
 9. Odpowiedź u mnie wyglądała tak:
 
-![](/images/openclawauthpending.png)
+	![](/images/openclawauthpending.png)
 
 10. Z otrzymanego wyniku kopiujemy z sekcji **Pending** wartość z kolumny **Request**. W moim przypadku jest to:
     > 0108ae0d-98dc-4fde-9175-c90392a7fdaf
 11. To **IDENTYFIKATOR_ŻĄDANIA**, który wpisujemy jako element na końcu poniżej komendy:
 
-```bash
-docker compose exec openclaw-gateway node dist/index.js devices approve IDENTYFIKATOR_ŻĄDANIA
-```
+	```bash
+	docker compose exec openclaw-gateway node dist/index.js devices approve IDENTYFIKATOR_ŻĄDANIA
+	```
 
 12. W podpowiedzi powinniśmy otrzymać komunikat zawierający słowo **Approved** (z ang. zatwierdzony).
 
@@ -810,22 +811,22 @@ docker compose exec openclaw-gateway node dist/index.js devices approve IDENTYFI
 2. To w tym miejscu znajdują się wszystkie najważniejszego ustawienia naszego bota, to znaczy agenta. Na liście dostępnych agentów powinien widnieć jeden o nazwie **main** i to właśnie jego będziemy używać. Można stworzyć ich więcej z poziomu konsoli serwera, ale na razie ten jeden domyślny nam wystarczy.
 3. To co nas interesuje w pierwszej kolejności to sprawdzenie czy w polu wyboru **Primary model (default)** mamy Gemini.
 
-![](/images/openclawcontrolui1.png)
+	![](/images/openclawcontrolui1.png)
 
 4. Zakładam, że niestety nie znajdziesz tam nic tak jak na moim zrzucie ekranu. Dlatego musimy wrócić do terminala połączonego z serwerem VPS. Wpisujemy w niego komendę:
 
-```bash
-docker compose exec openclaw-gateway node dist/index.js models set google/gemini-3-flash
-```
+	```bash
+	docker compose exec openclaw-gateway node dist/index.js models set google/gemini-3-flash
+	```
 
 5. W odpowiedzi powinniśmy otrzymać komunikat:
 
-```bash
-🦞 OpenClaw 2026.2.20 (unknown) — I'll refactor your busywork like it owes me money.
+	```bash
+	🦞 OpenClaw 2026.2.20 (unknown) — I'll refactor your busywork like it owes me money.
 
-Updated ~/.openclaw/openclaw.json
-Default model: google/gemini-3-flash-preview
-```
+	Updated ~/.openclaw/openclaw.json
+	Default model: google/gemini-3-flash-preview
+	```
 
 6. Wracamy do panelu sterowania odpalonego w przeglądarce na komputerze i w polu **Primary model (default)** powinno już widnieć **google/gemini-3-flash-preview** (ewentualnie może być konieczność odświeżenia strony).
 
@@ -837,31 +838,32 @@ Nadeszła ta wiekopomna chwila. Pora sprawdzić czy jesteśmy w stanie wysłać 
 2. Wyświetli nam się intefejs jak przy standardowym modelu LLM. Na dole mamy pole do wpisywania swojej wiadomości.
 3. Napiszmy do niego:
 
-```
-Witaj mój nowy Asystencie! Piszę tę wiadomość w ramach testu czy działasz prawidłowo. Czy wiesz jaka jest dzisiaj data?
-```
+	```
+	Witaj mój nowy Asystencie! Piszę tę wiadomość w ramach testu czy działasz prawidłowo. Czy wiesz jaka jest dzisiaj data?
+	```
 
 4. DZIAŁA! Odpisał mi dokładnie to:
 
-```
-Witaj! Działam jak najbardziej prawidłowo. Dzisiaj jest sobota, 21 lutego 2026 roku.
+	```
+	Witaj! Działam jak najbardziej prawidłowo. Dzisiaj jest sobota, 21 lutego 2026 roku.
 
-Skoro test mamy za sobą — co chciałbyś dzisiaj zrobić?
-```
+	Skoro test mamy za sobą — co chciałbyś dzisiaj zrobić?
+	```
 
 ## Modele zastępcze
 
 1. Z uwagi na ubogie limity dodamy jeszcze modele zapasowe, czyli **Fallbacks**, które będą wchodzić do gry, gdy model główny, czyli **Primary**, będzie miał kłotopy.
 6. Najpierw jako model zapasowy dodamy **Gemini 2.5 Flash**:
 
-```bash
-docker compose exec openclaw-gateway node dist/index.js models fallbacks add google/gemini-2.5-flash
-```
+	```bash
+	docker compose exec openclaw-gateway node dist/index.js models fallbacks add google/gemini-2.5-flash
+	```
+
 2. A następnie model **Gemini 2.5 Flash Lite**:
 
-```bash
-docker compose exec openclaw-gateway node dist/index.js models fallbacks add google/gemini-2.5-flash-lite
-```
+	```bash
+	docker compose exec openclaw-gateway node dist/index.js models fallbacks add google/gemini-2.5-flash-lite
+	```
 
 3. Kolejność ma znaczenie i w ten sposób łancuch modeli będzie używany tak **Gemini 3 Flash** -> **Gemini 2.5 Flash** -> **Gemini 2.5 Flash Lite**.
 
@@ -912,9 +914,9 @@ Skille pobiera się z publicznego rejestru **[ClawHub](https://clawhub.ai/skills
 
 Gdy znajdziemy już interesujący nas skill wystaczy, że skorzystamy z gotowej komendy do jego instalacji. Robimy to z poziomu konsoli serwera VPS. Poniżej przykładowa komenda do instalacji skilla do obsługi GitHub:
 
-```bash
-docker compose exec openclaw-gateway clawhub install github
-```
+	```bash
+	docker compose exec openclaw-gateway clawhub install github
+	```
 
 Jednakże zanim zaczniesz doinstalowywać skille z ClawHub najpierw zajrzyć jakie domyślne są już zainstalowane, bo w moim przypadku było ich aż 50! Pełna lista znajduje się w **Agent -> Skills -> zwinięte menu Built-in Skills**. W tym samym miejscu zainstalowane skille można włączać i wyłączać. Często wystarczy tylko podać swój klucz API do danej usługi i gotowe. Polecam wygenerować specjalny klucz tylko dla asystenta, żeby w razie czego szybko go odłaczyć.
 
@@ -946,25 +948,25 @@ W Telegramie nie zakładasz konta dla bota ręcznie. Robi się to, pisząc do of
 
 1. Wracamy do terminala, łaczymy się na serwer, wchodzimy do folderu OpenClaw i wstukujemy komendę:
 
-```bash
-docker compose exec openclaw-gateway node dist/index.js channels add
-```
+	```bash
+	docker compose exec openclaw-gateway node dist/index.js channels add
+	```
 
 2. To wywoła kreator Kanałów (Channels). Przechodzimy przez kolejne kroki odpowiadając tak:
-  - **Configure chat channels now?** - `Yes`,
-  - **Select a channel** - na liście znajdujemy `Telegram (Bot API)`, powinno być na pierwszym miejscu,
-  - **Telegram account** - `default (primary)`,
-  - wyświetli się komunikat, w którym będzie wszystko to co napisałem wyżej, tj. żeby skontaktować się z BotFather itd.,
-  - **Enter Telegram bot token** - podajemy Token API, który otrzymaliśmy od BotFathera,
-  - wracamy do kroku **Select a channel** - to tak na wypadek, jakbyśmy chcieli skonfigurować przy okazji więcej kanałów, ale nam to wystarcza, dlatego wybieramy ostatnią opcję `Finished`,
-  - **Configure DM access policies now? (default: pairing)** - `No`, bo to się zrobi samo, gdy napiszemy pierwszą wiadomość do bota ze swojego konta,
-  - **Add display names for these accounts? (optional)** - `No`, to tylko kosmetyka, więc nie ma potrzeby nadawać nazwy,
-  - **Channels updated.** - to oznacza, że wszystko przebiegło pomyślnie.
+	- **Configure chat channels now?** - `Yes`,
+	- **Select a channel** - na liście znajdujemy `Telegram (Bot API)`, powinno być na pierwszym miejscu,
+	- **Telegram account** - `default (primary)`,
+	- wyświetli się komunikat, w którym będzie wszystko to co napisałem wyżej, tj. żeby skontaktować się z BotFather itd.,
+	- **Enter Telegram bot token** - podajemy Token API, który otrzymaliśmy od BotFathera,
+	- wracamy do kroku **Select a channel** - to tak na wypadek, jakbyśmy chcieli skonfigurować przy okazji więcej kanałów, ale nam to wystarcza, dlatego wybieramy ostatnią opcję `Finished`,
+	- **Configure DM access policies now? (default: pairing)** - `No`, bo to się zrobi samo, gdy napiszemy pierwszą wiadomość do bota ze swojego konta,
+	- **Add display names for these accounts? (optional)** - `No`, to tylko kosmetyka, więc nie ma potrzeby nadawać nazwy,
+	- **Channels updated.** - to oznacza, że wszystko przebiegło pomyślnie.
 3. Zrestartujmy teraz kontener:
 
-```bash
-docker compose restart openclaw-gateway
-```
+	```bash
+	docker compose restart openclaw-gateway
+	```
 
 ### Zabezpieczenie dostępu przez Telegram
 
@@ -972,28 +974,28 @@ docker compose restart openclaw-gateway
 2. W ten sposób wchodzimy tak jakby do rozmowy z naszym botem. Zaczynamy od wysłania do niego wiadomości o treści `/start`.
 3. Odpisze nam:
 
-```
-OpenClaw: access not configured.
+	```
+	OpenClaw: access not configured.
 
-Your Telegram user id: 1234567890
+	Your Telegram user id: 1234567890
 
-Pairing code: ABCDEF1G
+	Pairing code: ABCDEF1G
 
-Ask the bot owner to approve with:
-openclaw pairing approve telegram ABCDEF1G
-```
+	Ask the bot owner to approve with:
+	openclaw pairing approve telegram ABCDEF1G
+	```
 
 4. Przechodzimy do terminala podłączonego do serwera VPS i wpisujemy komendę (uwaga! na końcu podaj swój kod parowania):
 
-```bash
-docker compose exec openclaw-gateway node dist/index.js pairing approve telegram ABCDEF1G
-```
+	```bash
+	docker compose exec openclaw-gateway node dist/index.js pairing approve telegram ABCDEF1G
+	```
 
 5. W odpowiedzi powinniśmy otrzymać:
 
-```bash
-Approved telegram sender 1234567890.
-```
+	```bash
+	Approved telegram sender 1234567890.
+	```
 
 6. Od tego momentu asystent będzie reagował wyłącznie na wiadomości wysyłane z konta, które właśnie przeszło autoryzację. Możesz to sprawdzić pisząc do bota przez Telegram. Jeżeli wszystko przebiegło pomyślnie to na pewno odpowie.
 
