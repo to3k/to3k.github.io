@@ -416,6 +416,7 @@ nano /etc/ufw/ufw.conf
 ```
 
 12. Wewnątrz powinniśmy znaleźć następującą treść:
+
 ```bash
 {% raw %}
 # /etc/ufw/ufw.conf
