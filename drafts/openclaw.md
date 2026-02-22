@@ -440,6 +440,7 @@ LOGLEVEL=low
 To program, który chroni przed atakami typu **brute force**. Jeśli ktoś spróbuje odgadnąć hasło SSH kilka razy z rzędu i mu się nie powiedzie to Fail2Ban automatycznie zablokuje jego adres IP.
 
 1. **Instalujemy** program:
+
 ```bash
 apt install fail2ban -y
 ```
