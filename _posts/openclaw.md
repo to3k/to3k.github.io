@@ -46,7 +46,7 @@ OpenClaw to **otwartoźródłowy** asystent AI, którego głównym zadaniem jest
 
 ### Krótka historia i viralowy sukces
 
-Projekt narodził się pod koniec 2025 roku jako dzieło **Petera Steinbergera**. Zanim zyskał finalną (czy aby na pewno...?) nazwę, przeszedł przez kilka etapów ewolucji. Znany był wcześniej jako *WhatsApp Relay*, *Clawdbot* czy *Moltbot*. Stał się viralem na przełomie 2025 i 2026 roku dzięki swojej prostocie – zamiast kolejnej aplikacji, korzystasz z niego tam, gdzie już jesteś: na **Signal**, **Telegram** czy **Discord** (i nie tylko). O potencjale projektu najlepiej świadczy fakt, że w lutym 2026 roku twórca OpenClaw został zwerbowany do zespołu OpenAI, choć sam projekt pozostaje dostępny dla społeczności. Ja osobiście mam (pewnie naiwną) nadzieję, że nie zaora to tego projektu.
+Projekt narodził się pod koniec 2025 roku jako dzieło **Petera Steinbergera**. Zanim zyskał finalną (czy aby na pewno...?) nazwę, przeszedł przez kilka etapów ewolucji. Znany był wcześniej jako *WhatsApp Relay*, *Clawdbot* czy *Moltbot*. Stał się viralem na przełomie 2025 i 2026 roku dzięki swojej prostocie – zamiast kolejnej aplikacji, korzystasz z niego tam, gdzie już jesteś: na **Telegram** czy **Discord** (i nie tylko). O potencjale projektu najlepiej świadczy fakt, że w lutym 2026 roku twórca OpenClaw został zwerbowany do zespołu OpenAI, choć sam projekt pozostaje dostępny dla społeczności. Ja osobiście mam (pewnie naiwną) nadzieję, że nie zaora to tego projektu.
 
 ### Kluczowe różnice: Agent vs Chatbot
 
@@ -58,7 +58,7 @@ Podstawowa różnica to **dostęp do systemu na poziomie podobnym do fizycznego 
 | **Środowisko** | Zamknięte, chmurowe | Lokalne/VPS, pełny dostęp do plików |
 | **Możliwości** | Generowanie treści, analiza | Wykonywanie realnych zadań |
 | **Prywatność** | Dane na serwerach dostawcy | Pełna kontrola nad logami i pamięcią |
-| **Interfejs** | Dedykowana aplikacja/web | Komunikatory (Telegram, Signal itp.) |
+| **Interfejs** | Dedykowana aplikacja/web | Komunikatory (Telegram, Discord itp.) |
 
 ### Co potrafi OpenClaw?
 
@@ -913,6 +913,54 @@ docker compose exec openclaw-gateway clawhub install github
 Jednakże zanim zaczniesz doinstalowywać skill'e z ClawHub najpierw zajrzyć jakie domyślne są już zainstalowane, bo w moim przypadku było ich aż 50! Pełna lista znajduje się w **Agent -> Skills -> zwinięte menu Built-in Skills**. W tym samym miejscu zainstalowane skill'e można włączać i wyłączać. Często wystarczy tylko podać swój klucz API do danej usługi i gotowe. Polecam wygenerować specjalny klucz tylko dla asystenta, żeby w razie czego szybko go odłaczyć.
 
 ## Kanał komunikacji
+
+Panel sterowania to nie jedyny sposób komunikacji z asystentem. Gdyby tak było to byłoby to szalenie niewygodne, bo zawsze, gdy chcielibyśmy z nim porozmawiać to musielibyśmy zestawić tunel SSH i wejść do przeglądarki. Dlatego twórca OpenClaw wymyślił to tak, że **asystent może komunikować się z nami np. przez Telegram wykorzystując do tego API**. Na początku przygody z OpenClaw liczyłem na to, że może uda mi się z powodzeniem zestawić sobie kanał do komunikacji przez Signal, ale z czasem okazało się, że to nie najlepszy, a już na pewno nie najprostszy sposób. Dlatego mimo tego, że nigdy nie korzystałem z Telegrama, postanowiłem że skorzystam własnie z niego skoro jest **rekomendowany**. Z drugiej strony to komfortowa sytuacja w kontekście tego wpisu, bo będę miał okazję od razu sprawdzić i opisać cały proces aż od instalacji samej aplikacji.
+
+### Instalacja Telegram na telefonie
+
+1. Zaczynamy od pobrania aplikacji Telegram na swój telefon:
+    - dla standardowego Androida pobieramy ze [Sklepu Play](https://play.google.com/store/apps/details?id=org.telegram.messenger),
+    - dla iOS z [App Store](https://apps.apple.com/us/app/telegram-messenger/id686449807),
+    - ale ja mam GrapheneOS, więc instaluję przez Obtainium korzystając z [tego linku](https://telegram.org/dl/android/apk), warto dodać, że [klient Telegram'a jest otwartoźródłowy](https://github.com/DrKLO/Telegram).
+2. Uruchamiamy aplikację i zaczynamy proces zakładania konta. W pierwszej kolejności musimy podać numer telefonu, na który dostaniemy SMS do weryfikacji jego poprawności i tak samo z adresem e-mail. Aplikacja kilkukrotnie poprosi o dostęp do rejestrów połączeń, SMSów i kontaktów, ale wcale nie ma potrzeby tego udostępniać.
+3. Na tak utworzonym koncie polecam wejść w **Ustawienia -> Prywatność i bezpieczeństwo** i przejrzeć te opcje. Sczególnie polecam włączyć **Weryfikację dwustopniową**, ograniczyć to co mogą widzieć inni użytkownicy (ja po prostu wszędzie ustawiłem `Nikt`) oraz wyłączyć synchronizację kontaktów.
+
+### Rejestracja bota w BotFathera
+
+W Telegramie nie zakładasz konta dla bota ręcznie. Robi się to, pisząc do oficjalnego narzędzia administracyjnego o nazwie **BotFather**.
+
+1. Będąc w głównym menu aplikacji na telefonie w **pole wyszukiwania** wpisz `BotFather` i z listy, która się wyświetli wybierz tego, który ma najwięcej użytkowników i niebieski ptaszek przy nazwie co oznacza, że jest zweryfikowany. Reszta to prawdopodobnie próba oszustwa, więc uważaj. Alternatywnie możesz po prostu skorzystać z tego linku https://t.me/BotFather.
+2. Na dole ekranu kliknij przycisk **ROZPOCZNIJ**.
+3. **Wyślij do niego wiadomość** z komendą `/newbot`
+4. BotFather poprosi Cię o podanie **nazwy wyświetlanej** dla bota. Wpisz np. `OpenClaw Assistant`.
+5. Następnie poprosi o **unikalną nazwę użytkownika** (username). Ten ciąg znaków musi być pisany łącznie i kończyć się słowem "bot". Tutaj nie podam co wpisałem, ale dla przykładu mogę powiedzieć, że ma to być coś w stylu `tomaszduniablog_bot`.
+6. Gdy wpiszesz poprawną i wolną nazwę, BotFather wyśle Ci dłuższą wiadomość z gratulacjami. W środku znajdziesz **Token API** (długi ciąg znaków wyglądający mniej więcej tak: 123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ). Zapisz go w bezpiecznym miejscu. W razie czego warto wiedzieć, że Twój bot będzie dostępny pod adresem [https://t.me/tomusiowy_bot](https://t.me/tomaszduniablog_bot), oczywiście zamiast `tomaszduniablog_bot` musisz wpisać swoją nazwę bota.
+
+### Łączenie Telegram'a z OpenClaw
+
+1. Wracamy do terminala, łaczymy się na serwer, wchodzimy do folderu OpenClaw i wstukujemy komendę:
+
+```bash
+docker compose exec openclaw-gateway node dist/index.js channels add
+```
+
+2. To wywoła kreator Kanałów (Channels). Przechodzimy przez kolejne kroki odpowiadając tak:
+  - **Configure chat channels now?** - `Yes`,
+  - **Select a channel** - na liście znajdujemy `Telegram (Bot API)`, powinno być na pierwszym miejscu,
+  - **Telegram account** - `default (primary)`,
+  - wyświetli się komunikat, w którym będzie wszystko to co napisałem wyżej, tj. żeby skontaktować się z BotFather itd.,
+  - **Enter Telegram bot token** - podajemy Token API, który otrzymaliśmy od BotFather'a,
+  - wracamy do kroku **Select a channel** - to tak na wypadek, jakbyśmy chcieli skonfigurować przy okazji więcej kanałów, ale nam to wystarcza, dlatego wybieramy ostatnią opcję `Finished`,
+  - **Configure DM access policies now? (default: pairing)** - `No`, bo to się zrobi samo, gdy napiszemy pierwszą wiadomość do bota ze swojego konta,
+  - **Add display names for these accounts? (optional)** - `No`, to tylko kosmetyka, więc nie ma potrzeby nadawać nazwy,
+  - **Channels updated.** - to oznacza, że wszystko przebiegło pomyślnie.
+3. Zrestartujmy teraz kontener:
+
+```bash
+docker compose restart openclaw-gateway
+```
+
+### Zabezpieczenie do bota przez Telegram
 
 
 
