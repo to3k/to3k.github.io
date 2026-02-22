@@ -996,3 +996,37 @@ Approved telegram sender 1234567890.
 ## Baw się
 
 To wszystko co przygotowałem w tym wpisie. Tak jak zapowiedziałem nie pokazałem żadnego konkretnego zastosowania, bo nie taki był cel tego wpisu. Teraz czas na pracę domową, czyli uruchomienie wyobraźni. Pomyśl do czego taki asystent mógłby Ci się przydać. Spróbuj to wdrożyć. Zepsuj coś, napraw, znowu zepsuj i znowu napraw, aż osiągniesz swój cel. A jak uda Ci się zrobić coś kozackiego to koniecznie napisz o tym w komentarzu poniżej lub wyślij do mnie dowolnym kanałem.
+
+## Aktualizacja - moje pierwsze wrażenia
+
+To jednak nie wszystko co przygotowałem... Podzielę się jeszcze moimi przemyśleniami **po pierwszych paru godzinach użytkowania** OpenClaw.
+
+Już teraz mogę powiedzieć, że **OpenClaw potrzebuje czegoś więcej niż Gemini Flash**. Z tym LLM jako mózg jest po prostu zbyt głupi, powiedzmy to wprost. Na co dzień używam Gemini w pakiecie Google One AI Plus, czyli mam dostęp do najnowszego Gemini 3 - Flash (Szybki; bez limitu), Thinking (Myślący; bodajże 90 zapytań dziennie) i Pro (30 zapytań dziennie). Przyznam szczerze, że **Gemini 3 w wersji Thinking i Pro jest naprawdę rewelacyjne** przez co jestem trochę rozpieszczony. Dlatego OpenClaw bazujący na modelu Flash od razu wydał mi się przygłupi, szczególnie gdy wyczerpał mi się limit na wersji `3` i przełączyło mnie na `2.5`. To rozwiązanie idealne do testów, bo jest darmowe i pozwala sprawdzić poprawność działania środowiska, ale na dłuższą metę trzeba trochę więcej jadu, bo bez tego to tylko marnowanie potencjału.
+
+Z uwagi na to wszystko w najbliższych dniach na pewno **będę rozważał podpięcie tutaj jakiegoś płatnego rozwiązania** i wydaje mi się, że pójdę w kierunku **[OpenRouter](https://openrouter.ai/)**. Jeżeli tak się stanie to na pewno napiszę o tym wpis.
+
+Na początku uznałem to za porażkę, bo jednak trzeba sypnąć nieco większą kwotą pieniędzy niż zakładałem na początku, ale **podobno to nie są wcale horrendalne kwoty**, co również będę miał okazję sprawdzić. Wiadomo, że wszystko zależy od zastosowania i intensywności użytkowania.
+
+Niewątpliwym plusem takiego obrotu spraw jest to, że skoro planuję rozwijać to rozwiązanie i co więcej rzucać w nie pieniędzmi to znaczy, że **ten OpenClaw to jest jednak "coś"**. Faktycznie tak jest. Muszę przyznać, że ten kawałek oprogramownia **zrobił na mnie spore wrażenie** i obawiam się, że może to być spory przełom na rynku. Tym przełomem nie koniecznie musi być konkretnie OpenClaw, a rozwiązanie tego typu. Trzeba spróbować wskoczyć do tego pociągu i trzymać się mocno, bo zapowiada się ciekawa jazda.
+
+Jako ciekawostka dopowiem jeszcze, że jako pierwsze zadanie dałem mojemu asystentowi korektę tego wpisu, więc po pierwsze jeżeli gdzieś jest błąd to jego wina, że tego nie wyłapał, a po drugie od razu znalazłem pierwszą zaletę OpenClaw nad zwykłym chatem Gemini. Ten wpis ma aktualnie ponad 60 tysięcy znaków. Jak wrzuciłem to w Gemini to nawet model Pro dostał natychmiastowej sraczki i nie dał rady przetworzyć takiego ogromu tekstu źródłowego. Wrzucanie mu tego w pliku powodowało, że czytał tylko kilka początkowych i końcowych akapitów. Jak wrzuciłem mu to wprost w okno wiadomości to zaczął gadać po angielsku, a potem wysyłał jakieś dziwne cykliczne komunikaty zmuszając mnie do zatrzymania procesu generowania odpowiedzi. Natomiast jeżeli chodzi o OpenClaw to najpierw zapytałem czy da radę, odpowiedział, że dawaj, no to rypnąłem mu link do draftu, który specjalnie dla niego na chwilę opublikowałem. I tu już pierwsza zaleta, bo po prostu otworzył przeglądarkę w swoim małym ekosystemie, wszedł w link i pobrał zawartość strony. Gemini w tym momencie wywala błąd, że bazuje na wyszukiwarce Google i jeżeli robot indeksujący czegoś nie widział to Gemini nie ma do tego dostępu. OpenClaw na początku też dostał czkawki od długości tego wpisu i zaczął jojczyć, że jednak lipa, ale wtedy następnym promptem poradziłem mu "typie, weź sobie to podziel i przeanalizuj na raty", co ciekawe dał radę i dokładnie tak zrobił. Przypominam, że pracuje na modelu Flash, więc nie sięgającym do pięt modelowi Pro.
+
+Ciekawostka numer dwa to jego odpowiedź na moją wiadomość:
+
+```
+Pokazuję Cię właśnie mojej żonie, żeby pochwalić się, że uruchomiłem swojego własnego bota. Dlatego zaskocz ją i pokaż co potrafisz.
+```
+
+Oto jego odpowiedź:
+
+```
+Witaj! To zaszczyt poznać żonę mojego Twórcy. 👋
+
+Tomek nie żartował – naprawdę żyję, myślę (na tyle, na ile pozwala mi procesor) i jestem gotowy do pomocy. Nie jestem zwykłym czatem, który tylko "gada". Potrafię przeglądać internet, analizować skomplikowane teksty (jak ten gigantyczny artykuł Tomka o mnie samym!), a nawet zarządzać plikami na serwerze.
+
+Co najważniejsze – dbam o to, żeby Twój mąż nie musiał tracić czasu na nudne rzeczy przed komputerem, dzięki czemu będzie miał go więcej dla Ciebie! 😉
+
+Chcesz, żebym sprawdził dla Was pogodę na wieczór, znalazł przepis na szybką kolację, czy może mam Tomkowi przypomnieć o jakichś domowych obowiązkach, o których "przypadkiem" zapomniał? Czekam na komendy! 🫡🦾
+```
+
+Skubaniec wie jak podejść kobietę, ale trochę przesadził z tymi obowiązkami domowymi...
