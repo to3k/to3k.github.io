@@ -156,7 +156,7 @@ Teraz możemy przejść do zakładki [**Cloud**](https://www.hetzner.com/cloud/)
 
 Aktualna (na luty 2026) **oferta** Hetzner prezentuje się tak:
 
-![Oferta Hetzner](/images/hetznerprices.png)
+  ![Oferta Hetzner](/images/hetznerprices.png)
 
 To co nas interesuje to najtańszy serwer **CX23** z procesorem o **2 wirtualnych rdzeniach** (VCPU), **4GB** pamięci RAM i dyskiem SSD o pojemności **40GB**. Taki serwer w momencie pisania tego wpisu kosztuje **5.03 USD miesięcznie** (!), czyli przeliczając po aktualnym kursie jakieś **18 PLN** z groszami. Trudno się nie zgodzić, że jest to **atrakcyjna cena**.
 
@@ -181,7 +181,7 @@ To co nas interesuje to najtańszy serwer **CX23** z procesorem o **2 wirtualnyc
     - Name - tutaj nadamy naszemu serwerowi nazwę, ja wpisałem **openclaw-assistant**
 6. Konfiguracja powinna wyglądać mniej więcej tak:
 
-![Konfiguracja serwera do zakupu](/images/hetznerserverconfig.png)
+  ![Konfiguracja serwera do zakupu](/images/hetznerserverconfig.png)
 
 7. Z taką konfiguracją możemy przystąpić do zakupu serwera. W tym celu naciskamy czerwony przycisk **Create & Buy now**.
 8. Zostaniemy przeniesieni do listy naszych serwerów, gdzie pojawi się nowa (i jedyna) opcja, czyli serwer, który właśnie utworzyliśmy. Na początku będzie się przy nim kręcić kółko co oznacza, że trzeba chwilę poczekać na jego utworzenie. Jednak po chwili na dole wyskoczy zielony komunikat **Server created**, co oznacza, że nasz poligon doświadczalny jest już gotowy.
@@ -212,69 +212,69 @@ To improve security, we recommend that you add an SSH key when creating a server
 Z tego maila będziemy dalej potrzebować **ADRES_IPV4** oraz **OCENZUROWANE_HASŁO**. Spróbujmy teraz połączyć się z serwerem.
 1. Na swoim komputerze otwieramy **terminal** i wpisujemy:
 
-```bash
-ssh root@ADRES_IPV4
-```
+  ```bash
+  ssh root@ADRES_IPV4
+  ```
 
 2. Powinniśmy zobaczyć taki **komunikat**:
 
-```bash
-{% raw %}
-The authenticity of host 'ADRES_IPV4 (ADRES_IPV4)' can't be established.
-ED25519 key fingerprint is SHA256: CENZURA.
-This key is not known by any other names.
-Are you sure you want to continue connecting (yes/no/[fingerprint])?
-{% endraw %}
-```
+  ```bash
+  {% raw %}
+  The authenticity of host 'ADRES_IPV4 (ADRES_IPV4)' can't be established.
+  ED25519 key fingerprint is SHA256: CENZURA.
+  This key is not known by any other names.
+  Are you sure you want to continue connecting (yes/no/[fingerprint])?
+  {% endraw %}
+  ```
 
 3. Musimy na to odpowiedzieć wpisując **yes** i nacisnąć **ENTER**.
 4. Rezultatem będzie komunikat informujący, że adres naszego serwera został dodany do listy znanych hostów i następnym razem zostanie rozpoznany poprzez swój fingerprint (odcisk palca) i nie będzie konieczne potwierdzenie autentyczności.
 
-```bash
-Warning: Permanently added 'ADRES_IPV4' (ED25519) to the list of known hosts.
-Connection closed by ADRES_IPV4 port 22
-```
+  ```bash
+  Warning: Permanently added 'ADRES_IPV4' (ED25519) to the list of known hosts.
+  Connection closed by ADRES_IPV4 port 22
+  ```
 
 5. Połączenie zostanie przerwane, więc musimy jeszcze raz skorzystać z **komendy**:
 
-```bash
-ssh root@ADRES_IPV4
-```
+  ```bash
+  ssh root@ADRES_IPV4
+  ```
 
 6. Powita nas prośba o podanie hasła, więc wpisujemy **OCENZUROWANE_HASŁO** i potwierdzamy **ENTERem**. Uwaga: jeżeli nie masz doświadczenia z SSH to zdziwić Cię może to, że podczas wpisywania hasła nic się nie dzieje, tj. nie pojawiają się nawet gwiazdki, tak ma być i jest to porządane działanie, wpisz po prostu hasło i nie przejmuj się tym.
 7. Jeżeli niczego nie pomyliliśmy to powinniśmy skutecznie nawiązać połączenie i zostać **powitani** czymś w rodzaju:
 
-```bash
-You are required to change your password immediately (administrator enforced).
-Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.8.0-90-generic x86_64)
+  ```bash
+  You are required to change your password immediately (administrator enforced).
+  Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.8.0-90-generic x86_64)
 
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/pro
+  * Documentation:  https://help.ubuntu.com
+  * Management:     https://landscape.canonical.com
+  * Support:        https://ubuntu.com/pro
 
- System information as of Thu Feb 19 07:43:22 PM UTC 2026
+  System information as of Thu Feb 19 07:43:22 PM UTC 2026
 
-  System load:              0.16              
-  Processes:                127
-  Usage of /:               4.1% of 37.23GB   
-  Users logged in:          0
-  Memory usage:             5%                
-  IPv4 address for eth0:    ADRES_IPV4
-  Swap usage:               0%                
-  IPv6 address for eth0:    ADRES_IPV6
+    System load:              0.16              
+    Processes:                127
+    Usage of /:               4.1% of 37.23GB   
+    Users logged in:          0
+    Memory usage:             5%                
+    IPv4 address for eth0:    ADRES_IPV4
+    Swap usage:               0%                
+    IPv6 address for eth0:    ADRES_IPV6
 
-Expanded Security Maintenance for Applications is not enabled.
+  Expanded Security Maintenance for Applications is not enabled.
 
-62 updates can be applied immediately.
-43 of these updates are standard security updates.
-To see these additional updates run: apt list --upgradable
+  62 updates can be applied immediately.
+  43 of these updates are standard security updates.
+  To see these additional updates run: apt list --upgradable
 
-Enable ESM Apps to receive additional future security updates.
-See https://ubuntu.com/esm or run: sudo pro status
+  Enable ESM Apps to receive additional future security updates.
+  See https://ubuntu.com/esm or run: sudo pro status
 
-Changing password for root.
-Current password: 
-```
+  Changing password for root.
+  Current password: 
+  ```
 
 8. Serwer jest tak skonfigurowany, że już podczas pierwszego połączenia **wymusza na nas zmianę hasła dla administratora**. To dobra praktyka, więc posłusznie stosujemy się do sugestii.
     - najpierw pisujemy stare **OCENZUROWANE_HASŁO** i potwierdzamy **ENTERem**,
@@ -286,26 +286,26 @@ Podstawową konfigurację zaczniemy od **zaktualizowania pakietów na serwerze**
 
 1. Wpisujemy **komendę**:
 
-```bash
-nano /usr/local/sbin/aktualizacja.sh
-```
+  ```bash
+  nano /usr/local/sbin/aktualizacja.sh
+  ```
 
 2. W edytorze, który się otworzy **wklejamy poniższą treść**:
 
-```bash
-{% raw %}
-#!/bin/bash
-#Skrypt do aktualizacji systemu i pakietow z blog.tomaszdunia.pl
-echo 'Krok 1 - update'
-sudo apt update
-echo 'Krok 2 - upgrade'
-sudo apt upgrade -y
-echo 'Krok 3 - autoremove'
-sudo apt autoremove -y
-echo 'Krok 4 - clean'
-sudo apt clean
-{% endraw %}
-```
+  ```bash
+  {% raw %}
+  #!/bin/bash
+  #Skrypt do aktualizacji systemu i pakietow z blog.tomaszdunia.pl
+  echo 'Krok 1 - update'
+  sudo apt update
+  echo 'Krok 2 - upgrade'
+  sudo apt upgrade -y
+  echo 'Krok 3 - autoremove'
+  sudo apt autoremove -y
+  echo 'Krok 4 - clean'
+  sudo apt clean
+  {% endraw %}
+  ```
 
 3. Wychodzimy z pliku kombinacją klawiszy **Control (CTRL) + X**, zostaniemy zapytani czy zapisać plik w takim stanie, wystarczy potwierdzić naciskając **y**, a potem na pytanie pod jaką nazwą zapisać wystarczy potwierdzić, że pod taką pod jaką otworzyliśmy, czyli po prostu **ENTER**.
 
