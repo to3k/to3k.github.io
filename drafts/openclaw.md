@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenClaw - Personalny Asystent AI"
-published: false
+published: true
 categories: 
   - "poradniki"
   - "projekty"
