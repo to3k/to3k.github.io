@@ -201,7 +201,7 @@ You can access your server with the following credentials:
 IPv4	      ADRES_IPV4/32
 IPv6	      ADRES_IPV6/64
 User	      root
-Password	OCENZUROWANE_HASŁO
+Password	  OCENZUROWANE_HASŁO
 	
 You will be prompted to change your password on your first login.
 
@@ -210,7 +210,7 @@ To improve security, we recommend that you add an SSH key when creating a server
 ```
 
 Z tego maila będziemy dalej potrzebować **ADRES_IPV4** oraz **OCENZUROWANE_HASŁO**. Spróbujmy teraz połączyć się z serwerem.
-1. Otwieramy **terminal** i wpisujemy:
+1. Na swoim komputerze otwieramy **terminal** i wpisujemy:
 
 ```bash
 ssh root@ADRES_IPV4
@@ -219,10 +219,12 @@ ssh root@ADRES_IPV4
 2. Powinniśmy zobaczyć taki **komunikat**:
 
 ```bash
+{% raw %}
 The authenticity of host 'ADRES_IPV4 (ADRES_IPV4)' can't be established.
 ED25519 key fingerprint is SHA256: CENZURA.
 This key is not known by any other names.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
+{% endraw %}
 ```
 
 3. Musimy na to odpowiedzieć wpisując **yes** i nacisnąć **ENTER**.
