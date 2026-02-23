@@ -945,28 +945,28 @@ W Telegramie nie zakładasz konta dla bota ręcznie. Robi się to, pisząc do of
 2. Na dole ekranu kliknij przycisk **ROZPOCZNIJ**.
 3. **Wyślij do niego wiadomość** o treści `/newbot`
 4. BotFather poprosi Cię o podanie **nazwy wyświetlanej** dla bota. Wpisz np. `OpenClaw Assistant`.
-5. Następnie poprosi o **unikalną nazwę użytkownika** (username). Ten ciąg znaków musi być pisany łącznie i kończyć się słowem "\_bot". Tutaj nie podam co wpisałem, ale dla przykładu mogę powiedzieć, że ma to być coś w stylu `tomaszduniablog_bot`.
-6. Gdy wpiszesz poprawną i wolną nazwę, BotFather wyśle Ci dłuższą wiadomość z gratulacjami. W środku znajdziesz **Token API** (długi ciąg znaków wyglądający mniej więcej tak: 123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ). Zapisz go w bezpiecznym miejscu. W razie czego warto wiedzieć i zapisać sobie, że Twój bot będzie dostępny pod adresem [https://t.me/tomusiowy_bot](https://t.me/tomaszduniablog_bot), oczywiście zamiast `tomaszduniablog_bot` musisz wpisać swoją nazwę bota.
+5. Następnie poprosi o **unikalną nazwę użytkownika** (username). Ten ciąg znaków musi być pisany łącznie i kończyć się słowem `\_bot`. Tutaj nie podam co wpisałem, ale dla przykładu mogę powiedzieć, że ma to być coś w stylu `tomaszduniablog_bot`.
+6. Gdy wpiszesz poprawną i wolną nazwę, BotFather wyśle Ci dłuższą wiadomość z gratulacjami. W środku znajdziesz **Token API** (długi ciąg znaków wyglądający mniej więcej tak: `123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ`). Zapisz go w bezpiecznym miejscu. W razie czego warto wiedzieć i zapisać sobie, że **Twój bot będzie dostępny pod adresem** [https://t.me/tomusiowy_bot](https://t.me/tomaszduniablog_bot), oczywiście zamiast `tomaszduniablog_bot` musisz wpisać swoją nazwę bota.
 
 ### Łączenie Telegrama z OpenClaw
 
-1. Wracamy do terminala, łaczymy się na serwer, wchodzimy do folderu OpenClaw i wstukujemy komendę:
+1. Wracamy do terminala, **łaczymy się z serwerem**, wchodzimy do folderu OpenClaw i wstukujemy **komendę**:
 
 	```bash
 	docker compose exec openclaw-gateway node dist/index.js channels add
 	```
 
 2. To wywoła kreator Kanałów (Channels). Przechodzimy przez kolejne kroki odpowiadając tak:
-	- **Configure chat channels now?** - `Yes`,
-	- **Select a channel** - na liście znajdujemy `Telegram (Bot API)`, powinno być na pierwszym miejscu,
-	- **Telegram account** - `default (primary)`,
+	- `Configure chat channels now?`**` - **Yes**,
+	- `Select a channel` - na liście znajdujemy **Telegram (Bot API)**, powinno być na pierwszym miejscu,
+	- `Telegram account` - **default (primary)**,
 	- wyświetli się komunikat, w którym będzie wszystko to co napisałem wyżej, tj. żeby skontaktować się z BotFather itd.,
-	- **Enter Telegram bot token** - podajemy Token API, który otrzymaliśmy od BotFathera,
-	- wracamy do kroku **Select a channel** - to tak na wypadek, jakbyśmy chcieli skonfigurować przy okazji więcej kanałów, ale nam to wystarcza, dlatego wybieramy ostatnią opcję `Finished`,
-	- **Configure DM access policies now? (default: pairing)** - `No`, bo to się zrobi samo, gdy napiszemy pierwszą wiadomość do bota ze swojego konta,
-	- **Add display names for these accounts? (optional)** - `No`, to tylko kosmetyka, więc nie ma potrzeby nadawać nazwy,
-	- **Channels updated.** - to oznacza, że wszystko przebiegło pomyślnie.
-3. Zrestartujmy teraz kontener:
+	- `Enter Telegram bot token` - podajemy **Token API**, który otrzymaliśmy od BotFathera,
+	- wracamy do kroku `Select a channel` - to tak na wypadek, jakbyśmy chcieli skonfigurować przy okazji więcej kanałów, ale nam to wystarcza, dlatego wybieramy ostatnią opcję **Finished**,
+	- `Configure DM access policies now? (default: pairing)` - **No**, bo zrobimy to później,
+	- `Add display names for these accounts? (optional)` - **No**, to tylko kosmetyka, więc nie ma potrzeby nadawać nazwy,
+	- `Channels updated.` - to oznacza, że **wszystko przebiegło pomyślnie**.
+3. **Zrestartujmy** teraz kontener:
 
 	```bash
 	docker compose restart openclaw-gateway
@@ -974,9 +974,9 @@ W Telegramie nie zakładasz konta dla bota ręcznie. Robi się to, pisząc do of
 
 ### Zabezpieczenie dostępu przez Telegram
 
-1. Wracamy do BotFathera, gdzie mamy link do naszego bota lub jeżeli go zapisaliśmy (tak jak proponowałem) to po prostu odszukujemy go w notatkach i przechodzimy do niego.
-2. W ten sposób wchodzimy tak jakby do rozmowy z naszym botem. Zaczynamy od wysłania do niego wiadomości o treści `/start`.
-3. Odpisze nam:
+1. Wracamy do BotFathera, gdzie mamy **link do naszego bota** lub jeżeli go zapisaliśmy (tak jak proponowałem) to po prostu odszukujemy go w notatkach i **przechodzimy do niego**.
+2. W ten sposób wchodzimy tak jakby do **rozmowy z naszym botem**. Zaczynamy od **wysłania do niego wiadomości** o treści `/start`.
+3. **Odpisze** nam:
 
 	```
 	OpenClaw: access not configured.
@@ -989,39 +989,39 @@ W Telegramie nie zakładasz konta dla bota ręcznie. Robi się to, pisząc do of
 	openclaw pairing approve telegram ABCDEF1G
 	```
 
-4. Przechodzimy do terminala podłączonego do serwera VPS i wpisujemy komendę (uwaga! na końcu podaj swój kod parowania):
+4. **Przechodzimy do terminala** podłączonego do serwera VPS i wpisujemy **komendę** (uwaga! na końcu podaj swój kod parowania, z poprzedniego punktu):
 
 	```bash
 	docker compose exec openclaw-gateway node dist/index.js pairing approve telegram ABCDEF1G
 	```
 
-5. W odpowiedzi powinniśmy otrzymać:
+5. W **odpowiedzi** powinniśmy otrzymać:
 
 	```bash
 	Approved telegram sender 1234567890.
 	```
 
-6. Od tego momentu asystent będzie reagował wyłącznie na wiadomości wysyłane z konta, które właśnie przeszło autoryzację. Możesz to sprawdzić pisząc do bota przez Telegram. Jeżeli wszystko przebiegło pomyślnie to na pewno odpowie.
+6. Od tego momentu asystent **będzie reagował wyłącznie na wiadomości wysyłane z konta, które właśnie przeszło autoryzację**. Możesz to sprawdzić pisząc do bota przez Telegram. Jeżeli wszystko przebiegło pomyślnie to na pewno odpowie.
 
 ## Baw się
 
-To wszystko co przygotowałem w tym wpisie. Tak jak zapowiedziałem nie pokazałem żadnego konkretnego zastosowania, bo nie taki był cel tego wpisu. Teraz czas na pracę domową, czyli uruchomienie wyobraźni. Pomyśl do czego taki asystent mógłby Ci się przydać. Spróbuj to wdrożyć. Zepsuj coś, napraw, znowu zepsuj i znowu napraw, aż osiągniesz swój cel. A jak uda Ci się zrobić coś kozackiego to koniecznie napisz o tym w komentarzu poniżej lub wyślij do mnie dowolnym kanałem.
+To wszystko co przygotowałem w tym wpisie. Tak jak zapowiedziałem nie pokazałem żadnego konkretnego zastosowania, bo nie taki był cel tego wpisu. Teraz czas na pracę domową, czyli **uruchomienie wyobraźni**. Pomyśl do czego taki asystent mógłby Ci się przydać. Spróbuj to wdrożyć. Zepsuj coś, napraw, znowu zepsuj i znowu napraw, aż osiągniesz swój cel. A **jak uda Ci się zrobić coś kozackiego to koniecznie napisz** o tym w komentarzu poniżej lub wyślij do mnie dowolnym kanałem.
 
 ## Aktualizacja - moje pierwsze wrażenia
 
 To jednak nie wszystko co przygotowałem... Podzielę się jeszcze moimi przemyśleniami **po pierwszych paru godzinach użytkowania** OpenClaw.
 
-Już teraz mogę powiedzieć, że **OpenClaw potrzebuje czegoś więcej niż Gemini Flash**. Z tym LLM jako mózg jest po prostu zbyt głupi, powiedzmy to wprost. Na co dzień używam Gemini w pakiecie Google One AI Plus, czyli mam dostęp do najnowszego Gemini 3 - Flash (Szybki; bez limitu), Thinking (Myślący; bodajże 90 zapytań dziennie) i Pro (30 zapytań dziennie). Przyznam szczerze, że **Gemini 3 w wersji Thinking i Pro jest naprawdę rewelacyjne** przez co jestem trochę rozpieszczony. Dlatego OpenClaw bazujący na modelu Flash od razu wydał mi się przygłupi, szczególnie gdy wyczerpał mi się limit na wersji `3` i przełączyło mnie na `2.5`. To rozwiązanie idealne do testów, bo jest darmowe i pozwala sprawdzić poprawność działania środowiska, ale na dłuższą metę trzeba trochę więcej jadu, bo bez tego to tylko marnowanie potencjału.
+Już teraz mogę powiedzieć, że **OpenClaw potrzebuje czegoś więcej niż Gemini Flash**. Z tym LLM jako mózg jest po prostu zbyt głupi, powiedzmy to wprost. Na co dzień używam Gemini w pakiecie Google One AI Plus, czyli mam dostęp do najnowszego Gemini 3 - Flash (Szybki; bez limitu), Thinking (Myślący; bodajże 90 zapytań dziennie) i Pro (30 zapytań dziennie). Przyznam szczerze, że **Gemini 3 w wersji Thinking i Pro jest naprawdę rewelacyjne** przez co jestem trochę rozpieszczony. Dlatego OpenClaw bazujący na modelu Flash od razu wydał mi się przygłupi, szczególnie gdy wyczerpał mi się limit na wersji `3` i przełączyło mnie na `2.5`. To rozwiązanie idealne do testów, bo jest darmowe i pozwala sprawdzić poprawność działania środowiska, ale **na dłuższą metę trzeba trochę więcej jadu**, bo bez tego to tylko marnowanie potencjału.
 
 Z uwagi na to wszystko w najbliższych dniach na pewno **będę rozważał podpięcie tutaj jakiegoś płatnego rozwiązania** i wydaje mi się, że pójdę w kierunku **[OpenRouter](https://openrouter.ai/)**. Jeżeli tak się stanie to na pewno napiszę o tym wpis.
 
-Na początku uznałem to za porażkę, bo jednak trzeba sypnąć nieco większą kwotą pieniędzy niż zakładałem na początku, ale **podobno to nie są wcale horrendalne kwoty**, co również będę miał okazję sprawdzić. Wiadomo, że wszystko zależy od zastosowania i intensywności użytkowania.
+Na początku uznałem to za porażkę, bo jednak trzeba sypnąć nieco większą kwotą pieniędzy niż zakładałem na początku, ale **podobno to nie są wcale horrendalne kwoty**, co również będę miał okazję sprawdzić. Wiadomo, że wszystko **zależy od zastosowania i intensywności użytkowania**.
 
-Niewątpliwym plusem takiego obrotu spraw jest to, że skoro planuję rozwijać to rozwiązanie i co więcej rzucać w nie pieniędzmi to znaczy, że **ten OpenClaw to jest jednak "coś"**. Faktycznie tak jest. Muszę przyznać, że ten kawałek oprogramownia **zrobił na mnie spore wrażenie** i obawiam się, że może to być spory przełom na rynku. Tym przełomem nie koniecznie musi być konkretnie OpenClaw, a rozwiązanie tego typu. Trzeba spróbować wskoczyć do tego pociągu i trzymać się mocno, bo zapowiada się ciekawa jazda.
+Niewątpliwym plusem takiego obrotu spraw jest to, że skoro planuję rozwijać to rozwiązanie i co więcej rzucać w nie pieniędzmi to znaczy, że **ten OpenClaw to jest jednak "coś"**. Naprawdę tak uważam! Muszę przyznać, że ten kawałek oprogramownia **zrobił na mnie spore wrażenie** i obawiam się, że może to być nie lada przełom na rynku. Tym przełomem nie koniecznie musi być konkretnie OpenClaw, a rozwiązanie tego typu. Trzeba spróbować wskoczyć do tego pociągu i trzymać się mocno, bo zapowiada się ciekawa jazda.
 
-Jako ciekawostka dopowiem jeszcze, że jako pierwsze zadanie dałem mojemu asystentowi korektę tego wpisu, więc po pierwsze jeżeli gdzieś jest błąd to jego wina, że tego nie wyłapał, a po drugie od razu znalazłem pierwszą zaletę OpenClaw nad zwykłym chatem Gemini. Ten wpis ma aktualnie ponad 60 tysięcy znaków. Jak wrzuciłem to w Gemini to nawet model Pro dostał natychmiastowej sraczki i nie dał rady przetworzyć takiego ogromu tekstu źródłowego. Wrzucanie mu tego w pliku powodowało, że czytał tylko kilka początkowych i końcowych akapitów. Jak wrzuciłem mu to wprost w okno wiadomości to zaczął gadać po angielsku, a potem wysyłał jakieś dziwne cykliczne komunikaty zmuszając mnie do zatrzymania procesu generowania odpowiedzi. Natomiast jeżeli chodzi o OpenClaw to najpierw zapytałem czy da radę, odpowiedział, że dawaj, no to rypnąłem mu link do draftu, który specjalnie dla niego na chwilę opublikowałem. I tu już pierwsza zaleta, bo po prostu otworzył przeglądarkę w swoim małym ekosystemie, wszedł w link i pobrał zawartość strony. Gemini w tym momencie wywala błąd, że bazuje na wyszukiwarce Google i jeżeli robot indeksujący czegoś nie widział to Gemini nie ma do tego dostępu. OpenClaw na początku też dostał czkawki od długości tego wpisu i zaczął jojczyć, że jednak lipa, ale wtedy następnym promptem poradziłem mu "typie, weź sobie to podziel i przeanalizuj na raty", co ciekawe dał radę i dokładnie tak zrobił. Przypominam, że pracuje na modelu Flash, więc nie sięgającym do pięt modelowi Pro.
+Jako ciekawostka dopowiem jeszcze, że **jako pierwsze zadanie dałem mojemu asystentowi korektę tego wpisu**, więc po pierwsze jeżeli gdzieś jest błąd to jego wina, że tego nie wyłapał, a po drugie od razu znalazłem pierwszą zaletę OpenClaw nad zwykłym chatem Gemini. Ten wpis ma aktualnie prawie 65 tysięcy znaków. Jak wrzuciłem to w Gemini to nawet model Pro dostał natychmiastowej sraczki i nie dał rady przetworzyć takiego ogromu tekstu źródłowego. Wrzucanie mu tego w pliku powodowało, że czytał tylko kilka początkowych i końcowych akapitów. Jak wrzuciłem mu to wprost w okno wiadomości to zaczął gadać po angielsku, a potem wysyłał jakieś dziwne cykliczne komunikaty zmuszając mnie do zatrzymania procesu generowania odpowiedzi. Natomiast jeżeli chodzi o OpenClaw to najpierw zapytałem czy da radę, odpowiedział, że czeka na wyzwanie, no to rypnąłem mu link do draftu, który specjalnie dla niego na chwilę opublikowałem. I tu już pierwsza zaleta, bo po prostu otworzył przeglądarkę w swoim małym kontenerze, wszedł w link i pobrał zawartość strony. Gemini w tym momencie wywala błąd, że bazuje na wyszukiwarce Google i jeżeli robot indeksujący czegoś nie widział to Gemini nie ma do tego dostępu. OpenClaw na początku też dostał czkawki od długości tego wpisu i zaczął jojczyć, że jednak lipa, ale wtedy następnym promptem poradziłem mu "typie, weź sobie to podziel i przeanalizuj na raty", co ciekawe **dał radę** i dokładnie tak zrobił. Przypominam, że pracuje na modelu Flash, więc nie sięgającym do pięt modelowi Pro.
 
-Ciekawostka numer dwa to jego odpowiedź na moją wiadomość:
+Ciekawostka numer dwa to jego odpowiedź na moją wiadomość o treści:
 
 ```
 Pokazuję Cię właśnie mojej żonie, żeby pochwalić się, że uruchomiłem swojego własnego bota. Dlatego zaskocz ją i pokaż co potrafisz.
