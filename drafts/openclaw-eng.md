@@ -906,7 +906,7 @@ We control tools in the `Tools.md` file or in **Agent -> Agents -> Tools**. The 
 - **System management** - `exec` (executing commands in the terminal) and `process` (managing background processes).
 - **Internet** - `web_search` and `web_fetch` (downloading page content).
 
-### 3. Skills
+### Skills
 
 While a **Tool** is, for example, the hardware capability to use a web browser, a **Skill** is a ready-made **package teaching the bot** step by step how to log into a specific service (e.g., Gmail or GitHub) and perform a task there.
 

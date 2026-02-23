@@ -907,7 +907,7 @@ Narzędzia kontrolujemy w pliku `Tools.md` lub w **Agent -> Agents -> Tools**. N
 - **Zarządzanie systemem** - `exec` (wykonywanie komend w terminalu) i `process` (zarządzanie procesami w tle).
 - **Internet** - `web_search` (wyszukiwanie) i `web_fetch` (pobieranie treści stron).
 
-### 3. Umiejętności (Skills)
+### Umiejętności (Skills)
 
 Podczas, gdy **Tool** to np. sprzętowa możliwość używania przeglądarki internetowej, **Skill** to gotowa **paczka ucząca bota** krok po kroku, jak zalogować się do konkretnej usługi (np. Gmaila czy GitHuba) i wykonać tam zadanie. 
 
