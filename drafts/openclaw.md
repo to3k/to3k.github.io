@@ -7,30 +7,27 @@ categories:
   - "projekty"
   - "self-hosting"
 tags: 
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
+  - "openclaw"
+  - "hetzner"
+  - "google-ai-studio"
+  - "ai"
+  - "llm"
+  - "bot"
+  - "asystent"
+  - "assistant"
+  - "gemini"
+  - "chatgpt"
+  - "claude"
+  - "openai"
+  - "anthropic"
+  - "google"
+  - "vps"
+  - "ssh"
+  - "telegram"
 image: "/images/openclaw.png"
 ---
 
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/TYTUŁ-eng/)
+[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/openclaw-eng/)
 
 Spis treści:
 * TOC
