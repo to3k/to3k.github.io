@@ -276,7 +276,7 @@ From this email, we will further need **ADRES_IPV4** and **OCENZUROWANE_HASŁO**
     - first, we enter the old **OCENZUROWANE_HASŁO** and confirm with **ENTER**,
     - and then we enter the **NOWE_HASŁO** (NEW_PASSWORD) twice, confirming each time with **ENTER**.
 
-### Updating
+### System and packages update
 
 We will start the basic configuration by **updating the packages on the server**. For this, we will use a ready-made little script that I previously presented in [one of the posts on this blog](https://blog.tomaszdunia.pl/serwer-domowy-podstawowa-konfiguracja/#aktualizacja-to-podstawa).
 
