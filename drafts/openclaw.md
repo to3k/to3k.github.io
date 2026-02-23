@@ -156,7 +156,7 @@ Teraz możemy przejść do zakładki [**Cloud**](https://www.hetzner.com/cloud/)
 
 Aktualna (na luty 2026) **oferta** Hetzner prezentuje się tak:
 
-	![Oferta Hetzner](/images/hetznerprices.png)
+![Oferta Hetzner](/images/hetznerprices.png)
 
 To co nas interesuje to najtańszy serwer **CX23** z procesorem o **2 wirtualnych rdzeniach** (VCPU), **4GB** pamięci RAM i dyskiem SSD o pojemności **40GB**. Taki serwer w momencie pisania tego wpisu kosztuje **5.03 USD miesięcznie** (!), czyli przeliczając po aktualnym kursie jakieś **18 PLN** z groszami. Trudno się nie zgodzić, że jest to **atrakcyjna cena**.
 
@@ -212,18 +212,18 @@ To improve security, we recommend that you add an SSH key when creating a server
 Z tego maila będziemy dalej potrzebować **ADRES_IPV4** oraz **OCENZUROWANE_HASŁO**. Spróbujmy teraz połączyć się z serwerem.
 1. Na swoim komputerze otwieramy **terminal** i wpisujemy:
 
-  ```bash
-  ssh root@ADRES_IPV4
-  ```
+	```bash
+	ssh root@ADRES_IPV4
+	```
 
 2. Powinniśmy zobaczyć taki **komunikat**:
 
 	```bash
 	{% raw %}
-	The authenticity of host 'ADRES_IPV4 (ADRES_IPV4)' can't be established.
+	The authenticity of host \'ADRES_IPV4 (ADRES_IPV4)\' can\'t be established.
 	ED25519 key fingerprint is SHA256: CENZURA.
 	This key is not known by any other names.
-	Are you sure you want to continue connecting (yes/no/[fingerprint])?
+	Are you sure you want to continue connecting \(yes/no/[fingerprint]\)\?
 	{% endraw %}
 	```
 
