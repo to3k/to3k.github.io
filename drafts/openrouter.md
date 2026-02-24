@@ -230,13 +230,13 @@ Wracamy na stronę [OpenRouter](https://openrouter.ai/) i pozyskamy w końcu ten
 3. Potwierdzamy przyciskiem **Create**.
 4. W rezultacie otrzymamy komunikat, w którego treści będzie klucz, który należy zapisać w bezpiecznym miejscu:
 
-```
-Your new key:
-KLUCZ_API_OPENROUTER
+    ```
+    Your new key:
+    KLUCZ_API_OPENROUTER
 
-Please copy it now and write it down somewhere safe. You will not be able to see it again.
-You can use it with OpenAI-compatible apps, or your own code
-```
+    Please copy it now and write it down somewhere safe. You will not be able to see it again.
+    You can use it with OpenAI-compatible apps, or your own code
+    ```
 
 ## Strategia Multi-Model
 
@@ -262,73 +262,73 @@ Brzmi obiecująco, prawda? Mnie to przekonuje dlatego w pierwszej kolejności zd
 Dobra, ale jak to skonfigurować?
 1. Logujemy się na serwer VPS:
 
-```bash
-ssh manager@ADRES_IPV4
-```
+    ```bash
+    ssh manager@ADRES_IPV4
+    ```
 
 2. Otwieramy plik `/home/manager/.openclaw/openclaw.json` w edytorze:
 
-```bash
-nano /home/manager/.openclaw/openclaw.json
-```
+    ```bash
+    nano /home/manager/.openclaw/openclaw.json
+    ```
 
 3. Jego treść modyfikujemy tak, aby wyglądała następująco:
 
-```json
-{
-  "meta": {
-    "lastTouchedVersion": "2026.2.20",
-    "lastTouchedAt": "2026-02-24T10:48:06.665Z"
-  },
-  "agents": {
-    "defaults": {
-      "model": "openrouter/openrouter/auto",
-      "heartbeat": {
-        "every": "6h",
-        "model": "openrouter/google/gemini-3-flash",
-        "target": "last"
+    ```json
+    {
+      "meta": {
+        "lastTouchedVersion": "2026.2.20",
+        "lastTouchedAt": "2026-02-24T10:48:06.665Z"
       },
-      "compaction": {
-        "mode": "safeguard"
+      "agents": {
+        "defaults": {
+          "model": "openrouter/openrouter/auto",
+          "heartbeat": {
+            "every": "6h",
+            "model": "openrouter/google/gemini-3-flash",
+            "target": "last"
+          },
+          "compaction": {
+            "mode": "safeguard"
+          },
+          "maxConcurrent": 4,
+          "subagents": {
+            "maxConcurrent": 8
+          },
+          "contextTokens": 50000
+        }
       },
-      "maxConcurrent": 4,
-      "subagents": {
-        "maxConcurrent": 8
+      "messages": {
+        "ackReactionScope": "group-mentions"
       },
-      "contextTokens": 50000
-    }
-  },
-  "messages": {
-    "ackReactionScope": "group-mentions"
-  },
-  "commands": {
-    "native": "auto",
-    "nativeSkills": "auto",
-    "restart": true
-  },
-  "channels": {
-    "telegram": {
-      "enabled": true,
-      "dmPolicy": "pairing",
-      "botToken": "TOKEN_TELEGRAM",
-      "groupPolicy": "allowlist",
-      "streamMode": "partial"
-    }
-  },
-  "skills": {
-    "entries": {
-      
-    }
-  },
-  "plugins": {
-    "entries": {
-      "telegram": {
-        "enabled": true
+      "commands": {
+        "native": "auto",
+        "nativeSkills": "auto",
+        "restart": true
+      },
+      "channels": {
+        "telegram": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "TOKEN_TELEGRAM",
+          "groupPolicy": "allowlist",
+          "streamMode": "partial"
+        }
+      },
+      "skills": {
+        "entries": {
+          
+        }
+      },
+      "plugins": {
+        "entries": {
+          "telegram": {
+            "enabled": true
+          }
+        }
       }
     }
-  }
-}
-```
+    ```
 
 4. Omówmy ten plik linijka po linijce:
     - **`meta`**: Metadane pliku konfiguracyjnego.
@@ -361,6 +361,11 @@ nano /home/manager/.openclaw/openclaw.json
 5. Jak widzisz jako model główny podpiąłem tutaj `openrouter/openrouter/auto`, ale dodatkowo dla `heartbeat`, czyli operacji cyklicznych w tle przypisałem na sztywno model `openrouter/google/gemini-3-flash`, czyli czyli najszybszy i najtańszy model, ale z najnowszej wersji Gemini. Teoretycznie Auto Router poradził by sobie z doborem odpowiedniego modelu dla heartbeatsów, ale skonfigurowanie tego na sztywno jest tak proste, że szkoda kusić losu. Do tego taki zapis pozwala mi na sztywno określić interwał odpalania działań w tle i na początek zdecydowałem, że będzie to 6 godzin.
 6. Teraz zresetujmy kontener, aby utrwalić zmiany:
 
-```bash
-docker compose restart openclaw-gateway
-```
+    ```bash
+    docker compose restart openclaw-gateway
+    ```
+
+### Wariant dla zaawansowanych
+
+Wariant zaawansowany przewiduje ustawienie konkretnych modeli (wraz z ich zastępcami) do określonych zadań plus umożliwi wybór aktualnie pierwszorzędnego modelu w locie, czyli z poziomu chatu w Telegramie.
+
