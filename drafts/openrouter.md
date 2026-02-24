@@ -153,20 +153,23 @@ U mnie ten plik domyślnie w ogóle nie istniał, dlatego go utworzyłem i pozos
 
 Powyższe pliki służą do tego, aby za ich pomocą dostosować asystenta do swoich potrzeb. Jak to mówią apetyt rośnie w miarę jedzenia, więc na pewno będziemy chcieli w przyszłości coś podkręcić. Na pewno bedą zmieniać się także nasze wymagania względem asystenta. Dobry pracownik zawsze może być lepszy. Modyfikuj te pliki aż osiągniesz zadowalający Cię efekt. Jednakże pamiętaj o jednym. Niektóre modele LLM cache'ują (zapamiętują) zawartość tych plików. Przykładem takiego modelu jest właśnie Claude od Anthropic. Po pierwszym zapoznaniu się z plikami "osobowości" naszego asystenta model ten zapamięta je i przy następnym zapytaniu API zapłacimy tylko 90% za skorzystanie z tej części pamięci. Jest jednak jeden warunek. Zawartość tych plików nie może uleć zmianie. Każda nawet drobna zmiana spowoduje ponowne cachowanie i tym samym przepada nam zniżka 90%.
 
-### Czyszczenie niepotrzebnych skilli
+### Wyłączenie niepotrzebnych skilli
 
-OpenClaw uruchamia się z domyślnymi skillami, których w moim przypadku było aż 50. Przejrzałem całą tą listę i doszedłem do wniosku, że nie potrzebuję żadnego z nich, a nawet jeżeli będę potrzebował w przyszłości to mogę go szybko doinstalować. Instrukcje obsługi wszystkich włączonych skilli są doklejane do każdego zapytania kierowanego do API, więc jeżeli nie korzystamy z nich to są tylko zbędnym zapychaczem. Listę skilli można sprawdzić w panelu sterowania w **Agent -> Skills** i z tego poziomu można je też wszystkie wyłaczyć. Kliknięcie 50 razy przycisku `Disable` nie jest wygodne, więc proponuję to zrobić z poziomu terminala serwera VPS. W tym celu edytujemy plik `/home/manager/.openclaw/openclaw.json`.
+OpenClaw uruchamia się z domyślnymi skillami, których w moim przypadku było aż 50. Przejrzałem całą tą listę i doszedłem do wniosku, że nie potrzebuję żadnego z nich, a nawet jeżeli będę potrzebował w przyszłości to mogę go szybko włączyć. Instrukcje obsługi wszystkich włączonych skilli są doklejane do każdego zapytania kierowanego do API, więc jeżeli nie korzystamy z nich to są tylko zbędnym zapychaczem. Listę skilli można sprawdzić w panelu sterowania w **Agent -> Skills** i z tego poziomu można je też wszystkie wyłaczyć. Kliknięcie 50 razy przycisku `Disable` nie jest wygodne, więc proponuję to zrobić z poziomu terminala serwera VPS. W tym celu edytujemy plik `/home/manager/.openclaw/openclaw.json`.
 
 ```bash
 nano /home/manager/.openclaw/openclaw.json
 ```
 
-Tuta nie tylko można wyłączyć skille (zmieniając parametr `enabled` na `false`), ale także w ogóle je usunąć, co polecam zrobić, żeby nie robić sobie śmietnika. To czego powinniśmy się pozbyć to fragmentu:
+Skille znajdują się w sekcji `skills` i dalej `entries`, a wyłącza się je poprzez zmianę wartości parametru`enabled` na `false`. Przykład wyłaczenia skilla 1password:
 
 ```json
 "skills": {
   "entries": {
-    USUŃ WSZYSTKO SPOMIĘDZY KLAMEREK, TYLKO UWAŻAJ NA SKŁADNIĘ
+    "1password": {
+      "enabled": false
+    },
+    ...
   }
 ```
 
@@ -237,6 +240,31 @@ Wracamy na stronę [OpenRouter](https://openrouter.ai/) i pozyskamy w końcu ten
     Please copy it now and write it down somewhere safe. You will not be able to see it again.
     You can use it with OpenAI-compatible apps, or your own code
     ```
+5. Otrzymany klucz dodamy teraz do środowiska naszego bota. Otwieramy do edycji plik `/home/manager/openclaw/.env`:
+
+    ```bash
+    nano /home/manager/openclaw/.env
+    ```
+6. Dodajemy na jego końcu linijkę, w której zamiast `KLUCZ_API_OPENROUTER` podajemy klucz API od OpenRouter, który utworzyliśmy w poprzednich krokach:
+
+    ```bash
+    OPENROUTER_API_KEY=KLUCZ_API_OPENROUTER
+    ```
+7. Otwieramy do edycji kolejny plik `/home/manager/openclaw/docker-compose.yml`:
+
+    ```bash
+    nano /home/manager/openclaw/docker-compose.yml
+    ```
+8. Na końcu sekcji `environment` dodajemy linijkę:
+
+    ```bash
+    - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+    ```
+9. Jeszcze tylko restart kontenera:
+
+    ```bash
+    docker compose up -d openclaw-gateway
+    ```
 
 ## Strategia Multi-Model
 
@@ -282,7 +310,9 @@ Dobra, ale jak to skonfigurować?
       },
       "agents": {
         "defaults": {
-          "model": "openrouter/openrouter/auto",
+          "model": {
+            "primary": "openrouter/openrouter/auto"
+          },
           "heartbeat": {
             "every": "6h",
             "model": "openrouter/google/gemini-3-flash",
@@ -317,7 +347,156 @@ Dobra, ale jak to skonfigurować?
       },
       "skills": {
         "entries": {
-          
+          "1password": {
+            "enabled": false
+          },
+          "apple-notes": {
+            "enabled": false
+          },
+          "apple-reminders": {
+            "enabled": false
+          },
+          "bear-notes": {
+            "enabled": false
+          },
+          "blogwatcher": {
+            "enabled": false
+          },
+          "blucli": {
+            "enabled": false
+          },
+          "bluebubbles": {
+            "enabled": false
+          },
+          "camsnap": {
+            "enabled": false
+          },
+          "clawhub": {
+            "enabled": false
+          },
+          "coding-agent": {
+            "enabled": false
+          },
+          "discord": {
+            "enabled": false
+          },
+          "eightctl": {
+            "enabled": false
+          },
+          "gemini": {
+            "enabled": false
+          },
+          "gh-issues": {
+            "enabled": false
+          },
+          "gifgrep": {
+            "enabled": false
+          },
+          "github": {
+            "enabled": false
+          },
+          "gog": {
+            "enabled": false
+          },
+          "goplaces": {
+            "enabled": false
+          },
+          "healthcheck": {
+            "enabled": false
+          },
+          "himalaya": {
+            "enabled": false
+          },
+          "imsg": {
+            "enabled": false
+          },
+          "mcporter": {
+            "enabled": false
+          },
+          "model-usage": {
+            "enabled": false
+          },
+          "nano-banana-pro": {
+            "enabled": false
+          },
+          "nano-pdf": {
+            "enabled": false
+          },
+          "notion": {
+            "enabled": false
+          },
+          "openai-image-gen": {
+            "enabled": false
+          },
+          "openai-whisper": {
+            "enabled": false
+          },
+          "openai-whisper-api": {
+            "enabled": false
+          },
+          "oracle": {
+            "enabled": false
+          },
+          "openhue": {
+            "enabled": false
+          },
+          "obsidian": {
+            "enabled": false
+          },
+          "ordercli": {
+            "enabled": false
+          },
+          "peekaboo": {
+            "enabled": false
+          },
+          "sag": {
+            "enabled": false
+          },
+          "session-logs": {
+            "enabled": false
+          },
+          "sherpa-onnx-tts": {
+            "enabled": false
+          },
+          "skill-creator": {
+            "enabled": false
+          },
+          "slack": {
+            "enabled": false
+          },
+          "songsee": {
+            "enabled": false
+          },
+          "sonoscli": {
+            "enabled": false
+          },
+          "spotify-player": {
+            "enabled": false
+          },
+          "summarize": {
+            "enabled": false
+          },
+          "things-mac": {
+            "enabled": false
+          },
+          "tmux": {
+            "enabled": false
+          },
+          "trello": {
+            "enabled": false
+          },
+          "video-frames": {
+            "enabled": false
+          }
+          "voice-call": {
+            "enabled": false
+          },
+          "wacli": {
+            "enabled": false
+          },
+          "weather": {
+            "enabled": false
+          }
         }
       },
       "plugins": {
