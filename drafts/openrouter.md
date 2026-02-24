@@ -149,6 +149,10 @@ Ten plik przydaje się tylko przy pierwszym uruchomieniu bota. Konfiguracja, kt�
 
 U mnie ten plik domyślnie w ogóle nie istniał, dlatego go utworzyłem i pozostawiłem pustym. To miejsce, gdzie bot sam będzie zapisywał rzeczy, które musi zachować w ramach pamięci długotrwałej.
 
+#### Podpowiedź
+
+Powyższe pliki służą do tego, aby za ich pomocą dostosować asystenta do swoich potrzeb. Jak to mówią apetyt rośnie w miarę jedzenia, więc na pewno będziemy chcieli w przyszłości coś podkręcić. Na pewno bedą zmieniać się także nasze wymagania względem asystenta. Dobry pracownik zawsze może być lepszy. Modyfikuj te pliki aż osiągniesz zadowalający Cię efekt. Jednakże pamiętaj o jednym. Niektóre modele LLM cache'ują (zapamiętują) zawartość tych plików. Przykładem takiego modelu jest właśnie Claude od Anthropic. Po pierwszym zapoznaniu się z plikami "osobowości" naszego asystenta model ten zapamięta je i przy następnym zapytaniu API zapłacimy tylko 90% za skorzystanie z tej części pamięci. Jest jednak jeden warunek. Zawartość tych plików nie może uleć zmianie. Każda nawet drobna zmiana spowoduje ponowne cachowanie i tym samym przepada nam zniżka 90%.
+
 ### Czyszczenie niepotrzebnych skilli
 
 OpenClaw uruchamia się z domyślnymi skillami, których w moim przypadku było aż 50. Przejrzałem całą tą listę i doszedłem do wniosku, że nie potrzebuję żadnego z nich, a nawet jeżeli będę potrzebował w przyszłości to mogę go szybko doinstalować. Instrukcje obsługi wszystkich włączonych skilli są doklejane do każdego zapytania kierowanego do API, więc jeżeli nie korzystamy z nich to są tylko zbędnym zapychaczem. Listę skilli można sprawdzić w panelu sterowania w **Agent -> Skills** i z tego poziomu można je też wszystkie wyłaczyć. Kliknięcie 50 razy przycisku `Disable` nie jest wygodne, więc proponuję to zrobić z poziomu terminala serwera VPS. W tym celu edytujemy plik `/home/manager/.openclaw/openclaw.json`.
@@ -162,13 +166,13 @@ Tuta nie tylko można wyłączyć skille (zmieniając parametr `enabled` na `fal
 ```json
 "skills": {
   "entries": {
-    STĄD WSZYSTKO DO USUNIĘCIA
+    USUŃ WSZYSTKO SPOMIĘDZY KLAMEREK, TYLKO UWAŻAJ NA SKŁADNIĘ
   }
 ```
 
 ### Ograniczenie pamięci krótkotrwałej
 
-Każda kolejna wiadomość wysłana przez nas generuje wywołanie kolejnego prompta do API (za które płacimy). Każdy taki kolejny **prompt zawiera historię danego czatu**, tj. ileś wiadomości z konwersacji na Telegramie patrząc wstecz. Z przymróżeniem oka można to nazwać **pamięcią krótkotrwałą bota**. Oczywistym jest, że **im większy blok tekstu z historią** wysyłany jest w każdym z promptów tym **więcej zużywanych jest tokenów** i tym **więcej płacimy**. Dlatego wprowadzimy tutaj znacznie **niższy limit** niż pozwala na to załóżmy model Claude Sonnet, dla którego wartość `Context Limit` może maksymalnie wynosić nawet 200 000. Ustawmy **10 razy mniejszą** wartość tego parametru, czyli 20 000.
+Każda kolejna wiadomość wysłana przez nas generuje wywołanie kolejnego prompta do API (za które płacimy). Każdy taki kolejny **prompt zawiera historię danego czatu**, tj. ileś wiadomości z konwersacji na Telegramie patrząc wstecz. Z przymróżeniem oka można to nazwać **pamięcią krótkotrwałą bota**. Oczywistym jest, że **im większy blok tekstu z historią** wysyłany jest w każdym z promptów tym **więcej zużywanych jest tokenów** i tym **więcej płacimy**. Dlatego wprowadzimy tutaj znacznie **niższy limit** niż pozwala na to załóżmy model Claude Sonnet, dla którego wartość `Context Limit` może maksymalnie wynosić nawet 200 000. Ustawmy **4 razy mniejszą** wartość tego parametru, czyli 50 000.
 
 Jeżeli martwisz się, że zasadniczo ogłupi to asystenta to nie przejmuj się, bo **OpenClaw ma przecież plik `MEMORY.md`**, który jest czymś w rodzaju **pamięci długotrwałej**. Zmniejszenie pojemności pamięci krótkotrwałej będzie powodowało tylko to, że bot będzie **częściej robił podsumowania i w skróconej wersji zapisywał to co jest istotne do pliku** z pamięcią długotrwałą.
 
@@ -178,7 +182,7 @@ Parametr ten definiuje się w pliku `/home/manager/.openclaw/openclaw.json`, zat
 nano /home/manager/.openclaw/openclaw.json
 ```
 
-W jego treści musimy znaleźć `agents` dalej `defaults` i na końcu dodajemy `"contextTokens": 15000`. Poniżej wrzucam fragment treści `openclaw.json`, żeby pokazać jak należy to dopisać:
+W jego treści musimy znaleźć `agents` dalej `defaults` i na końcu dodajemy `"contextTokens": 50000`. Poniżej wrzucam fragment treści `openclaw.json`, żeby pokazać jak należy to dopisać:
 
 ```bash
 "agents": {
@@ -196,12 +200,167 @@ W jego treści musimy znaleźć `agents` dalej `defaults` i na końcu dodajemy `
       "subagents": {
         "maxConcurrent": 8
       },
-      "contextTokens": 20000
+      "contextTokens": 50000
     }
   },
   ```
 
 Plik oczywiście zapisujemy i zamykamy - **Control (CTRL) + X**, potem **y** i **ENTER**.
 
+### Restart kontenera
+
+Na koniec zrestartujmy kontener aby załadować nową konfigurację ze wszystkimi wyżej opisanymi zmianami:
+
+```bash
+docker compose restart openclaw-gateway
+```
+
+Wydaje mi się, że teraz nasz bot jest godzien ładowania w niego pieniędzy. Nie jest wykluczone, że 
+
 ## Uniwersalny klucz API
 
+Wracamy na stronę [OpenRouter](https://openrouter.ai/) i pozyskamy w końcu ten legendarny uniwersalny klucz API, dający dostęp do bazy tak wielu różnych modeli od różnych dostawców. 
+
+1. Wejdź do **Settings -> [API Keys](https://openrouter.ai/settings/keys)** i naciśnij fioletowy przycisk **Create**.
+2. W okienku, które wyskoczy:
+    - w polu `Name` podajemy nazwę naszego klucza, np. **OpenClaw Assistant**,
+    - w polu `Credit limit (optional)` możemy podać limit kredytów, jaki chcemy nałożyć na ten klucz, ja wpisałem **5 dolarów**, jeżeli zostawimy puste to lecimy bez limitu (kto bogatemu zabroni...),
+    - lista rozwijana `Reset limit every...` łączy się bezpośrednio z poprzednim polem dotyczącym limitów i określa jaki ma być interwał resetowania limitu, ja wybrałem **Daily**, czyli codziennie, bo jestem w stanie przeboleć jak bot zeżre mi $5 w jeden dzień,
+    - lista rozwijana `Expiration` pozwala nam określić długość życia tego klucza API, tj. kiedy ma on wygasnąć, ja wybrałem opcję **No expiration**, bo nie mam problemu z tym, że klucz będzie wieczny, gdyż będzie on bezużyteczny, gdy wykorzystane zostanie całe saldo, a przypominam, że zdecydowałem się na model rozliczenia pre-paid zamiast dodawać kartę na sztywno.
+3. Potwierdzamy przyciskiem **Create**.
+4. W rezultacie otrzymamy komunikat, w którego treści będzie klucz, który należy zapisać w bezpiecznym miejscu:
+
+```
+Your new key:
+KLUCZ_API_OPENROUTER
+
+Please copy it now and write it down somewhere safe. You will not be able to see it again.
+You can use it with OpenAI-compatible apps, or your own code
+```
+
+## Strategia Multi-Model
+
+OpenRouter to wyborna usługa. Jest genialna w swojej prostocie. Nie okrada swoich użytkowników żadnymi dodatkowymi marżami, a tym samym ma prosty model zarabiania, który poleca na tym, że skupia wielu detalistów, oferuje im te same ceny co poszczególnie producenci, a zarabia na tym, że tak naprawdę kupuje hurtowo, bo wielu detalistów to tak naprawdę już hurtownik, i dzięki temu ma lepsze ceny, co implikuje dochód na bazie różnicy ceny hurtowej i detalicznej.
+
+Jednakże dla nas poza cenami najważniejszą funkcją oferowaną przez OpenRouter jest możliwość żąglowania, tj. płynnego preskakiwania pomiędzy, poszczególnymi modelami. Oczywiście można by było zdecydować się na jeden model np. Claude Sonnet, spiąć go na sztywno ze swoim botem OpenClaw i ewentualnie zastąpić w przyszłości jakimś innym modelem, który wyjdzie i okaże się bardziej wydajny. Lecz byłoby grzech nie wejść bardziej w temat i nie skorzystać z tej elastyczności, którą daje OpenRouter. W tym momencie wchodzi strategia Multi-Model.
+
+Do używania wielu modeli można podejść na wiele sposobów, ale ja przedstawię tylko dwa, które według mnie są najbardziej sensowne.
+
+### Wariant dla leniwych - Auto Router
+
+Ktoś kto stoi za OpenRouter ma łeb na karku. Wymyślił mechanizm działający tak:
+1. wysyłamy zapytanie do OpenRouter używając klucza API,
+2. zapytanie trafia do małego, ultraszybkiego meta-modelu uruchomionego przez OpenRouterl, którego nazwiemy dalej bramkarzem,
+3. bramkarz w ułamku sekundy robi podstawową analizę naszego zapytania, której celem jest klasyfikacja intencji (intent classification):
+    - **Ocena Złożoności (Complexity Scoring)** - bramkarz skanuje prompt pod kątem trudności. Jeżeli wykryje zadanie wymagające zaawansowanego rozumowania (np. pisanie kodu, analiza architektoniczna, matematyka), nadaje mu wysoką wagę i kieruje do modeli klasy frontier (jak Claude 3.7 Sonnet czy GPT-4o). Jeśli to błahe zadanie (np. rutynowy heartbeat bota, tłumaczenie, prosta klasyfikacja), kieruje je do modeli tanich (jak Llama 3 czy Gemini Flash).
+    - **Filtrowanie Kontekstu** (Context Windowing) - system w locie zlicza tokeny (długość wiadomości i wklejonych logów czy historii czatu). Jeśli przesyłasz paczkę danych o wielkości 50 000 tokenów, router automatycznie odrzuca modele, które mają mniejsze okno pamięci, i wybiera ten, który fizycznie poradzi sobie z tą objętością zapytania.
+    - **Telemetria na żywo** (Health & Latency Check) - OpenRouter stale monitoruje status serwerów dostawców. Decyzja o routingu uwzględnia to, czy API Anthropic lub OpenAI nie ma w danej sekundzie czkawki (Rate Limits). Jeśli główny, inteligentny model od jednego dostawcy nie odpowiada, router dynamicznie przerzuca żądanie do jego odpowiednika u innej firmy.
+4. po dokonaniu klasyfikacji następuje krok **Proxy i Przekazanie** (Forwarding), czyli po podjęciu decyzji algorytm nadpisuje docelowe ID modelu w nagłówkach HTTP i wysyła zapytanie przez swoje zunifikowane API do serwerów wybranego twórcy. Wynik wraca do Ciebie dokładnie tym samym kanałem.
+
+Brzmi obiecująco, prawda? Mnie to przekonuje dlatego w pierwszej kolejności zdecydowałem się na przetestowanie tego wariantu i robię to właśnie teraz. Pewnie po jakimś czasie zaktualizuję ten wpis o moje przemyślenia po testach.
+
+Dobra, ale jak to skonfigurować?
+1. Logujemy się na serwer VPS:
+
+```bash
+ssh manager@ADRES_IPV4
+```
+
+2. Otwieramy plik `/home/manager/.openclaw/openclaw.json` w edytorze:
+
+```bash
+nano /home/manager/.openclaw/openclaw.json
+```
+
+3. Jego treść modyfikujemy tak, aby wyglądała następująco:
+
+```json
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.20",
+    "lastTouchedAt": "2026-02-24T10:48:06.665Z"
+  },
+  "agents": {
+    "defaults": {
+      "model": "openrouter/openrouter/auto",
+      "heartbeat": {
+        "every": "6h",
+        "model": "openrouter/google/gemini-3-flash",
+        "target": "last"
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      },
+      "contextTokens": 50000
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "TOKEN_TELEGRAM",
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "skills": {
+    "entries": {
+      
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      }
+    }
+  }
+}
+```
+
+4. Omówmy ten plik linijka po linijce:
+    - **`meta`**: Metadane pliku konfiguracyjnego.
+      - **`lastTouchedVersion`**: Wersja systemu OpenClaw, która jako ostatnia nadpisała lub zaktualizowała ten plik (2026.2.20).
+      - **`lastTouchedAt`**: Dokładna data i czas ostatniej modyfikacji.
+    - **`agents.defaults`**: Domyślne ustawienia dla Twojego asystenta.
+      - **`model`**: Główny "mózg" bota. Przypisany `auto` z OpenRoutera oznacza, że system sam dobiera optymalny model do każdego zapytania.
+      - **`heartbeat`**: Konfiguracja proaktywnego działania w tle.
+        - **`every`**: Interwał czasowy (wybudzanie co 6 godzin).
+        - **`model`**: Silnik dedykowany do tego zadania (ustawiony szybki i tani Gemini 3 Flash).
+        - **`target`**: Określa, do kogo bot ma skierować ewentualną wiadomość wygenerowaną w tle (`last` oznacza ostatnio używany kanał/ostatniego rozmówcę).
+      - **`compaction.mode`**: Mechanizm zarządzania pamięcią krótkotrwałą. Tryb `safeguard` kompresuje i streszcza najstarsze wiadomości z czatu, zapobiegając przekroczeniu limitu tokenów.
+      - **`maxConcurrent`**: Maksymalna liczba operacji (np. jednoczesne użycie kilku narzędzi), które główny agent może wykonywać równolegle (4).
+      - **`subagents.maxConcurrent`**: Maksymalna liczba niezależnych podwykonawców pracujących w tle, których agent może uruchomić do pomocy przy złożonych zadaniach (8).
+      - **`contextTokens`**: Twardy limit pamięci czatu (50 000 tokenów) wysyłanej do API przy każdej wiadomości.
+    - **`messages`**:
+      - **`ackReactionScope`**: Określa, w jakich sytuacjach bot ma potwierdzać przeczytanie wiadomości za pomocą reakcji (np. emoji). Wartość `group-mentions` oznacza, że zrobi to wyłącznie, gdy zostanie bezpośrednio oznaczony (@) w czacie grupowym.
+    - **`commands`**: Konfiguracja obsługi komend wpisywanych na czacie (np. na Telegramie z użyciem ukośnika `/`).
+      - **`native`**: Automatycznie włącza i obsługuje podstawowe komendy systemowe (np. `/model`).
+      - **`nativeSkills`**: Automatycznie rejestruje i obsługuje komendy pochodzące od zainstalowanych skilli.
+      - **`restart`**: Zezwala na użycie komendy `/restart` bezpośrednio z poziomu komunikatora w celu zresetowania procesu.
+    - **`channels.telegram`**: Konfiguracja interfejsu Telegram.
+      - **`enabled`**: Aktywuje komunikację przez ten kanał.
+      - **`dmPolicy`**: Zasady dla wiadomości prywatnych. Tryb `pairing` oznacza, że każdy nowy użytkownik musi podać kod autoryzacyjny, aby bot z nim porozmawiał.
+      - **`botToken`**: Twoje hasło uwierzytelniające z BotFathera.
+      - **`groupPolicy`**: Zasady dla grup. Tryb `allowlist` blokuje bota przed działaniem w nieznanych czatach grupowych, chyba że dodasz je wcześniej do białej listy.
+      - **`streamMode`**: Tryb strumieniowania tekstu. Wartość `partial` sprawia, że długie odpowiedzi są aktualizowane w Telegramie partiami, co imituje płynne "pisanie na żywo" bez spamowania API komunikatora przy każdym pojedynczym słowie.
+    - **`skills.entries`**: Miejsce, w którym zapisywane są ręcznie zainstalowane umiejętności dodatkowe z ClawHub (aktualnie puste).
+    - **`plugins.entries.telegram.enabled`**: Włącza rdzenny moduł (wtyczkę silnika) odpowiedzialny za utrzymanie połączenia z serwerami Telegrama.
+5. Jak widzisz jako model główny podpiąłem tutaj `openrouter/openrouter/auto`, ale dodatkowo dla `heartbeat`, czyli operacji cyklicznych w tle przypisałem na sztywno model `openrouter/google/gemini-3-flash`, czyli czyli najszybszy i najtańszy model, ale z najnowszej wersji Gemini. Teoretycznie Auto Router poradził by sobie z doborem odpowiedniego modelu dla heartbeatsów, ale skonfigurowanie tego na sztywno jest tak proste, że szkoda kusić losu. Do tego taki zapis pozwala mi na sztywno określić interwał odpalania działań w tle i na początek zdecydowałem, że będzie to 6 godzin.
+6. Teraz zresetujmy kontener, aby utrwalić zmiany:
+
+```bash
+docker compose restart openclaw-gateway
+```
