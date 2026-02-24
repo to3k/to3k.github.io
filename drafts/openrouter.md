@@ -201,7 +201,7 @@ Tuta nie tylko można wyłączyć skille (zmieniając parametr `enabled` na `fal
     "telegram": {
       "enabled": true,
       "dmPolicy": "pairing",
-      "botToken": "8216269444:AAGBcXn_kl9LiRuG4UL_aABZKAOvXIM6Ufw",
+      "botToken": "XXXXXXXXXXXX",
       "groupPolicy": "allowlist",
       "streamMode": "partial"
     }
