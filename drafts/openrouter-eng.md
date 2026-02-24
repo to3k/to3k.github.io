@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenRouter - all AI models in one place [ENG 🇬🇧]"
+title: "OpenClaw + OpenRouter [ENG 🇬🇧]"
 published: true
 categories: 
   - "projects"
