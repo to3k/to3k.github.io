@@ -7,26 +7,24 @@ categories:
   - "projekty"
   - "self-hosting"
 tags: 
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
+  - "openrouter"
+  - "openclaw"
+  - "hetzner"
+  - "ai"
+  - "llm"
+  - "bot"
+  - "asystent"
+  - "assistant"
+  - "gemini"
+  - "chatgpt"
+  - "claude"
+  - "openai"
+  - "anthropic"
+  - "google"
+  - "vps"
+  - "ssh"
+  - "telegram"
+  - "api"
 image: "/images/openrouter.png"
 ---
 
@@ -45,9 +43,9 @@ Niniejszy wpis jest kontynuacją - **[OpenClaw - Personalny Asystent AI](https:/
 
 Czy rozumiesz o co mi chodzi? **Nie ma jednego zoptymalizowanego jednocześnie wydajnościowo i kosztowo wyjścia** (modelu). Nie sposób zdecydować się na jeden model, bo jeżeli postawimy na coś bardziej zaawansowanego to będziemy za to słono płacić, a jak z kolei podejdziemy do sprawy optymalizując koszty to nie będziemy zadowoleni z rezultatu pracy przygłupiego taniego modelu. Gdyby tylko dało się mieć ciastko i zjeść ciastko, to znaczy mieć jedno narzędzie skupiające w ramach swojej usługi wiele modeli pomiędzy którymi będzie można płynnie przeskakiwać w zależności od aktualnej potrzeby... 🤔
 
-No i w tym momencie na białym rumaku wjeżdzą **[OpenRouter](https://openrouter.ai/)**. Wbrew temu co myślisz niniejszy materiał NIE jest sponsorowany! :)
+No i w tym momencie na białym rumaku wjeżdza **[OpenRouter](https://openrouter.ai/)**. Wbrew temu co myślisz niniejszy materiał NIE jest sponsorowany! :)
 
-## Czy jest OpenRouter
+## Czym jest OpenRouter
 
 **OpenRouter** to **scentralizowana platforma** pełniąca rolę uniwersalnego interfejsu (API) dla **niemal wszystkich dostępnych na rynku modeli** językowych sztucznej inteligencji. **Zamiast zakładać osobne konta** programistyczne u dostawców takich jak OpenAI, Google, Anthropic czy Mistral, rejestrujesz się tylko w jednym miejscu i generujesz **jeden uniwersalny klucz dostępowy**. Dzięki temu możesz **swobodnie przełączać się pomiędzy flagowymi silnikami** – takimi jak GPT-4o, Claude 3.7 Sonnet czy Gemini Pro – podmieniając wyłącznie ID modelu w konfiguracji swojej aplikacji lub asystenta.
 
@@ -60,7 +58,7 @@ Kolejnym potężnym atutem tego rozwiązania jest niezawodność oraz wolność 
 1. Wejdź na stronę **[https://openrouter.ai/](https://openrouter.ai/)** i naciśnij przycisk **Sign Up** znajdujący się w prawym górnym rogu.
 2. Podaj login oraz hasło i zaakceptuj regulamin. Potwierdź przyciskiem **Continue**.
 3. Przejdź do swojego klienta pocztowego i odbierz maila potwierdzającego.
-4. Po udanym zalogowaniu się znajdź ikonę trzech poziomych kresech w prawym górnym rogu strony. Najechanie na nią rozwinie menu, z którego wybieramy **Settings**. Z menu po prawej wybieramy **Settings -> Account**, następnie w wierszu **User** naciskamy przycisk **Manage**. Przechodzimy do zakładki **Security** i w wierszu **Two-step verification** naciskamy **+ Add two-step verification**. Polecam skorzystać z tej dodatkowej warstwy zabezpieczającej konto jeszcze zanim wpłacimy na nie jakiekolwiek pieniądze. Polecam do tego jak zawsze aplikację **[Ente Auth](https://github.com/ente-io/ente)**.
+4. Po udanym zalogowaniu się znajdź ikonę trzech poziomych kresek w prawym górnym rogu strony. Najechanie na nią rozwinie menu, z którego wybieramy **Settings**. Z menu po prawej wybieramy **Settings -> Account**, następnie w wierszu **User** naciskamy przycisk **Manage**. Przechodzimy do zakładki **Security** i w wierszu **Two-step verification** naciskamy **+ Add two-step verification**. Polecam skorzystać z tej dodatkowej warstwy zabezpieczającej konto jeszcze, zanim wpłacimy na nie jakiekolwiek pieniądze. Polecam do tego jak zawsze aplikację **[Ente Auth](https://github.com/ente-io/ente)**.
 
 ## Doładowanie konta
 
@@ -79,7 +77,7 @@ Kolejnym potężnym atutem tego rozwiązania jest niezawodność oraz wolność 
     - kryptowaluty,
     - Link
     - Amazon Pay.
-8. Ja wybrałem **kartę** i wprowadziłem dane mojej wirtualnej karty w Revolut. W ten sposób nie dość, że jestem zabezpieczony robiąc tylko jednorazową transakcję to jeszcze wirtualna karta jest przedpłacona, czyli posiada tyle pieniędzy ile na nią wcześniej wpłacę.
+8. Ja wybrałem **kartę** i wprowadziłem dane mojej wirtualnej karty w Revolut. W ten sposób nie dość, że jestem zabezpieczony robiąc tylko jednorazową transakcję to jeszcze wirtualna karta jest przedpłacona, czyli posiada tyle pieniędzy, ile na nią wcześniej wpłacę.
 9. Kwota $10 została natychmiast dodana do mojego konta.
 
 ## Optymalizacja bota
@@ -155,7 +153,7 @@ Powyższe pliki służą do tego, aby za ich pomocą dostosować asystenta do sw
 
 ### Wyłączenie niepotrzebnych skilli
 
-OpenClaw uruchamia się z domyślnymi skillami, których w moim przypadku było aż 50. Przejrzałem całą tą listę i doszedłem do wniosku, że nie potrzebuję żadnego z nich, a nawet jeżeli będę potrzebował w przyszłości to mogę go szybko włączyć. Instrukcje obsługi wszystkich włączonych skilli są doklejane do każdego zapytania kierowanego do API, więc jeżeli nie korzystamy z nich to są tylko zbędnym zapychaczem. Listę skilli można sprawdzić w panelu sterowania w **Agent -> Skills** i z tego poziomu można je też wszystkie wyłaczyć. Kliknięcie 50 razy przycisku `Disable` nie jest wygodne, więc proponuję to zrobić z poziomu terminala serwera VPS. W tym celu edytujemy plik `/home/manager/.openclaw/openclaw.json`.
+OpenClaw uruchamia się z domyślnymi skillami, których w moim przypadku było aż 50. Przejrzałem całą tę listę i doszedłem do wniosku, że nie potrzebuję żadnego z nich, a nawet jeżeli będę potrzebował w przyszłości to mogę go szybko włączyć. Instrukcje obsługi wszystkich włączonych skilli są doklejane do każdego zapytania kierowanego do API, więc jeżeli nie korzystamy z nich to są tylko zbędnym zapychaczem. Listę skilli można sprawdzić w panelu sterowania w **Agent -> Skills** i z tego poziomu można je też wszystkie wyłączyć. Kliknięcie 50 razy przycisku `Disable` nie jest wygodne, więc proponuję to zrobić z poziomu terminala serwera VPS. W tym celu edytujemy plik `/home/manager/.openclaw/openclaw.json`.
 
 ```bash
 nano /home/manager/.openclaw/openclaw.json
@@ -175,7 +173,7 @@ Skille znajdują się w sekcji `skills` i dalej `entries`, a wyłącza się je p
 
 ### Ograniczenie pamięci krótkotrwałej
 
-Każda kolejna wiadomość wysłana przez nas generuje wywołanie kolejnego prompta do API (za które płacimy). Każdy taki kolejny **prompt zawiera historię danego czatu**, tj. ileś wiadomości z konwersacji na Telegramie patrząc wstecz. Z przymróżeniem oka można to nazwać **pamięcią krótkotrwałą bota**. Oczywistym jest, że **im większy blok tekstu z historią** wysyłany jest w każdym z promptów tym **więcej zużywanych jest tokenów** i tym **więcej płacimy**. Dlatego wprowadzimy tutaj znacznie **niższy limit** niż pozwala na to załóżmy model Claude Sonnet, dla którego wartość `Context Limit` może maksymalnie wynosić nawet 200 000. Ustawmy **4 razy mniejszą** wartość tego parametru, czyli 50 000.
+Każda kolejna wiadomość wysłana przez nas generuje wywołanie kolejnego prompta do API (za które płacimy). Każdy taki kolejny **prompt zawiera historię danego czatu**, tj. ileś wiadomości z konwersacji na Telegramie patrząc wstecz. Z przymrużeniem oka można to nazwać **pamięcią krótkotrwałą bota**. Oczywistym jest, że **im większy blok tekstu z historią** wysyłany jest w każdym z promptów tym **więcej zużywanych jest tokenów** i tym **więcej płacimy**. Dlatego wprowadzimy tutaj znacznie **niższy limit** niż pozwala na to załóżmy model Claude Sonnet, dla którego wartość `Context Limit` może maksymalnie wynosić nawet 200 000. Ustawmy **4 razy mniejszą** wartość tego parametru, czyli 50 000.
 
 Jeżeli martwisz się, że zasadniczo ogłupi to asystenta to nie przejmuj się, bo **OpenClaw ma przecież plik `MEMORY.md`**, który jest czymś w rodzaju **pamięci długotrwałej**. Zmniejszenie pojemności pamięci krótkotrwałej będzie powodowało tylko to, że bot będzie **częściej robił podsumowania i w skróconej wersji zapisywał to co jest istotne do pliku** z pamięcią długotrwałą.
 
@@ -270,7 +268,7 @@ Wracamy na stronę [OpenRouter](https://openrouter.ai/) i pozyskamy w końcu ten
 
 OpenRouter to wyborna usługa. Jest genialna w swojej prostocie. Nie okrada swoich użytkowników żadnymi dodatkowymi marżami, a tym samym ma prosty model zarabiania, który poleca na tym, że skupia wielu detalistów, oferuje im te same ceny co poszczególnie producenci, a zarabia na tym, że tak naprawdę kupuje hurtowo, bo wielu detalistów to tak naprawdę już hurtownik, i dzięki temu ma lepsze ceny, co implikuje dochód na bazie różnicy ceny hurtowej i detalicznej.
 
-Jednakże dla nas poza cenami najważniejszą funkcją oferowaną przez OpenRouter jest możliwość żąglowania, tj. płynnego preskakiwania pomiędzy, poszczególnymi modelami. Oczywiście można by było zdecydować się na jeden model np. Claude Sonnet, spiąć go na sztywno ze swoim botem OpenClaw i ewentualnie zastąpić w przyszłości jakimś innym modelem, który wyjdzie i okaże się bardziej wydajny. Lecz byłoby grzech nie wejść bardziej w temat i nie skorzystać z tej elastyczności, którą daje OpenRouter. W tym momencie wchodzi strategia Multi-Model.
+Jednakże dla nas poza cenami najważniejszą funkcją oferowaną przez OpenRouter jest możliwość żonglowania, tj. płynnego przeskakiwania pomiędzy poszczególnymi modelami. Oczywiście można by było zdecydować się na jeden model np. Claude Sonnet, spiąć go na sztywno ze swoim botem OpenClaw i ewentualnie zastąpić w przyszłości jakimś innym modelem, który wyjdzie i okaże się bardziej wydajny. Lecz byłoby grzech nie wejść bardziej w temat i nie skorzystać z tej elastyczności, którą daje OpenRouter. W tym momencie wchodzi strategia Multi-Model.
 
 Do używania wielu modeli można podejść na wiele sposobów, ale ja przedstawię tylko tą najprostszą i wymagającą najmniej uwagi. Nazwijmy to rozwiązaniem dla leniwych.
 
@@ -278,7 +276,7 @@ Do używania wielu modeli można podejść na wiele sposobów, ale ja przedstawi
 
 Ktoś kto stoi za OpenRouter ma łeb na karku. Wymyślił mechanizm działający tak:
 1. wysyłamy zapytanie do OpenRouter używając klucza API,
-2. zapytanie trafia do małego, ultraszybkiego meta-modelu uruchomionego przez OpenRouterl, którego nazwiemy dalej bramkarzem,
+2. zapytanie trafia do małego, ultraszybkiego meta-modelu uruchomionego przez OpenRouter, którego nazwiemy dalej bramkarzem,
 3. bramkarz w ułamku sekundy robi podstawową analizę naszego zapytania, której celem jest klasyfikacja intencji (intent classification):
     - **Ocena Złożoności (Complexity Scoring)** - bramkarz skanuje prompt pod kątem trudności. Jeżeli wykryje zadanie wymagające zaawansowanego rozumowania (np. pisanie kodu, analiza architektoniczna, matematyka), nadaje mu wysoką wagę i kieruje do modeli klasy frontier (jak Claude 3.7 Sonnet czy GPT-4o). Jeśli to błahe zadanie (np. rutynowy heartbeat bota, tłumaczenie, prosta klasyfikacja), kieruje je do modeli tanich (jak Llama 3 czy Gemini Flash).
     - **Filtrowanie Kontekstu** (Context Windowing) - system w locie zlicza tokeny (długość wiadomości i wklejonych logów czy historii czatu). Jeśli przesyłasz paczkę danych o wielkości 50 000 tokenów, router automatycznie odrzuca modele, które mają mniejsze okno pamięci, i wybiera ten, który fizycznie poradzi sobie z tą objętością zapytania.
@@ -306,7 +304,7 @@ Dobra, ale jak to skonfigurować?
     {
       "meta": {
         "lastTouchedVersion": "2026.2.20",
-        "lastTouchedAt": "2026-02-24T10:48:06.665Z"
+        "lastTouchedAt": "2026-02-24T22:48:06.665Z"
       },
       "agents": {
         "defaults": {
@@ -548,8 +546,8 @@ A jak to działa w praktyce? Dość prosto. Zauważyłem, że cały dialog ze mn
 
 ## OpenRouter poza OpenClaw
 
-Z OpenRouter można **korzystać również jak ze zwykłego czatu**. Wystarczy wejść na stronę **[https://openrouter.ai/chat](https://openrouter.ai/chat)**. Jednakże nie jest to tak do końca normalny czat. Jako że OpenRouter jest agregatorem modeli LLM to możemy nie tylko przeskakiwać płynnie pomiędzy modelami i zadawać im kolejne pytania na przemian, ale także możemy na raz zadać to samo pytanie do kilku modeli lub włączyć funkcję Auto Router, które sama dopasuje sobie odpowiedni model i w ten sposób optymalizować koszty oraz jakość wyników.
+Z OpenRouter można **korzystać również jak ze zwykłego czatu**. Wystarczy wejść na stronę **[https://openrouter.ai/chat](https://openrouter.ai/chat)**. Jednakże nie jest to tak do końca normalny czat. Jako że OpenRouter jest agregatorem modeli LLM to możemy nie tylko przeskakiwać płynnie pomiędzy modelami i zadawać im kolejne pytania na przemian, ale także możemy na raz zadać to samo pytanie do kilku modeli lub włączyć funkcję Auto Router, która sama dopasuje sobie odpowiedni model i w ten sposób optymalizować koszty oraz jakość wyników.
 
 Polecam także zajrzeć do **[Rankingu modeli](https://openrouter.ai/rankings)**, co jest nieocenionym źródłem informacji na temat tego jakie modele aktualnie trendują, czyli są najchętniej używane. W ten sposób można podłapać jaki model aktualnie jest najskuteczniejszy, ale także który najbardziej się opłaca ze względu na stosunek jakości do ceny.
 
-Z kolei **[baza modeli](https://openrouter.ai/models)** oferuje bardzo rozbudowane i szczegółowe filtry wyszukiwania, co pomaga znaleźć model odpowiedni do wymaganego zastosowania.
+Z kolei **[Baza modeli](https://openrouter.ai/models)** oferuje bardzo rozbudowane i szczegółowe filtry wyszukiwania, co pomaga znaleźć model odpowiedni do wymaganego zastosowania.
