@@ -272,9 +272,9 @@ OpenRouter to wyborna usługa. Jest genialna w swojej prostocie. Nie okrada swoi
 
 Jednakże dla nas poza cenami najważniejszą funkcją oferowaną przez OpenRouter jest możliwość żąglowania, tj. płynnego preskakiwania pomiędzy, poszczególnymi modelami. Oczywiście można by było zdecydować się na jeden model np. Claude Sonnet, spiąć go na sztywno ze swoim botem OpenClaw i ewentualnie zastąpić w przyszłości jakimś innym modelem, który wyjdzie i okaże się bardziej wydajny. Lecz byłoby grzech nie wejść bardziej w temat i nie skorzystać z tej elastyczności, którą daje OpenRouter. W tym momencie wchodzi strategia Multi-Model.
 
-Do używania wielu modeli można podejść na wiele sposobów, ale ja przedstawię tylko dwa, które według mnie są najbardziej sensowne.
+Do używania wielu modeli można podejść na wiele sposobów, ale ja przedstawię tylko tą najprostszą i wymagającą najmniej uwagi. Nazwijmy to rozwiązaniem dla leniwych.
 
-### Wariant dla leniwych - Auto Router
+### Auto Router
 
 Ktoś kto stoi za OpenRouter ma łeb na karku. Wymyślił mechanizm działający tak:
 1. wysyłamy zapytanie do OpenRouter używając klucza API,
@@ -544,7 +544,5 @@ Dobra, ale jak to skonfigurować?
     docker compose restart openclaw-gateway
     ```
 
-### Wariant dla zaawansowanych
-
-Wariant zaawansowany przewiduje ustawienie konkretnych modeli (wraz z ich zastępcami) do określonych zadań plus umożliwi wybór aktualnie pierwszorzędnego modelu w locie, czyli z poziomu chatu w Telegramie.
+A jak to działa w praktyce? Dość prosto. Zauważyłem, że cały dialog ze mną na Telegramie prowadzony jest na bazie modelu Gemini 2.5 Flash. Jeżeli agent dostanie trudniejsze zadanie to zleca je subagentowi, który wykonuje je na bardziej złożonym modelu. W moim przypadku został wytypowany Claude Opus, za którego niestety zapłaciłem dość słono, bo jest to jeden z najdroższych spośród dostępnych modeli. Trzeba jednak przyznać, że zleciłem agentowi dość złożone zadanie, do którego sama instrukcja była dość długim promptem. Muszę się chyba trochę poduczyć z optymalizacji, bo w taki sposób dość szybko zbankrutuję.
 
