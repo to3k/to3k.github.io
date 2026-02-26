@@ -546,3 +546,10 @@ Dobra, ale jak to skonfigurować?
 
 A jak to działa w praktyce? Dość prosto. Zauważyłem, że cały dialog ze mną na Telegramie prowadzony jest na bazie modelu Gemini 2.5 Flash. Jeżeli agent dostanie trudniejsze zadanie to zleca je subagentowi, który wykonuje je na bardziej złożonym modelu. W moim przypadku został wytypowany Claude Opus, za którego niestety zapłaciłem dość słono, bo jest to jeden z najdroższych spośród dostępnych modeli. Trzeba jednak przyznać, że zleciłem agentowi dość złożone zadanie, do którego sama instrukcja była dość długim promptem. Muszę się chyba trochę poduczyć z optymalizacji, bo w taki sposób dość szybko zbankrutuję.
 
+## OpenRouter poza OpenClaw
+
+Z OpenRouter można **korzystać również jak ze zwykłego czatu**. Wystarczy wejść na stronę **[https://openrouter.ai/chat](https://openrouter.ai/chat)**. Jednakże nie jest to tak do końca normalny czat. Jako że OpenRouter jest agregatorem modeli LLM to możemy nie tylko przeskakiwać płynnie pomiędzy modelami i zadawać im kolejne pytania na przemian, ale także możemy na raz zadać to samo pytanie do kilku modeli lub włączyć funkcję Auto Router, które sama dopasuje sobie odpowiedni model i w ten sposób optymalizować koszty oraz jakość wyników.
+
+Polecam także zajrzeć do **[Rankingu modeli](https://openrouter.ai/rankings)**, co jest nieocenionym źródłem informacji na temat tego jakie modele aktualnie trendują, czyli są najchętniej używane. W ten sposób można podłapać jaki model aktualnie jest najskuteczniejszy, ale także który najbardziej się opłaca ze względu na stosunek jakości do ceny.
+
+Z kolei **[baza modeli](https://openrouter.ai/models)** oferuje bardzo rozbudowane i szczegółowe filtry wyszukiwania, co pomaga znaleźć model odpowiedni do wymaganego zastosowania.
