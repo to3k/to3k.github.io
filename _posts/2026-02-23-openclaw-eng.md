@@ -673,40 +673,36 @@ It's time to take action. OpenClaw even has a [special subsection in its documen
 	```bash
 	{% raw %}
 	services:
-	openclaw-gateway:
-		image: ${OPENCLAW_IMAGE}
-		build: .
-		restart: unless-stopped
-		env_file:
-		- .env
-		environment:
-		- HOME=/home/node
-		- NODE_ENV=production
-		- TERM=xterm-256color
-		- OPENCLAW_GATEWAY_BIND=${OPENCLAW_GATEWAY_BIND}
-		- OPENCLAW_GATEWAY_PORT=${OPENCLAW_GATEWAY_PORT}
-		- OPENCLAW_GATEWAY_TOKEN=${OPENCLAW_GATEWAY_TOKEN}
-		- GOG_KEYRING_PASSWORD=${GOG_KEYRING_PASSWORD}
-		- XDG_CONFIG_HOME=${XDG_CONFIG_HOME}
-		- PATH=/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-		volumes:
-		- ${OPENCLAW_CONFIG_DIR}:/home/node/.openclaw
-		- ${OPENCLAW_WORKSPACE_DIR}:/home/node/.openclaw/workspace
-		ports:
-		# Recommended: keep the Gateway loopback-only on the VPS; access via SSH tunnel.
-		# To expose it publicly, remove the `127.0.0.1:` prefix and firewall accordingly.
-		- "127.0.0.1:${OPENCLAW_GATEWAY_PORT}:18789"
-		command:
-		[
-			"node",
-			"dist/index.js",
-			"gateway",
-			"--bind",
-			"${OPENCLAW_GATEWAY_BIND}",
-			"--port",
-			"${OPENCLAW_GATEWAY_PORT}",
-			"--allow-unconfigured",
-		]
+		openclaw-gateway:
+			image: ${OPENCLAW_IMAGE}
+			build: .
+			restart: unless-stopped
+			env_file:
+				- .env
+			environment:
+				- HOME=/home/node
+				- NODE_ENV=production
+				- TERM=xterm-256color
+				- OPENCLAW_GATEWAY_BIND=${OPENCLAW_GATEWAY_BIND}
+				- OPENCLAW_GATEWAY_PORT=${OPENCLAW_GATEWAY_PORT}
+				- OPENCLAW_GATEWAY_TOKEN=${OPENCLAW_GATEWAY_TOKEN}
+				- GOG_KEYRING_PASSWORD=${GOG_KEYRING_PASSWORD}
+				- XDG_CONFIG_HOME=${XDG_CONFIG_HOME}
+				- PATH=/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+			volumes:
+				- ${OPENCLAW_CONFIG_DIR}:/home/node/.openclaw
+				- ${OPENCLAW_WORKSPACE_DIR}:/home/node/.openclaw/workspace
+			ports:
+				- "127.0.0.1:${OPENCLAW_GATEWAY_PORT}:18789"
+			command:
+				- "node"
+				- "dist/index.js"
+				- "gateway"
+				- "--bind"
+				- "${OPENCLAW_GATEWAY_BIND}"
+				- "--port"
+				- "${OPENCLAW_GATEWAY_PORT}"
+				- "--allow-unconfigured"
 	{% endraw %}
 	```
 
