@@ -128,5 +128,56 @@
 
     <script data-goatcounter="https://blog-tomaszdunia.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+    
+    <button id="back-to-top" title="Wróć na górę">⬆️</button>
+
+    <style>
+      #back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none; /* Domyślnie ukryty */
+        background-color: #555; /* Neutralny szary, pasuje do jasnego i ciemnego motywu */
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        cursor: pointer;
+        z-index: 9999; /* Zawsze na wierzchu */
+        opacity: 0.7;
+        transition: opacity 0.3s ease, background-color 0.3s ease;
+      }
+
+      #back-to-top:hover {
+        opacity: 1;
+        background-color: #333;
+      }
+    </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const backToTopBtn = document.getElementById("back-to-top");
+
+        // Pokaż przycisk po przewinięciu 300px w dół
+        window.addEventListener("scroll", function() {
+          if (window.scrollY > 300) {
+            backToTopBtn.style.display = "block";
+          } else {
+            backToTopBtn.style.display = "none";
+          }
+        });
+
+        // Płynny powrót na górę po kliknięciu
+        backToTopBtn.addEventListener("click", function() {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+        });
+      });
+    </script>
+    
   </body>
 </html>
