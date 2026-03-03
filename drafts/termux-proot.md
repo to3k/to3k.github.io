@@ -38,7 +38,7 @@ Spis treści:
 
 Współczesne smartfony i tablety to potężne maszyny obliczeniowe, które większość czasu marnują na skrolowanie durnych filmików. Tymczasem w kieszeni nosimy moc porównywalną z ultrabookami. Największą barierą nie jest sprzęt, lecz system operacyjny Android, który choć oparty na jadrze Linux, skutecznie izoluje nas od profesjonalnych narzędzi.
 
-Plan na dzisiaj to przełamanie bariery. Pokażę, jak wykorzystując środowisko **Termux**, warstwę **PRoot** oraz serwer grafiki **Termux-X11**, zmienić **dowolne urządzenie** z Androidem na pokładzie w **pełnoprawną stację roboczą z Linuxem**, środowiskiem XFCE i VS Code. Wszystko to **bez** odblokowywania bootloadera i **bez** utraty gwarancji.
+Plan na dzisiaj to przełamanie bariery. Pokażę, jak wykorzystując środowisko **Termux**, warstwę **PRoot** oraz serwer grafiki **Termux-X11**, zmienić **dowolne urządzenie** z Androidem na pokładzie w **pełnoprawną stację roboczą z Linuxem**, środowiskiem XFCE. Wszystko to **bez** odblokowywania bootloadera i **bez** utraty gwarancji.
 
 ## Architektura rozwiązania: Co dzieje się pod maską?
 
@@ -134,86 +134,37 @@ Android 12 i nowsze posiadają mechanizm, który zabija procesy zużywające du�
 
 10. Odpalony skrypt w pierwszej kolejności spróbuje identyfikować na jakim telefonie został odpalony. Tak jak wpisałem wcześniej rekomendowane jest posiadanie telefonu z procesorem Snapdragon, a konkretnie z GPU Adreno. Jednakże ma to istotne znaczenie tylko w przypadku, gdybyśmy chcieli odpalić na naszym telefonie gry, a mnie takie rzeczy nie interesują. **Do VS Code i podstawowej pracy na środowisku graficznym nie musi to wcale być ta konkretna rodzina procesorów wspierająca akcelerację sprzętową**.
 11. Powiedziawszy to, musimy wybrać środowisko graficzne (ang. _Desktop Environment_), którego chcemy używać. Ja rekomenduje wybranie **XFCE**, ale każdy może dokonać wyboru według własnych preferencji. Zatem, aby dla przykładu wybrać `XFCE` musimy wprowadzić z klawiatury cyfrę **1** i potwierdzić **ENTERem**.
-12. To jest ten moment, w którym musimy uzbroić się w cierpliwość, bo jest to zasadniczy etap pracy skryptu. Gdy zostanie zakończony otrzymamy duży komunikat `INSTALLATION COMPLETE!`, a na jego końcu znajdzie się najważniejsza dla nas informacja, tj. dwie komendy, z których pierwsza uruchamia środowisko, a druga zatrzymuje jego pracę:
+12. To jest ten moment, w którym musimy uzbroić się w **cierpliwość**, bo jest to zasadniczy etap pracy skryptu. Gdy zostanie zakończony otrzymamy duży komunikat `INSTALLATION COMPLETE!`, a na jego końcu znajdzie się najważniejsza dla nas informacja, tj. **dwie komendy**, z których pierwsza uruchamia środowisko, a druga zatrzymuje jego pracę:
 
     ```bash
     TO START THE DESKTOP: ./start-linux.sh
     TO STOP THE DESKTOP: ./stop-linux.sh
     ```
 
+### Krok 4 - uruchomienie środowiska graficznego
 
+1. Zgodnie z podpowiedzą z ostatniego punktu poprzedniego kroku **wpisujemy w Termux komendę**:
 
+    ```bash
+    ./start-linux.sh
+    ```
+2. Teraz możemy zminimalizować aplikację Termux i przejść do **Termux-X11**.
+3. Po dosłownie chwili oczekiwania powinien **ukazać nam się pulpit** pięknego interfejsu XFCE!
 
+Na końcu tego wpisu załączam kilka **zrzutów ekranu**, które pokazują jak to wygląda **na moim Pixel 9a**. Może i nie wygląda to imponująco, ale warto zauważyć, że jest to ekran o przekątnej zaledwie 6.3". Mimo tego myślę, że zmiana kilku ustawień z odpowiednim skalowaniem na czele zmieniłaby sytuację diametralnie, a to co się liczy to jak płynnie działa to środowisko. Preinstalowany Firefox lata na tym bez problemu nawet z kilkoma kartami, do tego widziałem, że ludzie instalują i używają bez problemu takie programy jak GIMP, VS Code i inne. Jak dla mnie WOW!
 
-
-### Krok 2 - Przygotowanie Termuxa
-Otwórz Termux i przygotuj repozytoria:
-```bash
-pkg update && pkg upgrade -y
-termux-setup-storage
-pkg install proot-distro git wget -y
-```
-
-### Krok 3: Instalacja dystrybucji i środowiska graficznego
-Zainstalujemy Ubuntu, które jest najbardziej przyjazne dla początkujących i posiada najlepsze wsparcie dla VS Code:
-```bash
-proot-distro install ubuntu
-proot-distro login ubuntu
-```
-Teraz jesteś wewnątrz Ubuntu. Zainstalujmy pulpit XFCE4:
-```bash
-apt update && apt upgrade -y
-apt install xfce4 xfce4-goodies dbus-launch -y
-```
-
----
-
-## 4. Instalacja VS Code: Prawdziwe IDE na tablecie
-
-To najważniejszy punkt dla każdego dewelopera. VS Code na ARM64 działa znakomicie, o ile wiesz, jak go zainstalować.
-
-### Pobieranie paczki
-Będąc w terminalu Ubuntu (proot), pobierz wersję `.deb` dla architektury ARM64:
-```bash
-wget "[https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-arm64](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-arm64)" -O vscode.deb
-```
-
-### Instalacja
-```bash
-apt install ./vscode.deb -y
-```
-
-### Uruchamianie (Pułapka Sandboxa)
-Silnik Electron, na którym bazuje VS Code, wymaga piaskownicy (sandbox), która nie jest wspierana w środowisku PRoot. Aby uruchomić edytor, musisz dodać flagę `--no-sandbox`:
-```bash
-code --no-sandbox
-```
-**Tip:** Dodaj alias do pliku `~/.bashrc`, aby móc wpisywać po prostu `code`:
-`echo "alias code='code --no-sandbox'" >> ~/.bashrc`
-
----
-
-## 5. Uruchomienie środowiska graficznego
-
-1. Wróć do głównego terminala Termux (wyjdź z Ubuntu wpisując `exit`).
-2. Uruchom aplikację **Termux-X11** na telefonie.
-3. W Termuxie wpisz komendy startowe (przykładowy schemat):
-```bash
-proot-distro login ubuntu --shared-tmp -- env DISPLAY=:1 dbus-launch xfce4-session
-```
-4. Przełącz się na aplikację Termux-X11 – Twoim oczom ukaże się pełny pulpit Linuxa.
-
----
-
-## 6. Co możesz robić na takim zestawie?
-
-Możliwości są praktycznie identyczne jak na standardowym laptopie z Linuxem:
-
-* **Full-stack Development:** Możesz bez problemu uruchomić Node.js, Pythona, Go czy PHP. VS Code obsługuje wszystkie Twoje ulubione wtyczki.
-* **Praca z Git:** Pełna obsługa repozytoriów, kluczy SSH i narzędzi typu GitKraken (w wersji Linux).
-* **Desktopowa Przeglądarka:** Instalując Firefoxa lub Chromium przez `apt`, zyskujesz dostęp do pełnych narzędzi deweloperskich (DevTools), których brakuje w mobilnym Chrome.
-* **Centrum Deweloperskie:** Po podłączeniu tabletu do monitora przez USB-C (HDMI) oraz sparowaniu klawiatury i myszy, otrzymujesz stację roboczą, która zużywa ułamek energii tradycyjnego PC, a oferuje pełną moc terminala Linux.
+Co ciekawe Termux-X11 to zwykła aplikacja, więc można się **płynnie przełączać pomiędzy nią i wszystkimi innymi apliakcjami** jakie ma się na telefonie.
 
 ## Podsumowanie
 
-Przekształcenie Androida w Linuxowe centrum deweloperskie to nie tylko efektowny pokaz możliwości sprzętu. To realne narzędzie dla osób, które chcą pracować w podróży, na kawie, czy w terenie, mając pod ręką dokładnie to samo środowisko, którego używają na desktopie. Dzięki PRoot i Termux-X11, granica między "zabawką do multimediów" a "narzędziem pracy" została ostatecznie zatarta.
+Wiele osób zapyta - `no dobra, ale po co to komu...?`. Dla mnie w pierwszej kolejności jest to ***Proof of Concept*** i ciekawe rozwiązanie. Po drugie, jestem w stanie wyobrazić sobie całkiem sporą liczbę scenariuszy, w których mam przy sobie tylko smartfon i konieczne jest nagłe wykonanie jakiegoś zadania, które najlepiej, lub wręcz tylko i wyłącznie, można zrobić na środowisku desktopowym. Po trzecie, monitor oraz klawiaturę i myszkę na Bluetooth to wszystko co jest potrzebne do stworzenia w miarę komfortowego stanowiska pracy z całym swoim środowiskiem, które masz w kieszeni - na swoim smartfonie.
+
+Po krótkich testach zacząłem się zastanawiać naprawdę poważnie nad sprawieniem sobie jakiegoś w miarę taniego i wytrzymałego (typu rugged) tabletu z dużą baterią i ekranem o przekątnej ok. 10". Poszperałem nawet już trochę w Internecie i moją uwagę przykuł **Ulefone Armor Pad 4 Ultra**. Brzmi egzotycznie, ale według licznych opinii to całkiem ciekawy sprzęt, a można go wyrwać już za jakieś 1300 PLN (wliczając już cło). Oczywiście z Chin.
+
+![](/images/termux1.png)
+
+![](/images/termux2.png)
+
+![](/images/termux3.png)
+
+![](/images/termux4.png)
