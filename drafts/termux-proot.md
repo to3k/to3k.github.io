@@ -86,10 +86,60 @@ Android 12 i nowsze posiadają mechanizm, który zabija procesy zużywające du�
 5. Aplikacja Obtainium powinna sama znaleźć odpowiedni plik APK dla Twojego telefonu. Wystarczy tylko na dole kliknąć **Instaluj**.
 6. W ten sposób zainstalowaliśmy **Termux**. Dla **Termux-X11** sprawa wygląda analogicznie tylko jako adres repozytorium wklejamy [repozytorium](https://github.com/termux/termux-x11) `https://github.com/termux/termux-x11`.
 
+### Krok 3 - Konfiguracja środowiska
 
+1. Otwieramy aplikację **Termux**. Wygląda ona jak standardowy terminal tylko, że uruchomiony na telefonie.
+2. Zaczynamy od udzielenia jej **uprawnień do pamięci** telefonu:
 
+    ```bash
+    termux-setup-storage
+    ```
 
+3. W oknie, które wyskorzy **zgadzamy się na dostęp**.
+4. **Zaktualizujmy** pakiety:
 
+    ```bash
+    apt update && apt upgrade -y
+    ```
+
+5. **Instalujemy** `git`:
+
+    ```bash
+    apt install git -y
+    ```
+
+6. Pozyskamy teraz **gotowy skrypt instalacyjny** z GitHuba gościa o nicku [orailnoor](https://github.com/orailnoor):
+
+    ```bash
+    git clone https://github.com/orailnoor/termux-linux-setup
+    ```
+
+7. **Wejdźmy** do pobranego repozytorium:
+
+    ```bash
+    cd termux-linux-setup/
+    ```
+
+8. W środku oprócz pliku `README.md` jest skrypt `termux-linux-setup.sh`, któremu musimy **nadać uprawnienia do wykonywania się**:
+
+    ```bash
+    chmod +x termux-linux-setup.sh
+    ```
+
+9. **Odpalmy** go:
+
+    ```bash
+    ./termux-linux-setup.sh
+    ```
+
+10. Odpalony skrypt w pierwszej kolejności spróbuje identyfikować na jakim telefonie został odpalony. Tak jak wpisałem wcześniej rekomendowane jest posiadanie telefonu z procesorem Snapdragon, a konkretnie z GPU Adreno. Jednakże ma to istotne znaczenie tylko w przypadku, gdybyśmy chcieli odpalić na naszym telefonie gry, a mnie takie rzeczy nie interesują. **Do VS Code i podstawowej pracy na środowisku graficznym nie musi to wcale być ta konkretna rodzina procesorów wspierająca akcelerację sprzętową**.
+11. Powiedziawszy to, musimy wybrać środowisko graficzne (ang. _Desktop Environment_), którego chcemy używać. Ja rekomenduje wybranie **XFCE**, ale każdy może dokonać wyboru według własnych preferencji. Zatem, aby dla przykładu wybrać `XFCE` musimy wprowadzić z klawiatury cyfrę **1** i potwierdzić **ENTERem**.
+12. To jest ten moment, w którym musimy uzbroić się w cierpliwość, bo jest to zasadniczy etap pracy skryptu. Gdy zostanie zakończony otrzymamy duży komunikat `INSTALLATION COMPLETE!`, a na jego końcu znajdzie się najważniejsza dla nas informacja, tj. dwie komendy, z których pierwsza uruchamia środowisko, a druga zatrzymuje jego pracę:
+
+    ```bash
+    TO START THE DESKTOP: ./start-linux.sh
+    TO STOP THE DESKTOP: ./stop-linux.sh
+    ```
 
 
 
