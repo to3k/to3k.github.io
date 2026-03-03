@@ -17,7 +17,7 @@ image: "/images/motorola-grapheneos.png"
 NOTE: English version of this post is available below.
 ```
 
-Dawno już nie pisałem żadnego szorta, bo wpisy w krótkiej formie to zdecydowanie nie moja bajka. Poza tym ja wolę zgłębić temat, rozebrać na części pierwsze i następnie na spokojnie opisać. Czasem jednak trafi się news, który sprawi, że moje serduszko zabiję odrobinę szybciej i to właśnie jest ten moment.
+Dawno już nie pisałem żadnego szorta, bo wpisy w krótkiej formie to zdecydowanie nie moja bajka. Poza tym ja wolę zgłębić temat, rozebrać na części pierwsze i następnie na spokojnie opisać. Czasem jednak trafi się news, który sprawi, że moje serduszko zabije odrobinę szybciej i to właśnie jest ten moment.
 
 Robiąc poranny przegląd prasy natrafiłem na notatkę prasową, której tytuł zaczynał się ***Motorola announces a partnership with GrapheneOS Foundation...***. Nie ma wątplwiości, że jest to łamiąca informacja (nieudolnie zapożyczone z angielskiego - _Breaking News_).
 
@@ -45,7 +45,7 @@ Mój komentarz do tego będzie stosunkowo krótki. Marka Motorola była niegdyś
 
 Motorola to **porządny sprzęt**, a GrapheneOS to **system, który używam i szanuję**. Takie połączenie może być **silnie wybuchowe**. Problem w tym, że może to być wybuch zarówno na dobre jak i na złe.
 
-Na pewno będę obserwował tą fuzję i kibicował temu projektowi z wypiekami na twarzy. **Jeżeli to się uda to moim następnym telefonem prawie na pewno będzie Motorola**.
+Na pewno będę obserwował tę fuzję i kibicował temu projektowi z wypiekami na twarzy. **Jeżeli to się uda to moim następnym telefonem prawie na pewno będzie Motorola**.
 
 Ale czy na rynku jest jeszcze miejsce dla trzeciego systemu? Do tej pory wszystkie systemy poza iOS i Android **poniosły sromotną klęskę** i tak samo może być w tym przypadku. Jeżeli to nie pyknie to Motorola straci swoją (raczej) ostatnią szansę i prawdopodobnie będzie to **koniec tej marki**. Natomiast porażka dla GrapheneOS będzie **jeszcze bardziej sromotna**, bo zakładam, że po tym jak już dogadali się z Motorolą zaczną po macoszemu traktować rozwijanie systemu pod Pixele, które do tej pory były **trzonem całego projektu**. W ten sposób trafiamy aktualnie w okres przejściowy, gdy nowe rozwiązanie nie jest jeszcze gotowe, a stare przestaje być wspierane w 100%, ale musimy jeszcze na nim przetrwać parę miesięcy. Jeżeli finalizacja tej współpracy okaże się szczytem nie do przejścia to **zostaniemy bez GrapheneOS zarówno na Motorole jak i Pixele**. Obym się mylił i oby za tym projektem stały jedynie osoby, które wiedzą co robią i doprowadzą to do szczęśliwego końca. Życzę tego sobie i Wam.
 
