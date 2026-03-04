@@ -5,26 +5,14 @@ published: true
 categories: 
   - "poradniki"
 tags: 
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
-  - "TAG"
+  - "linux"
+  - "android"
+  - "termux"
+  - "x11"
+  - "xfce"
+  - "desktop"
+  - "gui"
+  - "proot"
 image: "/images/termux-proot.png"
 ---
 
@@ -36,7 +24,7 @@ Spis treści:
 
 ## Wstęp
 
-Współczesne smartfony i tablety to potężne maszyny obliczeniowe, które większość czasu marnują na skrolowanie durnych filmików. Tymczasem w kieszeni nosimy moc porównywalną z ultrabookami. Największą barierą nie jest sprzęt, lecz system operacyjny Android, który choć oparty na jadrze Linux, skutecznie izoluje nas od profesjonalnych narzędzi.
+Współczesne smartfony i tablety to potężne maszyny obliczeniowe, które większość czasu marnują na skrolowanie durnych filmików. Tymczasem w kieszeni nosimy moc porównywalną z ultrabookami. Największą barierą nie jest sprzęt, lecz system operacyjny Android, który choć oparty na jądrze Linux, skutecznie izoluje nas od profesjonalnych narzędzi.
 
 Plan na dzisiaj to przełamanie bariery. Pokażę, jak wykorzystując środowisko **Termux**, warstwę **PRoot** oraz serwer grafiki **Termux-X11**, zmienić **dowolne urządzenie** z Androidem na pokładzie w **pełnoprawną stację roboczą z Linuxem**, środowiskiem XFCE. Wszystko to **bez** odblokowywania bootloadera i **bez** utraty gwarancji.
 
@@ -60,7 +48,7 @@ Tradycyjnie Linux na Androidzie kojarzył się z powolnym VNC. **Termux-X11** zm
 
 * **Procesor** - najlepiej Snapdragon (ze względu na wsparcie dla sterowników GPU Turnip). MediaTek i Google Tensor również zadziałają świetnie w zadaniach deweloperskich (renderowanie programowe),
 * **RAM** - minimum 8 GB. VS Code i nowoczesna przeglądarka to pożeracze pamięci,
-* **Dysk** - przynajmniej 10-15 GB wolnej przestrzeni na system i pliki projektów.
+* **Pamięć wewnętrzna** - przynajmniej 10-15 GB wolnej przestrzeni na system i pliki projektów.
 
 ### Niezbędne aplikacje
 
@@ -95,17 +83,17 @@ Android 12 i nowsze posiadają mechanizm, który zabija procesy zużywające du�
     termux-setup-storage
     ```
 
-3. W oknie, które wyskorzy **zgadzamy się na dostęp**.
+3. W oknie, które wyskoczy **zgadzamy się na dostęp**.
 4. **Zaktualizujmy** pakiety:
 
     ```bash
-    apt update && apt upgrade -y
+    pkg update && pkg upgrade -y
     ```
 
 5. **Instalujemy** `git`:
 
     ```bash
-    apt install git -y
+    pkg install git -y
     ```
 
 6. Pozyskamy teraz **gotowy skrypt instalacyjny** z GitHuba gościa o nicku [orailnoor](https://github.com/orailnoor):
@@ -143,7 +131,7 @@ Android 12 i nowsze posiadają mechanizm, który zabija procesy zużywające du�
 
 ### Krok 4 - uruchomienie środowiska graficznego
 
-1. Zgodnie z podpowiedzą z ostatniego punktu poprzedniego kroku **wpisujemy w Termux komendę**:
+1. Zgodnie z podpowiedzią z ostatniego punktu poprzedniego kroku **wpisujemy w Termux komendę**:
 
     ```bash
     ./start-linux.sh
@@ -151,9 +139,9 @@ Android 12 i nowsze posiadają mechanizm, który zabija procesy zużywające du�
 2. Teraz możemy zminimalizować aplikację Termux i przejść do **Termux-X11**.
 3. Po dosłownie chwili oczekiwania powinien **ukazać nam się pulpit** pięknego interfejsu XFCE!
 
-Na końcu tego wpisu załączam kilka **zrzutów ekranu**, które pokazują jak to wygląda **na moim Pixel 9a**. Może i nie wygląda to imponująco, ale warto zauważyć, że jest to ekran o przekątnej zaledwie 6.3". Mimo tego myślę, że zmiana kilku ustawień z odpowiednim skalowaniem na czele zmieniłaby sytuację diametralnie, a to co się liczy to jak płynnie działa to środowisko. Preinstalowany Firefox lata na tym bez problemu nawet z kilkoma kartami, do tego widziałem, że ludzie instalują i używają bez problemu takie programy jak GIMP, VS Code i inne. Jak dla mnie WOW!
+Na końcu tego wpisu załączam kilka **zrzutów ekranu**, które pokazują jak to wygląda **na moim Pixelu 9a**. Może i nie wygląda to imponująco, ale warto zauważyć, że jest to ekran o przekątnej zaledwie 6.3". Mimo tego myślę, że zmiana kilku ustawień z odpowiednim skalowaniem na czele zmieniłaby sytuację diametralnie, a to co się liczy to jak płynnie działa to środowisko. Preinstalowany Firefox lata na tym bez problemu nawet z kilkoma kartami, do tego widziałem, że ludzie instalują i używają bez problemu takie programy jak GIMP, VS Code i inne. Jak dla mnie WOW!
 
-Co ciekawe Termux-X11 to zwykła aplikacja, więc można się **płynnie przełączać pomiędzy nią i wszystkimi innymi apliakcjami** jakie ma się na telefonie.
+Co ciekawe Termux-X11 to zwykła aplikacja, więc można się **płynnie przełączać pomiędzy nią i wszystkimi innymi aplikacjami** jakie ma się na telefonie.
 
 ## Podsumowanie
 
