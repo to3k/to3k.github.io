@@ -150,11 +150,11 @@ Many people will ask - `okay, but what's this for...?`. For me, it is first and 
 After short tests, I started thinking really seriously about getting some reasonably cheap and durable (rugged type) tablet with a large battery and a screen with a diagonal of about 10". I've even already scouted around on the Internet and my attention was caught by the **Ulefone Armor Pad 4 Ultra**. It sounds exotic, but according to many opinions, it's quite an interesting piece of equipment, and it can be snatched for about 1300 PLN (already including duty). From China, of course.
 
 ![](/images/termux1.png)
-
+---
 ![](/images/termux2.png)
-
+---
 ![](/images/termux3.png)
-
+---
 ![](/images/termux4.png)
 
 ## Video
