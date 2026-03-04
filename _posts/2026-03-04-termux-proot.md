@@ -149,12 +149,19 @@ Wiele osób zapyta - `no dobra, ale po co to komu...?`. Dla mnie w pierwszej kol
 
 Po krótkich testach zacząłem się zastanawiać naprawdę poważnie nad sprawieniem sobie jakiegoś w miarę taniego i wytrzymałego (typu rugged) tabletu z dużą baterią i ekranem o przekątnej ok. 10". Poszperałem nawet już trochę w Internecie i moją uwagę przykuł **Ulefone Armor Pad 4 Ultra**. Brzmi egzotycznie, ale według licznych opinii to całkiem ciekawy sprzęt, a można go wyrwać już za jakieś 1300 PLN (wliczając już cło). Oczywiście z Chin.
 
+
 ![](/images/termux1.png)
+
 ---
+
 ![](/images/termux2.png)
+
 ---
+
 ![](/images/termux3.png)
+
 ---
+
 ![](/images/termux4.png)
 
 ## Wideo
