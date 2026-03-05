@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TYTUŁ [ENG 🇬🇧]"
-published: false
+published: true
 categories: 
   - "eng"
   - "finance"
