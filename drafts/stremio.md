@@ -118,12 +118,20 @@ Dodatki w Stremio nie są pobierane na Twój dysk jako fizyczne pliki (jak w Kod
 ### Instalacja i konfiguracja Comet
 Comet to jeden z najnowszych i najszybszych dodatków wyszukujących (alternatywa dla Torrentio), który świetnie współpracuje z Real-Debrid i oferuje bardzo wysoką jakość linków. To obecnie mój numer jeden po tym jak kilka wieczorów z rzędu miałem problemy z Torrentio.
 
-1. Wejdź na stronę konfiguracyjną dodatku: [Comet na ElfHosted](https://comet.elfhosted.com/configure).
-2. W sekcji **Debrid Service** wybierz z listy "Real-Debrid".
-3. Wklej skopiowany wcześniej **API Token** z Real-Debrid w odpowiednie pole.
-4. Opcjonalnie możesz dostosować inne ustawienia, takie jak rozdzielczość (np. odznaczenie 720p i niższych) czy limit wyników, jednak domyślne ustawienia są zazwyczaj optymalne dla większości.
-5. Zjedź na sam dół strony i kliknij przycisk **Install**.
-6. Stremio otworzy się automatycznie i zapyta o potwierdzenie instalacji. Kliknij "Zainstaluj" i gotowe.
+1. Wejdź na **[stronę konfiguracyjną dodatku Comet](https://comet.elfhosted.com/configure)**.
+2. W polu **Resolution** proponuję wybrać:
+    - 4K UHD 2160p,
+    - QHD - 1440p,
+    - FHD - 1080p,
+    - HD - 720p.
+3. W **Max Results Per Resolution** i **Max Size (GB)** zostawmy **0**, co oznacza, że nie chcemy limitu ilości wyników oraz rozmiaru plików. Jeżeli masz średnie połączenie internetowe i wiesz, że streaming filmu 4K nie będzie możliwy to możesz rozważyć ograniczenie parametru _Max Size_ do np. 3 GB.
+4. Rozwijamy sekcję **Debrid Services**. Naciskamy przycisk **Add Debrid Service**. Z listy rozwijanej wybieramy **Real-Debrid** (lub innego dostawcę który został wybrany). W pole po prawej wklejamy **API Private Token**, który pozyskaliśmy w poprzednim rozdziale tego wpisu.
+5. Rozwińmy sekcję **Language Settings**. W polu **Required Languages** mam wybrane tylko **English** i **Polish**, bo są to jedyne dwa języki, którymi posługuję się biegle i chcę, żeby Comet pokazywał mi tylko seriale/filmy, które posiadają jedną z tych dwóch ścieżek dźwiękowych. Polecam jeszcze zaznaczyć opcję **Remove Unknown Languages**, co odfiltruje materiały, w których metadanych nie określono dostępnych języków. Resztę zostawiam bez zmian względem domyślnego ustawienia.
+6. W ostatniej sekcji **Advanced Settings** mam zaznaczone opcje **Show Cached Only** i **Remove Trash**. To pierwsze usuwa z wyników wyszukiwania wszystkie propozycje, które nie zostały jeszcze zacachowane (z ang. załadowane do bufora) przez Real-Debrid. Chodzi o to, że jak znajdziemy wystarczająco niszową produkcję to zamiast odcinka serialu otrzymamy wielki biały napis na czarnym tle mówiący o tym, że ten materiał nie został jeszcze zacachowany przez Real-Debrid, ale jak poczekamy chwilę to za moment będzie on dostępny. Jest to największe kłamstwo w historii kłamstw, bo jeszcze nigdy w moim przypadku tak się nie stało, dlatego po prostu wywalam te materiały, których nie ma w buforze Real-Debrid.
+7. Doszliśmy do końca konfiguratora i widzimy na samym dole trzy przyciski:
+    - **Install** - przeniesie nas bezpośrednio do aplikacji Stremio odpowiedniej dla naszego urządzenia lub jeżeli takiej nie mamy to otworzy Stremio Web i w ten sposób zainstaluje nam dodatek skonfigurowany zgodnie z tym co wyklikaliśmy powyżej,
+    - **Copy Link** - jego naciśnięcie spowoduje skopiowanie do schowka odpowiedniego, długiego linku, który zawiera wszystkie informacje na temat naszej konfiguracji, aby użyć tego linku należy przejść ręcznie do Stremio, zakładka Dodatki, nacisnąć Dodaj dodatek i wkleić ten link w pole do podawania adresu dodatku,
+    - **Setup Kodi** - ten przycisk nie ma zastosowania w naszym przypadku.
 
 ### Instalacja i konfiguracja MediaFusion
 MediaFusion to potężny kombajn, który potrafi dostarczyć filmy, seriale, a także wydarzenia sportowe i telewizję na żywo. Posiada zaawansowane opcje scrapowania, w tym treści z regionalnych trackerów.
