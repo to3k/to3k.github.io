@@ -25,7 +25,7 @@ tags:
 image: "/images/stremio.png"
 ---
 
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/TYTUŁ/)
+[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/stremio/)
 
 Table of contents:
 * TOC
