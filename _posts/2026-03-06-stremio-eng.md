@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stremio [ENG 🇬🇧]"
+title: "Stremio - an affordable way to enjoy VOD [ENG 🇬🇧]"
 published: true
 categories: 
   - "movies-and-series"
