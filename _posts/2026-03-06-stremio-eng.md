@@ -169,6 +169,10 @@ Torrentio is the classic and likely the most popular add-on of its kind, but its
 8. Most importantly, in **Debrid Provider**, select **RealDebrid** and paste your **API Private Token**.
 9. Click **Install** or **Copy Link** at the bottom.
 
+### Add-ons on TV
+
+In the original version of this post, I forgot to mention this, so I am now editing it to say that **add-ons cannot be edited from the TV app**. After entering the Add-ons tab on the TV, you will only see a large button to synchronize the add-ons that you have previously installed and configured from your browser or application on your laptop or phone/tablet.
+
 ## Basic Usage
 
 ### Searching for Movies and Series
