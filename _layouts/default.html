@@ -178,6 +178,22 @@
         });
       });
     </script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Pobierz wszystkie linki na stronie
+        const links = document.querySelectorAll('a');
+        
+        links.forEach(function(link) {
+          // Jeśli host linku jest inny niż host Twojej strony (nie jest pusty i nie jest to blog.tomaszdunia.pl)
+          if (link.hostname && link.hostname !== window.location.hostname) {
+            link.setAttribute('target', '_blank');
+            // Dodatek dla bezpieczeństwa
+            link.setAttribute('rel', 'noopener noreferrer'); 
+          }
+        });
+      });
+    </script>
     
   </body>
 </html>
