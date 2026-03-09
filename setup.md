@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mój sprzęt / My setup
+title: Moje rzeczy / My stuff
 permalink: /setup/
 ---
 [🇵🇱 Polska wersja](#pl)
@@ -18,7 +18,7 @@ Poniżej znajduje się lista sprzętu i oprogramowania, z którego korzystam na 
 ## Urządzenia
 
 <details class="sprzet" markdown="1">
-  <summary>Urządzenie</summary>
+  <summary>Smartfon - Google Pixel 9a</summary>
 
   Urządzenie
 </details>
