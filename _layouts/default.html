@@ -88,6 +88,55 @@
     }
   </style>
 
+  <style>
+    /* --- STYLE DLA ROZWIJANEJ LISTY SPRZĘTU --- */
+    details.sprzet {
+      border: 1px solid #ccc; /* Kolor ramki dla jasnego motywu */
+      border-radius: 5px;
+      margin-bottom: 15px;
+      padding: 0; /* Zerujemy padding, żeby summary wypełniło całość */
+    }
+
+    details.sprzet summary {
+      font-weight: bold;
+      cursor: pointer;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.2s ease;
+    }
+
+    /* Podświetlenie przy najechaniu (Jasny motyw) */
+    details.sprzet summary:hover {
+      background-color: #f9f9f9;
+    }
+
+    /* Kreska oddzielająca po rozwinięciu (Jasny motyw) */
+    details.sprzet[open] summary {
+      border-bottom: 1px solid #ccc;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      margin-bottom: 10px; /* Odstęp od tekstu po rozwinięciu */
+    }
+
+    /* Wewnętrzny margines dla samego opisu */
+    details.sprzet > *:not(summary) {
+      padding: 0 15px 15px 15px;
+    }
+
+    /* --- DOPASOWANIE DO CIEMNEGO MOTYWU --- */
+    body.dark-mode details.sprzet {
+      border-color: #555;
+    }
+    
+    body.dark-mode details.sprzet summary:hover {
+      background-color: #2a2a2a;
+    }
+
+    body.dark-mode details.sprzet[open] summary {
+      border-bottom-color: #555;
+    }
+  </style>
+
   <body>
     <div style="max-width: 700px; margin: 0 auto; padding: 20px;">
 
