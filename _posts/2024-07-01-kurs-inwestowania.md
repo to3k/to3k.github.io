@@ -21,6 +21,6 @@ Jestem świadom tego, że jak mówi przysłowie "kijem rzeki nie zawrócę", ale
 Nie pozostaje mi już nic innego jak zaprosić to przejścia do kursu! Skorzystaj z poniższego przycisku lub linka znajdującego się pod nim.
 
 [**Inwestuj teraz!**  
-Darmowy kurs inwestowania pasywnego](https://blog.tomaszdunia.pl/inwestuj/)
+Darmowy kurs inwestowania pasywnego](https://oldblog.tomaszdunia.pl/inwestuj/)
 
-[https://blog.tomaszdunia.pl/inwestuj/](https://blog.tomaszdunia.pl/inwestuj/)
+[https://blog.tomaszdunia.pl/inwestuj/](https://oldblog.tomaszdunia.pl/inwestuj/)
