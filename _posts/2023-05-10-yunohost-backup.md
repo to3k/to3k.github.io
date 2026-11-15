@@ -135,7 +135,7 @@ Polecenie to musi zostać wykonane przez uprawnieniami administratora, a więc a
 
 Nazwa pod jaką zostanie zapisana dana kopia ma następujący format:
 
-> <rok><miesiąc><dzień>\-<godzina><minuta><sekunda>.tar
+> `<rok><miesiąc><dzień>-<godzina><minuta><sekunda>.tar`
 
 Zatem jeżeli kopia powstanie _8 lipca 2023 o godzinie 12:34:56_ to będzie miała ona nazwę _20230708-123456.tar_. Dlaczego skupiam się na tym tak bardzo? Jest to istotne w kontekście tego jak będziemy określać, który plik ma zostać pobrany, a więc która kopia jest najnowszą i powinna zostać pozyskana, aby zająć miejsce obok już wcześniej pobranych kopii na serwer do _backup'ów_. Zauważ, że robiąc dwie kopie dziennie będę każdego dnia miał dwa pliki, których część nazwy przed myślnikiem będzie taka sama, bo to data. W takim razie można je rozróżnić tylko po drugiej części nazwy (tej po myślniku), czyli na podstawie godziny utworzenia. Zauważ, że celowo robię dwie kopie, z których pierwsza jest z 5:00, a więc po myślniku w nazwie będzie miała _0_ (_zero_), a druga jest z 15:00, a więc po myślniku w nazwie będzie miała _1_ (_jedynkę_). W ten sposób kopia o nazwie _20230708-0\*_ jest kopią poranną zrobioną _8 lipca 2023_, a kopia o nazwie _20230708-1\*_ jest kopią popołudniową. Użycie znaku _\*_ w _bash'u_ oznacza, że pozostała część nazwy może być dowolna.
 

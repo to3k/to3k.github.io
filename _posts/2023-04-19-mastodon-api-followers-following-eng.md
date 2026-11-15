@@ -85,7 +85,7 @@ Let's assume I have 800 followers. Using the link - [https://mastodon.tomaszduni
 
 Let's get the value of this header parameter:
 
-> <https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/following?limit=80&max\_id=700\>; rel="next", <https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/following?limit=80&since\_id=1183\>; rel="prev"
+> `<https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/following?limit=80&max_id=700>; rel="next", <https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/following?limit=80&since_id=1183>; rel="prev"`
 
 The _URL_ located before _rel="next"_ highlighted in green is the link to the next page of followers we were looking for. After using it, we receive another batch of 80 accounts that follow me.
 

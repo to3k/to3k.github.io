@@ -131,7 +131,7 @@ This command must be executed with administrator privileges, either directly as 
 
 The name under which the backup will be saved has the following format:
 
-> <year><month><day>\-<hour><minute><second>.tar
+> `<year><month><day>-<hour><minute><second>.tar`
 
 So, if the backup is created on _July 8, 2023 at 12:34:56_, its name will be _20230708-123456.tar_. Why am I focusing on this so much? It is important in the context of how we will determine which file should be downloaded, which backup is the latest and should be retrieved to occupy the space next to the backups already downloaded to the _backup_ server. Note that by making two copies a day, I will have two files every day, part of the name before the hyphen will be the same because it is the date. Therefore, they can only be distinguished by the second part of the name (after the hyphen), that is, based on the creation time. Note that I intentionally make two copies, the first one at 5:00, so after the hyphen in the name, it will have _0_ (_zero_), and the second one at 15:00, so after the hyphen in the name, it will have _1_ (_one_). In this way, the backup named _20230708-0\*_ is a morning copy made on _July 8, 2023_, and the backup named _20230708-1\*_ is an afternoon copy. The use of the _\*_ sign in _Bash_ means that the remaining part of the name can be anything.
 

@@ -21,7 +21,7 @@ SDR to software-defined radio, czyli w skrócie radio programowalne. Wikipedia m
 
 ![](/images/rtlsdr-1024x347.jpg)
 
-W podlinkowanym artykule autor sprawdza co można odkryć w spektrum elektromagnetycznym wykorzystując relatywnie taniego dongle'a USB - [RTL-SDR Blog V4](https://www.rtl-sdr.com/rtl-sdr-blog-v4-dongle-initial-release/). Okazuje się, że po dołożeniu do tego prostej anteny można mieć naprawdę sporo zabawy! Autor zrealizował swój wpis na bazie techniki "50 zastosowań <czegoś>" i stworzył następującą listę tematyczną:
+W podlinkowanym artykule autor sprawdza co można odkryć w spektrum elektromagnetycznym wykorzystując relatywnie taniego dongle'a USB - [RTL-SDR Blog V4](https://www.rtl-sdr.com/rtl-sdr-blog-v4-dongle-initial-release/). Okazuje się, że po dołożeniu do tego prostej anteny można mieć naprawdę sporo zabawy! Autor zrealizował swój wpis na bazie techniki "50 zastosowań \<czegoś\>" i stworzył następującą listę tematyczną:
 
 1. Słuchanie radia FM
 
@@ -138,7 +138,7 @@ SDR stands for software-defined radio, in short, programmable radio. Wikipedia s
 
 ![](/images/rtlsdr-1024x347.jpg)
 
-In the linked article, the author explores what can be discovered in the electromagnetic spectrum using a relatively cheap USB dongle - [RTL-SDR Blog V4](https://www.rtl-sdr.com/rtl-sdr-blog-v4-dongle-initial-release/). It turns out that after adding a simple antenna to it, you can have a lot of fun! The author realized his post based on the "50 uses of <something>" technique and created the following thematic list:
+In the linked article, the author explores what can be discovered in the electromagnetic spectrum using a relatively cheap USB dongle - [RTL-SDR Blog V4](https://www.rtl-sdr.com/rtl-sdr-blog-v4-dongle-initial-release/). It turns out that after adding a simple antenna to it, you can have a lot of fun! The author realized his post based on the "50 uses of \<something\>" technique and created the following thematic list:
 
 1. Listen to FM radio
 

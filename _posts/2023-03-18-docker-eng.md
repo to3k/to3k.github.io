@@ -241,14 +241,14 @@ Managing _containers_ as I described has a huge advantage. Having all the _conta
 tar -cvpf /home/$USER/$(date +"%FT%H%M")_docker_backup.tar.gz /home/$USER/docker
 ```
 
-This command will create an archive named _<date>\_docker\_backup.tar.gz_ with the backup inside, in the user's home directory. For safety, it is also a good idea to copy the entire contents of the _/var/lib/docker/_ folder, which contains all Docker files as services installed on our server. However, we need root access to do this.
+This command will create an archive named `<date>_docker_backup.tar.gz` with the backup inside, in the user's home directory. For safety, it is also a good idea to copy the entire contents of the _/var/lib/docker/_ folder, which contains all Docker files as services installed on our server. However, we need root access to do this.
 
 ```bash
 sudo su
 tar -cvpf /root/$(date +"%FT%H%M")_var_lib_docker_backup.tar.gz /var/lib/docker
 ```
 
-This command will create an archive named _<date>\_var\_lib\_docker\_backup.tar.gz_ with the backup inside, in the root's home directory.
+This command will create an archive named `<date>_var_lib_docker_backup.tar.gz` with the backup inside, in the root's home directory.
 
 ## That's all for today...
 

@@ -49,7 +49,7 @@ As I mentioned before, _WriteFreely_ is characterized by simplicity both in term
 
 Blogs created on the _WriteFreely Polska_ _instance_ are available at the following addresses:
 
-> https://writefreely.pl/<username>
+> `https://writefreely.pl/<username>`
 
 In my case, it is: [https://writefreely.pl/to3k](https://writefreely.pl/to3k). And the first test post that I wrote can be read here: [https://writefreely.pl/to3k/witaj-na-writefreely-polska](https://writefreely.pl/to3k/witaj-na-writefreely-polska). I encourage you to visit and see what it looks like in practice.
 
@@ -57,7 +57,7 @@ In my case, it is: [https://writefreely.pl/to3k](https://writefreely.pl/to3k). A
 
 After creating an account for our blog, we also receive a kind of profile in the _instance_ that can be accessed by anyone through all federated services within the _Fediverse_. To find this profile, you can enter the appropriate _handle_ (username) from your _Mastodon_ account's search bar, for example:
 
-> @<username>@writefreely.pl
+> `@<username>@writefreely.pl`
 
 In the case of my blog, it would be _@to3k@writefreely.pl_. Try entering it in the search bar of your _Mastodon_ account, and you will receive a result similar to the one below.
 

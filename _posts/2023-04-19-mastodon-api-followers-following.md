@@ -87,7 +87,7 @@ Załóżmy, że mam 800 obserwujących. Korzystając z linka - [https://mastodon
 
 Pozyskajmy wartość tego parametru nagłówkowego:
 
-> <https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/following?limit=80&max\_id=700\>; rel="next", <https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/following?limit=80&since\_id=1183\>; rel="prev"
+> `<https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/following?limit=80&max_id=700>; rel="next", <https://mastodon.tomaszdunia.pl/api/v1/accounts/110012691117775438/following?limit=80&since_id=1183>; rel="prev"`
 
 URL znajdujący się przed _rel="next"_ zaznaczony na zielono to link do następnej strony z obserwującymi, którego szukaliśmy. Po skorzystaniu z niego otrzymujemy kolejną partię 80 kont, które są moimi obserwującymi.
 
