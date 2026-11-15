@@ -1,6 +1,8 @@
 ---
 title: "YunoHost - self-hosting in a friendly form [ENG 🇬🇧]"
 date: 2023-04-12
+redirect_from:
+  - /yunohost-eng/
 categories: 
   - "self-hosting-eng"
   - "tutorials"

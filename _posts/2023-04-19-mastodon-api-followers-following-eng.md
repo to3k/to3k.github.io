@@ -67,7 +67,7 @@ _Instance address_ in my case would be _mastodon.tomaszdunia.pl_. And how do I k
 
 > https://\[instance\_address\]/api/v1/accounts/lookup?acct=\[username\]
 
-So let's construct the appropriate URL - [https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k](https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k). After running it in the browser, we will receive a _JSON_ object as a response from the server (I mentioned this format in [these posts](https://blog.tomaszdunia.pl/tag/json/)). In the Firefox browser, which is my primary development tool, it looks like this:
+So let's construct the appropriate URL - [https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k](https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k). After running it in the browser, we will receive a _JSON_ object as a response from the server (I mentioned this format in [this post](https://blog.tomaszdunia.pl/deepl-api-eng/)). In the Firefox browser, which is my primary development tool, it looks like this:
 
 ![](/images/mastodonapijson1.png)
 

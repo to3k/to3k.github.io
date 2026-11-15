@@ -75,6 +75,6 @@ Na tej bazie mam przypisane następujące akcje:
 
 ## Chcesz gotowca?
 
-Dla leniwych przygotowałem do pobrania gotowy skrót, który stworzyłem. Możesz go pobrać pod [tym linkiem](http://blog.tomaszdunia.pl/bloglab/shared/Super Action Button from blog.tomaszdunia.pl.shortcut). Jedyne co musisz zrobić to uruchomić go z poziomu aplikacji _Files_ i zaimportować do swojej aplikacji _Shortcuts_ używając przycisku _Add Shortcut_. Miłego użytkowania!
+Dla leniwych przygotowałem do pobrania gotowy skrót, który stworzyłem. Możesz go pobrać pod [tym linkiem](https://blog.tomaszdunia.pl/files/Super-Action-Button.shortcut). Jedyne co musisz zrobić to uruchomić go z poziomu aplikacji _Files_ i zaimportować do swojej aplikacji _Shortcuts_ używając przycisku _Add Shortcut_. Miłego użytkowania!
 
 ![](/images/image-20.png)

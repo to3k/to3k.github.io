@@ -29,7 +29,7 @@ The idea for this post came to me while working on my new small project, which s
 
 ## Demo page
 
-For the purpose of this post, I have created something called _bloglab1_, which is a **test environment** to demonstrate the functioning of the mechanism that I will describe shortly. Access to the demo can be obtained by clicking on [this link](https://blog.tomaszdunia.pl/bloglab/lab1/login.php).
+For the purpose of this post, I have created something called _bloglab1_, which is a **test environment** to demonstrate the functioning of the mechanism that I will describe shortly. Access to the demo can be obtained by clicking on [this link](https://oldblog.tomaszdunia.pl/bloglab/lab1/login.php).
 
 ## MySQL user database - lab1\_users\_db.sql
 

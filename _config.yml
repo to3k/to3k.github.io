@@ -17,6 +17,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # --- DANE AUTORA ---
 author:

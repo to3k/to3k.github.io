@@ -35,7 +35,7 @@ For several weeks now, I have been publishing a series of Sunday posts called _#
 
 11. All that's left is to give the post a title, which simply involves providing the current date, and publish it.
 
-Examples of such posts can be seen by going [here](https://blog.tomaszdunia.pl/category/tdbnews/). And in this post, I'll show you behind the scenes how these scripts, which I use to implement this simple automation, look like.
+Examples of such posts were previously published in the archived _TDBNews_ category. And in this post, I'll show you behind the scenes how these scripts, which I use to implement this simple automation, look like.
 
 ## Script collecting my toots tagged with #TDBNews
 

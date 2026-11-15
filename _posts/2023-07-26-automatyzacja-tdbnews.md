@@ -35,7 +35,7 @@ Już od kilku tygodni publikuję serię niedzielnych wpisów _#TDBNews_, w któr
 
 11. Pozostaje mi tylko nadać tytuł wpisu, co ogranicza się do podania aktualnej daty, i opublikować go.
 
-Przykłady tego typu wpisów można zobaczyć przechodząc [tutaj](https://blog.tomaszdunia.pl/category/tdbnews/). A w tym wpisie pokażę od kuchni jak wyglądają te skrypty, dzięki którym realizuję tę prostą automatyzację.
+Przykłady tego typu wpisów były wcześniej publikowane w archiwalnej kategorii _TDBNews_. A w tym wpisie pokażę od kuchni jak wyglądają te skrypty, dzięki którym realizuję tę prostą automatyzację.
 
 ## Skrypt zbierający moje tooty oznaczone hashtagiem #TDBNews
 

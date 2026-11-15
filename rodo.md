@@ -2,6 +2,8 @@
 layout: page
 title: Polityka Prywatności / Privacy Policy
 permalink: /rodo/
+redirect_from:
+  - /polityka-prywatnosci-privacy-policy/
 ---
 <p align="center">
 🇵🇱 To jak tworzyłem tą politykę prywatności opisałem szczegółowo w tym wpisie:<br>

@@ -75,6 +75,6 @@ Based on this, I’ve assigned the following actions:
 
 ## Want a ready-made solution?
 
-For the lazy ones, I have prepared a ready-made shortcut for download, which I created. You can download it from [this link](http://blog.tomaszdunia.pl/bloglab/shared/Super Action Button from blog.tomaszdunia.pl.shortcut). All you need to do is launch it from the _Files_ app and import it into your _Shortcuts_ app by using the _Add Shortcut_ button. Enjoy!
+For the lazy ones, I have prepared a ready-made shortcut for download, which I created. You can download it from [this link](https://blog.tomaszdunia.pl/files/Super-Action-Button.shortcut). All you need to do is launch it from the _Files_ app and import it into your _Shortcuts_ app by using the _Add Shortcut_ button. Enjoy!
 
 ![](/images/image-20.png)

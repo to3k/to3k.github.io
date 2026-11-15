@@ -69,7 +69,7 @@ _Adres instancji_ to w moim przypadku będzie _mastodon.tomaszdunia.pl_. Natomia
 
 > https://\[adres\_instancji\]/api/v1/accounts/lookup?acct=\[nazwa\_użytkownika\]
 
-Skonstruujmy zatem stosowny URL - [https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k](https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k). Po uruchomieniu go w przeglądarce otrzymamy od serwera odpowiedź w postaci obiektu _JSON_ (wspominałem o tym formacie w [tych wpisach](https://blog.tomaszdunia.pl/tag/json/)). W przeglądarce Firefox, która jest moim podstawowym narzędziem deweloperskim, wygląda to tak:
+Skonstruujmy zatem stosowny URL - [https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k](https://mastodon.tomaszdunia.pl/api/v1/accounts/lookup?acct=to3k). Po uruchomieniu go w przeglądarce otrzymamy od serwera odpowiedź w postaci obiektu _JSON_ (wspominałem o tym formacie w [tym wpisie](https://blog.tomaszdunia.pl/deepl-api/)). W przeglądarce Firefox, która jest moim podstawowym narzędziem deweloperskim, wygląda to tak:
 
 ![](/images/mastodonapijson1.png)
 

@@ -25,7 +25,7 @@ In the title, I wanted to keep it brief, so I used the word _services_, which I 
 
 ## How to set up Uptime Kuma
 
-Running _Uptime Kuma_ on your server can be done in various ways. One of them is by accessing this tool in the [application library](https://github.com/YunoHost-Apps/uptime-kuma_ynh) of _[Yunohost](https://blog.tomaszdunia.pl/yunohost-eng/)_. However, in this post, I will show you how to run this tool as a _[Docker](https://blog.tomaszdunia.pl/docker-eng/)_ container, specifically using the method I recently described - _[Portainer](https://blog.tomaszdunia.pl/portainer-eng/)_.
+Running _Uptime Kuma_ on your server can be done in various ways. One of them is by accessing this tool in the [application library](https://github.com/YunoHost-Apps/uptime-kuma_ynh) of _[Yunohost](https://blog.tomaszdunia.pl/yunohost-oracle-eng/)_. However, in this post, I will show you how to run this tool as a _[Docker](https://blog.tomaszdunia.pl/docker-eng/)_ container, specifically using the method I recently described - _[Portainer](https://blog.tomaszdunia.pl/portainer-eng/)_.
 
 Firstly, you need to create the required volume. The _Uptime Kuma_ documentation states that you need to mount the path _/app/data_. Therefore, let's create a volume named _uptime-kuma\_app\_data_.
 

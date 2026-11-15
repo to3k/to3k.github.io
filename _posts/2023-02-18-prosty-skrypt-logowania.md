@@ -30,7 +30,7 @@ Pomysł na ten wpis wpadł mi do głowy podczas pracy nad moim nowym, małym pro
 
 ## Strona demonstracyjna
 
-Specjalnie na potrzeby tego wpisu stworzyłem coś co nazwałem _bloglab1_, czyli **środowisko testowe** do zademonstrowania sposobu działania mechanizmu, który za chwilę opiszę. Dostęp do dema można uzyskać poprzez wejście w [ten link](https://blog.tomaszdunia.pl/bloglab/lab1/login.php).
+Specjalnie na potrzeby tego wpisu stworzyłem coś co nazwałem _bloglab1_, czyli **środowisko testowe** do zademonstrowania sposobu działania mechanizmu, który za chwilę opiszę. Dostęp do dema można uzyskać poprzez wejście w [ten link](https://oldblog.tomaszdunia.pl/bloglab/lab1/login.php).
 
 ## Baza użytkowników MySQL - lab1\_users\_db.sql
 
