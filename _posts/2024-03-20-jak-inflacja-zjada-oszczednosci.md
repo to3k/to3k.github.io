@@ -46,25 +46,15 @@ Jeżeli chodzi o historyczne poziomy _inflacji_ w Polsce to do moich dalszych ro
 
 No dobrze, to w takim razie jak kształtował się poziom inflacji w ostatnich 30 latach?
 
-<figure>
-
 ![](/images/obraz-5.png)
 
-<figcaption>
-
 _Źródło danych: [GUS (Główny Urząd Statystyczny)](https://stat.gov.pl/obszary-tematyczne/ceny-handel/wskazniki-cen/wskazniki-cen-towarow-i-uslug-konsumpcyjnych-pot-inflacja-/)_
-
-</figcaption>
-
-</figure>
 
 ## 100 zł odłożone bez inwestowania
 
 Nie będę owijał w bawełnę i od razu przejdę do konkretów. Postanowiłem przeprowadzić eksperyment statystyczny, którego wynik będzie obrazował to co dzieje się z kapitałem w wysokości 100 zł, gdy odłożymy go do skarpety i nie będziemy go inwestować. Sprawdzimy ile te 100 zł będzie warte po 30, 20, 10 i 5 latach. Spoiler alert: zaobserwujemy jak wysoki będzie spadek siły nabywczej tej kwoty, a wszystko to za sprawą jedynie _inflacji_. Przyjęta kwota jest tylko odniesieniem. Można to w prosty sposób przeliczyć na 1 000 zł, 10 000 zł czy nawet 1 000 000 zł.
 
-<figure>
-
-| **Rok** | **Inflacja** | **100 zł**   **nie zainwestowane**   **30 lat temu** \* | **100 zł**   ******nie zainwestowane******   **20 ****lat temu****** \* | **100 zł**   ******nie zainwestowane******   **10 ****lat temu****** \* | **100 zł**   ******nie zainwestowane******   **5 ****lat temu****** \* |
+| **Rok** | **Inflacja** | **100 zł**<br>**nie zainwestowane**<br>**30 lat temu** \* | **100 zł**<br>**nie zainwestowane**<br>**20 lat temu** \* | **100 zł**<br>**nie zainwestowane**<br>**10 lat temu** \* | **100 zł**<br>**nie zainwestowane**<br>**5 lat temu** \* |
 | --- | --- | --- | --- | --- | --- |
 | **1993** | 35,3% | **100,00 zł** |     |     |     |
 | **1994** | 32,2% | 75,64 zł |     |     |     |
@@ -98,13 +88,7 @@ Nie będę owijał w bawełnę i od razu przejdę do konkretów. Postanowiłem p
 | **2022** | 14,4% | 17,50 zł | 58,30 zł | 77,02 zł | 78,63 zł |
 | **2023** | 11,4% | 15,71 zł | 52,34 zł | 69,14 zł | 70,58 zł |
 
-<figcaption>
-
-_\* _wartości wyliczone z wzór:_: X = wartość z poprzedniego roku / (1 + inflacja)_
-
-</figcaption>
-
-</figure>
+_\* wartości wyliczone z wzoru: X = wartość z poprzedniego roku / (1 + inflacja)_
 
 Jak ktoś nie lubi tabelek to wyniki przygotowałem również w formie wykresu:
 
@@ -135,9 +119,7 @@ W tym miejscu chciałem jednak wygłosić może i trochę górnolotne hasło - _
 
 - symulację zakończę dokładnie po **10 latach**, czyli **na koniec 2023 r.** i zajrzę co mi zostało z każdego z tych banknotów, oczywiście muszę przy tym pamiętać, żeby przy lokatach i obligacjach uwzględniać podatek od zysków kapitałowych (Belki).
 
-<figure>
-
-| **Rok** | **Inflacja** | **100 zł**   **bez inwestowania** \* | **Śr. oprocent.** **lokat** | **100 zł**   **inwestowanych w lokaty**   **(po podatku)** \*\* | **Oprocent.**   **obligacji**   **EDO 0124** | **100 zł**   **inwestowanych w obligacje EDO**   **(po podatku)** \*\*\* |
+| **Rok** | **Inflacja** | **100 zł**<br>**bez inwestowania** \* | **Śr. oprocent.**<br>**lokat** | **100 zł**<br>**inwestowanych w lokaty**<br>**(po podatku)** \*\* | **Oprocent.**<br>**obligacji**<br>**EDO 0124** | **100 zł**<br>**inwestowanych w obligacje EDO**<br>**(po podatku)** \*\*\* |
 | --- | --- | --- | --- | --- | --- | --- |
 | **START** |     | 100,00 zł |     | 100,00 zł |     | 100,00 zł |
 | **2014** | 0,00% | 100,00 zł | 2,59% | 102,10 zł | 4,00% | 103,24 zł |
@@ -151,17 +133,11 @@ W tym miejscu chciałem jednak wygłosić może i trochę górnolotne hasło - _
 | **2022** | 14,40% | 77,02 zł | 4,43% | 87,95 zł | 9,30% | 100,25 zł |
 | **2023** | 11,40% | 69,14 zł | 5,58% | 82,51 zł | 19,00% | 103,84 zł |
 
-<figcaption>
-
-_\* wartości wyliczone z wzór: X = wartość w poprzednim roku / (1 + inflacja)  
-\*\* wartości wyliczone z wzór: Y = wartość w poprzednim roku / (1 + inflacja) \* (1 + oprocent. lokaty \* 81%)  
-\*\*\* wartości wyliczone z wzór: Z = wartość w poprzednim roku / (1 + inflacja) \* (1 + oprocent. obligacji \* 81%)  
-Źródło danych o historycznym oprocentowaniu lokat: [inflacja.pl](https://www.inflacja.pl/lokaty-dane-zrodlowe/)  
-Źródło danych o historycznym oprocentowaniu obligacji EDO 0124: [obligacjeskarbowe.pl](https://www.obligacjeskarbowe.pl/archiwum-produktow/?table_id=16489)_
-
-</figcaption>
-
-</figure>
+_\* wartości wyliczone z wzoru: X = wartość w poprzednim roku / (1 + inflacja)_<br>
+_\*\* wartości wyliczone z wzoru: Y = wartość w poprzednim roku / (1 + inflacja) \* (1 + oprocent. lokaty \* 81%)_<br>
+_\*\*\* wartości wyliczone z wzoru: Z = wartość w poprzednim roku / (1 + inflacja) \* (1 + oprocent. obligacji \* 81%)_<br>
+_Źródło danych o historycznym oprocentowaniu lokat: [inflacja.pl](https://www.inflacja.pl/lokaty-dane-zrodlowe/)_<br>
+_Źródło danych o historycznym oprocentowaniu obligacji EDO 0124: [obligacjeskarbowe.pl](https://www.obligacjeskarbowe.pl/archiwum-produktow/?table_id=16489)_
 
 Oczywiście bez wykresów kalkulacja nie byłaby tak profesjonalna! Dlatego prezentuję pierwszy wykres, który przedstawia porównanie wysokość inflacji oraz oprocentowania lokat i obligacji _EDO_ w latach 2014-2023.
 

@@ -126,11 +126,9 @@ Zacznę od wskazania gdzie można szukać aktualnych informacji na temat dostęp
 
 Obligacje skarbowe stałoprocentowe:
 
-<figure>
-
 | Nazwa obligacji | **O**szczędnościowe **T**rzymiesięczne **S**tałoprocentowe | **T**rzyletnie **O**szczędnościowe **S**tałoprocentowe |
 | --- | --- | --- |
-| Symbol   (skrót + miesiąc i rok wykupu) | **OTS**0524 | **TOS**0227 |
+| Symbol<br>(skrót + miesiąc i rok wykupu) | **OTS**0524 | **TOS**0227 |
 | Termin wykupu | 3-miesięczne | 3-letnie |
 | Typ oprocentowania | stałe | stałe |
 | Oprocentowanie wstępne | 3.00% (cały okres) | 6.40% (cały okres) |
@@ -142,19 +140,13 @@ Obligacje skarbowe stałoprocentowe:
 | Czas wypłaty przy wykupie przedwczesnym | 5 dni roboczych po dniu złożenia dyspozycji | 5 dni roboczych po dniu złożenia dyspozycji |
 | Cena zamiany | 100 zł | 99.90 zł |
 
-<figcaption>
-
-Uwaga: obligacji OTS nie można nabywać w ramach _IKE-Obligacje_.
-
-</figcaption>
-
-</figure>
+_Uwaga: obligacji OTS nie można nabywać w ramach IKE-Obligacje._
 
 Obligacje skarbowe zmiennoprocentowe:
 
 | Nazwa obligacji | **R**oczne **O**szczędnościowe **R**eferencyjne | **D**wuletnie **O**szczędnościowe **R**eferencyjne |
 | --- | --- | --- |
-| Symbol   (skrót + miesiąc i rok wykupu) | **ROR**0225 | **DOR**0226 |
+| Symbol<br>(skrót + miesiąc i rok wykupu) | **ROR**0225 | **DOR**0226 |
 | Termin wykupu | roczne | 2-letnie |
 | Typ oprocentowania | zmienne | zmienne |
 | Oprocentowanie wstępne | 6.05% (1. miesiąc) | 6.30% (1. miesiąc) |
@@ -170,7 +162,7 @@ Obligacje skarbowe indeksowane inflacją:
 
 | Nazwa obligacji | **C**zteroletnie **O**szczędnościowe **I**ndeksowane | **E**merytalne **D**ziesięcioletnie **O**szczędnościowe |
 | --- | --- | --- |
-| Symbol   (skrót + miesiąc i rok wykupu) | **COI**0228 | **EDO**0234 |
+| Symbol<br>(skrót + miesiąc i rok wykupu) | **COI**0228 | **EDO**0234 |
 | Termin wykupu | 4-letnie | 10-letnie |
 | Typ oprocentowania | zmienne, indeksowane inflacją | zmienne, indeksowane inflacją |
 | Oprocentowanie wstępne | 6.55% (1. rok) | 6.80% (1. rok) |
@@ -184,11 +176,9 @@ Obligacje skarbowe indeksowane inflacją:
 
 Obligacje skarbowe indeksowane inflacją dla beneficjentów programu _800plus_:
 
-<figure>
-
 | Nazwa obligacji | **R**odzinne **O**szczędnościowe **S**ześcioletnie | **R**odzinne **O**szczędnościowe **D**wunastoletnie |
 | --- | --- | --- |
-| Symbol   (skrót + miesiąc i rok wykupu) | **ROS**0230 | **ROD**0236 |
+| Symbol<br>(skrót + miesiąc i rok wykupu) | **ROS**0230 | **ROD**0236 |
 | Termin wykupu | 6-letnie | 12-letnie |
 | Typ oprocentowania | zmienne, indeksowane inflacją | zmienne, indeksowane inflacją |
 | Oprocentowanie wstępne | 6.75% (1. rok) | 7.05% (1. rok) |
@@ -200,13 +190,7 @@ Obligacje skarbowe indeksowane inflacją dla beneficjentów programu _800plus_:
 | Czas wypłaty przy wykupie przedwczesnym | 5 dni roboczych po dniu złożenia dyspozycji | 5 dni roboczych po dniu złożenia dyspozycji |
 | Cena zamiany | \- | \- |
 
-<figcaption>
-
-Uwaga: nie można ich nabywać w ramach _IKE-Obligacje_.
-
-</figcaption>
-
-</figure>
+_Uwaga: nie można ich nabywać w ramach IKE-Obligacje._
 
 Powyżej przedstawiłem listę wszystkich dostępnych obligacji skarbowych na luty 2024. Jeżeli miałbym szybko skomentować dostępne opcje to:
 

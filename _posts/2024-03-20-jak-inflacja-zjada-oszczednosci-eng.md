@@ -46,25 +46,15 @@ As for historical levels of _inflation_ in Poland, I'm only considering the last
 
 Alright, so how has the level of inflation evolved over the past 30 years in Poland?
 
-<figure>
-
 ![](/images/obraz-5.png)
 
-<figcaption>
-
 _Source of data: [GUS (Główny Urząd Statystyczny)](https://stat.gov.pl/obszary-tematyczne/ceny-handel/wskazniki-cen/wskazniki-cen-towarow-i-uslug-konsumpcyjnych-pot-inflacja-/)_
-
-</figcaption>
-
-</figure>
 
 ## Saving 100 PLN without investing
 
 I won't beat around the bush and I'll get straight to the point. I decided to conduct a statistical experiment to illustrate what happens to a capital of 100 PLN when we set it aside and don't invest it. We'll see how much these 100 PLN will be worth after 30, 20, 10, and 5 years. Spoiler alert: we'll observe a significant decrease in the purchasing power of this amount, all due to _inflation_. The chosen amount is just a reference point. You can easily convert it to 1 000 PLN, 10 000 PLN, or even 1 000 000 PLN.
 
-<figure>
-
-| **Year** | **Inflation** | **100 zł**   **not invested**   **30 years ago** \* | **100 zł**   ****not invested****   **20 **years ago**** \* | **100 zł**   ****not invested****   **10 **years ago**** \* | **100 zł**   ****not invested****   **5 **years ago**** \* |
+| **Year** | **Inflation** | **100 zł**<br>**not invested**<br>**30 years ago** \* | **100 zł**<br>**not invested**<br>**20 years ago** \* | **100 zł**<br>**not invested**<br>**10 years ago** \* | **100 zł**<br>**not invested**<br>**5 years ago** \* |
 | --- | --- | --- | --- | --- | --- |
 | **1993** | 35,3% | **100,00 zł** |     |     |     |
 | **1994** | 32,2% | 75,64 zł |     |     |     |
@@ -98,13 +88,7 @@ I won't beat around the bush and I'll get straight to the point. I decided to co
 | **2022** | 14,4% | 17,50 zł | 58,30 zł | 77,02 zł | 78,63 zł |
 | **2023** | 11,4% | 15,71 zł | 52,34 zł | 69,14 zł | 70,58 zł |
 
-<figcaption>
-
 _\* values calculated from the formula: X = previous year's value / (1 + inflation)_
-
-</figcaption>
-
-</figure>
 
 If someone doesn't like tables, I've also prepared the results in the form of a chart:
 
@@ -135,9 +119,7 @@ To avoid being just talkative, I conducted a calculation, assuming that:
 
 - I will end the simulation exactly after **10 years**, so **at the end of 2023**, and see what I have left from each of these banknotes, of course, I must remember to include the capital gains tax for deposits and bonds.
 
-<figure>
-
-| **Year** | **Inflation** | **100 zł**   **not invested** \* | **Avg. interest rate of deposits** | **100 zł**   **invested in deposits**   **(after taxes)** \*\* | **Interest rate**   **of bonds**   **EDO 0124** | **100 zł**   **invested in bonds EDO**   **(after taxes)** \*\*\* |
+| **Year** | **Inflation** | **100 zł**<br>**not invested** \* | **Avg. interest rate**<br>**of deposits** | **100 zł**<br>**invested in deposits**<br>**(after taxes)** \*\* | **Interest rate**<br>**of bonds**<br>**EDO 0124** | **100 zł**<br>**invested in bonds EDO**<br>**(after taxes)** \*\*\* |
 | --- | --- | --- | --- | --- | --- | --- |
 | **START** |     | 100,00 zł |     | 100,00 zł |     | 100,00 zł |
 | **2014** | 0,00% | 100,00 zł | 2,59% | 102,10 zł | 4,00% | 103,24 zł |
@@ -151,17 +133,11 @@ To avoid being just talkative, I conducted a calculation, assuming that:
 | **2022** | 14,40% | 77,02 zł | 4,43% | 87,95 zł | 9,30% | 100,25 zł |
 | **2023** | 11,40% | 69,14 zł | 5,58% | 82,51 zł | 19,00% | 103,84 zł |
 
-<figcaption>
-
-_\* values calculated using the formula: X = value in the previous year / (1 + inflation)  
-\*\* values calculated using the formula: Y = value in the previous year / (1 + inflation) \* (1 + deposit interest rate \* 81%)  
-\*\*\* values calculated using the formula: Z = value in the previous year / (1 + inflation) \* (1 + bond interest rate \* 81%)  
-Source of data on historical deposit interest rates: [inflacja.pl](https://www.inflacja.pl/lokaty-dane-zrodlowe/)  
-Source of data on historical EDO 0124 bond interest rates: [obligacjeskarbowe.pl](https://www.obligacjeskarbowe.pl/archiwum-produktow/?table_id=16489)_
-
-</figcaption>
-
-</figure>
+_\* values calculated using the formula: X = value in the previous year / (1 + inflation)_<br>
+_\*\* values calculated using the formula: Y = value in the previous year / (1 + inflation) \* (1 + deposit interest rate \* 81%)_<br>
+_\*\*\* values calculated using the formula: Z = value in the previous year / (1 + inflation) \* (1 + bond interest rate \* 81%)_<br>
+_Source of data on historical deposit interest rates: [inflacja.pl](https://www.inflacja.pl/lokaty-dane-zrodlowe/)_<br>
+_Source of data on historical EDO 0124 bond interest rates: [obligacjeskarbowe.pl](https://www.obligacjeskarbowe.pl/archiwum-produktow/?table_id=16489)_
 
 Of course, without charts, the calculation wouldn't be as professional! That's why I present the first chart, which compares the inflation rate with the interest rates of deposits and _EDO_ bonds from 2014 to 2023.
 

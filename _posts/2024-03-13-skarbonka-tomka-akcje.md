@@ -165,8 +165,6 @@ Spróbuję zobrazować to w tabeli, dla następujących założeń (wartości od
 
 - prowizja minimalna od zlecenia - 14 zł, obowiązuje gdy 0.29% z kwoty zlecenia jest mniejsze
 
-<figure>
-
 | **Kwota transakcji** | **Prowizja** | **Procent \*** |
 | --- | --- | --- |
 | 100 zł | 14 zł | 14% |
@@ -178,14 +176,8 @@ Spróbuję zobrazować to w tabeli, dla następujących założeń (wartości od
 | 5 000 zł | 14.5 zł | 0.29% |
 | 10 000 zł | 29 zł | 0.29% |
 
-<figcaption>
-
-\* wyliczone z wzoru: **prowizja / kwota transakcji**  
-\*\* wyliczone z wzoru: X \* 0.29% = 14 zł >>> **X = 14 / 0.29%**
-
-</figcaption>
-
-</figure>
+_\* wyliczone z wzoru: **prowizja / kwota transakcji**_<br>
+_\*\* wyliczone z wzoru: X \* 0.29% = 14 zł >>> **X = 14 / 0.29%**_
 
 Jak widać dopiero przy zakupie za 4 827.59 zł dochodzimy do momentu, w którym do obliczeń brana jest prowizja bazowa (0.29%), a nie minimalna prowizja (14 zł). W teorii, żeby zoptymalizować koszty powinniśmy dążyć do tego, żeby każde nasze zlecenie było większe od tej wyliczonej kwoty. Jednakże tak jak napisałem już wcześniej, na początku inwestowania taka kwota może stanowić sporą część portfela lub nawet być większa od całej jego wartości, a w założeniach mojego _Portfela 10-letniego_ część akcyjna ma nie być większa niż jedynie 30% i do tego jest modelowo podzielona pomiędzy dwa oddzielne _ETF'y_ (rynki rozwinięte i wschodzące). Ponadto założeniem tego portfela jest to, że będę miesięcznie wpłacał jedynie 1 000 zł, z czego modelowo 70% powinno iść w obligacje, zatem tylko 300 zł miesięcznie mogłoby iść w akcje. Przy takich założeniach i przyjmując, że zdecydowałbym się tylko na jeden _ETF_ (zamiast dwóch) powinienem zlecać zakup dopiero po uzbieraniu kwoty ok. 4 800 zł, czyli **co 16 miesięcy**!
 
@@ -266,9 +258,9 @@ Oczywiście to tylko moje propozycje, a kto i w co będzie inwestował to już n
 
 _Fundusze indeksowe_ i _ETF'y_ niby należą do tej samej grupy - instrumentów pasywnych, jednakże łączy je w zasadzie tylko to, że ich zasadą działania jest podążanie za _indeksami giełdowymi_, ale poza tym to dwie bardzo różne formy inwestowania. Powtórzę się, ale wszystko rozchodzi się o prowizje i opłaty charakterystyczne dla każdej z nich. Rozpiszmy to sobie w tabeli dla lepszego zobrazowania:
 
-| **Rodzaj prowizji / opłaty** | **Fundusze indeksowe   np. inPZU** | **ETF   np. DM BOSSA** |
+| **Rodzaj prowizji / opłaty** | **Fundusze indeksowe**<br>**np. inPZU** | **ETF**<br>**np. DM BOSSA** |
 | --- | --- | --- |
-| **_za zarządzanie_** | 0.5% rocznie od ca | brak |
+| **_za zarządzanie_** | 0.5% rocznie od całości kapitału | brak |
 | **_za przechowywanie instrumentów zagranicznych_** | brak | 0% dla portfela o wartości niższej niż 1 mln zł |
 | **_od transakcji (zakupu lub sprzedaży)_** | brak | 0.29%, ale nie mniej niż 14PLN / 4EUR / 4USD / 4GBP |
 | **_koszt przewalutowania od transakcji (zakupu lub sprzedaży)_** | n/d | kupujemy w PLN za aktywa zagraniczne, więc przewalutowanie jest konieczne i przyjmijmy, że jest to 0.1% |
