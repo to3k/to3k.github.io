@@ -16,9 +16,8 @@ tags:
   - "photopea"
   - "raspberrypi"
 image: "/images/iPadOnly.png"
+description: "W poprzednim i jednocześnie pierwszym wpisie wspomniałem pokrótce, że jednym z głównych założeń jakie przyjąłem przy uruchamianiu tego bloga jest to, że od..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/ideologia-ipadonly-eng/)
 
 Spis treści:
 * TOC

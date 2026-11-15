@@ -12,9 +12,8 @@ tags:
   - "operacja"
   - "zabieg"
 image: "/images/femtolasik.png"
+description: "Od 7. do prawie 31. roku życia wyglądałem tak 🤓. Od 17 marca 2023 już tak nie wyglądam, bo postanowiłem poddać się operacji laserowej korekcji mojej..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/laserowa-korekcja-wzroku-eng/)
 
 Spis treści:
 * TOC

@@ -30,9 +30,8 @@ tags:
   - "yaml"
   - "yunohost"
 image: "/images/nextcloud.png"
+description: "Dropbox, OneDrive, Google Drive, iCloud, MEGA, Backblaze are probably the most popular solutions for storing files in the so-called cloud. It must be..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/nextcloud/)
 
 Table of contents:
 * TOC

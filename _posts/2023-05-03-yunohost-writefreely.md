@@ -25,9 +25,8 @@ tags:
   - "writefreely"
   - "yunohost"
 image: "/images/writefreelycloudflareyunohost.png"
+description: "Zaczęło się od tego, że napisałem wyjątkowo dobrze odebrany wpis o tym jak pozyskać za darmo dość ciekawy serwer w chmurze Oracle. Potem napisałem poradnik..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/yunohost-writefreely-eng/)
 
 Spis treści:
 * TOC

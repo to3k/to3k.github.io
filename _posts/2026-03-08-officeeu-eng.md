@@ -24,9 +24,8 @@ tags:
   - "mailbox-org"
   - "proton-drive"
 image: "/images/officeeu.png"
+description: "Anyone who didn't grow up under a rock in Poland knows what Wykop is like. Reading the comments, let alone participating there, requires a truly strong..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/officeeu/)
 
 Table of contents:
 * TOC

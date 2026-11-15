@@ -25,9 +25,8 @@ tags:
   - "yunohost"
   - "zadaniacron"
 image: "/images/yunohostbackup.png"
+description: "W poprzednich wpisach opisałem jak zainstalować środowisko YunoHost oraz jak uruchomić na nim pierwszą aplikacji - instancję WriteFreely. Następnym..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/yunohost-backup-eng/)
 
 Spis treści:
 * TOC

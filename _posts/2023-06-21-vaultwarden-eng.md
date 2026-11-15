@@ -28,9 +28,8 @@ tags:
   - "yubikey"
   - "yunohost"
 image: "/images/vaultwarden.png"
+description: "Strong passwords are incredibly important! It is one of the foundations of internet security. The best solution is to have passwords consisting of at least..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/vaultwarden/)
 
 Table of contents:
 * TOC

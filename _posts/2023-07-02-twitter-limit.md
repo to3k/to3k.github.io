@@ -12,9 +12,8 @@ tags:
   - "twitter"
   - "twittodon"
 image: "/images/szorty.png"
+description: "Pamiętacie moje narzędzie o nazwie Twittodon? Pisałem o nim tutaj. Było to narzędzie do weryfikacji połączenia pomiędzy kontami na Mastodonie i Twitterze...."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/twitter-limit-eng/)
 
 Spis treści:
 * TOC

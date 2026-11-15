@@ -15,9 +15,8 @@ tags:
   - "macos"
   - "shortcuts"
 image: "/images/szorty.png"
+description: "Today, another post from the series of short posts. Its creation was caused by something very interesting that I came across! Someone smart has created a..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/chatgpt-shortcut/)
 
 Table of contents:
 * TOC

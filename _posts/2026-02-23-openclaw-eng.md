@@ -24,9 +24,8 @@ tags:
   - "ssh"
   - "telegram"
 image: "/images/openclaw.png"
+description: "Most of us are used to interfaces like ChatGPT or Gemini — these are brilliant \"brains in a jar\". They can write, analyze, and advise, but rarely can they..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/openclaw/)
 
 Table of contents:
 * TOC

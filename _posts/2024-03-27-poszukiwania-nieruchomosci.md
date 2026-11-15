@@ -32,9 +32,8 @@ tags:
   - "standardwykonczenia"
   - "szambo"
 image: "/images/poszukiwania_nieruchomosci2.png"
+description: "Wydaje się, że wiemy już wszystko o programie BK2 i kredycie hipotecznym. Do tego znamy swoje przybliżone możliwości finansowe. Najwyższy czas ruszyć w bój..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/poszukiwania-nieruchomosci-eng/)
 
 Spis treści:
 * TOC

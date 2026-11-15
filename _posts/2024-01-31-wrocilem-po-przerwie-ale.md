@@ -14,9 +14,8 @@ tags:
   - "marciniwuc"
   - "rss"
 image: "/images/wrocilem-po-przerwie-ale.png"
+description: "Nie było mnie tu od prawie dwóch miesięcy. Trzeba to powiedzieć - zaniedbałem tego bloga. Na swoją obronę mogę powiedzieć, że miałem powody ku temu, a..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/wrocilem-po-przerwie-ale-eng/)
 
 Spis treści:
 * TOC

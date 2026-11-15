@@ -29,9 +29,8 @@ tags:
   - "writefreely"
   - "youtube"
 image: "/images/outernet_social_media.png"
+description: "Have you ever wondered how to translate the word Internet? It seems to me that there is no definitive and correct origin of this name. For me, it doesn't..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/outernet-social-media/)
 
 Table of contents:
 * TOC

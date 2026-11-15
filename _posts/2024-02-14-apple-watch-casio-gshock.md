@@ -15,9 +15,8 @@ tags:
   - "zegarek"
   - "zegarekmechaniczny"
 image: "/images/drake_apple_watch_casio_gshock2.png"
+description: "Dnia 2 lutego 2024 roku oficjalnie zakończył się mój związek z zegarkiem Apple Watch SE (2 gen.). W momencie pisania tego wpisu sytuacja wygląda tak, że..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/apple-watch-casio-gshock-eng/)
 
 Spis treści:
 * TOC

@@ -17,6 +17,7 @@ tags:
   - "signal"
   - "username"
 image: "/images/szorty.png"
+description: "Nie będę ukrywał, że Signal jest moim ulubionym komunikatorem. Ufam mu i polecam każdemu. Za jeden ze swoich największych sukcesów uznaję to, że udało mi..."
 ---
 
 Spis treści:

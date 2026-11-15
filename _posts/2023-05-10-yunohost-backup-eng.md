@@ -21,9 +21,8 @@ tags:
   - "vps"
   - "yunohost"
 image: "/images/yunohostbackup.png"
+description: "In my previous posts, I described how to install the YunoHost environment and how to run the first application - WriteFreely instance on it. The next..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/yunohost-backup/)
 
 Table of contents:
 * TOC

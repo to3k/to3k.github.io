@@ -30,9 +30,8 @@ tags:
   - "yubikey"
   - "yunohost"
 image: "/images/vaultwarden.png"
+description: "Silne hasła to niesamowicie istotna sprawa! Jest to jeden z fundamentów bezpieczeństwa w Internecie. Najlepszym rozwiązaniem jest posiadanie haseł..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/vaultwarden-eng/)
 
 Spis treści:
 * TOC

@@ -13,9 +13,8 @@ tags:
   - "thelastofus"
   - "thewalkingdead"
 image: "/images/serialowo3.png"
+description: "The release date of this particular post is not coincidental. It was prompted by the conclusion of the first season of the series _Sil_o, available on Apple..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/serialowo-3/)
 
 Table of contents:
 * TOC

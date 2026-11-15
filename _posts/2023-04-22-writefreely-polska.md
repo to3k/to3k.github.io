@@ -18,9 +18,8 @@ tags:
   - "writefreely"
   - "yunohost"
 image: "/images/writefreelypl.png"
+description: "Wszystko zaczęło się od tego, że udało mi się pozyskać domenę writefreely.pl. Mając taką domenę grzechem byłoby z niej nie skorzystać! Zatem uruchomiłem..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/writefreely-polska-eng/)
 
 Spis treści:
 * TOC

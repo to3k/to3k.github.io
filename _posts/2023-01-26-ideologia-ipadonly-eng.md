@@ -16,9 +16,8 @@ tags:
   - "photopea"
   - "raspberrypi"
 image: "/images/iPadOnly.png"
+description: "[](https://blog.tomaszdunia.pl/powitanie/)In my previous and also first post, I briefly mentioned that one of the main assumptions I made when launching..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/ideologia-ipadonly/)
 
 Table of contents:
 * TOC

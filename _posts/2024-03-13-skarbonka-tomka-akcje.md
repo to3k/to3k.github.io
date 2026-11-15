@@ -46,6 +46,7 @@ tags:
   - "vanguard"
   - "wig20"
 image: "/images/akcje.png"
+description: "W poprzednim wpisie z serii Skarbonka Tomka pisałem o obligacjach, w szczególności tych skarbowych, które są filarem mojego inwestowania. W ramach tego..."
 ---
 
 Spis treści:

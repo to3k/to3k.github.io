@@ -24,9 +24,8 @@ tags:
   - "virtualmachine"
   - "vm"
 image: "/images/proxmox_vms.png"
+description: "Jest to kontynuacja poprzedniego wpisu, w którym przedstawiłem narzędzie o nazwie Proxmox, które jest środowiskiem do wirtualizacji. Omówiłem jego..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/proxmox-vm-eng/)
 
 Spis treści:
 * TOC

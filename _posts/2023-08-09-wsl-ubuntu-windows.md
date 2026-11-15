@@ -18,9 +18,8 @@ tags:
   - "windows"
   - "wsl"
 image: "/images/winbuntu.png"
+description: "Sporo już pisałem o stawianiu różnego rodzaju serwerów domowych. Była mowa o Raspberry Pi jak i nieco potężniejszych terminalach. Ale czy każdy potrzebuje..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/wsl-ubuntu-windows-eng/)
 
 Spis treści:
 * TOC

@@ -26,9 +26,8 @@ tags:
   - "xfce"
   - "xubuntudesktop"
 image: "/images/OracleDWS.png"
+description: "Would you believe it if I told you that you can have a fully functional computer in your web browser? Always with you, all you need is any device with..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/darmowy-komputer-w-przegladarce/)
 
 Table of contents:
 * TOC

@@ -16,9 +16,8 @@ tags:
   - "pasywneinwestowanie"
   - "skarbonkatomka"
 image: "/images/inflacjapost2.png"
+description: "Na pewno ciężko pracujesz na każdą zarobioną złotówkę. Z zarobionych pieniędzy kupujesz rzeczy niezbędne do życia, może nawet coś zostaje Ci na..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/jak-inflacja-zjada-oszczednosci-eng/)
 
 Spis treści:
 * TOC

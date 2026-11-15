@@ -11,6 +11,7 @@ tags:
   - "android"
   - "privacy"
 image: "/images/motorola-grapheneos.png"
+description: "Dawno już nie pisałem żadnego szorta, bo wpisy w krótkiej formie to zdecydowanie nie moja bajka. Poza tym ja wolę zgłębić temat, rozebrać na części pierwsze..."
 ---
 
 ```

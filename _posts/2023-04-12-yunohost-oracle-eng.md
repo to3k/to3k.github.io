@@ -35,9 +35,8 @@ tags:
   - "vps"
   - "yunohost"
 image: "/images/yunohost.png"
+description: "In my previous post, I described how to get free access to a pretty good VPS - Oracle Cloud Free Tier. Today, I'll present one of my proposals for what can..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/yunohost-oracle/)
 
 Table of contents:
 * TOC

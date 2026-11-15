@@ -22,9 +22,8 @@ tags:
   - "waze"
   - "yanosik"
 image: "/images/outernet_maps.png"
+description: "Not long ago in my weekly compilation TDBNews, I wrote about Meta (Facebook), Microsoft, and Amazon planning to release a competitive app for Google Maps..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/outernet-maps/)
 
 Table of contents:
 * TOC

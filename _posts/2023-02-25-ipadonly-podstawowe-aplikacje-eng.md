@@ -43,9 +43,8 @@ tags:
   - "word"
   - "zdjecia"
 image: "/images/appstore.png"
+description: "Since we have established that my main computer for some time now is the iPad Air 5 with the M1 chip and the Magic Keyboard, it is now time to discuss what..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/ipadonly-podstawowe-aplikacje/)
 
 Table of contents:
 * TOC

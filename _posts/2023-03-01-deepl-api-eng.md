@@ -14,9 +14,8 @@ tags:
   - "translate"
   - "translator"
 image: "/images/deeplapi.png"
+description: "DeepL is a machine translation service, which in simple terms can be described as a translator, operating based on neural networks. Interestingly, the CEO..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/deepl-api/)
 
 Table of contents:
 * TOC

@@ -12,9 +12,8 @@ tags:
   - "mastodon"
   - "spambot"
 image: "/images/szorty.png"
+description: "While looking for something completely different in Mastodon's documentation, I came across an interesting thread on GitHub concerning a suggestion to..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/limit-obserwowanych-na-mastodonie/)
 
 Table of contents:
 * TOC

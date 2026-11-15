@@ -31,9 +31,8 @@ tags:
   - "septictank"
   - "sewerage"
 image: "/images/poszukiwania_nieruchomosci2.png"
+description: "It seems like we already know everything about the BK2 program and mortgage. Moreover, we are aware of our approximate financial capabilities. It's high..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/poszukiwania-nieruchomosci/)
 
 Table of contents:
 * TOC

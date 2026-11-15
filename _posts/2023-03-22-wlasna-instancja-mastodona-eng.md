@@ -27,9 +27,8 @@ tags:
   - "vps"
   - "yunohost"
 image: "/images/ossrox.png"
+description: "The popularity of the social network Mastodon is constantly growing, and more and more people are fleeing from sinking Twitter to the decentralized..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/wlasna-instancja-mastodona)
 
 Table of contents:
 * TOC

@@ -18,9 +18,8 @@ tags:
   - "session"
   - "skrypt"
 image: "/images/loginscript.png"
+description: "Pomysł na ten wpis wpadł mi do głowy podczas pracy nad moim nowym, małym projektem, który w niedalekiej przyszłości powinien ujrzeć światło dzienne. Finałem..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/prosty-skrypt-logowania-eng/)
 
 Spis treści:
 * TOC

@@ -13,9 +13,8 @@ tags:
   - "rss"
   - "xml"
 image: "/images/automatyzacja_tdbnews.png"
+description: "For several weeks now, I have been publishing a series of Sunday posts called #TDBNews, in which I share interesting things I came across during the week...."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/automatyzacja-tdbnews/)
 
 Table of contents:
 * TOC

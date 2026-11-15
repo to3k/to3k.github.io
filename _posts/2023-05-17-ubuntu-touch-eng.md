@@ -31,9 +31,8 @@ tags:
   - "windows"
   - "xdadevelopers"
 image: "/images/ubuntutouch.png"
+description: "There's no possibility to hide the fact that we have a very limited choice in the market for mobile device systems (smartphones), as we can basically choose..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/ubuntu-touch/)
 
 Table of contents:
 * TOC

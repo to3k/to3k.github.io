@@ -1,12 +1,14 @@
 # --- GŁÓWNE USTAWIENIA ---
 title: Tomasz Dunia - Blog
 description: Blog o wszystkim - przemyślenia, poradniki, projekty otwarto-źródłowe, praca, self-hosting, seriale, filmy / Blog about everything - thoughts, tutorials, open-source projects, work, self-hosting, series, movies
+lang: pl
+locale: pl_PL
 url: "https://blog.tomaszdunia.pl"
 baseurl: "" 
 favicon: favicon.png
 
 # --- MOTYW ---
-remote_theme: riggraz/no-style-please
+remote_theme: riggraz/no-style-please@2f8dba2
 
 # --- USTAWIENIA LINKÓW ---
 permalink: /:title/
@@ -29,3 +31,20 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# --- DOMYŚLNE USTAWIENIA JĘZYKOWE ---
+defaults:
+  - scope:
+      path: "_posts/*-eng.md"
+    values:
+      lang: en
+      locale: en_US
+
+# --- WYKLUCZENIA Z BUILDU ---
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

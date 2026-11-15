@@ -22,6 +22,7 @@ tags:
   - "writefreely"
   - "yunohost"
 image: "/images/writefreelyFTdL.png"
+description: "O fakcie uruchomienia przeze mnie polskiej instancji WriteFreely pisałem tutaj. W oddzielnym wpisie opisałem, w formie poradnika, jak każdy może uruchomić..."
 ---
 
 Spis treści:

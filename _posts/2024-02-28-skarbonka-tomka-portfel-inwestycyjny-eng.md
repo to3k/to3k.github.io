@@ -40,9 +40,8 @@ tags:
   - "wiron"
   - "zus"
 image: "/images/portfelinwestycyjny.png"
+description: "Officially, I declare myself a Middle-aged Man... I've settled down, meaning I have a wife, offspring, bought a house, and I've got an axe hanging over my..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/skarbonka-tomka-portfel-inwestycyjny/)
 
 Table of contents:
 * TOC

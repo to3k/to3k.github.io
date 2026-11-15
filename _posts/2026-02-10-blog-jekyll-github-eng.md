@@ -16,9 +16,8 @@ tags:
   - "dns"
   - "javascript"
 image: "/images/jekyll.png"
+description: "This post is partially connected to my post regarding the migration of my blog from WordPress to the Jekyll engine and GitHub Pages infrastructure. I..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/blog-jekyll-github/)
 
 Table of contents:
 * TOC

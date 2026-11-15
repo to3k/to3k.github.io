@@ -22,9 +22,8 @@ tags:
   - "smarthome"
   - "tinker"
 image: "/images/homeassistantlogo.png"
+description: "W poprzednim wpisie pokazałem jak od zera zrobić smart oświetlenie w swoim domu w oparciu o produkty firmy Shelly. W moim przypadku był to pierwszy krok w..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/home-assistant-eng/)
 
 Spis treści:
 * TOC

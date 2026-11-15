@@ -43,9 +43,8 @@ tags:
   - "word"
   - "zdjecia"
 image: "/images/appstore.png"
+description: "Skoro już ustaliliśmy, że od jakiegoś czasu moim głównym komputerem jest iPad Air 5, z chipem M1 doposażony klawiaturą Magic Keyboard, to teraz pora..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/ipadonly-podstawowe-aplikacje-eng/)
 
 Spis treści:
 * TOC

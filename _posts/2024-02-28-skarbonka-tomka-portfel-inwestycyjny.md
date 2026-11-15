@@ -37,9 +37,8 @@ tags:
   - "wiron"
   - "zus"
 image: "/images/portfelinwestycyjny.png"
+description: "Oficjalnie stwierdzam, że stałem się Panem w średnim wieku... Ustatkowałem się, tj. mam żonę, doczekałem się potomstwa, kupiłem dom, nad karkiem wisi mi..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/skarbonka-tomka-portfel-inwestycyjny-eng/)
 
 Spis treści:
 * TOC

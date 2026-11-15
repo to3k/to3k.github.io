@@ -23,9 +23,8 @@ tags:
   - "translate"
   - "translator"
 image: "/images/openaiapi.png"
+description: "ChatGPT has been on everyone's lips lately. It seems like it's even coming out of our refrigerators. On the internet, TV, and radio, we constantly hear..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/gpt-api/)
 
 Table of contents:
 * TOC

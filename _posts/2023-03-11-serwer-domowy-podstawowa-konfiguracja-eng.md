@@ -25,9 +25,8 @@ tags:
   - "update"
   - "upgrade"
 image: "/images/linuxtodolist.png"
+description: "We continue the topic from the previous post, in which I described what is needed to create your own home server for reasonable money, how to install the..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/serwer-domowy-podstawowa-konfiguracja/)
 
 Table of contents:
 * TOC

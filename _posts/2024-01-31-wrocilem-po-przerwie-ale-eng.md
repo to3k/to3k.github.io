@@ -14,9 +14,8 @@ tags:
   - "mortgage"
   - "rss"
 image: "/images/wrocilem-po-przerwie-ale.png"
+description: "I haven't been here for almost two months. I have to admit - I neglected this blog. In my defense, I can say that I had reasons for it, and the main one was..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/wrocilem-po-przerwie-ale/)
 
 Table of contents:
 * TOC

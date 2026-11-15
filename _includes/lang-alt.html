@@ -1,0 +1,12 @@
+{%- assign slug = page.url | split: '/' | last -%}
+{%- assign slug_len = slug | size -%}
+{%- assign tail = slug | slice: -4, 4 -%}
+{%- if tail == '-eng' -%}
+  {%- assign is_eng = true -%}
+  {%- assign base_len = slug_len | minus: 4 -%}
+  {%- assign alt_url = slug | slice: 0, base_len | prepend: '/' | append: '/' -%}
+{%- else -%}
+  {%- assign is_eng = false -%}
+  {%- assign alt_url = slug | prepend: '/' | append: '-eng/' -%}
+{%- endif -%}
+{%- assign alt_post = site.posts | where: "url", alt_url | first -%}

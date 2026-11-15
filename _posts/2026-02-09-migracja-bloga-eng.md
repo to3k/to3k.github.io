@@ -16,9 +16,8 @@ tags:
   - "self-hosting"
   - "open-source"
 image: "/images/wptojekyll.png"
+description: "Finally... Finally, I found the time, gathered a bit of will, and overcame the fear of breaking something. A bulldozer drove onto this blog, razed it, and..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/migracja-bloga/)
 
 Table of contents:
 * TOC

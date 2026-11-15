@@ -13,9 +13,8 @@ tags:
   - "tvtime"
   - "vod"
 image: "/images/serialowo1.png"
+description: "As this is a very personal blog, I decided that it cannot go without a TV corner. I have to admit that I am a huge fan of TV series. It is one of my ways of..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/serialowo-1/)
 
 Table of contents:
 * TOC

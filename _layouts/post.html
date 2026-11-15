@@ -24,6 +24,16 @@ layout: default
   {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
+    {%- include lang-alt.html -%}
+    {%- if alt_post -%}
+    <p class="lang-switch">
+      {%- if is_eng -%}
+        <a href="{{ alt_post.url | relative_url }}">🇬🇧-&gt;🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post</a>
+      {%- else -%}
+        <a href="{{ alt_post.url | relative_url }}">🇵🇱-&gt;🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu</a>
+      {%- endif -%}
+    </p>
+    {%- endif -%}
     {{ content }}
   </div>
 

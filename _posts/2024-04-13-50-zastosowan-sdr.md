@@ -10,6 +10,7 @@ tags:
   - "sdr"
   - "softwaredefinedradio"
 image: "/images/szorty.png"
+description: "Kolejny wpis, w którym polecam bardzo ciekawy i szalenie geekowski artykuł i w sumie cały blog:"
 ---
 
 Kolejny wpis, w którym polecam bardzo ciekawy i szalenie geekowski artykuł i w sumie cały blog:

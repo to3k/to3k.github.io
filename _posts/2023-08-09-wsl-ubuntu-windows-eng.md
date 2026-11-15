@@ -18,9 +18,8 @@ tags:
   - "windows"
   - "wsl"
 image: "/images/winbuntu.png"
+description: "I have written quite a bit about setting up various types of home servers. I talked about Raspberry Pi as well as slightly more powerful terminals. But does..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/wsl-ubuntu-windows/)
 
 Table of contents:
 * TOC

@@ -18,9 +18,8 @@ tags:
   - "twitter"
   - "twittodon"
 image: "/images/twittodon.png"
+description: "Twittodon is my response to the mass migration of people from Twitter, which has been taken over and slowly destroyed by Elon Musk. These people are now..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/twittodon/)
 
 Table of contents:
 * TOC

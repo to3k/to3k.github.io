@@ -14,9 +14,8 @@ tags:
   - "gui"
   - "proot"
 image: "/images/termux-proot.png"
+description: "Modern smartphones and tablets are powerful computing machines that waste most of their time scrolling through mindless videos. Meanwhile, we carry power..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/termux-proot/)
 
 Table of contents:
 * TOC

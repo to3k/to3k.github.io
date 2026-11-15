@@ -21,9 +21,8 @@ tags:
   - "rodo"
   - "wordpress"
 image: "/images/rodogdpr.png"
+description: "I must admit that the popularity of this blog has exceeded my wildest expectations. At first, I thought I wouldn't gain many readers and I would be writing..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/rodo-gdpr/)
 
 Table of contents:
 * TOC

@@ -13,9 +13,8 @@ tags:
   - "uptimekuma"
   - "yunohost"
 image: "/images/uptimekuma.png"
+description: "In the title, I wanted to keep it brief, so I used the word services, which I would like to expand upon here as websites, applications, and servers..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/uptime-kuma/)
 
 Table of contents:
 * TOC

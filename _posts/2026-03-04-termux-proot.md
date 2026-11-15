@@ -14,9 +14,8 @@ tags:
   - "gui"
   - "proot"
 image: "/images/termux-proot.png"
+description: "Współczesne smartfony i tablety to potężne maszyny obliczeniowe, które większość czasu marnują na skrolowanie durnych filmików. Tymczasem w kieszeni nosimy..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/termux-proot-eng/)
 
 Spis treści:
 * TOC

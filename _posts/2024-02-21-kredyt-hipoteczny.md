@@ -37,9 +37,8 @@ tags:
   - "wibor6m"
   - "wiron"
 image: "/images/kredyt.png"
+description: "Z szukaniem domu (lub mieszkania) i zaciąganiem kredytu hipotecznego na jego zakup jest trochę jak z paradoksem kury i jajka. Bez złożenia do banku wniosku..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/kredyt-hipoteczny-eng/)
 
 Spis treści:
 * TOC

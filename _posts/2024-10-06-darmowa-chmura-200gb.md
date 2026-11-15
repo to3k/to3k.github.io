@@ -31,9 +31,8 @@ tags:
   - "ufw"
   - "vps"
 image: "/images/Darmowa-chmura-200GB.png"
+description: "Mój wpis o darmowym serwerze VPS od Oracle jest prawdziwym hitem tego bloga. Patrząc na statystyki ma więcej odsłon niż wszystkie inne wpisy razem wzięte...."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/darmowa-chmura-200gb-eng/)
 
 Spis treści:
 * TOC

@@ -16,9 +16,8 @@ tags:
   - "shortcuts"
   - "skroty"
 image: "/images/szorty.png"
+description: "Dzisiaj kolejny wpis z cyklu krótkich a.k.a. szortów. Jego powstanie zostało spowodowane tym, że natrafiłem na coś bardzo ciekawego! Otóż, jakaś mądra głowa..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/chatgpt-shortcut-eng/)
 
 Spis treści:
 * TOC

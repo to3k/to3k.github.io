@@ -20,9 +20,8 @@ tags:
   - "portainer"
   - "vps"
 image: "/images/portainer.png"
+description: "Wszystkim Czytelnikom tego bloga Docker powinien być znany, bo dość obszernie opisałem go w tym wpisie. Dzisiaj jednak pójdę o krok dalej i przedstawię..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/portainer-eng/)
 
 Spis treści:
 * TOC

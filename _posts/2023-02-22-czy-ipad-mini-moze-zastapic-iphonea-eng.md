@@ -22,9 +22,8 @@ tags:
   - "ram"
   - "usbc"
 image: "/images/ipadasiphone.png"
+description: "Sometimes I wake up in the morning and my first thought is \"I need to change something\". I really like changes in my gear, checking out new solutions..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](http://blog.tomaszdunia.pl/czy-ipad-mini-moze-zastapic-iphonea)
 
 Table of contents:
 * TOC

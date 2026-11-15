@@ -11,9 +11,8 @@ tags:
   - "shortsightedness"
   - "surgery"
 image: "/images/femtolasik.png"
+description: "From the age of 7 until almost 31, I looked like this 🤓. However, since March 17, 2023, I no longer look like that because I decided to undergo laser..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/laserowa-korekcja-wzroku/)
 
 Table of contents:
 * TOC

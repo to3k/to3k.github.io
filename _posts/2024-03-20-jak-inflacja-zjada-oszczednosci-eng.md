@@ -16,9 +16,8 @@ tags:
   - "skarbonkatomka"
   - "treasurybonds"
 image: "/images/inflacjapost2.png"
+description: "Surely you work hard for every earned penny. You buy necessary things for life from the earned money, maybe even have something left for pleasures, and..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/jak-inflacja-zjada-oszczednosci/)
 
 Table of contents:
 * TOC

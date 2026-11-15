@@ -23,9 +23,8 @@ tags:
   - "ydyp"
   - "zigbee"
 image: "/images/smartdom_shelly.png"
+description: "The frequency of posts on this blog is simply shameful. However, I have some really solid arguments to defend myself. The first one is my 2 (and a half!)..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/shelly-smart-oswietlenie/)
 
 Table of contents:
 * TOC

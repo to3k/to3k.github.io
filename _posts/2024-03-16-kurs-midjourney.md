@@ -9,6 +9,7 @@ tags:
   - "midjourney"
   - "prompt"
 image: "/images/szorty.png"
+description: "Jakby ktoś nie wiedział to Midjourney to narzędzie do generowania grafik na podstawie prompt’ów, czyli zwykłych tekstowych opisów definiujących to co chcemy..."
 ---
 
 Jakby ktoś nie wiedział to _[Midjourney](https://www.midjourney.com/)_ to narzędzie do generowania grafik na podstawie _prompt’ów_, czyli zwykłych tekstowych opisów definiujących to co chcemy zobaczyć na wygenerowanej komputerowo grafice. _Midjourney_ jest narzędziem darmowym (przynajmniej w tym momencie, kiedy jest jeszcze w otwartej becie), choć istnieją płatne plany, ale różnica zamyka się w zasadzie w tym, że będąc użytkownikiem darmowym priorytet naszych zadań jest niski, co w praktyce oznacza to, że będziemy musieli dłużej poczekać na wygenerowanie grafiki dla nas. Sposób użycia jest też dość ciekawy, bo odbywa się to przez _[Discord’a](https://discord.com/)_.

@@ -41,9 +41,8 @@ tags:
   - "wibor3m"
   - "wibor6m"
 image: "/images/kredyt.png"
+description: "Searching for a home (or apartment) and taking out a mortgage to buy it is a bit like the chicken and egg paradox. Without submitting a loan application to..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/kredyt-hipoteczny/)
 
 Table of contents:
 * TOC

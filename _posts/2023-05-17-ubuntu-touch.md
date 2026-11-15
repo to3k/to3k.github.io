@@ -32,9 +32,8 @@ tags:
   - "windows"
   - "xdadevelopers"
 image: "/images/ubuntutouch.png"
+description: "Nie ma co ukrywać, że na rynku systemów dla urządzeń mobilnych (smartfonów) mamy bardzo ograniczony wybór, bo możemy w zasadzie wybrać spośród dwóch..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/ubuntu-touch-eng/)
 
 Spis treści:
 * TOC

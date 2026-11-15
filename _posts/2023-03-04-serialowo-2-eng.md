@@ -13,9 +13,8 @@ tags:
   - "timeless"
   - "travelers"
 image: "/images/serialowo2_update.png"
+description: "What do the TV shows listed in the title have in common? Their main theme is time travel, which is one of the genres of TV shows and movies that I enjoy..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/serialowo-2/)
 
 Table of contents:
 * TOC

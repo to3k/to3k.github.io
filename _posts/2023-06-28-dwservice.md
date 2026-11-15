@@ -21,9 +21,8 @@ tags:
   - "xwayland"
   - "zdalnypulpit"
 image: "/images/dwservice.png"
+description: "Zakładam, że fraza zdalny pulpit nie jest nikomu obca. Jest to bardzo wygodny sposób na dostęp (sterowanie) do komputera działającego w innym miejscu świata..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/dwservice-eng/)
 
 Spis treści:
 * TOC

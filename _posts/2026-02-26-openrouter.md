@@ -26,9 +26,8 @@ tags:
   - "telegram"
   - "api"
 image: "/images/openrouter.png"
+description: "Niniejszy wpis jest kontynuacją - OpenClaw - Personalny Asystent AI, w którym opisałem jak rozpocząć swoją przygodę z OpenClaw. Przypomnijmy sobie, że do..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/openrouter-eng/)
 
 Spis treści:
 * TOC

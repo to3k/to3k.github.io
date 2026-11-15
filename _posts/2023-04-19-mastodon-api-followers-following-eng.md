@@ -16,9 +16,8 @@ tags:
   - "pagination"
   - "php"
 image: "/images/mastodonapifollowersfollowing.png"
+description: "In this post, we will dive into some technical stuff. Obtaining a list of followers and/or following accounts for a given Mastodon account is not as obvious..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/mastodon-api-followers-following/)
 
 Table of contents:
 * TOC

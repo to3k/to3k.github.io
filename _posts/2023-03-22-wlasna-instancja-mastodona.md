@@ -29,9 +29,8 @@ tags:
   - "vps"
   - "yunohost"
 image: "/images/ossrox.png"
+description: "Popularność sieci społecznościowej Mastodon stale rośnie, a kolejni ludzie uciekają z tonącego Twittera właśnie do zdecentralizowanego Fediverse'u. Jeżeli..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/wlasna-instancja-mastodona-eng)
 
 Spis treści:
 * TOC

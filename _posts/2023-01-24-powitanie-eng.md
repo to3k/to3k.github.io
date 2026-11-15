@@ -17,9 +17,8 @@ tags:
   - "smarthome"
   - "work"
 image: "/images/291C62AC-8AB6-4E46-A131-817EBBD1D47D-e1674589513258.jpeg"
+description: "First, let me quote a song by the band Elektryczne Gitary, originally it is in Polish, but I will try to translate it - \"And what am I doing here, uh-uh..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/powitanie/)
 
 Table of contents:
 * TOC

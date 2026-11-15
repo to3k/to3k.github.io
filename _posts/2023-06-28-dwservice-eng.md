@@ -19,9 +19,8 @@ tags:
   - "vnc"
   - "xwayland"
 image: "/images/dwservice.png"
+description: "I assume that the phrase remote desktop is familiar to anyone. It is a very convenient way to access (control) a computer operating in another part of the..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/dwservice/)
 
 Table of contents:
 * TOC

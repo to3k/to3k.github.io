@@ -13,9 +13,8 @@ tags:
   - "shortcuts"
   - "superactionbutton"
 image: "/images/Image-5.jpeg"
+description: "Od iPhone’ów serii 15 słynny przełącznik trybu cichego został zastąpiony przez przycisk, który nazwano Action Button. Na początku strasznie wkurzyłem się..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/super-action-button-iphone-shortcut-eng/)
 
 Spis treści:
 * TOC

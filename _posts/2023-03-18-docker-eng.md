@@ -24,9 +24,8 @@ tags:
   - "vm"
   - "yaml"
 image: "/images/docker.png"
+description: "I've previously written that I'm a huge enthusiast of self-hosted solutions, which means running on your own hardware or on a VPS that you manage. In..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/docker/)
 
 Table of contents:
 * TOC

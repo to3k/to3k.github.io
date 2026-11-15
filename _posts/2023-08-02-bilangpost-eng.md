@@ -19,9 +19,8 @@ tags:
   - "translate"
   - "translator"
 image: "/images/bilangpost.png"
+description: "BiLangPost is my next small and not very complicated project (you know how much I love such things 😉). It is a tool that facilitates writing bilingual..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/bilangpost/)
 
 Table of contents:
 * TOC

@@ -22,9 +22,8 @@ tags:
   - "smarthome"
   - "tinker"
 image: "/images/homeassistantlogo.png"
+description: "In the previous post, I showed how to create smart lighting in your home from scratch using products from Shelly. In my case, this was the first step in..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/home-assistant/)
 
 Table of contents:
 * TOC

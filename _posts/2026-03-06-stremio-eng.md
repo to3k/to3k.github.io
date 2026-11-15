@@ -23,9 +23,8 @@ tags:
   - "series"
   - "movies"
 image: "/images/stremio.png"
+description: "For me, Stremio is one of the biggest discoveries of late 2025. Although I initially approached the subject with skepticism, this platform has completely..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/stremio/)
 
 Table of contents:
 * TOC

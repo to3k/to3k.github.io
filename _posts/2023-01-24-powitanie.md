@@ -17,9 +17,8 @@ tags:
   - "selfhosted"
   - "smarthome"
 image: "/images/291C62AC-8AB6-4E46-A131-817EBBD1D47D-e1674589513258.jpeg"
+description: "Na wstępie pozwolę sobie zacytować piosenkę zespołu Elektryczne Gitary - \"I co ja robię tu, u-u, co Ty tutaj robisz\". Na to co Ty, drogi Czytelniku, tutaj..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/powitanie-eng/)
 
 Spis treści:
 * TOC

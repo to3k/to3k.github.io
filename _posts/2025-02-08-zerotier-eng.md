@@ -21,9 +21,8 @@ tags:
   - "wireguard"
   - "zerotier"
 image: "/images/zerotier.png"
+description: "In previous posts from the smart home series, I described how to set up smart lighting in your home using Shelly products and how to set up your own server..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/zerotier/)
 
 Table of contents:
 * TOC

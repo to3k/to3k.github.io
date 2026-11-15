@@ -20,9 +20,8 @@ tags:
   - "virtualmachine"
   - "vm"
 image: "/images/proxmox1.png"
+description: "I have already discussed how to easily and relatively inexpensively set up a home server based on platforms such as Raspberry Pi. However, there are also..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/terminal-proxmox/)
 
 Table of contents:
 * TOC

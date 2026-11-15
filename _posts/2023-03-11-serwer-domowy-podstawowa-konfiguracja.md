@@ -24,9 +24,8 @@ tags:
   - "update"
   - "upgrade"
 image: "/images/linuxtodolist.png"
+description: "Kontynuujemy temat z poprzedniego wpisu, w którym opisałem co jest potrzebne do stworzenia swojego domowego serwera za rozsądne pieniądze, jak zainstalować..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/serwer-domowy-podstawowa-konfiguracja-eng/)
 
 Spis treści:
 * TOC

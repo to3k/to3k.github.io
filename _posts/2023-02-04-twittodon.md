@@ -18,9 +18,8 @@ tags:
   - "twitter"
   - "twittodon"
 image: "/images/twittodon.png"
+description: "Twittodon to moja odpowiedź na masową migrację ludzi z Twittera, przejętego i powoli niszczonego przez Elona Muska, którzy uciekają właśnie na Mastodona...."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/twittodon-eng/)
 
 Spis treści:
 * TOC

@@ -22,9 +22,8 @@ tags:
   - "virtualmachine"
   - "vm"
 image: "/images/proxmox_vms.png"
+description: "This is a continuation of the previous post in which I presented a tool called Proxmox, which is a virtualization environment. I discussed its installation..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/proxmox-vm/)
 
 Table of contents:
 * TOC

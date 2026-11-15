@@ -24,9 +24,8 @@ tags:
   - "waze"
   - "yanosik"
 image: "/images/outernet_maps.png"
+description: "Nie tak dawno w moim cotygodniowym zestawieniu TDBNews pisałem o tym, że Meta (Facebook), Microsoft i Amazon planują wypuszczenie aplikacji konkurencyjnej..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/outernet-maps-eng/)
 
 Spis treści:
 * TOC

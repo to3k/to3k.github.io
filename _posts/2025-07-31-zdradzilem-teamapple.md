@@ -15,9 +15,8 @@ tags:
   - "oneui"
   - "samsung"
 image: "/images/ZFold6Apple.png"
+description: "Różne modele iPhone były ze mną naprawdę długo. Przeszedłem przez SE 1. i 2. generacji, 11, 12 Mini, 13 Pro Max i wychodzi na to, że moim ostatnim iPhone'm..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/zdradzilem-teamapple-eng/)
 
 Spis treści:
 * TOC

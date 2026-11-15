@@ -16,9 +16,8 @@ tags:
   - "self-hosting"
   - "open-source"
 image: "/images/wptojekyll.png"
+description: "W KOŃCU! W końcu... znalazłem czas, uzbierałem odrobinę chęci i przezwyciężyłem obawy przed zepsuciem czegoś. Na niniejszy blog wjechał buldożer, zaorał go..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/migracja-bloga-eng/)
 
 Spis treści:
 * TOC

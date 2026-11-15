@@ -22,9 +22,8 @@ tags:
   - "ydyp"
   - "zigbee"
 image: "/images/smartdom_shelly.png"
+description: "Częstotliwość publikacji wpisów na tym blogu woła o pomstę do nieba. Jednakże mam przygotowanych kilka naprawdę poważnych argumentów na swoją obronę...."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/shelly-smart-oswietlenie-eng/)
 
 Spis treści:
 * TOC

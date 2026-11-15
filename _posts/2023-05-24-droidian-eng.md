@@ -39,9 +39,8 @@ tags:
   - "usbdebugging"
   - "xdadevelopers"
 image: "/images/droidian.png"
+description: "In the previous post, I described how to install the Ubuntu Touch system on the Google Pixel 3a XL smartphone, replacing the factory Android. Based on the..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/droidian/)
 
 Table of contents:
 * TOC

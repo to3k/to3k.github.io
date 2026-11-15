@@ -14,9 +14,8 @@ tags:
   - "obserwujacy"
   - "spambot"
 image: "/images/szorty.png"
+description: "Szukając w dokumentacji Mastodona czegoś zupełnie innego natrafiłem na pewien ciekawy wątek na GitHub dotyczący sugestii wprowadzenia limitu kont jakie..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/limit-obserwowanych-na-mastodonie-eng/)
 
 Spis treści:
 * TOC

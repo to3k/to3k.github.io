@@ -18,9 +18,8 @@ tags:
   - "ubuntu"
   - "vps"
 image: "/images/ssh.png"
+description: "In this post, I will describe how to create a home server that will be a perfect helper (support or complement) for an iPad. This is not entirely in line..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/serwer-domowy/)
 
 Table of contents:
 * TOC

@@ -24,9 +24,8 @@ tags:
   - "vault"
   - "windows"
 image: "/images/cryptomator.png"
+description: "W poprzednim wpisie pisałem o Nextcloud, czyli jak uruchomić swój własny dysk sieciowy, który niektórzy potocznie nazywają chmurą na pliki. Zastanówmy się..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/cryptomator-eng/)
 
 Spis treści:
 * TOC

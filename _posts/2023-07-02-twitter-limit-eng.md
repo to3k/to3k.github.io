@@ -12,9 +12,8 @@ tags:
   - "twitter"
   - "twittodon"
 image: "/images/szorty.png"
+description: "Do you remember my tool called Twittodon? I wrote about it here. It was a tool for verifying the connection between Mastodon and Twitter accounts. I used..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/twitter-limit/)
 
 Table of contents:
 * TOC

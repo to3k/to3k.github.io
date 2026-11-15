@@ -18,9 +18,8 @@ tags:
   - "php"
   - "stronicowanie"
 image: "/images/mastodonapifollowersfollowing.png"
+description: "W tym wpisie będzie nieco bardziej technicznie. Uzyskanie listy obserwowanych i/lub obserwujących dla danego konta na Mastodonie nie jest takie oczywiste...."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/mastodon-api-followers-following-eng/)
 
 Spis treści:
 * TOC

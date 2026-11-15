@@ -29,9 +29,8 @@ tags:
   - "vm"
   - "vps"
 image: "/images/oraclefreetier.png"
+description: "Surprisingly, it's not a scam, and despite the title sounding like clickbait, in fact it's not! We're talking about Oracle Cloud Free Tier. Don't ask me how..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/oracle-free-tier/)
 
 Table of contents:
 * TOC

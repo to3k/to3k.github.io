@@ -22,9 +22,8 @@ tags:
   - "vault"
   - "windows"
 image: "/images/cryptomator.png"
+description: "In my previous post, I wrote about Nextcloud, which is a way to run your own network drive, commonly referred to as a cloud for files. But what if we run..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/cryptomator/)
 
 Table of contents:
 * TOC

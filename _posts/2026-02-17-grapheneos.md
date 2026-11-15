@@ -16,9 +16,8 @@ tags:
   - "foss"
   - "open-source"
 image: "/images/grapheneos.png"
+description: "Jeszcze rok temu siedziałem naprawdę głęboko w ekosystemie Apple. Wydawało się, że nie ma już dla mnie odwrotu od sadu. Telefon, laptop, zegarek, tablet..."
 ---
-
-[🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/grapheneos-eng/)
 
 Spis treści:
 * TOC

@@ -13,9 +13,8 @@ tags:
   - "shortcuts"
   - "superactionbutton"
 image: "/images/Image-5.jpeg"
+description: "Starting from the iPhone 15 series, the famous silent mode switch has been replaced by a button called the Action Button. Initially, I was really frustrated..."
 ---
-
-[🇬🇧->🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/super-action-button-iphone-shortcut/)
 
 Table of contents:
 * TOC

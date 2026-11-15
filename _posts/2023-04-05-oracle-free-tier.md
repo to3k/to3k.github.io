@@ -30,9 +30,8 @@ tags:
   - "vm"
   - "vps"
 image: "/images/oraclefreetier.png"
+description: "To o dziwo nie żaden przekręt, a tytuł mimo że brzmi jak clickbait, lub reklama sklepu z elektroniką na M, wcale nimi nie jest! Mowa tutaj o Oracle Cloud..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/oracle-free-tier-eng/)
 
 Spis treści:
 * TOC

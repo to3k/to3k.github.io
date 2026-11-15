@@ -39,6 +39,7 @@ tags:
   - "tos"
   - "wikipedia"
 image: "/images/obligacjeskarbowe.png"
+description: "Obligacje to według mnie dobry filar dla każdego portfela inwestycyjnego. Wiele osób jednak się ze mną nie zgodzi, bo obligacje to nie zupa pomidorowa, nie..."
 ---
 
 Spis treści:

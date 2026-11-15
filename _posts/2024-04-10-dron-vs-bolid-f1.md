@@ -20,6 +20,7 @@ tags:
   - "redbullracing"
   - "silverstone"
 image: "/images/szorty.png"
+description: "Red Bull słynie z ciekawych form promowania swojej marki. Już od dawna nie jest tylko producent napoi energetycznych. Wspieranie sportów motorowych oraz..."
 ---
 
 [Red Bull](https://www.redbull.com/int-en/) słynie z ciekawych form promowania swojej marki. Już od dawna nie jest tylko producent napoi energetycznych. Wspieranie sportów motorowych oraz ekstremalnych i ogólnie wszystkie co fajne, to w głównej mierze to co ostatnio stałą się dewizą RB. Tym razem w akcji promocyjnej postanowili zestawić ze sobą dwa światy - bolid F1 i drona FPV. Efekt tego jest ciekawy na tyle, że postanowiłem o tym tutaj napisać.

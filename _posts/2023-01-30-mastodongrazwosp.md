@@ -8,6 +8,7 @@ tags:
   - "mastodongrazwosp"
   - "wosp"
 image: "/images/wosp2023.png"
+description: "W ubiegły weekend odbył się finał Wielkiej Orkiestry Świątecznej Pomocy (WOŚP) 2023. W tym roku tematem przewodnim jest walka z sepsą. Mam 30 lat i wspieram..."
 ---
 
 Spis treści:

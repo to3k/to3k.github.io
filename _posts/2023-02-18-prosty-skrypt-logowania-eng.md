@@ -17,9 +17,8 @@ tags:
   - "script"
   - "session"
 image: "/images/loginscript.png"
+description: "The idea for this post came to me while working on my new small project, which should see the light of day in the near future. The culmination of the..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/prosty-skrypt-logowania/)
 
 Table of contents:
 * TOC

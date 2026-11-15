@@ -26,9 +26,8 @@ tags:
   - "xml"
   - "yunohost"
 image: "/images/outernet_rss.png"
+description: "W poprzednim wpisie przedstawiłem alternatywy dla mainstreamowych mediów społecznościowych, które pozwalają wyskoczyć z bańki, którą krótko scharakteryzować..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/outernet-rss-eng/)
 
 Spis treści:
 * TOC

@@ -24,9 +24,8 @@ tags:
   - "xml"
   - "yunohost"
 image: "/images/outernet_rss.png"
+description: "In my previous post, I presented alternatives to mainstream social media that allow you to break free from the bubble, which can be briefly characterized as..."
 ---
-
-[🇵🇱 Przejdź do polskiej wersji tego wpisu / Go to polish version of this post](https://blog.tomaszdunia.pl/outernet-rss/)
 
 Table of contents:
 * TOC

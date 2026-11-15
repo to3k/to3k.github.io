@@ -21,9 +21,8 @@ tags:
   - "virtualmachine"
   - "vm"
 image: "/images/proxmox1.png"
+description: "Omówiłem już jak dość prosto i stosunkowo niskim kosztem ogarnąć sobie serwer domowy bazując na platformach Raspberry Pi i podobnych. Istnieją jednak..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/terminal-proxmox-eng/)
 
 Spis treści:
 * TOC

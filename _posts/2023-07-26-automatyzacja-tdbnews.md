@@ -13,9 +13,8 @@ tags:
   - "rss"
   - "xml"
 image: "/images/automatyzacja_tdbnews.png"
+description: "Już od kilku tygodni publikuję serię niedzielnych wpisów #TDBNews, w której wypisuję ciekawe rzeczy, na które natrafiłem w danym tygodniu. Ręczne zbieranie..."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/automatyzacja-tdbnews-eng/)
 
 Spis treści:
 * TOC

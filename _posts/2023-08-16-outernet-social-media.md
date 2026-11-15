@@ -31,9 +31,8 @@ tags:
   - "writefreely"
   - "youtube"
 image: "/images/outernet_social_media.png"
+description: "Czy zastanawiałeś/aś się kiedyś jak można przetłumaczyć słowo Internet? Wydaje mi się, że nie ma tutaj jednoznacznej i jedynej słusznej genezy tej nazwy...."
 ---
-
-[🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/outernet-social-media-eng/)
 
 Spis treści:
 * TOC
