@@ -1,0 +1,162 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    {%- if page.title -%}
+      {{ page.title }}
+    {%- else -%}
+      {{ site.title }}
+    {%- endif -%}
+  </title>
+
+  {%- seo title=false -%}
+  {%- include lang-alt.html -%}
+  {%- if alt_post -%}
+    {%- if is_eng -%}
+  <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}" />
+  <link rel="alternate" hreflang="pl" href="{{ alt_post.url | absolute_url }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ alt_post.url | absolute_url }}" />
+    {%- else -%}
+  <link rel="alternate" hreflang="pl" href="{{ page.url | absolute_url }}" />
+  <link rel="alternate" hreflang="en" href="{{ alt_post.url | absolute_url }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}" />
+    {%- endif -%}
+  {%- endif -%}
+  {%- feed_meta -%}
+
+  <link rel="shortcut icon" type="image/x-icon" href="/{{ site.favicon }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+
+  <style>
+    /* --- VS Code Dark+ Theme --- */
+    pre, code {
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      font-family: Consolas, "Courier New", monospace;
+      border-radius: 6px;
+    }
+
+    .highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .cs {
+      color: #6a9955;
+      font-style: italic;
+    }
+    .highlight .k, .highlight .kd, .highlight .kv { color: #569cd6; }
+    .highlight .kp, .highlight .kr { color: #c586c0; }
+    .highlight .kt, .highlight .kc { color: #569cd6; }
+    .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .na { color: #9cdcfe; }
+    .highlight .nf, .highlight .fm { color: #dcdcaa; }
+    .highlight .nc, .highlight .nn { color: #4ec9b0; }
+    .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss {
+      color: #ce9178;
+    }
+    .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo {
+      color: #b5cea8;
+    }
+    .highlight .nt, .highlight .o, .highlight .ow { color: #569cd6; }
+    .highlight .p { color: #d4d4d4; }
+    .highlight .err { color: #f44747; background-color: transparent; }
+
+    code { padding: 2px 6px; }
+    pre code { padding: 0; }
+
+    /* --- Linki --- */
+    a, a:visited {
+      color: #000000 !important;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #333333 !important;
+      text-decoration: none;
+    }
+    header a, nav a, footer a {
+      text-decoration: none !important;
+    }
+    header a:hover, nav a:hover, footer a:hover {
+      text-decoration: underline !important;
+    }
+
+    /* --- Rozwijana lista sprzętu (/setup/) --- */
+    details.sprzet {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      padding: 0;
+    }
+    details.sprzet summary {
+      font-weight: bold;
+      cursor: pointer;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.2s ease;
+    }
+    details.sprzet summary:hover {
+      background-color: #f9f9f9;
+    }
+    details.sprzet[open] summary {
+      border-bottom: 1px solid #ccc;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      margin-bottom: 10px;
+    }
+    details.sprzet > *:not(summary) {
+      padding: 0 15px 15px 15px;
+    }
+    body.dark-mode details.sprzet { border-color: #555; }
+    body.dark-mode details.sprzet summary:hover { background-color: #2a2a2a; }
+    body.dark-mode details.sprzet[open] summary { border-bottom-color: #555; }
+
+    /* --- Przycisk powrotu na górę --- */
+    #back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      background-color: #555;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
+      cursor: pointer;
+      z-index: 9999;
+      opacity: 0.7;
+      transition: opacity 0.3s ease, background-color 0.3s ease;
+    }
+    #back-to-top:hover {
+      opacity: 1;
+      background-color: #333;
+    }
+
+    /* --- Przyciski wsparcia (donate) --- */
+    .donate-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: nowrap;
+    }
+    .donate-buttons a {
+      display: block;
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .donate-buttons img {
+      display: block;
+      max-height: 45px;
+      width: auto;
+      max-width: 100%;
+      border: none;
+    }
+    @media (max-width: 600px) {
+      .donate-buttons {
+        flex-wrap: wrap;
+      }
+      .donate-buttons img {
+        max-height: 40px;
+      }
+    }
+  </style>
+</head>
