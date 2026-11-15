@@ -24,7 +24,7 @@ tags:
   - "vps"
   - "yunohost"
   - "zadaniacron"
-image: "/images/yunohostbackup.png"
+image: "/images/yunohostbackup.webp"
 description: "W poprzednich wpisach opisałem jak zainstalować środowisko YunoHost oraz jak uruchomić na nim pierwszą aplikacji - instancję WriteFreely. Następnym..."
 ---
 

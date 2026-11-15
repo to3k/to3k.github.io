@@ -15,7 +15,7 @@ tags:
   - "iphone"
   - "oneui"
   - "samsung"
-image: "/images/ZFold6Apple.png"
+image: "/images/ZFold6Apple.webp"
 description: "Various iPhone models have been with me for a really long time. I went through the SE 1st and 2nd generation, 11, 12 Mini, 13 Pro Max, and it turns out that..."
 ---
 

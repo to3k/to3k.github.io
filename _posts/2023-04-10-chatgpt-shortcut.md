@@ -15,7 +15,7 @@ tags:
   - "macos"
   - "shortcuts"
   - "skroty"
-image: "/images/szorty.png"
+image: "/images/szorty.webp"
 description: "Dzisiaj kolejny wpis z cyklu krótkich a.k.a. szortów. Jego powstanie zostało spowodowane tym, że natrafiłem na coś bardzo ciekawego! Otóż, jakaś mądra głowa..."
 ---
 
@@ -39,12 +39,12 @@ Dzisiaj kolejny wpis z cyklu krótkich a.k.a. szortów. Jego powstanie zostało 
 
 11. Jak ktoś ma wykupiony dostęp do GPT-4 to można zmienić model we właściwościach _Skrótu_ \[2\].
 
-![](/images/IMG_0071.png)
+![](/images/IMG_0071.webp)
 
 ## Jak to wygląda?
 
-[![](/images/IMG_0070.png)](/images/IMG_0070.png)
+[![](/images/IMG_0070.webp)](/images/IMG_0070.webp)
 
-[![](/images/IMG_0067.png)](/images/IMG_0067.png)
+[![](/images/IMG_0067.webp)](/images/IMG_0067.webp)
 
 _Źródło: [MacStories.net](https://www.macstories.net/ios/introducing-s-gpt-a-shortcut-to-connect-openais-chatgpt-with-native-features-of-apples-operating-systems/)_

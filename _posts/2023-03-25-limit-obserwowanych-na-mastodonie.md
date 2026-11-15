@@ -13,7 +13,7 @@ tags:
   - "obserwowani"
   - "obserwujacy"
   - "spambot"
-image: "/images/szorty.png"
+image: "/images/szorty.webp"
 description: "Szukając w dokumentacji Mastodona czegoś zupełnie innego natrafiłem na pewien ciekawy wątek na GitHub dotyczący sugestii wprowadzenia limitu kont jakie..."
 ---
 

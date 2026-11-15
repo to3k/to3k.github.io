@@ -15,7 +15,7 @@ tags:
   - "migration"
   - "self-hosting"
   - "open-source"
-image: "/images/wptojekyll.png"
+image: "/images/wptojekyll.webp"
 description: "Finally... Finally, I found the time, gathered a bit of will, and overcame the fear of breaking something. A bulldozer drove onto this blog, razed it, and..."
 ---
 

@@ -20,7 +20,7 @@ tags:
   - "toot"
   - "translate"
   - "translator"
-image: "/images/bilangpost.png"
+image: "/images/bilangpost.webp"
 description: "BiLangPost to mój kolejny, mały i niezbyt skomplikowany projekcik (wiecie jak bardzo takie lubię 😉). Jest to narzędzie, które ułatwia pisanie dwujęzycznych..."
 ---
 
@@ -30,9 +30,9 @@ Spis treści:
 
 [_BiLangPost_](https://bilangpost.tomaszdunia.pl/) to mój kolejny, mały i niezbyt skomplikowany projekcik (wiecie jak bardzo takie lubię 😉). Jest to narzędzie, które ułatwia pisanie dwujęzycznych postów. A przyczyną powstania jest to, że w momencie dołączenia do _[Mastodona](https://mastodon.tomaszdunia.pl/@to3k)_ postanowiłem, że będę tam pisał zarówno po polsku jak i po angielsku. Językiem angielskim posługuję się dość biegle w mowie i piśmie, ale jestem również fanem automatyzacji wszystkiego tego co może zostać zautomatyzowane, a z tłumaczeniami jest tak, że zawsze lepiej jest poprawić nieidealne tłumaczenie niż napisać coś dwa razy (najpierw w jednym języku, a później w drugim). Z uwagi na powyższe przemyślałem sprawę, siadłem do edytora kodu i stworzyłem przy użyciu języka _PHP_ tytułowe narzędzie.
 
-[![](/images/bc7ca2566e0eac59.png)](/images/bc7ca2566e0eac59.png)
+[![](/images/bc7ca2566e0eac59.webp)](/images/bc7ca2566e0eac59.webp)
 
-[![](/images/0b6c4ec5e220b563.png)](/images/0b6c4ec5e220b563.png)
+[![](/images/0b6c4ec5e220b563.webp)](/images/0b6c4ec5e220b563.webp)
 
 Zasada działania polega na tym, że wpisujemy wiadomość w języku źródłowym i wskazujemy język docelowy, a BiLangPost tłumaczy nam treść wiadomości źródłowej na docelową i następnie skleja jedną z drugą, dodatkowo to formatując, tak aby powstał z tego gotowy post (albo _toot_) do publikacji np. w mediach społecznościowych. Cały mechanizm tłumaczący działający pod spodem to _[DeepL](https://www.deepl.com/translator)_, z którym [komunikuję się poprzez _API_, tak jak to opisałem w tym wpisie](https://blog.tomaszdunia.pl/deepl-api/). Skoro już jesteśmy przy temacie _API DeepL'a_ to, jak pewnie wiecie z podlinkowanego wpisu, jest ono darmowe do pewnego limitu, po którego przekroczeniu wchodzi już płatny plan, który niestety do najtańszych nie należy. Z uwagi na to, nie byłem w stanie udostępnić swojego prywatnego _tokenu_ _API_ do użytku przez to darmowe narzędzie, bo po prostu mój limit zostałby bardzo szybko wykorzystany, a dla mnie samego wystarcza mi w zupełności ten darmowy pakiet. Stąd każdy kto chce skorzystać z _BiLangPost_ musi używać swojego własnego klucza. Oczywiście podany przez użytkownika klucz nie jest przeze mnie nigdzie zapisywany, czy też wykorzystywany w jakikolwiek inny sposób niż do wykonania pracy _BiLangPost_, która została mu zlecona w danej sesji.
 

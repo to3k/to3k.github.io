@@ -14,7 +14,7 @@ tags:
   - "ipados"
   - "macos"
   - "shortcuts"
-image: "/images/szorty.png"
+image: "/images/szorty.webp"
 description: "Today, another post from the series of short posts. Its creation was caused by something very interesting that I came across! Someone smart has created a..."
 ---
 
@@ -38,12 +38,12 @@ Today, another post from the series of short posts. Its creation was caused by s
 
 11. If someone has access to GPT-4, he/she can change the model in the shortcut properties \[2\].
 
-![](/images/IMG_0071.png)
+![](/images/IMG_0071.webp)
 
 ## What does it look like?
 
-[![](/images/IMG_0070.png)](/images/IMG_0070.png)
+[![](/images/IMG_0070.webp)](/images/IMG_0070.webp)
 
-[![](/images/IMG_0067.png)](/images/IMG_0067.png)
+[![](/images/IMG_0067.webp)](/images/IMG_0067.webp)
 
 _Source: [MacStories.net](https://www.macstories.net/ios/introducing-s-gpt-a-shortcut-to-connect-openais-chatgpt-with-native-features-of-apples-operating-systems/)_

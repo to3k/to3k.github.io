@@ -11,7 +11,7 @@ tags:
   - "nitter"
   - "twitter"
   - "twittodon"
-image: "/images/szorty.png"
+image: "/images/szorty.webp"
 description: "Pamiętacie moje narzędzie o nazwie Twittodon? Pisałem o nim tutaj. Było to narzędzie do weryfikacji połączenia pomiędzy kontami na Mastodonie i Twitterze...."
 ---
 
@@ -27,7 +27,7 @@ Jednakże wczoraj została wdrożona nowa polityka _Twittera_, która wprowadzi�
 
 To jeszcze nie koniec, bo kolejnym krokiem planowanym przez _Elona_ jest wprowadzenie dodatkowo limitów, które będą definiowały ile tweetów będzie można przeczytać dziennie.
 
-![](/images/IMG_0107.jpeg)
+![](/images/IMG_0107.webp)
 
 Zgodnie z tweetem _Elona_ ma być to 6000 tweetów na dobę dla kont zweryfikowanych, czyli tych płacących abonament _Twitter Blue_, 600 tweetów dla kont niezweryfikowanych oraz 300 tweetów dla nowych kont. Żaden szanujący się deweloper nie będzie płacił $8 miesięcznie za posiadanie dostępu do tego śmiesznie małego limitu 6000 tweetów. Natomiast limit 600 jest za mały nawet dla przeciętnego użytkownika.
 

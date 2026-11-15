@@ -20,7 +20,7 @@ tags:
   - "sshkeys"
   - "vps"
   - "yunohost"
-image: "/images/yunohostbackup.png"
+image: "/images/yunohostbackup.webp"
 description: "In my previous posts, I described how to install the YunoHost environment and how to run the first application - WriteFreely instance on it. The next..."
 ---
 

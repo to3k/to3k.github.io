@@ -31,7 +31,7 @@ tags:
   - "przydomowaoczyszczalnia"
   - "standardwykonczenia"
   - "szambo"
-image: "/images/poszukiwania_nieruchomosci2.png"
+image: "/images/poszukiwania_nieruchomosci2.webp"
 description: "Wydaje się, że wiemy już wszystko o programie BK2 i kredycie hipotecznym. Do tego znamy swoje przybliżone możliwości finansowe. Najwyższy czas ruszyć w bój..."
 ---
 

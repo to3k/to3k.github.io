@@ -22,7 +22,7 @@ tags:
   - "tv"
   - "series"
   - "movies"
-image: "/images/stremio.png"
+image: "/images/stremio.webp"
 description: "For me, Stremio is one of the biggest discoveries of late 2025. Although I initially approached the subject with skepticism, this platform has completely..."
 ---
 
@@ -182,9 +182,9 @@ Simply use the **search bar** or browse the home screen (**Discover** or **Board
 
 After choosing an episode, a list of options will appear. These are scraped from **all your sources** (Comet, MediaFusion, Torrentio). They are **sorted** by add-on, then resolution, seeders, or size. **Don't overthink it**. **Just click** the first one. If something is wrong (doesn't work, poor quality, bad audio, wrong language, no subtitles), just pick the next one on the list.
 
-![Screenshot from Stremio - list of series](/images/stremio1.png)
+![Screenshot from Stremio - list of series](/images/stremio1.webp)
 
-![Screenshot from Stremio - list of episodes of Picard series](/images/stremio2.png)
+![Screenshot from Stremio - list of episodes of Picard series](/images/stremio2.webp)
 
 ### Subtitles
 

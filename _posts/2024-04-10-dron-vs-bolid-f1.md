@@ -19,7 +19,7 @@ tags:
   - "redbull"
   - "redbullracing"
   - "silverstone"
-image: "/images/szorty.png"
+image: "/images/szorty.webp"
 description: "Red Bull słynie z ciekawych form promowania swojej marki. Już od dawna nie jest tylko producent napoi energetycznych. Wspieranie sportów motorowych oraz..."
 ---
 

@@ -15,7 +15,7 @@ tags:
   - "markdown"
   - "dns"
   - "javascript"
-image: "/images/jekyll.png"
+image: "/images/jekyll.webp"
 description: "This post is partially connected to my post regarding the migration of my blog from WordPress to the Jekyll engine and GitHub Pages infrastructure. I..."
 ---
 

@@ -20,7 +20,7 @@ tags:
   - "terminal"
   - "virtualmachine"
   - "vm"
-image: "/images/proxmox1.png"
+image: "/images/proxmox1.webp"
 description: "Omówiłem już jak dość prosto i stosunkowo niskim kosztem ogarnąć sobie serwer domowy bazując na platformach Raspberry Pi i podobnych. Istnieją jednak..."
 ---
 

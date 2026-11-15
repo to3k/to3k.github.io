@@ -25,7 +25,7 @@ tags:
   - "wordpress"
   - "xml"
   - "yunohost"
-image: "/images/outernet_rss.png"
+image: "/images/outernet_rss.webp"
 description: "W poprzednim wpisie przedstawiłem alternatywy dla mainstreamowych mediów społecznościowych, które pozwalają wyskoczyć z bańki, którą krótko scharakteryzować..."
 ---
 

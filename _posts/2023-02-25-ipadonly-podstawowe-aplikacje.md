@@ -42,7 +42,7 @@ tags:
   - "vod"
   - "word"
   - "zdjecia"
-image: "/images/appstore.png"
+image: "/images/appstore.webp"
 description: "Skoro już ustaliliśmy, że od jakiegoś czasu moim głównym komputerem jest iPad Air 5, z chipem M1 doposażony klawiaturą Magic Keyboard, to teraz pora..."
 ---
 

@@ -5,7 +5,7 @@ categories:
   - "finanse"
   - "poradniki"
   - "przemyslenia"
-image: "/images/inwestujterazheaderimage.png"
+image: "/images/inwestujterazheaderimage.webp"
 description: "Wracam tutaj do Was po przerwie, ale jak zwykle nie przychodzę z pustymi rękami! Mniej więcej od lutego 2024 r. pracowałem potajemnie nad projektem, o..."
 ---
 

@@ -40,7 +40,7 @@ tags:
   - "wibor"
   - "wibor3m"
   - "wibor6m"
-image: "/images/kredyt.png"
+image: "/images/kredyt.webp"
 description: "Searching for a home (or apartment) and taking out a mortgage to buy it is a bit like the chicken and egg paradox. Without submitting a loan application to..."
 ---
 

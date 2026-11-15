@@ -12,7 +12,7 @@ tags:
   - "reddit"
   - "rss"
   - "xml"
-image: "/images/automatyzacja_tdbnews.png"
+image: "/images/automatyzacja_tdbnews.webp"
 description: "Już od kilku tygodni publikuję serię niedzielnych wpisów #TDBNews, w której wypisuję ciekawe rzeczy, na które natrafiłem w danym tygodniu. Ręczne zbieranie..."
 ---
 

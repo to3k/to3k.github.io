@@ -21,7 +21,7 @@ tags:
   - "lightning"
   - "ram"
   - "usbc"
-image: "/images/ipadasiphone.png"
+image: "/images/ipadasiphone.webp"
 description: "Czasem budzę się rano i pierwszą moją myślą jest „muszę coś zmienić”. Bardzo lubię zmiany w moim sprzęcie, sprawdzanie nowych rozwiązań, różnych kombinacji..."
 ---
 

@@ -13,7 +13,7 @@ tags:
   - "kredythipoteczny"
   - "marciniwuc"
   - "rss"
-image: "/images/wrocilem-po-przerwie-ale.png"
+image: "/images/wrocilem-po-przerwie-ale.webp"
 description: "Nie było mnie tu od prawie dwóch miesięcy. Trzeba to powiedzieć - zaniedbałem tego bloga. Na swoją obronę mogę powiedzieć, że miałem powody ku temu, a..."
 ---
 

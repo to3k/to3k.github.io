@@ -36,7 +36,7 @@ tags:
   - "wibor"
   - "wiron"
   - "zus"
-image: "/images/portfelinwestycyjny.png"
+image: "/images/portfelinwestycyjny.webp"
 description: "Oficjalnie stwierdzam, że stałem się Panem w średnim wieku... Ustatkowałem się, tj. mam żonę, doczekałem się potomstwa, kupiłem dom, nad karkiem wisi mi..."
 ---
 
@@ -86,7 +86,7 @@ Podsumowując, możemy przyjąć następujące **założenia dla _Portfela 10-le
 
 To jak będę inwestował w ramach tego portfela pewnie będzie się zmieniać, bo 10-letniego portfela raczej nie można nazwać długoterminowym, a więc raczej nie sprawdzi się tutaj metoda ustalenia stałych wag poszczególnych aktywów i trzymanie się tego w oczekiwaniu na to, że rynki są cykliczne i prędzej czy później każde aktywo trafi na górkę. Sposób inwestowania muszę zoptymalizować tak, aby dokładnie po tych 10 latach mieć skumulowane maksymalnie dużo środków, które wycofam i nadpłacę nimi kredyt hipoteczny poprzez jednorazowy strzał wykonany dokładnie pomiędzy 120 a 121 ratą mojego kredytu. Wydaje mi się, że na początku będę korzystał z tego, że można jeszcze dorwać wysoko oprocentowane obligacje, co zapewne niedługo będzie już nieaktualne, bo inflacja ewidentnie leci w dół. Toteż wpompuję w obligacje tyle ile będzie się dało, póki są dobre, a potem zobaczę. Myślę, że finalny portfel modelowy, czyli ten do którego będę dążył, **będzie się składał w 70% z obligacji, w 15% z akcji światowych rynków rozwiniętych i w 15% z akcji światowych rynków wschodzących**.
 
-![](/images/Skarbonka-Tomka-Portfel-10-letni-2-1024x667.png)
+![](/images/Skarbonka-Tomka-Portfel-10-letni-2-1024x667.webp)
 
 ## Poduszka Bezpieczeństwa
 
@@ -108,7 +108,7 @@ Podsumujmy sobie teraz **założenia dotyczące _Poduszki Bezpieczeństwa_**:
 
 Wiemy już jakie są podstawowe zadania _Poduszki Bezpieczeństwa_, jaki musi być do niej dostęp i jaka powinna być jej wielkość, więc teraz trzeba się zastanowić w jakiej formie ją przechowywać. _Marcin Iwuć_ w swojej książce sugeruje ulokować 25% tej sumy w lokaty i/lub konta oszczędnościowe, a 75% w obligacje skarbowe indeksowane inflacją. Ja jednak nienawidzę produktów finansowych jakimi są konta oszczędnościowe, a lokaty nigdy nie pozwolą nawet dogonić inflacji, a co powiedzieć o przegonieniu jej. Rozumiem podejście o lokowaniu 25% wartości poduszki bezpieczeństwa w te formy inwestowania, bo pozwalają one na bardzo szybkie wycofanie i dostęp do tych pieniędzy. Jednakże pamiętajmy, że ma to również taki minus, że o ile lokatę można zerwać w każdym momencie to niestety wiąże się to z utratą wszystkich wypracowanych do tej pory odsetek (w teorii nie całkowicie wszystkich, bo oprocentowanie spada np. do 0.1% i jakieś tam odsetki będą, ale to grosze, więc nie warto w ogóle brać tego pod uwagę). Przy obligacjach jest nieco inaczej, bo może i nie wyciągnie się z nich pieniędzy w 1-2 dni, a bardziej w 5-7, ale przy wcześniejszym wykupie obligacji tracimy jedynie ustaloną w liście emisyjnym kwotę, np. 0.7-2 zł od każdego 100-złotowej obligacji, ale wszystkie wypracowane zyski do momentu wcześniejszego zakończenia są nam wypłacane. Dlatego ja **całą swoją _Poduszkę Bezpieczeństwa_ zamierzam trzymać w obligacjach skarbowych indeksowanych inflacją**.
 
-![](/images/Skarbonka-Tomka-Poduszka-Bezpieczenstwa-1024x667.png)
+![](/images/Skarbonka-Tomka-Poduszka-Bezpieczenstwa-1024x667.webp)
 
 ## Portfel emerytalny
 
@@ -128,7 +128,7 @@ Poza _Portfelem 10-letnim_ i _Poduszką Bezpieczeństwa_ postanowiłem prowadzi�
 
 Ten portfel będzie z założenia nieco bardziej agresywnym jako, że mam jeszcze trochę czasu do osiągnięcia 65. roku życia i mogę trochę poeksperymentować. Jest to znana taktyka, która zakłada dobieranie poziomu ryzyka w zależności od tego ile ma się lat. System ten zakłada, że 20-latek powinien inwestować jedynie 20% swoich oszczędności w aktywa uznawane za bezpieczne (np. obligacje, lokaty czy złoto), a aż 80% w aktywa o znacznie większym poziomie ryzyka (np. akcje, surowce czy waluty). Analogicznie dla 80-latka ta proporcja była by odwrotna, tj. 80% bezpiecznie, a 20% ryzykowanie. Przyjmując takie założenia dopiero 100-latek powinien przerzucić wszystko w obligacje. Ja oczywiście nie zamierzam być aż tak szalony i postanowiłem podzielić ten portfel 50/50. 50% jego wartości mają stanowić obligacje skarbowe ubrane w parasol podatkowy jakim jest [_IKE_ (o którym pisałem już wcześniej)](https://blog.tomaszdunia.pl/emerytura2/), a druga połowa będzie ulokowana w akcjach w sposób możliwie jak najbardziej zdywersyfikowany. Ten temat na pewno rozszerzę jeszcze w jednym z następnych wpisów, które mam w planach. Tak więc modelowy **skład _Portfela Emerytalnego_ widzę tak - 50% obligacje skarbowe, 25% akcje światowych rynków rozwiniętych, 25% akcje światowych rynków wschodzących**.
 
-![](/images/Skarbonka-Tomka-Portfel-Emerytalny-1024x667.png)
+![](/images/Skarbonka-Tomka-Portfel-Emerytalny-1024x667.webp)
 
 ## Czy to dobry plan?
 

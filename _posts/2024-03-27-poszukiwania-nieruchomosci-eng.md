@@ -30,7 +30,7 @@ tags:
   - "secureloan2"
   - "septictank"
   - "sewerage"
-image: "/images/poszukiwania_nieruchomosci2.png"
+image: "/images/poszukiwania_nieruchomosci2.webp"
 description: "It seems like we already know everything about the BK2 program and mortgage. Moreover, we are aware of our approximate financial capabilities. It's high..."
 ---
 

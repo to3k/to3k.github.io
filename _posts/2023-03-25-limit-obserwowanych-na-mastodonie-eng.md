@@ -11,7 +11,7 @@ tags:
   - "limit"
   - "mastodon"
   - "spambot"
-image: "/images/szorty.png"
+image: "/images/szorty.webp"
 description: "While looking for something completely different in Mastodon's documentation, I came across an interesting thread on GitHub concerning a suggestion to..."
 ---
 

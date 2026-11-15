@@ -29,7 +29,7 @@ tags:
   - "totp"
   - "yaml"
   - "yunohost"
-image: "/images/nextcloud.png"
+image: "/images/nextcloud.webp"
 description: "Dropbox, OneDrive, Google Drive, iCloud, MEGA, Backblaze are probably the most popular solutions for storing files in the so-called cloud. It must be..."
 ---
 
@@ -37,7 +37,7 @@ Table of contents:
 * TOC
 {:toc}
 
-[Dropbox](https://www.dropbox.com/plans), [OneDrive](https://www.microsoft.com/pl-pl/microsoft-365/onedrive/compare-onedrive-plans?activetab=tab%3aprimaryr1), [Google Drive](https://one.google.com/about/plans?hl=pl), [iCloud](https://support.apple.com/pl-pl/HT201238), [MEGA](https://mega.io/pl/pricing), [Backblaze](https://www.backblaze.com/b2/cloud-storage-pricing.html) are probably the most popular solutions for storing files in the [so-called](/images/nocloudbutsomeonescomputer.jpg) cloud. It must be admitted that this form of aggregation and access to one's data is **very convenient** and also serves as a kind of backup. All of the mentioned services offer more or less disk space in free packages, but to store larger amounts of data, we need to consider purchasing one of the paid plans, **which may not be cost-effective**, especially when dealing with a large number of photos. Another, crucial **disadvantage of such a solution is the necessity to entrust our data to third parties**, or even worse, corporations. So what can we do? **Launch our own "cloud" for data**, and the best solution for this is _**[Nextcloud](https://nextcloud.com/)**_! It is a tool that is now described as a collaboration platform because it consists of not one, but many tools. As a few examples, we can list:
+[Dropbox](https://www.dropbox.com/plans), [OneDrive](https://www.microsoft.com/pl-pl/microsoft-365/onedrive/compare-onedrive-plans?activetab=tab%3aprimaryr1), [Google Drive](https://one.google.com/about/plans?hl=pl), [iCloud](https://support.apple.com/pl-pl/HT201238), [MEGA](https://mega.io/pl/pricing), [Backblaze](https://www.backblaze.com/b2/cloud-storage-pricing.html) are probably the most popular solutions for storing files in the [so-called](/images/nocloudbutsomeonescomputer.webp) cloud. It must be admitted that this form of aggregation and access to one's data is **very convenient** and also serves as a kind of backup. All of the mentioned services offer more or less disk space in free packages, but to store larger amounts of data, we need to consider purchasing one of the paid plans, **which may not be cost-effective**, especially when dealing with a large number of photos. Another, crucial **disadvantage of such a solution is the necessity to entrust our data to third parties**, or even worse, corporations. So what can we do? **Launch our own "cloud" for data**, and the best solution for this is _**[Nextcloud](https://nextcloud.com/)**_! It is a tool that is now described as a collaboration platform because it consists of not one, but many tools. As a few examples, we can list:
 
 - **_Files_** - network drive,
 
@@ -63,7 +63,7 @@ The installation process will be similar to the one described in my [post about 
 
 We start by logging into our _YunoHost_ administrator panel and immediately go to _Applications_. Then, in the top right corner, click the green _\+ Install_ button, search for the _Nextcloud_ application and select it from the list. Scroll down to the _Installation settings_ section and start configuring:
 
-![](/images/nc1.png)
+![](/images/nc1-png.webp)
 
 1. In the text field named _Label for Nextcloud_ \[1\], enter the name under which you want to see this application in the list of applications in your _YunoHost_.
 
@@ -163,7 +163,7 @@ If everything is okay, we can now go to the browser and enter the IP address of 
 
 After following any of the above instructions, the resulting welcome screen should look like this (or similar):
 
-![](/images/nc3.png)
+![](/images/nc3.webp)
 
 As you can see at first glance, Nextcloud is a very user-friendly, clean, and intuitive interface. I won't go into detail about the capabilities of this environment here, but I recommend going to the application installation and management tool (the user icon in the upper right corner \[1\] and select _Apps_ from the list \[2\]). Please note how many possibilities are now available in the Nextcloud library!
 

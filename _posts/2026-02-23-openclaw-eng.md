@@ -23,7 +23,7 @@ tags:
   - "vps"
   - "ssh"
   - "telegram"
-image: "/images/openclaw.png"
+image: "/images/openclaw.webp"
 description: "Most of us are used to interfaces like ChatGPT or Gemini — these are brilliant \"brains in a jar\". They can write, analyze, and advise, but rarely can they..."
 ---
 
@@ -151,7 +151,7 @@ Now we can go to the [**Cloud**](https://www.hetzner.com/cloud/) tab and scroll 
 
 The current (as of February 2026) Hetzner **offer** looks like this:
 
-![Hetzner offer](/images/hetznerprices.png)
+![Hetzner offer](/images/hetznerprices.webp)
 
 What interests us is the cheapest **CX23** server with a processor featuring **2 virtual cores** (vCPU), **4GB** of RAM, and a **40GB** SSD drive. Such a server at the time of writing this post costs **5.03 USD per month** (!), which, converted at the current exchange rate, is about **18 PLN** and some change. It's hard to disagree that this is an **attractive price**.
 
@@ -176,7 +176,7 @@ What interests us is the cheapest **CX23** server with a processor featuring **2
     - Name - here we give our server a name, I typed **openclaw-assistant**
 6. The configuration should look more or less like this:
 
-    ![Server configuration for purchase](/images/hetznerserverconfig.png)
+    ![Server configuration for purchase](/images/hetznerserverconfig.webp)
 
 7. With such a configuration, we can proceed to purchase the server. To do this, we press the red **Create & Buy now** button.
 8. We will be taken to the list of our servers, where a new (and the only) option will appear, i.e., the server we just created. At first, there will be a spinning circle next to it, which means we have to wait a moment for it to be created. However, after a while, a green **Server created** message will pop up at the bottom, meaning that our testing ground is ready.
@@ -786,7 +786,7 @@ The container has been started, so it's time to go inside and try to make the fi
 
 9. The response for me looked like this:
 
-	![](/images/openclawauthpending.png)
+	![](/images/openclawauthpending.webp)
 
 10. From the **Pending** section of the received result, we copy the value from the **Request** column. In my case it is `0108ae0d-98dc-4fde-9175-c90392a7fdaf`.
 11. This is the `IDENTYFIKATOR_ŻĄDANIA` (REQUEST_IDENTIFIER) which **we type as an element at the end** of the command below:
@@ -805,7 +805,7 @@ The container has been started, so it's time to go inside and try to make the fi
 2. It is in this place that **all the most important settings of our bot**, that is the agent, are located. On the list of available agents, there should be one named `main`, and this is the one we will be using. You can create more of them from the server console level, but for now, this default one is enough for us.
 3. What interests us first is to check if we have anything at all in the **Primary model (default)** selection field.
 
-	![](/images/openclawcontrolui1.png)
+	![](/images/openclawcontrolui1.webp)
 
 4. I assume that unfortunately you won't find anything there, just like in my screenshot. Therefore, we must **return to the terminal** connected to the VPS server. **We type** the command:
 

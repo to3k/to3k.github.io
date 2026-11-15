@@ -9,11 +9,11 @@ Pisałem już to wielokrotnie w poszczególnych wpisach, ale i tutaj powtórzę 
 
 Jednakże jeżeli czujesz potrzebę, drogi Czytelniku, wspomóc mnie finansowo to będzie mi bardzo miło! Można to zrobić używając któregoś z poniższych sposóbów:
 
-[![Patreon](/images/patreon_button.png)](https://www.patreon.com/bePatron?u=67755731)
-[![Patronite](/images/patronite_button.png)](https://patronite.pl/patronuj/to3k-za-5pln/128901)
-[![Liberapay](/images/liberapay_button.png)](https://liberapay.com/to3k/donate)
-[![BuyCoffee](/images/buycoffee_button.png)](http://buycoffee.to/to3k)
-[![Ko-fi](/images/kofi_button.png)](https://ko-fi.com/tomaszdunia)
+[![Patreon](/images/patreon_button.webp)](https://www.patreon.com/bePatron?u=67755731)
+[![Patronite](/images/patronite_button.webp)](https://patronite.pl/patronuj/to3k-za-5pln/128901)
+[![Liberapay](/images/liberapay_button.webp)](https://liberapay.com/to3k/donate)
+[![BuyCoffee](/images/buycoffee_button.webp)](http://buycoffee.to/to3k)
+[![Ko-fi](/images/kofi_button.webp)](https://ko-fi.com/tomaszdunia)
 
 ---
 
@@ -23,8 +23,8 @@ I've written this multiple times in various posts, but I'll repeat it here once 
 
 However, if you feel the need, dear Reader, to support me financially, I would greatly appreciate it! You can do so using one of the methods below:
 
-[![Patreon](/images/patreon_button.png)](https://www.patreon.com/bePatron?u=67755731)
-[![Patronite](/images/patronite_button.png)](https://patronite.pl/patronuj/to3k-za-5pln/128901)
-[![Liberapay](/images/liberapay_button.png)](https://liberapay.com/to3k/donate)
-[![BuyCoffee](/images/buycoffee_button.png)](http://buycoffee.to/to3k)
-[![Ko-fi](/images/kofi_button.png)](https://ko-fi.com/tomaszdunia)
+[![Patreon](/images/patreon_button.webp)](https://www.patreon.com/bePatron?u=67755731)
+[![Patronite](/images/patronite_button.webp)](https://patronite.pl/patronuj/to3k-za-5pln/128901)
+[![Liberapay](/images/liberapay_button.webp)](https://liberapay.com/to3k/donate)
+[![BuyCoffee](/images/buycoffee_button.webp)](http://buycoffee.to/to3k)
+[![Ko-fi](/images/kofi_button.webp)](https://ko-fi.com/tomaszdunia)

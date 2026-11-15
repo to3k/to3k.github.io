@@ -17,7 +17,7 @@ tags:
   - "rss"
   - "twitter"
   - "twittodon"
-image: "/images/twittodon.png"
+image: "/images/twittodon.webp"
 description: "Twittodon to moja odpowiedź na masową migrację ludzi z Twittera, przejętego i powoli niszczonego przez Elona Muska, którzy uciekają właśnie na Mastodona...."
 ---
 
@@ -55,7 +55,7 @@ Muszę przyznać, że to jak popularne stało się moje narzędzie lekko mnie za
 
 - Po pomyślnie zakończonym procesie weryfikacji Twittodon generuje specjalny link do strony z potwierdzeniem weryfikacji, **który po wrzuceniu do swojego profilu zostanie potraktowany przez Mastodon jako zweryfikowany**.
 
-![](/images/D0ACB0F6-2A23-4476-9886-24C2E21C4662-1024x440.png)
+![](/images/D0ACB0F6-2A23-4476-9886-24C2E21C4662-1024x440.webp)
 
 ## Jak to wygląda od kuchni?
 

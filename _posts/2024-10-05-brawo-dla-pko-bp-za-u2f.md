@@ -10,7 +10,7 @@ tags:
   - "u2f"
   - "yubico"
   - "yubikey"
-image: "/images/pkou2f.png"
+image: "/images/pkou2f.webp"
 description: "Dostałem dzisiaj rano maila od PKO BP, w którym trzymam swoje obligacje skarbowe. Jakaż była moja radość, gdy zobaczyłem, że mail dotyczy tego, że PKO..."
 ---
 

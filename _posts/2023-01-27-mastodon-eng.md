@@ -18,7 +18,7 @@ tags:
   - "reddit"
   - "twitter"
   - "youtube"
-image: "/images/mastodonfediverseactivitypub_eng.png"
+image: "/images/mastodonfediverseactivitypub_eng.webp"
 description: "To write about Mastodon that it is Twitter v2.0 is like writing nothing. A statement of this type may be acceptable when we want to quickly explain to a not..."
 ---
 

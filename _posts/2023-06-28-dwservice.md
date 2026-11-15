@@ -20,7 +20,7 @@ tags:
   - "waylandenable"
   - "xwayland"
   - "zdalnypulpit"
-image: "/images/dwservice.png"
+image: "/images/dwservice.webp"
 description: "Zakładam, że fraza zdalny pulpit nie jest nikomu obca. Jest to bardzo wygodny sposób na dostęp (sterowanie) do komputera działającego w innym miejscu świata..."
 ---
 
@@ -38,15 +38,15 @@ Tak jak napisałem wcześniej to co wyróżnia _DWService_ względem konkurencji
 
 Poniżej kilka zrzutów ekranu pokazujących jak to wygląda dla jednego z moich serwerów:
 
-![](/images/dwservice1-1024x503.png)
+![](/images/dwservice1-1024x503.webp)
     
-![](/images/dwservice2-1024x503.png)
+![](/images/dwservice2-1024x503.webp)
     
-![](/images/dwservice3-1024x503.png)
+![](/images/dwservice3-1024x503.webp)
     
-![](/images/dwservice4-1024x503.png)
+![](/images/dwservice4-1024x503.webp)
     
-![](/images/dwservice5-1024x503.png)
+![](/images/dwservice5-1024x503.webp)
     
 
 ## Rejestracja konta i utworzenie agenta

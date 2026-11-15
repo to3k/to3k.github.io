@@ -15,7 +15,7 @@ tags:
   - "nfośigw"
   - "kpo"
   - "stellantis"
-image: "/images/citroenec3.png"
+image: "/images/citroenec3.webp"
 ---
 
 [🇵🇱->🇬🇧 Go to english version of this post / Przejdź do angielskiej wersji tego wpisu](https://blog.tomaszdunia.pl/TYTUŁ-eng/)

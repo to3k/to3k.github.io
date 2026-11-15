@@ -12,7 +12,7 @@ tags:
   - "reddit"
   - "rss"
   - "xml"
-image: "/images/automatyzacja_tdbnews.png"
+image: "/images/automatyzacja_tdbnews.webp"
 description: "For several weeks now, I have been publishing a series of Sunday posts called #TDBNews, in which I share interesting things I came across during the week...."
 ---
 

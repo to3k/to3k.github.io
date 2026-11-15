@@ -38,7 +38,7 @@ tags:
   - "skarbonkatomka"
   - "tos"
   - "wikipedia"
-image: "/images/obligacjeskarbowe.png"
+image: "/images/obligacjeskarbowe.webp"
 description: "Obligacje to według mnie dobry filar dla każdego portfela inwestycyjnego. Wiele osób jednak się ze mną nie zgodzi, bo obligacje to nie zupa pomidorowa, nie..."
 ---
 
@@ -213,13 +213,13 @@ Obligacje skarbowe można nabywać za pomocą wielu domów maklerskich w różny
 
 Tak wygląda serwis transakcyjny do zakupu obligacji w ramach _Rachunku Rejestrowego_:
 
-![](/images/obligacjepko1-1024x559.png)
+![](/images/obligacjepko1-1024x559.webp)
     
-![](/images/obligacjepko2-1024x559.png)
+![](/images/obligacjepko2-1024x559.webp)
     
-![](/images/obligacjepko3-1024x559.png)
+![](/images/obligacjepko3-1024x559.webp)
     
-![](/images/obligacjepko4-1024x559.png)
+![](/images/obligacjepko4-1024x559.webp)
     
 
 Procedura zakupu obligacji skarbowych wygląda tak:
@@ -240,9 +240,9 @@ Procedura zakupu obligacji skarbowych wygląda tak:
 
 A tak wygląda część dotycząca _IKE-Obligacje_:
 
-![](/images/obligacjepko5-1024x559.png)
+![](/images/obligacjepko5-1024x559.webp)
     
-![](/images/obligacjepko6-1024x559.png)
+![](/images/obligacjepko6-1024x559.webp)
     
 
 Procedura zakupu obligacji skarbowych w kontekście konta _IKE-Obligacje_ wygląda tak:
@@ -259,7 +259,7 @@ Procedura zakupu obligacji skarbowych w kontekście konta _IKE-Obligacje_ wyglą
 
 Warto też wspomnieć, że **_IKE-Obligacje_ nie jest produktem bezpłatnym**, więc w zakładce _Konto IKE-Obligacje -> Dane Konta IKE-Obligacje_ znajduje się jeszcze drugi numer konta podpisany _Numer rachunku do opłat_, na które należy uiszczać opłaty za prowadzenie. Prowizje są podane w poniższej tabeli. Trzeba powiedzieć, że **jest to jeden z najtańszych produktów w zakresie _IKE_**.
 
-![](/images/ikeobligacjeoplaty.png)
+![](/images/ikeobligacjeoplaty.webp)
 
 ## Obligacje skarbowe w moich portfelach
 

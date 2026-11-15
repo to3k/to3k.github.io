@@ -13,7 +13,7 @@ tags:
   - "marciniwuc"
   - "mortgage"
   - "rss"
-image: "/images/wrocilem-po-przerwie-ale.png"
+image: "/images/wrocilem-po-przerwie-ale.webp"
 description: "I haven't been here for almost two months. I have to admit - I neglected this blog. In my defense, I can say that I had reasons for it, and the main one was..."
 ---
 

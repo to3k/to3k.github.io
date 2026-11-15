@@ -13,7 +13,7 @@ tags:
   - "desktop"
   - "gui"
   - "proot"
-image: "/images/termux-proot.png"
+image: "/images/termux-proot.webp"
 description: "Modern smartphones and tablets are powerful computing machines that waste most of their time scrolling through mindless videos. Meanwhile, we carry power..."
 ---
 
@@ -150,19 +150,19 @@ After short tests, I started thinking really seriously about getting some reason
 
 ---
 
-![](/images/termux1.png)
+![](/images/termux1.webp)
 
 ---
 
-![](/images/termux2.png)
+![](/images/termux2.webp)
 
 ---
 
-![](/images/termux3.png)
+![](/images/termux3.webp)
 
 ---
 
-![](/images/termux4.png)
+![](/images/termux4.webp)
 
 ## Video
 

@@ -13,7 +13,7 @@ tags:
   - "desktop"
   - "gui"
   - "proot"
-image: "/images/termux-proot.png"
+image: "/images/termux-proot.webp"
 description: "Współczesne smartfony i tablety to potężne maszyny obliczeniowe, które większość czasu marnują na skrolowanie durnych filmików. Tymczasem w kieszeni nosimy..."
 ---
 
@@ -150,19 +150,19 @@ Po krótkich testach zacząłem się zastanawiać naprawdę poważnie nad sprawi
 
 ---
 
-![](/images/termux1.png)
+![](/images/termux1.webp)
 
 ---
 
-![](/images/termux2.png)
+![](/images/termux2.webp)
 
 ---
 
-![](/images/termux3.png)
+![](/images/termux3.webp)
 
 ---
 
-![](/images/termux4.png)
+![](/images/termux4.webp)
 
 ## Wideo
 

@@ -17,7 +17,7 @@ tags:
   - "termius"
   - "ubuntu"
   - "vps"
-image: "/images/ssh.png"
+image: "/images/ssh.webp"
 description: "W tym wpisie opiszę jak stworzyć domowy serwer, który będzie idealnym pomocnikiem (wsparciem, czy może też uzupełnieniem) dla iPada. Nie jest to do końca..."
 ---
 

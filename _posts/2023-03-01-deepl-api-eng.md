@@ -13,7 +13,7 @@ tags:
   - "php"
   - "translate"
   - "translator"
-image: "/images/deeplapi.png"
+image: "/images/deeplapi.webp"
 description: "DeepL is a machine translation service, which in simple terms can be described as a translator, operating based on neural networks. Interestingly, the CEO..."
 ---
 
@@ -126,7 +126,7 @@ echo $tekstENG;
 
 The result of the above script is as follows:
 
-![](/images/AE24041A-B186-4F36-8C6C-75F53754948D.jpeg)
+![](/images/AE24041A-B186-4F36-8C6C-75F53754948D.webp)
 
 ## BiLangPost
 

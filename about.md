@@ -11,7 +11,7 @@ permalink: /about/
 
 <div id="pl"></div>
 
-![Tomasz](/images/17B7025B-C608-4E12-B7D8-395C5D3BE4FA-scaled.jpeg)
+![Tomasz](/images/17B7025B-C608-4E12-B7D8-395C5D3BE4FA-scaled.webp)
 
 Hejka!
 Mam na imię **Tomasz**. Jesteś na moim personalnym blogu, który nie ma jednej określonej tematyki. Jestem osobą, która często przeskakuje pomiędzy naprawdę różnymi tematami i zgłębiam je od początku aż do momentu, gdy uznam, że wiem o nich wystarczająco dużo i/lub znajdzie się inny (ciekawszy) temat do zgłębienia. Moja żona nazywa takie zajawki *passion projects*.

@@ -17,7 +17,7 @@ tags:
   - "proofofconcept"
   - "session"
   - "skrypt"
-image: "/images/loginscript.png"
+image: "/images/loginscript.webp"
 description: "Pomysł na ten wpis wpadł mi do głowy podczas pracy nad moim nowym, małym projektem, który w niedalekiej przyszłości powinien ujrzeć światło dzienne. Finałem..."
 ---
 

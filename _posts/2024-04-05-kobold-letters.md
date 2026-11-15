@@ -15,7 +15,7 @@ tags:
   - "outlook"
   - "scam"
   - "thunderbird"
-image: "/images/szorty.png"
+image: "/images/szorty.webp"
 description: "Lubię sobie czasem wejść na Hacker News i zobaczyć, gdzie mnie poniesie. Nie wchodzę tam często, a i nigdy z jakimś obranym wcześniej celem. Raczej błądzę w..."
 ---
 

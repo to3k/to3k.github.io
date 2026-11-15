@@ -14,7 +14,7 @@ tags:
   - "india"
   - "indie"
   - "justwalkout"
-image: "/images/szorty.png"
+image: "/images/szorty.webp"
 description: "Tak ten tytuł to clickbait i poczułem się z tym źle już w momencie, gdy go wstukałem na klawiaturze, więc postanowiłem o tym poinformować od razu na wstępie..."
 ---
 

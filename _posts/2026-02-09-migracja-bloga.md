@@ -15,7 +15,7 @@ tags:
   - "migracja"
   - "self-hosting"
   - "open-source"
-image: "/images/wptojekyll.png"
+image: "/images/wptojekyll.webp"
 description: "W KOŃCU! W końcu... znalazłem czas, uzbierałem odrobinę chęci i przezwyciężyłem obawy przed zepsuciem czegoś. Na niniejszy blog wjechał buldożer, zaorał go..."
 ---
 

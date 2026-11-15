@@ -16,7 +16,7 @@ tags:
   - "proofofconcept"
   - "script"
   - "session"
-image: "/images/loginscript.png"
+image: "/images/loginscript.webp"
 description: "The idea for this post came to me while working on my new small project, which should see the light of day in the near future. The culmination of the..."
 ---
 

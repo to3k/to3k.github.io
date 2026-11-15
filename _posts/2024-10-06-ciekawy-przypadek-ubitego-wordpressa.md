@@ -13,7 +13,7 @@ tags:
   - "plugin"
   - "wordpress"
   - "wtyczka"
-image: "/images/szorty.png"
+image: "/images/szorty.webp"
 description: "Opublikowałem dzisiaj wpis Darmowa chmura ~200GB na Twoje pliki, który stał się dość popularny. Udostępniłem go w kilku miejscach, a jednym z nich był..."
 ---
 

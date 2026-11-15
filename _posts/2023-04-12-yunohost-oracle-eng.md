@@ -34,7 +34,7 @@ tags:
   - "ubuntu"
   - "vps"
   - "yunohost"
-image: "/images/yunohost.png"
+image: "/images/yunohost.webp"
 description: "In my previous post, I described how to get free access to a pretty good VPS - Oracle Cloud Free Tier. Today, I'll present one of my proposals for what can..."
 ---
 
@@ -153,17 +153,17 @@ The installation process is simple and there is practically nothing to do during
 
 This is how we do it, meaning we open the browser, enter the appropriate address, and confirm. We should see a warning that the connection may not be secure. This is a familiar behavior of the browser, which is dictated by the fact that we do not have an _SSL certificate_ installed for this domain. At this stage, it is not important. We click through this warning, looking for a button that says _I accept the risk and want to continue_ or something similar, the exact wording depends on the browser you are using.
 
-![](/images/oracleyunohost1.png)
+![](/images/oracleyunohost1.webp)
     
-![](/images/oracleyunohost2.png)
+![](/images/oracleyunohost2.webp)
     
-![](/images/oracleyunohost3.png)
+![](/images/oracleyunohost3.webp)
     
-![](/images/oracleyunohost4.png)
+![](/images/oracleyunohost4.webp)
     
-![](/images/oracleyunohost5.png)
+![](/images/oracleyunohost5.webp)
     
-![](/images/oracleyunohost6.png)
+![](/images/oracleyunohost6.webp)
     
 
 We will see the YunoHost welcome screen, which congratulates us on a successful installation and encourages us to further configure it. So we click the _Start_ button \[1\]. In the main domain settings, we define the alias under which this administrative panel (and user panel) will be available, so we set up the _alias_ that will allow us to avoid using the server's IP address as a link to our YunoHost. There are two options: you can attach your external domain (or subdomain) here or use subdomains provided by YunoHost. They may end with:

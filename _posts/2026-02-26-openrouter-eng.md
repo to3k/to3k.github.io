@@ -24,7 +24,7 @@ tags:
   - "ssh"
   - "telegram"
   - "api"
-image: "/images/openrouter.png"
+image: "/images/openrouter.webp"
 description: "This post is a continuation of - OpenClaw - Personal AI Assistant, where I described how to start your journey with OpenClaw. As a reminder, I used the free..."
 ---
 

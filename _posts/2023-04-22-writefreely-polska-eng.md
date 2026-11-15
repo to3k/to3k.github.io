@@ -18,7 +18,7 @@ tags:
   - "selfhosted"
   - "writefreely"
   - "yunohost"
-image: "/images/writefreelypl.png"
+image: "/images/writefreelypl.webp"
 description: "It all started with me obtaining the domain writefreely.pl. Having such a domain, it would be a sin not to use it! So, I launched a free server in the..."
 ---
 
@@ -40,7 +40,7 @@ Due to concerns about spam and malicious actors, I have decided to disable a com
 
 Using this invitation, every user can also invite friends. This invitation has no quantitative limits and is not time-restricted. After clicking on the link, you will be redirected to a page where you can create your account. All you need is a username and password. It is also possible to provide an email address, but it is not required in any way. It is important to emphasize that with this approach, if you lose/forget your password, you will lose access to your account without the possibility of resetting or recovering it in any other way. This is the policy of the _WriteFreely_ platform creators, and not mine, although I fully understand such an approach because one of the main principles of this platform is simplicity and care for users' privacy, and therefore, requiring only necessary information for the blog to operate.
 
-![](/images/writefreelypl1.png)
+![](/images/writefreelypl1.webp)
 
 ## What does it look like?
 
@@ -52,7 +52,7 @@ Blogs created on the _WriteFreely Polska_ _instance_ are available at the follow
 
 In my case, it is: [https://writefreely.pl/to3k](https://writefreely.pl/to3k). And the first test post that I wrote can be read here: [https://writefreely.pl/to3k/witaj-na-writefreely-polska](https://writefreely.pl/to3k/witaj-na-writefreely-polska). I encourage you to visit and see what it looks like in practice.
 
-![](/images/writefreelypl2.png)
+![](/images/writefreelypl2.webp)
 
 After creating an account for our blog, we also receive a kind of profile in the _instance_ that can be accessed by anyone through all federated services within the _Fediverse_. To find this profile, you can enter the appropriate _handle_ (username) from your _Mastodon_ account's search bar, for example:
 
@@ -60,7 +60,7 @@ After creating an account for our blog, we also receive a kind of profile in the
 
 In the case of my blog, it would be _@to3k@writefreely.pl_. Try entering it in the search bar of your _Mastodon_ account, and you will receive a result similar to the one below.
 
-![](/images/writefreelypl3.png)
+![](/images/writefreelypl3.webp)
 
 ## Want to support this initiative?
 

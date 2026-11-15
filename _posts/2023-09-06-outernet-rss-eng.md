@@ -23,7 +23,7 @@ tags:
   - "wordpress"
   - "xml"
   - "yunohost"
-image: "/images/outernet_rss.png"
+image: "/images/outernet_rss.webp"
 description: "In my previous post, I presented alternatives to mainstream social media that allow you to break free from the bubble, which can be briefly characterized as..."
 ---
 

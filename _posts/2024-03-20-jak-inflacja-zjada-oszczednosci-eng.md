@@ -15,7 +15,7 @@ tags:
   - "savings"
   - "skarbonkatomka"
   - "treasurybonds"
-image: "/images/inflacjapost2.png"
+image: "/images/inflacjapost2.webp"
 description: "Surely you work hard for every earned penny. You buy necessary things for life from the earned money, maybe even have something left for pleasures, and..."
 ---
 
@@ -45,7 +45,7 @@ As for historical levels of _inflation_ in Poland, I'm only considering the last
 
 Alright, so how has the level of inflation evolved over the past 30 years in Poland?
 
-![](/images/obraz-5.png)
+![](/images/obraz-5.webp)
 
 _Source of data: [GUS (Główny Urząd Statystyczny)](https://stat.gov.pl/obszary-tematyczne/ceny-handel/wskazniki-cen/wskazniki-cen-towarow-i-uslug-konsumpcyjnych-pot-inflacja-/)_
 
@@ -91,7 +91,7 @@ _\* values calculated from the formula: X = previous year's value / (1 + inflati
 
 If someone doesn't like tables, I've also prepared the results in the form of a chart:
 
-![](/images/obraz-9.png)
+![](/images/obraz-9.webp)
 
 Looking at this is almost physically painful, isn't it? 100 PLN saved 30 years ago would now be worth the equivalent of just under 16 PLN... In a similar situation but for a 20-year period, we lose nearly half of the capital's value. And over periods of 10 and 5 years, the decrease in value is about 30%. The principle of _inflation_ is similar to the compound interest principle in investing, only it works to our disadvantage. Even small amounts have a huge impact over a longer time horizon.
 
@@ -140,11 +140,11 @@ _Source of data on historical EDO 0124 bond interest rates: [obligacjeskarbowe.p
 
 Of course, without charts, the calculation wouldn't be as professional! That's why I present the first chart, which compares the inflation rate with the interest rates of deposits and _EDO_ bonds from 2014 to 2023.
 
-![](/images/obraz-7.png)
+![](/images/obraz-7.webp)
 
 Meanwhile, the chart below shows how the value of our three hundred-zloty banknotes evolved for each scenario over the entire 10-year period.
 
-![](/images/obraz-8.png)
+![](/images/obraz-8.webp)
 
 The blue line isn't surprising, as we've already discussed what happens to money without investing in the previous section of this post. The green line represents the result of investing in **deposits**, and it's evident that investing in this financial instrument is a **poor way to protect your money from _inflation_**, as it doesn't surpass _inflation_ in the majority of periods. However, even such a result is better than doing nothing. To provide some consolation, the optimistic outcome is shown by the red line, which illustrates the result of investing in **EDO bonds**. It's clear that this way, **not only did we protect our savings from inflation, but we also achieved a slightly positive result**. A cumulative gain of 3.84% above _inflation_ over a 10-year period is truly a good result! Personally, I would expect something similar from parts of my investment portfolios where I hold bonds. Of course, **bonds, even inflation-indexed ones, should not be treated as a certain source of profit**, as even offering an interest rate equal to _inflation_ (calculated based on the previous year) + 1.5% may not be able to surpass inflation after deducting the 19% capital gains tax. Nevertheless, in my opinion, it's **the best form of investment for people who dislike risk and don't want to spend more than an hour per year on investing**.
 

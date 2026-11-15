@@ -36,7 +36,7 @@ tags:
   - "wibor3m"
   - "wibor6m"
   - "wiron"
-image: "/images/kredyt.png"
+image: "/images/kredyt.webp"
 description: "Z szukaniem domu (lub mieszkania) i zaciąganiem kredytu hipotecznego na jego zakup jest trochę jak z paradoksem kury i jajka. Bez złożenia do banku wniosku..."
 ---
 

@@ -18,7 +18,7 @@ tags:
   - "port9443"
   - "portainer"
   - "vps"
-image: "/images/portainer.png"
+image: "/images/portainer.webp"
 description: "For all Readers of this blog, Docker should be familiar, as I extensively covered it in this post. However, today I will take it a step further and..."
 ---
 
@@ -26,7 +26,7 @@ Table of contents:
 * TOC
 {:toc}
 
-For all Readers of this blog, _Docker_ should be familiar, as I extensively covered it in [this post](https://blog.tomaszdunia.pl/docker-eng/). However, today I will take it a step further and introduce a tool called _[Portainer](https://www.portainer.io/)_, which is a kind of graphical interface that makes managing _Docker_ containers more enjoyable and intuitive. Interestingly, _Portainer_ runs as a container itself - [one ring container to rule them all](/images/one-ring-to-rule-them-all.jpg)!
+For all Readers of this blog, _Docker_ should be familiar, as I extensively covered it in [this post](https://blog.tomaszdunia.pl/docker-eng/). However, today I will take it a step further and introduce a tool called _[Portainer](https://www.portainer.io/)_, which is a kind of graphical interface that makes managing _Docker_ containers more enjoyable and intuitive. Interestingly, _Portainer_ runs as a container itself - [one ring container to rule them all](/images/one-ring-to-rule-them-all.webp)!
 
 ## Docker environment installation - short version
 
@@ -67,11 +67,11 @@ To execute this command, confirm with _ENTER_, and after the container is launch
 
 You will see a very simple installer, where you only need to set a name and password for the administrator. On the next page, click the _Get Started_ button, as we want _Portainer_ to use the environment on the local machine on which it is running. Finally, you will be redirected to the list of available environments, where there will be only one named _local_. To start managing this environment, click the blue _Live connect_ button on the right side. This will result in tabs with management options appearing on the left side, replacing _Environment: None selected_.
 
-![](/images/portainer1.png)
+![](/images/portainer1.webp)
     
-![](/images/portainer2.png)
+![](/images/portainer2.webp)
     
-![](/images/portainer3.png)
+![](/images/portainer3.webp)
     
 
 ## How to launch a sample container
@@ -80,18 +80,18 @@ Simply launching _Portainer_ is just the beginning of the fun, and I would feel 
 
 After selecting _Environment - local_, choose the _Containers_ tab on the left. This is where you will create and list all containers. As you can see, at this point, the only container on the list is _Portainer_ itself. Before attempting to expand this list with another container, we first need to go to the _Volumes_ tab, where we will create two volumes necessary for the proper functioning of _Nextcloud_.
 
-![](/images/portainer_nextcloud1.png)
+![](/images/portainer_nextcloud1.webp)
     
-![](/images/portainer_nextcloud2.png)
+![](/images/portainer_nextcloud2.webp)
     
 
 Using the blue _Add volume_ button located in the top right corner, create volumes _nextcloud\_config_ and _nextcloud\_data_. In the volume creator, simply enter the name in the _Name_ field and confirm with the _Create new volume_ button.
 
-![](/images/portainer_nextcloud4.png)
+![](/images/portainer_nextcloud4.webp)
     
-![](/images/portainer_nextcloud3.png)
+![](/images/portainer_nextcloud3.webp)
     
-![](/images/portainer_nextcloud5.png)
+![](/images/portainer_nextcloud5.webp)
     
 
 On the _Volumes_ list, two volumes marked with the _Unused_ tag will appear, and their mount points on the server are _/var/lib/docker/volumes/(...)/\_data_. Now that we have prepared a location for the _Nextcloud_ container, we can proceed to create it. Let's go back to the _Containers_ tab and use the blue _Add container_ button located in the upper right corner. This will open the wizard window, where in the first section at the top, we fill in the fields:
@@ -105,7 +105,7 @@ On the _Volumes_ list, two volumes marked with the _Unused_ tag will appear, and
     
     - _container_ - _443_
 
-![](/images/portainer_nextcloud6.png)
+![](/images/portainer_nextcloud6.webp)
 
 Move on to the bottom section, where we need to go through several tabs. The first one to check is _Volumes_, where we will attach the volumes created earlier to the container. To do this, press the _map additional volume_ button twice (since we will be configuring two volumes) and map as follows:
 
@@ -114,7 +114,7 @@ Move on to the bottom section, where we need to go through several tabs. The fir
 | /config | \=> | nextcloud\_config - local |
 | /data | \=> | nextcloud\_data - local |
 
-![](/images/portainer_nextcloud7.png)
+![](/images/portainer_nextcloud7.webp)
 
 The crucial part here is to ensure that the _Volume_ fields are selected (not _Bind_) and _Writable_ (not _Read-only_). The next tab we navigate to is _Env_, which is an abbreviation for _Environment variables_. For _Nextcloud_, we need to set three variables here, so we press the _Add an environment variable_ button three times and enter the following values:
 
@@ -124,15 +124,15 @@ The crucial part here is to ensure that the _Volume_ fields are selected (not _B
 
 - _TZ_ - _Europe/Warsaw_
 
-![](/images/portainer_nextcloud8.png)
+![](/images/portainer_nextcloud8.webp)
 
 The last tab that interests us at this point is _Restart policy_, where we choose the _Unless stopped_ option.
 
-![](/images/portainer_nextcloud9.png)
+![](/images/portainer_nextcloud9.webp)
 
 Now all that remains is to go back to the top section, where at the end, you'll find the blue _Deploy the container_ button. This will download the image and launch the properly configured _Nextcloud_ container, as observed in the container list.
 
-![](/images/portainer_nextcloud10.png)
+![](/images/portainer_nextcloud10.webp)
 
 The container is running, so we can open a browser to access the freshly launched _Nextcloud_. We started it on port _443_, which is the default port for _HTTPS_ communication. Therefore, in the browser's address bar, simply enter the following phrase:
 
@@ -140,7 +140,7 @@ The container is running, so we can open a browser to access the freshly launche
 
 First, we will see the installer where we set the name and password for the administrator and can configure the database. However, in this case, I leave it as default, which uses _SQLite_ because it's just a solution made only for demonstration. The last thing left to do is press the _Install_ button.
 
-![](/images/portainer_nextcloud11.png)
+![](/images/portainer_nextcloud11.webp)
 
 ## Accessing Nextcloud from the Internet
 
@@ -148,9 +148,9 @@ It was supposed to be a post about the _Portainer_ tool, but I'll take the oppor
 
 If you are using a [_VPS_ from _Oracle_](https://blog.tomaszdunia.pl/oracle-free-tier-eng/), the first step should be to unblock traffic on the _Oracle_ infrastructure level for port _443_. This can be done in _Networking_ -> _Virtual cloud networks_ -> select your _VPS's_ _VNC_ -> _Security Lists_ -> go to the list appropriate for your _VPS_. You need to add an _Ingress Rule_ similarly to the screenshot below.
 
-![](/images/portainer_nextcloud14.png)
+![](/images/portainer_nextcloud14.webp)
     
-![](/images/portainer_nextcloud15.png)
+![](/images/portainer_nextcloud15.webp)
     
 
 The situation looks similar in the case of a home server and a router, whose ports need to be opened as it is the main gateway in the home network.
@@ -187,7 +187,7 @@ Network traffic has been successfully opened, so the website should be accessibl
 
 However, most likely, you will see something like this...
 
-![](/images/portainer_nextcloud13.png)
+![](/images/portainer_nextcloud13.webp)
 
 Solving this problem is relatively simple, but finding it is not entirely straightforward, as you need to dig a bit into the documentation. They could have made it much more intuitive... Fortunately, you have me, the guy who has already done all the work and will now present a ready and concise solution. Open the _config.php_ file mentioned in the message in a text editor - location of it is not that obviouscurious about its location, right?
 

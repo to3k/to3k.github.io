@@ -42,7 +42,7 @@ tags:
   - "vod"
   - "word"
   - "zdjecia"
-image: "/images/appstore.png"
+image: "/images/appstore.webp"
 description: "Since we have established that my main computer for some time now is the iPad Air 5 with the M1 chip and the Magic Keyboard, it is now time to discuss what..."
 ---
 

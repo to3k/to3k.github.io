@@ -18,7 +18,7 @@ tags:
   - "totp"
   - "vnc"
   - "xwayland"
-image: "/images/dwservice.png"
+image: "/images/dwservice.webp"
 description: "I assume that the phrase remote desktop is familiar to anyone. It is a very convenient way to access (control) a computer operating in another part of the..."
 ---
 
@@ -36,15 +36,15 @@ As I mentioned earlier, what distinguishes _DWService_ from the competition is t
 
 Below are a few screenshots showing what it looks like for one of my servers:
 
-![](/images/dwservice1-1024x503.png)
+![](/images/dwservice1-1024x503.webp)
     
-![](/images/dwservice2-1024x503.png)
+![](/images/dwservice2-1024x503.webp)
     
-![](/images/dwservice3-1024x503.png)
+![](/images/dwservice3-1024x503.webp)
     
-![](/images/dwservice4-1024x503.png)
+![](/images/dwservice4-1024x503.webp)
     
-![](/images/dwservice5-1024x503.png)
+![](/images/dwservice5-1024x503.webp)
     
 
 ## Account registration and creating an agent

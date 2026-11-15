@@ -23,7 +23,7 @@ tags:
   - "infomaniak-kdrive"
   - "mailbox-org"
   - "proton-drive"
-image: "/images/officeeu.png"
+image: "/images/officeeu.webp"
 description: "Anyone who didn't grow up under a rock in Poland knows what Wykop is like. Reading the comments, let alone participating there, requires a truly strong..."
 ---
 

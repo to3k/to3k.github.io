@@ -29,7 +29,7 @@ tags:
   - "ubuntu"
   - "vm"
   - "vps"
-image: "/images/oraclefreetier.png"
+image: "/images/oraclefreetier.webp"
 description: "To o dziwo nie żaden przekręt, a tytuł mimo że brzmi jak clickbait, lub reklama sklepu z elektroniką na M, wcale nimi nie jest! Mowa tutaj o Oracle Cloud..."
 ---
 
@@ -57,31 +57,31 @@ Istnieje też **opcja równoległego odpalenia do dwóch _instancji_ opartych o 
 
 Uproszę proces jedynie do punktów, wzbogaconych zrzutami ekranu, opisujących krok po kroku cały proces.
 
-![](/images/oracle1.png)
+![](/images/oracle1.webp)
     
-![](/images/oracle2.png)
+![](/images/oracle2.webp)
     
-![](/images/oracle3.png)
+![](/images/oracle3.webp)
     
-![](/images/oracle4.png)
+![](/images/oracle4.webp)
     
-![](/images/oracle5.png)
+![](/images/oracle5.webp)
     
-![](/images/oracle6.png)
+![](/images/oracle6.webp)
     
-![](/images/oracle7.png)
+![](/images/oracle7.webp)
     
-![](/images/oracle8.png)
+![](/images/oracle8.webp)
     
-![](/images/oracle9.png)
+![](/images/oracle9.webp)
     
-![](/images/oracle10.png)
+![](/images/oracle10.webp)
     
-![](/images/oracle11.png)
+![](/images/oracle11.webp)
     
-![](/images/oracle12.png)
+![](/images/oracle12.webp)
     
-![](/images/oracle13.png)
+![](/images/oracle13.webp)
     
 
 1. Wchodzimy na [oracle.com](https://oracle.com), znajdujemy w prawym górnym rogu przycisk _View Accounts_ \[1\], po którego naciśnięciu wysunie nam się okienko, gdzie naciskamy przycisk _Sign in to Cloud_ \[2\].
@@ -106,45 +106,45 @@ Uproszę proces jedynie do punktów, wzbogaconych zrzutami ekranu, opisujących 
 
 _Oracle_ nazywa _maszyny wirtualne_ _instancjami_. W tym rozdziale stworzymy dokładnie taką _maszynę_ jak w tytule tego wpisu oraz opisaną w jednym z powyższych rozdziałów.
 
-![](/images/oracle20.png)
+![](/images/oracle20.webp)
     
-![](/images/oracle21.png)
+![](/images/oracle21.webp)
     
-![](/images/oracle22.png)
+![](/images/oracle22.webp)
     
-![](/images/oracle23.png)
+![](/images/oracle23.webp)
     
-![](/images/oracle24.png)
+![](/images/oracle24.webp)
     
-![](/images/oracle25.png)
+![](/images/oracle25.webp)
     
-![](/images/oracle26.png)
+![](/images/oracle26.webp)
     
-![](/images/oracle27.png)
+![](/images/oracle27.webp)
     
-![](/images/oracle28.png)
+![](/images/oracle28.webp)
     
-![](/images/oracle29.png)
+![](/images/oracle29.webp)
     
-![](/images/oracle30.png)
+![](/images/oracle30.webp)
     
-![](/images/oracle31.png)
+![](/images/oracle31.webp)
     
-![](/images/oracle32.png)
+![](/images/oracle32.webp)
     
-![](/images/oracle33.png)
+![](/images/oracle33.webp)
     
-![](/images/oracle34.png)
+![](/images/oracle34.webp)
     
-![](/images/oracle35.png)
+![](/images/oracle35.webp)
     
-![](/images/oracle36.png)
+![](/images/oracle36.webp)
     
-![](/images/oracle37.png)
+![](/images/oracle37.webp)
     
-![](/images/oracle38.png)
+![](/images/oracle38.webp)
     
-![](/images/oracle39.png)
+![](/images/oracle39.webp)
     
 
 1. Tak jak w poprzednim rozdziale, wchodzimy na [oracle.com](https://oracle.com), znajdujemy w prawym górnym rogu przycisk _View Accounts_, po którego naciśnięciu wysunie nam się okienko, gdzie naciskamy przycisk _Sign in to Cloud_.
@@ -175,7 +175,7 @@ _Oracle_ nazywa _maszyny wirtualne_ _instancjami_. W tym rozdziale stworzymy dok
 
 Jak patrzę teraz na ten wpis to widzę, że już wyszedł monstrualny, a będzie jeszcze większy, bo chciałbym z niego zrobić taki mega poradnik dotyczący _Oracle Free Tier_. Obrana przeze mnie forma, czyli pisanie łopatologicznie najbardziej jak się da, też nie sprzyja temu, aby był to zwięzły wpis. Przepraszam!
 
-![](/images/clarkson.jpg)
+![](/images/clarkson.webp)
 
 Wracając do tematu. W tym wpisie omówiłem już jak utworzyć konto w _Oracle Cloud_ oraz jak stworzyć pierwszą _maszynę wirtualną_, wykorzystując przy tym do maksimum możliwości darmowego planu. Teraz przyszedł czas na opisanie jak połączyć się z tą _maszyną_.
 
@@ -191,11 +191,11 @@ To jak łączyć się z serwerami poprzez _SSH_ opisałem w [tym wpisie](https:/
 
 Pierwsza dwa uzyskamy poprzez wejście do centrum zarządzania instancjami (tak jak to robiliśmy w punkcie 4. rozdziału dotyczącego tworzenia _instancji_). Po poprawnym jej utworzeniu powinniśmy w tym miejscu widzieć ją na liście naszych _instancji_, więc wejdźmy do jej właściwości \[1\].
 
-![](/images/oracle40.png)
+![](/images/oracle40.webp)
 
 Szukane przez nas informacje (adres IP serwera \[2\] i nazwa użytkownika \[3\]) znajdują się w zakładce _Instance information_ w sekcji _Instance access_ po prawej stronie.
 
-![](/images/oracle41.png)
+![](/images/oracle41.webp)
 
 Wymagane do uwierzytelniania klucze _SSH_ pobraliśmy już na dysk podczas tworzenia _instancji_. Mamy już wszystko, więc teraz trzeba tylko to wszystko wrzucić do _Termiusa_ (lub użyć innego sposobu) i połączyć się z naszym nowiusieńkim _VPSem_. Po połączenie przez SSH polecam zmienić (ustawić) hasła dla obecnych użytkowników root i ubuntu.
 
@@ -216,21 +216,21 @@ Trzeba przyznać, że _Oracle_ całkiem aktywnie dba o podstawowe bezpieczeństw
 
 W pierwszej kolejności otwórzmy porty we wcześniej wspomnianej zaporze nadrzędnej. Robi się to z poziomu interfejsu webowego, który wcześniej nazwałem potocznie centrum dowodzenia.
 
-![](/images/oracle50-1024x503.png)
+![](/images/oracle50-1024x503.webp)
     
-![](/images/oracle51-1024x503.png)
+![](/images/oracle51-1024x503.webp)
     
-![](/images/oracle52-1024x503.png)
+![](/images/oracle52-1024x503.webp)
     
-![](/images/oracle53-1024x503.png)
+![](/images/oracle53-1024x503.webp)
     
-![](/images/oracle54-1024x503.png)
+![](/images/oracle54-1024x503.webp)
     
-![](/images/oracle55-1024x503.png)
+![](/images/oracle55-1024x503.webp)
     
-![](/images/oracle56-1024x503.png)
+![](/images/oracle56-1024x503.webp)
     
-![](/images/oracle57-1024x503.png)
+![](/images/oracle57-1024x503.webp)
     
 
 1. Aby wejść w ustawienia zapory należy najpierw wejście do centrum zarządzania instancjami (tak jak to robiliśmy w punkcie 4. rozdziału dotyczącego tworzenia _instancji_).
@@ -285,41 +285,41 @@ rm -rf /tmp/port80
 
 Już po opublikowaniu tego wpisu przypomniałem sobie, że powinienem omówić jeszcze jeden temat jakim jest włączenie obsługi _IPv6_. Bez tego _maszyna_ będzie prawidłowo działała jednak do prawidłowego działania niektórych usług, które możemy na niej uruchomić, obsługa _IPv6_ jest zalecana. Przykładem takiej usługi jest instancja _Mastodona_, która zadziała jedynie na _IPv4_, ale bez _IPv6_ nie będzie mogła się komunikować z innymi instancjami, które działają właśnie w oparciu o tę adresację. _Oracle_ daje nam możliwość włączenia IPv6 i przypisania naszej _instancji_ adresu, więc to właśnie zrobimy.
 
-![](/images/ipv61-1024x503.png)
+![](/images/ipv61-1024x503.webp)
     
-![](/images/ipv63-1024x503.png)
+![](/images/ipv63-1024x503.webp)
     
-![](/images/ipv64-1024x503.png)
+![](/images/ipv64-1024x503.webp)
     
-![](/images/ipv65-1024x542.png)
+![](/images/ipv65-1024x542.webp)
     
-![](/images/ipv66-1024x542.png)
+![](/images/ipv66-1024x542.webp)
     
-![](/images/ipv67-1024x503.png)
+![](/images/ipv67-1024x503.webp)
     
-![](/images/ipv68-1024x542.png)
+![](/images/ipv68-1024x542.webp)
     
-![](/images/ipv69-1024x542.png)
+![](/images/ipv69-1024x542.webp)
     
-![](/images/ipv610-1024x542.png)
+![](/images/ipv610-1024x542.webp)
     
-![](/images/ipv611-1024x542.png)
+![](/images/ipv611-1024x542.webp)
     
-![](/images/ipv612-1024x542.png)
+![](/images/ipv612-1024x542.webp)
     
-![](/images/ipv613-1024x542.png)
+![](/images/ipv613-1024x542.webp)
     
-![](/images/ipv613bis-1024x503.png)
+![](/images/ipv613bis-1024x503.webp)
     
-![](/images/ipv614-1024x542.png)
+![](/images/ipv614-1024x542.webp)
     
-![](/images/ipv615-1024x542.png)
+![](/images/ipv615-1024x542.webp)
     
-![](/images/ipv616-1024x542.png)
+![](/images/ipv616-1024x542.webp)
     
-![](/images/ipv617-1024x542.png)
+![](/images/ipv617-1024x542.webp)
     
-![](/images/ipv618-1024x542.png)
+![](/images/ipv618-1024x542.webp)
     
 
 1. Wchodzimy do ustawień wirtualnej sieci chmurowej naszej instancji tak jak to zrobiliśmy w punktach 1-3 rozdziału dotyczącego otwierania portów).

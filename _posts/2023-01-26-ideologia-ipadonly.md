@@ -15,7 +15,7 @@ tags:
   - "magicmouse"
   - "photopea"
   - "raspberrypi"
-image: "/images/iPadOnly.png"
+image: "/images/iPadOnly.webp"
 description: "W poprzednim i jednocześnie pierwszym wpisie wspomniałem pokrótce, że jednym z głównych założeń jakie przyjąłem przy uruchamianiu tego bloga jest to, że od..."
 ---
 
@@ -43,7 +43,7 @@ W połowie 2022 roku kupiłem iPada Air 5 gen., wyposażonego w 64GB pamięci, w
 
 - **złącze USB-C** zamiast ochodzącego już do lamusa Lightninga.
 
-![](/images/98F08CC1-0AFC-49C8-BA3D-9A4CAECAA948-1024x551.jpeg)
+![](/images/98F08CC1-0AFC-49C8-BA3D-9A4CAECAA948-1024x551.webp)
 
 _foto: apple.com_
 
@@ -57,21 +57,21 @@ Niestety odpowiedź (przynajmniej na razie) brzmi - nie. W ostatnich latach nast
 
 Sam iPad to nie wszystko co jest nam potrzebne, aby zrobić z niego (prawie) pełnoprawny komputer potrzebujemy akcesoriów! Najistotniejsza jest klawiatura. Ja postawiłem na Magic Keyboard, bo jestem zafascynowany efektem niejako lewitowania iPada nad klawiaturą. Jest to solidnie wykonane urządzenie. Rozmiar oraz skok klawiszy, a także odstępy pomiędzy nimi są stworzone do wygodnego pisania i na pewno docenią to ludzie, którzy płodzą sporo tekstów. Jest też gładzik, a jego wymiary są optymalne względem tego ile dostępnego miejsca dla niego pozostało. Nie ma co się nadmiernie rozwodzić nad jakością touchpadów od Apple, bo każdy kto kiedykolwiek miał z nimi styczność na pewno wie, że jest to doznanie nieporównywalne do czegokolwiek innego na rynku. Odwracając monetę mamy też minusy, którymi są brak klawiszy funkcyjnych (np. do regulacji głośności i jasności ekranu) oraz brak możliwości używania takiego zestawu na powierzchni innej niż płaska, bo środek ciężkości jest zlokalizowany tak, że dla przykładu na kolanach iPad wpięty w klawiaturę Magic Keyboard przewraca się do tyłu lub po prostu nie jest stabilny na tyle, żeby możliwe było naciskanie na ekran bez konieczności trzymania podstawy drugą ręką. Oczywiście klawiatury od Apple to nie jedyny słuszny wybór. Do iPada 9 gen. używałem klawiatury Logitech Combo Touch i też chwaliłem sobie ten produkt.
 
-![](/images/6185BAAE-920A-4183-B651-E6BE19F45B25.jpeg)
+![](/images/6185BAAE-920A-4183-B651-E6BE19F45B25.webp)
 
-![](/images/2765883C-7B95-4653-8416-34E7E04BBC94.jpeg)
+![](/images/2765883C-7B95-4653-8416-34E7E04BBC94.webp)
 
 _foto: apple.com_
 
 Dla bardziej kreatywnych i uzdolnionych manualnie (czyli nie dla mnie...) jest jeszcze świetne rozwinięcie możliwości w postaci rysika Apple Pencil. Mój model iPada obsługuje Pencila drugiej generacji, więc można go ładować indukcyjnie z samego tabletu i transportować poprzez magnetyczne mocowanie na jego dłuższym boku, co z jednej strony jest stylowe i wygodne, ale niesie za sobą także wadę w postaci możliwości łatwego jego odczepienia np. w torbie czy zgubienia poprzez rozłączenie podczas jego wkładania. Niemniej jednak dla rysowników czy chociaż grafików jest to na pewno niesamowite narzędzie do pracy.
 
-![](/images/28E93070-8F30-442E-9563-6F34ACA56F19-1024x202.jpeg)
+![](/images/28E93070-8F30-442E-9563-6F34ACA56F19-1024x202.webp)
 
 _foto: apple.com_
 
 Jeżeli chodzi o mysz to w moim przypadku nie miałaby ona zastosowania, bo nawiguje mi się najlepiej przy użyciu ekranu dotykowego samego iPada. Mam Logitech MX Master 3, ale pomimo tego, że to świetna mysz z genialnym, magnetycznym kółkiem do przewijania to nie używam jej do iPada. Wydaje mi się, że jak miałbym już używać tego typu akcesorium to musiałaby to być myszka Magic Mouse, a powodami tego wyboru byłyby obsługa gestów i przewijanie, które swoją specyfiką podobne jest do tego na touchpadzie. Niestety jej kształt nigdy nie był dla mnie ergonomiczny, dlatego podtrzymuję moje stanowisko z pierwszego zdania tego akapitu.
 
-![](/images/EFF08EF2-4F81-493E-A2CB-01C6B4CA306F.jpeg)
+![](/images/EFF08EF2-4F81-493E-A2CB-01C6B4CA306F.webp)
 
 _foto: apple.com_
 

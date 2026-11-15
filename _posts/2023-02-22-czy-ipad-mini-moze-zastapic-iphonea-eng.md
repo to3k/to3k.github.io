@@ -21,7 +21,7 @@ tags:
   - "lightning"
   - "ram"
   - "usbc"
-image: "/images/ipadasiphone.png"
+image: "/images/ipadasiphone.webp"
 description: "Sometimes I wake up in the morning and my first thought is \"I need to change something\". I really like changes in my gear, checking out new solutions..."
 ---
 

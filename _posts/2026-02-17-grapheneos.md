@@ -15,7 +15,7 @@ tags:
   - "privacy"
   - "foss"
   - "open-source"
-image: "/images/grapheneos.png"
+image: "/images/grapheneos.webp"
 description: "Jeszcze rok temu siedziałem naprawdę głęboko w ekosystemie Apple. Wydawało się, że nie ma już dla mnie odwrotu od sadu. Telefon, laptop, zegarek, tablet..."
 ---
 
