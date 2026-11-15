@@ -34,7 +34,7 @@ layout: default
       {%- endif -%}
     </p>
     {%- endif -%}
-    {{ content }}
+    {{ content | replace: '<img ', '<img loading="lazy" ' }}
   </div>
 
   {% include donate.html %}
